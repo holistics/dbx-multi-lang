@@ -1,0 +1,187 @@
+buttons:
+  save: Save
+  cancel: Cancel
+  confirm: Confirm
+  delete: Delete
+  edit: Edit
+  create: Create
+  search: Search
+  share: Share
+  close: Close
+  publish: Publish
+  history: History
+  update: Update
+  copy: Copy
+  import: Import
+  export: Export
+  download: Download
+  upload: Upload
+  login: Log in
+  logout: Log out
+  signup: Sign up
+  continue: Continue
+  back: Back
+  next: Next
+  skip: Skip
+  done: Done
+  tryAgain: Try Again
+  refresh: Refresh
+  clear: Clear
+  apply: Apply
+  reset: Reset
+  yes: Yes
+  no: No
+  ok: OK
+  invite: Invite
+  join: Join
+  leave: Leave
+  rename: Rename
+  duplicate: Duplicate
+  archive: Archive
+  restore: Restore
+  move: Move
+  select: Select
+  deselect: Deselect
+  selectAll: Select All
+  deselectAll: Deselect All
+  show: Show
+  hide: Hide
+  expand: Expand
+  collapse: Collapse
+  filter: Filter
+  sort: Sort
+  group: Group
+  ungroup: Ungroup
+  fullscreen: Fullscreen
+  exitFullscreen: Exit Fullscreen
+  zoomIn: Zoom In
+  zoomOut: Zoom Out
+  resetZoom: Reset Zoom
+  undo: Undo
+  redo: Redo
+  cut: Cut
+  paste: Paste
+  submit: Submit
+  reload: Reload
+  remove: Remove
+  add: Add
+  view: View
+  open: Open
+  manage: Manage
+  settings: Settings
+
+help:
+  title: Help
+  documentation: Documentation
+  releaseNotes: Release Notes
+  roadmap: Roadmap
+  basicEditing: Basic Editing Experience
+  sendFeedback: Send Feedback
+  askCommunity: Ask Community
+  suggestFeature: Suggest Feature
+  contactUs: Contact Us
+  sampleDiagrams: Sample Diagrams
+  sampleAirbnb: Sample Airbnb
+  sampleEcommerce: Sample E-commerce
+  whatsNew: What's new
+  language: Language
+  switchLanguage: Switch Language
+
+export:
+  title: Export
+  publishToDbdocs: Publish document (to dbdocs)
+  toPdf: To PDF
+  toPng: To PNG
+  toSvg: To SVG
+  toPostgreSQL: To PostgreSQL
+  toMySQL: To MySQL
+  toSQLServer: To SQL Server
+  toOracleSQL: To Oracle SQL
+
+import:
+  title: Import
+  importFrom: Import from
+  fromDatabaseConnection: From Database Connection (via CLI)
+  fromMySQL: From MySQL
+  fromPostgreSQL: From PostgreSQL
+  fromSQLServer: From SQL Server
+  fromSnowflake: From Snowflake
+  fromOracleSQL: From Oracle SQL
+  fromRails: From Rails (schema.rb)
+  fromCSV: From CSV
+
+upgrade:
+  title: Upgrade
+  upgradeToPersonalPro: Upgrade to Personal Pro plan
+  collaborateWithTeam: Collaborate with Team plan
+
+quickActions:
+  title: Quick Actions
+
+ai:
+  title: AI
+
+actions:
+  saveChanges: Save Changes
+  confirmDelete: Are you sure you want to delete this?
+  confirmDeleteItem: Are you sure you want to delete "{name}"?
+  confirmArchive: Are you sure you want to archive this?
+  copyToClipboard: Copy to clipboard
+  copiedToClipboard: Copied to clipboard!
+  selectAll: Select all
+  deselectAll: Deselect all
+  loading: Loading...
+  saving: Saving...
+  processing: Processing...
+  pleaseWait: Please wait...
+
+states:
+  loading: Loading...
+  saving: Saving...
+  error: An error occurred
+  success: Success
+  warning: Warning
+  info: Information
+  empty: No data
+  noResults: No results found
+  noItems: No items found
+  offline: You are offline
+  online: You are back online
+
+time:
+  justNow: just now
+  minuteAgo: a minute ago
+  minutesAgo: "{count} minutes ago"
+  hourAgo: an hour ago
+  hoursAgo: "{count} hours ago"
+  dayAgo: a day ago
+  daysAgo: "{count} days ago"
+  weekAgo: a week ago
+  weeksAgo: "{count} weeks ago"
+  monthAgo: a month ago
+  monthsAgo: "{count} months ago"
+  yearAgo: a year ago
+  yearsAgo: "{count} years ago"
+
+errors:
+  generic: Something went wrong. Please try again.
+  network: Network error. Please check your connection.
+  unauthorized: You need to log in to continue.
+  forbidden: You don't have permission to do this.
+  notFound: The requested resource was not found.
+  serverError: Server error. Please try again later.
+  invalidInput: Please check your input and try again.
+  required: This field is required.
+  invalidEmail: Please enter a valid email address.
+  passwordTooShort: Password must be at least {min} characters.
+  passwordMismatch: Passwords do not match.
+  permissionDenied: Permission Denied
+  dontHavePermission: You don't have the permission to access this workspace
+
+workspace:
+  readOnlyMode: Workspace is in read-only mode due to a subscription cancellation. Please renew to enable workspace functionality.
+
+editor:
+  expand: Expand editor
+  hide: Hide editor
+  loadingContent: Loading content from server, please wait...

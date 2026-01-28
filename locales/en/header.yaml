@@ -1,0 +1,81 @@
+buttons:
+  save: Save
+  share: Share
+  history: History
+  editAsNew: Edit as New
+  export: Export
+  signIn: Sign in
+  signout: Sign out
+  publishToDbdocs: Publish to DBDocs
+  publish: Publish
+  discard: Discard
+
+placeholders:
+  untitledDiagram: Untitled Diagram
+
+status:
+  readOnly: Read-only
+  synced: Synced
+  unsynced: Unsynced
+  saved: Saved
+  unsaved: Unsaved
+
+syncStatus:
+  reconnecting: Reconnecting...
+  saving: Saving diagram...
+  autoSaving: Auto-saving diagram...
+  disconnected: You are disconnected. Your edits are being saved locally and will be synced with the server the next time you are online.
+  readOnly: This diagram is read-only
+  unsaved: This diagram is not saved
+  unsavedWithLogin: This diagram is not saved. Login is required to save your diagrams
+
+tooltips:
+  synced: All changes are synced
+  unsynced: You have unsaved changes
+  readonly: Read-only mode
+  unsaved: Unsaved changes
+  loginRequired: Please log in to save
+  clickToEdit: Click to edit
+  openInDbdocs: Open in dbdocs
+  noPublishedContent: This project has no published content yet
+  editAsNewDisabledWorkspace: <p class="text-center"><b>Edit as New</b> is not available because your workspace has been disabled due to subscription cancellation.</p>
+  editAsNewNormal: Edit as New
+
+draftStatus:
+  upToDate: Draft is up to date
+  hasUnsavedChanges: Draft has unsaved changes
+
+projectStatus:
+  upToDate: Project is up to date
+  hasUnsavedChanges: Project has unsaved changes
+  synchronized: Your diagram content is synchronized with the server
+  allChangesSaved: All changes saved
+
+publishValidation:
+  parseError: There's an error in your diagram. Please fix all syntax errors first before publishing.
+  saveFirst: Please save your diagram first
+  ownerPublishFirst: Please ask your diagram owner to publish a database document first
+  needLogin: Please login to publish your changes
+  hasErrors: You have errors in your diagram
+  noChanges: No changes to publish
+
+views:
+  main: Main
+
+modals:
+  overwriteTitle: Overwrite Diagram
+  overwriteContent: This will overwrite the existing diagram. Do you want to continue?
+  yes: Yes, overwrite
+  no: Cancel
+  discardDraftsTitle: Discard All Drafts
+  discardDraftsContent: Are you sure you want to discard all your draft versions and fetch the latest content of the project? This action cannot be undone.
+  discardButton: Discard
+  cancelButton: Cancel
+
+notifications:
+  publishSuccess: Project published successfully and draft versions cleared
+  publishFailed: Failed to publish project
+  discardSuccess: All drafts discarded and latest version loaded
+  discardFailed: Failed to discard drafts
+  showPublishFailed: Failed to show publish confirmation
+  renameFailed: Failed to rename diagram. Please try again

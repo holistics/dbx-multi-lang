@@ -1,0 +1,100 @@
+login:
+  title: Đăng Nhập Vào DBDiagram
+  subtitle: Chào mừng trở lại! Vui lòng đăng nhập để tiếp tục.
+  email: Email
+  password: Mật khẩu
+  forgotPassword: Quên mật khẩu?
+  rememberMe: Ghi nhớ đăng nhập
+  loginButton: Đăng Nhập
+  noAccount: Chưa có tài khoản?
+  signupLink: Đăng ký
+  orContinueWith: hoặc tiếp tục với
+  loginWithGithub: Đăng nhập bằng GitHub
+  loginWithGoogle: Đăng nhập bằng Google
+  loginWithMicrosoft: Đăng nhập bằng Microsoft
+
+signup:
+  title: Đăng Ký DBDiagram
+  subtitle: Tạo tài khoản miễn phí để bắt đầu
+  name: Họ và Tên
+  email: Email
+  password: Mật khẩu
+  confirmPassword: Xác Nhận Mật Khẩu
+  agreeToTerms: Tôi đồng ý với
+  termsOfService: Điều Khoản Dịch Vụ
+  and: và
+  privacyPolicy: Chính Sách Bảo Mật
+  signupButton: Đăng Ký
+  alreadyHaveAccount: Đã có tài khoản?
+  loginLink: Đăng nhập
+  orContinueWith: hoặc tiếp tục với
+  signupWithGithub: Đăng ký bằng GitHub
+  signupWithGoogle: Đăng ký bằng Google
+  signupWithMicrosoft: Đăng ký bằng Microsoft
+
+forgotPassword:
+  title: Đặt Lại Mật Khẩu
+  subtitle: Nhập địa chỉ email của bạn và chúng tôi sẽ gửi liên kết đặt lại mật khẩu
+  email: Email
+  sendLink: Gửi Liên Kết Đặt Lại
+  backToLogin: Quay Lại Đăng Nhập
+  checkEmail: Kiểm tra email của bạn
+  emailSent: Chúng tôi đã gửi liên kết đặt lại mật khẩu đến email của bạn
+  didntReceive: Không nhận được email?
+  resendLink: Gửi lại
+
+resetPassword:
+  title: Đặt Mật Khẩu Mới
+  subtitle: Nhập mật khẩu mới của bạn bên dưới
+  newPassword: Mật Khẩu Mới
+  confirmPassword: Xác Nhận Mật Khẩu
+  resetButton: Đặt Lại Mật Khẩu
+  passwordMismatch: Mật khẩu không khớp
+  passwordTooWeak: Mật khẩu quá yếu
+  success: Đặt lại mật khẩu thành công
+  loginNow: Đăng nhập ngay
+
+oauth:
+  authorizationError: Xác thực thất bại
+  authorizationDenied: Xác thực bị từ chối
+  linkingError: Liên kết tài khoản thất bại
+  alreadyLinked: Tài khoản này đã được liên kết với người dùng khác
+  emailNotVerified: Vui lòng xác minh email của bạn trước
+  processing: Đang xử lý...
+  justAMomentPleaseWait: Vui lòng đợi trong giây lát...
+  signedInAs: Bạn đã đăng nhập với tư cách
+
+verification:
+  title: Xác Minh Email Của Bạn
+  subtitle: Chúng tôi đã gửi liên kết xác minh đến email của bạn
+  resendLink: Gửi lại email xác minh
+  verifyButton: Xác Minh Email
+  verified: Xác minh email thành công
+  expired: Liên kết xác minh đã hết hạn
+  invalidLink: Liên kết xác minh không hợp lệ
+
+errors:
+  invalidCredentials: Email hoặc mật khẩu không hợp lệ
+  userNotFound: Không tìm thấy tài khoản với email này
+  emailAlreadyExists: Đã có tài khoản với email này
+  weakPassword: Mật khẩu quá yếu
+  invalidToken: Token không hợp lệ hoặc đã hết hạn
+  sessionExpired: Phiên làm việc của bạn đã hết hạn. Vui lòng đăng nhập lại
+  invalidEmail: Địa chỉ email không hợp lệ, vui lòng thử lại!
+  githubPopupBlocked: Vui lòng cho phép popup để đăng nhập bằng GitHub
+
+otp:
+  signInWithEmail: Đăng nhập bằng Email
+  otpSentTo: OTP đã gửi đến
+  wrongEmail: Sai địa chỉ email?
+  changeEmail: Thay đổi email
+  inputEmail: Vui lòng nhập địa chỉ email của bạn
+  inputYourOtp: Nhập OTP của bạn
+  inputOtpCode: Vui lòng nhập mã OTP được gửi đến email
+  signInSuccess: Đăng nhập thành công
+  didntReceiveOtp: Không nhận được OTP?
+  resendOtp: Gửi lại OTP
+  resendAfter: Bạn có thể gửi lại OTP sau {counter}s
+
+sso:
+  orContinueWith: hoặc tiếp tục với

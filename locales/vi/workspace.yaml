@@ -1,0 +1,142 @@
+workspace:
+  title: Không Gian Làm Việc
+  myDiagrams: Sơ Đồ Của Tôi
+  sharedWithMe: Được Chia Sẻ Với Tôi
+  starred: Đã Đánh Dấu
+  archived: Đã Lưu Trữ
+  trash: Thùng Rác
+
+folders:
+  title: Thư Mục
+  createFolder: Thư Mục Mới
+  folderName: Tên Thư Mục
+  moveDiagram: Di Chuyển Vào Thư Mục
+  noFolders: Chưa có thư mục nào
+  deleteFolder: Xóa Thư Mục
+  deleteFolderConfirm: Bạn có chắc chắn muốn xóa thư mục này? Sơ đồ sẽ được chuyển đến thư mục cha.
+
+diagrams:
+  title: Sơ Đồ
+  createDiagram: Sơ Đồ Mới
+  importDiagram: Nhập Sơ Đồ
+  duplicateDiagram: Nhân Bản
+  renameDiagram: Đổi Tên
+  moveDiagram: Di Chuyển
+  deleteDiagram: Xóa
+  shareDiagram: Chia Sẻ
+  archiveDiagram: Lưu Trữ
+  unarchiveDiagram: Bỏ Lưu Trữ
+  restoreDiagram: Khôi Phục
+  permanentDelete: Xóa Vĩnh Viễn
+
+sharing:
+  title: Chia Sẻ Sơ Đồ
+  shareLink: Liên Kết Chia Sẻ
+  copyLink: Sao Chép Liên Kết
+  anyoneWithLink: Bất kỳ ai có liên kết đều có thể xem
+  invitePeople: Mời Người Khác
+  inviteEmail: Nhập địa chỉ email
+  inviteButton: Gửi Lời Mời
+  canView: Có thể xem
+  canEdit: Có thể chỉnh sửa
+  canComment: Có thể bình luận
+  removeAccess: Xóa quyền truy cập
+  owner: Chủ sở hữu
+  pending: Chờ xử lý
+
+collaboration:
+  title: Người Cộng Tác
+  addCollaborator: Thêm Người Cộng Tác
+  collaboratorsCount: "{count} người cộng tác"
+  onlineNow: Đang trực tuyến
+  viewers: Đang xem
+  editors: Đang chỉnh sửa
+  joined: đã tham gia
+  left: đã rời đi
+
+templates:
+  title: Mẫu
+  useTemplate: Sử Dụng Mẫu
+  blankDiagram: Sơ Đồ Trống
+  ecommerce: Sơ Đồ Thương Mại Điện Tử
+  blog: Sơ Đồ Blog
+  socialNetwork: Sơ Đồ Mạng Xã Hội
+  library: Quản Lý Thư Viện
+  hospital: Quản Lý Bệnh Viện
+  school: Quản Lý Trường Học
+
+activity:
+  title: Hoạt Động
+  recentActivity: Hoạt Động Gần Đây
+  created: đã tạo
+  edited: đã chỉnh sửa
+  deleted: đã xóa
+  shared: đã chia sẻ
+  renamed: đã đổi tên
+  moved: đã di chuyển
+  restored: đã khôi phục
+
+notifications:
+  inviteReceived: "{userName} đã mời bạn cộng tác trên {diagramName}"
+  inviteAccepted: "{userName} đã chấp nhận lời mời của bạn"
+  diagramCommented: "{userName} đã bình luận về {diagramName}"
+  diagramEdited: "{userName} đã chỉnh sửa {diagramName}"
+  diagramShared: "{userName} đã chia sẻ {diagramName} với bạn"
+
+settings:
+  title: Cài đặt
+  workspaceName: Tên không gian làm việc
+  update: Cập nhật
+  loadingInfo: Đang tải thông tin không gian làm việc...
+  singleSignOn: Đăng nhập Một lần
+  authenticateWithSSO: Xác thực bằng SSO (SAML)
+  enabled: Đã bật
+  samlConfiguration: Cấu hình SAML
+  enforceSSO: Thực thi SSO
+  enforceSSODescription: Sau khi thực thi, thành viên không gian làm việc chỉ có thể truy cập không gian làm việc này thông qua SSO
+  identityProviderUrl: URL Đăng nhập Một lần của Nhà cung cấp Danh tính
+  identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
+  identityProviderUrlHelp: URL của điểm cuối Nhà cung cấp Danh tính của bạn.
+  certificate: Chứng chỉ
+  certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<Chứng chỉ X.509>\n-----END CERTIFICATE-----"
+  samlConfigurationForProvider: Cấu hình SAML cho nhà cung cấp danh tính của bạn
+  assertionConsumerServiceUrl: URL Dịch vụ Tiêu thụ Khẳng định
+  assertionConsumerServiceUrlHelp: Còn được gọi là "URL dịch vụ bên trả lời" hoặc "URL trả lời"
+  identifier: Bộ định danh
+  identifierHelp: Còn được gọi là "Người phát hành" hoặc "Bộ định danh tin cậy bên trả lời"
+  saveSSOSettings: Lưu Cài đặt Đăng nhập Một lần
+  manageWorkspace: Quản lý không gian làm việc
+  removeWorkspace: Xóa không gian làm việc...
+  cancelRemovalRequest: Hủy yêu cầu xóa
+  removalWarning: Hành động này không thể hoàn tác!
+  removalScheduledHours: Không gian làm việc của bạn sẽ bị xóa sau vài giờ.
+  removalScheduledDay: Không gian làm việc của bạn sẽ bị xóa sau một ngày.
+  removalScheduledDays: "Không gian làm việc của bạn sẽ bị xóa sau {count} ngày."
+  removeWorkspaceTitle: Xóa không gian làm việc này?
+  removeWorkspaceContent: Chúng tôi sẽ đặt lịch xóa không gian làm việc của bạn sau 7 ngày. Bạn có thể hủy lịch xóa không gian làm việc trong menu "Cài đặt" này nếu bạn đổi ý.
+  removeWorkspaceButton: Xóa không gian làm việc này
+  removeWorkspaceSuggestion: 'Vui lòng nhập <i>permanently delete</i> vào trường văn bản để xác nhận.'
+  removalRequestCanceled: Yêu cầu xóa đã được hủy thành công!
+  removalRequestCreated: Yêu cầu xóa đã được tạo thành công!
+  contactSupportError: Đã xảy ra lỗi, vui lòng liên hệ với bộ phận hỗ trợ của chúng tôi tại dbdiagram@holistics.io
+  workspaceNameUpdated: Cập nhật tên không gian làm việc thành công
+  workspaceNameUpdateFailed: Cập nhật tên không gian làm việc không thành công, vui lòng thử lại!
+  ssoConfigFetchFailed: Không thể lấy cấu hình SSO. Vui lòng thử tải lại trang.
+  ssoConfigUpdated: Cập nhật cấu hình SSO thành công
+  ssoConfigSaveFailed: Không thể lưu cấu hình SSO. Vui lòng thử lại.
+
+members:
+  invite: Mời
+  invitePlaceholder: Nhập địa chỉ email
+  inviteButton: Mời
+  members: Thành viên
+  memberSlots: "{used}/{limit} thành viên"
+
+diagramList:
+  searchPlaceholder: Tìm kiếm sơ đồ
+  freePlan: Miễn phí
+  plan: gói
+  diagramCount: "Sơ đồ: {count}/{limit}"
+  duplicate: Nhân bản
+  delete: Xóa
+  untitledDiagram: Sơ đồ Chưa Đặt Tên

@@ -1,0 +1,67 @@
+title: Trợ lý AI DBDiagram
+
+panel:
+  title: Trợ lý AI
+  welcome: Xin chào! Tôi là trợ lý AI của bạn. Tôi có thể giúp gì cho bạn với sơ đồ cơ sở dữ liệu hôm nay?
+  inputPlaceholder: Hỏi tôi bất cứ điều gì về sơ đồ của bạn...
+  send: Gửi
+  close: Đóng
+  clear: Xóa trò chuyện
+  currentChat: Trò chuyện hiện tại
+  previousChats: Các cuộc trò chuyện trước
+  noOtherChats: Chưa có cuộc trò chuyện nào khác
+  sendInstructions: Nhấn Enter để gửi, Shift+Enter để xuống dòng
+  sendMessage: Gửi tin nhắn
+  workspaceDisabled: Không gian làm việc bị vô hiệu hóa
+  editPermissionRequired: Cần quyền chỉnh sửa
+  usageLimitReached: Bạn đã sử dụng hết giới hạn sử dụng cho tháng này. Vui lòng thử lại vào
+  learnMoreAboutUsageLimits: Tìm hiểu thêm về giới hạn sử dụng
+
+welcome:
+  title: Chào mừng đến với DBDiagram AI
+  subtitle: Trợ lý thông minh của bạn cho thiết kế cơ sở dữ liệu
+  features:
+    title: Tôi có thể giúp gì cho bạn?
+    generate: Tạo schema từ mô tả
+    optimize: Tối ưu hóa thiết kế cơ sở dữ liệu
+    explain: Giải thích mối quan hệ và cấu trúc
+    suggest: Đề xuất cải thiện và phương pháp tốt nhất
+  getStarted:
+    title: Sẵn sàng bắt đầu?
+    button: Hỏi tôi bất cứ điều gì
+
+messages:
+  thinking: Đang suy nghĩ...
+  generating: Đang tạo...
+  explaining: Đang giải thích...
+  error: Đã xảy ra lỗi. Vui lòng thử lại.
+  rateLimit: Bạn đã đạt đến giới hạn sử dụng. Vui lòng nâng cấp để tiếp tục.
+
+quickActions:
+  title: Hành động nhanh
+
+diffViewer:
+  title: So sánh Thay đổi
+  current: Hiện tại
+  proposed: Đề xuất
+  apply: Áp dụng Thay đổi
+  discard: Hủy
+  noChanges: Không có thay đổi để hiển thị
+  reject: Từ chối
+  accept: Chấp nhận
+  rejectAll: Từ chối Tất cả
+  acceptAll: Chấp nhận Tất cả
+
+tokenUsage:
+  title: Sử dụng
+  used: Đã dùng
+  limit: Giới hạn
+  upgrade: Nâng cấp để dùng thêm
+  usageText: Bạn đã dùng {percentage} giới hạn sử dụng của mình
+  tokens: token
+  learnMore: Nhấp để tìm hiểu thêm về giới hạn sử dụng
+  resetOn: Đặt lại vào
+
+assistant:
+  dbmlCode: Mã DBML
+  lines: dòng

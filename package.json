@@ -1,0 +1,32 @@
+{
+  "name": "@dbx/multi-lang",
+  "version": "1.0.0",
+  "description": "Multi-language support package for DBDiagram",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist",
+    "locales"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "prelink": "npm run build",
+    "link": "yarn link",
+    "clean": "rm -rf ./dist",
+    "prepublishOnly": "yarn build"
+  },
+  "keywords": [
+    "i18n",
+    "localization",
+    "multi-language"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

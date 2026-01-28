@@ -1,0 +1,254 @@
+titles:
+  confirm: Confirm
+  delete: Delete
+  remove: Remove
+  archive: Archive
+  unarchive: Unarchive
+  rename: Rename
+  share: Share
+  invite: Invite
+  settings: Settings
+  publish: Publish
+  export: Export
+  import: Import
+
+confirmation:
+  default:
+    title: Confirm
+    message: Do you really want to continue this action?
+    checkbox: Don't show this again
+  delete:
+    title: Delete
+    message: Are you sure you want to delete this item?
+  deleteDiagram:
+    title: Delete Diagram
+    message: Are you sure you want to delete this diagram? This action cannot be undone.
+    warning: Please note that this action cannot be undone!
+    embedLinkActive: You have an active embedded link.
+    lastViewed: Last viewed
+  removeWorkspace:
+    title: Remove Workspace
+    message: Are you sure you want to remove this workspace?
+  removeMember:
+    title: Remove Member
+    message: Are you sure you want to remove this member from the workspace?
+    suggestion: Please type your email to confirm.
+
+share:
+  title: Share Diagram
+  tabs:
+    sharing: Sharing
+    embedding: Embedding
+  generalAccess:
+    title: General Access
+    options:
+      private: Private
+      restricted: Restricted
+      public: Anyone with the link
+    password: Password
+    passwordPlaceholder: Enter password
+    createPassword: Create
+    updatePassword: Update
+    canAccess: can access
+    copyLink: Copy link
+    updatePasswordButton: Update password
+  permissions:
+    title: Permissions
+    owner: Owner
+    admin: Admin
+    editor: Editor
+    viewer: Viewer
+  invite:
+    title: Invite people
+    placeholder: Email, comma or space separated
+    button: Invite
+    copyLink: Copy link
+    linkCopied: Link copied!
+  members:
+    title: People with access
+    you: (you)
+  confirmRemoveCollaborator: 'You are about to remove <b>{email}</b> from collaborators, please confirm your action!'
+  errors:
+    publicPermissionUpdateFailed: Diagram's public permission update failed, please try again!
+    publicPermissionUpdated: Diagram's public permission updated!
+    passwordLength: Password must be between 6 and 128 characters
+    createPasswordSuccess: Create password successfully
+    updatePasswordSuccess: Update password successfully
+    createPasswordFailed: Create password failed
+    updatePasswordFailed: Update password failed
+    cannotUpdateDiagramState: Can not update diagram state
+    diagramIsPublic: Diagram is public now!
+    diagramIsPrivate: Diagram is private now!
+    diagramIsProtected: Diagram is protected now!
+  permissionChanged: Your permissions have been changed, please reload to apply changes!
+  reload: Reload
+  cannotGetPermission: Can not get diagram permission, please try again!
+  embedLink:
+    title: Embedded Link
+    lastView: Last view
+    customize: Customize your embedded link with options
+    darkMode: Dark mode
+    highlightRelationships: Highlight relationships
+    detailLevel: Detail level
+    anyoneWithLink: Anyone with the link can view embedded diagram.
+    remove: Do you want to remove this embed link? Other people will no longer be able to access it.
+    generate: Generate embed link
+    errors:
+      cannotGet: Can not get embed links, please try again!
+      cannotCreate: Can not create embed link, please try again!
+      cannotDelete: Can not delete embed link, please try again!
+      cannotUpdate: Can not update embed link settings, please try again!
+
+publish:
+  title: Publish to
+  dbdocsLink: dbdocs
+  placeholder: Project URL
+  urlLabel: dbdocs.holistics.io/
+  publishButton: Publish
+  success: Published successfully!
+  error: Failed to publish
+  bullet1: Publish a web-viewable database documentation of your diagram.
+  bullet2: Published document will be available in a dbdocs account linked to diagram owner email.
+  bullet3: Changes to your diagram will not automatically update the dbdocs document.
+  publishNewOrUpdate: Publish a new document / Update an existing one
+  updateExisting: Update an existing document
+  projectPublicDefault: Your dbdocs project is set to "public" by default. People can gain access through its link.
+  documentProjectName: Document project name
+  enterProjectName: Enter project name
+  options: Options
+  passwordProtection: Password protection
+  passwordOptional: Enter a password (optional)
+  passwordMinLength: Password must be at least 6 characters
+  feedback: Let us know your
+  feedbackLink: feedback
+  aboutThisFeature: about this feature!
+  errorLoadingProjects: An error has occurred while loading published projects, please contact our support at dbdiagram@holistics.io
+  errorPublishing: An error has occurred while publishing project, please contact our support at dbdiagram@holistics.io
+  projectNameEmpty: Project name cannot be empty
+  projectNameInvalid: Project name can only contain only alphabets, numbers, space, "-" or "_"
+  passwordInvalid: Invalid password, please try again!
+
+export:
+  title: Export Diagram
+  button: Export
+  formats:
+    png: PNG Image
+    svg: SVG Image
+    pdf: PDF Document
+    dbml: DBML
+    sql: SQL
+  toPDF: To PDF
+  toPNG: To PNG
+  toSVG: To SVG
+  toPostgreSQL: To PostgreSQL
+  toMySQL: To MySQL
+  toSQLServer: To SQL Server
+  toOracleSQL: To Oracle SQL
+  error: Failed to export
+
+import:
+  title: Import
+  fromDatabase: From Database
+  fromFile: From File
+  fromSQL: From SQL
+  pasteSQL: Paste SQL here
+  validate: Validate
+  validating: Validating...
+  invalid: Invalid SQL format
+  error: Failed to import
+  fromDbConnection: From Database Connection (via CLI)
+  fromMySQL: From MySQL
+  fromPostgreSQL: From PostgreSQL
+  fromSQLServer: From SQL Server
+  fromSnowflake: From Snowflake
+  fromOracleSQL: From Oracle SQL
+  fromRails: From Rails (schema.rb)
+  fromCSV: From CSV
+  fromFormat: Import from {format}
+  instructions: Instructions
+  showInstructions: Show instructions
+  hideInstructions: Hide instructions
+  upload: Upload {file}
+  appendMode: Append converted DBML to the end
+  modal:
+    validating: Validating
+  dbConnection:
+    title: Generate DBML from Direct DB Connection
+    intro1: This method connects directly to your database and reads off your database schema (usually from INFORMATION_SCHEMA) to generate DBML code.
+    intro2: Everything runs on your local machine, and the database credentials are not tracked or sent anywhere.
+    intro3: 'The code is open source from the'
+    intro3Link: and can be checked
+    step1: '1. Install'
+    step1Note: you might need to add
+    step1NoteSudo: before your commands on Linux
+    step2: '2. Run the following command:'
+    exampleFor: Example for
+    successMessage: "Generated DBML file from database's connection: database.dbml"
+    successBigquery: 'Note: For BigQuery, your JSON credential file must contain the following keys:'
+    successSnowflake1: Attempting to connect...
+    successSnowflake2: Executing query...
+    successSnowflake3: Query executed successfully.
+    successSnowflake4: Connection destroyed successfully.
+    step3: '3. Copy and paste the produced DBML into the code panel to visualize your database.'
+    databaseTypes:
+      mysql: MySQL
+      postgres: PostgreSQL
+      mssql: SQL Server
+      oracle: Oracle
+      snowflake: Snowflake
+      bigquery: BigQuery
+
+stickyNotes:
+  title: Sticky Notes
+  upgradeRequired: Upgrade your plan to use Sticky Notes
+  upgradeButton: View Plans
+
+upgrade:
+  titles:
+    createDiagram: You have hit the limit for diagram numbers!
+    detailLevels: You discovered a paid feature!
+    detailLevelsDbdocs: You discovered a feature of paid projects!
+    diagramView: Creating additional views is a paid feature
+    headerColor: You discovered a paid feature!
+    headerColorDbdocs: You discovered a feature of paid projects!
+    privateDiagram: You discovered a paid feature!
+    stickyNotes: You discovered a paid feature!
+    stickyNotesDbdocs: You discovered a feature of paid projects!
+    versionHistory: You discovered a paid feature!
+    aiAssistant: dbdiagram AI Assistant is a paid feature
+    tableGroup: You discovered a paid feature!
+    tableGroupDbdocs: You discovered Table Group, a feature of paid projects!
+  descriptions:
+    createDiagram: Upgrade to our paid plans now for <b>unlimited<br>diagram creations</b> and other advanced features!
+    detailLevels: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features!
+    detailLevelsDbdocs: Upgrade your project to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features!
+    diagramView: On the Free plan, you can only save the default view.<br>Upgrade to our paid plans now for <b>unlimited diagram views</b> and other advanced features!
+    headerColor: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Relationship Color, Table Group and access all our upcoming features!
+    headerColorDbdocs: Upgrade your project to get Detail Levels, Header Color,<br>Relationship Color, Table Group and access all our upcoming features!
+    privateDiagram: Upgrade to our paid plans now for protecting your diagrams with<br><strong> Password Protection, Private Mode </strong> and other advanced features!
+    stickyNotes: Upgrade to our paid plans now to include<strong> Sticky Notes </strong> in your diagram<br>and take advantage of other advanced features!
+    stickyNotesDbdocs: Upgrade your project to include<strong> Sticky Notes </strong> in your diagram<br>and take advantage of other advanced features!
+    versionHistory: Freely experiment your ideas with different <b>schema versions</b>.<br>Roll back to a past version whenever you want.
+    aiAssistant: Upgrade to our paid plans now to design and optimize your database schemas<br>with <strong>AI-powered natural language assistance</strong>
+    tableGroup: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features!
+    tableGroupDbdocs: Upgrade your project to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features!
+  buttons:
+    viewPlans: View Plans
+    upgradeProject: Upgrade Project
+
+history:
+  title: Version History
+  deletedUser: Deleted user
+  restoreVersion: Restore version
+  makeCopy: Make a copy
+  upgradeTitle: Upgrade to view, restore & duplicate
+  errors:
+    cannotView: Cannot view this version
+    cannotCopy: Cannot copy this version
+  restoreConfirmation:
+    title: Restore this version?
+    message: Your current diagram will be restored to this version.
+  success:
+    versionCopied: Your version is copied successfully
+  copiedName: '(Restored) {name}'
+  untitled: Untitled

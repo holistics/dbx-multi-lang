@@ -1,0 +1,100 @@
+login:
+  title: Log in to DBDiagram
+  subtitle: Welcome back! Please log in to continue.
+  email: Email
+  password: Password
+  forgotPassword: Forgot password?
+  rememberMe: Remember me
+  loginButton: Log in
+  noAccount: Don't have an account?
+  signupLink: Sign up
+  orContinueWith: or continue with
+  loginWithGithub: Log in with GitHub
+  loginWithGoogle: Log in with Google
+  loginWithMicrosoft: Log in with Microsoft
+
+signup:
+  title: Sign up for DBDiagram
+  subtitle: Create your free account to get started
+  name: Full Name
+  email: Email
+  password: Password
+  confirmPassword: Confirm Password
+  agreeToTerms: I agree to the
+  termsOfService: Terms of Service
+  and: and
+  privacyPolicy: Privacy Policy
+  signupButton: Sign up
+  alreadyHaveAccount: Already have an account?
+  loginLink: Log in
+  orContinueWith: or continue with
+  signupWithGithub: Sign up with GitHub
+  signupWithGoogle: Sign up with Google
+  signupWithMicrosoft: Sign up with Microsoft
+
+forgotPassword:
+  title: Reset your password
+  subtitle: Enter your email address and we'll send you a link to reset your password
+  email: Email
+  sendLink: Send Reset Link
+  backToLogin: Back to Login
+  checkEmail: Check your email
+  emailSent: We've sent a password reset link to your email
+  didntReceive: Didn't receive the email?
+  resendLink: Resend
+
+resetPassword:
+  title: Set new password
+  subtitle: Enter your new password below
+  newPassword: New Password
+  confirmPassword: Confirm Password
+  resetButton: Reset Password
+  passwordMismatch: Passwords do not match
+  passwordTooWeak: Password is too weak
+  success: Password reset successfully
+  loginNow: Log in now
+
+oauth:
+  authorizationError: Authorization failed
+  authorizationDenied: Authorization was denied
+  linkingError: Account linking failed
+  alreadyLinked: This account is already linked to another user
+  emailNotVerified: Please verify your email first
+  processing: Processing...
+  justAMomentPleaseWait: Just a moment, please wait...
+  signedInAs: You are signed in as
+
+verification:
+  title: Verify your email
+  subtitle: We've sent a verification link to your email
+  resendLink: Resend verification email
+  verifyButton: Verify Email
+  verified: Email verified successfully
+  expired: Verification link has expired
+  invalidLink: Invalid verification link
+
+errors:
+  invalidCredentials: Invalid email or password
+  userNotFound: No account found with this email
+  emailAlreadyExists: An account with this email already exists
+  weakPassword: Password is too weak
+  invalidToken: Invalid or expired token
+  sessionExpired: Your session has expired. Please log in again
+  invalidEmail: Invalid email address, please try again!
+  githubPopupBlocked: Please allow popups to sign in with GitHub
+
+otp:
+  signInWithEmail: Sign in with Email
+  otpSentTo: OTP sent to
+  wrongEmail: Wrong email address?
+  changeEmail: Change email
+  inputEmail: Please input your email address
+  inputYourOtp: Input your OTP
+  inputOtpCode: Please input the OTP code sent to the email
+  signInSuccess: Signed in successfully
+  didntReceiveOtp: Didn't receive the OTP?
+  resendOtp: Resend OTP
+  resendAfter: You can resend OTP after {counter}s
+
+sso:
+  orContinueWith: or continue with

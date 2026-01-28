@@ -1,0 +1,47 @@
+header:
+  logo: DBDiagram
+  pricing: Pricing
+  docs: Docs
+  roadmap: Roadmap
+  community: Community
+  goToApp: Go To App 👉
+  signIn: Sign in
+  signUp: Sign up
+
+footer:
+  dbx:
+    title: dbx
+  product:
+    title: Product
+    pricing: Pricing
+    features: Features
+    changelog: Changelog
+  resources:
+    title: Resources
+    docs: Documentation
+    blog: Blog
+    tutorials: Tutorials
+  company:
+    title: Company
+    about: About
+    privacy: Privacy Policy
+    terms: Terms of Service
+  community:
+    title: Community
+    github: GitHub
+    discord: Discord
+    twitter: Twitter
+  securityPolicies:
+    title: Security & Policies
+    dataSecurity: Data Security
+    soc2Compliance: SOC2 Compliance
+    privacyPolicy: Privacy Policy
+    termsOfService: Terms of Service
+    supportSla: Support SLA
+    responsibleDisclosure: Responsible Disclosure
+  support:
+    title: Support
+    contactUs: Contact Us
+    serviceStatus: Service Status
+  copyright: © {year} DBDiagram. All rights reserved.
+  alternativeCopyright: © {year} Holistics Software All Rights Reserved

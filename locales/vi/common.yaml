@@ -1,0 +1,187 @@
+buttons:
+  save: Lưu
+  cancel: Hủy
+  confirm: Xác nhận
+  delete: Xóa
+  edit: Chỉnh sửa
+  create: Tạo mới
+  search: Tìm kiếm
+  share: Chia sẻ
+  close: Đóng
+  publish: Xuất bản
+  history: Lịch sử
+  update: Cập nhật
+  copy: Sao chép
+  import: Nhập
+  export: Xuất
+  download: Tải xuống
+  upload: Tải lên
+  login: Đăng nhập
+  logout: Đăng xuất
+  signup: Đăng ký
+  continue: Tiếp tục
+  back: Quay lại
+  next: Tiếp theo
+  skip: Bỏ qua
+  done: Hoàn tất
+  tryAgain: Thử lại
+  refresh: Làm mới
+  clear: Xóa
+  apply: Áp dụng
+  reset: Đặt lại
+  yes: Có
+  no: Không
+  ok: OK
+  invite: Mời
+  join: Tham gia
+  leave: Rời đi
+  rename: Đổi tên
+  duplicate: Nhân bản
+  archive: Lưu trữ
+  restore: Khôi phục
+  move: Di chuyển
+  select: Chọn
+  deselect: Bỏ chọn
+  selectAll: Chọn tất cả
+  deselectAll: Bỏ chọn tất cả
+  show: Hiển thị
+  hide: Ẩn
+  expand: Mở rộng
+  collapse: Thu gọn
+  filter: Lọc
+  sort: Sắp xếp
+  group: Nhóm
+  ungroup: Hủy nhóm
+  fullscreen: Toàn màn hình
+  exitFullscreen: Thoát toàn màn hình
+  zoomIn: Phóng to
+  zoomOut: Thu nhỏ
+  resetZoom: Đặt lại mức thu phóng
+  undo: Hoàn tác
+  redo: Làm lại
+  cut: Cắt
+  paste: Dán
+  submit: Gửi
+  reload: Tải lại
+  remove: Xóa
+  add: Thêm
+  view: Xem
+  open: Mở
+  manage: Quản lý
+  settings: Cài đặt
+
+help:
+  title: Trợ giúp
+  documentation: Tài liệu
+  releaseNotes: Ghi chú phát hành
+  roadmap: Lộ trình
+  basicEditing: Trải nghiệm Chỉnh sửa Cơ Bản
+  sendFeedback: Gửi Phản Hồi
+  askCommunity: Hỏi Cộng Đồng
+  suggestFeature: Đề Xuất Tính Năng
+  contactUs: Liên Hệ
+  sampleDiagrams: Sơ Đồ Mẫu
+  sampleAirbnb: Mẫu Airbnb
+  sampleEcommerce: Mẫu E-commerce
+  whatsNew: Có gì mới
+  language: Ngôn Ngữ
+  switchLanguage: Đổi Ngôn Ngữ
+
+export:
+  title: Tải về
+  publishToDbdocs: Xuất bản tài liệu (đến dbdocs)
+  toPdf: Dưới dạng PDF
+  toPng: Dưới dạng PNG
+  toSvg: Dưới dạng SVG
+  toPostgreSQL: Dưới dạng PostgreSQL
+  toMySQL: Dưới dạng MySQL
+  toSQLServer: Dưới dạng SQL Server
+  toOracleSQL: Dưới dạng Oracle SQL
+
+import:
+  title: Nhập
+  importFrom: Nhập từ
+  fromDatabaseConnection: Từ Kết nối Cơ sở Dữ liệu (qua CLI)
+  fromMySQL: Từ MySQL
+  fromPostgreSQL: Từ PostgreSQL
+  fromSQLServer: Từ SQL Server
+  fromSnowflake: Từ Snowflake
+  fromOracleSQL: Từ Oracle SQL
+  fromRails: Từ Rails (schema.rb)
+  fromCSV: Từ CSV
+
+upgrade:
+  title: Nâng cấp
+  upgradeToPersonalPro: Nâng cấp lên gói Personal Pro
+  collaborateWithTeam: Hợp tác với gói Team
+
+quickActions:
+  title: Hành động nhanh
+
+ai:
+  title: AI
+
+actions:
+  saveChanges: Lưu Thay Đổi
+  confirmDelete: Bạn có chắc chắn muốn xóa mục này?
+  confirmDeleteItem: Bạn có chắc chắn muốn xóa "{name}"?
+  confirmArchive: Bạn có chắc chắn muốn lưu trữ mục này?
+  copyToClipboard: Sao chép vào bộ nhớ tạm
+  copiedToClipboard: Đã sao chép!
+  selectAll: Chọn tất cả
+  deselectAll: Bỏ chọn tất cả
+  loading: Đang tải...
+  saving: Đang lưu...
+  processing: Đang xử lý...
+  pleaseWait: Vui lòng đợi...
+
+states:
+  loading: Đang tải...
+  saving: Đang lưu...
+  error: Đã xảy ra lỗi
+  success: Thành công
+  warning: Cảnh báo
+  info: Thông tin
+  empty: Không có dữ liệu
+  noResults: Không tìm thấy kết quả
+  noItems: Không tìm thấy mục nào
+  offline: Bạn đang ngoại tuyến
+  online: Bạn đã quay trở lại
+
+time:
+  justNow: vừa xong
+  minuteAgo: một phút trước
+  minutesAgo: "{count} phút trước"
+  hourAgo: một giờ trước
+  hoursAgo: "{count} giờ trước"
+  dayAgo: một ngày trước
+  daysAgo: "{count} ngày trước"
+  weekAgo: một tuần trước
+  weeksAgo: "{count} tuần trước"
+  monthAgo: một tháng trước
+  monthsAgo: "{count} tháng trước"
+  yearAgo: một năm trước
+  yearsAgo: "{count} năm trước"
+
+errors:
+  generic: Đã có lỗi xảy ra. Vui lòng thử lại.
+  network: Lỗi kết nối. Vui lòng kiểm tra kết nối của bạn.
+  unauthorized: Bạn cần đăng nhập để tiếp tục.
+  forbidden: Bạn không có quyền thực hiện hành động này.
+  notFound: Không tìm thấy tài nguyên yêu cầu.
+  serverError: Lỗi máy chủ. Vui lòng thử lại sau.
+  invalidInput: Vui lòng kiểm tra lại thông tin nhập vào.
+  required: Trường này là bắt buộc.
+  invalidEmail: Vui lòng nhập địa chỉ email hợp lệ.
+  passwordTooShort: Mật khẩu phải có ít nhất {min} ký tự.
+  passwordMismatch: Mật khẩu không khớp.
+  permissionDenied: Từ Chối Quyền
+  dontHavePermission: Bạn không có quyền truy cập không gian làm việc này
+
+workspace:
+  readOnlyMode: Không gian làm việc ở chế độ chỉ đọc do hủy đăng ký. Vui lòng gia hạn để bật chức năng không gian làm việc.
+
+editor:
+  expand: Mở rộng trình chỉnh sửa
+  hide: Ẩn trình chỉnh sửa
+  loadingContent: Đang tải nội dung từ máy chủ, vui lòng đợi...

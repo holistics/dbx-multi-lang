@@ -1,0 +1,130 @@
+editor:
+  title: Diagram Editor
+  untitled: Untitled Diagram
+  placeholder: "Start typing your DBML code here..."
+toolbar:
+  undo: Undo
+  redo: Redo
+  save: Save
+  export: Export
+  share: Share
+  settings: Settings
+  help: Help
+  fullscreen: Fullscreen
+  zoomIn: Zoom In
+  zoomOut: Zoom Out
+  resetZoom: Reset Zoom
+  fitToScreen: Fit to Screen
+  autoLayout: Auto Layout
+  clear: Clear Canvas
+
+views:
+  default: Default View
+  list: List View
+  custom: Custom Views
+  createView: Create New View
+  editView: Edit View
+  deleteView: Delete View
+  viewName: View Name
+  viewNamePlaceholder: Enter view name...
+
+panels:
+  tableSearch: Table Search
+  tableSearchPlaceholder: Search tables...
+  noTablesFound: No tables found
+  showAllTables: Show All Tables
+  hideAllTables: Hide All Tables
+
+menu:
+  file: File
+  edit: Edit
+  view: View
+  help: Help
+
+actions:
+  newDiagram: New Diagram
+  openDiagram: Open Diagram
+  saveDiagram: Save Diagram
+  duplicateDiagram: Duplicate Diagram
+  deleteDiagram: Delete Diagram
+  exportAsImage: Export as Image
+  exportAsSql: Export as SQL
+  exportAsPdf: Export as PDF
+  print: Print
+  settings: Settings
+  shortcuts: Keyboard Shortcuts
+  documentation: Documentation
+  feedback: Send Feedback
+  reportBug: Report Bug
+
+notifications:
+  saving: Saving...
+  saved: Saved successfully
+  errorSaving: Error saving diagram
+  autoSaved: Auto-saved
+  unsavedChanges: You have unsaved changes
+  confirmClose: Are you sure you want to close? Unsaved changes will be lost.
+
+shortcuts:
+  toggleTitle: Keyboard Shortcuts
+  close: Close
+  save: Save diagram
+  undo: Undo
+  redo: Redo
+  find: Find in code
+  toggleEditor: Toggle editor
+  toggleFullscreen: Toggle fullscreen
+  zoomIn: Zoom in
+  zoomOut: Zoom out
+
+header:
+  clickToEdit: Click to edit
+  publishToDbdocs: Publish to dbdocs
+  history: History
+  editAsNew: Edit as New
+  signOut: Sign out
+  personal: Personal
+  dbdiagramAI: dbdiagram AI
+  openInDbdocs: Open in dbdocs
+  draftIsUpToDate: Draft is up to date
+  draftHasUnsavedChanges: Draft has unsaved changes
+  projectIsUpToDate: Project is up to date
+  projectHasUnsavedChanges: Project has unsaved changes
+  diagramSynchronized: Your diagram content is synchronized with the server
+  reconnecting: Reconnecting...
+  savingDiagram: Saving diagram...
+  autoSavingDiagram: Auto-saving diagram...
+  disconnectedMessage: You are disconnected. Your edits are being saved locally and <br> will be synced with the server the next time you are online.
+  readOnlyMode: This diagram is read-only
+  unsavedDiagramMessage: This diagram is not saved {loginRequired}
+  loginRequiredForSave: . Login is required to save your diagrams
+  allChangesSaved: All changes saved
+  errorInDiagram: There's an error in your diagram. Please fix all syntax errors first before publishing.
+  pleaseSaveFirst: Please save your diagram first
+  askOwnerToPublish: Please ask your diagram owner to publish a database document first
+  editAsNewDisabled: <b>Edit as New</b> is not available because your workspace <br> has been disabled due to subscription cancellation.
+  pleaseLoginToPublish: Please login to publish your changes
+  youHaveErrorsInDiagram: You have errors in your diagram
+  noChangesToPublish: No changes to publish
+  noPublishedContentYet: This project has no published content yet
+  discardAllDrafts: Discard All Drafts
+  discardAllDraftsConfirmation: Are you sure you want to discard all your draft versions and fetch the latest content of the project? This action cannot be undone.
+  discard: Discard
+  projectPublishedSuccessfully: Project published successfully and draft versions cleared
+  failedToPublishProject: Failed to publish project
+  failedToDiscardDrafts: Failed to discard drafts
+  allDraftsDiscarded: All drafts discarded and latest version loaded
+  cannotChangeDiagramName: Can not change diagram name, please try again!
+  publishToDbdocsConfirmationTitle: Publish to dbdocs
+  publishToDbdocsConfirmationMessage: Are you sure you want to publish this project to dbdocs?
+  versionOutdatedWarning: A newer version of this project exists. You are about to overwrite changes made by others.
+status:
+  readOnly: Read-only
+  synced: Synced
+  unsynced: Unsynced
+  saved: Saved
+  unsaved: Unsaved
+
+tooltip:
+  focusDiagramElement: to focus
+  toFocus: to focus

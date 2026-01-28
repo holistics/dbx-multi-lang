@@ -1,0 +1,81 @@
+buttons:
+  save: Lưu
+  share: Chia sẻ
+  history: Lịch sử
+  editAsNew: Chỉnh sửa làm mới
+  export: Xuất
+  signIn: Đăng nhập
+  signout: Đăng xuất
+  publishToDbdocs: Xuất bản lên DBDocs
+  publish: Xuất bản
+  discard: Hủy
+
+placeholders:
+  untitledDiagram: Sơ đồ chưa đặt tên
+
+status:
+  readOnly: Chỉ đọc
+  synced: Đã đồng bộ
+  unsynced: Chưa đồng bộ
+  saved: Đã lưu
+  unsaved: Chưa lưu
+
+syncStatus:
+  reconnecting: Đang kết nối lại...
+  saving: Đang lưu sơ đồ...
+  autoSaving: Đang tự động lưu sơ đồ...
+  disconnected: Bạn đã ngắt kết nối. Các chỉnh sửa của bạn đang được lưu cục bộ và sẽ được đồng bộ với máy chủ lần tiếp theo khi bạn trực tuyến.
+  readOnly: Sơ đồ này ở chế độ chỉ đọc
+  unsaved: Sơ đồ này chưa được lưu
+  unsavedWithLogin: Sơ đồ này chưa được lưu. Cần đăng nhập để lưu sơ đồ của bạn
+
+tooltips:
+  synced: Tất cả thay đổi đã đồng bộ
+  unsynced: Bạn có thay đổi chưa lưu
+  readonly: Chế độ chỉ đọc
+  unsaved: Thay đổi chưa lưu
+  loginRequired: Vui lòng đăng nhập để lưu
+  clickToEdit: Nhấp để chỉnh sửa
+  openInDbdocs: Mở trong dbdocs
+  noPublishedContent: Dự án này chưa có nội dung nào được xuất bản
+  editAsNewDisabledWorkspace: <p class="text-center"><b>Chỉnh sửa làm mới</b> không khả dụng vì không gian làm việc của bạn đã bị vô hiệu hóa do hủy đăng ký.</p>
+  editAsNewNormal: Chỉnh sửa làm mới
+
+draftStatus:
+  upToDate: Bản nháp đã cập nhật
+  hasUnsavedChanges: Bản nháp có thay đổi chưa lưu
+
+projectStatus:
+  upToDate: Dự án đã cập nhật
+  hasUnsavedChanges: Dự án có thay đổi chưa lưu
+  synchronized: Nội dung sơ đồ của bạn đã đồng bộ với máy chủ
+  allChangesSaved: Đã lưu tất cả thay đổi
+
+publishValidation:
+  parseError: Có lỗi trong sơ đồ của bạn. Vui lòng sửa tất cả lỗi cú pháp trước khi xuất bản.
+  saveFirst: Vui lòng lưu sơ đồ của bạn trước
+  ownerPublishFirst: Vui lòng yêu cầu chủ sở hữu sơ đồ xuất bản tài liệu cơ sở dữ liệu trước
+  needLogin: Vui lòng đăng nhập để xuất bản các thay đổi của bạn
+  hasErrors: Sơ đồ của bạn có lỗi
+  noChanges: Không có thay đổi để xuất bản
+
+views:
+  main: Chính
+
+modals:
+  overwriteTitle: Ghi đè Sơ đồ
+  overwriteContent: Thao tác này sẽ ghi đè sơ đồ hiện có. Bạn có muốn tiếp tục?
+  yes: Có, ghi đè
+  no: Hủy
+  discardDraftsTitle: Hủy Tất cả Bản nháp
+  discardDraftsContent: Bạn có chắc chắn muốn hủy tất cả các bản nháp và lấy nội dung mới nhất của dự án? Thao tác này không thể hoàn tác.
+  discardButton: Hủy
+  cancelButton: Hủy bỏ
+
+notifications:
+  publishSuccess: Đã xuất bản dự án thành công và đã xóa các bản nháp
+  publishFailed: Không thể xuất bản dự án
+  discardSuccess: Đã hủy tất cả bản nháp và đã tải phiên bản mới nhất
+  discardFailed: Không thể hủy bản nháp
+  showPublishFailed: Không thể hiển thị xác nhận xuất bản
+  renameFailed: Không thể đổi tên sơ đồ. Vui lòng thử lại
