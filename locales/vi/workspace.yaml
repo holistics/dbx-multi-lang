@@ -1,7 +1,19 @@
 workspace:
   title: Không Gian Làm Việc
+  personalWorkspace: Không Gian Cá Nhân
+  personal: Cá Nhân
+  createWorkspace: Tạo không gian làm việc mới
+  dashboard: Bảng Điều Khiển
+  newDiagram: Sơ Đồ Mới
+  newSampleDiagram: Sơ Đồ Mẫu Mới
+  basic: Cơ Bản
+  advanced: Nâng Cao
   myDiagrams: Sơ Đồ Của Tôi
   sharedWithMe: Được Chia Sẻ Với Tôi
+  workspace: Không Gian Làm Việc
+  private: Riêng Tư
+  empty: Trống
+  untitledDiagram: Sơ Đồ Chưa Đặt Tên
   starred: Đã Đánh Dấu
   archived: Đã Lưu Trữ
   trash: Thùng Rác
@@ -140,3 +152,7 @@ diagramList:
   duplicate: Nhân bản
   delete: Xóa
   untitledDiagram: Sơ đồ Chưa Đặt Tên
+
+sidebar:
+  apiTokens: API Tokens
+  billing: Thanh toán

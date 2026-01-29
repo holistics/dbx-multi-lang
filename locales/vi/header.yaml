@@ -10,6 +10,10 @@ buttons:
   publish: Xuất bản
   discard: Hủy
 
+draftBadge:
+  label: Bản nháp
+  discardAll: Hủy tất cả bản nháp
+
 placeholders:
   untitledDiagram: Sơ đồ chưa đặt tên
 

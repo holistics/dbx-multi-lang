@@ -1,7 +1,19 @@
 workspace:
   title: Workspace
+  personalWorkspace: Personal Workspace
+  personal: Personal
+  createWorkspace: Create new workspace
+  dashboard: Dashboard
+  newDiagram: New Diagram
+  newSampleDiagram: New Sample Diagram
+  basic: Basic
+  advanced: Advanced
   myDiagrams: My Diagrams
   sharedWithMe: Shared with Me
+  workspace: Workspace
+  private: Private
+  empty: Empty
+  untitledDiagram: Untitled Diagram
   starred: Starred
   archived: Archived
   trash: Trash
@@ -140,3 +152,7 @@ diagramList:
   duplicate: Duplicate
   delete: Delete
   untitledDiagram: Untitled Diagram
+
+sidebar:
+  apiTokens: API Tokens
+  billing: Billing

@@ -31,8 +31,8 @@ function parseYaml(yamlString) {
   return yaml.load(yamlString);
 }
 
-// Build messages with namespaces (matching original structure)
-// Each YAML file becomes a namespace in the messages object
+// Build messages with namespaces
+// Each YAML file becomes its own namespace (e.g., header.yaml → header)
 export const messages = {
   en: {
     common: parseYaml(enCommonYaml),
@@ -43,8 +43,9 @@ export const messages = {
     home: parseYaml(enHomeYaml),
     modals: parseYaml(enModalsYaml),
     navigation: parseYaml(enNavigationYaml),
-    workspace: parseYaml(enWorkspaceYaml),
     ai: parseYaml(enAiYaml),
+    // workspace.yaml keeps its nested structure as a single namespace
+    workspace: parseYaml(enWorkspaceYaml),
   },
   vi: {
     common: parseYaml(viCommonYaml),
@@ -55,7 +56,8 @@ export const messages = {
     home: parseYaml(viHomeYaml),
     modals: parseYaml(viModalsYaml),
     navigation: parseYaml(viNavigationYaml),
-    workspace: parseYaml(viWorkspaceYaml),
     ai: parseYaml(viAiYaml),
+    // workspace.yaml keeps its nested structure as a single namespace
+    workspace: parseYaml(viWorkspaceYaml),
   },
 };

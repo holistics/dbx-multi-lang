@@ -65,3 +65,36 @@ tokenUsage:
 assistant:
   dbmlCode: Mã DBML
   lines: dòng
+
+responseMessages:
+  noExplanation: Schema đã được cập nhật. Kiểm tra diff viewer để xem các thay đổi.
+  invalidIntent: "Chào mừng đến với dbdiagram AI.\n\nTôi ở đây để giúp bạn:\n\n• **Thiết kế schema DBML** - Tạo và sửa đổi bảng, mối quan hệ và cấu trúc cơ sở dữ liệu\n• **Thực hành tốt nhất cho cơ sở dữ liệu** - Đề xuất kiểu dữ liệu tối ưu, chỉ mục và ràng buộc\n• **Tối ưu hóa schema** - Tổ chức bảng với TableGroups, thêm timestamps, chuyển đổi kiểu dữ liệu\n• **Chuyển đổi nhanh** - Chuyển đổi giữa các hệ cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server, v.v.)\n\nThử hỏi tôi tạo bảng, thêm mối quan hệ, hoặc sử dụng các hành động nhanh ở trên để bắt đầu!"
+
+quickActionTitles:
+  createTableGroups: Tạo Nhóm Bảng
+  addTimestampColumns: Thêm Cột Timestamp
+  addRelationships: Thêm Mối Quan Hệ
+  addIndexes: Thêm Chỉ Mục
+  learnDatabaseDesign: Học Thiết Kế Cơ Sở Dữ Liệu
+  cloneSlack: Sao Chép Slack
+  documentDatabase: Cơ Sở Dữ Liệu Tài Liệu
+  todoList: Danh Sách Việc Cần Làm
+  remapDataTypes: Chuyển Đổi Kiểu Dữ Liệu
+
+quickActionDescriptions:
+  createTableGroups: Tổ chức bảng của bạn thành các nhóm logic theo lĩnh vực và chức năng với màu sắc riêng biệt
+  addTimestampColumns: Thêm cột created_at và updated_at vào các bảng cần theo dõi kiểm toán
+  addRelationships: Tự động phát hiện và thêm mối quan hệ khóa ngoại dựa trên quy ước đặt tên
+  addIndexes: Thêm khối chỉ mục cho các cột khóa ngoại và cột thường được truy vấn
+  learnDatabaseDesign: Tìm hiểu về thiết kế cơ sở dữ liệu
+  cloneSlack: Tạo bản sao chép Slack
+  documentDatabase: Tạo cơ sở dữ liệu để lưu trữ tài liệu
+  todoList: Tạo ứng dụng danh sách việc cần làm
+  remapDataTypes: Chuyển đổi kiểu dữ liệu để phù hợp với hệ cơ sở dữ liệu mục tiêu của bạn
+
+quickActionSubActions:
+  postgresql: PostgreSQL
+  mysql: MySQL
+  sqlServer: SQL Server
+  sqlite: SQLite
+  oracle: Oracle

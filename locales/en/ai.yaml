@@ -65,3 +65,36 @@ tokenUsage:
 assistant:
   dbmlCode: DBML Code
   lines: lines
+
+responseMessages:
+  noExplanation: Schema has been updated. Check the diff viewer to review changes.
+  invalidIntent: "Welcome to dbdiagram AI.\n\nI'm here to help you with:\n\n• **DBML schema design** - Create and modify tables, relationships, and database structures\n• **Database best practices** - Suggest optimal data types, indexes, and constraints\n• **Schema optimization** - Organize tables with TableGroups, add timestamps, remap data types\n• **Quick transformations** - Convert between database systems (PostgreSQL, MySQL, SQL Server, etc.)\n\nTry asking me to create tables, add relationships, or use the quick actions above to get started!"
+
+quickActionTitles:
+  createTableGroups: Create Table Groups
+  addTimestampColumns: Add Timestamp Columns
+  addRelationships: Add Relationships
+  addIndexes: Add Indexes
+  learnDatabaseDesign: Learn Database Design
+  cloneSlack: Clone Slack
+  documentDatabase: Document Database
+  todoList: Todo List
+  remapDataTypes: Remap Data Types
+
+quickActionDescriptions:
+  createTableGroups: Organize your tables into logical groups by domain and functionality with distinct colors
+  addTimestampColumns: Add created_at and updated_at columns to tables that need audit tracking
+  addRelationships: Automatically detect and add foreign key relationships based on naming conventions
+  addIndexes: Add index blocks for foreign keys and commonly queried columns
+  learnDatabaseDesign: Learn about database design
+  cloneSlack: Create a Slack clone
+  documentDatabase: Create a database for storing documents
+  todoList: Create a todo list application
+  remapDataTypes: Convert data types to match your target database system
+
+quickActionSubActions:
+  postgresql: PostgreSQL
+  mysql: MySQL
+  sqlServer: SQL Server
+  sqlite: SQLite
+  oracle: Oracle
