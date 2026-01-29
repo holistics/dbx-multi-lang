@@ -88,7 +88,7 @@ share:
     lastView: Xem lần cuối
     customize: Tùy chỉnh liên kết nhúng của bạn với các tùy chọn
     darkMode: Chế độ tối
-    highlightRelationships: Highlight mối quan hệ
+    highlightRelationships: Nhấn mạnh các mối quan hệ
     detailLevel: Mức độ chi tiết
     anyoneWithLink: Bất kỳ ai có liên kết đều có thể xem sơ đồ nhúng.
     remove: Bạn có muốn xóa liên kết nhúng này không? Người khác sẽ không còn có thể truy cập nó.

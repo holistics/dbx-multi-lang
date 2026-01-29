@@ -1,0 +1,112 @@
+# DBRenderer Component Translations
+# This file contains all user-facing strings for the @holistics/dbrenderer package
+
+# Table Search Panel
+tableSearchPanel:
+  # Titles
+  title: Bảng
+  diagramViews: Chế Độ Xem Sơ Đồ
+  diagramViewsTooltip: >-
+    Chế độ xem sơ đồ là tập hợp các bảng đại diện cho
+    các lĩnh vực hoặc quy trình làm việc cụ thể trong cơ sở dữ liệu của bạn.
+
+  # View actions
+  viewActions: Hành động xem
+  cannotRenameOrDelete: Không thể đổi tên hoặc xóa {name}
+  rename: Đổi Tên
+  delete: Xóa
+
+  # Save buttons
+  reset: Đặt Lại
+  save: Lưu
+  saveAsNew: Lưu Bản Mới
+
+  # Search
+  searchPlaceholder: Tìm kiếm bảng hoặc lược đồ
+  searchPlaceholderWithGroup: Tìm kiếm bảng, lược đồ hoặc nhóm
+  groupBy: Nhóm theo
+
+  # Show/Hide
+  showAll: Hiển Thị Tất Cả
+  hideAll: Ẩn Tất Cả
+
+  # Group types
+  schema: Lược Đồ
+  tableGroup: Nhóm Bảng
+  noGroup: (không nhóm)
+
+  # Default names
+  defaultView: Chế Độ Xem Mặc Định
+  unknownView: Chế Độ Xem Không Xác Định
+  database: Cơ Sở Dữ Liệu
+  newView: Chế Độ Xem Mới
+  copyOfName: Bản Sao Của {name}
+
+# Controller Bar
+controllerBar:
+  # Highlight
+  highlightRelationships: Nhấn mạnh các mối quan hệ
+  unhighlightRelationships: Bỏ nhấn mạnh các mối quan hệ
+
+  # Grid
+  enableGrid: Bật lưới
+  disableGrid: Tắt lưới
+
+  # Sticky note
+  addStickyNote: Thêm ghi chú
+
+  # Table search
+  searchTables: Tìm kiếm bảng
+  hideTableSearch: Ẩn tìm kiếm bảng
+
+  # Fullscreen
+  enterFullscreen: Vào toàn màn hình
+  exitFullscreen: Thoát toàn màn hình
+
+# Auto Arrange
+autoArrange:
+  title: Chọn thuật toán sắp xếp tự động
+  leftRight: Trái-phải
+  topDown: Trên-xuống
+  rightLeft: Phải-trái
+  bottomUp: Dưới-lên
+  snowflake: Hoa tiêu
+  compact: Gọn nhẹ
+  confirmMessage: >-
+    Sơ đồ của bạn sẽ được sắp xếp lại tự động và bạn sẽ không thể hoàn tác. Bạn có chắc không?
+  confirm: Xác Nhận (↵)
+  cancel: Hủy (Esc)
+
+# Detail Level
+detailLevel:
+  title: Mức độ chi tiết
+  showAllColumns: Hiển thị tất cả các cột
+  hideColumns: Ẩn các cột
+  showPrimaryKeys: Chỉ khóa chính
+  showLimitedColumns: Các cột hạn chế
+
+# View Dropdown
+viewDropdown:
+  renameView: Đổi tên chế độ xem
+  removeView: Xóa chế độ xem
+  newView: Chế độ xem mới
+
+# Viewport Controller
+viewportController:
+  zoomOut: Thu nhỏ (giữ để tăng tốc)
+  zoomIn: Phóng to (giữ để tăng tốc)
+  editZoomLevel: Nhấn để chỉnh mức thu phóng
+  zoomToFit: Phóng vừa để xem tất cả các phần tử
+  enablePanMode: Nhấn để bật chế độ kéo
+  disablePanMode: Nhấn để tắt chế độ kéo
+  panModeHint: Hoặc giữ Space/Chuột giữa + kéo để di chuyển
+
+# Common
+common:
+  confirm: Xác Nhận
+  cancel: Hủy
+  save: Lưu
+  close: Đóng
+  delete: Xóa
+  rename: Đổi Tên
+  remove: Xóa

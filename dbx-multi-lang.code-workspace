@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../dbdiagram-frontend"
+		},
+		{
+			"path": "../dbrenderer"
 		}
 	]
 }
