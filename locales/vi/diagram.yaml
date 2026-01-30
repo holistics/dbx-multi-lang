@@ -1,7 +1,7 @@
 editor:
-  title: Trình Chỉnh Sửa Sơ Đồ
-  untitled: Sơ Đồ Chưa Đặt Tên
-  placeholder: "Bắt đầu nhập code DBML của bạn tại đây..."
+  title: Trình biên tập sơ đồ
+  untitled: Sơ đồ chưa có tiêu đề
+  placeholder: "Bắt đầu nhập mã DBML của bạn vào đây..."
 toolbar:
   undo: Hoàn tác
   redo: Làm lại
@@ -11,29 +11,29 @@ toolbar:
   settings: Cài đặt
   help: Trợ giúp
   fullscreen: Toàn màn hình
-  zoomIn: Phóng To
-  zoomOut: Thu Nhỏ
-  resetZoom: Đặt Lại Thu Phóng
-  fitToScreen: Vừa Màn Hình
-  autoLayout: Tự Động Bố Trí
+  zoomIn: Phóng to
+  zoomOut: Thu nhỏ
+  resetZoom: Đặt lại thu phóng
+  fitToScreen: Vừa màn hình
+  autoLayout: Tự động sắp xếp
   clear: Xóa Canvas
 
 views:
-  default: Góc Nhìn Mặc Định
-  list: Danh Sách
-  custom: Góc Nhìn Tùy Chỉnh
-  createView: Tạo Góc Nhìn Mới
-  editView: Chỉnh Sửa Góc Nhìn
-  deleteView: Xóa Góc Nhìn
-  viewName: Tên Góc Nhìn
-  viewNamePlaceholder: Nhập tên góc nhìn...
+  default: Chế độ xem mặc định
+  list: Chế độ xem danh sách
+  custom: Chế độ xem tùy chỉnh
+  createView: Tạo chế độ xem mới
+  editView: Chỉnh sửa chế độ xem
+  deleteView: Xóa chế độ xem
+  viewName: Tên chế độ xem
+  viewNamePlaceholder: Nhập tên chế độ xem...
 
 panels:
-  tableSearch: Tìm Kiếm Bảng
-  tableSearchPlaceholder: Tìm kiếm bảng...
+  tableSearch: Tìm kiếm bảng
+  tableSearchPlaceholder: Tìm bảng...
   noTablesFound: Không tìm thấy bảng nào
-  showAllTables: Hiển Thị Tất Cả Bảng
-  hideAllTables: Ẩn Tất Cả Bảng
+  showAllTables: Hiện tất cả bảng
+  hideAllTables: Ẩn tất cả bảng
 
 menu:
   file: Tệp
@@ -42,82 +42,82 @@ menu:
   help: Trợ giúp
 
 actions:
-  newDiagram: Sơ Đồ Mới
-  openDiagram: Mở Sơ Đồ
-  saveDiagram: Lưu Sơ Đồ
-  duplicateDiagram: Nhân Bản Sơ Đồ
-  deleteDiagram: Xóa Sơ Đồ
-  exportAsImage: Xuất Dạng Hình Ảnh
-  exportAsSql: Xuất Dạng SQL
-  exportAsPdf: Xuất Dạng PDF
+  newDiagram: Sơ đồ mới
+  openDiagram: Mở sơ đồ
+  saveDiagram: Lưu sơ đồ
+  duplicateDiagram: Nhân bản sơ đồ
+  deleteDiagram: Xóa sơ đồ
+  exportAsImage: Xuất ra ảnh
+  exportAsSql: Xuất ra SQL
+  exportAsPdf: Xuất ra PDF
   print: In
   settings: Cài đặt
-  shortcuts: Phím Tắt
-  documentation: Tài Liệu
-  feedback: Gửi Phản Hồi
-  reportBug: Báo Cáo Lỗi
+  shortcuts: Phím tắt
+  documentation: Tài liệu
+  feedback: Gửi phản hồi
+  reportBug: Báo lỗi
 
 notifications:
   saving: Đang lưu...
   saved: Đã lưu thành công
   errorSaving: Lỗi khi lưu sơ đồ
-  autoSaved: Tự động lưu
-  unsavedChanges: Bạn có các thay đổi chưa được lưu
-  confirmClose: Bạn có chắc chắn muốn đóng? Các thay đổi chưa lưu sẽ bị mất.
+  autoSaved: Đã tự động lưu
+  unsavedChanges: Bạn có các thay đổi chưa lưu
+  confirmClose: Bạn có chắc muốn đóng không? Các thay đổi chưa lưu sẽ bị mất.
 
 shortcuts:
-  toggleTitle: Phím Tắt
+  toggleTitle: Phím tắt bàn phím
   close: Đóng
   save: Lưu sơ đồ
   undo: Hoàn tác
   redo: Làm lại
-  find: Tìm trong code
-  toggleEditor: Bật/tắt trình chỉnh sửa
+  find: Tìm trong mã
+  toggleEditor: Bật/tắt trình biên tập
   toggleFullscreen: Bật/tắt toàn màn hình
   zoomIn: Phóng to
   zoomOut: Thu nhỏ
 
 header:
-  clickToEdit: Nhấp để chỉnh sửa
+  clickToEdit: Nhấn để chỉnh sửa
   publishToDbdocs: Xuất bản lên dbdocs
   history: Lịch sử
-  editAsNew: Chỉnh sửa dưới dạng mới
+  editAsNew: Chỉnh sửa như mới
   signOut: Đăng xuất
   personal: Cá nhân
   dbdiagramAI: dbdiagram AI
   openInDbdocs: Mở trong dbdocs
   draftIsUpToDate: Bản nháp đã được cập nhật
-  draftHasUnsavedChanges: Bản nháp có các thay đổi chưa lưu
+  draftHasUnsavedChanges: Bản nháp có thay đổi chưa lưu
   projectIsUpToDate: Dự án đã được cập nhật
-  projectHasUnsavedChanges: Dự án có các thay đổi chưa lưu
-  diagramSynchronized: Nội dung sơ đồ của bạn đã được đồng bộ hóa với máy chủ
+  projectHasUnsavedChanges: Dự án có thay đổi chưa lưu
+  diagramSynchronized: Nội dung sơ đồ của bạn đã được đồng bộ với máy chủ
   reconnecting: Đang kết nối lại...
   savingDiagram: Đang lưu sơ đồ...
   autoSavingDiagram: Đang tự động lưu sơ đồ...
-  disconnectedMessage: Bạn đã mất kết nối. Các chỉnh sửa của bạn đang được lưu cục bộ và <br> sẽ được đồng bộ hóa với máy chủ vào lần trực tuyến tiếp theo.
-  readOnlyMode: Sơ đồ này chỉ đọc
+  disconnectedMessage: Bạn đã mất kết nối. Các chỉnh sửa của bạn đang được lưu cục bộ và <br> sẽ được đồng bộ với máy chủ khi bạn trực tuyến trở lại.
+  readOnlyMode: Sơ đồ này đang ở chế độ chỉ đọc
   unsavedDiagramMessage: Sơ đồ này chưa được lưu {loginRequired}
-  loginRequiredForSave: . Đăng nhập là bắt buộc để lưu sơ đồ của bạn
+  loginRequiredForSave: . Cần đăng nhập để lưu sơ đồ của bạn
   allChangesSaved: Tất cả thay đổi đã được lưu
   errorInDiagram: Có lỗi trong sơ đồ của bạn. Vui lòng sửa tất cả lỗi cú pháp trước khi xuất bản.
-  pleaseSaveFirst: Vui lòng lưu sơ đồ của bạn trước
-  askOwnerToPublish: Vui lòng yêu cầu chủ sở hữu sơ đồ xuất bản tài liệu cơ sở dữ liệu trước
-  editAsNewDisabled: <b>Chỉnh sửa dưới dạng mới</b> không khả dụng vì không gian làm việc của bạn <br> đã bị vô hiệu hóa do hủy đăng ký.
-  pleaseLoginToPublish: Vui lòng đăng nhập để xuất bản thay đổi của bạn
-  youHaveErrorsInDiagram: Bạn có lỗi trong sơ đồ
-  noChangesToPublish: Không có thay đổi để xuất bản
+  pleaseSaveFirst: Vui lòng lưu sơ đồ trước
+  askOwnerToPublish: Vui lòng yêu cầu chủ sở hữu sơ đồ xuất bản tài liệu CSDL trước
+  editAsNewDisabled: <b>Chỉnh sửa như mới</b> không khả dụng vì không gian làm việc của bạn <br> đã bị vô hiệu hóa do hủy gói đăng ký.
+  pleaseLoginToPublish: Vui lòng đăng nhập để xuất bản các thay đổi
+  youHaveErrorsInDiagram: Bạn có lỗi trong sơ đồ của mình
+  noChangesToPublish: Không có thay đổi nào để xuất bản
   noPublishedContentYet: Dự án này chưa có nội dung được xuất bản
-  discardAllDrafts: Hủy Tất Cả Bản Nháp
-  discardAllDraftsConfirmation: Bạn có chắc chắn muốn hủy tất cả các bản nháp và tìm nạp nội dung mới nhất của dự án? Hành động này không thể hoàn tác.
-  discard: Hủy
-  projectPublishedSuccessfully: Dự án đã được xuất bản thành công và các bản nháp đã được xóa
-  failedToPublishProject: Không thể xuất bản dự án
-  failedToDiscardDrafts: Không thể hủy bản nháp
-  allDraftsDiscarded: Tất cả bản nháp đã bị hủy và phiên bản mới nhất đã được tải
-  cannotChangeDiagramName: Không thể thay đổi tên sơ đồ, vui lòng thử lại!
+  discardAllDrafts: Hủy bỏ tất cả bản nháp
+  discardAllDraftsConfirmation: Bạn có chắc chắn muốn hủy bỏ tất cả các phiên bản nháp và lấy nội dung mới nhất của dự án không? Hành động này không thể hoàn tác.
+  discard: Hủy bỏ
+  projectPublishedSuccessfully: Dự án đã xuất bản thành công và các bản nháp đã được xóa
+  failedToPublishProject: Xuất bản dự án thất bại
+  failedToDiscardDrafts: Hủy bỏ bản nháp thất bại
+  allDraftsDiscarded: Đã hủy bỏ tất cả bản nháp và tải phiên bản mới nhất
+  cannotChangeDiagramName: Không thể đổi tên sơ đồ, vui lòng thử lại!
   publishToDbdocsConfirmationTitle: Xuất bản lên dbdocs
-  publishToDbdocsConfirmationMessage: Bạn có chắc chắn muốn xuất bản dự án này lên dbdocs?
-  versionOutdatedWarning: Một phiên bản mới hơn của dự án này đã tồn tại. Bạn sắp ghi đè các thay đổi được tạo bởi người khác.
+  publishToDbdocsConfirmationMessage: Bạn có chắc chắn muốn xuất bản dự án này lên dbdocs không?
+  versionOutdatedWarning: Đã có phiên bản mới hơn của dự án này. Bạn sắp ghi đè lên các thay đổi do người khác thực hiện.
 status:
   readOnly: Chỉ đọc
   synced: Đã đồng bộ

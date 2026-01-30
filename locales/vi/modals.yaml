@@ -1,9 +1,9 @@
 titles:
   confirm: Xác nhận
   delete: Xóa
-  remove: Xóa
+  remove: Xóa bỏ
   archive: Lưu trữ
-  unarchive: Hủy lưu trữ
+  unarchive: Bỏ lưu trữ
   rename: Đổi tên
   share: Chia sẻ
   invite: Mời
@@ -15,23 +15,23 @@ titles:
 confirmation:
   default:
     title: Xác nhận
-    message: Bạn có chắc chắn muốn tiếp tục hành động này?
-    checkbox: Không hiển thị lại
+    message: Bạn có thực sự muốn tiếp tục hành động này?
+    checkbox: Đừng hiện lại thông báo này
   delete:
     title: Xóa
-    message: Bạn có chắc chắn muốn xóa mục này?
+    message: Bạn có chắc muốn xóa mục này?
   deleteDiagram:
     title: Xóa Sơ đồ
-    message: Bạn có chắc chắn muốn xóa sơ đồ này? Hành động này không thể hoàn tác.
+    message: Bạn có chắc muốn xóa sơ đồ này? Hành động này không thể hoàn tác.
     warning: Vui lòng lưu ý rằng hành động này không thể hoàn tác!
-    embedLinkActive: Bạn có một liên kết nhúng đang hoạt động.
+    embedLinkActive: Bạn đang có một liên kết nhúng đang hoạt động.
     lastViewed: Xem lần cuối
   removeWorkspace:
-    title: Xóa Không gian Làm việc
-    message: Bạn có chắc chắn muốn xóa không gian làm việc này?
+    title: Xóa Không gian làm việc
+    message: Bạn có chắc muốn xóa không gian làm việc này?
   removeMember:
     title: Xóa Thành viên
-    message: Bạn có chắc chắn muốn xóa thành viên này khỏi không gian làm việc?
+    message: Bạn có chắc muốn xóa thành viên này khỏi không gian làm việc?
     suggestion: Vui lòng nhập email của bạn để xác nhận.
 
 share:
@@ -56,21 +56,21 @@ share:
     title: Quyền hạn
     owner: Chủ sở hữu
     admin: Quản trị viên
-    editor: Biên tập viên
+    editor: Người chỉnh sửa
     viewer: Người xem
   invite:
-    title: Mời người
-    placeholder: Email, cách bằng dấu phẩy hoặc khoảng trắng
+    title: Mời mọi người
+    placeholder: Email, phân cách bằng dấu phẩy hoặc khoảng trắng
     button: Mời
     copyLink: Sao chép liên kết
     linkCopied: Đã sao chép liên kết!
   members:
     title: Những người có quyền truy cập
     you: (bạn)
-  confirmRemoveCollaborator: 'Bạn đang xóa <b>{email}</b> khỏi danh sách người cộng tác, vui lòng xác nhận hành động của bạn!'
+  confirmRemoveCollaborator: 'Bạn sắp xóa <b>{email}</b> khỏi danh sách cộng tác viên, vui lòng xác nhận hành động của bạn!'
   errors:
-    publicPermissionUpdateFailed: Cập nhật quyền công khai sơ đồ thất bại, vui lòng thử lại!
-    publicPermissionUpdated: Đã cập nhật quyền công khai sơ đồ!
+    publicPermissionUpdateFailed: Cập nhật quyền công khai của sơ đồ thất bại, vui lòng thử lại!
+    publicPermissionUpdated: Quyền công khai của sơ đồ đã được cập nhật!
     passwordLength: Mật khẩu phải từ 6 đến 128 ký tự
     createPasswordSuccess: Tạo mật khẩu thành công
     updatePasswordSuccess: Cập nhật mật khẩu thành công
@@ -79,19 +79,19 @@ share:
     cannotUpdateDiagramState: Không thể cập nhật trạng thái sơ đồ
     diagramIsPublic: Sơ đồ hiện đang công khai!
     diagramIsPrivate: Sơ đồ hiện đang riêng tư!
-    diagramIsProtected: Sơ đồ hiện được bảo vệ!
-  permissionChanged: Quyền của bạn đã được thay đổi, vui lòng tải lại để áp dụng thay đổi!
+    diagramIsProtected: Sơ đồ hiện đang được bảo vệ!
+  permissionChanged: Quyền hạn của bạn đã thay đổi, vui lòng tải lại để áp dụng!
   reload: Tải lại
-  cannotGetPermission: Không thể lấy quyền sơ đồ, vui lòng thử lại!
+  cannotGetPermission: Không thể lấy quyền hạn sơ đồ, vui lòng thử lại!
   embedLink:
-    title: Liên kết Nhúng
-    lastView: Xem lần cuối
-    customize: Tùy chỉnh liên kết nhúng của bạn với các tùy chọn
+    title: Liên kết nhúng
+    lastView: Lần xem cuối
+    customize: Tùy chỉnh liên kết nhúng với các tùy chọn
     darkMode: Chế độ tối
-    highlightRelationships: Nhấn mạnh các mối quan hệ
+    highlightRelationships: Làm nổi bật mối quan hệ
     detailLevel: Mức độ chi tiết
     anyoneWithLink: Bất kỳ ai có liên kết đều có thể xem sơ đồ nhúng.
-    remove: Bạn có muốn xóa liên kết nhúng này không? Người khác sẽ không còn có thể truy cập nó.
+    remove: Bạn có muốn xóa liên kết nhúng này không? Người khác sẽ không còn truy cập được nữa.
     generate: Tạo liên kết nhúng
     errors:
       cannotGet: Không thể lấy liên kết nhúng, vui lòng thử lại!
@@ -102,30 +102,30 @@ share:
 publish:
   title: Xuất bản lên
   dbdocsLink: dbdocs
-  placeholder: URL dự án
+  placeholder: URL Dự án
   urlLabel: dbdocs.holistics.io/
   publishButton: Xuất bản
-  success: Đã xuất bản thành công!
-  error: Không thể xuất bản
+  success: Xuất bản thành công!
+  error: Xuất bản thất bại
   bullet1: Xuất bản tài liệu cơ sở dữ liệu có thể xem trên web từ sơ đồ của bạn.
-  bullet2: Tài liệu đã xuất bản sẽ có sẵn trong tài khoản dbdocs được liên kết với email chủ sở hữu sơ đồ.
-  bullet3: Các thay đổi đối với sơ đồ của bạn sẽ không tự động cập nhật tài liệu dbdocs.
+  bullet2: Tài liệu được xuất bản sẽ có trong tài khoản dbdocs liên kết với email chủ sở hữu sơ đồ.
+  bullet3: Thay đổi trong sơ đồ sẽ không tự động cập nhật tài liệu trên dbdocs.
   publishNewOrUpdate: Xuất bản tài liệu mới / Cập nhật tài liệu hiện có
   updateExisting: Cập nhật tài liệu hiện có
-  projectPublicDefault: Dự án dbdocs của bạn được đặt thành "công khai" theo mặc định. Mọi người có thể truy cập thông qua liên kết của nó.
+  projectPublicDefault: Dự án dbdocs của bạn được đặt là "công khai" theo mặc định. Mọi người có thể truy cập qua liên kết.
   documentProjectName: Tên dự án tài liệu
   enterProjectName: Nhập tên dự án
   options: Tùy chọn
-  passwordProtection: Bảo vệ mật khẩu
+  passwordProtection: Bảo vệ bằng mật khẩu
   passwordOptional: Nhập mật khẩu (tùy chọn)
   passwordMinLength: Mật khẩu phải có ít nhất 6 ký tự
   feedback: Hãy cho chúng tôi biết
-  feedbackLink: phản hồi
+  feedbackLink: phản hồi của bạn
   aboutThisFeature: về tính năng này!
-  errorLoadingProjects: Đã xảy ra lỗi khi tải các dự án đã xuất bản, vui lòng liên hệ với bộ phận hỗ trợ của chúng tôi tại dbdiagram@holistics.io
-  errorPublishing: Đã xảy ra lỗi khi xuất bản dự án, vui lòng liên hệ với bộ phận hỗ trợ của chúng tôi tại dbdiagram@holistics.io
+  errorLoadingProjects: Đã xảy ra lỗi khi tải các dự án đã xuất bản, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
+  errorPublishing: Đã xảy ra lỗi khi xuất bản dự án, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
   projectNameEmpty: Tên dự án không được để trống
-  projectNameInvalid: Tên dự án chỉ có thể chứa chữ cái, số, dấu cách, "-" hoặc "_"
+  projectNameInvalid: Tên dự án chỉ được chứa chữ cái, số, khoảng trắng, "-" hoặc "_"
   passwordInvalid: Mật khẩu không hợp lệ, vui lòng thử lại!
 
 export:
@@ -137,26 +137,26 @@ export:
     pdf: Tài liệu PDF
     dbml: DBML
     sql: SQL
-  toPDF: Sang PDF
-  toPNG: Sang PNG
-  toSVG: Sang SVG
-  toPostgreSQL: Sang PostgreSQL
-  toMySQL: Sang MySQL
-  toSQLServer: Sang SQL Server
-  toOracleSQL: Sang Oracle SQL
-  error: Không thể xuất
+  toPDF: Ra PDF
+  toPNG: Ra PNG
+  toSVG: Ra SVG
+  toPostgreSQL: Ra PostgreSQL
+  toMySQL: Ra MySQL
+  toSQLServer: Ra SQL Server
+  toOracleSQL: Ra Oracle SQL
+  error: Xuất thất bại
 
 import:
   title: Nhập
-  fromDatabase: Từ Cơ sở Dữ liệu
-  fromFile: Từ Tập tin
+  fromDatabase: Từ Cơ sở dữ liệu
+  fromFile: Từ Tệp
   fromSQL: Từ SQL
   pasteSQL: Dán SQL vào đây
-  validate: Kiểm tra
-  validating: Đang kiểm tra...
+  validate: Xác thực
+  validating: Đang xác thực...
   invalid: Định dạng SQL không hợp lệ
-  error: Không thể nhập
-  fromDbConnection: Từ Kết nối Cơ sở Dữ liệu (qua CLI)
+  error: Nhập thất bại
+  fromDbConnection: Từ Kết nối CSDL (qua CLI)
   fromMySQL: Từ MySQL
   fromPostgreSQL: Từ PostgreSQL
   fromSQLServer: Từ SQL Server
@@ -166,30 +166,30 @@ import:
   fromCSV: Từ CSV
   fromFormat: Nhập từ {format}
   instructions: Hướng dẫn
-  showInstructions: Hiện hướng dẫn
+  showInstructions: Hiển thị hướng dẫn
   hideInstructions: Ẩn hướng dẫn
   upload: Tải lên {file}
-  appendMode: Thêm DBML đã chuyển đổi vào cuối
+  appendMode: Nối DBML đã chuyển đổi vào cuối
   modal:
     validating: Đang xác thực
   dbConnection:
-    title: Tạo DBML từ Kết nối Cơ sở Dữ Liệu Trực Tiếp
-    intro1: Phương thức này kết nối trực tiếp với cơ sở dữ liệu của bạn và đọc lược đồ cơ sở dữ liệu (thường từ INFORMATION_SCHEMA) để tạo mã DBML.
-    intro2: Mọi thứ chạy trên máy cục bộ của bạn và thông tin đăng nhập cơ sở dữ liệu không được theo dõi hay gửi đi bất cứ đâu.
-    intro3: Mã nguồn mở từ
+    title: Tạo DBML từ Kết nối CSDL Trực tiếp
+    intro1: Phương pháp này kết nối trực tiếp đến cơ sở dữ liệu của bạn và đọc lược đồ cơ sở dữ liệu (thường từ INFORMATION_SCHEMA) để tạo mã DBML.
+    intro2: Mọi thứ chạy trên máy cục bộ của bạn, và thông tin đăng nhập cơ sở dữ liệu không bị theo dõi hay gửi đi bất cứ đâu.
+    intro3: 'Mã nguồn mở từ'
     intro3Link: và có thể kiểm tra
     step1: '1. Cài đặt'
     step1Note: bạn có thể cần thêm
-    step1NoteSudo: trước lệnh của bạn trên Linux
+    step1NoteSudo: trước các lệnh của bạn trên Linux
     step2: '2. Chạy lệnh sau:'
     exampleFor: Ví dụ cho
     successMessage: "Đã tạo tệp DBML từ kết nối cơ sở dữ liệu: database.dbml"
-    successBigquery: 'Lưu ý: Đối với BigQuery, tệp thông tin đăng nhập JSON của bạn phải chứa các khóa sau:'
+    successBigquery: 'Lưu ý: Với BigQuery, tệp chứng thực JSON của bạn phải chứa các khóa sau:'
     successSnowflake1: Đang thử kết nối...
     successSnowflake2: Đang thực thi truy vấn...
-    successSnowflake3: Truy vấn đã thực thi thành công.
-    successSnowflake4: Đã hủy kết nối thành công.
-    step3: '3. Sao chép và dán DBML đã tạo vào bảng mã để trực quan hóa cơ sở dữ liệu của bạn.'
+    successSnowflake3: Truy vấn thực thi thành công.
+    successSnowflake4: Kết nối đã đóng thành công.
+    step3: '3. Sao chép và dán DBML được tạo vào bảng mã để trực quan hóa cơ sở dữ liệu của bạn.'
     databaseTypes:
       mysql: MySQL
       postgres: PostgreSQL
@@ -199,49 +199,49 @@ import:
       bigquery: BigQuery
 
 stickyNotes:
-  title: Ghi chú
-  upgradeRequired: Nâng cấp gói của bạn để sử dụng Ghi chú
-  upgradeButton: Xem Gói
+  title: Ghi chú dán (Sticky Notes)
+  upgradeRequired: Nâng cấp gói của bạn để sử dụng Ghi chú dán
+  upgradeButton: Xem các gói
 
 upgrade:
   titles:
-    createDiagram: Bạn đã đạt đến giới hạn số lượng sơ đồ!
-    detailLevels: Bạn đã phát hiện một tính năng trả phí!
-    detailLevelsDbdocs: Bạn đã phát hiện một tính năng của các dự án trả phí!
-    diagramView: Tạo các chế độ xem bổ sung là một tính năng trả phí
-    headerColor: Bạn đã phát hiện một tính năng trả phí!
-    headerColorDbdocs: Bạn đã phát hiện một tính năng của các dự án trả phí!
-    privateDiagram: Bạn đã phát hiện một tính năng trả phí!
-    stickyNotes: Bạn đã phát hiện một tính năng trả phí!
-    stickyNotesDbdocs: Bạn đã phát hiện một tính năng của các dự án trả phí!
-    versionHistory: Bạn đã phát hiện một tính năng trả phí!
-    aiAssistant: Trợ lý AI dbdiagram là một tính năng trả phí
-    tableGroup: Bạn đã phát hiện một tính năng trả phí!
-    tableGroupDbdocs: Bạn đã phát hiện Nhóm Bảng, một tính năng của các dự án trả phí!
+    createDiagram: Bạn đã đạt giới hạn số lượng sơ đồ!
+    detailLevels: Bạn đã khám phá một tính năng trả phí!
+    detailLevelsDbdocs: Bạn đã khám phá một tính năng của dự án trả phí!
+    diagramView: Tạo thêm chế độ xem là một tính năng trả phí
+    headerColor: Bạn đã khám phá một tính năng trả phí!
+    headerColorDbdocs: Bạn đã khám phá một tính năng của dự án trả phí!
+    privateDiagram: Bạn đã khám phá một tính năng trả phí!
+    stickyNotes: Bạn đã khám phá một tính năng trả phí!
+    stickyNotesDbdocs: Bạn đã khám phá một tính năng của dự án trả phí!
+    versionHistory: Bạn đã khám phá một tính năng trả phí!
+    aiAssistant: Trợ lý AI dbdiagram là tính năng trả phí
+    tableGroup: Bạn đã khám phá một tính năng trả phí!
+    tableGroupDbdocs: Bạn đã khám phá Nhóm bảng, một tính năng của dự án trả phí!
   descriptions:
-    createDiagram: Nâng cấp lên các gói trả phí của chúng tôi ngay bây giờ để có <b>không giới hạn<br>việc tạo sơ đồ</b> và các tính năng nâng cao khác!
-    detailLevels: Nâng cấp lên các gói trả phí của chúng tôi ngay bây giờ để có Mức độ Chi tiết, Màu Tiêu đề,<br>Nhóm Bảng và truy cập tất cả các tính năng sắp tới của chúng tôi!
-    detailLevelsDbdocs: Nâng cấp dự án của bạn để có Mức độ Chi tiết, Màu Tiêu đề,<br>Nhóm Bảng và truy cập tất cả các tính năng sắp tới của chúng tôi!
-    diagramView: Trên gói Miễn phí, bạn chỉ có thể lưu chế độ xem mặc định.<br>Nâng cấp lên các gói trả phí của chúng tôi ngay bây giờ để có <b>không giới hạn chế độ xem sơ đồ</b> và các tính năng nâng cao khác!
-    headerColor: Nâng cấp lên các gói trả phí của chúng tôi ngay bây giờ để có Mức độ Chi tiết, Màu Tiêu đề,<br>Màu Mối quan hệ, Nhóm Bảng và truy cập tất cả các tính năng sắp tới của chúng tôi!
-    headerColorDbdocs: Nâng cấp dự án của bạn để có Mức độ Chi tiết, Màu Tiêu đề,<br>Màu Mối quan hệ, Nhóm Bảng và truy cập tất cả các tính năng sắp tới của chúng tôi!
-    privateDiagram: Nâng cấp lên các gói trả phí của chúng tôi ngay bây giờ để bảo vệ sơ đồ của bạn với<br><strong> Bảo vệ Mật khẩu, Chế độ Riêng tư </strong> và các tính năng nâng cao khác!
-    stickyNotes: Nâng cấp lên các gói trả phí của chúng tôi ngay bây giờ để bao gồm<strong> Ghi chú </strong> trong sơ đồ của bạn<br>và tận dụng các tính năng nâng cao khác!
-    stickyNotesDbdocs: Nâng cấp dự án của bạn để bao gồm<strong> Ghi chú </strong> trong sơ đồ của bạn<br>và tận dụng các tính năng nâng cao khác!
-    versionHistory: Tự do thử nghiệm ý tưởng của bạn với các <b>phiên bản lược đồ</b> khác nhau.<br>Quay lại phiên bản cũ bất cứ khi nào bạn muốn.
-    aiAssistant: Nâng cấp lên các gói trả phí của chúng tôi ngay bây giờ để thiết kế và tối ưu hóa lược đồ cơ sở dữ liệu của bạn<br>với <strong>hỗ trợ ngôn ngữ tự nhiên powered by AI</strong>
-    tableGroup: Nâng cấp lên các gói trả phí của chúng tôi ngay bây giờ để có Mức độ Chi tiết, Màu Tiêu đề,<br>Nhóm Bảng và truy cập tất cả các tính năng sắp tới của chúng tôi!
-    tableGroupDbdocs: Nâng cấp dự án của bạn để có Mức độ Chi tiết, Màu Tiêu đề,<br>Nhóm Bảng và truy cập tất cả các tính năng sắp tới của chúng tôi!
+    createDiagram: Nâng cấp lên các gói trả phí ngay để <b>tạo sơ đồ không giới hạn</b> và các tính năng nâng cao khác!
+    detailLevels: Nâng cấp lên các gói trả phí ngay để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
+    detailLevelsDbdocs: Nâng cấp dự án của bạn để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
+    diagramView: Trên gói Miễn phí, bạn chỉ có thể lưu chế độ xem mặc định.<br>Nâng cấp lên các gói trả phí ngay để có <b>không giới hạn chế độ xem</b> và các tính năng nâng cao khác!
+    headerColor: Nâng cấp lên các gói trả phí ngay để có Mức độ chi tiết, Màu tiêu đề,<br>Màu quan hệ, Nhóm bảng và truy cập tất cả các tính năng sắp tới!
+    headerColorDbdocs: Nâng cấp dự án của bạn để có Mức độ chi tiết, Màu tiêu đề,<br>Màu quan hệ, Nhóm bảng và truy cập tất cả các tính năng sắp tới!
+    privateDiagram: Nâng cấp lên các gói trả phí ngay để bảo vệ sơ đồ của bạn với<br><strong> Bảo vệ Mật khẩu, Chế độ Riêng tư </strong> và các tính năng nâng cao khác!
+    stickyNotes: Nâng cấp lên các gói trả phí ngay để thêm<strong> Ghi chú dán </strong> vào sơ đồ của bạn<br>và tận dụng các tính năng nâng cao khác!
+    stickyNotesDbdocs: Nâng cấp dự án của bạn để thêm<strong> Ghi chú dán </strong> vào sơ đồ của bạn<br>và tận dụng các tính năng nâng cao khác!
+    versionHistory: Tự do thử nghiệm ý tưởng với các <b>phiên bản lược đồ</b> khác nhau.<br>Quay lại phiên bản quá khứ bất cứ khi nào bạn muốn.
+    aiAssistant: Nâng cấp lên các gói trả phí ngay để thiết kế và tối ưu hóa lược đồ cơ sở dữ liệu<br>với <strong>hỗ trợ ngôn ngữ tự nhiên từ AI</strong>
+    tableGroup: Nâng cấp lên các gói trả phí ngay để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
+    tableGroupDbdocs: Nâng cấp dự án của bạn để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
   buttons:
-    viewPlans: Xem Gói
-    upgradeProject: Nâng cấp Dự án
+    viewPlans: Xem các gói
+    upgradeProject: Nâng cấp dự án
 
 history:
-  title: Lịch sử Phiên bản
+  title: Lịch sử phiên bản
   deletedUser: Người dùng đã xóa
   restoreVersion: Khôi phục phiên bản
-  makeCopy: Sao chép
-  upgradeTitle: Nâng cấp để xem, khôi phục và nhân bản
+  makeCopy: Tạo bản sao
+  upgradeTitle: Nâng cấp để xem, khôi phục & nhân bản
   errors:
     cannotView: Không thể xem phiên bản này
     cannotCopy: Không thể sao chép phiên bản này
@@ -251,4 +251,4 @@ history:
   success:
     versionCopied: Phiên bản của bạn đã được sao chép thành công
   copiedName: '(Đã khôi phục) {name}'
-  untitled: Chưa đặt tên
+  untitled: Chưa có tiêu đề

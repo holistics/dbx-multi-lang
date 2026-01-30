@@ -4,7 +4,7 @@ header:
   docs: Tài liệu
   roadmap: Lộ trình
   community: Cộng đồng
-  goToApp: Đi đến Ứng dụng 👉
+  goToApp: Vào Ứng dụng 👉
   signIn: Đăng nhập
   signUp: Đăng ký
 
@@ -23,7 +23,7 @@ footer:
     tutorials: Hướng dẫn
   company:
     title: Công ty
-    about: Giới thiệu
+    about: Về chúng tôi
     privacy: Chính sách Bảo mật
     terms: Điều khoản Dịch vụ
   community:
@@ -37,11 +37,11 @@ footer:
     soc2Compliance: Tuân thủ SOC2
     privacyPolicy: Chính sách Bảo mật
     termsOfService: Điều khoản Dịch vụ
-    supportSla: SLA Hỗ trợ
-    responsibleDisclosure: Tiết lộ Có trách nhiệm
+    supportSla: Cam kết Hỗ trợ (SLA)
+    responsibleDisclosure: Tiết lộ có trách nhiệm
   support:
     title: Hỗ trợ
-    contactUs: Liên hệ Với Chúng tôi
+    contactUs: Liên hệ
     serviceStatus: Trạng thái Dịch vụ
-  copyright: © {year} DBDiagram. Đã lưu mọi quyền.
-  alternativeCopyright: © {year} Holistics Software Đã lưu mọi quyền
+  copyright: © {year} DBDiagram. Đã đăng ký bản quyền.
+  alternativeCopyright: © {year} Holistics Software Đã đăng ký bản quyền

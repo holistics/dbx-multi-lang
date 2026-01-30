@@ -4,7 +4,7 @@ buttons:
   confirm: Xác nhận
   delete: Xóa
   edit: Chỉnh sửa
-  create: Tạo mới
+  create: Tạo
   search: Tìm kiếm
   share: Chia sẻ
   close: Đóng
@@ -23,7 +23,7 @@ buttons:
   back: Quay lại
   next: Tiếp theo
   skip: Bỏ qua
-  done: Hoàn tất
+  done: Xong
   tryAgain: Thử lại
   refresh: Làm mới
   clear: Xóa
@@ -34,7 +34,7 @@ buttons:
   ok: OK
   invite: Mời
   join: Tham gia
-  leave: Rời đi
+  leave: Rời khỏi
   rename: Đổi tên
   duplicate: Nhân bản
   archive: Lưu trữ
@@ -44,26 +44,26 @@ buttons:
   deselect: Bỏ chọn
   selectAll: Chọn tất cả
   deselectAll: Bỏ chọn tất cả
-  show: Hiển thị
+  show: Hiện
   hide: Ẩn
   expand: Mở rộng
   collapse: Thu gọn
   filter: Lọc
   sort: Sắp xếp
   group: Nhóm
-  ungroup: Hủy nhóm
+  ungroup: Bỏ nhóm
   fullscreen: Toàn màn hình
   exitFullscreen: Thoát toàn màn hình
   zoomIn: Phóng to
   zoomOut: Thu nhỏ
-  resetZoom: Đặt lại mức thu phóng
+  resetZoom: Đặt lại thu phóng
   undo: Hoàn tác
   redo: Làm lại
   cut: Cắt
   paste: Dán
   submit: Gửi
   reload: Tải lại
-  remove: Xóa
+  remove: Xóa bỏ
   add: Thêm
   view: Xem
   open: Mở
@@ -74,34 +74,34 @@ help:
   title: Trợ giúp
   documentation: Tài liệu
   releaseNotes: Ghi chú phát hành
-  roadmap: Lộ trình
-  basicEditing: Trải nghiệm Chỉnh sửa Cơ Bản
-  sendFeedback: Gửi Phản Hồi
-  askCommunity: Hỏi Cộng Đồng
-  suggestFeature: Đề Xuất Tính Năng
-  contactUs: Liên Hệ
-  sampleDiagrams: Sơ Đồ Mẫu
+  roadmap: Lộ trình phát triển
+  basicEditing: Trải nghiệm chỉnh sửa cơ bản
+  sendFeedback: Gửi phản hồi
+  askCommunity: Hỏi cộng đồng
+  suggestFeature: Đề xuất tính năng
+  contactUs: Liên hệ
+  sampleDiagrams: Sơ đồ mẫu
   sampleAirbnb: Mẫu Airbnb
   sampleEcommerce: Mẫu E-commerce
   whatsNew: Có gì mới
-  language: Ngôn Ngữ
-  switchLanguage: Đổi Ngôn Ngữ
+  language: Ngôn ngữ
+  switchLanguage: Đổi ngôn ngữ
 
 export:
-  title: Tải về
-  publishToDbdocs: Xuất bản tài liệu (đến dbdocs)
-  toPdf: Dưới dạng PDF
-  toPng: Dưới dạng PNG
-  toSvg: Dưới dạng SVG
-  toPostgreSQL: Dưới dạng PostgreSQL
-  toMySQL: Dưới dạng MySQL
-  toSQLServer: Dưới dạng SQL Server
-  toOracleSQL: Dưới dạng Oracle SQL
+  title: Xuất
+  publishToDbdocs: Xuất bản tài liệu (lên dbdocs)
+  toPdf: Ra PDF
+  toPng: Ra PNG
+  toSvg: Ra SVG
+  toPostgreSQL: Ra PostgreSQL
+  toMySQL: Ra MySQL
+  toSQLServer: Ra SQL Server
+  toOracleSQL: Ra Oracle SQL
 
 import:
   title: Nhập
   importFrom: Nhập từ
-  fromDatabaseConnection: Từ Kết nối Cơ sở Dữ liệu (qua CLI)
+  fromDatabaseConnection: Từ kết nối CSDL (qua CLI)
   fromMySQL: Từ MySQL
   fromPostgreSQL: Từ PostgreSQL
   fromSQLServer: Từ SQL Server
@@ -110,67 +110,14 @@ import:
   fromRails: Từ Rails (schema.rb)
   fromCSV: Từ CSV
 
-upgrade:
-  title: Nâng cấp
-  upgradeToPersonalPro: Nâng cấp lên gói Personal Pro
-  collaborateWithTeam: Hợp tác với gói Team
-
-quickActions:
-  title: Hành động nhanh
-
-ai:
-  title: AI
-
-actions:
-  saveChanges: Lưu Thay Đổi
-  confirmDelete: Bạn có chắc chắn muốn xóa mục này?
-  confirmDeleteItem: Bạn có chắc chắn muốn xóa "{name}"?
-  confirmArchive: Bạn có chắc chắn muốn lưu trữ mục này?
-  copyToClipboard: Sao chép vào bộ nhớ tạm
-  copiedToClipboard: Đã sao chép!
-  selectAll: Chọn tất cả
-  deselectAll: Bỏ chọn tất cả
-  loading: Đang tải...
-  saving: Đang lưu...
-  processing: Đang xử lý...
-  pleaseWait: Vui lòng đợi...
-
-states:
-  loading: Đang tải...
-  saving: Đang lưu...
-  error: Đã xảy ra lỗi
-  success: Thành công
-  warning: Cảnh báo
-  info: Thông tin
-  empty: Không có dữ liệu
-  noResults: Không tìm thấy kết quả
-  noItems: Không tìm thấy mục nào
-  offline: Bạn đang ngoại tuyến
-  online: Bạn đã quay trở lại
-
-time:
-  justNow: vừa xong
-  minuteAgo: một phút trước
-  minutesAgo: "{count} phút trước"
-  hourAgo: một giờ trước
-  hoursAgo: "{count} giờ trước"
-  dayAgo: một ngày trước
-  daysAgo: "{count} ngày trước"
-  weekAgo: một tuần trước
-  weeksAgo: "{count} tuần trước"
-  monthAgo: một tháng trước
-  monthsAgo: "{count} tháng trước"
-  yearAgo: một năm trước
-  yearsAgo: "{count} năm trước"
-
 errors:
-  generic: Đã có lỗi xảy ra. Vui lòng thử lại.
-  network: Lỗi kết nối. Vui lòng kiểm tra kết nối của bạn.
+  generic: Đã xảy ra lỗi. Vui lòng thử lại.
+  network: Lỗi mạng. Vui lòng kiểm tra kết nối của bạn.
   unauthorized: Bạn cần đăng nhập để tiếp tục.
-  forbidden: Bạn không có quyền thực hiện hành động này.
+  forbidden: Bạn không có quyền thực hiện việc này.
   notFound: Không tìm thấy tài nguyên yêu cầu.
   serverError: Lỗi máy chủ. Vui lòng thử lại sau.
-  invalidInput: Vui lòng kiểm tra lại thông tin nhập vào.
+  invalidInput: Vui lòng kiểm tra đầu vào và thử lại.
   required: Trường này là bắt buộc.
   invalidEmail: Vui lòng nhập địa chỉ email hợp lệ.
   passwordTooShort: Mật khẩu phải có ít nhất {min} ký tự.

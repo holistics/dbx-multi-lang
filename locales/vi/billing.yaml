@@ -4,125 +4,125 @@ buttons:
   collaborateWithTeam: Cộng tác với gói Team
 
 pricing:
-  title: Bảng Giá
+  title: Bảng giá
   subtitle: Chọn gói phù hợp với bạn
-  free: Miễn Phí
+  free: Miễn phí
   pro: Pro
-  team: Nhóm
-  currentPlan: Gói Hiện Tại
-  upgrade: Nâng Cấp
-  downgrade: Hạ Cấp
-  cancel: Hủy Gói Dịch Vụ
+  team: Team
+  currentPlan: Gói hiện tại
+  upgrade: Nâng cấp
+  downgrade: Hạ cấp
+  cancel: Hủy đăng ký
 
 plans:
   free:
-    name: Miễn Phí
+    name: Free
     description: Cho cá nhân và dự án nhỏ
     price: "$0"
     period: mãi mãi
     features:
       - Tối đa 3 sơ đồ
       - Công cụ chỉnh sửa cơ bản
-      - Xuất SQL/PNG
+      - Xuất ra SQL/PNG
       - Hỗ trợ cộng đồng
-    cta: Bắt Đầu
+    cta: Bắt đầu
 
   pro:
     name: Pro
-    description: Cho chuyên gia cần nhiều tính năng hơn
-    price: "300.000₫"
+    description: Cho chuyên gia cần nhiều hơn
+    price: "$10"
     period: mỗi tháng
     features:
-      - Sơ đồ không giới hạn
+      - Không giới hạn sơ đồ
       - Công cụ chỉnh sửa nâng cao
       - Lịch sử phiên bản
       - Hỗ trợ ưu tiên
-      - Xuất PDF
-      - Giao diện tùy chỉnh
-    cta: Dùng Thử Miễn Phí
+      - Xuất ra PDF
+      - Chủ đề tùy chỉnh
+    cta: Dùng thử miễn phí
 
   team:
-    name: Nhóm
-    description: Cho nhóm và tổ chức
-    price: Liên hệ
-    period: liên hệ bán hàng
+    name: Team
+    description: Cho đội nhóm và tổ chức
+    price: Tùy chỉnh
+    period: liên hệ kinh doanh
     features:
-      - Tất cả tính năng Pro
-      - Hợp tác nhóm
-      - Quản trị viên
+      - Mọi thứ trong Pro
+      - Cộng tác nhóm
+      - Kiểm soát quản trị (Admin controls)
       - Xác thực SSO
       - Hỗ trợ ưu tiên
       - Tích hợp tùy chỉnh
-    cta: Liên Hệ Bán Hàng
+    cta: Liên hệ kinh doanh
 
 payment:
-  title: Thông Tin Thanh Toán
-  cardNumber: Số Thẻ
-  expiryDate: Ngày Hết Hạn
-  cvv: Mã CVV
-  nameOnCard: Tên Trên Thẻ
-  savePayment: Lưu Phương Thức Thanh Toán
-  paymentMethod: Phương Thức Thanh Toán
-  addNewCard: Thêm Thẻ Mới
+  title: Thông tin thanh toán
+  cardNumber: Số thẻ
+  expiryDate: Ngày hết hạn
+  cvv: CVV
+  nameOnCard: Tên trên thẻ
+  savePayment: Lưu phương thức thanh toán
+  paymentMethod: Phương thức thanh toán
+  addNewCard: Thêm thẻ mới
 
 billing:
-  title: Thanh Toán
-  invoiceHistory: Lịch Sử Hóa Đơn
+  title: Hóa đơn
+  invoiceHistory: Lịch sử hóa đơn
   downloadInvoice: Tải xuống
-  nextBilling: Ngày Gia Hạn Tiếp Theo
+  nextBilling: Ngày thanh toán tiếp theo
   planRenews: Gói của bạn sẽ gia hạn vào
-  planWillCancel: Gói của bạn sẽ hủy vào
+  planWillCancel: Gói của bạn sẽ bị hủy vào
 
 subscription:
-  manage: Quản Lý Gói Dịch Vụ
-  changePlan: Đổi Gói
-  cancelSubscription: Hủy Gói Dịch Vụ
-  reactivate: Kích Hoạt Lại
-  confirmCancel: Bạn có chắc chắn muốn hủy gói dịch vụ?
-  cancelFeedback: Vui lòng cho chúng tôi biết lý do bạn hủy
+  manage: Quản lý đăng ký
+  changePlan: Đổi gói
+  cancelSubscription: Hủy đăng ký
+  reactivate: Kích hoạt lại đăng ký
+  confirmCancel: Bạn có chắc chắn muốn hủy đăng ký không?
+  cancelFeedback: Vui lòng cho chúng tôi biết tại sao bạn hủy
   reason: Lý do hủy
   tooExpensive: Quá đắt
   missingFeatures: Thiếu tính năng
-  switchedService: Đã chuyển sang dịch vụ khác
-  notUsing: Không sử dụng nhiều
+  switchedService: Chuyển sang dịch vụ khác
+  notUsing: Không sử dụng đủ nhiều
   other: Khác
 
 personalPro:
   name: Personal Pro
-  description: Cho freelancer cá nhân, chuyên gia tư vấn để thiết kế sơ đồ cơ sở dữ liệu
-  everythingInFree: ← Tất cả trong Miễn Phí, thêm
-  unlimitedDiagramsTables: Sơ Đồ & Bảng Không Giới Hạn
-  unlimitedViews: Góc Nhìn Sơ Đồ Không Giới Hạn
-  aiAssistant: Trợ Lý AI
-  protectedDiagrams: Sơ Đồ Được Bảo Vệ & Riêng Tư
-  limitedCollaboration: Hợp Tác Có Giới Hạn
-  headerColorTableGroup: Màu Tiêu Đề & Nhóm Bảng
-  detailLevels: Mức Chi Tiết Sơ Đồ
-  versionHistory: Lịch Sử Phiên Bản
-  stickyNotes: Ghi Chú
-  upgradeNow: Nâng Cấp Ngay
+  description: Cho freelancer cá nhân, tư vấn viên thiết kế sơ đồ cơ sở dữ liệu
+  everythingInFree: ← Mọi thứ trong Free, cộng thêm
+  unlimitedDiagramsTables: Không giới hạn Sơ đồ & Bảng
+  unlimitedViews: Không giới hạn Chế độ xem Sơ đồ
+  aiAssistant: Trợ lý AI
+  protectedDiagrams: Sơ đồ được Bảo vệ & Riêng tư
+  limitedCollaboration: Cộng tác giới hạn
+  headerColorTableGroup: Màu tiêu đề & Nhóm bảng
+  detailLevels: Mức độ chi tiết sơ đồ
+  versionHistory: Lịch sử phiên bản
+  stickyNotes: Ghi chú dán (Sticky Notes)
+  upgradeNow: Nâng cấp ngay
   getStarted: Bắt đầu
 
 team:
-  name: Nhóm
+  name: Team
   description: Cho các nhóm cần thiết kế và cộng tác trên sơ đồ cơ sở dữ liệu
-  everythingInPro: ← Tất cả trong Personal Pro, thêm
-  collaborativeWorkspace: Không gian Làm Việc Hợp Tác
-  publicApi: API Công Cộng
-  teamManagement: Quản Lý & Hợp Tác Nhóm
-  adminBilling: Quản Trị Viên & Thanh Toán Thống Nhất
-  freeUserLicenses: 3 Giấy Phép Người Dùng Miễn Phí
-  startTrial: Bắt Đầu Dùng Thử Miễn Phí 7 Ngày
+  everythingInPro: ← Mọi thứ trong Personal Pro, cộng thêm
+  collaborativeWorkspace: Không gian làm việc cộng tác
+  publicApi: API công khai
+  teamManagement: Quản lý nhóm & Cộng tác
+  adminBilling: Quản trị và Thanh toán thống nhất
+  freeUserLicenses: 3 Giấy phép người dùng miễn phí
+  startTrial: Bắt đầu dùng thử miễn phí 7 ngày
   upgradeNow: Nâng cấp ngay
   noCreditCard: Không cần thẻ tín dụng. Hủy bất cứ lúc nào.
-  additionalLicense: Giấy Phép Bổ Sung
-  perMonthUser: /tháng/người dùng
+  additionalLicense: Giấy phép bổ sung
+  perMonthUser: /tháng/người
 
 publicPricing:
-  title: Kế hoạch giá của chúng tôi
-  subtitle: Luôn miễn phí. Nhận thêm quyền lực với Kế hoạch Giá của chúng tôi.
+  title: Các gói giá của chúng tôi
+  subtitle: Luôn miễn phí. Nhận thêm sức mạnh với các Gói trả phí.
   monthlyBilling: Thanh toán hàng tháng
   annualBilling: Thanh toán hàng năm
-  saveUpTo: Tiết kiệm lên đến 42%
-  getStartedFree: Bắt Đầu Miễn Phí
-  errorFetching: Lỗi khi lấy giá của người dùng
+  saveUpTo: Tiết kiệm tới 42%
+  getStartedFree: Bắt đầu miễn phí
+  errorFetching: Lỗi khi lấy thông tin giá người dùng

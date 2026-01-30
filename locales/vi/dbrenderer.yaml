@@ -1,112 +1,110 @@
 # DBRenderer Component Translations
-# This file contains all user-facing strings for the @holistics/dbrenderer package
-
-# Table Search Panel
+# Bảng điều khiển tìm kiếm bảng
 tableSearchPanel:
-  # Titles
+  # Tiêu đề
   title: Bảng
-  diagramViews: Chế Độ Xem Sơ Đồ
+  diagramViews: Chế độ xem sơ đồ
   diagramViewsTooltip: >-
     Chế độ xem sơ đồ là tập hợp các bảng đại diện cho
-    các lĩnh vực hoặc quy trình làm việc cụ thể trong cơ sở dữ liệu của bạn.
+    các miền (domain) hoặc quy trình cụ thể trong cơ sở dữ liệu của bạn.
 
-  # View actions
+  # Hành động xem
   viewActions: Hành động xem
   cannotRenameOrDelete: Không thể đổi tên hoặc xóa {name}
-  rename: Đổi Tên
+  rename: Đổi tên
   delete: Xóa
 
-  # Save buttons
-  reset: Đặt Lại
+  # Nút lưu
+  reset: Đặt lại
   save: Lưu
-  saveAsNew: Lưu Bản Mới
+  saveAsNew: Lưu mới
 
-  # Search
-  searchPlaceholder: Tìm kiếm bảng hoặc lược đồ
-  searchPlaceholderWithGroup: Tìm kiếm bảng, lược đồ hoặc nhóm
+  # Tìm kiếm
+  searchPlaceholder: Tìm bảng hoặc lược đồ (schema)
+  searchPlaceholderWithGroup: Tìm bảng, lược đồ hoặc nhóm
   groupBy: Nhóm theo
 
-  # Show/Hide
-  showAll: Hiển Thị Tất Cả
-  hideAll: Ẩn Tất Cả
+  # Hiện/Ẩn
+  showAll: Hiện tất cả
+  hideAll: Ẩn tất cả
 
-  # Group types
-  schema: Lược Đồ
-  tableGroup: Nhóm Bảng
+  # Loại nhóm
+  schema: Lược đồ (Schema)
+  tableGroup: Nhóm bảng (Table Group)
   noGroup: (không nhóm)
 
-  # Default names
-  defaultView: Chế Độ Xem Mặc Định
-  unknownView: Chế Độ Xem Không Xác Định
-  database: Cơ Sở Dữ Liệu
-  newView: Chế Độ Xem Mới
-  copyOfName: Bản Sao Của {name}
+  # Tên mặc định
+  defaultView: Chế độ xem mặc định
+  unknownView: Chế độ xem không xác định
+  database: Cơ sở dữ liệu
+  newView: Chế độ xem mới
+  copyOfName: Bản sao của {name}
 
-# Controller Bar
+# Thanh điều khiển
 controllerBar:
-  # Highlight
-  highlightRelationships: Nhấn mạnh các mối quan hệ
-  unhighlightRelationships: Bỏ nhấn mạnh các mối quan hệ
+  # Nổi bật
+  highlightRelationships: Làm nổi bật các mối quan hệ
+  unhighlightRelationships: Bỏ làm nổi bật các mối quan hệ
 
-  # Grid
+  # Lưới
   enableGrid: Bật lưới
   disableGrid: Tắt lưới
 
-  # Sticky note
-  addStickyNote: Thêm ghi chú
+  # Ghi chú
+  addStickyNote: Thêm ghi chú dán (sticky note)
 
-  # Table search
+  # Tìm kiếm bảng
   searchTables: Tìm kiếm bảng
   hideTableSearch: Ẩn tìm kiếm bảng
 
-  # Fullscreen
+  # Toàn màn hình
   enterFullscreen: Vào toàn màn hình
   exitFullscreen: Thoát toàn màn hình
 
-# Auto Arrange
+# Tự động sắp xếp
 autoArrange:
-  title: Chọn thuật toán sắp xếp tự động
+  title: Chọn thuật toán tự động sắp xếp
   leftRight: Trái-phải
-  topDown: Trên-xuống
+  topDown: Trên-dưới
   rightLeft: Phải-trái
-  bottomUp: Dưới-lên
-  snowflake: Hoa tiêu
-  compact: Gọn nhẹ
+  bottomUp: Dưới-trên
+  snowflake: Snowflake
+  compact: Gọn gàng
   confirmMessage: >-
-    Sơ đồ của bạn sẽ được sắp xếp lại tự động và bạn sẽ không thể hoàn tác. Bạn có chắc không?
-  confirm: Xác Nhận (↵)
+    Sơ đồ của bạn sẽ được tự động sắp xếp lại và bạn sẽ không thể hoàn tác. Bạn có chắc không?
+  confirm: Xác nhận (↵)
   cancel: Hủy (Esc)
 
-# Detail Level
+# Mức độ chi tiết
 detailLevel:
   title: Mức độ chi tiết
-  showAllColumns: Hiển thị tất cả các cột
-  hideColumns: Ẩn các cột
+  showAllColumns: Hiện tất cả cột
+  hideColumns: Ẩn cột
   showPrimaryKeys: Chỉ khóa chính
-  showLimitedColumns: Các cột hạn chế
+  showLimitedColumns: Các cột giới hạn
 
-# View Dropdown
+# Menu thả xuống chế độ xem
 viewDropdown:
   renameView: Đổi tên chế độ xem
   removeView: Xóa chế độ xem
   newView: Chế độ xem mới
 
-# Viewport Controller
+# Điều khiển khung nhìn
 viewportController:
   zoomOut: Thu nhỏ (giữ để tăng tốc)
   zoomIn: Phóng to (giữ để tăng tốc)
-  editZoomLevel: Nhấn để chỉnh mức thu phóng
-  zoomToFit: Phóng vừa để xem tất cả các phần tử
-  enablePanMode: Nhấn để bật chế độ kéo
-  disablePanMode: Nhấn để tắt chế độ kéo
-  panModeHint: Hoặc giữ Space/Chuột giữa + kéo để di chuyển
+  editZoomLevel: Nhấn để sửa mức thu phóng
+  zoomToFit: Thu phóng vừa tất cả phần tử
+  enablePanMode: Nhấn để bật chế độ trượt (pan)
+  disablePanMode: Nhấn để tắt chế độ trượt (pan)
+  panModeHint: Hoặc giữ phím Space/Chuột giữa + kéo để trượt
 
-# Common
+# Chung
 common:
-  confirm: Xác Nhận
+  confirm: Xác nhận
   cancel: Hủy
   save: Lưu
   close: Đóng
   delete: Xóa
-  rename: Đổi Tên
-  remove: Xóa
+  rename: Đổi tên
+  remove: Xóa bỏ

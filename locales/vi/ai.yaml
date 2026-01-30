@@ -1,33 +1,33 @@
-title: Trợ lý AI DBDiagram
+title: DBDiagram AI
 
 panel:
   title: Trợ lý AI
-  welcome: Xin chào! Tôi là trợ lý AI của bạn. Tôi có thể giúp gì cho bạn với sơ đồ cơ sở dữ liệu hôm nay?
+  welcome: Xin chào! Tôi là trợ lý AI của bạn. Tôi có thể giúp gì cho sơ đồ cơ sở dữ liệu của bạn hôm nay?
   inputPlaceholder: Hỏi tôi bất cứ điều gì về sơ đồ của bạn...
   send: Gửi
   close: Đóng
-  clear: Xóa trò chuyện
-  currentChat: Trò chuyện hiện tại
-  previousChats: Các cuộc trò chuyện trước
-  noOtherChats: Chưa có cuộc trò chuyện nào khác
+  clear: Xóa đoạn chat
+  currentChat: Đoạn chat hiện tại
+  previousChats: Các đoạn chat trước
+  noOtherChats: Chưa có đoạn chat nào khác
   sendInstructions: Nhấn Enter để gửi, Shift+Enter để xuống dòng
   sendMessage: Gửi tin nhắn
-  workspaceDisabled: Không gian làm việc bị vô hiệu hóa
+  workspaceDisabled: Không gian làm việc đã bị vô hiệu hóa
   editPermissionRequired: Cần quyền chỉnh sửa
-  usageLimitReached: Bạn đã sử dụng hết giới hạn sử dụng cho tháng này. Vui lòng thử lại vào
+  usageLimitReached: Bạn đã sử dụng hết giới hạn của tháng này. Vui lòng thử lại vào
   learnMoreAboutUsageLimits: Tìm hiểu thêm về giới hạn sử dụng
 
 welcome:
   title: Chào mừng đến với DBDiagram AI
-  subtitle: Trợ lý thông minh của bạn cho thiết kế cơ sở dữ liệu
+  subtitle: Trợ lý thông minh cho thiết kế cơ sở dữ liệu của bạn
   features:
     title: Tôi có thể giúp gì cho bạn?
-    generate: Tạo schema từ mô tả
+    generate: Tạo lược đồ (schema) từ mô tả
     optimize: Tối ưu hóa thiết kế cơ sở dữ liệu
-    explain: Giải thích mối quan hệ và cấu trúc
-    suggest: Đề xuất cải thiện và phương pháp tốt nhất
+    explain: Giải thích các mối quan hệ và cấu trúc
+    suggest: Đề xuất cải tiến và các phương pháp tốt nhất (best practices)
   getStarted:
-    title: Sẵn sàng bắt đầu?
+    title: Sẵn sàng bắt đầu chưa?
     button: Hỏi tôi bất cứ điều gì
 
 messages:
@@ -38,28 +38,28 @@ messages:
   rateLimit: Bạn đã đạt đến giới hạn sử dụng. Vui lòng nâng cấp để tiếp tục.
 
 quickActions:
-  title: Hành động nhanh
+  title: Thao tác nhanh
 
 diffViewer:
-  title: So sánh Thay đổi
+  title: So sánh thay đổi
   current: Hiện tại
   proposed: Đề xuất
-  apply: Áp dụng Thay đổi
-  discard: Hủy
-  noChanges: Không có thay đổi để hiển thị
+  apply: Áp dụng thay đổi
+  discard: Hủy bỏ
+  noChanges: Không có thay đổi nào để hiển thị
   reject: Từ chối
   accept: Chấp nhận
-  rejectAll: Từ chối Tất cả
-  acceptAll: Chấp nhận Tất cả
+  rejectAll: Từ chối tất cả
+  acceptAll: Chấp nhận tất cả
 
 tokenUsage:
-  title: Sử dụng
+  title: Mức sử dụng
   used: Đã dùng
   limit: Giới hạn
-  upgrade: Nâng cấp để dùng thêm
-  usageText: Bạn đã dùng {percentage} giới hạn sử dụng của mình
+  upgrade: Nâng cấp để thêm
+  usageText: Bạn đã sử dụng {percentage} giới hạn của mình
   tokens: token
-  learnMore: Nhấp để tìm hiểu thêm về giới hạn sử dụng
+  learnMore: Nhấn để tìm hiểu thêm về giới hạn
   resetOn: Đặt lại vào
 
 assistant:
@@ -67,30 +67,30 @@ assistant:
   lines: dòng
 
 responseMessages:
-  noExplanation: Schema đã được cập nhật. Kiểm tra diff viewer để xem các thay đổi.
-  invalidIntent: "Chào mừng đến với dbdiagram AI.\n\nTôi ở đây để giúp bạn:\n\n• **Thiết kế schema DBML** - Tạo và sửa đổi bảng, mối quan hệ và cấu trúc cơ sở dữ liệu\n• **Thực hành tốt nhất cho cơ sở dữ liệu** - Đề xuất kiểu dữ liệu tối ưu, chỉ mục và ràng buộc\n• **Tối ưu hóa schema** - Tổ chức bảng với TableGroups, thêm timestamps, chuyển đổi kiểu dữ liệu\n• **Chuyển đổi nhanh** - Chuyển đổi giữa các hệ cơ sở dữ liệu (PostgreSQL, MySQL, SQL Server, v.v.)\n\nThử hỏi tôi tạo bảng, thêm mối quan hệ, hoặc sử dụng các hành động nhanh ở trên để bắt đầu!"
+  noExplanation: Lược đồ đã được cập nhật. Kiểm tra trình xem khác biệt (diff viewer) để xem lại các thay đổi.
+  invalidIntent: "Chào mừng đến với dbdiagram AI.\n\nTôi ở đây để giúp bạn:\n\n• **Thiết kế lược đồ DBML** - Tạo và sửa đổi bảng, mối quan hệ và cấu trúc cơ sở dữ liệu\n• **Các phương pháp tốt nhất về CSDL** - Đề xuất các kiểu dữ liệu, chỉ mục (index) và ràng buộc (constraint) tối ưu\n• **Tối ưu hóa lược đồ** - Tổ chức bảng với Nhóm bảng (TableGroup), thêm dấu thời gian, ánh xạ lại kiểu dữ liệu\n• **Chuyển đổi nhanh** - Chuyển đổi giữa các hệ quản trị CSDL (PostgreSQL, MySQL, SQL Server, v.v.)\n\nHãy thử yêu cầu tôi tạo bảng, thêm mối quan hệ hoặc sử dụng các thao tác nhanh ở trên để bắt đầu!"
 
 quickActionTitles:
-  createTableGroups: Tạo Nhóm Bảng
-  addTimestampColumns: Thêm Cột Timestamp
-  addRelationships: Thêm Mối Quan Hệ
-  addIndexes: Thêm Chỉ Mục
-  learnDatabaseDesign: Học Thiết Kế Cơ Sở Dữ Liệu
-  cloneSlack: Sao Chép Slack
-  documentDatabase: Cơ Sở Dữ Liệu Tài Liệu
-  todoList: Danh Sách Việc Cần Làm
-  remapDataTypes: Chuyển Đổi Kiểu Dữ Liệu
+  createTableGroups: Tạo Nhóm bảng (Table Groups)
+  addTimestampColumns: Thêm cột thời gian (Timestamp)
+  addRelationships: Thêm mối quan hệ
+  addIndexes: Thêm chỉ mục (Indexes)
+  learnDatabaseDesign: Học thiết kế CSDL
+  cloneSlack: Clone Slack
+  documentDatabase: Viết tài liệu CSDL
+  todoList: Ứng dụng Todo List
+  remapDataTypes: Ánh xạ lại kiểu dữ liệu
 
 quickActionDescriptions:
-  createTableGroups: Tổ chức bảng của bạn thành các nhóm logic theo lĩnh vực và chức năng với màu sắc riêng biệt
-  addTimestampColumns: Thêm cột created_at và updated_at vào các bảng cần theo dõi kiểm toán
-  addRelationships: Tự động phát hiện và thêm mối quan hệ khóa ngoại dựa trên quy ước đặt tên
-  addIndexes: Thêm khối chỉ mục cho các cột khóa ngoại và cột thường được truy vấn
+  createTableGroups: Tổ chức các bảng thành các nhóm logic theo nghiệp vụ và chức năng với màu sắc riêng biệt
+  addTimestampColumns: Thêm cột created_at và updated_at cho các bảng cần theo dõi lịch sử
+  addRelationships: Tự động phát hiện và thêm quan hệ khóa ngoại dựa trên quy ước đặt tên
+  addIndexes: Thêm khối chỉ mục (index block) cho các khóa ngoại và các cột thường được truy vấn
   learnDatabaseDesign: Tìm hiểu về thiết kế cơ sở dữ liệu
-  cloneSlack: Tạo bản sao chép Slack
+  cloneSlack: Tạo bản sao ứng dụng Slack
   documentDatabase: Tạo cơ sở dữ liệu để lưu trữ tài liệu
   todoList: Tạo ứng dụng danh sách việc cần làm
-  remapDataTypes: Chuyển đổi kiểu dữ liệu để phù hợp với hệ cơ sở dữ liệu mục tiêu của bạn
+  remapDataTypes: Chuyển đổi kiểu dữ liệu để khớp với hệ quản trị CSDL mục tiêu của bạn
 
 quickActionSubActions:
   postgresql: PostgreSQL

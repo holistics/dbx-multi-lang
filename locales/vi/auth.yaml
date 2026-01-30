@@ -1,11 +1,11 @@
 login:
-  title: Đăng Nhập Vào DBDiagram
+  title: Đăng nhập vào DBDiagram
   subtitle: Chào mừng trở lại! Vui lòng đăng nhập để tiếp tục.
   email: Email
   password: Mật khẩu
   forgotPassword: Quên mật khẩu?
   rememberMe: Ghi nhớ đăng nhập
-  loginButton: Đăng Nhập
+  loginButton: Đăng nhập
   noAccount: Chưa có tài khoản?
   signupLink: Đăng ký
   orContinueWith: hoặc tiếp tục với
@@ -14,17 +14,17 @@ login:
   loginWithMicrosoft: Đăng nhập bằng Microsoft
 
 signup:
-  title: Đăng Ký DBDiagram
+  title: Đăng ký DBDiagram
   subtitle: Tạo tài khoản miễn phí để bắt đầu
-  name: Họ và Tên
+  name: Họ và tên
   email: Email
   password: Mật khẩu
-  confirmPassword: Xác Nhận Mật Khẩu
+  confirmPassword: Xác nhận mật khẩu
   agreeToTerms: Tôi đồng ý với
-  termsOfService: Điều Khoản Dịch Vụ
+  termsOfService: Điều khoản Dịch vụ
   and: và
-  privacyPolicy: Chính Sách Bảo Mật
-  signupButton: Đăng Ký
+  privacyPolicy: Chính sách Bảo mật
+  signupButton: Đăng ký
   alreadyHaveAccount: Đã có tài khoản?
   loginLink: Đăng nhập
   orContinueWith: hoặc tiếp tục với
@@ -33,68 +33,68 @@ signup:
   signupWithMicrosoft: Đăng ký bằng Microsoft
 
 forgotPassword:
-  title: Đặt Lại Mật Khẩu
-  subtitle: Nhập địa chỉ email của bạn và chúng tôi sẽ gửi liên kết đặt lại mật khẩu
+  title: Đặt lại mật khẩu
+  subtitle: Nhập địa chỉ email của bạn và chúng tôi sẽ gửi liên kết để đặt lại mật khẩu
   email: Email
-  sendLink: Gửi Liên Kết Đặt Lại
-  backToLogin: Quay Lại Đăng Nhập
+  sendLink: Gửi liên kết đặt lại
+  backToLogin: Quay lại Đăng nhập
   checkEmail: Kiểm tra email của bạn
   emailSent: Chúng tôi đã gửi liên kết đặt lại mật khẩu đến email của bạn
   didntReceive: Không nhận được email?
   resendLink: Gửi lại
 
 resetPassword:
-  title: Đặt Mật Khẩu Mới
+  title: Đặt mật khẩu mới
   subtitle: Nhập mật khẩu mới của bạn bên dưới
-  newPassword: Mật Khẩu Mới
-  confirmPassword: Xác Nhận Mật Khẩu
-  resetButton: Đặt Lại Mật Khẩu
+  newPassword: Mật khẩu mới
+  confirmPassword: Xác nhận mật khẩu
+  resetButton: Đặt lại mật khẩu
   passwordMismatch: Mật khẩu không khớp
   passwordTooWeak: Mật khẩu quá yếu
   success: Đặt lại mật khẩu thành công
   loginNow: Đăng nhập ngay
 
 oauth:
-  authorizationError: Xác thực thất bại
-  authorizationDenied: Xác thực bị từ chối
+  authorizationError: Ủy quyền thất bại
+  authorizationDenied: Ủy quyền bị từ chối
   linkingError: Liên kết tài khoản thất bại
-  alreadyLinked: Tài khoản này đã được liên kết với người dùng khác
+  alreadyLinked: Tài khoản này đã được liên kết với một người dùng khác
   emailNotVerified: Vui lòng xác minh email của bạn trước
   processing: Đang xử lý...
   justAMomentPleaseWait: Vui lòng đợi trong giây lát...
-  signedInAs: Bạn đã đăng nhập với tư cách
+  signedInAs: Bạn đang đăng nhập với tư cách là
 
 verification:
-  title: Xác Minh Email Của Bạn
+  title: Xác minh email của bạn
   subtitle: Chúng tôi đã gửi liên kết xác minh đến email của bạn
   resendLink: Gửi lại email xác minh
-  verifyButton: Xác Minh Email
-  verified: Xác minh email thành công
+  verifyButton: Xác minh Email
+  verified: Email đã được xác minh thành công
   expired: Liên kết xác minh đã hết hạn
   invalidLink: Liên kết xác minh không hợp lệ
 
 errors:
   invalidCredentials: Email hoặc mật khẩu không hợp lệ
   userNotFound: Không tìm thấy tài khoản với email này
-  emailAlreadyExists: Đã có tài khoản với email này
+  emailAlreadyExists: Một tài khoản với email này đã tồn tại
   weakPassword: Mật khẩu quá yếu
-  invalidToken: Token không hợp lệ hoặc đã hết hạn
-  sessionExpired: Phiên làm việc của bạn đã hết hạn. Vui lòng đăng nhập lại
+  invalidToken: Mã token không hợp lệ hoặc đã hết hạn
+  sessionExpired: Phiên làm việc đã hết hạn. Vui lòng đăng nhập lại
   invalidEmail: Địa chỉ email không hợp lệ, vui lòng thử lại!
-  githubPopupBlocked: Vui lòng cho phép popup để đăng nhập bằng GitHub
+  githubPopupBlocked: Vui lòng cho phép cửa sổ bật lên (popups) để đăng nhập bằng GitHub
 
 otp:
   signInWithEmail: Đăng nhập bằng Email
-  otpSentTo: OTP đã gửi đến
+  otpSentTo: OTP đã được gửi đến
   wrongEmail: Sai địa chỉ email?
-  changeEmail: Thay đổi email
+  changeEmail: Đổi email
   inputEmail: Vui lòng nhập địa chỉ email của bạn
-  inputYourOtp: Nhập OTP của bạn
+  inputYourOtp: Nhập mã OTP của bạn
   inputOtpCode: Vui lòng nhập mã OTP được gửi đến email
   signInSuccess: Đăng nhập thành công
   didntReceiveOtp: Không nhận được OTP?
   resendOtp: Gửi lại OTP
-  resendAfter: Bạn có thể gửi lại OTP sau {counter}s
+  resendAfter: Bạn có thể gửi lại OTP sau {counter} giây
 
 sso:
   orContinueWith: hoặc tiếp tục với
