@@ -7,7 +7,6 @@ import enDbrendererYaml from '../locales/en/dbrenderer.yaml?raw';
 import enHeaderYaml from '../locales/en/header.yaml?raw';
 import enHomeYaml from '../locales/en/home.yaml?raw';
 import enModalsYaml from '../locales/en/modals.yaml?raw';
-import enNavigationYaml from '../locales/en/navigation.yaml?raw';
 import enWorkspaceYaml from '../locales/en/workspace.yaml?raw';
 import enAiYaml from '../locales/en/ai.yaml?raw';
 
@@ -19,7 +18,6 @@ import viDbrendererYaml from '../locales/vi/dbrenderer.yaml?raw';
 import viHeaderYaml from '../locales/vi/header.yaml?raw';
 import viHomeYaml from '../locales/vi/home.yaml?raw';
 import viModalsYaml from '../locales/vi/modals.yaml?raw';
-import viNavigationYaml from '../locales/vi/navigation.yaml?raw';
 import viWorkspaceYaml from '../locales/vi/workspace.yaml?raw';
 import viAiYaml from '../locales/vi/ai.yaml?raw';
 
@@ -45,7 +43,6 @@ export const messages = {
     header: parseYaml(enHeaderYaml),
     home: parseYaml(enHomeYaml),
     modals: parseYaml(enModalsYaml),
-    navigation: parseYaml(enNavigationYaml),
     ai: parseYaml(enAiYaml),
     // workspace.yaml keeps its nested structure as a single namespace
     workspace: parseYaml(enWorkspaceYaml),
@@ -59,7 +56,6 @@ export const messages = {
     header: parseYaml(viHeaderYaml),
     home: parseYaml(viHomeYaml),
     modals: parseYaml(viModalsYaml),
-    navigation: parseYaml(viNavigationYaml),
     ai: parseYaml(viAiYaml),
     // workspace.yaml keeps its nested structure as a single namespace
     workspace: parseYaml(viWorkspaceYaml),
