@@ -1,5 +1,5 @@
 {
-  "name": "@dbx/multi-lang",
+  "name": "@holistics/dbx-multi-lang",
   "version": "1.0.0",
   "description": "Multi-language support package for DBDiagram",
   "type": "module",
@@ -28,5 +28,6 @@
   },
   "devDependencies": {
     "vite": "^5.0.0"
-  }
+  },
+  "repository": "https://github.com/holistics/dbx-multi-lang.git"
 }
