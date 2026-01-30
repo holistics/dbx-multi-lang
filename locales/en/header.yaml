@@ -83,3 +83,10 @@ notifications:
   discardFailed: Failed to discard drafts
   showPublishFailed: Failed to show publish confirmation
   renameFailed: Failed to rename diagram. Please try again
+
+accountDropdown:
+  loggedInWithSSO: Logged in with SSO
+  darkMode: Dark Mode
+  managePersonalPlan: Manage Personal Plan
+  manageAccount: Manage Account
+  signOut: Sign Out

@@ -58,6 +58,16 @@ share:
     admin: Quản trị viên
     editor: Người chỉnh sửa
     viewer: Người xem
+    canEditAndInvite: Có thể chỉnh sửa & mời
+    canEditAndInviteDesc: Có thể chỉnh sửa & mời người khác.
+    canEdit: Có thể chỉnh sửa
+    canEditDesc: Có thể chỉnh sửa, nhưng không thể mời người khác.
+    canView: Có thể xem
+    canViewDesc: Có thể xem, nhưng không thể chỉnh sửa.
+    remove: Xóa
+    removeDesc: Xóa cộng tác viên này.
+    noAccess: Không có quyền truy cập
+    noAccessDesc: Không có quyền truy cập sơ đồ này
   invite:
     title: Mời mọi người
     placeholder: Email, phân cách bằng dấu phẩy hoặc khoảng trắng
@@ -252,3 +262,37 @@ history:
     versionCopied: Phiên bản của bạn đã được sao chép thành công
   copiedName: '(Đã khôi phục) {name}'
   untitled: Chưa có tiêu đề
+
+errors:
+  # Sharing errors
+  inviteMaxEmails: Không thể mời quá 50 email
+  inviteFailed: Không thể mời, vui lòng thử lại!
+  cannotGetCollaborators: Không thể lấy thông tin cộng tác viên!
+  permissionUpdateFailed: Cập nhật quyền thất bại
+  permissionUpdateSuccess: Cập nhật quyền thành công
+  inviteSent: Đã gửi lời mời
+
+  # Workspace errors
+  cannotGetWorkspaceParticipants: Không thể lấy người tham gia workspace, vui lòng thử lại!
+
+  # Export errors
+  exportSqlFailed: Xuất SQL thất bại, vui lòng cập nhật schema database và thử lại.
+  savePdfFailed: Không thể lưu PDF
+  saveSvgFailed: Không thể lưu SVG
+  savePngFailed: Không thể lưu PNG
+
+  # Billing errors
+  checkoutFailed: Có lỗi xảy ra khi thanh toán. Vui lòng thử lại sau
+  checkoutSuccess: Thanh toán thành công
+  switchPlanSuccess: Chuyển đổi gói thành công
+  paymentProcessing: Thanh toán đang được xử lý, vui lòng tải lại trang sau vài phút.
+
+  # Token errors
+  tokenGenerated: Tạo token thành công
+
+  # Login errors
+  githubSignInFailed: Đăng nhập bằng GitHub thất bại
+  microsoftSignInFailed: Đăng nhập bằng Microsoft thất bại, vui lòng thử lại!
+
+  # General errors
+  supportContact: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io

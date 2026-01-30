@@ -83,3 +83,10 @@ notifications:
   discardFailed: Hủy bỏ bản nháp thất bại
   showPublishFailed: Hiển thị xác nhận xuất bản thất bại
   renameFailed: Đổi tên sơ đồ thất bại. Vui lòng thử lại
+
+accountDropdown:
+  loggedInWithSSO: Đã đăng nhập bằng SSO
+  darkMode: Chế độ tối
+  managePersonalPlan: Quản lý Gói cá nhân
+  manageAccount: Quản lý Tài khoản
+  signOut: Đăng xuất

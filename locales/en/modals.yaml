@@ -58,6 +58,16 @@ share:
     admin: Admin
     editor: Editor
     viewer: Viewer
+    canEditAndInvite: Can edit & invite
+    canEditAndInviteDesc: Can edit & invite people.
+    canEdit: Can edit
+    canEditDesc: Can edit, but not invite people.
+    canView: Can view
+    canViewDesc: Can view, but not edit.
+    remove: Remove
+    removeDesc: Remove this collaborator.
+    noAccess: No access
+    noAccessDesc: No access to this diagram
   invite:
     title: Invite people
     placeholder: Email, comma or space separated
@@ -252,3 +262,37 @@ history:
     versionCopied: Your version is copied successfully
   copiedName: '(Restored) {name}'
   untitled: Untitled
+
+errors:
+  # Sharing errors
+  inviteMaxEmails: Can not invite more than 50 emails
+  inviteFailed: Can not invite, please try again!
+  cannotGetCollaborators: Can not get collaborators information!
+  permissionUpdateFailed: Update permission failed
+  permissionUpdateSuccess: Update permission successfully
+  inviteSent: Invite sent
+
+  # Workspace errors
+  cannotGetWorkspaceParticipants: Cannot get workspace participants, please try again!
+
+  # Export errors
+  exportSqlFailed: Fail to export SQL, please update your database schema and try again.
+  savePdfFailed: Unable to save your pdf
+  saveSvgFailed: Unable to save your svg
+  savePngFailed: Unable to save your png
+
+  # Billing errors
+  checkoutFailed: An error occur during checkout. Please try again later
+  checkoutSuccess: Checkout success
+  switchPlanSuccess: Switch plan successfully
+  paymentProcessing: Your payment is processing, please reload the page in a few minutes.
+
+  # Token errors
+  tokenGenerated: Generated token successfully
+
+  # Login errors
+  githubSignInFailed: Failed to sign in with GitHub
+  microsoftSignInFailed: Failed to sign in with Microsoft, please try again!
+
+  # General errors
+  supportContact: An error has occurred, please contact our support at dbdiagram@holistics.io
