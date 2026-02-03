@@ -1,2 +1,15 @@
-node_modules
-dist
+.DS_Store
+node_modules/
+/dist/
+*.log*
+.env
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
