@@ -165,6 +165,11 @@ diagramList:
   duplicate: Duplicate
   delete: Delete
   untitledDiagram: Untitled Diagram
+  columns:
+    name: Name
+    dateCreated: Date Created
+    dateModified: Date Modified
+    owner: Owner
 
 sidebar:
   apiTokens: API Tokens
@@ -232,28 +237,3 @@ apiTokens:
 common:
   labels:
     you: "(You)"
-
-modals:
-  paidFeature:
-    title: You discovered a paid feature!
-    description: Upgrade to our paid plans now to collaborate in designing ER diagrams with
-    features: Invite Collaborators, Publish Editable Diagrams and other advanced features!
-    viewPlans: View Plans
-  share:
-    tooltip:
-      viewOnly: This user permission is limited to viewing only.
-      upgradePersonal: To enable editing collaboration, please upgrade your personal workspace.
-      freeAccount: This user has a <b>free</b> account.
-      editAfterUpgrade: They will be allowed to <b>edit</b> the diagram after their account is upgraded.
-      collaborationLimit: "You can only collaborate with:"
-      diagramLimit: "Up to 4 free users in each diagram (currently {count} users)"
-      workspaceLimit: "Up to 6 free users across all diagrams (currently {count} users)"
-  private:
-    protected: Protected diagram
-    private: This diagram is private
-    passwordRequired: You need a password to view this diagram.
-    noAccess: You don't have access to this diagram.
-    enterPassword: Enter your password
-    incorrectPassword: Incorrect password
-    tryAgain: Please try again!
-    viewDiagram: View Diagram

@@ -128,3 +128,14 @@ status:
 tooltip:
   focusDiagramElement: to focus
   toFocus: to focus
+
+access:
+  public: Public
+  passwordProtected: Password Protected
+  private: Private
+  publicText: Anyone with the link
+  passwordProtectedText: Anyone with the link and password
+  privateText: Only invited people
+  publicTooltip: Public - People can access via its link
+  passwordProtectedTooltip: Password Protected - People can access via its link, but have to fill the correct password
+  privateTooltip: Private - Only invited people can access

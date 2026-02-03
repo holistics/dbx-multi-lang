@@ -135,6 +135,13 @@ editor:
   expand: Mở rộng trình chỉnh sửa
   hide: Ẩn trình chỉnh sửa
   loadingContent: Đang tải nội dung từ máy chủ, vui lòng đợi...
+  keyboardShortcuts: Phím tắt
+
+notifications:
+  noPermissionRemoveView: Bạn không có quyền xóa chế độ xem sơ đồ!
+  noPermissionRenameView: Bạn không có quyền đổi tên chế độ xem sơ đồ!
+  workspaceDisabled: Không gian làm việc này hiện đang bị vô hiệu hóa
+  noEditPermissionAi: Bạn cần quyền chỉnh sửa để sử dụng dbdiagram AI. Vui lòng yêu cầu chủ sở hữu sơ đồ nâng cấp quyền truy cập của bạn.
 
 labels:
   you: "(Bạn)"

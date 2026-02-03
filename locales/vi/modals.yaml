@@ -108,6 +108,24 @@ share:
       cannotCreate: Không thể tạo liên kết nhúng, vui lòng thử lại!
       cannotDelete: Không thể xóa liên kết nhúng, vui lòng thử lại!
       cannotUpdate: Không thể cập nhật cài đặt liên kết nhúng, vui lòng thử lại!
+  tooltip:
+    viewOnly: Quyền của người dùng này chỉ giới hạn ở chế độ xem.
+    upgradePersonal: Để bật chế độ cộng tác chỉnh sửa, vui lòng nâng cấp không gian làm việc cá nhân của bạn.
+    freeAccount: Người dùng này có tài khoản <b>miễn phí</b>.
+    editAfterUpgrade: Họ sẽ được phép <b>chỉnh sửa</b> sơ đồ sau khi nâng cấp tài khoản.
+    collaborationLimit: "Bạn chỉ có thể cộng tác với:"
+    diagramLimit: "Tối đa 4 người dùng miễn phí trong mỗi sơ đồ (hiện tại {count} người dùng)"
+    workspaceLimit: "Tối đa 6 người dùng miễn phí trên tất cả các sơ đồ (hiện tại {count} người dùng)"
+
+private:
+  protected: Sơ đồ được bảo vệ
+  private: Sơ đồ này riêng tư
+  passwordRequired: Bạn cần mật khẩu để xem sơ đồ này.
+  noAccess: Bạn không có quyền truy cập sơ đồ này.
+  enterPassword: Nhập mật khẩu của bạn
+  incorrectPassword: Mật khẩu không đúng
+  tryAgain: Vui lòng thử lại!
+  viewDiagram: Xem sơ đồ
 
 publish:
   title: Xuất bản lên

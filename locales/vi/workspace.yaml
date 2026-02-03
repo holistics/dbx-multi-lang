@@ -165,6 +165,11 @@ diagramList:
   duplicate: Nhân bản
   delete: Xóa
   untitledDiagram: Sơ đồ chưa có tiêu đề
+  columns:
+    name: Tên
+    dateCreated: Ngày tạo
+    dateModified: Ngày chỉnh sửa
+    owner: Chủ sở hữu
 
 sidebar:
   apiTokens: API Token
@@ -232,28 +237,3 @@ apiTokens:
 common:
   labels:
     you: "(Bạn)"
-
-modals:
-  paidFeature:
-    title: Bạn đã phát hiện tính năng trả phí!
-    description: Nâng cấp lên gói trả phí ngay để cộng tác thiết kế sơ đồ ER với
-    features: Mời cộng tác viên, Xuất bản sơ đồ có thể chỉnh sửa và nhiều tính năng nâng cao khác!
-    viewPlans: Xem các gói
-  share:
-    tooltip:
-      viewOnly: Quyền của người dùng này chỉ giới hạn ở chế độ xem.
-      upgradePersonal: Để bật chế độ cộng tác chỉnh sửa, vui lòng nâng cấp không gian làm việc cá nhân của bạn.
-      freeAccount: Người dùng này có tài khoản <b>miễn phí</b>.
-      editAfterUpgrade: Họ sẽ được phép <b>chỉnh sửa</b> sơ đồ sau khi nâng cấp tài khoản.
-      collaborationLimit: "Bạn chỉ có thể cộng tác với:"
-      diagramLimit: "Tối đa 4 người dùng miễn phí trong mỗi sơ đồ (hiện tại {count} người dùng)"
-      workspaceLimit: "Tối đa 6 người dùng miễn phí trên tất cả các sơ đồ (hiện tại {count} người dùng)"
-  private:
-    protected: Sơ đồ được bảo vệ
-    private: Sơ đồ này riêng tư
-    passwordRequired: Bạn cần mật khẩu để xem sơ đồ này.
-    noAccess: Bạn không có quyền truy cập sơ đồ này.
-    enterPassword: Nhập mật khẩu của bạn
-    incorrectPassword: Mật khẩu không đúng
-    tryAgain: Vui lòng thử lại!
-    viewDiagram: Xem sơ đồ

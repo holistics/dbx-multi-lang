@@ -185,3 +185,11 @@ editor:
   expand: Expand editor
   hide: Hide editor
   loadingContent: Loading content from server, please wait...
+  keyboardShortcuts: Keyboard Shortcuts
+
+notifications:
+  noPermissionRemoveView: You don't have the permission to remove diagram view!
+  noPermissionRenameView: You don't have the permission to rename diagram view!
+  workspaceDisabled: This workspace is currently disabled
+  noEditPermissionAi: You need edit permission to use dbdiagram AI. Please ask the diagram owner to upgrade your access.
+
