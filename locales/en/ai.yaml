@@ -16,6 +16,11 @@ panel:
   editPermissionRequired: Edit permission required
   usageLimitReached: You have used all of your usage limit for this month. Please try again on
   learnMoreAboutUsageLimits: Learn more about usage limits
+  chat: Chat
+  clickToEdit: Click to edit
+  newChat: New Chat
+  showChatHistory: Show Chat History
+  hideChatHistory: Hide Chat History
 
 welcome:
   title: Welcome to DBDiagram AI

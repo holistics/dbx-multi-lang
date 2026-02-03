@@ -16,6 +16,11 @@ panel:
   editPermissionRequired: Cần quyền chỉnh sửa
   usageLimitReached: Bạn đã sử dụng hết giới hạn của tháng này. Vui lòng thử lại vào
   learnMoreAboutUsageLimits: Tìm hiểu thêm về giới hạn sử dụng
+  chat: Trò chuyện
+  clickToEdit: Nhấn để chỉnh sửa
+  newChat: Trò chuyện mới
+  showChatHistory: Hiện lịch sử chat
+  hideChatHistory: Ẩn lịch sử chat
 
 welcome:
   title: Chào mừng đến với DBDiagram AI

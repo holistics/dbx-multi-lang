@@ -1,0 +1,14 @@
+# Language metadata for automatic language discovery
+# Add new languages here to have them appear in the dropdown automatically
+
+en:
+  name: English (US)
+  nativeName: English (US)
+  flag: 🇺🇸
+  hello: Hello
+
+vi:
+  name: Vietnamese
+  nativeName: Tiếng Việt
+  flag: 🇻🇳
+  hello: Xin chào

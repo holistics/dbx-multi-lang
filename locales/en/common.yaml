@@ -85,7 +85,7 @@ help:
   sampleEcommerce: Sample E-commerce
   whatsNew: What's new
   language: Language
-  switchLanguage: Switch Language
+  contribute: Help translate this app
 
 export:
   title: Export

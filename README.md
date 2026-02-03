@@ -1,4 +1,4 @@
-# @dbx/multi-lang
+# @holistics/dbx-multi-lang
 
 Multi-language support package for DBDiagram.
 
@@ -44,7 +44,7 @@ yarn link
    yarn link
 
    # In dbdiagram-frontend
-   yarn link @dbx/multi-lang
+   yarn link @holistics/dbx-multi-lang
    ```
 
 4. **Start dbdiagram-frontend**:
@@ -77,5 +77,5 @@ import {
   DEFAULT_LOCALE,     // 'en'
   LOCALE_STORAGE_KEY, // 'dbdiagram-locale'
   messages           // { en: {...}, vi: {...} }
-} from '@dbx/multi-lang';
+} from '@holistics/dbx-multi-lang';
 ```

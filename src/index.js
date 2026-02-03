@@ -21,15 +21,23 @@ import viModalsYaml from '../locales/vi/modals.yaml?raw';
 import viWorkspaceYaml from '../locales/vi/workspace.yaml?raw';
 import viAiYaml from '../locales/vi/ai.yaml?raw';
 
-// Locale configuration
-export const SUPPORT_LOCALES = ['en', 'vi'];
-export const DEFAULT_LOCALE = 'en';
-export const LOCALE_STORAGE_KEY = 'dbdiagram-locale';
+import localesMetadataYaml from '../locales/metadata.yaml?raw';
 
 // Parse YAML strings to objects
 function parseYaml(yamlString) {
   return yaml.load(yamlString);
 }
+
+// Parse metadata and extract language configuration
+const metadata = parseYaml(localesMetadataYaml);
+
+// Auto-discover supported locales from metadata
+export const SUPPORT_LOCALES = Object.keys(metadata);
+export const DEFAULT_LOCALE = 'en';
+export const LOCALE_STORAGE_KEY = 'dbdiagram-locale';
+
+// Export language metadata for frontend use
+export const languageMetadata = metadata;
 
 // Build messages with namespaces
 // Each YAML file becomes its own namespace (e.g., header.yaml → header)
@@ -44,7 +52,6 @@ export const messages = {
     home: parseYaml(enHomeYaml),
     modals: parseYaml(enModalsYaml),
     ai: parseYaml(enAiYaml),
-    // workspace.yaml keeps its nested structure as a single namespace
     workspace: parseYaml(enWorkspaceYaml),
   },
   vi: {
@@ -57,7 +64,12 @@ export const messages = {
     home: parseYaml(viHomeYaml),
     modals: parseYaml(viModalsYaml),
     ai: parseYaml(viAiYaml),
-    // workspace.yaml keeps its nested structure as a single namespace
     workspace: parseYaml(viWorkspaceYaml),
   },
 };
+
+// NOTE: To add a new language:
+// 1. Create a new folder in locales/ (e.g., ja/, fr/)
+// 2. Copy translation YAML files from an existing language
+// 3. Add the language to locales/metadata.yaml with flag, hello, name, nativeName
+// 4. Import the YAML files above and add them to the messages object

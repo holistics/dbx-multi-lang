@@ -70,6 +70,9 @@ buttons:
   manage: Quản lý
   settings: Cài đặt
 
+quickActions:
+  title: Thao tác nhanh
+
 help:
   title: Trợ giúp
   documentation: Tài liệu
@@ -85,7 +88,7 @@ help:
   sampleEcommerce: Mẫu E-commerce
   whatsNew: Có gì mới
   language: Ngôn ngữ
-  switchLanguage: Đổi ngôn ngữ
+  contribute: Giúp dịch thuật ứng dụng này
 
 export:
   title: Xuất
