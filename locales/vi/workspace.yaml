@@ -65,3 +65,170 @@ collaboration:
   editors: Đang sửa
   joined: đã tham gia
   left: đã rời
+
+templates:
+  title: Mẫu
+  useTemplate: Sử dụng mẫu
+  blankDiagram: Sơ đồ trống
+  ecommerce: Sơ đồ Thương mại điện tử
+  blog: Sơ đồ Blog
+  socialNetwork: Sơ đồ Mạng xã hội
+  library: Quản lý Thư viện
+  hospital: Quản lý Bệnh viện
+  school: Quản lý Trường học
+
+activity:
+  title: Hoạt động
+  recentActivity: Hoạt động gần đây
+  created: đã tạo
+  edited: đã chỉnh sửa
+  deleted: đã xóa
+  shared: đã chia sẻ
+  renamed: đã đổi tên
+  moved: đã di chuyển
+  restored: đã khôi phục
+
+notifications:
+  inviteReceived: "{userName} đã mời bạn cộng tác trên {diagramName}"
+  inviteAccepted: "{userName} đã chấp nhận lời mời của bạn"
+  diagramCommented: "{userName} đã bình luận trên {diagramName}"
+  diagramEdited: "{userName} đã chỉnh sửa {diagramName}"
+  diagramShared: "{userName} đã chia sẻ {diagramName} với bạn"
+
+settings:
+  title: Cài đặt
+  workspaceName: Tên không gian làm việc
+  update: Cập nhật
+  loadingInfo: Đang tải thông tin không gian làm việc...
+  singleSignOn: Đăng nhập một lần
+  authenticateWithSSO: Xác thực bằng SSO (SAML)
+  enabled: Đã bật
+  samlConfiguration: Cấu hình SAML
+  enforceSSO: Bắt buộc SSO
+  enforceSSODescription: Khi bật, thành viên chỉ có thể truy cập không gian làm việc qua SSO
+  identityProviderUrl: URL nhà cung cấp định danh SSO
+  identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
+  identityProviderUrlHelp: URL của endpoint nhà cung cấp định danh của bạn.
+  certificate: Chứng chỉ
+  certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----"
+  samlConfigurationForProvider: Cấu hình SAML cho nhà cung cấp định danh của bạn
+  assertionConsumerServiceUrl: URL dịch vụ Assertion Consumer
+  assertionConsumerServiceUrlHelp: Còn gọi là "Replying party service URL" hoặc "Reply URL"
+  identifier: Định danh
+  identifierHelp: Còn gọi là "Issuer" hoặc "Relying party trust identifier"
+  saveSSOSettings: Lưu cài đặt SSO
+  manageWorkspace: Quản lý không gian làm việc
+  removeWorkspace: Xóa không gian làm việc...
+  cancelRemovalRequest: Hủy yêu cầu xóa
+  removalWarning: Hành động này không thể hoàn tác!
+  removalScheduledHours: Không gian làm việc của bạn sẽ bị xóa sau vài giờ.
+  removalScheduledDay: Không gian làm việc của bạn sẽ bị xóa sau một ngày.
+  removalScheduledDays: "Không gian làm việc của bạn sẽ bị xóa sau {count} ngày."
+  removeWorkspaceTitle: Xóa không gian làm việc này?
+  removeWorkspaceContent: Chúng tôi sẽ đặt lịch để xóa không gian làm việc của bạn sau 7 ngày. Bạn có thể hủy lịch xóa trong menu "Cài đặt" nếu đổi ý.
+  removeWorkspaceButton: Xóa không gian làm việc này
+  removeWorkspaceSuggestion: 'Vui lòng nhập <i>permanently delete</i> vào ô nhập để xác nhận.'
+  removalRequestCanceled: Yêu cầu xóa đã được hủy thành công!
+  removalRequestCreated: Yêu cầu xóa đã được tạo thành công!
+  contactSupportError: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
+  workspaceNameUpdated: Tên không gian làm việc đã được cập nhật thành công
+  workspaceNameUpdateFailed: Cập nhật tên không gian làm việc thất bại, vui lòng thử lại!
+  ssoConfigFetchFailed: Không thể tải cấu hình SSO. Vui lòng tải lại trang.
+  ssoConfigUpdated: Cấu hình SSO đã được cập nhật thành công
+  ssoConfigSaveFailed: Lưu cấu hình SSO thất bại. Vui lòng thử lại.
+
+members:
+  invite: Mời
+  invitePlaceholder: Nhập địa chỉ email
+  inviteButton: Mời
+  members: Thành viên
+  memberSlots: "{used}/{limit} thành viên"
+  role:
+    member: Thành viên
+    owner: Chủ sở hữu
+  actions:
+    remove: Xóa bỏ
+    removeInvitation: Xóa lời mời này
+    removeMember: Xóa thành viên này
+  dialog:
+    removeTitle: Xóa thành viên?
+    removeMessage: Bạn sắp xóa <b>{email}</b> khỏi không gian làm việc, vui lòng xác nhận!
+  notifications:
+    removeSuccess: Đã xóa {email} khỏi không gian làm việc thành công!
+    removeError: Không thể xóa {email} khỏi không gian làm việc!
+
+diagramList:
+  searchPlaceholder: Tìm kiếm sơ đồ
+  freePlan: Miễn phí
+  plan: gói
+  diagramCount: "Sơ đồ: {count}/{limit}"
+  duplicate: Nhân bản
+  delete: Xóa
+  untitledDiagram: Sơ đồ chưa có tiêu đề
+
+sidebar:
+  apiTokens: API Token
+  billing: Thanh toán
+
+emptyDiagrams:
+  title: Chưa có sơ đồ nào
+  created:
+    description: Không gian làm việc của bạn chưa có sơ đồ nào. Bạn có thể tạo mới bằng nút
+    button: + Sơ đồ mới
+    buttonSuffix: .
+  shared:
+    description: Bạn chưa được mời vào sơ đồ nào.
+  workspacePublic:
+    description: Không có sơ đồ nào được hiển thị cho nhóm. Bạn có thể tạo sơ đồ mới bằng nút
+  workspacePrivate:
+    description: Không có sơ đồ riêng tư. Bạn có thể tạo sơ đồ mới và giữ cho riêng mình.
+
+plan:
+  pro: Gói Pro
+  free: Gói Miễn phí
+  team: Gói Team
+  disabled: "(đã tắt)"
+
+welcome:
+  title: Chào mừng đến với Team Workspace!
+  description: Bắt đầu bằng cách tạo sơ đồ mới và cộng tác với đồng đội của bạn.
+  learnMore: Tìm hiểu thêm →
+
+apiTokens:
+  title: API Token
+  description: Token API được sử dụng để xác thực với API dbdiagram.io mỗi khi có yêu cầu API. Giống như mật khẩu, token API nên được giữ bí mật.
+  seeDocumentation: Xem tài liệu.
+  generateNew: Tạo token mới
+  columns:
+    name: Tên
+    dateCreated: Ngày tạo
+    lastUsed: Lần sử dụng cuối
+    owner: Chủ sở hữu
+    action: ""
+  empty: Chưa có token nào được tạo
+  actions:
+    revoke: Thu hồi
+  modal:
+    newToken: Token API mới
+    tokenName: Tên token
+    tokenNamePlaceholder: Nhập tên token
+    generate: Tạo token
+    copyWarning: Hãy chắc chắn sao chép token API ngay bây giờ vì bạn sẽ không thể xem lại nó.
+    copied: Đã sao chép
+    copy: Sao chép
+    done: Xong
+    revokeTitle: Thu hồi Token API?
+    revokeContent: Bạn có muốn thu hồi Token API "{name}" không? Hành động này không thể hoàn tác.
+    revokePositive: Thu hồi Token
+    revokeSuggestion: 'Vui lòng nhập <i>permanently delete</i> vào ô nhập để xác nhận.'
+    generateSuccess: Tạo token thành công
+  errors:
+    nameEmpty: Tên token không được để trống
+    nameInvalid: Tên token chỉ được chứa chữ cái, số, khoảng trắng, "-" hoặc "_"
+    nameWhitespace: Tên token không được để trống hoặc chỉ chứa khoảng trắng
+    upgradeRequired: Vui lòng nâng cấp gói của bạn để tạo token và truy cập API
+    ownerOnly: Chỉ chủ sở hữu workspace mới có thể tạo token mới
+
+common:
+  labels:
+    you: "(Bạn)"

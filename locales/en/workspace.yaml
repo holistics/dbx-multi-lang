@@ -143,6 +143,19 @@ members:
   inviteButton: Invite
   members: Members
   memberSlots: "{used}/{limit} members"
+  role:
+    member: Member
+    owner: Owner
+  actions:
+    remove: Remove
+    removeInvitation: Remove this invitation
+    removeMember: Remove this member
+  dialog:
+    removeTitle: Remove member?
+    removeMessage: You are about to remove <b>{email}</b> from your workspace, please confirm your action!
+  notifications:
+    removeSuccess: Successfully removed {email} from workspace!
+    removeError: Cannot remove {email} from workspace!
 
 diagramList:
   searchPlaceholder: Search diagrams
@@ -156,3 +169,66 @@ diagramList:
 sidebar:
   apiTokens: API Tokens
   billing: Billing
+
+emptyDiagrams:
+  title: No diagrams yet
+  created:
+    description: There are no diagrams in your workspace. You can create a new one with the
+    button: + New Diagram
+    buttonSuffix: button.
+  shared:
+    description: You have not yet been invited to any diagrams.
+  workspacePublic:
+    description: There are no diagrams displayed to the team. You can create new diagrams with the
+  workspacePrivate:
+    description: There are no private diagrams. You can create a new diagram and keep it personal.
+
+plan:
+  pro: Pro Plan
+  free: Free Plan
+  team: Team Plan
+  disabled: "(disabled)"
+
+welcome:
+  title: Welcome to Team Workspace!
+  description: Get started by creating new diagrams and collaborating with your teammates.
+  learnMore: Learn more →
+
+apiTokens:
+  title: API Tokens
+  description: API tokens are used for authentication to dbdiagram API every time an API request is made. Like passwords, API token should remain a secret.
+  seeDocumentation: See documentation.
+  generateNew: Generate new token
+  columns:
+    name: Name
+    dateCreated: Date Created
+    lastUsed: Last Used
+    owner: Owner
+    action: ""
+  empty: No created tokens
+  actions:
+    revoke: Revoke
+  modal:
+    newToken: New API Token
+    tokenName: Token name
+    tokenNamePlaceholder: Enter token name
+    generate: Generate token
+    copyWarning: Make sure to copy the API token now as you will not be able to see it again.
+    copied: Copied
+    copy: Copy
+    done: Done
+    revokeTitle: Revoke API Token?
+    revokeContent: Do you want to revoke the "{name}" API Token? This action cannot be undone.
+    revokePositive: Revoke Token
+    revokeSuggestion: 'Please type <i>permanently delete</i> in the text input field to confirm.'
+    generateSuccess: Generated token successfully
+  errors:
+    nameEmpty: Token name cannot be empty
+    nameInvalid: Token name can only contain only alphabets, numbers, space, "-" or "_"
+    nameWhitespace: Token name cannot be empty or only contain white space
+    upgradeRequired: Please upgrade your plan to create tokens and access our API
+    ownerOnly: Only workspace owner can generate new tokens
+
+common:
+  labels:
+    you: "(You)"

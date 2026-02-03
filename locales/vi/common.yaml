@@ -135,3 +135,6 @@ editor:
   expand: Mở rộng trình chỉnh sửa
   hide: Ẩn trình chỉnh sửa
   loadingContent: Đang tải nội dung từ máy chủ, vui lòng đợi...
+
+labels:
+  you: "(Bạn)"
