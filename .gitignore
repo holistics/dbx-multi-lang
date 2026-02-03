@@ -3,6 +3,7 @@ node_modules/
 /dist/
 *.log*
 .env
+./locales/.DS_Store
 
 # Editor directories and files
 .idea
