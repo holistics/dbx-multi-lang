@@ -137,3 +137,4 @@ planPickingSimpleView:
   manageTeamDiagrams: Quản lý sơ đồ của nhóm ở một nơi.
   startFreeTrial: Bắt đầu dùng thử miễn phí 7 ngày
   learnMore: Tìm hiểu thêm
+  pricingFrom: Giá chỉ từ {currency}{price}/tháng

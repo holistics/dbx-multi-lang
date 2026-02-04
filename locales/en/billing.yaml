@@ -163,3 +163,4 @@ planPickingSimpleView:
   manageTeamDiagrams: Manage team's diagrams all in one place.
   startFreeTrial: Start 7-Day Free Trial
   learnMore: Learn more
+  pricingFrom: Pricing from {currency}{price}/month
