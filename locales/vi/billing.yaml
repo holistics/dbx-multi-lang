@@ -130,3 +130,10 @@ publicPricing:
 disabledCard:
   personalUpgrade: Nâng cấp workspace cá nhân của bạn để sử dụng các tính năng cao cấp.
   teamReadOnly: Workspace đang ở chế độ chỉ do hủy đăng ký. Gia hạn để kích hoạt lại workspace.
+
+planPickingSimpleView:
+  collaborateWithTeamPlan: Cộng tác với gói Team
+  collaborateWithColleagues: Cộng tác với đồng nghiệp của bạn.
+  manageTeamDiagrams: Quản lý sơ đồ của nhóm ở một nơi.
+  startFreeTrial: Bắt đầu dùng thử miễn phí 7 ngày
+  learnMore: Tìm hiểu thêm

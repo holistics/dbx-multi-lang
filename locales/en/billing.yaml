@@ -156,3 +156,10 @@ managePlanModal:
 disabledCard:
   personalUpgrade: Upgrade your personal workspace for premium features.
   teamReadOnly: Workspace is in read-only mode due to subscription cancelation. Renew to enable workspace functionality.
+
+planPickingSimpleView:
+  collaborateWithTeamPlan: Collaborate with Team Plan
+  collaborateWithColleagues: Collaborate with your colleagues.
+  manageTeamDiagrams: Manage team's diagrams all in one place.
+  startFreeTrial: Start 7-Day Free Trial
+  learnMore: Learn more
