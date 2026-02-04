@@ -237,3 +237,6 @@ apiTokens:
 common:
   labels:
     you: "(You)"
+
+errors:
+  permissionDenied: You don't have the permission to access this workspace

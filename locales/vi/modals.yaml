@@ -314,3 +314,16 @@ errors:
 
   # General errors
   supportContact: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
+  cannotGetDiagrams: Không thể lấy danh sách sơ đồ, vui lòng tải lại ứng dụng!
+  permissionDenied: Quyền bị từ chối
+
+  # Diagram view errors
+  cannotRemoveDefaultView: Bạn không được phép xóa chế độ xem mặc định!
+  cannotRemoveView: Không thể xóa chế độ xem này, vui lòng tải lại và thử lại!
+  removeViewTitle: Xóa Chế độ xem?
+  removeViewContent: Bạn có muốn xóa chế độ xem "{name}" không?
+  cancel: Hủy
+  removeView: Xóa Chế độ xem
+
+  # Collab errors
+  close: Đóng

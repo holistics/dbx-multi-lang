@@ -289,6 +289,7 @@ errors:
   permissionUpdateFailed: Update permission failed
   permissionUpdateSuccess: Update permission successfully
   inviteSent: Invite sent
+  permissionDenied: Permission Denied
 
   # Workspace errors
   cannotGetWorkspaceParticipants: Cannot get workspace participants, please try again!
@@ -314,3 +315,15 @@ errors:
 
   # General errors
   supportContact: An error has occurred, please contact our support at dbdiagram@holistics.io
+  cannotGetDiagrams: Can not get diagrams, please try to reload the app!
+
+  # Diagram view errors
+  cannotRemoveDefaultView: You are not allowed to remove the default view!
+  cannotRemoveView: Cannot remove this view, please reload and try again!
+  removeViewTitle: Remove Diagram View?
+  removeViewContent: Do you want to remove the "{name}" view?
+  cancel: Cancel
+  removeView: Remove View
+
+  # Collab errors
+  close: Close

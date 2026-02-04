@@ -63,6 +63,8 @@ oauth:
   processing: Processing...
   justAMomentPleaseWait: Just a moment, please wait...
   signedInAs: You are signed in as
+  failedSignInGitHub: Failed to sign in with GitHub
+  failedSignInMicrosoft: Failed to sign in with Microsoft, please try again!
 
 verification:
   title: Verify your email
@@ -95,6 +97,11 @@ otp:
   didntReceiveOtp: Didn't receive the OTP?
   resendOtp: Resend OTP
   resendAfter: You can resend OTP after {counter}s
+  submit: Submit
+  sendOtpFailed: Send OTP failed, please try again!
 
 sso:
   orContinueWith: or continue with
+
+portal:
+  signIn: Sign in

@@ -237,3 +237,6 @@ apiTokens:
 common:
   labels:
     you: "(Bạn)"
+
+errors:
+  permissionDenied: Bạn không có quyền truy cập vào không gian làm việc này

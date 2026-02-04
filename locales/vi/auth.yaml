@@ -63,6 +63,8 @@ oauth:
   processing: Đang xử lý...
   justAMomentPleaseWait: Vui lòng đợi trong giây lát...
   signedInAs: Bạn đang đăng nhập với tư cách là
+  failedSignInGitHub: Đăng nhập bằng GitHub thất bại
+  failedSignInMicrosoft: Đăng nhập bằng Microsoft thất bại, vui lòng thử lại!
 
 verification:
   title: Xác minh email của bạn
@@ -95,6 +97,11 @@ otp:
   didntReceiveOtp: Không nhận được OTP?
   resendOtp: Gửi lại OTP
   resendAfter: Bạn có thể gửi lại OTP sau {counter} giây
+  submit: Gửi
+  sendOtpFailed: Gửi OTP thất bại, vui lòng thử lại!
 
 sso:
   orContinueWith: hoặc tiếp tục với
+
+portal:
+  signIn: Đăng nhập

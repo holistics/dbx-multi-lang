@@ -139,3 +139,16 @@ access:
   publicTooltip: Public - People can access via its link
   passwordProtectedTooltip: Password Protected - People can access via its link, but have to fill the correct password
   privateTooltip: Private - Only invited people can access
+
+detailLevels:
+  tables: Tables
+  keys: Keys
+  all: All
+
+detailLevelOptions:
+  tableNames: Table names
+  keysOnly: Keys only
+  allFields: All fields
+
+dbdocs:
+  publishConfirmation: Do you want to publish this draft to your dbdocs project?
