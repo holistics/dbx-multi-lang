@@ -13,7 +13,7 @@ workspace:
   workspace: Không gian làm việc
   private: Riêng tư
   empty: Trống
-  untitledDiagram: Sơ đồ chưa có tiêu đề
+  untitledDiagram: Sơ đồ chưa có tên
   starred: Có gắn sao
   archived: Đã lưu trữ
   trash: Thùng rác
@@ -164,7 +164,7 @@ diagramList:
   diagramCount: "Sơ đồ: {count}/{limit}"
   duplicate: Nhân bản
   delete: Xóa
-  untitledDiagram: Sơ đồ chưa có tiêu đề
+  untitledDiagram: Sơ đồ chưa có tên
   columns:
     name: Tên
     dateCreated: Ngày tạo

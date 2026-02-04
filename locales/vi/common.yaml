@@ -93,13 +93,13 @@ help:
 export:
   title: Xuất
   publishToDbdocs: Xuất bản tài liệu (lên dbdocs)
-  toPdf: Ra PDF
-  toPng: Ra PNG
-  toSvg: Ra SVG
-  toPostgreSQL: Ra PostgreSQL
-  toMySQL: Ra MySQL
-  toSQLServer: Ra SQL Server
-  toOracleSQL: Ra Oracle SQL
+  toPdf: Sang PDF
+  toPng: Sang PNG
+  toSvg: Sang SVG
+  toPostgreSQL: Sang PostgreSQL
+  toMySQL: Sang MySQL
+  toSQLServer: Sang SQL Server
+  toOracleSQL: Sang Oracle SQL
 
 import:
   title: Nhập
