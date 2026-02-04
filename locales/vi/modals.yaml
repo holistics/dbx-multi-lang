@@ -211,7 +211,7 @@ import:
     step1NoteSudo: trước các lệnh của bạn trên Linux
     step2: '2. Chạy lệnh sau:'
     exampleFor: Ví dụ cho
-    successMessage: "Đã tạo tệp DBML từ kết nối cơ sở dữ liệu: database.dbml"
+    successMessage: "Generated DBML file from database's connection: database.dbml"
     successBigquery: 'Lưu ý: Với BigQuery, tệp chứng thực JSON của bạn phải chứa các khóa sau:'
     successSnowflake1: Đang thử kết nối...
     successSnowflake2: Đang thực thi truy vấn...
@@ -267,8 +267,8 @@ upgrade:
 history:
   title: Lịch sử phiên bản
   deletedUser: Người dùng đã xóa
-  restoreVersion: Khôi phục phiên bản
-  makeCopy: Tạo bản sao
+  restoreVersion: Khôi phục
+  makeCopy: Nhân bản
   upgradeTitle: Nâng cấp để xem, khôi phục & nhân bản
   errors:
     cannotView: Không thể xem phiên bản này
@@ -327,3 +327,14 @@ errors:
 
   # Collab errors
   close: Đóng
+
+# Workspace Type
+workspaceType:
+  personal: Không gian làm việc cá nhân
+  team: Không gian làm việc nhóm
+
+# Detail Levels Dropdown
+detailLevelsDropdown:
+  tableNames: Ẩn cột
+  keysOnly: Chỉ khóa chính
+  allFields: Hiện tất cả cột

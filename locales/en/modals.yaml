@@ -327,3 +327,14 @@ errors:
 
   # Collab errors
   close: Close
+
+# Workspace Type
+workspaceType:
+  personal: Personal Workspace
+  team: Team Workspace
+
+# Detail Levels Dropdown
+detailLevelsDropdown:
+  tableNames: Table names
+  keysOnly: Keys only
+  allFields: All fields
