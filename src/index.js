@@ -9,6 +9,7 @@ import enHomeYaml from '../locales/en/home.yaml?raw';
 import enModalsYaml from '../locales/en/modals.yaml?raw';
 import enWorkspaceYaml from '../locales/en/workspace.yaml?raw';
 import enAiYaml from '../locales/en/ai.yaml?raw';
+import enDatabaseGuidelinesYaml from '../locales/en/databaseGuidelines.yaml?raw';
 
 import viCommonYaml from '../locales/vi/common.yaml?raw';
 import viAuthYaml from '../locales/vi/auth.yaml?raw';
@@ -20,6 +21,7 @@ import viHomeYaml from '../locales/vi/home.yaml?raw';
 import viModalsYaml from '../locales/vi/modals.yaml?raw';
 import viWorkspaceYaml from '../locales/vi/workspace.yaml?raw';
 import viAiYaml from '../locales/vi/ai.yaml?raw';
+import viDatabaseGuidelinesYaml from '../locales/vi/databaseGuidelines.yaml?raw';
 
 import localesMetadataYaml from '../locales/metadata.yaml?raw';
 
@@ -53,6 +55,7 @@ export const messages = {
     modals: parseYaml(enModalsYaml),
     ai: parseYaml(enAiYaml),
     workspace: parseYaml(enWorkspaceYaml),
+    databaseGuidelines: parseYaml(enDatabaseGuidelinesYaml),
   },
   vi: {
     common: parseYaml(viCommonYaml),
@@ -65,6 +68,7 @@ export const messages = {
     modals: parseYaml(viModalsYaml),
     ai: parseYaml(viAiYaml),
     workspace: parseYaml(viWorkspaceYaml),
+    databaseGuidelines: parseYaml(viDatabaseGuidelinesYaml),
   },
 };
 

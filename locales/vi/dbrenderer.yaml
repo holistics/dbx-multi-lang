@@ -1,110 +1,124 @@
 # DBRenderer Component Translations
-# Bảng điều khiển tìm kiếm bảng
-tableSearchPanel:
-  # Tiêu đề
-  title: Bảng
-  diagramViews: Chế độ xem sơ đồ
-  diagramViewsTooltip: >-
-    Chế độ xem sơ đồ là tập hợp các bảng đại diện cho
-    các miền (domain) hoặc quy trình cụ thể trong cơ sở dữ liệu của bạn.
+# Bản dịch tiếng Việt cho các thành phần dbrenderer
 
-  # Hành động xem
-  viewActions: Hành động xem
-  cannotRenameOrDelete: Không thể đổi tên hoặc xóa {name}
-  rename: Đổi tên
-  delete: Xóa
+dbrenderer:
+  # Table Search Panel
+  tableSearchPanel:
+    # Tiêu đề
+    title: Bảng
+    diagramViews: Chế độ xem sơ đồ
+    diagramViewsTooltip: >-
+      Chế độ xem sơ đồ là tập hợp các bảng đại diện cho
+      các miền (domain) hoặc quy trình cụ thể trong cơ sở dữ liệu của bạn.
 
-  # Nút lưu
-  reset: Đặt lại
-  save: Lưu
-  saveAsNew: Lưu mới
+    # Hành động xem
+    viewActions: Hành động xem
+    cannotRenameOrDelete: Không thể đổi tên hoặc xóa {name}
+    rename: Đổi tên
+    delete: Xóa
 
-  # Tìm kiếm
-  searchPlaceholder: Tìm bảng hoặc lược đồ (schema)
-  searchPlaceholderWithGroup: Tìm bảng, lược đồ hoặc nhóm
-  groupBy: Nhóm theo
+    # Nút lưu
+    reset: Đặt lại
+    save: Lưu
+    saveAsNew: Lưu mới
 
-  # Hiện/Ẩn
-  showAll: Hiện tất cả
-  hideAll: Ẩn tất cả
+    # Tìm kiếm
+    searchPlaceholder: Tìm bảng hoặc lược đồ (schema)
+    searchPlaceholderWithGroup: Tìm bảng, lược đồ hoặc nhóm
+    groupBy: Nhóm theo
 
-  # Loại nhóm
-  schema: Lược đồ (Schema)
-  tableGroup: Nhóm bảng (Table Group)
-  noGroup: (không nhóm)
+    # Hiện/Ẩn
+    showAll: Hiện tất cả
+    hideAll: Ẩn tất cả
 
-  # Tên mặc định
-  defaultView: Chế độ xem mặc định
-  unknownView: Chế độ xem không xác định
-  database: Cơ sở dữ liệu
-  newView: Chế độ xem mới
-  copyOfName: Bản sao của {name}
+    # Loại nhóm
+    schema: Lược đồ (Schema)
+    tableGroup: Nhóm bảng (Table Group)
+    noGroup: (không nhóm)
 
-# Thanh điều khiển
-controllerBar:
-  # Nổi bật
-  highlightRelationships: Làm nổi bật các mối quan hệ
-  unhighlightRelationships: Bỏ làm nổi bật các mối quan hệ
+    # Tên mặc định
+    defaultView: Chế độ xem mặc định
+    unknownView: Chế độ xem không xác định
+    database: Cơ sở dữ liệu
+    newView: Chế độ xem mới
+    copyOfName: Bản sao của {name}
 
-  # Lưới
-  enableGrid: Bật lưới
-  disableGrid: Tắt lưới
+  # Controller Bar
+  controllerBar:
+    # Nổi bật
+    highlightRelationships: Làm nổi bật các mối quan hệ
+    unhighlightRelationships: Bỏ làm nổi bật các mối quan hệ
 
-  # Ghi chú
-  addStickyNote: Thêm ghi chú dán (sticky note)
+    # Lưới
+    enableGrid: Bật lưới
+    disableGrid: Tắt lưới
 
-  # Tìm kiếm bảng
-  searchTables: Tìm kiếm bảng
-  hideTableSearch: Ẩn tìm kiếm bảng
+    # Ghi chú
+    addStickyNote: Thêm ghi chú dán (sticky note)
 
-  # Toàn màn hình
-  enterFullscreen: Vào toàn màn hình
-  exitFullscreen: Thoát toàn màn hình
+    # Tìm kiếm bảng
+    searchTables: Tìm kiếm bảng
+    hideTableSearch: Ẩn tìm kiếm bảng
 
-# Tự động sắp xếp
-autoArrange:
-  title: Chọn thuật toán tự động sắp xếp
-  leftRight: Trái-phải
-  topDown: Trên-dưới
-  rightLeft: Phải-trái
-  bottomUp: Dưới-trên
-  snowflake: Snowflake
-  compact: Gọn gàng
-  confirmMessage: >-
-    Sơ đồ của bạn sẽ được tự động sắp xếp lại và bạn sẽ không thể hoàn tác. Bạn có chắc không?
-  confirm: Xác nhận (↵)
-  cancel: Hủy (Esc)
+    # Toàn màn hình
+    enterFullscreen: Vào toàn màn hình
+    exitFullscreen: Thoát toàn màn hình
 
-# Mức độ chi tiết
-detailLevel:
-  title: Mức độ chi tiết
-  showAllColumns: Hiện tất cả cột
-  hideColumns: Ẩn cột
-  showPrimaryKeys: Chỉ khóa chính
-  showLimitedColumns: Các cột giới hạn
+  # Auto Arrange
+  autoArrange:
+    title: Chọn thuật toán tự động sắp xếp
+    leftRight: Trái-phải
+    topDown: Trên-dưới
+    rightLeft: Phải-trái
+    bottomUp: Dưới-trên
+    snowflake: Snowflake
+    compact: Gọn gàng
+    confirmMessage: >-
+      Sơ đồ của bạn sẽ được tự động sắp xếp lại và bạn sẽ không thể hoàn tác. Bạn có chắc không?
+    confirm: Xác nhận (↵)
+    cancel: Hủy (Esc)
 
-# Menu thả xuống chế độ xem
-viewDropdown:
-  renameView: Đổi tên chế độ xem
-  removeView: Xóa chế độ xem
-  newView: Chế độ xem mới
+  # Detail Level
+  detailLevel:
+    title: Mức độ chi tiết
+    showAllColumns: Hiện tất cả cột
+    hideColumns: Ẩn cột
+    showPrimaryKeys: Chỉ khóa chính
+    showLimitedColumns: Các cột giới hạn
 
-# Điều khiển khung nhìn
-viewportController:
-  zoomOut: Thu nhỏ (giữ để tăng tốc)
-  zoomIn: Phóng to (giữ để tăng tốc)
-  editZoomLevel: Nhấn để sửa mức thu phóng
-  zoomToFit: Thu phóng vừa tất cả phần tử
-  enablePanMode: Nhấn để bật chế độ trượt (pan)
-  disablePanMode: Nhấn để tắt chế độ trượt (pan)
-  panModeHint: Hoặc giữ phím Space/Chuột giữa + kéo để trượt
+  # View Dropdown
+  viewDropdown:
+    renameView: Đổi tên chế độ xem
+    removeView: Xóa chế độ xem
+    newView: Chế độ xem mới
 
-# Chung
-common:
-  confirm: Xác nhận
-  cancel: Hủy
-  save: Lưu
-  close: Đóng
-  delete: Xóa
-  rename: Đổi tên
-  remove: Xóa bỏ
+  # Viewport Controller
+  viewportController:
+    zoomOut: Thu nhỏ (giữ để tăng tốc)
+    zoomIn: Phóng to (giữ để tăng tốc)
+    editZoomLevel: Nhấn để sửa mức thu phóng
+    zoomToFit: Thu phóng vừa tất cả phần tử
+    enablePanMode: Nhấn để bật chế độ trượt (pan)
+    disablePanMode: Nhấn để tắt chế độ trượt (pan)
+    panModeHint: Hoặc giữ phím Space/Chuột giữa + kéo để trượt
+
+  # Common
+  common:
+    confirm: Xác nhận
+    cancel: Hủy
+    save: Lưu
+    close: Đóng
+    delete: Xóa
+    rename: Đổi tên
+    remove: Xóa bỏ
+
+  # Empty State Hint
+  emptyStateHint:
+    filtered:
+      title: Sơ đồ của bạn trống
+      description: Tất cả các bảng trong chế độ xem này hiện đang ẩn. Sử dụng bảng tìm kiếm để hiển thị các bảng trong sơ đồ.
+      openTableSearchPanel: Mở bảng tìm kiếm bảng
+    noDbml:
+      title: Không tìm thấy cơ sở dữ liệu
+      description: Mã DBML của bạn chưa chứa bảng nào. Thêm bảng và mối quan hệ để xem sơ đồ.
+      startAddingTables: Bắt đầu thêm bảng
