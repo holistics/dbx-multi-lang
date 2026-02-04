@@ -15,7 +15,7 @@ draftBadge:
   discardAll: Hủy bỏ tất cả nháp
 
 placeholders:
-  untitledDiagram: Sơ đồ chưa có tiêu đề
+  untitledDiagram: Chưa đặt tên
 
 status:
   readOnly: Chỉ đọc

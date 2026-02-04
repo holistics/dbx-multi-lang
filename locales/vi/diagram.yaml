@@ -1,6 +1,6 @@
 editor:
   title: Trình biên tập sơ đồ
-  untitled: Sơ đồ chưa có tiêu đề
+  untitled: Sơ đồ chưa có tên
   placeholder: "Bắt đầu nhập mã DBML của bạn vào đây..."
 toolbar:
   undo: Hoàn tác
