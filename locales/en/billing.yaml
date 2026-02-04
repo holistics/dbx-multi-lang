@@ -126,3 +126,33 @@ publicPricing:
   saveUpTo: Save up to 42%
   getStartedFree: Get Started Free
   errorFetching: Error fetching user pricing
+
+upgradeNowBtn:
+  ownerOnly: Only the workspace owner can upgrade to the Team plan
+
+managePlanModal:
+  loadingSubscription: Loading subscription information...
+  currentPlan: Current Plan
+  personalPlanForever: Personal Plan - Forever
+  unknownPlan: Unknown Plan
+  billedMonthly: Billed every month
+  billedAnnually: Billed every year
+  chargeEvery: Charge every {period} {unit}
+  cancelledOn: Cancelled on
+  planDetails: Plan Details →
+  upgradeDescription: Upgrade to our paid plans to get Detail Levels, Header Color and all upcoming features
+  nextPayment: Your next payment is
+  chargedOn: to be charged on
+  editSubscription: Edit subscription
+  switchToMonthly: Switch to monthly billing
+  switchToYearly: Switch to yearly billing
+  noPaymentMethod: No payment method
+  updatePaymentMethod: Update payment method
+  invoicing: Invoicing
+  lastPayment: Last payment
+  editBillingInfo: Edit billing information
+  paymentProcessing: Your payment is processing, please reload the page in a few minutes.
+
+disabledCard:
+  personalUpgrade: Upgrade your personal workspace for premium features.
+  teamReadOnly: Workspace is in read-only mode due to subscription cancelation. Renew to enable workspace functionality.

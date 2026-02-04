@@ -126,3 +126,7 @@ publicPricing:
   saveUpTo: Tiết kiệm tới 42%
   getStartedFree: Bắt đầu miễn phí
   errorFetching: Lỗi khi lấy thông tin giá người dùng
+
+disabledCard:
+  personalUpgrade: Nâng cấp workspace cá nhân của bạn để sử dụng các tính năng cao cấp.
+  teamReadOnly: Workspace đang ở chế độ chỉ do hủy đăng ký. Gia hạn để kích hoạt lại workspace.
