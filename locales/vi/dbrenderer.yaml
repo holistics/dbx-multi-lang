@@ -1,124 +1,123 @@
 # DBRenderer Component Translations
 # Bản dịch tiếng Việt cho các thành phần dbrenderer
 
-dbrenderer:
-  # Table Search Panel
-  tableSearchPanel:
-    # Tiêu đề
-    title: Bảng
-    diagramViews: Chế độ xem sơ đồ
-    diagramViewsTooltip: >-
-      Chế độ xem sơ đồ là tập hợp các bảng đại diện cho
-      các miền (domain) hoặc quy trình cụ thể trong cơ sở dữ liệu của bạn.
+# Table Search Panel
+tableSearchPanel:
+  # Tiêu đề
+  title: Bảng
+  diagramViews: Chế độ xem sơ đồ
+  diagramViewsTooltip: >-
+    Chế độ xem sơ đồ là tập hợp các bảng đại diện cho
+    các miền (domain) hoặc quy trình cụ thể trong cơ sở dữ liệu của bạn.
 
-    # Hành động xem
-    viewActions: Hành động xem
-    cannotRenameOrDelete: Không thể đổi tên hoặc xóa {name}
-    rename: Đổi tên
-    delete: Xóa
+  # Hành động xem
+  viewActions: Hành động xem
+  cannotRenameOrDelete: Không thể đổi tên hoặc xóa {name}
+  rename: Đổi tên
+  delete: Xóa
 
-    # Nút lưu
-    reset: Đặt lại
-    save: Lưu
-    saveAsNew: Lưu mới
+  # Nút lưu
+  reset: Đặt lại
+  save: Lưu
+  saveAsNew: Lưu mới
 
-    # Tìm kiếm
-    searchPlaceholder: Tìm bảng hoặc lược đồ (schema)
-    searchPlaceholderWithGroup: Tìm bảng, lược đồ hoặc nhóm
-    groupBy: Nhóm theo
+  # Tìm kiếm
+  searchPlaceholder: Tìm bảng hoặc lược đồ (schema)
+  searchPlaceholderWithGroup: Tìm bảng, lược đồ hoặc nhóm
+  groupBy: Nhóm theo
 
-    # Hiện/Ẩn
-    showAll: Hiện tất cả
-    hideAll: Ẩn tất cả
+  # Hiện/Ẩn
+  showAll: Hiện tất cả
+  hideAll: Ẩn tất cả
 
-    # Loại nhóm
-    schema: Lược đồ (Schema)
-    tableGroup: Nhóm bảng (Table Group)
-    noGroup: (không nhóm)
+  # Loại nhóm
+  schema: Lược đồ (Schema)
+  tableGroup: Nhóm bảng (Table Group)
+  noGroup: (không nhóm)
 
-    # Tên mặc định
-    defaultView: Chế độ xem mặc định
-    unknownView: Chế độ xem không xác định
-    database: Cơ sở dữ liệu
-    newView: Chế độ xem mới
-    copyOfName: Bản sao của {name}
+  # Tên mặc định
+  defaultView: Chế độ xem mặc định
+  unknownView: Chế độ xem không xác định
+  database: Cơ sở dữ liệu
+  newView: Chế độ xem mới
+  copyOfName: Bản sao của {name}
 
-  # Controller Bar
-  controllerBar:
-    # Nổi bật
-    highlightRelationships: Làm nổi bật các mối quan hệ
-    unhighlightRelationships: Bỏ làm nổi bật các mối quan hệ
+# Controller Bar
+controllerBar:
+  # Nổi bật
+  highlightRelationships: Làm nổi bật các mối quan hệ
+  unhighlightRelationships: Bỏ làm nổi bật các mối quan hệ
 
-    # Lưới
-    enableGrid: Bật lưới
-    disableGrid: Tắt lưới
+  # Lưới
+  enableGrid: Bật lưới
+  disableGrid: Tắt lưới
 
-    # Ghi chú
-    addStickyNote: Thêm ghi chú dán (sticky note)
+  # Ghi chú
+  addStickyNote: Thêm ghi chú dán (sticky note)
 
-    # Tìm kiếm bảng
-    searchTables: Tìm kiếm bảng
-    hideTableSearch: Ẩn tìm kiếm bảng
+  # Tìm kiếm bảng
+  searchTables: Tìm kiếm bảng
+  hideTableSearch: Ẩn tìm kiếm bảng
 
-    # Toàn màn hình
-    enterFullscreen: Vào toàn màn hình
-    exitFullscreen: Thoát toàn màn hình
+  # Toàn màn hình
+  enterFullscreen: Vào toàn màn hình
+  exitFullscreen: Thoát toàn màn hình
 
-  # Auto Arrange
-  autoArrange:
-    title: Chọn thuật toán tự động sắp xếp
-    leftRight: Trái-phải
-    topDown: Trên-dưới
-    rightLeft: Phải-trái
-    bottomUp: Dưới-trên
-    snowflake: Snowflake
-    compact: Gọn gàng
-    confirmMessage: >-
-      Sơ đồ của bạn sẽ được tự động sắp xếp lại và bạn sẽ không thể hoàn tác. Bạn có chắc không?
-    confirm: Xác nhận (↵)
-    cancel: Hủy (Esc)
+# Auto Arrange
+autoArrange:
+  title: Chọn thuật toán tự động sắp xếp
+  leftRight: Trái-phải
+  topDown: Trên-dưới
+  rightLeft: Phải-trái
+  bottomUp: Dưới-trên
+  snowflake: Snowflake
+  compact: Gọn gàng
+  confirmMessage: >-
+    Sơ đồ của bạn sẽ được tự động sắp xếp lại và bạn sẽ không thể hoàn tác. Bạn có chắc không?
+  confirm: Xác nhận (↵)
+  cancel: Hủy (Esc)
 
-  # Detail Level
-  detailLevel:
-    title: Mức độ chi tiết
-    showAllColumns: Hiện tất cả cột
-    hideColumns: Ẩn cột
-    showPrimaryKeys: Chỉ khóa chính
-    showLimitedColumns: Các cột giới hạn
+# Detail Level
+detailLevel:
+  title: Mức độ chi tiết
+  showAllColumns: Hiện tất cả cột
+  hideColumns: Ẩn cột
+  showPrimaryKeys: Chỉ khóa chính
+  showLimitedColumns: Các cột giới hạn
 
-  # View Dropdown
-  viewDropdown:
-    renameView: Đổi tên chế độ xem
-    removeView: Xóa chế độ xem
-    newView: Chế độ xem mới
+# View Dropdown
+viewDropdown:
+  renameView: Đổi tên chế độ xem
+  removeView: Xóa chế độ xem
+  newView: Chế độ xem mới
 
-  # Viewport Controller
-  viewportController:
-    zoomOut: Thu nhỏ (giữ để tăng tốc)
-    zoomIn: Phóng to (giữ để tăng tốc)
-    editZoomLevel: Nhấn để sửa mức thu phóng
-    zoomToFit: Thu phóng vừa tất cả phần tử
-    enablePanMode: Nhấn để bật chế độ trượt (pan)
-    disablePanMode: Nhấn để tắt chế độ trượt (pan)
-    panModeHint: Hoặc giữ phím Space/Chuột giữa + kéo để trượt
+# Viewport Controller
+viewportController:
+  zoomOut: Thu nhỏ (giữ để tăng tốc)
+  zoomIn: Phóng to (giữ để tăng tốc)
+  editZoomLevel: Nhấn để sửa mức thu phóng
+  zoomToFit: Thu phóng vừa tất cả phần tử
+  enablePanMode: Nhấn để bật chế độ trượt (pan)
+  disablePanMode: Nhấn để tắt chế độ trượt (pan)
+  panModeHint: Hoặc giữ phím Space/Chuột giữa + kéo để trượt
 
-  # Common
-  common:
-    confirm: Xác nhận
-    cancel: Hủy
-    save: Lưu
-    close: Đóng
-    delete: Xóa
-    rename: Đổi tên
-    remove: Xóa bỏ
+# Common
+common:
+  confirm: Xác nhận
+  cancel: Hủy
+  save: Lưu
+  close: Đóng
+  delete: Xóa
+  rename: Đổi tên
+  remove: Xóa bỏ
 
-  # Empty State Hint
-  emptyStateHint:
-    filtered:
-      title: Sơ đồ của bạn trống
-      description: Tất cả các bảng trong chế độ xem này hiện đang ẩn. Sử dụng bảng tìm kiếm để hiển thị các bảng trong sơ đồ.
-      openTableSearchPanel: Mở bảng tìm kiếm bảng
-    noDbml:
-      title: Không tìm thấy cơ sở dữ liệu
-      description: Mã DBML của bạn chưa chứa bảng nào. Thêm bảng và mối quan hệ để xem sơ đồ.
-      startAddingTables: Bắt đầu thêm bảng
+# Empty State Hint
+emptyStateHint:
+  filtered:
+    title: Sơ đồ của bạn trống
+    description: Tất cả các bảng trong chế độ xem này hiện đang ẩn. Sử dụng bảng tìm kiếm để hiển thị các bảng trong sơ đồ.
+    openTableSearchPanel: Mở bảng tìm kiếm bảng
+  noDbml:
+    title: Không tìm thấy cơ sở dữ liệu
+    description: Mã DBML của bạn chưa chứa bảng nào. Thêm bảng và mối quan hệ để xem sơ đồ.
+    startAddingTables: Bắt đầu thêm bảng

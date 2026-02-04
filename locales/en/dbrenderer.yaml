@@ -1,124 +1,123 @@
 # DBRenderer Component Translations
 # This file contains all user-facing strings for the @holistics/dbrenderer package
 
-dbrenderer:
-  # Table Search Panel
-  tableSearchPanel:
-    # Titles
-    title: Tables
-    diagramViews: Diagram Views
-    diagramViewsTooltip: >-
-      Diagram views are collections of tables that represent
-      specific domains or workflows in your database.
+# Table Search Panel
+tableSearchPanel:
+  # Titles
+  title: Tables
+  diagramViews: Diagram Views
+  diagramViewsTooltip: >-
+    Diagram views are collections of tables that represent
+    specific domains or workflows in your database.
 
-    # View actions
-    viewActions: View actions
-    cannotRenameOrDelete: Cannot rename or delete the {name}
-    rename: Rename
-    delete: Delete
+  # View actions
+  viewActions: View actions
+  cannotRenameOrDelete: Cannot rename or delete the {name}
+  rename: Rename
+  delete: Delete
 
-    # Save buttons
-    reset: Reset
-    save: Save
-    saveAsNew: Save as New
+  # Save buttons
+  reset: Reset
+  save: Save
+  saveAsNew: Save as New
 
-    # Search
-    searchPlaceholder: Search table or schema
-    searchPlaceholderWithGroup: Search table, schema or group
-    groupBy: Group by
+  # Search
+  searchPlaceholder: Search table or schema
+  searchPlaceholderWithGroup: Search table, schema or group
+  groupBy: Group by
 
-    # Show/Hide
-    showAll: Show All
-    hideAll: Hide All
+  # Show/Hide
+  showAll: Show All
+  hideAll: Hide All
 
-    # Group types
-    schema: Schema
-    tableGroup: Table Group
-    noGroup: (no group)
+  # Group types
+  schema: Schema
+  tableGroup: Table Group
+  noGroup: (no group)
 
-    # Default names
-    defaultView: Default View
-    unknownView: Unknown View
-    database: Database
-    newView: New View
-    copyOfName: Copy of {name}
+  # Default names
+  defaultView: Default View
+  unknownView: Unknown View
+  database: Database
+  newView: New View
+  copyOfName: Copy of {name}
 
-  # Controller Bar
-  controllerBar:
-    # Highlight
-    highlightRelationships: Highlight relationships
-    unhighlightRelationships: Unhighlight relationships
+# Controller Bar
+controllerBar:
+  # Highlight
+  highlightRelationships: Highlight relationships
+  unhighlightRelationships: Unhighlight relationships
 
-    # Grid
-    enableGrid: Enable grid
-    disableGrid: Disable grid
+  # Grid
+  enableGrid: Enable grid
+  disableGrid: Disable grid
 
-    # Sticky note
-    addStickyNote: Add sticky note
+  # Sticky note
+  addStickyNote: Add sticky note
 
-    # Table search
-    searchTables: Search tables
-    hideTableSearch: Hide table search
+  # Table search
+  searchTables: Search tables
+  hideTableSearch: Hide table search
 
-    # Fullscreen
-    enterFullscreen: Enter full screen
-    exitFullscreen: Exit full screen
+  # Fullscreen
+  enterFullscreen: Enter full screen
+  exitFullscreen: Exit full screen
 
-  # Auto Arrange
-  autoArrange:
-    title: Choose auto arrange algorithm
-    leftRight: Left-right
-    topDown: Top-down
-    rightLeft: Right-left
-    bottomUp: Bottom-up
-    snowflake: Snowflake
-    compact: Compact
-    confirmMessage: >-
-      Your diagram will be automatically rearranged and you will not be able to undo. Are you sure?
-    confirm: Confirm (↵)
-    cancel: Cancel (Esc)
+# Auto Arrange
+autoArrange:
+  title: Choose auto arrange algorithm
+  leftRight: Left-right
+  topDown: Top-down
+  rightLeft: Right-left
+  bottomUp: Bottom-up
+  snowflake: Snowflake
+  compact: Compact
+  confirmMessage: >-
+    Your diagram will be automatically rearranged and you will not be able to undo. Are you sure?
+  confirm: Confirm (↵)
+  cancel: Cancel (Esc)
 
-  # Detail Level
-  detailLevel:
-    title: Detail level
-    showAllColumns: Show all columns
-    hideColumns: Hide columns
-    showPrimaryKeys: Primary keys only
-    showLimitedColumns: Limited columns
+# Detail Level
+detailLevel:
+  title: Detail level
+  showAllColumns: Show all columns
+  hideColumns: Hide columns
+  showPrimaryKeys: Primary keys only
+  showLimitedColumns: Limited columns
 
-  # View Dropdown
-  viewDropdown:
-    renameView: Rename view
-    removeView: Remove view
-    newView: New View
+# View Dropdown
+viewDropdown:
+  renameView: Rename view
+  removeView: Remove view
+  newView: New View
 
-  # Viewport Controller
-  viewportController:
-    zoomOut: Zoom out (hold to accelerate)
-    zoomIn: Zoom in (hold to accelerate)
-    editZoomLevel: Click to edit zoom level
-    zoomToFit: Zoom to fit all elements in view
-    enablePanMode: Click to enable pan mode
-    disablePanMode: Click to disable pan mode
-    panModeHint: Or hold Space/Middle mouse + drag to pan
+# Viewport Controller
+viewportController:
+  zoomOut: Zoom out (hold to accelerate)
+  zoomIn: Zoom in (hold to accelerate)
+  editZoomLevel: Click to edit zoom level
+  zoomToFit: Zoom to fit all elements in view
+  enablePanMode: Click to enable pan mode
+  disablePanMode: Click to disable pan mode
+  panModeHint: Or hold Space/Middle mouse + drag to pan
 
-  # Common
-  common:
-    confirm: Confirm
-    cancel: Cancel
-    save: Save
-    close: Close
-    delete: Delete
-    rename: Rename
-    remove: Remove
+# Common
+common:
+  confirm: Confirm
+  cancel: Cancel
+  save: Save
+  close: Close
+  delete: Delete
+  rename: Rename
+  remove: Remove
 
-  # Empty State Hint
-  emptyStateHint:
-    filtered:
-      title: Your diagram view is empty
-      description: All tables in this view are currently hidden. Use the table search panel to show tables in the diagram view.
-      openTableSearchPanel: Open table search panel
-    noDbml:
-      title: No database schema found
-      description: Your DBML code doesn't contain any tables yet. Add tables and relationships to see your diagram.
-      startAddingTables: Start adding tables
+# Empty State Hint
+emptyStateHint:
+  filtered:
+    title: Your diagram view is empty
+    description: All tables in this view are currently hidden. Use the table search panel to show tables in the diagram view.
+    openTableSearchPanel: Open table search panel
+  noDbml:
+    title: No database schema found
+    description: Your DBML code doesn't contain any tables yet. Add tables and relationships to see your diagram.
+    startAddingTables: Start adding tables
