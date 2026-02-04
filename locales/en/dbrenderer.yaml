@@ -91,6 +91,12 @@ viewDropdown:
   removeView: Remove view
   newView: New View
 
+# Diff Legend
+diffLegend:
+  added: Added
+  modified: Modified
+  deleted: Deleted
+
 # Viewport Controller
 viewportController:
   zoomOut: Zoom out (hold to accelerate)

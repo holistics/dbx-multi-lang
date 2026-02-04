@@ -91,6 +91,12 @@ viewDropdown:
   removeView: Xóa chế độ xem
   newView: Chế độ xem mới
 
+# Diff Legend
+diffLegend:
+  added: Thêm mới
+  modified: Thay đổi
+  deleted: Xóa
+
 # Viewport Controller
 viewportController:
   zoomOut: Thu nhỏ (giữ để tăng tốc)
