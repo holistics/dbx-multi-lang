@@ -113,7 +113,7 @@ share:
     upgradePersonal: Để bật chế độ cộng tác chỉnh sửa, vui lòng nâng cấp không gian làm việc cá nhân của bạn.
     freeAccount: Người dùng này có tài khoản <b>miễn phí</b>.
     editAfterUpgrade: Họ sẽ được phép <b>chỉnh sửa</b> sơ đồ sau khi nâng cấp tài khoản.
-    collaborationLimit: "Bạn chỉ có thể cộng tác với:"
+    collaborationLimit: "Bạn chỉ có thể cộng tác với"
     diagramLimit: "Tối đa 4 người dùng miễn phí trong mỗi sơ đồ (hiện tại {count} người dùng)"
     workspaceLimit: "Tối đa 6 người dùng miễn phí trên tất cả các sơ đồ (hiện tại {count} người dùng)"
 
@@ -209,10 +209,10 @@ import:
     step1: '1. Cài đặt'
     step1Note: bạn có thể cần thêm
     step1NoteSudo: trước các lệnh của bạn trên Linux
-    step2: '2. Chạy lệnh sau:'
+    step2: "2. Chạy lệnh sau"
     exampleFor: Ví dụ cho
     successMessage: "Generated DBML file from database's connection: database.dbml"
-    successBigquery: 'Lưu ý: Với BigQuery, tệp chứng thực JSON của bạn phải chứa các khóa sau:'
+    successBigquery: "Lưu ý: Với BigQuery, tệp chứng thực JSON của bạn phải chứa các khóa sau"
     successSnowflake1: Đang thử kết nối...
     successSnowflake2: Đang thực thi truy vấn...
     successSnowflake3: Truy vấn thực thi thành công.
@@ -292,6 +292,8 @@ errors:
 
   # Workspace errors
   cannotGetWorkspaceParticipants: Không thể lấy người tham gia workspace, vui lòng thử lại!
+  cannotGetUserWorkspaces: Không thể lấy danh sách workspace của người dùng, vui lòng thử lại!
+  cannotGetWorkspacesSubscription: Không thể lấy thông tin đăng ký workspace, vui lòng thử lại!
 
   # Export errors
   exportSqlFailed: Xuất SQL thất bại, vui lòng cập nhật schema database và thử lại.

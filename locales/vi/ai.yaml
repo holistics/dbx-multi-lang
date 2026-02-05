@@ -103,3 +103,13 @@ quickActionSubActions:
   sqlServer: SQL Server
   sqlite: SQLite
   oracle: Oracle
+
+# Additional AI strings from file review
+additional:
+  errorLoading: Lỗi khi tải. Vui lòng thử lại.
+  createNewThread: Tạo luồng mới
+  typeMessage: Nhập tin nhắn...
+  sendMessage: Gửi tin nhắn
+  loadMore: Tải thêm
+  chatHistory: lịch sử-chat
+  errorLoadingChatHistory: Lỗi khi tải lịch sử chat. Vui lòng thử lại.

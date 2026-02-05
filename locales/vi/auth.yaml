@@ -105,3 +105,28 @@ sso:
 
 portal:
   signIn: Đăng nhập
+
+# Additional auth errors from file review
+additional:
+  unknownError: Lỗi không xác định
+  unknownErrorDuringLogin: Lỗi không xác định khi đăng nhập
+  networkError: Lỗi kết nối mạng
+  invalidAccess: Truy cập không hợp lệ
+  invalidAuthenticationRequest: Yêu cầu xác thực không hợp lệ
+  invalidClient: Client không hợp lệ
+  missingClientIdOrRedirectUri: Thiếu client_id hoặc redirect uri
+  invalidOtp: Mã OTP không hợp lệ, vui lòng thử lại!
+  cannotValidateOtp: Không thể xác thực OTP, vui lòng thử lại!
+  emailNotVerified: Email của bạn chưa được xác minh. Vui lòng xác minh trên tài khoản Microsoft.
+  invalidToken: Token không hợp lệ
+  cannotSignInMicrosoftSSO: Không thể đăng nhập bằng Microsoft SSO, vui lòng thử lại!
+  cannotSignIn: Không thể đăng nhập, vui lòng thử lại!
+  failedReloadProject: Tải lại dự án sau khi đăng nhập thất bại. Vui lòng làm mới trang.
+  loginError: "Lỗi đăng nhập"
+  signInCancelled: Đăng nhập đã bị hủy. Vui lòng thử lại.
+  authenticationFailed: Xác thực thất bại!
+  invalidRequest: Yêu cầu không hợp lệ!
+  connectionErrorRetrying: Lỗi kết nối. Đang thử lại...
+  accessDenied: Truy cập bị từ chối
+  unexpectedError: Lỗi không mong muốn
+  pageCannotOpenedDirectly: Trang này không thể được mở trực tiếp. Vui lòng quay lại ứng dụng và bắt đầu quy trình đăng nhập.

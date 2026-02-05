@@ -113,7 +113,7 @@ share:
     upgradePersonal: To enable editing collaboration, please upgrade your personal workspace.
     freeAccount: This user has a <b>free</b> account.
     editAfterUpgrade: They will be allowed to <b>edit</b> the diagram after their account is upgraded.
-    collaborationLimit: "You can only collaborate with:"
+    collaborationLimit: "You can only collaborate with"
     diagramLimit: "Up to 4 free users in each diagram (currently {count} users)"
     workspaceLimit: "Up to 6 free users across all diagrams (currently {count} users)"
 
@@ -209,10 +209,10 @@ import:
     step1: '1. Install'
     step1Note: you might need to add
     step1NoteSudo: before your commands on Linux
-    step2: '2. Run the following command:'
+    step2: "2. Run the following command"
     exampleFor: Example for
     successMessage: "Generated DBML file from database's connection: database.dbml"
-    successBigquery: 'Note: For BigQuery, your JSON credential file must contain the following keys:'
+    successBigquery: "Note: For BigQuery, your JSON credential file must contain the following keys"
     successSnowflake1: Attempting to connect...
     successSnowflake2: Executing query...
     successSnowflake3: Query executed successfully.
@@ -293,6 +293,8 @@ errors:
 
   # Workspace errors
   cannotGetWorkspaceParticipants: Cannot get workspace participants, please try again!
+  cannotGetUserWorkspaces: Can not get user workspaces, please try again!
+  cannotGetWorkspacesSubscription: Can not get workspaces subscription, please try again!
 
   # Export errors
   exportSqlFailed: Fail to export SQL, please update your database schema and try again.

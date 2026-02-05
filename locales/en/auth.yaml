@@ -105,3 +105,28 @@ sso:
 
 portal:
   signIn: Sign in
+
+# Additional auth errors from file review
+additional:
+  unknownError: Unknown error
+  unknownErrorDuringLogin: Unknown error during login
+  networkError: Network error
+  invalidAccess: Invalid Access
+  invalidAuthenticationRequest: Invalid Authentication Request
+  invalidClient: Invalid Client
+  missingClientIdOrRedirectUri: Missing client_id or redirect uri
+  invalidOtp: Invalid OTP, please try again!
+  cannotValidateOtp: Can not validate OTP, please try again!
+  emailNotVerified: Your email is not verified. Please verify them on Microsoft account.
+  invalidToken: Invalid token
+  cannotSignInMicrosoftSSO: Cannot sign in with Microsoft SSO, please try again!
+  cannotSignIn: Cannot sign in, please try again!
+  failedReloadProject: Failed to reload project after login. Please refresh the page.
+  loginError: "Login error"
+  signInCancelled: Sign in cancelled. Please try again.
+  authenticationFailed: Authentication failed!
+  invalidRequest: Invalid request!
+  connectionErrorRetrying: Connection error. Retrying...
+  accessDenied: Access Denied
+  unexpectedError: Unexpected Error
+  pageCannotOpenedDirectly: This page cannot be opened directly. Please return to the application and start the login process.

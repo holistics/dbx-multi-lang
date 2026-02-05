@@ -103,3 +103,13 @@ quickActionSubActions:
   sqlServer: SQL Server
   sqlite: SQLite
   oracle: Oracle
+
+# Additional AI strings from file review
+additional:
+  errorLoading: Error loading. Please try again.
+  createNewThread: Create a new thread
+  typeMessage: Type a message...
+  sendMessage: Send message
+  loadMore: Load more
+  chatHistory: chat-history
+  errorLoadingChatHistory: Error loading chat history. Please try again.

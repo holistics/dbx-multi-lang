@@ -240,3 +240,57 @@ common:
 
 errors:
   permissionDenied: You don't have the permission to access this workspace
+
+# Additional workspace strings from file review
+additional:
+  # Billing
+  billing:
+    workspaceReadOnly: Workspace is in read-only mode due to subscription cancelation. Renew to enable workspace functionality.
+    currentPlan: Current Plan
+    teamTrialPlan: Team Trial Plan
+    billedEveryMonth: Billed every month
+    billedEveryYear: Billed every year
+    cancelledOn: Cancelled on
+    addons: Addons
+    nextPayment: Your next payment is
+    toBeChargedOn: to be charged on
+    switchToMonthlyBilling: Switch to monthly billing
+    switchToYearlyBilling: Switch to yearly billing
+    editAddonsQuantity: Edit addons quantity
+    upgrade: Upgrade
+    paymentMethod: Payment Method
+    noPaymentMethod: No payment method
+    invoicing: Invoicing
+    lastPayment: Last payment
+    forSupportEmail: "For support, email us at"
+    switchPlanSuccessfully: Switch plan successfully
+    paymentProcessing: Your payment is processing, please reload the page in a few minutes.
+    checkoutCancelled: Checkout cancelled
+    errorDuringCheckout: An error occur during checkout. Please try again later
+    editSubscription: Edit subscription
+    updatePaymentMethod: Update payment method
+    editBillingInformation: Edit billing information
+
+  # API Tokens
+  apiTokens:
+    permanentlyDelete: permanently delete
+
+  # Account management
+  account:
+    loadingAccountInfo: Loading account information...
+    displayName: Display Name
+    connectedAccounts: Connected Accounts
+    loadingConnectedAccounts: Loading connected accounts...
+    noConnectedAccounts: No connected accounts
+    loggedInWith: Logged in with
+    manageAccount: Manage Account
+    accountRemovedHours: Your account will be removed after a few hours.
+    accountRemovedDay: Your account will be removed after a day.
+    accountRemovedDays: Your account will be removed after {count} days.
+    cancelRemovalRequest: Cancel removal request
+    removeAccount: Remove account...
+    ownedWorkspacesDeleted: "You have {count} owned workspace(s) that will be deleted"
+    removalRequestCanceled: Removal request was canceled successfully!
+    removeThisAccount: Remove this account?
+    removalRequestCreated: Removal request was created successfully!
+    actionCannotBeUndone: This action cannot be undone!

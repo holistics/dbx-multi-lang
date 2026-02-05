@@ -240,3 +240,57 @@ common:
 
 errors:
   permissionDenied: Bạn không có quyền truy cập vào không gian làm việc này
+
+# Additional workspace strings from file review
+additional:
+  # Billing
+  billing:
+    workspaceReadOnly: Không gian làm việc đang ở chế độ chỉ do hủy đăng ký. Vui lòng gia hạn để kích hoạt lại chức năng.
+    currentPlan: Gói hiện tại
+    teamTrialPlan: Gói dùng thử nhóm
+    billedEveryMonth: Thanh toán hàng tháng
+    billedEveryYear: Thanh toán hàng năm
+    cancelledOn: Đã hủy vào ngày
+    addons: Tiện ích bổ sung
+    nextPayment: Khoản thanh toán tiếp theo của bạn là
+    toBeChargedOn: sẽ được tính phí vào ngày
+    switchToMonthlyBilling: Chuyển sang thanh toán hàng tháng
+    switchToYearlyBilling: Chuyển sang thanh toán hàng năm
+    editAddonsQuantity: Chỉnh số lượng tiện ích bổ sung
+    upgrade: Nâng cấp
+    paymentMethod: Phương thức thanh toán
+    noPaymentMethod: Không có phương thức thanh toán
+    invoicing: Hóa đơn
+    lastPayment: Thanh toán cuối cùng
+    forSupportEmail: "Để được hỗ trợ, email cho chúng tôi tại"
+    switchPlanSuccessfully: Chuyển đổi gói thành công
+    paymentProcessing: Thanh toán của bạn đang được xử lý, vui lòng tải lại trang sau vài phút.
+    checkoutCancelled: Đã hủy thanh toán
+    errorDuringCheckout: Đã xảy ra lỗi khi thanh toán. Vui lòng thử lại sau.
+    editSubscription: Chỉnh sửa đăng ký
+    updatePaymentMethod: Cập nhật phương thức thanh toán
+    editBillingInformation: Chỉnh sửa thông tin thanh toán
+
+  # API Tokens
+  apiTokens:
+    permanentlyDelete: xóa vĩnh viễn
+
+  # Account management
+  account:
+    loadingAccountInfo: Đang tải thông tin tài khoản...
+    displayName: Tên hiển thị
+    connectedAccounts: Tài khoản đã liên kết
+    loadingConnectedAccounts: Đang tải tài khoản đã liên kết...
+    noConnectedAccounts: Không có tài khoản nào được liên kết
+    loggedInWith: Đã đăng nhập bằng
+    manageAccount: Quản lý tài khoản
+    accountRemovedHours: Tài khoản của bạn sẽ bị xóa sau vài giờ.
+    accountRemovedDay: Tài khoản của bạn sẽ bị xóa sau một ngày.
+    accountRemovedDays: Tài khoản của bạn sẽ bị xóa sau {count} ngày.
+    cancelRemovalRequest: Hủy yêu cầu xóa
+    removeAccount: Xóa tài khoản...
+    ownedWorkspacesDeleted: "Bạn có {count} không gian làm việc sở hữu sẽ bị xóa"
+    removalRequestCanceled: Yêu cầu xóa đã được hủy thành công!
+    removeThisAccount: Xóa tài khoản này?
+    removalRequestCreated: Yêu cầu xóa đã được tạo thành công!
+    actionCannotBeUndone: Hành động này không thể hoàn tác!
