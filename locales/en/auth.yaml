@@ -127,6 +127,8 @@ additional:
   authenticationFailed: Authentication failed!
   invalidRequest: Invalid request!
   connectionErrorRetrying: Connection error. Retrying...
-  accessDenied: Access Denied
-  unexpectedError: Unexpected Error
-  pageCannotOpenedDirectly: This page cannot be opened directly. Please return to the application and start the login process.
+
+logoutCallback:
+  redirecting: Redirecting...
+  redirectDescription: You will be redirected to the application in a few seconds.
+

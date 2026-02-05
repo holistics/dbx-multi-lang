@@ -127,6 +127,8 @@ additional:
   authenticationFailed: Xác thực thất bại!
   invalidRequest: Yêu cầu không hợp lệ!
   connectionErrorRetrying: Lỗi kết nối. Đang thử lại...
-  accessDenied: Truy cập bị từ chối
-  unexpectedError: Lỗi không mong muốn
-  pageCannotOpenedDirectly: Trang này không thể được mở trực tiếp. Vui lòng quay lại ứng dụng và bắt đầu quy trình đăng nhập.
+
+logoutCallback:
+  redirecting: Đang chuyển hướng...
+  redirectDescription: Bạn sẽ được chuyển đến ứng dụng trong vài giây.
+
