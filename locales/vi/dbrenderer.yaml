@@ -138,3 +138,11 @@ loading:
   initializingReferencesProgress: "Đang khởi tạo quan hệ... ({current}/{total})"
   arrangingDiagram: Đang sắp xếp sơ đồ của bạn...
   finalizingDiagram: Đang hoàn tất sơ đồ...
+
+# Filter Config Tags
+filterConfigTags:
+  all: Tất cả
+  allTables: Tất cả bảng
+  allNotes: Tất cả ghi chú
+  nothing: Không có gì
+  moreItems: "{count} mục khác:"

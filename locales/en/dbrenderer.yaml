@@ -138,3 +138,11 @@ loading:
   initializingReferencesProgress: "Initializing references... ({current}/{total})"
   arrangingDiagram: Arranging your diagram...
   finalizingDiagram: Finalizing diagram...
+
+# Filter Config Tags
+filterConfigTags:
+  all: All
+  allTables: All Tables
+  allNotes: All Notes
+  nothing: Nothing
+  moreItems: "{count} more items:"
