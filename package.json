@@ -1,6 +1,6 @@
 {
   "name": "@holistics/dbx-multi-lang",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Multi-language support package for DBDiagram",
   "type": "module",
   "main": "./dist/index.cjs",
