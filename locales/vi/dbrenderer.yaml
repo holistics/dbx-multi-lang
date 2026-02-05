@@ -143,6 +143,21 @@ loading:
 filterConfigTags:
   all: Tất cả
   allTables: Tất cả bảng
-  allNotes: Tất cả ghi chú (sticky notes)
+  allNotes: Tất cả ghi chú dán
   nothing: Không có gì
   moreItems: "{count} mục khác:"
+
+# Sticky Notes Section
+stickyNotesSection:
+  title: Ghi chú dán
+
+# Sticky Notes
+stickyNotes:
+  untitledNote: Ghi chú dán không có tiêu đề
+  removeNoteConfirmation: Xóa ghi chú dán của bạn?
+  yes: Có
+  no: Không
+
+# Table List
+tableList:
+  noTablesFound: Không tìm thấy bảng nào

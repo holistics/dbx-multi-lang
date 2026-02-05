@@ -146,3 +146,18 @@ filterConfigTags:
   allNotes: All Notes
   nothing: Nothing
   moreItems: "{count} more items:"
+
+# Sticky Notes Section
+stickyNotesSection:
+  title: Sticky Notes
+
+# Sticky Notes
+stickyNotes:
+  untitledNote: Untitled Note
+  removeNoteConfirmation: Remove your note?
+  yes: Yes
+  no: No
+
+# Table List
+tableList:
+  noTablesFound: No tables found
