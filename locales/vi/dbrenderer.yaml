@@ -143,6 +143,6 @@ loading:
 filterConfigTags:
   all: Tất cả
   allTables: Tất cả bảng
-  allNotes: Tất cả Sticky Notes
+  allNotes: Tất cả ghi chú (sticky notes)
   nothing: Không có gì
   moreItems: "{count} mục khác:"
