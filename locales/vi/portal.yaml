@@ -6,7 +6,7 @@ portal:
     welcome: Chào mừng
     signingIn: Đang đăng nhập
     successfullySignedIn: Đăng nhập thành công
-    powering: Cung cấp bởi
+    powering: Powering
     signOutFrom: Đăng xuất khỏi {clientName}
     signOutFromAccount: Đăng xuất khỏi tài khoản của bạn
   githubCallback:
