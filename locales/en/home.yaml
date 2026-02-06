@@ -1,76 +1,106 @@
+# Home page translations - Landing page
+# UI Areas: Homepage (/), Hero section, Features, Testimonials, FAQ
+
 home:
+  # ========================================
+  # Hero Section - Main landing area
+  # ========================================
   hero:
-    title: Draw Entity-Relationship Diagrams, Painlessly 😎
-    subtitle: A free, simple tool to draw ER diagrams by just writing code.<br>Designed for developers and data analysts.
-    stats: Over 3M diagrams created from around the world
-    testimonialsLink: See what our users say 💙
-    cta: Create your diagram
-    orImport: or import from
-    database: Database
+    title: Draw Entity-Relationship Diagrams, Painlessly 😎 # Hero headline (large text)
+    subtitle: A free, simple tool to draw ER diagrams by just writing code.<br>Designed for developers and data analysts. # Hero subheadline
+    stats: Over 3M diagrams created from around the world # Social proof stat
+    testimonialsLink: See what our users say 💙 # Link (testimonials section)
+    cta: Create your diagram # Primary CTA button (hero)
+    orImport: or import from # Divider text (import section)
+    database: Database # Import button label (database import)
+
+  # ========================================
+  # Features Section - Product features grid
+  # ========================================
   features:
     writeCode:
-      title: Write code, get visual diagrams
-      description: You type and an ER diagram appears. Your fingers never need to leave your keyboard.
-      learnMore: Learn more
+      title: Write code, get visual diagrams # Feature card 1 title
+      description: You type and an ER diagram appears. Your fingers never need to leave your keyboard. # Feature card 1 description
+      learnMore: Learn more # Link (feature 1 details)
     collaborate:
-      title: Design together in real-time
-      description: Invite your team to collaborate on diagrams simultaneously. See changes as they happen, just like in Google Docs. Keep everyone on the same page.
-      learnMore: Learn more
+      title: Design together in real-time # Feature card 2 title
+      description: Invite your team to collaborate on diagrams simultaneously. See changes as they happen, just like in Google Docs. Keep everyone on the same page. # Feature card 2 description
+      learnMore: Learn more # Link (feature 2 details)
     largeScale:
-      title: Master large-scale database designs
-      description: Simplify huge diagrams with collapsible table groups, tailored views and color codings that let you create focused perspectives for better clarity and collaboration.
-      learnMore: Learn more
+      title: Master large-scale database designs # Feature card 3 title
+      description: Simplify huge diagrams with collapsible table groups, tailored views and color codings that let you create focused perspectives for better clarity and collaboration. # Feature card 3 description
+      learnMore: Learn more # Link (feature 3 details)
     aiAssistant:
-      title: Design databases faster with AI
-      description: Describe your database needs in plain language, and let the AI handle the rest. Perfect for iterative design that keeps pace with your ideas.
-      learnMore: Learn more
+      title: Design databases faster with AI # Feature card 4 title
+      description: Describe your database needs in plain language, and let the AI handle the rest. Perfect for iterative design that keeps pace with your ideas. # Feature card 4 description
+      learnMore: Learn more # Link (feature 4 details)
     importSql:
-      title: Import from SQL Databases
-      description: Quickly generate your diagrams from your databases or SQL dump files.
+      title: Import from SQL Databases # Feature card 5 title
+      description: Quickly generate your diagrams from your databases or SQL dump files. # Feature card 5 description
     generateSql:
-      title: Generate SQL statements
-      description: Directly generate SQL statements to create your database tables.
+      title: Generate SQL statements # Feature card 6 title
+      description: Directly generate SQL statements to create your database tables. # Feature card 6 description
     exportImages:
-      title: Export to Images and PDFs
-      description: Create beautiful PDFs of your ER diagram to circulate internally. Who says ERDs are so difficult to create?
+      title: Export to Images and PDFs # Feature card 7 title
+      description: Create beautiful PDFs of your ER diagram to circulate internally. Who says ERDs are so difficult to create? # Feature card 7 description
     oneClickShare:
-      title: One Click Sharing
-      description: Share your diagrams online with your colleagues and customers with just one click.
+      title: One Click Sharing # Feature card 8 title
+      description: Share your diagrams online with your colleagues and customers with just one click. # Feature card 8 description
     versionHistory:
-      title: Track changes and travel back in time
-      description: Access a full history of your diagram's changes. Compare versions, restore previous states, or create a copy from any point in time.
-      learnMore: Learn more
+      title: Track changes and travel back in time # Feature card 9 title
+      description: Access a full history of your diagram's changes. Compare versions, restore previous states, or create a copy from any point in time. # Feature card 9 description
+      learnMore: Learn more # Link (feature 9 details)
     embed:
-      title: Embed into wikis, blogs, or documentation sites
-      description: Embed your diagrams directly into your internal wikis, blogs, or documentation sites (Notion, Confluence, etc.). Keep your documentation always up-to-date.
-      learnMore: Learn more
-    everythingYouNeed: Everything you need to design complex databases 🚀
+      title: Embed into wikis, blogs, or documentation sites # Feature card 10 title
+      description: Embed your diagrams directly into your internal wikis, blogs, or documentation sites (Notion, Confluence, etc.). Keep your documentation always up-to-date. # Feature card 10 description
+      learnMore: Learn more # Link (feature 10 details)
+    everythingYouNeed: Everything you need to design complex databases 🚀 # Section header (features closing)
+
+  # ========================================
+  # Testimonials Section - User testimonials
+  # ========================================
   testimonials:
-    title: What People Say About Us 🤟
-    moreLove: More Love
-    moreLoveDescription: See what our users are saying about dbdiagram.
-    productHunt: Product Hunt
-    productHuntDescription: Discover our launch and community feedback on Product Hunt.
+    title: What People Say About Us 🤟 # Section header
+    moreLove: More Love # View more link
+    moreLoveDescription: See what our users are saying about dbdiagram. # View more tooltip
+    productHunt: Product Hunt # External link label
+    productHuntDescription: Discover our launch and community feedback on Product Hunt. # External link description
+
+  # ========================================
+  # Companies Section - Social proof logos
+  # ========================================
   companies:
-    title: Chosen by product, data, and engineering teams in every sector
+    title: Chosen by product, data, and engineering teams in every sector # Section header (company logos)
+
+  # ========================================
+  # FAQ Section - Frequently asked questions
+  # ========================================
   faq:
-    title: FAQs
+    title: FAQs # Section header
     pricing:
-      question: Is <router-link to="/">dbdiagram.io</router-link> free forever? How does the pricing work?
-      answer: Absolutely! The app is free forever.<br>You can also get more power and unlimited diagrams with our paid plans.<router-link class="underline" to="/pricing">Learn more.</router-link>
+      question: Is <router-link to="/">dbdiagram.io</router-link> free forever? How does the pricing work? # FAQ question 1
+      answer: Absolutely! The app is free forever.<br>You can also get more power and unlimited diagrams with our paid plans.<router-link class="underline" to="/pricing">Learn more.</router-link> # FAQ answer 1
     who:
-      question: Who are you guys? And why did you guys build this?
-      answer: We are <a target="_blank" href="https://www.holistics.io/">Holistics.io</a>, a Singapore-based business intelligence product company. We built dbdiagram internally in order to have a quick way to visualize database schemas for our customers. We thought it would be cool to turn that into a standalone product for the broader data community to use!
+      question: Who are you guys? And why did you guys build this? # FAQ question 2
+      answer: We are <a target="_blank" href="https://www.holistics.io/">Holistics.io</a>, a Singapore-based business intelligence product company. We built dbdiagram internally in order to have a quick way to visualize database schemas for our customers. We thought it would be cool to turn that into a standalone product for the broader data community to use! # FAQ answer 2
     bugs:
-      question: How do I report a bug or request a feature?
-      answer: You can post to our <a class="underline" target="_blank" href="https://community.dbdiagram.io/">Community Forum</a>, we get instant notification on every post submit. Alternatively, you can submit the <a class="underline" target="_blank" href="https://form.jotform.com/200914527435049">Feedback Form</a>.
+      question: How do I report a bug or request a feature? # FAQ question 3
+      answer: You can post to our <a class="underline" target="_blank" href="https://community.dbdiagram.io/">Community Forum</a>, we get instant notification on every post submit. Alternatively, you can submit the <a class="underline" target="_blank" href="https://form.jotform.com/200914527435049">Feedback Form</a>. # FAQ answer 3
     dsl:
-      question: What markup language is the dbdiagram DSL following?
-      answer: We use <a class="underline" href="https://dbml.dbdiagram.io/home" target="_blank">DBML - Database Markup Language</a>, a markup language designed to easily document database structures. In fact DBML is born out of dbdiagram! We turned dbdiagram DSL into DBML and made it available for everyone. <br> <br>DBML is also completely open-source on <a class="underline" href="https://github.com/holistics/dbml" target="_blank">Github</a>.
+      question: What markup language is the dbdiagram DSL following? # FAQ question 4
+      answer: We use <a class="underline" href="https://dbml.dbdiagram.io/home" target="_blank">DBML - Database Markup Language</a>, a markup language designed to easily document database structures. In fact DBML is born out of dbdiagram! We turned dbdiagram DSL into DBML and made it available for everyone. <br> <br>DBML is also completely open-source on <a class="underline" href="https://github.com/holistics/dbml" target="_blank">Github</a>. # FAQ answer 4
+
+  # ========================================
+  # About Section - Company info
+  # ========================================
   about:
-    title: About Us 🤟
-    description: ❤️ dbdiagram.io is built by the folks at <a target="_blank" href="https://www.holistics.io/"><b>holistics.io</b></a>, with love for the data community ❤️
-    details: Holistics is a powerful BI platform that reduces your need for data engineering. We empower your analysts with SQL<br>to build your data warehouse, and give them the tools to build automated reporting routines that deliver insights to everyone.
-    getStarted: Get Started
-  builtBy: built by
-  browserNotSupported: Your browser does not support the video tag.
+    title: About Us 🤟 # Section header
+    description: ❤️ dbdiagram.io is built by the folks at <a target="_blank" href="https://www.holistics.io/"><b>holistics.io</b></a>, with love for the data community ❤️ # About description
+    details: Holistics is a powerful BI platform that reduces your need for data engineering. We empower your analysts with SQL<br>to build your data warehouse, and give them the tools to build automated reporting routines that deliver insights to everyone. # Company details
+    getStarted: Get Started # CTA button (about section)
+
+  # ========================================
+  # Footer - Footer content
+  # ========================================
+  builtBy: built by # Footer attribution prefix
+  browserNotSupported: Your browser does not support the video tag. # Video fallback text

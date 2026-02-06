@@ -1,58 +1,88 @@
+# Database Guidelines translations - Import instructions
+# UI Areas: Import modal, Database connection instructions
+
 databaseGuidelines:
+  # ========================================
+  # MySQL Import - MySQL-specific instructions
+  # ========================================
   mysql:
-    title: MySQL
-    install: Install
-    tool: mysqldump
-    terminalCommand: In your terminal run the following command
-    linuxPrefix: On Linux you might need to add
-    sudo: sudo
-    linuxSuffix: before it
-    example: Example
-    step3: Copy the dumped SQL content and paste it into this modal
+    title: MySQL # Database selector option (import modal)
+    install: Install # Install link text
+    tool: mysqldump # Tool name
+    terminalCommand: In your terminal run the following command # Instruction (command block)
+    linuxPrefix: On Linux you might need to add # Linux-specific note
+    sudo: sudo # Sudo command
+    linuxSuffix: before it # Sudo placement hint
+    example: Example # Command block label
+    step3: Copy the dumped SQL content and paste it into this modal # Final step instruction
+
+  # ========================================
+  # PostgreSQL Import - PostgreSQL-specific instructions
+  # ========================================
   postgres:
-    title: PostgreSQL
-    install: Install
-    tool: pg_dump
-    terminalCommand: In your terminal run the following command
-    linuxPrefix: On Linux you might need to add
-    sudo: sudo
-    linuxSuffix: before it
-    example: Example
-    step3: Copy the dumped SQL content and paste it into this modal
+    title: PostgreSQL # Database selector option (import modal)
+    install: Install # Install link text
+    tool: pg_dump # Tool name
+    terminalCommand: In your terminal run the following command # Instruction (command block)
+    linuxPrefix: On Linux you might need to add # Linux-specific note
+    sudo: sudo # Sudo command
+    linuxSuffix: before it # Sudo placement hint
+    example: Example # Command block label
+    step3: Copy the dumped SQL content and paste it into this modal # Final step instruction
+
+  # ========================================
+  # CSV Import - CSV file instructions
+  # ========================================
   csv:
-    title: CSV
-    description: Upload a CSV file to automatically generate a DBML table structure. The first row should contain column headers
-    exampleFormat: Example CSV format
+    title: CSV # Database selector option (import modal)
+    description: Upload a CSV file to automatically generate a DBML table structure. The first row should contain column headers # Import description
+    exampleFormat: Example CSV format # Example section header
+
+  # ========================================
+  # Rails Import - Rails schema.rb instructions
+  # ========================================
   rails:
-    title: Rails schema.rb
-    step1: Open the
-    schemaRb: schema.rb
-    step1Suffix: file of your project using any code editor
-    step2: Copy the schema.rb content and paste it into this modal
+    title: Rails schema.rb # Database selector option (import modal)
+    step1: Open the # Instruction step 1 prefix
+    schemaRb: schema.rb # File name (code font)
+    step1Suffix: file of your project using any code editor # Instruction step 1 suffix
+    step2: Copy the schema.rb content and paste it into this modal # Instruction step 2
+
+  # ========================================
+  # SQL Server Import - SQL Server instructions
+  # ========================================
   sqlServer:
-    title: SQL Server
-    step1: Download and install
-    tool: SQL Server Management Studio
-    step1Suffix: SSMS
-    step2: Open SSMS and connect to your SQL server
-    step3: Once connected right-click on the database to be exported and choose
-    scriptDatabaseAs: Script Database as
-    createTo: CREATE To
-    newQueryEditorWindows: New Query Editor Windows
-    step4: Copy the dumped SQL content and paste it into this modal
+    title: SQL Server # Database selector option (import modal)
+    step1: Download and install # Instruction step 1 prefix
+    tool: SQL Server Management Studio # Tool name
+    step1Suffix: SSMS # Tool abbreviation
+    step2: Open SSMS and connect to your SQL server # Instruction step 2
+    step3: Once connected right-click on the database to be exported and choose # Instruction step 3 prefix
+    scriptDatabaseAs: Script Database as # Menu option name
+    createTo: CREATE To # Menu option continuation
+    newQueryEditorWindows: New Query Editor Windows # Sub-menu option
+    step4: Copy the dumped SQL content and paste it into this modal # Instruction step 4
+
+  # ========================================
+  # Oracle Import - Oracle database instructions
+  # ========================================
   oracle:
-    title: Oracle
-    description: Run the following commands by hand then upload the SQL file using the
-    uploadSql: Upload .sql
-    createDirectory: Create a directory object in Oracle
-    grantPrivileges: Grant read and write privileges on the directory object
-    exportSchema: Export a specific schema to a dump file
-    convertDump: Convert the dump file to SQL file
+    title: Oracle # Database selector option (import modal)
+    description: Run the following commands by hand then upload the SQL file using the # Description intro
+    uploadSql: Upload .sql # Upload button label
+    createDirectory: Create a directory object in Oracle # Command 1 description
+    grantPrivileges: Grant read and write privileges on the directory object # Command 2 description
+    exportSchema: Export a specific schema to a dump file # Command 3 description
+    convertDump: Convert the dump file to SQL file # Command 4 description
+
+  # ========================================
+  # Snowflake Import - Snowflake database instructions
+  # ========================================
   snowflake:
-    title: Snowflake
-    description: Run the
-    getDdl: GET_DDL
-    descriptionSuffix: command by hand then copy and paste the output into the text input on the screen or save it to a file and upload using the
-    uploadSql: Upload .sql
-    exportAllTables: Exporting all the tables DDL for the entire database
-    selectSchema: Select all tables in a single schema
+    title: Snowflake # Database selector option (import modal)
+    description: Run the # Description intro
+    getDdl: GET_DDL # Command name
+    descriptionSuffix: command by hand then copy and paste the output into the text input on the screen or save it to a file and upload using the # Description suffix
+    uploadSql: Upload .sql # Upload button label
+    exportAllTables: Exporting all the tables DDL for the entire database # Feature description
+    selectSchema: Select all tables in a single schema # Feature description

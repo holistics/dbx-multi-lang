@@ -1,167 +1,209 @@
+# Billing translations - Pricing, subscriptions, payment
+# UI Areas: Pricing page, Billing settings, Upgrade modals
+
 billing:
+  # ========================================
+  # Billing Buttons - Action buttons
+  # ========================================
   buttons:
-    upgrade: Upgrade
-    upgradeToPersonalPro: Upgrade to Personal Pro plan
-    collaborateWithTeam: Collaborate with Team plan
+    upgrade: Upgrade # Generic upgrade button
+    upgradeToPersonalPro: Upgrade to Personal Pro plan # CTA button (pricing page)
+    collaborateWithTeam: Collaborate with Team plan # CTA button (team plan)
 
+  # ========================================
+  # Pricing Page - Pricing table
+  # ========================================
   pricing:
-    title: Pricing
-    subtitle: Choose the plan that works for you
-    free: Free
-    pro: Pro
-    team: Team
-    currentPlan: Current Plan
-    upgrade: Upgrade
-    downgrade: Downgrade
-    cancel: Cancel Subscription
+    title: Pricing # Page/section title
+    subtitle: Choose the plan that works for you # Section subtitle
+    free: Free # Plan name (pricing table)
+    pro: Pro # Plan name (pricing table)
+    team: Team # Plan name (pricing table)
+    currentPlan: Current Plan # Label (current subscription)
+    upgrade: Upgrade # Upgrade button (billing page)
+    downgrade: Downgrade # Downgrade button (billing page)
+    cancel: Cancel Subscription # Cancel button (billing page)
 
+  # ========================================
+  # Plan Details - Individual plan info
+  # ========================================
   plans:
     free:
-      name: Free
-      description: For individuals and small projects
-      price: "$0"
-      period: forever
+      name: Free # Plan name (card header)
+      description: For individuals and small projects # Plan tagline
+      price: "$0" # Price display (card)
+      period: forever # Billing period (card)
       features:
-        - Up to 3 diagrams
-        - Basic editing tools
-        - Export as SQL/PNG
-        - Community support
-      cta: Get Started
+        - Up to 3 diagrams # Feature list item 1
+        - Basic editing tools # Feature list item 2
+        - Export as SQL/PNG # Feature list item 3
+        - Community support # Feature list item 4
+      cta: Get Started # Card CTA button
 
     pro:
-      name: Pro
-      description: For professionals who need more
-      price: "$10"
-      period: per month
+      name: Pro # Plan name (card header)
+      description: For professionals who need more # Plan tagline
+      price: "$10" # Price display (card)
+      period: per month # Billing period (card)
       features:
-        - Unlimited diagrams
-        - Advanced editing tools
-        - Version history
-        - Priority support
-        - Export as PDF
-        - Custom themes
-      cta: Start Free Trial
+        - Unlimited diagrams # Feature list item 1
+        - Advanced editing tools # Feature list item 2
+        - Version history # Feature list item 3
+        - Priority support # Feature list item 4
+        - Export as PDF # Feature list item 5
+        - Custom themes # Feature list item 6
+      cta: Start Free Trial # Card CTA button
 
     team:
-      name: Team
-      description: For teams and organizations
-      price: Custom
-      period: contact sales
+      name: Team # Plan name (card header)
+      description: For teams and organizations # Plan tagline
+      price: Custom # Price display (card)
+      period: contact sales # Billing period (card)
       features:
-        - Everything in Pro
-        - Team collaboration
-        - Admin controls
-        - SSO authentication
-        - Priority support
-        - Custom integrations
-      cta: Contact Sales
+        - Everything in Pro # Feature list item 1
+        - Team collaboration # Feature list item 2
+        - Admin controls # Feature list item 3
+        - SSO authentication # Feature list item 4
+        - Priority support # Feature list item 5
+        - Custom integrations # Feature list item 6
+      cta: Contact Sales # Card CTA button
 
+  # ========================================
+  # Payment Form - Credit card inputs
+  # ========================================
   payment:
-    title: Payment Information
-    cardNumber: Card Number
-    expiryDate: Expiry Date
-    cvv: CVV
-    nameOnCard: Name on Card
-    savePayment: Save Payment Method
-    paymentMethod: Payment Method
-    addNewCard: Add New Card
+    title: Payment Information # Section title (payment form)
+    cardNumber: Card Number # Card number input label
+    expiryDate: Expiry Date # Expiry date input label
+    cvv: CVV # CVV input label
+    nameOnCard: Name on Card # Name on card label
+    savePayment: Save Payment Method # Submit button
+    paymentMethod: Payment Method # Section label (existing cards)
+    addNewCard: Add New Card # Add card button
 
+  # ========================================
+  # Billing History - Invoice section
+  # ========================================
   billing:
-    title: Billing
-    invoiceHistory: Invoice History
-    downloadInvoice: Download
-    nextBilling: Next Billing Date
-    planRenews: Your plan renews on
-    planWillCancel: Your plan will cancel on
+    title: Billing # Page/section title
+    invoiceHistory: Invoice History # Section header
+    downloadInvoice: Download # Invoice download button
+    nextBilling: Next Billing Date # Next billing label
+    planRenews: Your plan renews on # Renewal message
+    planWillCancel: Your plan will cancel on # Cancellation message
 
+  # ========================================
+  # Subscription Management - Subscription actions
+  # ========================================
   subscription:
-    manage: Manage Subscription
-    changePlan: Change Plan
-    cancelSubscription: Cancel Subscription
-    reactivate: Reactivate Subscription
-    confirmCancel: Are you sure you want to cancel your subscription?
-    cancelFeedback: Please tell us why you're cancelling
-    reason: Reason for cancellation
-    tooExpensive: Too expensive
-    missingFeatures: Missing features
-    switchedService: Switched to another service
-    notUsing: Not using it enough
-    other: Other
+    manage: Manage Subscription # Link to subscription portal
+    changePlan: Change Plan # Button (change plan modal)
+    cancelSubscription: Cancel Subscription # Danger button
+    reactivate: Reactivate Subscription # Reactivate button
+    confirmCancel: Are you sure you want to cancel your subscription? # Cancel confirmation
+    cancelFeedback: Please tell us why you're cancelling # Feedback section header
+    reason: Reason for cancellation # Dropdown label
+    tooExpensive: Too expensive # Cancellation reason option
+    missingFeatures: Missing features # Cancellation reason option
+    switchedService: Switched to another service # Cancellation reason option
+    notUsing: Not using it enough # Cancellation reason option
+    other: Other # Cancellation reason option
 
+  # ========================================
+  # Personal Pro Plan - Plan features list
+  # ========================================
   personalPro:
-    name: Personal Pro
-    description: For individual freelancers, consultants to design database diagrams
-    everythingInFree: ← Everything in Free, plus
-    unlimitedDiagramsTables: Unlimited Diagrams & Tables
-    unlimitedViews: Unlimited Diagram Views
-    aiAssistant: AI Assistant
-    protectedDiagrams: Protected & Private Diagrams
-    limitedCollaboration: Limited Collaboration
-    headerColorTableGroup: Header Color & Table Group
-    detailLevels: Diagram Detail Levels
-    versionHistory: Version History
-    stickyNotes: Sticky Notes
-    upgradeNow: Upgrade Now
-    getStarted: Get started
+    name: Personal Pro # Plan name (feature section)
+    description: For individual freelancers, consultants to design database diagrams # Plan description
+    everythingInFree: ← Everything in Free, plus # Feature list header
+    unlimitedDiagramsTables: Unlimited Diagrams & Tables # Pro feature 1
+    unlimitedViews: Unlimited Diagram Views # Pro feature 2
+    aiAssistant: AI Assistant # Pro feature 3
+    protectedDiagrams: Protected & Private Diagrams # Pro feature 4
+    limitedCollaboration: Limited Collaboration # Pro feature 5
+    headerColorTableGroup: Header Color & Table Group # Pro feature 6
+    detailLevels: Diagram Detail Levels # Pro feature 7
+    versionHistory: Version History # Pro feature 8
+    stickyNotes: Sticky Notes # Pro feature 9
+    upgradeNow: Upgrade Now # CTA button (feature section)
+    getStarted: Get started # CTA button (pricing)
 
+  # ========================================
+  # Team Plan - Plan features list
+  # ========================================
   team:
-    name: Team
-    description: For teams that need to design and collaborate on database diagrams
-    everythingInPro: ← Everything in Personal Pro, plus
-    collaborativeWorkspace: Collaborative Workspace
-    publicApi: Public API
-    teamManagement: Team Management & Collaboration
-    adminBilling: Unified Admin and Billing
-    freeUserLicenses: 3 Free User Licenses
-    startTrial: Start 7-Day Free Trial
-    upgradeNow: Upgrade now
-    noCreditCard: No credit card required. Cancel anytime.
-    additionalLicense: Additional License
-    perMonthUser: /mo/user
+    name: Team # Plan name (feature section)
+    description: For teams that need to design and collaborate on database diagrams # Plan description
+    everythingInPro: ← Everything in Personal Pro, plus # Feature list header
+    collaborativeWorkspace: Collaborative Workspace # Team feature 1
+    publicApi: Public API # Team feature 2
+    teamManagement: Team Management & Collaboration # Team feature 3
+    adminBilling: Unified Admin and Billing # Team feature 4
+    freeUserLicenses: 3 Free User Licenses # Team feature 5
+    startTrial: Start 7-Day Free Trial # CTA button (team section)
+    upgradeNow: Upgrade now # CTA button (header)
+    noCreditCard: No credit card required. Cancel anytime. # Trial benefit text
+    additionalLicense: Additional License # License label
+    perMonthUser: /mo/user # Price suffix
 
+  # ========================================
+  # Public Pricing - Public pricing page
+  # ========================================
   publicPricing:
-    title: Our pricing plans
-    subtitle: Always free. Get more powers with our Pricing Plans.
-    monthlyBilling: Monthly billing
-    annualBilling: Annual billing
-    saveUpTo: Save up to 42%
-    getStartedFree: Get Started Free
-    errorFetching: Error fetching user pricing
+    title: Our pricing plans # Page title (pricing page)
+    subtitle: Always free. Get more powers with our Pricing Plans. # Page subtitle
+    monthlyBilling: Monthly billing # Billing toggle option
+    annualBilling: Annual billing # Billing toggle option (discounted)
+    saveUpTo: Save up to 42% # Annual discount banner
+    getStartedFree: Get Started Free # Primary CTA button
+    errorFetching: Error fetching user pricing # Error message
 
+  # ========================================
+  # Upgrade Button - Contextual upgrade
+  # ========================================
   upgradeNowBtn:
-    ownerOnly: Only the workspace owner can upgrade to the Team plan
+    ownerOnly: Only the workspace owner can upgrade to the Team plan # Disabled tooltip
 
+  # ========================================
+  # Manage Plan Modal - Subscription details
+  # ========================================
   managePlanModal:
-    loadingSubscription: Loading subscription information...
-    currentPlan: Current Plan
-    personalPlanForever: Personal Plan - Forever
-    unknownPlan: Unknown Plan
-    billedMonthly: Billed every month
-    billedAnnually: Billed every year
-    chargeEvery: Charge every {period} {unit}
-    cancelledOn: Cancelled on
-    planDetails: Plan Details →
-    upgradeDescription: Upgrade to our paid plans to get Detail Levels, Header Color and all upcoming features
-    nextPayment: Your next payment is
-    chargedOn: to be charged on
-    editSubscription: Edit subscription
-    switchToMonthly: Switch to monthly billing
-    switchToYearly: Switch to yearly billing
-    noPaymentMethod: No payment method
-    updatePaymentMethod: Update payment method
-    invoicing: Invoicing
-    lastPayment: Last payment
-    editBillingInfo: Edit billing information
-    paymentProcessing: Your payment is processing, please reload the page in a few minutes.
+    loadingSubscription: Loading subscription information... # Loading skeleton text
+    currentPlan: Current Plan # Section header
+    personalPlanForever: Personal Plan - Forever # Plan name display
+    unknownPlan: Unknown Plan # Fallback plan name
+    billedMonthly: Billed every month # Billing frequency
+    billedAnnually: Billed every year # Billing frequency
+    chargeEvery: Charge every {period} {unit} # Charge description
+    cancelledOn: Cancelled on # Cancellation date label
+    planDetails: Plan Details → # Link to plan features
+    upgradeDescription: Upgrade to our paid plans to get Detail Levels, Header Color and all upcoming features # Upgrade prompt
+    nextPayment: Your next payment is # Payment section header
+    chargedOn: to be charged on # Payment date suffix
+    editSubscription: Edit subscription # Button (payment method)
+    switchToMonthly: Switch to monthly billing # Toggle option
+    switchToYearly: Switch to yearly billing # Toggle option (savings)
+    noPaymentMethod: No payment method # Empty state label
+    updatePaymentMethod: Update payment method # Button (add card)
+    invoicing: Invoicing # Section header
+    lastPayment: Last payment # Section header
+    editBillingInfo: Edit billing information # Button (billing details)
+    paymentProcessing: Your payment is processing, please reload the page in a few minutes. # Processing toast
 
+  # ========================================
+  # Disabled Card - Disabled workspace state
+  # ========================================
   disabledCard:
-    personalUpgrade: Upgrade your personal workspace for premium features.
-    teamReadOnly: Workspace is in read-only mode due to subscription cancelation. Renew to enable workspace functionality.
+    personalUpgrade: Upgrade your personal workspace for premium features. # Upgrade prompt
+    teamReadOnly: Workspace is in read-only mode due to subscription cancelation. Renew to enable workspace functionality. # Reactivation prompt
 
+  # ========================================
+  # Plan Picking View - Simple pricing view
+  # ========================================
   planPickingSimpleView:
-    collaborateWithTeamPlan: Collaborate with Team Plan
-    collaborateWithColleagues: Collaborate with your colleagues.
-    manageTeamDiagrams: Manage team's diagrams all in one place.
-    startFreeTrial: Start 7-Day Free Trial
-    learnMore: Learn more
-    pricingFrom: Pricing from {currency}{price}/month
+    collaborateWithTeamPlan: Collaborate with Team Plan # Section header
+    collaborateWithColleagues: Collaborate with your colleagues. # Section subtitle
+    manageTeamDiagrams: Manage team's diagrams all in one place. # Benefit text
+    startFreeTrial: Start 7-Day Free Trial # CTA button
+    learnMore: Learn more # Link (learn more)
+    pricingFrom: Pricing from {currency}{price}/month # Pricing label
