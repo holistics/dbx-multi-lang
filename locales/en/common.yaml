@@ -1,277 +1,256 @@
-buttons:
-  save: Save
-  cancel: Cancel
-  confirm: Confirm
-  delete: Delete
-  edit: Edit
-  create: Create
-  search: Search
-  share: Share
-  close: Close
-  publish: Publish
-  history: History
-  update: Update
-  copy: Copy
-  import: Import
-  export: Export
-  download: Download
-  upload: Upload
-  login: Log in
-  logout: Log out
-  signup: Sign up
-  continue: Continue
-  back: Back
-  next: Next
-  skip: Skip
-  done: Done
-  tryAgain: Try Again
-  refresh: Refresh
-  clear: Clear
-  apply: Apply
-  reset: Reset
-  yes: Yes
-  no: No
-  ok: OK
-  invite: Invite
-  join: Join
-  leave: Leave
-  rename: Rename
-  duplicate: Duplicate
-  archive: Archive
-  restore: Restore
-  move: Move
-  select: Select
-  deselect: Deselect
-  selectAll: Select All
-  deselectAll: Deselect All
-  show: Show
-  hide: Hide
-  expand: Expand
-  collapse: Collapse
-  filter: Filter
-  sort: Sort
-  group: Group
-  ungroup: Ungroup
-  fullscreen: Fullscreen
-  exitFullscreen: Exit Fullscreen
-  zoomIn: Zoom In
-  zoomOut: Zoom Out
-  resetZoom: Reset Zoom
-  undo: Undo
-  redo: Redo
-  cut: Cut
-  paste: Paste
-  submit: Submit
-  reload: Reload
-  remove: Remove
-  add: Add
-  view: View
-  open: Open
-  manage: Manage
-  settings: Settings
-
-help:
-  title: Help
-  documentation: Documentation
-  releaseNotes: Release Notes
-  roadmap: Roadmap
-  basicEditing: Basic Editing Experience
-  sendFeedback: Send Feedback
-  askCommunity: Ask Community
-  suggestFeature: Suggest Feature
-  contactUs: Contact Us
-  sampleDiagrams: Sample Diagrams
-  sampleAirbnb: Sample Airbnb
-  sampleEcommerce: Sample E-commerce
-  whatsNew: What's new
-  language: Language
-  contribute: Help translate this app
-
-export:
-  title: Export
-  publishToDbdocs: Publish document (to dbdocs)
-  toPdf: To PDF
-  toPng: To PNG
-  toSvg: To SVG
-  toPostgreSQL: To PostgreSQL
-  toMySQL: To MySQL
-  toSQLServer: To SQL Server
-  toOracleSQL: To Oracle SQL
-
-import:
-  title: Import
-  importFrom: Import from
-  fromDatabaseConnection: From Database Connection (via CLI)
-  fromMySQL: From MySQL
-  fromPostgreSQL: From PostgreSQL
-  fromSQLServer: From SQL Server
-  fromSnowflake: From Snowflake
-  fromOracleSQL: From Oracle SQL
-  fromRails: From Rails (schema.rb)
-  fromCSV: From CSV
-
-upgrade:
-  title: Upgrade
-  upgradeToPersonalPro: Upgrade to Personal Pro plan
-  collaborateWithTeam: Collaborate with Team plan
-
-quickActions:
-  title: Quick Actions
-
-sso:
-  signInWithSSO: Sign in with SSO
-  signInWithEmail: Sign in with Email
-  useWorkEmail: Use your work email to access dbdiagram via SSO
-  signInUnsuccessful: Sign‑in unsuccessful. Verify your work email or use another method.
-  selectWorkspace: Select a workspace to sign in
-
-ai:
-  title: AI
-  scrollToBottom: Scroll to bottom
-
-actions:
-  saveChanges: Save Changes
-  confirmDelete: Are you sure you want to delete this?
-  confirmDeleteItem: Are you sure you want to delete "{name}"?
-  confirmArchive: Are you sure you want to archive this?
-  confirmUnsaved:
-    title: Please confirm
-    content: Changes you made may not be saved, do you wish to continue?
-    negativeText: No
-    positiveText: Yes
-  copyToClipboard: Copy to clipboard
-  copiedToClipboard: Copied to clipboard!
-  selectAll: Select all
-  deselectAll: Deselect all
-  loading: Loading...
-  saving: Saving...
-  processing: Processing...
-  pleaseWait: Please wait...
-
-states:
-  loading: Loading...
-  saving: Saving...
-  error: An error occurred
-  success: Success
-  warning: Warning
-  info: Information
-  empty: No data
-  noResults: No results found
-  noItems: No items found
-  offline: You are offline
-  online: You are back online
-
-time:
-  justNow: just now
-  minuteAgo: a minute ago
-  minutesAgo: "{count} minutes ago"
-  hourAgo: an hour ago
-  hoursAgo: "{count} hours ago"
-  dayAgo: a day ago
-  daysAgo: "{count} days ago"
-  weekAgo: a week ago
-  weeksAgo: "{count} weeks ago"
-  monthAgo: a month ago
-  monthsAgo: "{count} months ago"
-  yearAgo: a year ago
-  yearsAgo: "{count} years ago"
-
-errors:
-  generic: Something went wrong. Please try again.
-  network: Network error. Please check your connection.
-  unauthorized: You need to log in to continue.
-  forbidden: You don't have permission to do this.
-  notFound: The requested resource was not found.
-  serverError: Server error. Please try again later.
-  invalidInput: Please check your input and try again.
-  required: This field is required.
-  invalidEmail: Please enter a valid email address.
-  passwordTooShort: Password must be at least {min} characters.
-  passwordMismatch: Passwords do not match.
-  permissionDenied: Permission Denied
-  dontHavePermission: You don't have the permission to access this workspace
-
-workspace:
-  readOnlyMode: Workspace is in read-only mode due to a subscription cancellation. Please renew to enable workspace functionality.
-
-editor:
-  expand: Expand editor
-  hide: Hide editor
-  loadingContent: Loading content from server, please wait...
-  keyboardShortcuts: Keyboard Shortcuts
-  openInDbdiagram: Open in dbdiagram.io
-
-notifications:
-  noPermissionRemoveView: You don't have the permission to remove diagram view!
-  noPermissionRenameView: You don't have the permission to rename diagram view!
-  workspaceDisabled: This workspace is currently disabled
-  noEditPermissionAi: You need edit permission to use dbdiagram AI. Please ask the diagram owner to upgrade your access.
-
-needLogin:
-  hiThere: Hi there,
-  saveQuery: Please login to save your diagram
-  shareQuery: Please login to share your diagram
-  newQuery: Please login to create new diagram
-  export: Please login to export your diagram
-  dbdocsAccess: Please login to edit your dbdocs project
-  aiAssistant: Please login to use dbdiagram AI assistant
-  newDiagram: Please login to create new diagram
-  upgradePersonal: Please login to upgrade to Personal Pro plan
-  upgradeTeam: Please login to start your Team Plan trial
-  joinTeam: Please login to join this team workspace
-  chartUpdateVisibleEntities: Please login to save table/sticky note visibility
-  diagramViewCreateView: Please login to create new diagram view
-  default: Please login to continue your work
-
-# DBDocs auth
-dbdocsAuth:
-  pleaseLoginWith: Please login with
-  youAreLoggedInAs: You are logged in
-  viaSSO: via SSO
-  youNeedToLoginWith: You need to login with
-  pleaseLoginToAccess: Please login to access this project.
-  contactProjectOwner: Contact the project owner to request access.
-  weWillNeedNonSSO: We will need you to use non-SSO account for authentication.
-  weWillNeedSameEmail: We will need you to use the same email account as dbdocs for authentication.
-
-# Additional common strings from file review
-additional:
-  # Collaboration
-  collab:
-    updatingDiagramMetadata: Updating diagram metadata
-    noLongerViewPermission: You no longer have view permission!
-    doNotHaveViewPermission: You do not have view permission!
-    fullSession: Cannot connect due to full session!
-    diagramDeleted: This diagram was deleted!
-    overwrittenDiagram: Someone has overwrite the diagram content, please reload to see the latest change!
-    permissionsChanged: Your permissions have been changed, please reload to apply changes!
-    cannotReconnect: Can not reconnect to the server
-
-  # Query store
-  query:
-    noPermissionShare: You don't have permission to share this diagram
-    cantCreateDiagram: Can't create new diagram, please backup your file then try to signout and login again
-    changesSaved: Your changes have been saved.
-    autoSaveDiagram: We also automatically save the diagram on a regular basis.
-    cantSaveDiagram: Can't save diagram, please backup your file then try to sign out and login again
-    noPermissionSave: You don't have permission to save this diagram
-    diagramDeleted: Your diagram was deleted
-    cantDeleteDiagram: Can't delete your diagram, please backup your file then try to signout and login again
-    noPermissionGetInfo: You don't have permission to get diagram information!
-    cantGetDiagramInfo: Can not get diagram information, please try again!
-    noPermissionAccessProject: You do not have permission to access this project
-    failedLoadProjectDbdocs: Failed to load project from DBDocs
-    failedPublishDbdocs: Failed to publish project to DBDocs
-    pleaseSignInSaveDraft: Please sign in to save draft versions
-    draftVersionSaved: Draft version saved successfully
-    noPermissionSaveDraft: You do not have permission to save draft versions
-    autoSaveDraftFailed: Auto-save draft failed!
-    failedSaveDraft: Failed to save draft version
-    pleaseSignInDeleteDraft: Please sign in to delete draft versions
-    noPermissionDeleteDraft: You do not have permission to delete draft versions
-    failedDeleteDrafts: Failed to delete draft versions
-    pleaseSignInCheckVersion: Please sign in to check version status
-    noPermissionCheckVersion: You do not have permission to check version status
-    failedCheckVersion: Failed to check version status
-    pleaseSignInLoadLatest: Please sign in to load latest version
-    failedLoadLatest: Failed to load latest version
+common:
+  buttons:
+    save: Save
+    cancel: Cancel
+    confirm: Confirm
+    delete: Delete
+    edit: Edit
+    create: Create
+    search: Search
+    share: Share
+    close: Close
+    publish: Publish
+    history: History
+    update: Update
+    copy: Copy
+    import: Import
+    export: Export
+    download: Download
+    upload: Upload
+    login: Log in
+    logout: Log out
+    signup: Sign up
+    continue: Continue
+    back: Back
+    next: Next
+    skip: Skip
+    done: Done
+    tryAgain: Try Again
+    refresh: Refresh
+    clear: Clear
+    apply: Apply
+    reset: Reset
+    'yes': 'Yes'
+    'no': 'No'
+    ok: OK
+    invite: Invite
+    join: Join
+    leave: Leave
+    rename: Rename
+    duplicate: Duplicate
+    archive: Archive
+    restore: Restore
+    move: Move
+    select: Select
+    deselect: Deselect
+    selectAll: Select All
+    deselectAll: Deselect All
+    show: Show
+    hide: Hide
+    expand: Expand
+    collapse: Collapse
+    filter: Filter
+    sort: Sort
+    group: Group
+    ungroup: Ungroup
+    fullscreen: Fullscreen
+    exitFullscreen: Exit Fullscreen
+    zoomIn: Zoom In
+    zoomOut: Zoom Out
+    resetZoom: Reset Zoom
+    undo: Undo
+    redo: Redo
+    cut: Cut
+    paste: Paste
+    submit: Submit
+    reload: Reload
+    remove: Remove
+    add: Add
+    view: View
+    open: Open
+    manage: Manage
+    settings: Settings
+  help:
+    title: Help
+    documentation: Documentation
+    releaseNotes: Release Notes
+    roadmap: Roadmap
+    basicEditing: Basic Editing Experience
+    sendFeedback: Send Feedback
+    askCommunity: Ask Community
+    suggestFeature: Suggest Feature
+    contactUs: Contact Us
+    sampleDiagrams: Sample Diagrams
+    sampleAirbnb: Sample Airbnb
+    sampleEcommerce: Sample E-commerce
+    whatsNew: What's new
+    language: Language
+    contribute: Help translate this app
+  export:
+    title: Export
+    publishToDbdocs: Publish document (to dbdocs)
+    toPdf: To PDF
+    toPng: To PNG
+    toSvg: To SVG
+    toPostgreSQL: To PostgreSQL
+    toMySQL: To MySQL
+    toSQLServer: To SQL Server
+    toOracleSQL: To Oracle SQL
+  import:
+    title: Import
+    importFrom: Import from
+    fromDatabaseConnection: From Database Connection (via CLI)
+    fromMySQL: From MySQL
+    fromPostgreSQL: From PostgreSQL
+    fromSQLServer: From SQL Server
+    fromSnowflake: From Snowflake
+    fromOracleSQL: From Oracle SQL
+    fromRails: From Rails (schema.rb)
+    fromCSV: From CSV
+  upgrade:
+    title: Upgrade
+    upgradeToPersonalPro: Upgrade to Personal Pro plan
+    collaborateWithTeam: Collaborate with Team plan
+  quickActions:
+    title: Quick Actions
+  sso:
+    signInWithSSO: Sign in with SSO
+    signInWithEmail: Sign in with Email
+    useWorkEmail: Use your work email to access dbdiagram via SSO
+    signInUnsuccessful: Sign‑in unsuccessful. Verify your work email or use another method.
+    selectWorkspace: Select a workspace to sign in
+  ai:
+    title: AI
+    scrollToBottom: Scroll to bottom
+  actions:
+    saveChanges: Save Changes
+    confirmDelete: Are you sure you want to delete this?
+    confirmDeleteItem: Are you sure you want to delete "{name}"?
+    confirmArchive: Are you sure you want to archive this?
+    confirmUnsaved:
+      title: Please confirm
+      content: Changes you made may not be saved, do you wish to continue?
+      negativeText: 'No'
+      positiveText: 'Yes'
+    copyToClipboard: Copy to clipboard
+    copiedToClipboard: Copied to clipboard!
+    selectAll: Select all
+    deselectAll: Deselect all
+    loading: Loading...
+    saving: Saving...
+    processing: Processing...
+    pleaseWait: Please wait...
+  states:
+    loading: Loading...
+    saving: Saving...
+    error: An error occurred
+    success: Success
+    warning: Warning
+    info: Information
+    empty: No data
+    noResults: No results found
+    noItems: No items found
+    offline: You are offline
+    online: You are back online
+  time:
+    justNow: just now
+    minuteAgo: a minute ago
+    minutesAgo: '{count} minutes ago'
+    hourAgo: an hour ago
+    hoursAgo: '{count} hours ago'
+    dayAgo: a day ago
+    daysAgo: '{count} days ago'
+    weekAgo: a week ago
+    weeksAgo: '{count} weeks ago'
+    monthAgo: a month ago
+    monthsAgo: '{count} months ago'
+    yearAgo: a year ago
+    yearsAgo: '{count} years ago'
+  errors:
+    generic: Something went wrong. Please try again.
+    network: Network error. Please check your connection.
+    unauthorized: You need to log in to continue.
+    forbidden: You don't have permission to do this.
+    notFound: The requested resource was not found.
+    serverError: Server error. Please try again later.
+    invalidInput: Please check your input and try again.
+    required: This field is required.
+    invalidEmail: Please enter a valid email address.
+    passwordTooShort: Password must be at least {min} characters.
+    passwordMismatch: Passwords do not match.
+    permissionDenied: Permission Denied
+    dontHavePermission: You don't have the permission to access this workspace
+  workspace:
+    readOnlyMode: Workspace is in read-only mode due to a subscription cancellation. Please renew to enable workspace functionality.
+  editor:
+    expand: Expand editor
+    hide: Hide editor
+    loadingContent: Loading content from server, please wait...
+    keyboardShortcuts: Keyboard Shortcuts
+    openInDbdiagram: Open in dbdiagram.io
+  notifications:
+    noPermissionRemoveView: You don't have the permission to remove diagram view!
+    noPermissionRenameView: You don't have the permission to rename diagram view!
+    workspaceDisabled: This workspace is currently disabled
+    noEditPermissionAi: You need edit permission to use dbdiagram AI. Please ask the diagram owner to upgrade your access.
+  needLogin:
+    hiThere: Hi there,
+    saveQuery: Please login to save your diagram
+    shareQuery: Please login to share your diagram
+    newQuery: Please login to create new diagram
+    export: Please login to export your diagram
+    dbdocsAccess: Please login to edit your dbdocs project
+    aiAssistant: Please login to use dbdiagram AI assistant
+    newDiagram: Please login to create new diagram
+    upgradePersonal: Please login to upgrade to Personal Pro plan
+    upgradeTeam: Please login to start your Team Plan trial
+    joinTeam: Please login to join this team workspace
+    chartUpdateVisibleEntities: Please login to save table/sticky note visibility
+    diagramViewCreateView: Please login to create new diagram view
+    default: Please login to continue your work
+  dbdocsAuth:
+    pleaseLoginWith: Please login with
+    youAreLoggedInAs: You are logged in
+    viaSSO: via SSO
+    youNeedToLoginWith: You need to login with
+    pleaseLoginToAccess: Please login to access this project.
+    contactProjectOwner: Contact the project owner to request access.
+    weWillNeedNonSSO: We will need you to use non-SSO account for authentication.
+    weWillNeedSameEmail: We will need you to use the same email account as dbdocs for authentication.
+  additional:
+    collab:
+      updatingDiagramMetadata: Updating diagram metadata
+      noLongerViewPermission: You no longer have view permission!
+      doNotHaveViewPermission: You do not have view permission!
+      fullSession: Cannot connect due to full session!
+      diagramDeleted: This diagram was deleted!
+      overwrittenDiagram: Someone has overwrite the diagram content, please reload to see the latest change!
+      permissionsChanged: Your permissions have been changed, please reload to apply changes!
+      cannotReconnect: Can not reconnect to the server
+    query:
+      noPermissionShare: You don't have permission to share this diagram
+      cantCreateDiagram: Can't create new diagram, please backup your file then try to signout and login again
+      changesSaved: Your changes have been saved.
+      autoSaveDiagram: We also automatically save the diagram on a regular basis.
+      cantSaveDiagram: Can't save diagram, please backup your file then try to sign out and login again
+      noPermissionSave: You don't have permission to save this diagram
+      diagramDeleted: Your diagram was deleted
+      cantDeleteDiagram: Can't delete your diagram, please backup your file then try to signout and login again
+      noPermissionGetInfo: You don't have permission to get diagram information!
+      cantGetDiagramInfo: Can not get diagram information, please try again!
+      noPermissionAccessProject: You do not have permission to access this project
+      failedLoadProjectDbdocs: Failed to load project from DBDocs
+      failedPublishDbdocs: Failed to publish project to DBDocs
+      pleaseSignInSaveDraft: Please sign in to save draft versions
+      draftVersionSaved: Draft version saved successfully
+      noPermissionSaveDraft: You do not have permission to save draft versions
+      autoSaveDraftFailed: Auto-save draft failed!
+      failedSaveDraft: Failed to save draft version
+      pleaseSignInDeleteDraft: Please sign in to delete draft versions
+      noPermissionDeleteDraft: You do not have permission to delete draft versions
+      failedDeleteDrafts: Failed to delete draft versions
+      pleaseSignInCheckVersion: Please sign in to check version status
+      noPermissionCheckVersion: You do not have permission to check version status
+      failedCheckVersion: Failed to check version status
+      pleaseSignInLoadLatest: Please sign in to load latest version
+      failedLoadLatest: Failed to load latest version

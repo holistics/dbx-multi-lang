@@ -1,63 +1,58 @@
-mysql:
-  title: MySQL
-  install: Install
-  tool: mysqldump
-  terminalCommand: In your terminal run the following command
-  linuxPrefix: "On Linux you might need to add"
-  sudo: sudo
-  linuxSuffix: before it
-  example: Example
-  step3: Copy the dumped SQL content and paste it into this modal
-
-postgres:
-  title: PostgreSQL
-  install: Install
-  tool: pg_dump
-  terminalCommand: In your terminal run the following command
-  linuxPrefix: "On Linux you might need to add"
-  sudo: sudo
-  linuxSuffix: before it
-  example: Example
-  step3: Copy the dumped SQL content and paste it into this modal
-
-csv:
-  title: CSV
-  description: Upload a CSV file to automatically generate a DBML table structure. The first row should contain column headers
-  exampleFormat: Example CSV format
-
-rails:
-  title: Rails schema.rb
-  step1: Open the
-  schemaRb: schema.rb
-  step1Suffix: file of your project using any code editor
-  step2: Copy the schema.rb content and paste it into this modal
-
-sqlServer:
-  title: SQL Server
-  step1: Download and install
-  tool: SQL Server Management Studio
-  step1Suffix: SSMS
-  step2: Open SSMS and connect to your SQL server
-  step3: Once connected right-click on the database to be exported and choose
-  scriptDatabaseAs: Script Database as
-  createTo: CREATE To
-  newQueryEditorWindows: New Query Editor Windows
-  step4: Copy the dumped SQL content and paste it into this modal
-
-oracle:
-  title: Oracle
-  description: Run the following commands by hand then upload the SQL file using the
-  uploadSql: Upload .sql
-  createDirectory: Create a directory object in Oracle
-  grantPrivileges: Grant read and write privileges on the directory object
-  exportSchema: Export a specific schema to a dump file
-  convertDump: Convert the dump file to SQL file
-
-snowflake:
-  title: Snowflake
-  description: Run the
-  getDdl: GET_DDL
-  descriptionSuffix: command by hand then copy and paste the output into the text input on the screen or save it to a file and upload using the
-  uploadSql: Upload .sql
-  exportAllTables: Exporting all the tables DDL for the entire database
-  selectSchema: Select all tables in a single schema
+databaseGuidelines:
+  mysql:
+    title: MySQL
+    install: Install
+    tool: mysqldump
+    terminalCommand: In your terminal run the following command
+    linuxPrefix: On Linux you might need to add
+    sudo: sudo
+    linuxSuffix: before it
+    example: Example
+    step3: Copy the dumped SQL content and paste it into this modal
+  postgres:
+    title: PostgreSQL
+    install: Install
+    tool: pg_dump
+    terminalCommand: In your terminal run the following command
+    linuxPrefix: On Linux you might need to add
+    sudo: sudo
+    linuxSuffix: before it
+    example: Example
+    step3: Copy the dumped SQL content and paste it into this modal
+  csv:
+    title: CSV
+    description: Upload a CSV file to automatically generate a DBML table structure. The first row should contain column headers
+    exampleFormat: Example CSV format
+  rails:
+    title: Rails schema.rb
+    step1: Open the
+    schemaRb: schema.rb
+    step1Suffix: file of your project using any code editor
+    step2: Copy the schema.rb content and paste it into this modal
+  sqlServer:
+    title: SQL Server
+    step1: Download and install
+    tool: SQL Server Management Studio
+    step1Suffix: SSMS
+    step2: Open SSMS and connect to your SQL server
+    step3: Once connected right-click on the database to be exported and choose
+    scriptDatabaseAs: Script Database as
+    createTo: CREATE To
+    newQueryEditorWindows: New Query Editor Windows
+    step4: Copy the dumped SQL content and paste it into this modal
+  oracle:
+    title: Oracle
+    description: Run the following commands by hand then upload the SQL file using the
+    uploadSql: Upload .sql
+    createDirectory: Create a directory object in Oracle
+    grantPrivileges: Grant read and write privileges on the directory object
+    exportSchema: Export a specific schema to a dump file
+    convertDump: Convert the dump file to SQL file
+  snowflake:
+    title: Snowflake
+    description: Run the
+    getDdl: GET_DDL
+    descriptionSuffix: command by hand then copy and paste the output into the text input on the screen or save it to a file and upload using the
+    uploadSql: Upload .sql
+    exportAllTables: Exporting all the tables DDL for the entire database
+    selectSchema: Select all tables in a single schema

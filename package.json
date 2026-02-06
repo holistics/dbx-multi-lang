@@ -10,11 +10,12 @@
     "locales"
   ],
   "scripts": {
-    "build": "vite build",
+    "build": "node scripts/build-locales.cjs && vite build",
     "prelink": "npm run build",
     "link": "yarn link",
     "clean": "rm -rf ./dist",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "build:locales": "node scripts/build-locales.cjs"
   },
   "keywords": [
     "i18n",

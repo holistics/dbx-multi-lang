@@ -1,115 +1,116 @@
-title: DBDiagram AI
+ai:
+  title: DBDiagram AI
 
-panel:
-  title: AI Assistant
-  welcome: Hi! I'm your AI assistant. How can I help you with your database diagram today?
-  inputPlaceholder: Ask me anything about your diagram...
-  send: Send
-  close: Close
-  clear: Clear Chat
-  currentChat: Current Chat
-  previousChats: Previous Chats
-  noOtherChats: No other chats yet
-  sendInstructions: Press Enter to send, Shift+Enter for new line
-  sendMessage: Send message
-  workspaceDisabled: Workspace disabled
-  editPermissionRequired: Edit permission required
-  usageLimitReached: You have used all of your usage limit for this month. Please try again on
-  learnMoreAboutUsageLimits: Learn more about usage limits
-  chat: Chat
-  clickToEdit: Click to edit
-  newChat: New Chat
-  showChatHistory: Show Chat History
-  hideChatHistory: Hide Chat History
+  panel:
+    title: AI Assistant
+    welcome: Hi! I'm your AI assistant. How can I help you with your database diagram today?
+    inputPlaceholder: Ask me anything about your diagram...
+    send: Send
+    close: Close
+    clear: Clear Chat
+    currentChat: Current Chat
+    previousChats: Previous Chats
+    noOtherChats: No other chats yet
+    sendInstructions: Press Enter to send, Shift+Enter for new line
+    sendMessage: Send message
+    workspaceDisabled: Workspace disabled
+    editPermissionRequired: Edit permission required
+    usageLimitReached: You have used all of your usage limit for this month. Please try again on
+    learnMoreAboutUsageLimits: Learn more about usage limits
+    chat: Chat
+    clickToEdit: Click to edit
+    newChat: New Chat
+    showChatHistory: Show Chat History
+    hideChatHistory: Hide Chat History
 
-welcome:
-  title: Welcome to DBDiagram AI
-  subtitle: Your intelligent assistant for database design
-  features:
-    title: What can I help you with?
-    generate: Generate schemas from descriptions
-    optimize: Optimize your database design
-    explain: Explain relationships and structures
-    suggest: Suggest improvements and best practices
-  getStarted:
-    title: Ready to start?
-    button: Ask me anything
+  welcome:
+    title: Welcome to DBDiagram AI
+    subtitle: Your intelligent assistant for database design
+    features:
+      title: What can I help you with?
+      generate: Generate schemas from descriptions
+      optimize: Optimize your database design
+      explain: Explain relationships and structures
+      suggest: Suggest improvements and best practices
+    getStarted:
+      title: Ready to start?
+      button: Ask me anything
 
-messages:
-  thinking: Thinking...
-  generating: Generating...
-  explaining: Explaining...
-  error: Something went wrong. Please try again.
-  rateLimit: You've reached the usage limit. Please upgrade to continue.
+  messages:
+    thinking: Thinking...
+    generating: Generating...
+    explaining: Explaining...
+    error: Something went wrong. Please try again.
+    rateLimit: You've reached the usage limit. Please upgrade to continue.
 
-quickActions:
-  title: Quick Actions
+  quickActions:
+    title: Quick Actions
 
-diffViewer:
-  title: Compare Changes
-  current: Current
-  proposed: Proposed
-  apply: Apply Changes
-  discard: Discard
-  noChanges: No changes to show
-  reject: Reject
-  accept: Accept
-  rejectAll: Reject All
-  acceptAll: Accept All
+  diffViewer:
+    title: Compare Changes
+    current: Current
+    proposed: Proposed
+    apply: Apply Changes
+    discard: Discard
+    noChanges: No changes to show
+    reject: Reject
+    accept: Accept
+    rejectAll: Reject All
+    acceptAll: Accept All
 
-tokenUsage:
-  title: Usage
-  used: Used
-  limit: Limit
-  upgrade: Upgrade for more
-  usageText: You have used {percentage} of your usage limit
-  tokens: tokens
-  learnMore: Click to learn more about usage limits
-  resetOn: Reset on
+  tokenUsage:
+    title: Usage
+    used: Used
+    limit: Limit
+    upgrade: Upgrade for more
+    usageText: You have used {percentage} of your usage limit
+    tokens: tokens
+    learnMore: Click to learn more about usage limits
+    resetOn: Reset on
 
-assistant:
-  dbmlCode: DBML Code
-  lines: lines
+  assistant:
+    dbmlCode: DBML Code
+    lines: lines
 
-responseMessages:
-  noExplanation: Schema has been updated. Check the diff viewer to review changes.
-  invalidIntent: "Welcome to dbdiagram AI.\n\nI'm here to help you with:\n\n• **DBML schema design** - Create and modify tables, relationships, and database structures\n• **Database best practices** - Suggest optimal data types, indexes, and constraints\n• **Schema optimization** - Organize tables with TableGroups, add timestamps, remap data types\n• **Quick transformations** - Convert between database systems (PostgreSQL, MySQL, SQL Server, etc.)\n\nTry asking me to create tables, add relationships, or use the quick actions above to get started!"
+  responseMessages:
+    noExplanation: Schema has been updated. Check the diff viewer to review changes.
+    invalidIntent: "Welcome to dbdiagram AI.\n\nI'm here to help you with:\n\n• **DBML schema design** - Create and modify tables, relationships, and database structures\n• **Database best practices** - Suggest optimal data types, indexes, and constraints\n• **Schema optimization** - Organize tables with TableGroups, add timestamps, remap data types\n• **Quick transformations** - Convert between database systems (PostgreSQL, MySQL, SQL Server, etc.)\n\nTry asking me to create tables, add relationships, or use the quick actions above to get started!"
 
-quickActionTitles:
-  createTableGroups: Create Table Groups
-  addTimestampColumns: Add Timestamp Columns
-  addRelationships: Add Relationships
-  addIndexes: Add Indexes
-  learnDatabaseDesign: Learn Database Design
-  cloneSlack: Clone Slack
-  documentDatabase: Document Database
-  todoList: Todo List
-  remapDataTypes: Remap Data Types
+  quickActionTitles:
+    createTableGroups: Create Table Groups
+    addTimestampColumns: Add Timestamp Columns
+    addRelationships: Add Relationships
+    addIndexes: Add Indexes
+    learnDatabaseDesign: Learn Database Design
+    cloneSlack: Clone Slack
+    documentDatabase: Document Database
+    todoList: Todo List
+    remapDataTypes: Remap Data Types
 
-quickActionDescriptions:
-  createTableGroups: Organize your tables into logical groups by domain and functionality with distinct colors
-  addTimestampColumns: Add created_at and updated_at columns to tables that need audit tracking
-  addRelationships: Automatically detect and add foreign key relationships based on naming conventions
-  addIndexes: Add index blocks for foreign keys and commonly queried columns
-  learnDatabaseDesign: Learn about database design
-  cloneSlack: Create a Slack clone
-  documentDatabase: Create a database for storing documents
-  todoList: Create a todo list application
-  remapDataTypes: Convert data types to match your target database system
+  quickActionDescriptions:
+    createTableGroups: Organize your tables into logical groups by domain and functionality with distinct colors
+    addTimestampColumns: Add created_at and updated_at columns to tables that need audit tracking
+    addRelationships: Automatically detect and add foreign key relationships based on naming conventions
+    addIndexes: Add index blocks for foreign keys and commonly queried columns
+    learnDatabaseDesign: Learn about database design
+    cloneSlack: Create a Slack clone
+    documentDatabase: Create a database for storing documents
+    todoList: Create a todo list application
+    remapDataTypes: Convert data types to match your target database system
 
-quickActionSubActions:
-  postgresql: PostgreSQL
-  mysql: MySQL
-  sqlServer: SQL Server
-  sqlite: SQLite
-  oracle: Oracle
+  quickActionSubActions:
+    postgresql: PostgreSQL
+    mysql: MySQL
+    sqlServer: SQL Server
+    sqlite: SQLite
+    oracle: Oracle
 
-# Additional AI strings from file review
-additional:
-  errorLoading: Error loading. Please try again.
-  createNewThread: Create a new thread
-  typeMessage: Type a message...
-  sendMessage: Send message
-  loadMore: Load more
-  chatHistory: chat-history
-  errorLoadingChatHistory: Error loading chat history. Please try again.
+  # Additional AI strings from file review
+  additional:
+    errorLoading: Error loading. Please try again.
+    createNewThread: Create a new thread
+    typeMessage: Type a message...
+    sendMessage: Send message
+    loadMore: Load more
+    chatHistory: chat-history
+    errorLoadingChatHistory: Error loading chat history. Please try again.

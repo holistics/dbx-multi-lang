@@ -1,166 +1,167 @@
-buttons:
-  upgrade: Upgrade
-  upgradeToPersonalPro: Upgrade to Personal Pro plan
-  collaborateWithTeam: Collaborate with Team plan
+billing:
+  buttons:
+    upgrade: Upgrade
+    upgradeToPersonalPro: Upgrade to Personal Pro plan
+    collaborateWithTeam: Collaborate with Team plan
 
-pricing:
-  title: Pricing
-  subtitle: Choose the plan that works for you
-  free: Free
-  pro: Pro
-  team: Team
-  currentPlan: Current Plan
-  upgrade: Upgrade
-  downgrade: Downgrade
-  cancel: Cancel Subscription
+  pricing:
+    title: Pricing
+    subtitle: Choose the plan that works for you
+    free: Free
+    pro: Pro
+    team: Team
+    currentPlan: Current Plan
+    upgrade: Upgrade
+    downgrade: Downgrade
+    cancel: Cancel Subscription
 
-plans:
-  free:
-    name: Free
-    description: For individuals and small projects
-    price: "$0"
-    period: forever
-    features:
-      - Up to 3 diagrams
-      - Basic editing tools
-      - Export as SQL/PNG
-      - Community support
-    cta: Get Started
+  plans:
+    free:
+      name: Free
+      description: For individuals and small projects
+      price: "$0"
+      period: forever
+      features:
+        - Up to 3 diagrams
+        - Basic editing tools
+        - Export as SQL/PNG
+        - Community support
+      cta: Get Started
 
-  pro:
-    name: Pro
-    description: For professionals who need more
-    price: "$10"
-    period: per month
-    features:
-      - Unlimited diagrams
-      - Advanced editing tools
-      - Version history
-      - Priority support
-      - Export as PDF
-      - Custom themes
-    cta: Start Free Trial
+    pro:
+      name: Pro
+      description: For professionals who need more
+      price: "$10"
+      period: per month
+      features:
+        - Unlimited diagrams
+        - Advanced editing tools
+        - Version history
+        - Priority support
+        - Export as PDF
+        - Custom themes
+      cta: Start Free Trial
+
+    team:
+      name: Team
+      description: For teams and organizations
+      price: Custom
+      period: contact sales
+      features:
+        - Everything in Pro
+        - Team collaboration
+        - Admin controls
+        - SSO authentication
+        - Priority support
+        - Custom integrations
+      cta: Contact Sales
+
+  payment:
+    title: Payment Information
+    cardNumber: Card Number
+    expiryDate: Expiry Date
+    cvv: CVV
+    nameOnCard: Name on Card
+    savePayment: Save Payment Method
+    paymentMethod: Payment Method
+    addNewCard: Add New Card
+
+  billing:
+    title: Billing
+    invoiceHistory: Invoice History
+    downloadInvoice: Download
+    nextBilling: Next Billing Date
+    planRenews: Your plan renews on
+    planWillCancel: Your plan will cancel on
+
+  subscription:
+    manage: Manage Subscription
+    changePlan: Change Plan
+    cancelSubscription: Cancel Subscription
+    reactivate: Reactivate Subscription
+    confirmCancel: Are you sure you want to cancel your subscription?
+    cancelFeedback: Please tell us why you're cancelling
+    reason: Reason for cancellation
+    tooExpensive: Too expensive
+    missingFeatures: Missing features
+    switchedService: Switched to another service
+    notUsing: Not using it enough
+    other: Other
+
+  personalPro:
+    name: Personal Pro
+    description: For individual freelancers, consultants to design database diagrams
+    everythingInFree: ← Everything in Free, plus
+    unlimitedDiagramsTables: Unlimited Diagrams & Tables
+    unlimitedViews: Unlimited Diagram Views
+    aiAssistant: AI Assistant
+    protectedDiagrams: Protected & Private Diagrams
+    limitedCollaboration: Limited Collaboration
+    headerColorTableGroup: Header Color & Table Group
+    detailLevels: Diagram Detail Levels
+    versionHistory: Version History
+    stickyNotes: Sticky Notes
+    upgradeNow: Upgrade Now
+    getStarted: Get started
 
   team:
     name: Team
-    description: For teams and organizations
-    price: Custom
-    period: contact sales
-    features:
-      - Everything in Pro
-      - Team collaboration
-      - Admin controls
-      - SSO authentication
-      - Priority support
-      - Custom integrations
-    cta: Contact Sales
+    description: For teams that need to design and collaborate on database diagrams
+    everythingInPro: ← Everything in Personal Pro, plus
+    collaborativeWorkspace: Collaborative Workspace
+    publicApi: Public API
+    teamManagement: Team Management & Collaboration
+    adminBilling: Unified Admin and Billing
+    freeUserLicenses: 3 Free User Licenses
+    startTrial: Start 7-Day Free Trial
+    upgradeNow: Upgrade now
+    noCreditCard: No credit card required. Cancel anytime.
+    additionalLicense: Additional License
+    perMonthUser: /mo/user
 
-payment:
-  title: Payment Information
-  cardNumber: Card Number
-  expiryDate: Expiry Date
-  cvv: CVV
-  nameOnCard: Name on Card
-  savePayment: Save Payment Method
-  paymentMethod: Payment Method
-  addNewCard: Add New Card
+  publicPricing:
+    title: Our pricing plans
+    subtitle: Always free. Get more powers with our Pricing Plans.
+    monthlyBilling: Monthly billing
+    annualBilling: Annual billing
+    saveUpTo: Save up to 42%
+    getStartedFree: Get Started Free
+    errorFetching: Error fetching user pricing
 
-billing:
-  title: Billing
-  invoiceHistory: Invoice History
-  downloadInvoice: Download
-  nextBilling: Next Billing Date
-  planRenews: Your plan renews on
-  planWillCancel: Your plan will cancel on
+  upgradeNowBtn:
+    ownerOnly: Only the workspace owner can upgrade to the Team plan
 
-subscription:
-  manage: Manage Subscription
-  changePlan: Change Plan
-  cancelSubscription: Cancel Subscription
-  reactivate: Reactivate Subscription
-  confirmCancel: Are you sure you want to cancel your subscription?
-  cancelFeedback: Please tell us why you're cancelling
-  reason: Reason for cancellation
-  tooExpensive: Too expensive
-  missingFeatures: Missing features
-  switchedService: Switched to another service
-  notUsing: Not using it enough
-  other: Other
+  managePlanModal:
+    loadingSubscription: Loading subscription information...
+    currentPlan: Current Plan
+    personalPlanForever: Personal Plan - Forever
+    unknownPlan: Unknown Plan
+    billedMonthly: Billed every month
+    billedAnnually: Billed every year
+    chargeEvery: Charge every {period} {unit}
+    cancelledOn: Cancelled on
+    planDetails: Plan Details →
+    upgradeDescription: Upgrade to our paid plans to get Detail Levels, Header Color and all upcoming features
+    nextPayment: Your next payment is
+    chargedOn: to be charged on
+    editSubscription: Edit subscription
+    switchToMonthly: Switch to monthly billing
+    switchToYearly: Switch to yearly billing
+    noPaymentMethod: No payment method
+    updatePaymentMethod: Update payment method
+    invoicing: Invoicing
+    lastPayment: Last payment
+    editBillingInfo: Edit billing information
+    paymentProcessing: Your payment is processing, please reload the page in a few minutes.
 
-personalPro:
-  name: Personal Pro
-  description: For individual freelancers, consultants to design database diagrams
-  everythingInFree: ← Everything in Free, plus
-  unlimitedDiagramsTables: Unlimited Diagrams & Tables
-  unlimitedViews: Unlimited Diagram Views
-  aiAssistant: AI Assistant
-  protectedDiagrams: Protected & Private Diagrams
-  limitedCollaboration: Limited Collaboration
-  headerColorTableGroup: Header Color & Table Group
-  detailLevels: Diagram Detail Levels
-  versionHistory: Version History
-  stickyNotes: Sticky Notes
-  upgradeNow: Upgrade Now
-  getStarted: Get started
+  disabledCard:
+    personalUpgrade: Upgrade your personal workspace for premium features.
+    teamReadOnly: Workspace is in read-only mode due to subscription cancelation. Renew to enable workspace functionality.
 
-team:
-  name: Team
-  description: For teams that need to design and collaborate on database diagrams
-  everythingInPro: ← Everything in Personal Pro, plus
-  collaborativeWorkspace: Collaborative Workspace
-  publicApi: Public API
-  teamManagement: Team Management & Collaboration
-  adminBilling: Unified Admin and Billing
-  freeUserLicenses: 3 Free User Licenses
-  startTrial: Start 7-Day Free Trial
-  upgradeNow: Upgrade now
-  noCreditCard: No credit card required. Cancel anytime.
-  additionalLicense: Additional License
-  perMonthUser: /mo/user
-
-publicPricing:
-  title: Our pricing plans
-  subtitle: Always free. Get more powers with our Pricing Plans.
-  monthlyBilling: Monthly billing
-  annualBilling: Annual billing
-  saveUpTo: Save up to 42%
-  getStartedFree: Get Started Free
-  errorFetching: Error fetching user pricing
-
-upgradeNowBtn:
-  ownerOnly: Only the workspace owner can upgrade to the Team plan
-
-managePlanModal:
-  loadingSubscription: Loading subscription information...
-  currentPlan: Current Plan
-  personalPlanForever: Personal Plan - Forever
-  unknownPlan: Unknown Plan
-  billedMonthly: Billed every month
-  billedAnnually: Billed every year
-  chargeEvery: Charge every {period} {unit}
-  cancelledOn: Cancelled on
-  planDetails: Plan Details →
-  upgradeDescription: Upgrade to our paid plans to get Detail Levels, Header Color and all upcoming features
-  nextPayment: Your next payment is
-  chargedOn: to be charged on
-  editSubscription: Edit subscription
-  switchToMonthly: Switch to monthly billing
-  switchToYearly: Switch to yearly billing
-  noPaymentMethod: No payment method
-  updatePaymentMethod: Update payment method
-  invoicing: Invoicing
-  lastPayment: Last payment
-  editBillingInfo: Edit billing information
-  paymentProcessing: Your payment is processing, please reload the page in a few minutes.
-
-disabledCard:
-  personalUpgrade: Upgrade your personal workspace for premium features.
-  teamReadOnly: Workspace is in read-only mode due to subscription cancelation. Renew to enable workspace functionality.
-
-planPickingSimpleView:
-  collaborateWithTeamPlan: Collaborate with Team Plan
-  collaborateWithColleagues: Collaborate with your colleagues.
-  manageTeamDiagrams: Manage team's diagrams all in one place.
-  startFreeTrial: Start 7-Day Free Trial
-  learnMore: Learn more
-  pricingFrom: Pricing from {currency}{price}/month
+  planPickingSimpleView:
+    collaborateWithTeamPlan: Collaborate with Team Plan
+    collaborateWithColleagues: Collaborate with your colleagues.
+    manageTeamDiagrams: Manage team's diagrams all in one place.
+    startFreeTrial: Start 7-Day Free Trial
+    learnMore: Learn more
+    pricingFrom: Pricing from {currency}{price}/month

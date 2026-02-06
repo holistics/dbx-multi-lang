@@ -1,90 +1,73 @@
-# Portal Authentication Pages - English translations
-# All strings related to the portal authentication system
-
-# OAuth Login Page
-oauth:
-  welcomeTo: "Welcome to {clientName}"
-  signingInTo: "Signing in to {clientName}"
-  successfullySignedInTo: "Successfully signed in to {clientName}"
-  welcome: Welcome
-  signingIn: Signing in
-  successfullySignedIn: Successfully signed in
-  powering: Powering
-  signOutFrom: "Sign out from {clientName}"
-  signOutFromAccount: Sign out from your account
-
-# GitHub Callback Page
-githubCallback:
-  authenticating: "Authentication in progress, please wait for a moment..."
-  authSuccess: Authenticate successfully! You can safely close this window
-  title: GitHub Authentication
+portal:
+  oauth:
+    welcomeTo: Welcome to {clientName}
+    signingInTo: Signing in to {clientName}
+    successfullySignedInTo: Successfully signed in to {clientName}
+    welcome: Welcome
+    signingIn: Signing in
+    successfullySignedIn: Successfully signed in
+    powering: Powering
+    signOutFrom: Sign out from {clientName}
+    signOutFromAccount: Sign out from your account
+  githubCallback:
+    authenticating: Authentication in progress, please wait for a moment...
+    authSuccess: Authenticate successfully! You can safely close this window
+    title: GitHub Authentication
+    errors:
+      noOpener:
+        title: Invalid Access
+        description: This page cannot be opened directly. Please return to the application and start the login process.
+      openerClosed:
+        title: Parent Window Closed
+        description: The original application window was closed during authentication. Please return to the application and start the login process again.
+      accessDenied:
+        title: Access Denied
+        description: You cancelled the GitHub authentication.
+      appSuspended:
+        title: Application Suspended
+        description: The GitHub application has been suspended.
+      redirectUriMismatch:
+        title: Redirect URI Mismatch
+        description: The redirect URI does not match the configuration.
+      unknown:
+        title: Unexpected Error
+        description: Something went wrong. Please contact our support at dbdiagram@holistics.io
+  logout:
+    validating: Validating logout request...
+    loggingOut: Logging you out...
+    authorizationError: Authorization Error
+    logoutFailed: Logout Failed
+  sso:
+    continue: Continue
+    multipleWorkspaces: Multiple SSO workspaces found for {email}
+    failedInitiate: Failed to initiate SSO login. Please try again.
+    somethingWrong: Something went wrong, please try again!
+    loginCancelled: Login cancelled, please try again!
+  accountSelection:
+    continue: Continue
+    or: or
+    differentAccount: Use a different account
+  emailInput:
+    placeholder: Email
+    send: Send
   errors:
-    noOpener:
-      title: Invalid Access
-      description: This page cannot be opened directly. Please return to the application and start the login process.
-    openerClosed:
-      title: Parent Window Closed
-      description: The original application window was closed during authentication. Please return to the application and start the login process again.
-    accessDenied:
-      title: Access Denied
-      description: You cancelled the GitHub authentication.
-    appSuspended:
-      title: Application Suspended
-      description: The GitHub application has been suspended.
-    redirectUriMismatch:
-      title: Redirect URI Mismatch
-      description: The redirect URI does not match the configuration.
-    unknown:
-      title: Unexpected Error
-      description: Something went wrong. Please contact our support at dbdiagram@holistics.io
-
-# Logout Page
-logout:
-  validating: "Validating logout request..."
-  loggingOut: "Logging you out..."
-  authorizationError: Authorization Error
-  logoutFailed: Logout Failed
-
-# SSO Form
-sso:
-  continue: Continue
-  multipleWorkspaces: "Multiple SSO workspaces found for {email}"
-  failedInitiate: Failed to initiate SSO login. Please try again.
-  somethingWrong: Something went wrong, please try again!
-  loginCancelled: Login cancelled, please try again!
-
-# Account Selection
-accountSelection:
-  continue: Continue
-  or: or
-  differentAccount: Use a different account
-
-# Email Input
-emailInput:
-  placeholder: Email
-  send: Send
-
-# Error Messages
-errors:
-  internalServerError: An unexpected error occurred on the server. Please try again later.
-  serviceUnavailable: The service is temporarily unavailable. Please try again in a few moments.
-  networkError: Unable to connect to the server. Please check your internet connection and try again.
-  authenticationError: Authentication error. Please contact our support at dbdiagram@holistics.io
-  windowNotOpened: "This window was not opened properly. Please return to {clientName} and try again."
-  windowClosed: "The original application window was closed. Please return to {clientName} and try again."
-  communicationFailed: "Failed to communicate with {clientName}. Please try again"
-  transferFailed: Failed to transfer authentication. Please try again.
-  canCloseWindow: You can close this window now.
-
-# OAuth Error Messages (constants/auth.ts)
-oauthErrors:
-  invalidAuthRequest: Invalid Authentication Request
-  unsupportedResponseType: Unsupported response_type parameter
-  invalidClient: Invalid Client
-  missingClientIdOrRedirectUri: Missing client_id or redirect_uri
-  missingCodeChallenge: "Missing required parameter: code_challenge"
-  missingState: "Missing required parameter: state"
-  invalidAccess: Invalid Access
-  pageMustBeOpened: This page must be opened from the application.
-  unsupportedPrompt: Unsupported prompt parameter
-  unexpectedError: Unexpected error
+    internalServerError: An unexpected error occurred on the server. Please try again later.
+    serviceUnavailable: The service is temporarily unavailable. Please try again in a few moments.
+    networkError: Unable to connect to the server. Please check your internet connection and try again.
+    authenticationError: Authentication error. Please contact our support at dbdiagram@holistics.io
+    windowNotOpened: This window was not opened properly. Please return to {clientName} and try again.
+    windowClosed: The original application window was closed. Please return to {clientName} and try again.
+    communicationFailed: Failed to communicate with {clientName}. Please try again
+    transferFailed: Failed to transfer authentication. Please try again.
+    canCloseWindow: You can close this window now.
+  oauthErrors:
+    invalidAuthRequest: Invalid Authentication Request
+    unsupportedResponseType: Unsupported response_type parameter
+    invalidClient: Invalid Client
+    missingClientIdOrRedirectUri: Missing client_id or redirect_uri
+    missingCodeChallenge: 'Missing required parameter: code_challenge'
+    missingState: 'Missing required parameter: state'
+    invalidAccess: Invalid Access
+    pageMustBeOpened: This page must be opened from the application.
+    unsupportedPrompt: Unsupported prompt parameter
+    unexpectedError: Unexpected error

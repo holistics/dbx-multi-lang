@@ -1,90 +1,73 @@
-# Portal Authentication Pages - Vietnamese translations
-# All strings related to the portal authentication system
-
-# OAuth Login Page
-oauth:
-  welcomeTo: "Chào mừng đến với {clientName}"
-  signingInTo: "Đang đăng nhập vào {clientName}"
-  successfullySignedInTo: "Đã đăng nhập thành công vào {clientName}"
-  welcome: Chào mừng
-  signingIn: Đang đăng nhập
-  successfullySignedIn: Đăng nhập thành công
-  powering: Cung cấp bởi
-  signOutFrom: "Đăng xuất khỏi {clientName}"
-  signOutFromAccount: Đăng xuất khỏi tài khoản của bạn
-
-# GitHub Callback Page
-githubCallback:
-  authenticating: "Đang xác thực, vui lòng đợi trong giây lát..."
-  authSuccess: Xác thực thành công! Bạn có thể đóng cửa sổ này
-  title: Xác thực GitHub
+portal:
+  oauth:
+    welcomeTo: Chào mừng đến với {clientName}
+    signingInTo: Đang đăng nhập vào {clientName}
+    successfullySignedInTo: Đã đăng nhập thành công vào {clientName}
+    welcome: Chào mừng
+    signingIn: Đang đăng nhập
+    successfullySignedIn: Đăng nhập thành công
+    powering: Cung cấp bởi
+    signOutFrom: Đăng xuất khỏi {clientName}
+    signOutFromAccount: Đăng xuất khỏi tài khoản của bạn
+  githubCallback:
+    authenticating: Đang xác thực, vui lòng đợi trong giây lát...
+    authSuccess: Xác thực thành công! Bạn có thể đóng cửa sổ này
+    title: Xác thực GitHub
+    errors:
+      noOpener:
+        title: Truy cập không hợp lệ
+        description: Trang này không thể được mở trực tiếp. Vui lòng quay lại ứng dụng và bắt đầu quy trình đăng nhập.
+      openerClosed:
+        title: Cửa sổ gốc đã đóng
+        description: Cửa sổ ứng dụng gốc đã bị đóng trong quá trình xác thực. Vui lòng quay lại ứng dụng và bắt đầu lại quy trình đăng nhập.
+      accessDenied:
+        title: Truy cập bị từ chối
+        description: Bạn đã hủy xác thực GitHub.
+      appSuspended:
+        title: Ứng dụng bị đình chỉ
+        description: Ứng dụng GitHub đã bị đình chỉ.
+      redirectUriMismatch:
+        title: URI chuyển hướng không khớp
+        description: URI chuyển hướng không khớp với cấu hình.
+      unknown:
+        title: Lỗi không mong muốn
+        description: Đã xảy ra lỗi. Vui lòng liên hệ hỗ trợ của chúng tôi tại dbdiagram@holistics.io
+  logout:
+    validating: Đang xác thực yêu cầu đăng xuất...
+    loggingOut: Đang đăng xuất...
+    authorizationError: Lỗi ủy quyền
+    logoutFailed: Đăng xuất thất bại
+  sso:
+    continue: Tiếp tục
+    multipleWorkspaces: Tìm thấy nhiều không gian làm việc SSO cho {email}
+    failedInitiate: Khởi tạo đăng nhập SSO thất bại. Vui lòng thử lại.
+    somethingWrong: Đã xảy ra lỗi, vui lòng thử lại!
+    loginCancelled: Đăng nhập đã bị hủy, vui lòng thử lại!
+  accountSelection:
+    continue: Tiếp tục
+    or: hoặc
+    differentAccount: Sử dụng tài khoản khác
+  emailInput:
+    placeholder: Email
+    send: Gửi
   errors:
-    noOpener:
-      title: Truy cập không hợp lệ
-      description: Trang này không thể được mở trực tiếp. Vui lòng quay lại ứng dụng và bắt đầu quy trình đăng nhập.
-    openerClosed:
-      title: Cửa sổ gốc đã đóng
-      description: Cửa sổ ứng dụng gốc đã bị đóng trong quá trình xác thực. Vui lòng quay lại ứng dụng và bắt đầu lại quy trình đăng nhập.
-    accessDenied:
-      title: Truy cập bị từ chối
-      description: Bạn đã hủy xác thực GitHub.
-    appSuspended:
-      title: Ứng dụng bị đình chỉ
-      description: Ứng dụng GitHub đã bị đình chỉ.
-    redirectUriMismatch:
-      title: URI chuyển hướng không khớp
-      description: URI chuyển hướng không khớp với cấu hình.
-    unknown:
-      title: Lỗi không mong muốn
-      description: Đã xảy ra lỗi. Vui lòng liên hệ hỗ trợ của chúng tôi tại dbdiagram@holistics.io
-
-# Logout Page
-logout:
-  validating: "Đang xác thực yêu cầu đăng xuất..."
-  loggingOut: "Đang đăng xuất..."
-  authorizationError: Lỗi ủy quyền
-  logoutFailed: Đăng xuất thất bại
-
-# SSO Form
-sso:
-  continue: Tiếp tục
-  multipleWorkspaces: "Tìm thấy nhiều không gian làm việc SSO cho {email}"
-  failedInitiate: Khởi tạo đăng nhập SSO thất bại. Vui lòng thử lại.
-  somethingWrong: Đã xảy ra lỗi, vui lòng thử lại!
-  loginCancelled: Đăng nhập đã bị hủy, vui lòng thử lại!
-
-# Account Selection
-accountSelection:
-  continue: Tiếp tục
-  or: hoặc
-  differentAccount: Sử dụng tài khoản khác
-
-# Email Input
-emailInput:
-  placeholder: Email
-  send: Gửi
-
-# Error Messages
-errors:
-  internalServerError: Đã xảy ra lỗi không mong muốn trên máy chủ. Vui lòng thử lại sau.
-  serviceUnavailable: Dịch vụ tạm thời không khả dụng. Vui lòng thử lại trong giây lát.
-  networkError: Không thể kết nối đến máy chủ. Vui lòng kiểm tra kết nối internet của bạn và thử lại.
-  authenticationError: Lỗi xác thực. Vui lòng liên hệ hỗ trợ của chúng tôi tại dbdiagram@holistics.io
-  windowNotOpened: "Cửa sổ này không được mở đúng cách. Vui lòng quay lại {clientName} và thử lại."
-  windowClosed: "Cửa sổ ứng dụng gốc đã bị đóng. Vui lòng quay lại {clientName} và thử lại."
-  communicationFailed: "Không thể giao tiếp với {clientName}. Vui lòng thử lại"
-  transferFailed: Chuyển xác thực thất bại. Vui lòng thử lại.
-  canCloseWindow: Bạn có thể đóng cửa sổ này ngay bây giờ.
-
-# OAuth Error Messages (constants/auth.ts)
-oauthErrors:
-  invalidAuthRequest: Yêu cầu xác thực không hợp lệ
-  unsupportedResponseType: Tham số response_type không được hỗ trợ
-  invalidClient: Client không hợp lệ
-  missingClientIdOrRedirectUri: Thiếu client_id hoặc redirect_uri
-  missingCodeChallenge: "Thiếu tham số bắt buộc: code_challenge"
-  missingState: "Thiếu tham số bắt buộc: state"
-  invalidAccess: Truy cập không hợp lệ
-  pageMustBeOpened: Trang này phải được mở từ ứng dụng.
-  unsupportedPrompt: Tham số prompt không được hỗ trợ
-  unexpectedError: Lỗi không mong muốn
+    internalServerError: Đã xảy ra lỗi không mong muốn trên máy chủ. Vui lòng thử lại sau.
+    serviceUnavailable: Dịch vụ tạm thời không khả dụng. Vui lòng thử lại trong giây lát.
+    networkError: Không thể kết nối đến máy chủ. Vui lòng kiểm tra kết nối internet của bạn và thử lại.
+    authenticationError: Lỗi xác thực. Vui lòng liên hệ hỗ trợ của chúng tôi tại dbdiagram@holistics.io
+    windowNotOpened: Cửa sổ này không được mở đúng cách. Vui lòng quay lại {clientName} và thử lại.
+    windowClosed: Cửa sổ ứng dụng gốc đã bị đóng. Vui lòng quay lại {clientName} và thử lại.
+    communicationFailed: Không thể giao tiếp với {clientName}. Vui lòng thử lại
+    transferFailed: Chuyển xác thực thất bại. Vui lòng thử lại.
+    canCloseWindow: Bạn có thể đóng cửa sổ này ngay bây giờ.
+  oauthErrors:
+    invalidAuthRequest: Yêu cầu xác thực không hợp lệ
+    unsupportedResponseType: Tham số response_type không được hỗ trợ
+    invalidClient: Client không hợp lệ
+    missingClientIdOrRedirectUri: Thiếu client_id hoặc redirect_uri
+    missingCodeChallenge: 'Thiếu tham số bắt buộc: code_challenge'
+    missingState: 'Thiếu tham số bắt buộc: state'
+    invalidAccess: Truy cập không hợp lệ
+    pageMustBeOpened: Trang này phải được mở từ ứng dụng.
+    unsupportedPrompt: Tham số prompt không được hỗ trợ
+    unexpectedError: Lỗi không mong muốn

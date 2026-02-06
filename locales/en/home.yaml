@@ -1,81 +1,76 @@
-hero:
-  title: Draw Entity-Relationship Diagrams, Painlessly 😎
-  subtitle: A free, simple tool to draw ER diagrams by just writing code.<br>Designed for developers and data analysts.
-  stats: Over 3M diagrams created from around the world
-  testimonialsLink: See what our users say 💙
-  cta: Create your diagram
-  orImport: or import from
-  database: Database
-
-features:
-  writeCode:
-    title: Write code, get visual diagrams
-    description: You type and an ER diagram appears. Your fingers never need to leave your keyboard.
-    learnMore: Learn more
-  collaborate:
-    title: Design together in real-time
-    description: Invite your team to collaborate on diagrams simultaneously. See changes as they happen, just like in Google Docs. Keep everyone on the same page.
-    learnMore: Learn more
-  largeScale:
-    title: Master large-scale database designs
-    description: Simplify huge diagrams with collapsible table groups, tailored views and color codings that let you create focused perspectives for better clarity and collaboration.
-    learnMore: Learn more
-  aiAssistant:
-    title: Design databases faster with AI
-    description: Describe your database needs in plain language, and let the AI handle the rest. Perfect for iterative design that keeps pace with your ideas.
-    learnMore: Learn more
-  importSql:
-    title: Import from SQL Databases
-    description: Quickly generate your diagrams from your databases or SQL dump files.
-  generateSql:
-    title: Generate SQL statements
-    description: Directly generate SQL statements to create your database tables.
-  exportImages:
-    title: Export to Images and PDFs
-    description: Create beautiful PDFs of your ER diagram to circulate internally. Who says ERDs are so difficult to create?
-  oneClickShare:
-    title: One Click Sharing
-    description: Share your diagrams online with your colleagues and customers with just one click.
-  versionHistory:
-    title: Track changes and travel back in time
-    description: Access a full history of your diagram's changes. Compare versions, restore previous states, or create a copy from any point in time.
-    learnMore: Learn more
-  embed:
-    title: Embed into wikis, blogs, or documentation sites
-    description: Embed your diagrams directly into your internal wikis, blogs, or documentation sites (Notion, Confluence, etc.). Keep your documentation always up-to-date.
-    learnMore: Learn more
-  everythingYouNeed: Everything you need to design complex databases 🚀
-
-testimonials:
-  title: What People Say About Us 🤟
-  moreLove: More Love
-  moreLoveDescription: See what our users are saying about dbdiagram.
-  productHunt: Product Hunt
-  productHuntDescription: Discover our launch and community feedback on Product Hunt.
-
-companies:
-  title: Chosen by product, data, and engineering teams in every sector
-
-faq:
-  title: FAQs
-  pricing:
-    question: Is <router-link to="/">dbdiagram.io</router-link> free forever? How does the pricing work?
-    answer: Absolutely! The app is free forever.<br>You can also get more power and unlimited diagrams with our paid plans.<router-link class="underline" to="/pricing">Learn more.</router-link>
-  who:
-    question: Who are you guys? And why did you guys build this?
-    answer: We are <a target="_blank" href="https://www.holistics.io/">Holistics.io</a>, a Singapore-based business intelligence product company. We built dbdiagram internally in order to have a quick way to visualize database schemas for our customers. We thought it would be cool to turn that into a standalone product for the broader data community to use!
-  bugs:
-    question: How do I report a bug or request a feature?
-    answer: You can post to our <a class="underline" target="_blank" href="https://community.dbdiagram.io/">Community Forum</a>, we get instant notification on every post submit. Alternatively, you can submit the <a class="underline" target="_blank" href="https://form.jotform.com/200914527435049">Feedback Form</a>.
-  dsl:
-    question: What markup language is the dbdiagram DSL following?
-    answer: We use <a class="underline" href="https://dbml.dbdiagram.io/home" target="_blank">DBML - Database Markup Language</a>, a markup language designed to easily document database structures. In fact DBML is born out of dbdiagram! We turned dbdiagram DSL into DBML and made it available for everyone. <br> <br>DBML is also completely open-source on <a class="underline" href="https://github.com/holistics/dbml" target="_blank">Github</a>.
-
-about:
-  title: About Us 🤟
-  description: ❤️ dbdiagram.io is built by the folks at <a target="_blank" href="https://www.holistics.io/"><b>holistics.io</b></a>, with love for the data community ❤️
-  details: Holistics is a powerful BI platform that reduces your need for data engineering. We empower your analysts with SQL<br>to build your data warehouse, and give them the tools to build automated reporting routines that deliver insights to everyone.
-  getStarted: Get Started
-
-builtBy: built by
-browserNotSupported: Your browser does not support the video tag.
+home:
+  hero:
+    title: Draw Entity-Relationship Diagrams, Painlessly 😎
+    subtitle: A free, simple tool to draw ER diagrams by just writing code.<br>Designed for developers and data analysts.
+    stats: Over 3M diagrams created from around the world
+    testimonialsLink: See what our users say 💙
+    cta: Create your diagram
+    orImport: or import from
+    database: Database
+  features:
+    writeCode:
+      title: Write code, get visual diagrams
+      description: You type and an ER diagram appears. Your fingers never need to leave your keyboard.
+      learnMore: Learn more
+    collaborate:
+      title: Design together in real-time
+      description: Invite your team to collaborate on diagrams simultaneously. See changes as they happen, just like in Google Docs. Keep everyone on the same page.
+      learnMore: Learn more
+    largeScale:
+      title: Master large-scale database designs
+      description: Simplify huge diagrams with collapsible table groups, tailored views and color codings that let you create focused perspectives for better clarity and collaboration.
+      learnMore: Learn more
+    aiAssistant:
+      title: Design databases faster with AI
+      description: Describe your database needs in plain language, and let the AI handle the rest. Perfect for iterative design that keeps pace with your ideas.
+      learnMore: Learn more
+    importSql:
+      title: Import from SQL Databases
+      description: Quickly generate your diagrams from your databases or SQL dump files.
+    generateSql:
+      title: Generate SQL statements
+      description: Directly generate SQL statements to create your database tables.
+    exportImages:
+      title: Export to Images and PDFs
+      description: Create beautiful PDFs of your ER diagram to circulate internally. Who says ERDs are so difficult to create?
+    oneClickShare:
+      title: One Click Sharing
+      description: Share your diagrams online with your colleagues and customers with just one click.
+    versionHistory:
+      title: Track changes and travel back in time
+      description: Access a full history of your diagram's changes. Compare versions, restore previous states, or create a copy from any point in time.
+      learnMore: Learn more
+    embed:
+      title: Embed into wikis, blogs, or documentation sites
+      description: Embed your diagrams directly into your internal wikis, blogs, or documentation sites (Notion, Confluence, etc.). Keep your documentation always up-to-date.
+      learnMore: Learn more
+    everythingYouNeed: Everything you need to design complex databases 🚀
+  testimonials:
+    title: What People Say About Us 🤟
+    moreLove: More Love
+    moreLoveDescription: See what our users are saying about dbdiagram.
+    productHunt: Product Hunt
+    productHuntDescription: Discover our launch and community feedback on Product Hunt.
+  companies:
+    title: Chosen by product, data, and engineering teams in every sector
+  faq:
+    title: FAQs
+    pricing:
+      question: Is <router-link to="/">dbdiagram.io</router-link> free forever? How does the pricing work?
+      answer: Absolutely! The app is free forever.<br>You can also get more power and unlimited diagrams with our paid plans.<router-link class="underline" to="/pricing">Learn more.</router-link>
+    who:
+      question: Who are you guys? And why did you guys build this?
+      answer: We are <a target="_blank" href="https://www.holistics.io/">Holistics.io</a>, a Singapore-based business intelligence product company. We built dbdiagram internally in order to have a quick way to visualize database schemas for our customers. We thought it would be cool to turn that into a standalone product for the broader data community to use!
+    bugs:
+      question: How do I report a bug or request a feature?
+      answer: You can post to our <a class="underline" target="_blank" href="https://community.dbdiagram.io/">Community Forum</a>, we get instant notification on every post submit. Alternatively, you can submit the <a class="underline" target="_blank" href="https://form.jotform.com/200914527435049">Feedback Form</a>.
+    dsl:
+      question: What markup language is the dbdiagram DSL following?
+      answer: We use <a class="underline" href="https://dbml.dbdiagram.io/home" target="_blank">DBML - Database Markup Language</a>, a markup language designed to easily document database structures. In fact DBML is born out of dbdiagram! We turned dbdiagram DSL into DBML and made it available for everyone. <br> <br>DBML is also completely open-source on <a class="underline" href="https://github.com/holistics/dbml" target="_blank">Github</a>.
+  about:
+    title: About Us 🤟
+    description: ❤️ dbdiagram.io is built by the folks at <a target="_blank" href="https://www.holistics.io/"><b>holistics.io</b></a>, with love for the data community ❤️
+    details: Holistics is a powerful BI platform that reduces your need for data engineering. We empower your analysts with SQL<br>to build your data warehouse, and give them the tools to build automated reporting routines that deliver insights to everyone.
+    getStarted: Get Started
+  builtBy: built by
+  browserNotSupported: Your browser does not support the video tag.

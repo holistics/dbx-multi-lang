@@ -18,279 +18,279 @@ workspace:
   archived: Archived
   trash: Trash
 
-folders:
-  title: Folders
-  createFolder: New Folder
-  folderName: Folder Name
-  moveDiagram: Move to Folder
-  noFolders: No folders yet
-  deleteFolder: Delete Folder
-  deleteFolderConfirm: Are you sure you want to delete this folder? Diagrams will be moved to the parent folder.
+  folders:
+    title: Folders
+    createFolder: New Folder
+    folderName: Folder Name
+    moveDiagram: Move to Folder
+    noFolders: No folders yet
+    deleteFolder: Delete Folder
+    deleteFolderConfirm: Are you sure you want to delete this folder? Diagrams will be moved to the parent folder.
 
-diagrams:
-  title: Diagrams
-  createDiagram: New Diagram
-  importDiagram: Import Diagram
-  duplicateDiagram: Duplicate
-  renameDiagram: Rename
-  moveDiagram: Move
-  deleteDiagram: Delete
-  shareDiagram: Share
-  archiveDiagram: Archive
-  unarchiveDiagram: Unarchive
-  restoreDiagram: Restore
-  permanentDelete: Delete Permanently
+  diagrams:
+    title: Diagrams
+    createDiagram: New Diagram
+    importDiagram: Import Diagram
+    duplicateDiagram: Duplicate
+    renameDiagram: Rename
+    moveDiagram: Move
+    deleteDiagram: Delete
+    shareDiagram: Share
+    archiveDiagram: Archive
+    unarchiveDiagram: Unarchive
+    restoreDiagram: Restore
+    permanentDelete: Delete Permanently
 
-sharing:
-  title: Share Diagram
-  shareLink: Share Link
-  copyLink: Copy Link
-  anyoneWithLink: Anyone with the link can view
-  invitePeople: Invite People
-  inviteEmail: Enter email address
-  inviteButton: Send Invite
-  canView: Can view
-  canEdit: Can edit
-  canComment: Can comment
-  removeAccess: Remove access
-  owner: Owner
-  pending: Pending
-
-collaboration:
-  title: Collaborators
-  addCollaborator: Add Collaborator
-  collaboratorsCount: "{count} collaborators"
-  onlineNow: Online now
-  viewers: Viewing
-  editors: Editing
-  joined: joined
-  left: left
-
-templates:
-  title: Templates
-  useTemplate: Use Template
-  blankDiagram: Blank Diagram
-  ecommerce: E-commerce Schema
-  blog: Blog Schema
-  socialNetwork: Social Network Schema
-  library: Library Management
-  hospital: Hospital Management
-  school: School Management
-
-activity:
-  title: Activity
-  recentActivity: Recent Activity
-  created: created
-  edited: edited
-  deleted: deleted
-  shared: shared
-  renamed: renamed
-  moved: moved
-  restored: restored
-
-notifications:
-  inviteReceived: "{userName} invited you to collaborate on {diagramName}"
-  inviteAccepted: "{userName} accepted your invitation"
-  diagramCommented: "{userName} commented on {diagramName}"
-  diagramEdited: "{userName} edited {diagramName}"
-  diagramShared: "{userName} shared {diagramName} with you"
-
-settings:
-  title: Settings
-  workspaceName: Workspace name
-  update: Update
-  loadingInfo: Loading workspace information...
-  singleSignOn: Single Sign-On
-  authenticateWithSSO: Authenticate with SSO (SAML)
-  enabled: Enabled
-  samlConfiguration: SAML configuration
-  enforceSSO: Enforce SSO
-  enforceSSODescription: Once enforced, workspace members can only access this workspace via SSO
-  identityProviderUrl: Identity Provider Single Sign-On URL
-  identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
-  identityProviderUrlHelp: The URL of your Identity Provider endpoint.
-  certificate: Certificate
-  certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----"
-  samlConfigurationForProvider: SAML configuration for your identity provider
-  assertionConsumerServiceUrl: Assertion consumer service URL
-  assertionConsumerServiceUrlHelp: Also called "Replying party service URL" or "Reply URL"
-  identifier: Identifier
-  identifierHelp: Also called "Issuer" or "Relying party trust identifier"
-  saveSSOSettings: Save Single Sign-On Settings
-  manageWorkspace: Manage workspace
-  removeWorkspace: Remove workspace...
-  cancelRemovalRequest: Cancel removal request
-  removalWarning: This action cannot be undone!
-  removalScheduledHours: Your workspace will be removed after a few hours.
-  removalScheduledDay: Your workspace will be removed after a day.
-  removalScheduledDays: "Your workspace will be removed after {count} days."
-  removeWorkspaceTitle: Remove this workspace?
-  removeWorkspaceContent: We'll set a schedule to remove your workspace after 7 days. You can cancel the workspace removal schedule in this "Settings" menu if you change your mind.
-  removeWorkspaceButton: Remove this workspace
-  removeWorkspaceSuggestion: 'Please type <i>permanently delete</i> in the text input field to confirm.'
-  removalRequestCanceled: Removal request was canceled successfully!
-  removalRequestCreated: Removal request was created successfully!
-  contactSupportError: An error has occurred, please contact our support at dbdiagram@holistics.io
-  workspaceNameUpdated: Workspace name updated successfully
-  workspaceNameUpdateFailed: Workspace name update failed, please try again!
-  ssoConfigFetchFailed: Failed to fetch SSO configuration. Please try to refresh the page.
-  ssoConfigUpdated: SSO configuration updated successfully
-  ssoConfigSaveFailed: Failed to save SSO configuration. Please try again.
-
-members:
-  invite: Invite
-  invitePlaceholder: Enter email address
-  inviteButton: Invite
-  members: Members
-  memberSlots: "{used}/{limit} members"
-  role:
-    member: Member
+  sharing:
+    title: Share Diagram
+    shareLink: Share Link
+    copyLink: Copy Link
+    anyoneWithLink: Anyone with the link can view
+    invitePeople: Invite People
+    inviteEmail: Enter email address
+    inviteButton: Send Invite
+    canView: Can view
+    canEdit: Can edit
+    canComment: Can comment
+    removeAccess: Remove access
     owner: Owner
-  actions:
-    remove: Remove
-    removeInvitation: Remove this invitation
-    removeMember: Remove this member
-  dialog:
-    removeTitle: Remove member?
-    removeMessage: You are about to remove <b>{email}</b> from your workspace, please confirm your action!
+    pending: Pending
+
+  collaboration:
+    title: Collaborators
+    addCollaborator: Add Collaborator
+    collaboratorsCount: "{count} collaborators"
+    onlineNow: Online now
+    viewers: Viewing
+    editors: Editing
+    joined: joined
+    left: left
+
+  templates:
+    title: Templates
+    useTemplate: Use Template
+    blankDiagram: Blank Diagram
+    ecommerce: E-commerce Schema
+    blog: Blog Schema
+    socialNetwork: Social Network Schema
+    library: Library Management
+    hospital: Hospital Management
+    school: School Management
+
+  activity:
+    title: Activity
+    recentActivity: Recent Activity
+    created: created
+    edited: edited
+    deleted: deleted
+    shared: shared
+    renamed: renamed
+    moved: moved
+    restored: restored
+
   notifications:
-    removeSuccess: Successfully removed {email} from workspace!
-    removeError: Cannot remove {email} from workspace!
+    inviteReceived: "{userName} invited you to collaborate on {diagramName}"
+    inviteAccepted: "{userName} accepted your invitation"
+    diagramCommented: "{userName} commented on {diagramName}"
+    diagramEdited: "{userName} edited {diagramName}"
+    diagramShared: "{userName} shared {diagramName} with you"
 
-diagramList:
-  searchPlaceholder: Search diagrams
-  freePlan: Free
-  plan: plan
-  diagramCount: "Diagrams: {count}/{limit}"
-  duplicate: Duplicate
-  delete: Delete
-  untitledDiagram: Untitled Diagram
-  columns:
-    name: Name
-    dateCreated: Date Created
-    dateModified: Date Modified
-    owner: Owner
-
-sidebar:
-  apiTokens: API Tokens
-  billing: Billing
-
-emptyDiagrams:
-  title: No diagrams yet
-  created:
-    description: There are no diagrams in your workspace. You can create a new one with the
-    button: + New Diagram
-    buttonSuffix: button.
-  shared:
-    description: You have not yet been invited to any diagrams.
-  workspacePublic:
-    description: There are no diagrams displayed to the team. You can create new diagrams with the
-  workspacePrivate:
-    description: There are no private diagrams. You can create a new diagram and keep it personal.
-
-plan:
-  pro: Pro Plan
-  free: Free Plan
-  team: Team Plan
-  disabled: "(disabled)"
-
-welcome:
-  title: Welcome to Team Workspace!
-  description: Get started by creating new diagrams and collaborating with your teammates.
-  learnMore: Learn more →
-
-apiTokens:
-  title: API Tokens
-  description: API tokens are used for authentication to dbdiagram API every time an API request is made. Like passwords, API token should remain a secret.
-  seeDocumentation: See documentation.
-  generateNew: Generate new token
-  columns:
-    name: Name
-    dateCreated: Date Created
-    lastUsed: Last Used
-    owner: Owner
-    action: ""
-  empty: No created tokens
-  actions:
-    revoke: Revoke
-  modal:
-    newToken: New API Token
-    tokenName: Token name
-    tokenNamePlaceholder: Enter token name
-    generate: Generate token
-    copyWarning: Make sure to copy the API token now as you will not be able to see it again.
-    copied: Copied
-    copy: Copy
-    done: Done
-    revokeTitle: Revoke API Token?
-    revokeContent: Do you want to revoke the "{name}" API Token? This action cannot be undone.
-    revokePositive: Revoke Token
-    revokeSuggestion: 'Please type <i>permanently delete</i> in the text input field to confirm.'
-    generateSuccess: Generated token successfully
-  errors:
-    nameEmpty: Token name cannot be empty
-    nameInvalid: Token name can only contain only alphabets, numbers, space, "-" or "_"
-    nameWhitespace: Token name cannot be empty or only contain white space
-    upgradeRequired: Please upgrade your plan to create tokens and access our API
-    ownerOnly: Only workspace owner can generate new tokens
-
-common:
-  labels:
-    you: "(You)"
-
-errors:
-  permissionDenied: You don't have the permission to access this workspace
-
-# Additional workspace strings from file review
-additional:
-  # Billing
-  billing:
-    workspaceReadOnly: Workspace is in read-only mode due to subscription cancelation. Renew to enable workspace functionality.
-    currentPlan: Current Plan
-    teamTrialPlan: Team Trial Plan
-    billedEveryMonth: Billed every month
-    billedEveryYear: Billed every year
-    cancelledOn: Cancelled on
-    addons: Addons
-    nextPayment: Your next payment is
-    toBeChargedOn: to be charged on
-    switchToMonthlyBilling: Switch to monthly billing
-    switchToYearlyBilling: Switch to yearly billing
-    editAddonsQuantity: Edit addons quantity
-    upgrade: Upgrade
-    paymentMethod: Payment Method
-    noPaymentMethod: No payment method
-    invoicing: Invoicing
-    lastPayment: Last payment
-    forSupportEmail: "For support, email us at"
-    switchPlanSuccessfully: Switch plan successfully
-    paymentProcessing: Your payment is processing, please reload the page in a few minutes.
-    checkoutCancelled: Checkout cancelled
-    errorDuringCheckout: An error occur during checkout. Please try again later
-    editSubscription: Edit subscription
-    updatePaymentMethod: Update payment method
-    editBillingInformation: Edit billing information
-
-  # API Tokens
-  apiTokens:
-    permanentlyDelete: permanently delete
-
-  # Account management
-  account:
-    loadingAccountInfo: Loading account information...
-    displayName: Display Name
-    connectedAccounts: Connected Accounts
-    loadingConnectedAccounts: Loading connected accounts...
-    noConnectedAccounts: No connected accounts
-    loggedInWith: Logged in with
-    manageAccount: Manage Account
-    accountRemovedHours: Your account will be removed after a few hours.
-    accountRemovedDay: Your account will be removed after a day.
-    accountRemovedDays: Your account will be removed after {count} days.
+  settings:
+    title: Settings
+    workspaceName: Workspace name
+    update: Update
+    loadingInfo: Loading workspace information...
+    singleSignOn: Single Sign-On
+    authenticateWithSSO: Authenticate with SSO (SAML)
+    enabled: Enabled
+    samlConfiguration: SAML configuration
+    enforceSSO: Enforce SSO
+    enforceSSODescription: Once enforced, workspace members can only access this workspace via SSO
+    identityProviderUrl: Identity Provider Single Sign-On URL
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
+    identityProviderUrlHelp: The URL of your Identity Provider endpoint.
+    certificate: Certificate
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----"
+    samlConfigurationForProvider: SAML configuration for your identity provider
+    assertionConsumerServiceUrl: Assertion consumer service URL
+    assertionConsumerServiceUrlHelp: Also called "Replying party service URL" or "Reply URL"
+    identifier: Identifier
+    identifierHelp: Also called "Issuer" or "Relying party trust identifier"
+    saveSSOSettings: Save Single Sign-On Settings
+    manageWorkspace: Manage workspace
+    removeWorkspace: Remove workspace...
     cancelRemovalRequest: Cancel removal request
-    removeAccount: Remove account...
-    ownedWorkspacesDeleted: "You have {count} owned workspace(s) that will be deleted"
+    removalWarning: This action cannot be undone!
+    removalScheduledHours: Your workspace will be removed after a few hours.
+    removalScheduledDay: Your workspace will be removed after a day.
+    removalScheduledDays: "Your workspace will be removed after {count} days."
+    removeWorkspaceTitle: Remove this workspace?
+    removeWorkspaceContent: We'll set a schedule to remove your workspace after 7 days. You can cancel the workspace removal schedule in this "Settings" menu if you change your mind.
+    removeWorkspaceButton: Remove this workspace
+    removeWorkspaceSuggestion: 'Please type <i>permanently delete</i> in the text input field to confirm.'
     removalRequestCanceled: Removal request was canceled successfully!
-    removeThisAccount: Remove this account?
     removalRequestCreated: Removal request was created successfully!
-    actionCannotBeUndone: This action cannot be undone!
+    contactSupportError: An error has occurred, please contact our support at dbdiagram@holistics.io
+    workspaceNameUpdated: Workspace name updated successfully
+    workspaceNameUpdateFailed: Workspace name update failed, please try again!
+    ssoConfigFetchFailed: Failed to fetch SSO configuration. Please try to refresh the page.
+    ssoConfigUpdated: SSO configuration updated successfully
+    ssoConfigSaveFailed: Failed to save SSO configuration. Please try again.
+
+  members:
+    invite: Invite
+    invitePlaceholder: Enter email address
+    inviteButton: Invite
+    members: Members
+    memberSlots: "{used}/{limit} members"
+    role:
+      member: Member
+      owner: Owner
+    actions:
+      remove: Remove
+      removeInvitation: Remove this invitation
+      removeMember: Remove this member
+    dialog:
+      removeTitle: Remove member?
+      removeMessage: You are about to remove <b>{email}</b> from your workspace, please confirm your action!
+    notifications:
+      removeSuccess: Successfully removed {email} from workspace!
+      removeError: Cannot remove {email} from workspace!
+
+  diagramList:
+    searchPlaceholder: Search diagrams
+    freePlan: Free
+    plan: plan
+    diagramCount: "Diagrams: {count}/{limit}"
+    duplicate: Duplicate
+    delete: Delete
+    untitledDiagram: Untitled Diagram
+    columns:
+      name: Name
+      dateCreated: Date Created
+      dateModified: Date Modified
+      owner: Owner
+
+  sidebar:
+    apiTokens: API Tokens
+    billing: Billing
+
+  emptyDiagrams:
+    title: No diagrams yet
+    created:
+      description: There are no diagrams in your workspace. You can create a new one with the
+      button: + New Diagram
+      buttonSuffix: button.
+    shared:
+      description: You have not yet been invited to any diagrams.
+    workspacePublic:
+      description: There are no diagrams displayed to the team. You can create new diagrams with the
+    workspacePrivate:
+      description: There are no private diagrams. You can create a new diagram and keep it personal.
+
+  plan:
+    pro: Pro Plan
+    free: Free Plan
+    team: Team Plan
+    disabled: "(disabled)"
+
+  welcome:
+    title: Welcome to Team Workspace!
+    description: Get started by creating new diagrams and collaborating with your teammates.
+    learnMore: Learn more →
+
+  apiTokens:
+    title: API Tokens
+    description: API tokens are used for authentication to dbdiagram API every time an API request is made. Like passwords, API token should remain a secret.
+    seeDocumentation: See documentation.
+    generateNew: Generate new token
+    columns:
+      name: Name
+      dateCreated: Date Created
+      lastUsed: Last Used
+      owner: Owner
+      action: ""
+    empty: No created tokens
+    actions:
+      revoke: Revoke
+    modal:
+      newToken: New API Token
+      tokenName: Token name
+      tokenNamePlaceholder: Enter token name
+      generate: Generate token
+      copyWarning: Make sure to copy the API token now as you will not be able to see it again.
+      copied: Copied
+      copy: Copy
+      done: Done
+      revokeTitle: Revoke API Token?
+      revokeContent: Do you want to revoke the "{name}" API Token? This action cannot be undone.
+      revokePositive: Revoke Token
+      revokeSuggestion: 'Please type <i>permanently delete</i> in the text input field to confirm.'
+      generateSuccess: Generated token successfully
+    errors:
+      nameEmpty: Token name cannot be empty
+      nameInvalid: Token name can only contain only alphabets, numbers, space, "-" or "_"
+      nameWhitespace: Token name cannot be empty or only contain white space
+      upgradeRequired: Please upgrade your plan to create tokens and access our API
+      ownerOnly: Only workspace owner can generate new tokens
+
+  common:
+    labels:
+      you: "(You)"
+
+  errors:
+    permissionDenied: You don't have the permission to access this workspace
+
+  # Additional workspace strings from file review
+  additional:
+    # Billing
+    billing:
+      workspaceReadOnly: Workspace is in read-only mode due to subscription cancelation. Renew to enable workspace functionality.
+      currentPlan: Current Plan
+      teamTrialPlan: Team Trial Plan
+      billedEveryMonth: Billed every month
+      billedEveryYear: Billed every year
+      cancelledOn: Cancelled on
+      addons: Addons
+      nextPayment: Your next payment is
+      toBeChargedOn: to be charged on
+      switchToMonthlyBilling: Switch to monthly billing
+      switchToYearlyBilling: Switch to yearly billing
+      editAddonsQuantity: Edit addons quantity
+      upgrade: Upgrade
+      paymentMethod: Payment Method
+      noPaymentMethod: No payment method
+      invoicing: Invoicing
+      lastPayment: Last payment
+      forSupportEmail: "For support, email us at"
+      switchPlanSuccessfully: Switch plan successfully
+      paymentProcessing: Your payment is processing, please reload the page in a few minutes.
+      checkoutCancelled: Checkout cancelled
+      errorDuringCheckout: An error occur during checkout. Please try again later
+      editSubscription: Edit subscription
+      updatePaymentMethod: Update payment method
+      editBillingInformation: Edit billing information
+
+    # API Tokens
+    apiTokens:
+      permanentlyDelete: permanently delete
+
+    # Account management
+    account:
+      loadingAccountInfo: Loading account information...
+      displayName: Display Name
+      connectedAccounts: Connected Accounts
+      loadingConnectedAccounts: Loading connected accounts...
+      noConnectedAccounts: No connected accounts
+      loggedInWith: Logged in with
+      manageAccount: Manage Account
+      accountRemovedHours: Your account will be removed after a few hours.
+      accountRemovedDay: Your account will be removed after a day.
+      accountRemovedDays: Your account will be removed after {count} days.
+      cancelRemovalRequest: Cancel removal request
+      removeAccount: Remove account...
+      ownedWorkspacesDeleted: "You have {count} owned workspace(s) that will be deleted"
+      removalRequestCanceled: Removal request was canceled successfully!
+      removeThisAccount: Remove this account?
+      removalRequestCreated: Removal request was created successfully!
+      actionCannotBeUndone: This action cannot be undone!

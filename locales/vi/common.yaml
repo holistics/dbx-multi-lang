@@ -1,277 +1,256 @@
-buttons:
-  save: Lưu
-  cancel: Hủy
-  confirm: Xác nhận
-  delete: Xóa
-  edit: Chỉnh sửa
-  create: Tạo
-  search: Tìm kiếm
-  share: Chia sẻ
-  close: Đóng
-  publish: Xuất bản
-  history: Lịch sử
-  update: Cập nhật
-  copy: Sao chép
-  import: Nhập
-  export: Xuất
-  download: Tải xuống
-  upload: Tải lên
-  login: Đăng nhập
-  logout: Đăng xuất
-  signup: Đăng ký
-  continue: Tiếp tục
-  back: Quay lại
-  next: Tiếp theo
-  skip: Bỏ qua
-  done: Xong
-  tryAgain: Thử lại
-  refresh: Làm mới
-  clear: Xóa
-  apply: Áp dụng
-  reset: Đặt lại
-  yes: Có
-  no: Không
-  ok: OK
-  invite: Mời
-  join: Tham gia
-  leave: Rời khỏi
-  rename: Đổi tên
-  duplicate: Nhân bản
-  archive: Lưu trữ
-  restore: Khôi phục
-  move: Di chuyển
-  select: Chọn
-  deselect: Bỏ chọn
-  selectAll: Chọn tất cả
-  deselectAll: Bỏ chọn tất cả
-  show: Hiện
-  hide: Ẩn
-  expand: Mở rộng
-  collapse: Thu gọn
-  filter: Lọc
-  sort: Sắp xếp
-  group: Nhóm
-  ungroup: Bỏ nhóm
-  fullscreen: Toàn màn hình
-  exitFullscreen: Thoát toàn màn hình
-  zoomIn: Phóng to
-  zoomOut: Thu nhỏ
-  resetZoom: Đặt lại thu phóng
-  undo: Hoàn tác
-  redo: Làm lại
-  cut: Cắt
-  paste: Dán
-  submit: Gửi
-  reload: Tải lại
-  remove: Xóa bỏ
-  add: Thêm
-  view: Xem
-  open: Mở
-  manage: Quản lý
-  settings: Cài đặt
-
-help:
-  title: Trợ giúp
-  documentation: Tài liệu
-  releaseNotes: Ghi chú phát hành
-  roadmap: Lộ trình phát triển
-  basicEditing: Trải nghiệm chỉnh sửa cơ bản
-  sendFeedback: Gửi phản hồi
-  askCommunity: Hỏi cộng đồng
-  suggestFeature: Đề xuất tính năng
-  contactUs: Liên hệ
-  sampleDiagrams: Sơ đồ mẫu
-  sampleAirbnb: Mẫu Airbnb
-  sampleEcommerce: Mẫu E-commerce
-  whatsNew: Có gì mới
-  language: Ngôn ngữ
-  contribute: Giúp dịch thuật ứng dụng này
-
-export:
-  title: Xuất
-  publishToDbdocs: Xuất bản tài liệu (lên dbdocs)
-  toPdf: Sang PDF
-  toPng: Sang PNG
-  toSvg: Sang SVG
-  toPostgreSQL: Sang PostgreSQL
-  toMySQL: Sang MySQL
-  toSQLServer: Sang SQL Server
-  toOracleSQL: Sang Oracle SQL
-
-import:
-  title: Nhập
-  importFrom: Nhập từ
-  fromDatabaseConnection: Từ kết nối CSDL (qua CLI)
-  fromMySQL: Từ MySQL
-  fromPostgreSQL: Từ PostgreSQL
-  fromSQLServer: Từ SQL Server
-  fromSnowflake: Từ Snowflake
-  fromOracleSQL: Từ Oracle SQL
-  fromRails: Từ Rails (schema.rb)
-  fromCSV: Từ CSV
-
-upgrade:
-  title: Nâng cấp
-  upgradeToPersonalPro: Nâng cấp lên gói Personal Pro
-  collaborateWithTeam: Hợp tác với gói Team
-
-quickActions:
-  title: Thao tác nhanh
-
-sso:
-  signInWithSSO: Đăng nhập với SSO
-  signInWithEmail: Đăng nhập với Email
-  useWorkEmail: Sử dụng email công việc để truy cập dbdiagram qua SSO
-  signInUnsuccessful: Đăng nhập không thành công. Vui lòng kiểm tra email công việc hoặc sử dụng phương thức khác.
-  selectWorkspace: Chọn không gian làm việc để đăng nhập
-
-ai:
-  title: AI
-  scrollToBottom: Cuộn xuống dưới
-
-actions:
-  saveChanges: Lưu thay đổi
-  confirmDelete: Bạn có chắc chắn muốn xóa không?
-  confirmDeleteItem: Bạn có chắc chắn muốn xóa "{name}" không?
-  confirmArchive: Bạn có chắc chắn muốn lưu trữ không?
-  confirmUnsaved:
-    title: Vui lòng xác nhận
-    content: Các thay đổi của bạn có thể chưa được lưu, bạn có muốn tiếp tục không?
-    negativeText: Không
-    positiveText: Có
-  copyToClipboard: Sao chép vào clipboard
-  copiedToClipboard: Đã sao chép vào clipboard!
-  selectAll: Chọn tất cả
-  deselectAll: Bỏ chọn tất cả
-  loading: Đang tải...
-  saving: Đang lưu...
-  processing: Đang xử lý...
-  pleaseWait: Vui lòng chờ...
-
-states:
-  loading: Đang tải...
-  saving: Đang lưu...
-  error: Đã xảy ra lỗi
-  success: Thành công
-  warning: Cảnh báo
-  info: Thông tin
-  empty: Không có dữ liệu
-  noResults: Không tìm thấy kết quả
-  noItems: Không có mục nào
-  offline: Bạn đang ngoại tuyến
-  online: Bạn đã trực tuyến
-
-time:
-  justNow: Vừa mới
-  minuteAgo: Một phút trước
-  minutesAgo: "{count} phút trước"
-  hourAgo: Một giờ trước
-  hoursAgo: "{count} giờ trước"
-  dayAgo: Một ngày trước
-  daysAgo: "{count} ngày trước"
-  weekAgo: Một tuần trước
-  weeksAgo: "{count} tuần trước"
-  monthAgo: Một tháng trước
-  monthsAgo: "{count} tháng trước"
-  yearAgo: Một năm trước
-  yearsAgo: "{count} năm trước"
-
-errors:
-  generic: Đã xảy ra lỗi. Vui lòng thử lại.
-  network: Lỗi mạng. Vui lòng kiểm tra kết nối của bạn.
-  unauthorized: Bạn cần đăng nhập để tiếp tục.
-  forbidden: Bạn không có quyền thực hiện việc này.
-  notFound: Không tìm thấy tài nguyên yêu cầu.
-  serverError: Lỗi máy chủ. Vui lòng thử lại sau.
-  invalidInput: Vui lòng kiểm tra đầu vào và thử lại.
-  required: Trường này là bắt buộc.
-  invalidEmail: Vui lòng nhập địa chỉ email hợp lệ.
-  passwordTooShort: Mật khẩu phải có ít nhất {min} ký tự.
-  passwordMismatch: Mật khẩu không khớp.
-  permissionDenied: Từ chối quyền
-  dontHavePermission: Bạn không có quyền truy cập không gian làm việc này
-
-workspace:
-  readOnlyMode: Không gian làm việc ở chế độ chỉ đọc do hủy đăng ký. Vui lòng gia hạn để bật chức năng không gian làm việc.
-
-editor:
-  expand: Mở rộng trình chỉnh sửa
-  hide: Ẩn trình chỉnh sửa
-  loadingContent: Đang tải nội dung từ máy chủ, vui lòng đợi...
-  keyboardShortcuts: Phím tắt
-  openInDbdiagram: Mở trong dbdiagram.io
-
-notifications:
-  noPermissionRemoveView: Bạn không có quyền xóa chế độ xem sơ đồ!
-  noPermissionRenameView: Bạn không có quyền đổi tên chế độ xem sơ đồ!
-  workspaceDisabled: Không gian làm việc này hiện đang bị vô hiệu hóa
-  noEditPermissionAi: Bạn cần quyền chỉnh sửa để sử dụng dbdiagram AI. Vui lòng yêu cầu chủ sở hữu sơ đồ nâng cấp quyền truy cập của bạn.
-
-needLogin:
-  hiThere: Xin chào,
-  saveQuery: Vui lòng đăng nhập để lưu sơ đồ
-  shareQuery: Vui lòng đăng nhập để chia sẻ sơ đồ
-  newQuery: Vui lòng đăng nhập để tạo sơ đồ mới
-  export: Vui lòng đăng nhập để xuất sơ đồ
-  dbdocsAccess: Vui lòng đăng nhập để chỉnh sửa dự án dbdocs
-  aiAssistant: Vui lòng đăng nhập để sử dụng trợ lý AI dbdiagram
-  newDiagram: Vui lòng đăng nhập để tạo sơ đồ mới
-  upgradePersonal: Vui lòng đăng nhập để nâng cấp lên gói Personal Pro
-  upgradeTeam: Vui lòng đăng nhập để bắt đầu dùng thử gói Team
-  joinTeam: Vui lòng đăng nhập để tham gia không gian làm việc nhóm
-  chartUpdateVisibleEntities: Vui lòng đăng nhập để lưu trạng thái hiển thị bảng/sticky note
-  diagramViewCreateView: Vui lòng đăng nhập để tạo chế độ xem sơ đồ mới
-  default: Vui lòng đăng nhập để tiếp tục công việc
-
-# DBDocs auth
-dbdocsAuth:
-  pleaseLoginWith: Vui lòng đăng nhập với
-  youAreLoggedInAs: Bạn đã đăng nhập
-  viaSSO: qua SSO
-  youNeedToLoginWith: Bạn cần đăng nhập với
-  pleaseLoginToAccess: Vui lòng đăng nhập để truy cập dự án này.
-  contactProjectOwner: Liên hệ chủ sở hữu dự án để yêu cầu quyền truy cập.
-  weWillNeedNonSSO: Chúng tôi sẽ cần bạn sử dụng tài khoản không phải SSO để xác thực.
-  weWillNeedSameEmail: Chúng tôi sẽ cần bạn sử dụng cùng email với tài khoản dbdocs để xác thực.
-
-# Additional common strings from file review
-additional:
-  # Collaboration
-  collab:
-    updatingDiagramMetadata: Đang cập nhật metadata sơ đồ
-    noLongerViewPermission: Bạn không còn quyền xem!
-    doNotHaveViewPermission: Bạn không có quyền xem!
-    fullSession: Không thể kết nối do phiên đã đầy!
-    diagramDeleted: Sơ đồ này đã bị xóa!
-    overwrittenDiagram: Ai đó đã ghi đè nội dung sơ đồ, vui lòng tải lại để xem thay đổi mới nhất!
-    permissionsChanged: Quyền của bạn đã thay đổi, vui lòng tải lại để áp dụng!
-    cannotReconnect: Không thể kết nối lại với máy chủ
-
-  # Query store
-  query:
-    noPermissionShare: Bạn không có quyền chia sẻ sơ đồ này
-    cantCreateDiagram: Không thể tạo sơ đồ mới, vui lòng sao lưu file rồi thử đăng xuất và đăng nhập lại
-    changesSaved: Thay đổi của bạn đã được lưu.
-    autoSaveDiagram: Chúng tôi cũng tự động lưu sơ đồ định kỳ.
-    cantSaveDiagram: Không thể lưu sơ đồ, vui lòng sao lưu file rồi thử đăng xuất và đăng nhập lại
-    noPermissionSave: Bạn không có quyền lưu sơ đồ này
-    diagramDeleted: Sơ đồ của bạn đã bị xóa
-    cantDeleteDiagram: Không thể xóa sơ đồ của bạn, vui lòng sao lưu file rồi thử đăng xuất và đăng nhập lại
-    noPermissionGetInfo: Bạn không có quyền lấy thông tin sơ đồ!
-    cantGetDiagramInfo: Không thể lấy thông tin sơ đồ, vui lòng thử lại!
-    noPermissionAccessProject: Bạn không có quyền truy cập dự án này
-    failedLoadProjectDbdocs: Tải dự án từ DBDocs thất bại
-    failedPublishDbdocs: Xuất bản dự án lên DBDocs thất bại
-    pleaseSignInSaveDraft: Vui lòng đăng nhập để lưu bản nháp
-    draftVersionSaved: Bản nháp đã được lưu thành công
-    noPermissionSaveDraft: Bạn không có quyền lưu bản nháp
-    autoSaveDraftFailed: Tự động lưu bản nháp thất bại!
-    failedSaveDraft: Lưu bản nháp thất bại
-    pleaseSignInDeleteDraft: Vui lòng đăng nhập để xóa bản nháp
-    noPermissionDeleteDraft: Bạn không có quyền xóa bản nháp
-    failedDeleteDrafts: Xóa các bản nháp thất bại
-    pleaseSignInCheckVersion: Vui lòng đăng nhập để kiểm tra trạng thái phiên bản
-    noPermissionCheckVersion: Bạn không có quyền kiểm tra trạng thái phiên bản
-    failedCheckVersion: Kiểm tra trạng thái phiên bản thất bại
-    pleaseSignInLoadLatest: Vui lòng đăng nhập để tải phiên bản mới nhất
-    failedLoadLatest: Tải phiên bản mới nhất thất bại
+common:
+  buttons:
+    save: Lưu
+    cancel: Hủy
+    confirm: Xác nhận
+    delete: Xóa
+    edit: Chỉnh sửa
+    create: Tạo
+    search: Tìm kiếm
+    share: Chia sẻ
+    close: Đóng
+    publish: Xuất bản
+    history: Lịch sử
+    update: Cập nhật
+    copy: Sao chép
+    import: Nhập
+    export: Xuất
+    download: Tải xuống
+    upload: Tải lên
+    login: Đăng nhập
+    logout: Đăng xuất
+    signup: Đăng ký
+    continue: Tiếp tục
+    back: Quay lại
+    next: Tiếp theo
+    skip: Bỏ qua
+    done: Xong
+    tryAgain: Thử lại
+    refresh: Làm mới
+    clear: Xóa
+    apply: Áp dụng
+    reset: Đặt lại
+    'yes': Có
+    'no': Không
+    ok: OK
+    invite: Mời
+    join: Tham gia
+    leave: Rời khỏi
+    rename: Đổi tên
+    duplicate: Nhân bản
+    archive: Lưu trữ
+    restore: Khôi phục
+    move: Di chuyển
+    select: Chọn
+    deselect: Bỏ chọn
+    selectAll: Chọn tất cả
+    deselectAll: Bỏ chọn tất cả
+    show: Hiện
+    hide: Ẩn
+    expand: Mở rộng
+    collapse: Thu gọn
+    filter: Lọc
+    sort: Sắp xếp
+    group: Nhóm
+    ungroup: Bỏ nhóm
+    fullscreen: Toàn màn hình
+    exitFullscreen: Thoát toàn màn hình
+    zoomIn: Phóng to
+    zoomOut: Thu nhỏ
+    resetZoom: Đặt lại thu phóng
+    undo: Hoàn tác
+    redo: Làm lại
+    cut: Cắt
+    paste: Dán
+    submit: Gửi
+    reload: Tải lại
+    remove: Xóa bỏ
+    add: Thêm
+    view: Xem
+    open: Mở
+    manage: Quản lý
+    settings: Cài đặt
+  help:
+    title: Trợ giúp
+    documentation: Tài liệu
+    releaseNotes: Ghi chú phát hành
+    roadmap: Lộ trình phát triển
+    basicEditing: Trải nghiệm chỉnh sửa cơ bản
+    sendFeedback: Gửi phản hồi
+    askCommunity: Hỏi cộng đồng
+    suggestFeature: Đề xuất tính năng
+    contactUs: Liên hệ
+    sampleDiagrams: Sơ đồ mẫu
+    sampleAirbnb: Mẫu Airbnb
+    sampleEcommerce: Mẫu E-commerce
+    whatsNew: Có gì mới
+    language: Ngôn ngữ
+    contribute: Giúp dịch thuật ứng dụng này
+  export:
+    title: Xuất
+    publishToDbdocs: Xuất bản tài liệu (lên dbdocs)
+    toPdf: Sang PDF
+    toPng: Sang PNG
+    toSvg: Sang SVG
+    toPostgreSQL: Sang PostgreSQL
+    toMySQL: Sang MySQL
+    toSQLServer: Sang SQL Server
+    toOracleSQL: Sang Oracle SQL
+  import:
+    title: Nhập
+    importFrom: Nhập từ
+    fromDatabaseConnection: Từ kết nối CSDL (qua CLI)
+    fromMySQL: Từ MySQL
+    fromPostgreSQL: Từ PostgreSQL
+    fromSQLServer: Từ SQL Server
+    fromSnowflake: Từ Snowflake
+    fromOracleSQL: Từ Oracle SQL
+    fromRails: Từ Rails (schema.rb)
+    fromCSV: Từ CSV
+  upgrade:
+    title: Nâng cấp
+    upgradeToPersonalPro: Nâng cấp lên gói Personal Pro
+    collaborateWithTeam: Hợp tác với gói Team
+  quickActions:
+    title: Thao tác nhanh
+  sso:
+    signInWithSSO: Đăng nhập với SSO
+    signInWithEmail: Đăng nhập với Email
+    useWorkEmail: Sử dụng email công việc để truy cập dbdiagram qua SSO
+    signInUnsuccessful: Đăng nhập không thành công. Vui lòng kiểm tra email công việc hoặc sử dụng phương thức khác.
+    selectWorkspace: Chọn không gian làm việc để đăng nhập
+  ai:
+    title: AI
+    scrollToBottom: Cuộn xuống dưới
+  actions:
+    saveChanges: Lưu thay đổi
+    confirmDelete: Bạn có chắc chắn muốn xóa không?
+    confirmDeleteItem: Bạn có chắc chắn muốn xóa "{name}" không?
+    confirmArchive: Bạn có chắc chắn muốn lưu trữ không?
+    confirmUnsaved:
+      title: Vui lòng xác nhận
+      content: Các thay đổi của bạn có thể chưa được lưu, bạn có muốn tiếp tục không?
+      negativeText: Không
+      positiveText: Có
+    copyToClipboard: Sao chép vào clipboard
+    copiedToClipboard: Đã sao chép vào clipboard!
+    selectAll: Chọn tất cả
+    deselectAll: Bỏ chọn tất cả
+    loading: Đang tải...
+    saving: Đang lưu...
+    processing: Đang xử lý...
+    pleaseWait: Vui lòng chờ...
+  states:
+    loading: Đang tải...
+    saving: Đang lưu...
+    error: Đã xảy ra lỗi
+    success: Thành công
+    warning: Cảnh báo
+    info: Thông tin
+    empty: Không có dữ liệu
+    noResults: Không tìm thấy kết quả
+    noItems: Không có mục nào
+    offline: Bạn đang ngoại tuyến
+    online: Bạn đã trực tuyến
+  time:
+    justNow: Vừa mới
+    minuteAgo: Một phút trước
+    minutesAgo: '{count} phút trước'
+    hourAgo: Một giờ trước
+    hoursAgo: '{count} giờ trước'
+    dayAgo: Một ngày trước
+    daysAgo: '{count} ngày trước'
+    weekAgo: Một tuần trước
+    weeksAgo: '{count} tuần trước'
+    monthAgo: Một tháng trước
+    monthsAgo: '{count} tháng trước'
+    yearAgo: Một năm trước
+    yearsAgo: '{count} năm trước'
+  errors:
+    generic: Đã xảy ra lỗi. Vui lòng thử lại.
+    network: Lỗi mạng. Vui lòng kiểm tra kết nối của bạn.
+    unauthorized: Bạn cần đăng nhập để tiếp tục.
+    forbidden: Bạn không có quyền thực hiện việc này.
+    notFound: Không tìm thấy tài nguyên yêu cầu.
+    serverError: Lỗi máy chủ. Vui lòng thử lại sau.
+    invalidInput: Vui lòng kiểm tra đầu vào và thử lại.
+    required: Trường này là bắt buộc.
+    invalidEmail: Vui lòng nhập địa chỉ email hợp lệ.
+    passwordTooShort: Mật khẩu phải có ít nhất {min} ký tự.
+    passwordMismatch: Mật khẩu không khớp.
+    permissionDenied: Từ chối quyền
+    dontHavePermission: Bạn không có quyền truy cập không gian làm việc này
+  workspace:
+    readOnlyMode: Không gian làm việc ở chế độ chỉ đọc do hủy đăng ký. Vui lòng gia hạn để bật chức năng không gian làm việc.
+  editor:
+    expand: Mở rộng trình chỉnh sửa
+    hide: Ẩn trình chỉnh sửa
+    loadingContent: Đang tải nội dung từ máy chủ, vui lòng đợi...
+    keyboardShortcuts: Phím tắt
+    openInDbdiagram: Mở trong dbdiagram.io
+  notifications:
+    noPermissionRemoveView: Bạn không có quyền xóa chế độ xem sơ đồ!
+    noPermissionRenameView: Bạn không có quyền đổi tên chế độ xem sơ đồ!
+    workspaceDisabled: Không gian làm việc này hiện đang bị vô hiệu hóa
+    noEditPermissionAi: Bạn cần quyền chỉnh sửa để sử dụng dbdiagram AI. Vui lòng yêu cầu chủ sở hữu sơ đồ nâng cấp quyền truy cập của bạn.
+  needLogin:
+    hiThere: Xin chào,
+    saveQuery: Vui lòng đăng nhập để lưu sơ đồ
+    shareQuery: Vui lòng đăng nhập để chia sẻ sơ đồ
+    newQuery: Vui lòng đăng nhập để tạo sơ đồ mới
+    export: Vui lòng đăng nhập để xuất sơ đồ
+    dbdocsAccess: Vui lòng đăng nhập để chỉnh sửa dự án dbdocs
+    aiAssistant: Vui lòng đăng nhập để sử dụng trợ lý AI dbdiagram
+    newDiagram: Vui lòng đăng nhập để tạo sơ đồ mới
+    upgradePersonal: Vui lòng đăng nhập để nâng cấp lên gói Personal Pro
+    upgradeTeam: Vui lòng đăng nhập để bắt đầu dùng thử gói Team
+    joinTeam: Vui lòng đăng nhập để tham gia không gian làm việc nhóm
+    chartUpdateVisibleEntities: Vui lòng đăng nhập để lưu trạng thái hiển thị bảng/sticky note
+    diagramViewCreateView: Vui lòng đăng nhập để tạo chế độ xem sơ đồ mới
+    default: Vui lòng đăng nhập để tiếp tục công việc
+  dbdocsAuth:
+    pleaseLoginWith: Vui lòng đăng nhập với
+    youAreLoggedInAs: Bạn đã đăng nhập
+    viaSSO: qua SSO
+    youNeedToLoginWith: Bạn cần đăng nhập với
+    pleaseLoginToAccess: Vui lòng đăng nhập để truy cập dự án này.
+    contactProjectOwner: Liên hệ chủ sở hữu dự án để yêu cầu quyền truy cập.
+    weWillNeedNonSSO: Chúng tôi sẽ cần bạn sử dụng tài khoản không phải SSO để xác thực.
+    weWillNeedSameEmail: Chúng tôi sẽ cần bạn sử dụng cùng email với tài khoản dbdocs để xác thực.
+  additional:
+    collab:
+      updatingDiagramMetadata: Đang cập nhật metadata sơ đồ
+      noLongerViewPermission: Bạn không còn quyền xem!
+      doNotHaveViewPermission: Bạn không có quyền xem!
+      fullSession: Không thể kết nối do phiên đã đầy!
+      diagramDeleted: Sơ đồ này đã bị xóa!
+      overwrittenDiagram: Ai đó đã ghi đè nội dung sơ đồ, vui lòng tải lại để xem thay đổi mới nhất!
+      permissionsChanged: Quyền của bạn đã thay đổi, vui lòng tải lại để áp dụng!
+      cannotReconnect: Không thể kết nối lại với máy chủ
+    query:
+      noPermissionShare: Bạn không có quyền chia sẻ sơ đồ này
+      cantCreateDiagram: Không thể tạo sơ đồ mới, vui lòng sao lưu file rồi thử đăng xuất và đăng nhập lại
+      changesSaved: Thay đổi của bạn đã được lưu.
+      autoSaveDiagram: Chúng tôi cũng tự động lưu sơ đồ định kỳ.
+      cantSaveDiagram: Không thể lưu sơ đồ, vui lòng sao lưu file rồi thử đăng xuất và đăng nhập lại
+      noPermissionSave: Bạn không có quyền lưu sơ đồ này
+      diagramDeleted: Sơ đồ của bạn đã bị xóa
+      cantDeleteDiagram: Không thể xóa sơ đồ của bạn, vui lòng sao lưu file rồi thử đăng xuất và đăng nhập lại
+      noPermissionGetInfo: Bạn không có quyền lấy thông tin sơ đồ!
+      cantGetDiagramInfo: Không thể lấy thông tin sơ đồ, vui lòng thử lại!
+      noPermissionAccessProject: Bạn không có quyền truy cập dự án này
+      failedLoadProjectDbdocs: Tải dự án từ DBDocs thất bại
+      failedPublishDbdocs: Xuất bản dự án lên DBDocs thất bại
+      pleaseSignInSaveDraft: Vui lòng đăng nhập để lưu bản nháp
+      draftVersionSaved: Bản nháp đã được lưu thành công
+      noPermissionSaveDraft: Bạn không có quyền lưu bản nháp
+      autoSaveDraftFailed: Tự động lưu bản nháp thất bại!
+      failedSaveDraft: Lưu bản nháp thất bại
+      pleaseSignInDeleteDraft: Vui lòng đăng nhập để xóa bản nháp
+      noPermissionDeleteDraft: Bạn không có quyền xóa bản nháp
+      failedDeleteDrafts: Xóa các bản nháp thất bại
+      pleaseSignInCheckVersion: Vui lòng đăng nhập để kiểm tra trạng thái phiên bản
+      noPermissionCheckVersion: Bạn không có quyền kiểm tra trạng thái phiên bản
+      failedCheckVersion: Kiểm tra trạng thái phiên bản thất bại
+      pleaseSignInLoadLatest: Vui lòng đăng nhập để tải phiên bản mới nhất
+      failedLoadLatest: Tải phiên bản mới nhất thất bại
