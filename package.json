@@ -5,6 +5,14 @@
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./dist/en.json": "./dist/en.json",
+    "./dist/vi.json": "./dist/vi.json"
+  },
   "files": [
     "dist",
     "locales"
