@@ -6,7 +6,7 @@ header:
     editAsNew: Chỉnh sửa như mới
     export: Xuất
     signIn: Đăng nhập
-    signout: Đăng xuất
+    signOut: Đăng xuất
     publishToDbdocs: Xuất bản lên DBDocs
     publish: Xuất bản
     discard: Hủy bỏ
@@ -78,4 +78,3 @@ header:
     darkMode: Chế độ tối
     managePersonalPlan: Quản lý Gói cá nhân
     manageAccount: Quản lý Tài khoản
-    signOut: Đăng xuất

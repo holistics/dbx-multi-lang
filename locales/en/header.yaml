@@ -11,8 +11,8 @@ header:
     history: History # Clock icon button in header toolbar (opens Version History modal)
     editAsNew: Edit as New # Option in header dropdown (duplicates diagram to personal workspace)
     export: Export # Dropdown in header containing export options
-    signIn: Sign in # Button in header (for unauthenticated users - top-right)
-    signout: Sign out # Last item in account dropdown (top-right user menu)
+    signIn: Sign In # Button in header (for unauthenticated users - top-right)
+    signOut: Sign Out # Last item in account dropdown (top-right user menu)
     publishToDbdocs: Publish to DBDocs # Button in header export dropdown
     publish: Publish # Blue button in share modal (publishes current diagram to DBDocs)
     discard: Discard # Red button in discard draft confirmation dialog
