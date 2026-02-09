@@ -6,79 +6,15 @@ auth:
   # Login Page - Email/password login
   # ========================================
   login:
-    title: Log in to DBDiagram # Page title (browser tab)
-    subtitle: Welcome back! Please log in to continue. # Subtitle (below title)
     email: Email # Email input label
-    password: Password # Password input label
-    forgotPassword: Forgot password? # Link (password recovery)
-    rememberMe: Remember me # Checkbox label (stay logged in)
-    loginButton: Log in # Primary submit button
-    noAccount: Don't have an account? # Helper text (below button)
-    signupLink: Sign up # Link (to signup page)
-    orContinueWith: or continue with # Divider text (social login)
     loginWithGithub: Log in with GitHub # Social login button (GitHub)
-    loginWithGoogle: Log in with Google # Social login button (Google)
     loginWithMicrosoft: Log in with Microsoft # Social login button (Microsoft)
-
-  # ========================================
-  # Signup Page - Account creation
-  # ========================================
-  signup:
-    title: Sign up for DBDiagram # Page title (browser tab)
-    subtitle: Create your free account to get started. # Subtitle (below title)
-    name: Full Name # Name input label
-    email: Email # Email input label
-    password: Password # Password input label
-    confirmPassword: Confirm Password # Confirm password label
-    agreeToTerms: I agree to the # Checkbox label (terms)
-    termsOfService: Terms of Service # Link (terms page)
-    and: and # Connector text (terms + privacy)
-    privacyPolicy: Privacy Policy # Link (privacy page)
-    signupButton: Sign up # Primary submit button
-    alreadyHaveAccount: Already have an account? # Helper text (below button)
-    loginLink: Log in # Link (to login page)
-    orContinueWith: or continue with # Divider text (social signup)
-    signupWithGithub: Sign up with GitHub # Social signup button (GitHub)
-    signupWithGoogle: Sign up with Google # Social signup button (Google)
-    signupWithMicrosoft: Sign up with Microsoft # Social signup button (Microsoft)
-
-  # ========================================
-  # Forgot Password Page - Password reset request
-  # ========================================
-  forgotPassword:
-    title: Reset your password # Page title (browser tab)
-    subtitle: Enter your email address and we'll send you a link to reset your password. # Subtitle
-    email: Email # Email input label
-    sendLink: Send Reset Link # Submit button
-    backToLogin: Back to Login # Link (return to login)
-    checkEmail: Check your email # Success page header
-    emailSent: We've sent a password reset link to your email # Success page message
-    didntReceive: Didn't receive the email? # Help text (resend section)
-    resendLink: Resend # Resend button (disabled timer)
-
-  # ========================================
-  # Reset Password Page - New password entry
-  # ========================================
-  resetPassword:
-    title: Set new password # Page title (browser tab)
-    subtitle: Enter your new password below. # Subtitle
-    newPassword: New Password # New password input label
-    confirmPassword: Confirm Password # Confirm password label
-    resetButton: Reset Password # Submit button
-    passwordMismatch: Passwords do not match # Validation error
-    passwordTooWeak: Password is too weak # Validation error
-    success: Password reset successfully # Success message
-    loginNow: Log in now # Link (to login page after reset)
 
   # ========================================
   # OAuth Errors - OAuth flow errors
   # ========================================
   oauth:
     authorizationError: Authorization failed # OAuth error title
-    authorizationDenied: Authorization was denied # User cancelled OAuth
-    linkingError: Account linking failed # Link account error
-    alreadyLinked: This account is already linked to another user # Already linked error
-    emailNotVerified: Please verify your email first # Email verification required
     processing: Processing... # Loading state (OAuth redirect)
     justAMomentPleaseWait: Just a moment, please wait... # Loading message (OAuth redirect)
     signedInAs: You are signed in as # Session label (SSO indicator)
@@ -86,27 +22,9 @@ auth:
     failedSignInMicrosoft: Failed to sign in with Microsoft, please try again! # Error toast (Microsoft OAuth)
 
   # ========================================
-  # Email Verification - Verification pages
-  # ========================================
-  verification:
-    title: Verify your email # Page title (browser tab)
-    subtitle: We've sent a verification link to your email # Subtitle
-    resendLink: Resend verification email # Resend button
-    verifyButton: Verify Email # Submit button
-    verified: Email verified successfully # Success message
-    expired: Verification link has expired # Error message
-    invalidLink: Invalid verification link # Error message
-
-  # ========================================
   # Form Errors - Validation error messages
   # ========================================
   errors:
-    invalidCredentials: Invalid email or password # Login validation error
-    userNotFound: No account found with this email # Signup validation error
-    emailAlreadyExists: An account with this email already exists # Signup validation error
-    weakPassword: Password is too weak # Password validation
-    invalidToken: Invalid or expired token # Token validation
-    sessionExpired: Your session has expired. Please log in again # Session timeout
     invalidEmail: Invalid email address, please try again! # Email validation
     githubPopupBlocked: Please allow popups to sign in with GitHub # Browser setting error
 
@@ -145,24 +63,14 @@ auth:
   # ========================================
   additional:
     unknownError: Unknown error # Fallback error
-    unknownErrorDuringLogin: Unknown error during login # Login error (generic)
-    networkError: Network error # Network failure
-    invalidAccess: Invalid Access # Permission error
-    invalidAuthenticationRequest: Invalid Authentication Request # OAuth error
-    invalidClient: Invalid Client # Client config error
-    missingClientIdOrRedirectUri: Missing client_id or redirect uri # Config error
     invalidOtp: Invalid OTP, please try again! # OTP validation error
     cannotValidateOtp: Can not validate OTP, please try again! # OTP validation failure
     emailNotVerified: Your email is not verified. Please verify them on Microsoft account. # MS email verification
-    invalidToken: Invalid token # Token validation error
     cannotSignInMicrosoftSSO: Cannot sign in with Microsoft SSO, please try again! # MS SSO error
     cannotSignIn: Cannot sign in, please try again! # Generic sign-in error
     failedReloadProject: Failed to reload project after login. Please refresh the page. # Reload error
     loginError: Login error # Generic login error
     signInCancelled: Sign in cancelled. Please try again. # Cancelled flow
-    authenticationFailed: Authentication failed! # Auth failure toast
-    invalidRequest: Invalid request! # Request validation error
-    connectionErrorRetrying: Connection error. Retrying... # Connection retry message
 
   # ========================================
   # Logout Callback - Post-logout redirect

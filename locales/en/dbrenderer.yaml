@@ -26,7 +26,6 @@ dbrenderer:
     noGroup: (no group) # Group label (tables without group)
     defaultView: Default View # Label (default view indicator)
     unknownView: Unknown View # Label (unknown view name)
-    database: Database # Group by option (group by database)
     newView: New View # Button (creates new diagram view)
     copyOfName: Copy of {name} # Default name for copied view
 
@@ -50,9 +49,6 @@ dbrenderer:
   autoArrange:
     title: Choose auto arrange algorithm # Modal title
     leftRight: Left-right # Algorithm option (horizontal layout L→R)
-    topDown: Top-down # Algorithm option (vertical layout T→D)
-    rightLeft: Right-left # Algorithm option (horizontal layout R→L)
-    bottomUp: Bottom-up # Algorithm option (vertical layout B→T)
     snowflake: Snowflake # Algorithm option (snowflake schema layout)
     compact: Compact # Algorithm option (compact layout)
     confirmMessage: Your diagram will be automatically rearranged and you will not be able to undo. Are you sure? # Warning in modal body
@@ -67,7 +63,6 @@ dbrenderer:
     showAllColumns: Show all columns # Option (shows all columns)
     hideColumns: Hide columns # Option (hides non-PK columns)
     showPrimaryKeys: Primary keys only # Option (shows only primary keys)
-    showLimitedColumns: Limited columns # Option (shows limited columns)
 
   # ========================================
   # View Dropdown - View selector menu
@@ -101,13 +96,6 @@ dbrenderer:
   # Common - Shared buttons in renderer
   # ========================================
   common:
-    confirm: Confirm # Confirmation button in dialogs
-    cancel: Cancel # Cancel button in dialogs
-    save: Save # Save button in dialogs
-    close: Close # Close button in dialogs
-    delete: Delete # Delete button in dialogs
-    rename: Rename # Rename button in dialogs
-    remove: Remove # Remove button in dialogs
 
   # ========================================
   # Empty State Hint - Canvas empty states

@@ -20,7 +20,6 @@ dbrenderer:
     noGroup: (không nhóm)
     defaultView: Chế độ xem mặc định
     unknownView: Chế độ xem không xác định
-    database: Cơ sở dữ liệu
     newView: Chế độ xem mới
     copyOfName: Bản sao của {name}
   controllerBar:
@@ -36,9 +35,6 @@ dbrenderer:
   autoArrange:
     title: Chọn thuật toán tự động sắp xếp
     leftRight: Trái-phải
-    topDown: Trên-dưới
-    rightLeft: Phải-trái
-    bottomUp: Dưới-trên
     snowflake: Snowflake
     compact: Gọn gàng
     confirmMessage: Sơ đồ của bạn sẽ được tự động sắp xếp lại và bạn sẽ không thể hoàn tác. Bạn có chắc không?
@@ -49,7 +45,6 @@ dbrenderer:
     showAllColumns: Hiện tất cả cột
     hideColumns: Ẩn cột
     showPrimaryKeys: Chỉ khóa chính
-    showLimitedColumns: Các cột giới hạn
   viewDropdown:
     renameView: Đổi tên chế độ xem
     removeView: Xóa chế độ xem
@@ -67,13 +62,6 @@ dbrenderer:
     disablePanMode: Nhấn để tắt chế độ trượt (pan)
     panModeHint: Hoặc giữ phím Space/Chuột giữa + kéo để trượt
   common:
-    confirm: Xác nhận
-    cancel: Hủy
-    save: Lưu
-    close: Đóng
-    delete: Xóa
-    rename: Đổi tên
-    remove: Xóa bỏ
   emptyStateHint:
     filtered:
       title: Sơ đồ của bạn trống

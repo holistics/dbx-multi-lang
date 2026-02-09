@@ -6,167 +6,56 @@ diagram:
   # Editor - Main editor area
   # ========================================
   editor:
-    title: Diagram Editor # Page title (browser tab)
-    untitled: Untitled Diagram # Default diagram name
-    placeholder: Start typing your DBML code here... # Monaco editor placeholder
 
   # ========================================
   # Toolbar - Top editor toolbar
   # ========================================
   toolbar:
-    undo: Undo # Toolbar button (Ctrl/Cmd+Z)
-    redo: Redo # Toolbar button (Ctrl/Cmd+Y)
-    save: Save # Toolbar button (Ctrl/Cmd+S)
-    export: Export # Toolbar dropdown (export options)
-    share: Share # Toolbar button (opens share modal)
-    settings: Settings # Toolbar dropdown (settings)
-    help: Help # Toolbar dropdown (help menu)
-    fullscreen: Fullscreen # Toolbar button (fullscreen mode)
-    zoomIn: Zoom In # Toolbar button (zoom in)
-    zoomOut: Zoom Out # Toolbar button (zoom out)
-    resetZoom: Reset Zoom # Toolbar button (reset zoom)
-    fitToScreen: Fit to Screen # Toolbar button (fit all)
-    autoLayout: Auto Layout # Toolbar button (auto arrange)
-    clear: Clear Canvas # Toolbar button (clear all)
 
   # ========================================
   # Views - Diagram view management
   # ========================================
   views:
-    default: Default View # Default view label
-    list: List View # List view option
-    custom: Custom Views # Custom views section
-    createView: Create New View # Create view button
-    editView: Edit View # Edit view button
-    deleteView: Delete View # Delete view button
-    viewName: View Name # Input label (view modal)
-    viewNamePlaceholder: Enter view name... # Input placeholder (view modal)
 
   # ========================================
   # Panels - Side panels
   # ========================================
   panels:
-    tableSearch: Table Search # Panel title (left sidebar)
-    tableSearchPlaceholder: Search tables... # Search input placeholder
-    noTablesFound: No tables found # Empty state (search results)
-    showAllTables: Show All Tables # Button (table list header)
-    hideAllTables: Hide All Tables # Button (table list header)
 
   # ========================================
   # Menu - Menu bar items
   # ========================================
   menu:
-    file: File # Menu bar item (file menu)
-    edit: Edit # Menu bar item (edit menu)
-    view: View # Menu bar item (view menu)
-    help: Help # Menu bar item (help menu)
 
   # ========================================
   # Actions - Menu actions
   # ========================================
   actions:
-    newDiagram: New Diagram # Menu action (File > New)
-    openDiagram: Open Diagram # Menu action (File > Open)
-    saveDiagram: Save Diagram # Menu action (File > Save)
-    duplicateDiagram: Duplicate Diagram # Menu action (File > Duplicate)
-    deleteDiagram: Delete Diagram # Menu action (File > Delete)
-    exportAsImage: Export as Image # Menu action (File > Export)
-    exportAsSql: Export as SQL # Menu action (File > Export)
-    exportAsPdf: Export as PDF # Menu action (File > Export)
-    print: Print # Menu action (File > Print)
-    settings: Settings # Menu action (File > Settings)
-    shortcuts: Keyboard Shortcuts # Menu action (Help > Shortcuts)
-    documentation: Documentation # Menu action (Help > Docs)
-    feedback: Send Feedback # Menu action (Help > Feedback)
-    reportBug: Report Bug # Menu action (Help > Report Bug)
 
   # ========================================
   # Notifications - Toast messages
   # ========================================
   notifications:
-    saving: Saving... # Toast message (auto-save)
-    saved: Saved successfully # Toast message (save success)
-    errorSaving: Error saving diagram # Toast message (save error)
-    autoSaved: Auto-saved # Toast message (auto-save)
-    unsavedChanges: You have unsaved changes # Toast message (changes)
-    confirmClose: Are you sure you want to close? Unsaved changes will be lost. # Confirmation dialog
 
   # ========================================
   # Shortcuts - Keyboard shortcuts modal
   # ========================================
   shortcuts:
-    toggleTitle: Keyboard Shortcuts # Modal title (shortcuts)
-    close: Close # Button (shortcuts modal)
-    save: Save diagram # Shortcut description
-    undo: Undo # Shortcut description
-    redo: Redo # Shortcut description
-    find: Find in code # Shortcut description
-    toggleEditor: Toggle editor # Shortcut description
-    toggleFullscreen: Toggle fullscreen # Shortcut description
-    zoomIn: Zoom in # Shortcut description
-    zoomOut: Zoom out # Shortcut description
 
   # ========================================
   # Header - Diagram header section
   # ========================================
   header:
-    clickToEdit: Click to edit # Placeholder tooltip (diagram name)
-    publishToDbdocs: Publish to dbdocs # Button (header toolbar)
-    history: History # Button (header toolbar)
-    editAsNew: Edit as New # Button (header dropdown)
-    signOut: Sign out # Menu item (account dropdown)
-    personal: Personal # Workspace label (header)
-    dbdiagramAI: dbdiagram AI # AI panel toggle
-    openInDbdocs: Open in dbdocs # Button (header toolbar)
-    draftIsUpToDate: Draft is up to date # Status label (header)
-    draftHasUnsavedChanges: Draft has unsaved changes # Status label (header)
-    projectIsUpToDate: Project is up to date # Status label (header)
-    projectHasUnsavedChanges: Project has unsaved changes # Status label (header)
-    diagramSynchronized: Your diagram content is synchronized with the server # Status tooltip
-    reconnecting: Reconnecting... # Status message (offline)
-    savingDiagram: Saving diagram... # Status message (saving)
-    autoSavingDiagram: Auto-saving diagram... # Status message (auto-save)
-    disconnectedMessage: You are disconnected. Your edits are being saved locally and <br> will be synced with the server the next time you are online. # Offline toast
-    readOnlyMode: This diagram is read-only # Status tooltip (read-only)
-    unsavedDiagramMessage: This diagram is not saved {loginRequired} # Status message prefix
-    loginRequiredForSave: . Login is required to save your diagrams # Status message suffix
-    allChangesSaved: All changes saved # Toast (save complete)
-    errorInDiagram: There's an error in your diagram. Please fix all syntax errors first before publishing. # Publish validation error
-    pleaseSaveFirst: Please save your diagram first # Publish validation error
-    askOwnerToPublish: Please ask your diagram owner to publish a database document first # Publish validation error
-    editAsNewDisabled: <b>Edit as New</b> is not available because your workspace <br> has been disabled due to subscription cancellation. # Disabled tooltip
-    pleaseLoginToPublish: Please login to publish your changes # Publish validation error
-    youHaveErrorsInDiagram: You have errors in your diagram # Publish validation warning
-    noChangesToPublish: No changes to publish # Publish validation info
-    noPublishedContentYet: This project has no published content yet # Publish tooltip
-    discardAllDrafts: Discard All Drafts # Button (header dropdown)
-    discardAllDraftsConfirmation: Are you sure you want to discard all your draft versions and fetch the latest content of the project? This action cannot be undone. # Discard confirmation dialog
-    discard: Discard # Button (discard modal)
-    projectPublishedSuccessfully: Project published successfully and draft versions cleared # Success toast
-    failedToPublishProject: Failed to publish project # Error toast
-    failedToDiscardDrafts: Failed to discard drafts # Error toast
-    allDraftsDiscarded: All drafts discarded and latest version loaded # Success toast
-    cannotChangeDiagramName: Can not change diagram name, please try again! # Error toast
-    publishToDbdocsConfirmationTitle: Publish to dbdocs # Modal title (publish confirmation)
-    publishToDbdocsConfirmationMessage: Are you sure you want to publish this project to dbdocs? # Modal body (publish confirmation)
-    versionOutdatedWarning: A newer version of this project exists. You are about to overwrite changes made by others. # Warning toast (version conflict)
 
   # ========================================
   # Status - Sync status indicators
   # ========================================
   status:
-    readOnly: Read-only # Status badge (read-only diagram)
-    synced: Synced # Status badge (synced)
-    unsynced: Unsynced # Status badge (pending sync)
-    saved: Saved # Status badge (saved)
-    unsaved: Unsaved # Status badge (unsaved changes)
 
   # ========================================
   # Tooltips - Hover tooltips
   # ========================================
   tooltip:
-    focusDiagramElement: to focus # Tooltip (focus element)
-    toFocus: to focus # Tooltip (alternative focus)
 
   # ========================================
   # Access - Diagram access levels
@@ -186,20 +75,13 @@ diagram:
   # Detail Levels - Diagram display options
   # ========================================
   detailLevels:
-    tables: Tables # Detail level option (tables only)
-    keys: Keys # Detail level option (keys only)
-    all: All # Detail level option (all fields)
 
   # ========================================
   # Detail Level Options - Dropdown options
   # ========================================
   detailLevelOptions:
-    tableNames: Table names # Dropdown option (show table names)
-    keysOnly: Keys only # Dropdown option (show primary keys)
-    allFields: All fields # Dropdown option (show all columns)
 
   # ========================================
   # DBDocs - DBDocs integration
   # ========================================
   dbdocs:
-    publishConfirmation: Do you want to publish this draft to your dbdocs project? # Confirmation dialog message

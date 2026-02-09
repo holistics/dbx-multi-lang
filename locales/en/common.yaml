@@ -6,76 +6,13 @@ common:
   # Buttons - Generic buttons in modals, toolbars, forms throughout the app
   # ========================================
   buttons:
-    save: Save # Modal confirm button (also: header toolbar save button - Ctrl/Cmd+S)
     cancel: Cancel # Gray button in modal dialogs (bottom-right)
     confirm: Confirm # Green button in confirmation dialogs
     delete: Delete # Red button in item context menus (with trash icon)
-    edit: Edit # Pencil icon in table/element context menus
-    create: Create # Green button in forms and modals (creates new item)
-    search: Search # Magnifying glass icon in sidebar search input
-    share: Share # Share icon in header toolbar (opens share modal)
-    close: Close # 'X' icon in top-right corner of modals
-    publish: Publish # Blue button in header toolbar (publishes diagram to DBDocs)
     history: History # Clock icon in header toolbar (opens Version History modal)
-    update: Update # Green button in workspace settings page (saves changes)
-    copy: Copy # Duplicate icon in item context menus (copies selected item)
-    import: Import # Folder icon in header dropdown (opens import options)
     export: Export # Export icon in header dropdown (opens export options)
-    download: Download # Download icon in share modal (downloads file)
-    upload: Upload # Upload icon in import dialog (file upload area)
-    login: Log in # Primary button on login page (top-center)
-    logout: Log out # Last item in account dropdown (top-right user menu)
-    signup: Sign up # Blue link/button on auth pages
-    continue: Continue # Primary button after selecting login method (SSO/email)
-    back: Back # Arrow-left icon in multi-step wizards
-    next: Next # Arrow-right icon in multi-step wizards
-    skip: Skip # Link in onboarding/tutorial modals (skips current step)
-    done: Done # Green button completing a wizard or setup flow
-    tryAgain: Try Again # Button in error states (retry failed action)
-    refresh: Page reload # Circular arrow icon in various toolbars
-    clear: Clear # X icon inside input fields (clears input)
-    apply: Apply # Button in settings panels (applies changes)
-    reset: Reset # Button to reset form fields to defaults
-    'yes': 'Yes' # Affirmative button in yes/no dialogs
-    'no': 'No' # Negative button in yes/no dialogs
     ok: OK # Simple acknowledgment button in alerts
-    invite: Invite # User-plus icon in member management modals
-    join: Join # Button in team invitation acceptance
-    leave: Leave # Option in account menu (leaves team workspace)
-    rename: Edit text # Pencil icon in item context menus (renames item)
-    duplicate: Duplicate # Copy icon in diagram list item menus
-    archive: Archive # Archive icon in item management (moves to archive)
-    restore: Restore # Restore icon in archived items view
-    move: Move # Move icon in diagram list (opens move dialog)
-    select: Select # Checkmark in selection lists
-    deselect: Deselect # Removes selection in lists
-    selectAll: Select All # Checkbox in table/list headers (selects all)
-    deselectAll: Deselect All # Clears all selections
-    show: Show # Eye icon in visibility toggles (shows hidden items)
-    hide: Hide # Hidden eye icon in visibility toggles
-    expand: Expand # Chevron-down in collapsible panels
-    collapse: Collapse # Chevron-up in collapsible panels
-    filter: Filter # Funnel icon in table headers
-    sort: Sort # Sort icon in column headers
-    group: Group # Group icon in view options
-    ungroup: Ungroup # Ungroup icon in views
-    fullscreen: Fullscreen # Four-corner icon in canvas toolbar
-    exitFullscreen: Exit Fullscreen # Exit fullscreen icon (top-right)
-    zoomIn: Zoom In # Plus icon in canvas toolbar (zoom in 10%)
-    zoomOut: Zoom Out # Minus icon in canvas toolbar (zoom out 10%)
-    resetZoom: Reset Zoom # Home icon to reset zoom to 100%
-    undo: Undo # Curved arrow-left in editor toolbar (undo last action)
-    redo: Redo # Curved arrow-right in editor toolbar (redo action)
-    cut: Cut # Scissors icon in context menus
-    paste: Paste # Clipboard icon in context menus
     submit: Submit # Form submission button (submits form data)
-    reload: Reload # Circular arrow icon (reloads content)
-    remove: Remove # X icon in list items (removes item)
-    add: Add # Plus icon in panels (creates new child item)
-    view: View # Eye icon in view toggles
-    open: Open # Folder icon (opens item in new context)
-    manage: Manage # Settings cog in menus
-    settings: Settings # Cog icon (opens settings panel)
 
   # ========================================
   # Help menu - Top-right help icon (?) dropdown in header
@@ -131,8 +68,6 @@ common:
   # ========================================
   upgrade:
     title: Upgrade # Modal title (gold star icon badge)
-    upgradeToPersonalPro: Upgrade to Personal Pro plan # Upgrade button in feature dialog
-    collaborateWithTeam: Collaborate with Team plan # Team upgrade option button
 
   # ========================================
   # Quick actions - Keyboard shortcuts dialog (Ctrl/Cmd+K)
@@ -161,89 +96,37 @@ common:
   # Common actions - Confirmation dialogs and action confirmations
   # ========================================
   actions:
-    saveChanges: Save Changes # Modal title when leaving page with unsaved changes
-    confirmDelete: Are you sure you want to delete this? # Generic delete confirmation dialog body
-    confirmDeleteItem: Are you sure you want to delete "{name}"? # Specific item delete confirmation (item name in quotes)
-    confirmArchive: Are you sure you want to archive this? # Archive confirmation dialog body
     confirmUnsaved:
       title: Please confirm # Modal title for unsaved work dialog
       content: Changes you made may not be saved, do you wish to continue? # Warning text in dialog body
       negativeText: 'No' # Cancel action button (gray, says "No")
       positiveText: 'Yes' # Continue anyway button (blue, says "Yes")
-    copyToClipboard: Copy to clipboard # Tooltip on copy icon buttons
-    copiedToClipboard: Copied to clipboard! # Toast notification after successful copy
-    selectAll: Select all # Checkbox label in table headers
-    deselectAll: Deselect all # Button to clear all selections
-    loading: Loading... # Generic loading spinner label
-    saving: Saving... # Loading spinner when saving data
-    processing: Processing... # Loading spinner during background processing
-    pleaseWait: Please wait... # Polite loading message
 
   # ========================================
   # States - Empty, loading, error state displays
   # ========================================
   states:
-    loading: Loading... # Generic loading indicator label
-    saving: Saving... # Saving indicator label
-    error: An error occurred # Error state message (fallback)
-    success: Success # Success state label
-    warning: Warning # Warning state label
-    info: Information # Info state label
     empty: No data # Empty table/list message (centered)
-    noResults: No results found # Search results empty message
-    noItems: No items found # List empty message
-    offline: You are offline # Red banner when network disconnected
-    online: You are back online # Green toast when back online
 
   # ========================================
   # Time relative - Relative timestamps in lists/activity feeds
   # ========================================
   time:
-    justNow: just now # Timestamp: shown for items < 1 minute old
-    minuteAgo: a minute ago # Timestamp: for items ~1 minute old
-    minutesAgo: '{count} minutes ago' # Timestamp: for items N minutes old
-    hourAgo: an hour ago # Timestamp: for items ~1 hour old
-    hoursAgo: '{count} hours ago' # Timestamp: for items N hours old
-    dayAgo: a day ago # Timestamp: for items ~1 day old
-    daysAgo: '{count} days ago' # Timestamp: for items N days old
-    weekAgo: a week ago # Timestamp: for items ~1 week old
-    weeksAgo: '{count} weeks ago' # Timestamp: for items N weeks old
-    monthAgo: a month ago # Timestamp: for items ~1 month old
-    monthsAgo: '{count} months ago' # Timestamp: for items N months old
-    yearAgo: a year ago # Timestamp: for items ~1 year old
-    yearsAgo: '{count} years ago' # Timestamp: for items N years old
 
   # ========================================
   # Errors - Generic error messages throughout the app
   # ========================================
   errors:
-    generic: Something went wrong. Please try again. # Fallback error when no specific error available
-    network: Network error. Please check your connection. # Toast when offline or connection fails
-    unauthorized: You need to log in to continue. # Banner when accessing protected resource unauthenticated
-    forbidden: You don't have permission to do this. # Toast when 403 error
-    notFound: The requested resource was not found. # Toast when 404 error
-    serverError: Server error. Please try again later. # Toast when 500 error
-    invalidInput: Please check your input and try again. # Form validation error message
-    required: This field is required. # Required field validation error
-    invalidEmail: Please enter a valid email address. # Email format validation error
-    passwordTooShort: Password must be at least {min} characters. # Password length validation error
-    passwordMismatch: Passwords do not match. # Password confirmation mismatch error
-    permissionDenied: Permission Denied # Generic permission error (bold title)
-    dontHavePermission: You don't have the permission to access this workspace # Workspace access denied toast
 
   # ========================================
   # Workspace read-only - Subscription cancellation banner
   # ========================================
   workspace:
-    readOnlyMode: Workspace is in read-only mode due to a subscription cancellation. Please renew to enable workspace functionality. # Yellow banner at top of page when subscription canceled
 
   # ========================================
   # Code editor - Right panel DBML code editor
   # ========================================
   editor:
-    expand: Expand editor # Button to expand collapsed editor panel
-    hide: Hide editor # Button to collapse editor panel
-    loadingContent: Loading content from server, please wait... # Editor loading message (when syncing)
     keyboardShortcuts: Keyboard Shortcuts # Dialog title for keyboard shortcuts reference
     openInDbdiagram: Open in dbdiagram.io # Link in embedded DBDocs views (top-right)
 
@@ -293,7 +176,6 @@ common:
   # ========================================
   additional:
     collab:
-      updatingDiagramMetadata: Updating diagram metadata # Syncing indicator (while collaborators editing)
       noLongerViewPermission: You no longer have view permission! # Toast when view access revoked
       doNotHaveViewPermission: You do not have view permission! # Toast when no access at all
       fullSession: Cannot connect due to full session! # Toast when collaboration session full
@@ -308,8 +190,6 @@ common:
     query:
       noPermissionShare: You don't have permission to share this diagram # Error toast (share action)
       cantCreateDiagram: Can't create new diagram, please backup your file then try to signout and login again # Error toast (create failed)
-      changesSaved: Your changes have been saved. # Success toast (auto-save or manual save)
-      autoSaveDiagram: We also automatically save the diagram on a regular basis. # Info toast (explains auto-save)
       cantSaveDiagram: Can't save diagram, please backup your file then try to sign out and login again # Error toast (save failed)
       noPermissionSave: You don't have permission to save this diagram # Error toast (save permission)
       diagramDeleted: Your diagram was deleted # Toast (diagram deleted notification)
@@ -320,7 +200,6 @@ common:
       failedLoadProjectDbdocs: Failed to load project from DBDocs # Error toast (DBDocs load)
       failedPublishDbdocs: Failed to publish project to DBDocs # Error toast (DBDocs publish)
       pleaseSignInSaveDraft: Please sign in to save draft versions # Login prompt toast (save draft)
-      draftVersionSaved: Draft version saved successfully # Success toast (draft saved)
       noPermissionSaveDraft: You do not have permission to save draft versions # Error toast (draft permission)
       autoSaveDraftFailed: Auto-save draft failed! # Error toast (auto-save draft)
       failedSaveDraft: Failed to save draft version # Error toast (draft save failed)

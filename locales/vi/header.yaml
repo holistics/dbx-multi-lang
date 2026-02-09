@@ -2,14 +2,10 @@ header:
   buttons:
     save: Lưu
     share: Chia sẻ
-    history: Lịch sử
     editAsNew: Chỉnh sửa như mới
-    export: Xuất
-    signIn: Đăng nhập
     signOut: Đăng xuất
     publishToDbdocs: Xuất bản lên DBDocs
     publish: Xuất bản
-    discard: Hủy bỏ
   draftBadge:
     label: Nháp
     discardAll: Hủy bỏ tất cả nháp
@@ -30,11 +26,6 @@ header:
     unsaved: Sơ đồ này chưa được lưu
     unsavedWithLogin: Sơ đồ này chưa được lưu. Cần đăng nhập để lưu các sơ đồ của bạn
   tooltips:
-    synced: Mọi thay đổi đã được đồng bộ
-    unsynced: Bạn có thay đổi chưa lưu
-    readonly: Chế độ chỉ đọc
-    unsaved: Thay đổi chưa lưu
-    loginRequired: Vui lòng đăng nhập để lưu
     clickToEdit: Nhấn để chỉnh sửa
     openInDbdocs: Mở trong dbdocs
     noPublishedContent: Dự án này chưa có nội dung được xuất bản
@@ -56,12 +47,7 @@ header:
     hasErrors: Bạn có lỗi trong sơ đồ của mình
     noChanges: Không có thay đổi nào để xuất bản
   views:
-    main: Chính
   modals:
-    overwriteTitle: Ghi đè Sơ đồ
-    overwriteContent: Việc này sẽ ghi đè lên sơ đồ hiện tại. Bạn có muốn tiếp tục?
-    'yes': Có, ghi đè
-    'no': Hủy
     discardDraftsTitle: Hủy bỏ Tất cả Bản nháp
     discardDraftsContent: Bạn có chắc chắn muốn hủy bỏ tất cả các phiên bản nháp và lấy nội dung mới nhất của dự án không? Hành động này không thể hoàn tác.
     discardButton: Hủy bỏ

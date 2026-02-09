@@ -5,15 +5,9 @@ ai:
   # ========================================
   # AI Panel - Right sidebar chat interface
   # ========================================
-  title: DBDiagram AI # Page title (browser tab)
 
   panel:
-    title: AI Assistant # Panel header (right sidebar)
-    welcome: Hi! I'm your AI assistant. How can I help you with your database diagram today? # Welcome message (first chat)
     inputPlaceholder: Ask me anything about your diagram... # Chat input placeholder (empty state)
-    send: Send # Send button (chat input)
-    close: Close # Close panel button (sidebar toggle)
-    clear: Clear Chat # Clear conversation button (header dropdown)
     currentChat: Current Chat # Current chat section header
     previousChats: Previous Chats # Previous chats section header
     noOtherChats: No other chats yet # Empty state (no previous chats)
@@ -35,15 +29,6 @@ ai:
   welcome:
     title: Welcome to DBDiagram AI # Welcome modal title
     subtitle: Your intelligent assistant for database design # Welcome modal subtitle
-    features:
-      title: What can I help you with? # Features section header
-      generate: Generate schemas from descriptions # Feature card 1 (generate)
-      optimize: Optimize your database design # Feature card 2 (optimize)
-      explain: Explain relationships and structures # Feature card 3 (explain)
-      suggest: Suggest improvements and best practices # Feature card 4 (suggest)
-    getStarted:
-      title: Ready to start? # CTA section header
-      button: Ask me anything # Primary button (starts chat)
 
   # ========================================
   # AI Loading States - Message states
@@ -56,21 +41,9 @@ ai:
     rateLimit: You've reached the usage limit. Please upgrade to continue. # Rate limit message
 
   # ========================================
-  # Quick Actions - AI command shortcuts
-  # ========================================
-  quickActions:
-    title: Quick Actions # Section header (above quick action cards)
-
-  # ========================================
   # Diff Viewer - AI change comparison
   # ========================================
   diffViewer:
-    title: Compare Changes # Modal title (diff viewer)
-    current: Current # Left panel label (current schema)
-    proposed: Proposed # Right panel label (AI proposed changes)
-    apply: Apply Changes # Primary button (accept all changes)
-    discard: Discard # Secondary button (reject changes)
-    noChanges: No changes to show # Empty state message
     reject: Reject # Button (reject single change)
     accept: Accept # Button (accept single change)
     rejectAll: Reject All # Button (reject all changes)
@@ -80,10 +53,7 @@ ai:
   # Token Usage - AI usage tracking
   # ========================================
   tokenUsage:
-    title: Usage # Section header (token usage)
     used: Used # Usage counter label (left side)
-    limit: Limit # Usage counter label (right side)
-    upgrade: Upgrade for more # Upgrade link (usage panel)
     usageText: You have used {percentage} of your usage limit # Usage progress text
     tokens: tokens # Unit label (usage display)
     learnMore: Click to learn more about usage limits # Tooltip (usage indicator)
@@ -140,15 +110,3 @@ ai:
     sqlServer: SQL Server # Database selector option
     sqlite: SQLite # Database selector option
     oracle: Oracle # Database selector option
-
-  # ========================================
-  # Additional AI Strings - Extra messages
-  # ========================================
-  additional:
-    errorLoading: Error loading. Please try again. # Error state (reloadable)
-    createNewThread: Create a new thread # New thread button
-    typeMessage: Type a message... # Input placeholder (alternative)
-    sendMessage: Send message # Send button (tooltip)
-    loadMore: Load more # Load previous messages button
-    chatHistory: chat-history # Sidebar section identifier
-    errorLoadingChatHistory: Error loading chat history. Please try again. # Chat history error

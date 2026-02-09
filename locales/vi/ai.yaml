@@ -1,12 +1,6 @@
 ai:
-  title: DBDiagram AI
   panel:
-    title: Trợ lý AI
-    welcome: Xin chào! Tôi là trợ lý AI của bạn. Tôi có thể giúp gì cho sơ đồ cơ sở dữ liệu của bạn hôm nay?
     inputPlaceholder: Hỏi tôi bất cứ điều gì về sơ đồ của bạn...
-    send: Gửi
-    close: Đóng
-    clear: Xóa đoạn chat
     currentChat: Đoạn chat hiện tại
     previousChats: Các đoạn chat trước
     noOtherChats: Chưa có đoạn chat nào khác
@@ -24,39 +18,19 @@ ai:
   welcome:
     title: Chào mừng đến với DBDiagram AI
     subtitle: Trợ lý thông minh cho thiết kế cơ sở dữ liệu của bạn
-    features:
-      title: Tôi có thể giúp gì cho bạn?
-      generate: Tạo lược đồ (schema) từ mô tả
-      optimize: Tối ưu hóa thiết kế cơ sở dữ liệu
-      explain: Giải thích các mối quan hệ và cấu trúc
-      suggest: Đề xuất cải tiến và các phương pháp tốt nhất (best practices)
-    getStarted:
-      title: Sẵn sàng bắt đầu chưa?
-      button: Hỏi tôi bất cứ điều gì
   messages:
     thinking: Đang suy nghĩ...
     generating: Đang tạo...
     explaining: Đang giải thích...
     error: Đã xảy ra lỗi. Vui lòng thử lại.
     rateLimit: Bạn đã đạt đến giới hạn sử dụng. Vui lòng nâng cấp để tiếp tục.
-  quickActions:
-    title: Thao tác nhanh
   diffViewer:
-    title: So sánh thay đổi
-    current: Hiện tại
-    proposed: Đề xuất
-    apply: Áp dụng thay đổi
-    discard: Hủy bỏ
-    noChanges: Không có thay đổi nào để hiển thị
     reject: Từ chối
     accept: Chấp nhận
     rejectAll: Từ chối tất cả
     acceptAll: Chấp nhận tất cả
   tokenUsage:
-    title: Mức sử dụng
     used: Đã dùng
-    limit: Giới hạn
-    upgrade: Nâng cấp để thêm
     usageText: Bạn đã sử dụng {percentage} giới hạn của mình
     tokens: token
     learnMore: Nhấn để tìm hiểu thêm về giới hạn
@@ -103,11 +77,3 @@ ai:
     sqlServer: SQL Server
     sqlite: SQLite
     oracle: Oracle
-  additional:
-    errorLoading: Lỗi khi tải. Vui lòng thử lại.
-    createNewThread: Tạo luồng mới
-    typeMessage: Nhập tin nhắn...
-    sendMessage: Gửi tin nhắn
-    loadMore: Tải thêm
-    chatHistory: lịch sử-chat
-    errorLoadingChatHistory: Lỗi khi tải lịch sử chat. Vui lòng thử lại.

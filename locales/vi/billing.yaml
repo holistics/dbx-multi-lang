@@ -5,34 +5,16 @@ billing:
     collaborateWithTeam: Cộng tác với gói Team
 
   pricing:
-    title: Bảng giá
-    subtitle: Chọn gói phù hợp với bạn
-    free: Miễn phí
-    pro: Pro
-    team: Team
-    currentPlan: Gói hiện tại
-    upgrade: Nâng cấp
-    downgrade: Hạ cấp
-    cancel: Hủy đăng ký
 
   plans:
     free:
-      name: Free
-      description: Cho cá nhân và dự án nhỏ
-      price: "$0"
-      period: mãi mãi
       features:
         - Tối đa 3 sơ đồ
         - Công cụ chỉnh sửa cơ bản
         - Xuất ra SQL/PNG
         - Hỗ trợ cộng đồng
-      cta: Bắt đầu
 
     pro:
-      name: Pro
-      description: Cho chuyên gia cần nhiều hơn
-      price: "$10"
-      period: mỗi tháng
       features:
         - Không giới hạn sơ đồ
         - Công cụ chỉnh sửa nâng cao
@@ -40,13 +22,8 @@ billing:
         - Hỗ trợ ưu tiên
         - Xuất ra PDF
         - Chủ đề tùy chỉnh
-      cta: Dùng thử miễn phí
 
     team:
-      name: Team
-      description: Cho đội nhóm và tổ chức
-      price: Tùy chỉnh
-      period: liên hệ kinh doanh
       features:
         - Mọi thứ trong Pro
         - Cộng tác nhóm
@@ -54,79 +31,45 @@ billing:
         - Xác thực SSO
         - Hỗ trợ ưu tiên
         - Tích hợp tùy chỉnh
-      cta: Liên hệ kinh doanh
 
   payment:
-    title: Thông tin thanh toán
-    cardNumber: Số thẻ
-    expiryDate: Ngày hết hạn
-    cvv: CVV
-    nameOnCard: Tên trên thẻ
-    savePayment: Lưu phương thức thanh toán
     paymentMethod: Phương thức thanh toán
-    addNewCard: Thêm thẻ mới
 
   billing:
-    title: Hóa đơn
-    invoiceHistory: Lịch sử hóa đơn
-    downloadInvoice: Tải xuống
-    nextBilling: Ngày thanh toán tiếp theo
-    planRenews: Gói của bạn sẽ gia hạn vào
-    planWillCancel: Gói của bạn sẽ bị hủy vào
 
   subscription:
-    manage: Quản lý đăng ký
-    changePlan: Đổi gói
-    cancelSubscription: Hủy đăng ký
-    reactivate: Kích hoạt lại đăng ký
-    confirmCancel: Bạn có chắc chắn muốn hủy đăng ký không?
-    cancelFeedback: Vui lòng cho chúng tôi biết tại sao bạn hủy
-    reason: Lý do hủy
-    tooExpensive: Quá đắt
-    missingFeatures: Thiếu tính năng
-    switchedService: Chuyển sang dịch vụ khác
-    notUsing: Không sử dụng đủ nhiều
-    other: Khác
 
   personalPro:
-    name: Personal Pro
-    description: Cho freelancer cá nhân, tư vấn viên thiết kế sơ đồ cơ sở dữ liệu
-    everythingInFree: ← Mọi thứ trong Free, cộng thêm
-    unlimitedDiagramsTables: Không giới hạn Sơ đồ & Bảng
-    unlimitedViews: Không giới hạn Chế độ xem Sơ đồ
-    aiAssistant: Trợ lý AI
-    protectedDiagrams: Sơ đồ được Bảo vệ & Riêng tư
-    limitedCollaboration: Cộng tác giới hạn
-    headerColorTableGroup: Màu tiêu đề & Nhóm bảng
-    detailLevels: Mức độ chi tiết sơ đồ
-    versionHistory: Lịch sử phiên bản
-    stickyNotes: Ghi chú dán (Sticky Notes)
-    upgradeNow: Nâng cấp ngay
-    getStarted: Bắt đầu
 
   team:
-    name: Team
-    description: Cho các nhóm cần thiết kế và cộng tác trên sơ đồ cơ sở dữ liệu
-    everythingInPro: ← Mọi thứ trong Personal Pro, cộng thêm
-    collaborativeWorkspace: Không gian làm việc cộng tác
-    publicApi: API công khai
-    teamManagement: Quản lý nhóm & Cộng tác
-    adminBilling: Quản trị và Thanh toán thống nhất
-    freeUserLicenses: 3 Giấy phép người dùng miễn phí
-    startTrial: Bắt đầu dùng thử miễn phí 7 ngày
-    upgradeNow: Nâng cấp ngay
-    noCreditCard: Không cần thẻ tín dụng. Hủy bất cứ lúc nào.
-    additionalLicense: Giấy phép bổ sung
-    perMonthUser: /tháng/người
 
   publicPricing:
-    title: Các gói giá của chúng tôi
-    subtitle: Luôn miễn phí. Nhận thêm sức mạnh với các Gói trả phí.
-    monthlyBilling: Thanh toán hàng tháng
-    annualBilling: Thanh toán hàng năm
-    saveUpTo: Tiết kiệm tới 42%
-    getStartedFree: Bắt đầu miễn phí
-    errorFetching: Lỗi khi lấy thông tin giá người dùng
+
+  upgradeNowBtn:
+    ownerOnly: Chỉ chủ sở hữu không gian làm việc mới có thể nâng cấp lên gói Nhóm
+
+  managePlanModal:
+    loadingSubscription: Đang tải thông tin gói đăng ký...
+    currentPlan: Gói hiện tại
+    personalPlanForever: Gói Cá nhân - Vĩnh viễn
+    unknownPlan: Gói không xác định
+    billedMonthly: Thanh toán hàng tháng
+    billedAnnually: Thanh toán hàng năm
+    chargeEvery: Tính phí mỗi {period} {unit}
+    cancelledOn: Đã hủy vào ngày
+    planDetails: Chi tiết gói →
+    upgradeDescription: Nâng cấp lên gói trả phí để có Cấp độ chi tiết, Màu tiêu đề và tất cả các tính năng sắp ra mắt
+    nextPayment: Khoản thanh toán tiếp theo của bạn là
+    chargedOn: sẽ được tính vào ngày
+    editSubscription: Chỉnh sửa gói đăng ký
+    switchToMonthly: Chuyển sang thanh toán hàng tháng
+    switchToYearly: Chuyển sang thanh toán hàng năm
+    noPaymentMethod: Không có phương thức thanh toán
+    updatePaymentMethod: Cập nhật phương thức thanh toán
+    invoicing: Hóa đơn
+    lastPayment: Thanh toán gần nhất
+    editBillingInfo: Chỉnh sửa thông tin thanh toán
+    paymentProcessing: Giao dịch của bạn đang được xử lý, vui lòng tải lại trang sau vài phút.
 
   disabledCard:
     personalUpgrade: Nâng cấp workspace cá nhân của bạn để sử dụng các tính năng cao cấp.

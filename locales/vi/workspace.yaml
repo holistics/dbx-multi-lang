@@ -1,5 +1,4 @@
 workspace:
-  title: Không gian làm việc
   personalWorkspace: Không gian làm việc cá nhân
   personal: Cá nhân
   createWorkspace: Tạo không gian làm việc mới
@@ -12,88 +11,20 @@ workspace:
   sharedWithMe: Đã chia sẻ với tôi
   workspace: Không gian làm việc
   private: Riêng tư
-  empty: Trống
-  untitledDiagram: Sơ đồ chưa có tên
-  starred: Có gắn sao
-  archived: Đã lưu trữ
-  trash: Thùng rác
 
   folders:
-    title: Thư mục
-    createFolder: Thư mục mới
-    folderName: Tên thư mục
-    moveDiagram: Di chuyển đến thư mục
-    noFolders: Chưa có thư mục nào
-    deleteFolder: Xóa thư mục
-    deleteFolderConfirm: Bạn có chắc muốn xóa thư mục này? Các sơ đồ sẽ được chuyển sang thư mục cha.
 
   diagrams:
-    title: Sơ đồ
-    createDiagram: Sơ đồ mới
-    importDiagram: Nhập sơ đồ
-    duplicateDiagram: Nhân bản
-    renameDiagram: Đổi tên
-    moveDiagram: Di chuyển
-    deleteDiagram: Xóa
-    shareDiagram: Chia sẻ
-    archiveDiagram: Lưu trữ
-    unarchiveDiagram: Bỏ lưu trữ
-    restoreDiagram: Khôi phục
-    permanentDelete: Xóa vĩnh viễn
 
   sharing:
-    title: Chia sẻ sơ đồ
-    shareLink: Link chia sẻ
-    copyLink: Sao chép link
-    anyoneWithLink: Bất kỳ ai có link đều có thể xem
-    invitePeople: Mời mọi người
-    inviteEmail: Nhập địa chỉ email
-    inviteButton: Gửi lời mời
-    canView: Có thể xem
-    canEdit: Có thể chỉnh sửa
-    canComment: Có thể bình luận
-    removeAccess: Xóa quyền truy cập
-    owner: Chủ sở hữu
-    pending: Đang chờ
 
   collaboration:
-    title: Cộng tác viên
-    addCollaborator: Thêm cộng tác viên
-    collaboratorsCount: "{count} cộng tác viên"
-    onlineNow: Đang trực tuyến
-    viewers: Đang xem
-    editors: Đang sửa
-    joined: đã tham gia
-    left: đã rời
 
   templates:
-    title: Mẫu
-    useTemplate: Sử dụng mẫu
-    blankDiagram: Sơ đồ trống
-    ecommerce: Sơ đồ Thương mại điện tử
-    blog: Sơ đồ Blog
-    socialNetwork: Sơ đồ Mạng xã hội
-    library: Quản lý Thư viện
-    hospital: Quản lý Bệnh viện
-    school: Quản lý Trường học
 
   activity:
-    title: Hoạt động
-    recentActivity: Hoạt động gần đây
-    created: đã tạo
-    edited: đã chỉnh sửa
-    deleted: đã xóa
-    shared: đã chia sẻ
-    renamed: đã đổi tên
-    moved: đã di chuyển
-    restored: đã khôi phục
 
   notifications:
-    inviteReceived: "{userName} đã mời bạn cộng tác trên {diagramName}"
-    inviteAccepted: "{userName} đã chấp nhận lời mời của bạn"
-    diagramCommented: "{userName} đã bình luận trên {diagramName}"
-    diagramEdited: "{userName} đã chỉnh sửa {diagramName}"
-    diagramShared: "{userName} đã chia sẻ {diagramName} với bạn"
 
   settings:
     title: Cài đặt
@@ -142,7 +73,6 @@ workspace:
     invitePlaceholder: Nhập địa chỉ email
     inviteButton: Mời
     members: Thành viên
-    memberSlots: "{used}/{limit} thành viên"
     role:
       member: Thành viên
       owner: Chủ sở hữu
@@ -151,7 +81,6 @@ workspace:
       removeInvitation: Xóa lời mời này
       removeMember: Xóa thành viên này
     dialog:
-      removeTitle: Xóa thành viên?
       removeMessage: Bạn sắp xóa <b>{email}</b> khỏi không gian làm việc, vui lòng xác nhận!
     notifications:
       removeSuccess: Đã xóa {email} khỏi không gian làm việc thành công!
@@ -209,7 +138,6 @@ workspace:
       dateCreated: Ngày tạo
       lastUsed: Lần sử dụng cuối
       owner: Chủ sở hữu
-      action: ""
     empty: Chưa có token nào được tạo
     actions:
       revoke: Thu hồi
@@ -236,10 +164,8 @@ workspace:
 
   common:
     labels:
-      you: "(Bạn)"
 
   errors:
-    permissionDenied: Bạn không có quyền truy cập vào không gian làm việc này
 
   # Additional workspace strings from file review
   additional:

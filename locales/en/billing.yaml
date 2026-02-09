@@ -14,37 +14,19 @@ billing:
   # Pricing Page - Pricing table
   # ========================================
   pricing:
-    title: Pricing # Page/section title
-    subtitle: Choose the plan that works for you # Section subtitle
-    free: Free # Plan name (pricing table)
-    pro: Pro # Plan name (pricing table)
-    team: Team # Plan name (pricing table)
-    currentPlan: Current Plan # Label (current subscription)
-    upgrade: Upgrade # Upgrade button (billing page)
-    downgrade: Downgrade # Downgrade button (billing page)
-    cancel: Cancel Subscription # Cancel button (billing page)
 
   # ========================================
   # Plan Details - Individual plan info
   # ========================================
   plans:
     free:
-      name: Free # Plan name (card header)
-      description: For individuals and small projects # Plan tagline
-      price: "$0" # Price display (card)
-      period: forever # Billing period (card)
       features:
         - Up to 3 diagrams # Feature list item 1
         - Basic editing tools # Feature list item 2
         - Export as SQL/PNG # Feature list item 3
         - Community support # Feature list item 4
-      cta: Get Started # Card CTA button
 
     pro:
-      name: Pro # Plan name (card header)
-      description: For professionals who need more # Plan tagline
-      price: "$10" # Price display (card)
-      period: per month # Billing period (card)
       features:
         - Unlimited diagrams # Feature list item 1
         - Advanced editing tools # Feature list item 2
@@ -52,13 +34,8 @@ billing:
         - Priority support # Feature list item 4
         - Export as PDF # Feature list item 5
         - Custom themes # Feature list item 6
-      cta: Start Free Trial # Card CTA button
 
     team:
-      name: Team # Plan name (card header)
-      description: For teams and organizations # Plan tagline
-      price: Custom # Price display (card)
-      period: contact sales # Billing period (card)
       features:
         - Everything in Pro # Feature list item 1
         - Team collaboration # Feature list item 2
@@ -66,97 +43,37 @@ billing:
         - SSO authentication # Feature list item 4
         - Priority support # Feature list item 5
         - Custom integrations # Feature list item 6
-      cta: Contact Sales # Card CTA button
 
   # ========================================
   # Payment Form - Credit card inputs
   # ========================================
   payment:
-    title: Payment Information # Section title (payment form)
-    cardNumber: Card Number # Card number input label
-    expiryDate: Expiry Date # Expiry date input label
-    cvv: CVV # CVV input label
-    nameOnCard: Name on Card # Name on card label
-    savePayment: Save Payment Method # Submit button
     paymentMethod: Payment Method # Section label (existing cards)
-    addNewCard: Add New Card # Add card button
 
   # ========================================
   # Billing History - Invoice section
   # ========================================
   billing:
-    title: Billing # Page/section title
-    invoiceHistory: Invoice History # Section header
-    downloadInvoice: Download # Invoice download button
-    nextBilling: Next Billing Date # Next billing label
-    planRenews: Your plan renews on # Renewal message
-    planWillCancel: Your plan will cancel on # Cancellation message
 
   # ========================================
   # Subscription Management - Subscription actions
   # ========================================
   subscription:
-    manage: Manage Subscription # Link to subscription portal
-    changePlan: Change Plan # Button (change plan modal)
-    cancelSubscription: Cancel Subscription # Danger button
-    reactivate: Reactivate Subscription # Reactivate button
-    confirmCancel: Are you sure you want to cancel your subscription? # Cancel confirmation
-    cancelFeedback: Please tell us why you're cancelling # Feedback section header
-    reason: Reason for cancellation # Dropdown label
-    tooExpensive: Too expensive # Cancellation reason option
-    missingFeatures: Missing features # Cancellation reason option
-    switchedService: Switched to another service # Cancellation reason option
-    notUsing: Not using it enough # Cancellation reason option
-    other: Other # Cancellation reason option
 
   # ========================================
   # Personal Pro Plan - Plan features list
   # ========================================
   personalPro:
-    name: Personal Pro # Plan name (feature section)
-    description: For individual freelancers, consultants to design database diagrams # Plan description
-    everythingInFree: ← Everything in Free, plus # Feature list header
-    unlimitedDiagramsTables: Unlimited Diagrams & Tables # Pro feature 1
-    unlimitedViews: Unlimited Diagram Views # Pro feature 2
-    aiAssistant: AI Assistant # Pro feature 3
-    protectedDiagrams: Protected & Private Diagrams # Pro feature 4
-    limitedCollaboration: Limited Collaboration # Pro feature 5
-    headerColorTableGroup: Header Color & Table Group # Pro feature 6
-    detailLevels: Diagram Detail Levels # Pro feature 7
-    versionHistory: Version History # Pro feature 8
-    stickyNotes: Sticky Notes # Pro feature 9
-    upgradeNow: Upgrade Now # CTA button (feature section)
-    getStarted: Get started # CTA button (pricing)
 
   # ========================================
   # Team Plan - Plan features list
   # ========================================
   team:
-    name: Team # Plan name (feature section)
-    description: For teams that need to design and collaborate on database diagrams # Plan description
-    everythingInPro: ← Everything in Personal Pro, plus # Feature list header
-    collaborativeWorkspace: Collaborative Workspace # Team feature 1
-    publicApi: Public API # Team feature 2
-    teamManagement: Team Management & Collaboration # Team feature 3
-    adminBilling: Unified Admin and Billing # Team feature 4
-    freeUserLicenses: 3 Free User Licenses # Team feature 5
-    startTrial: Start 7-Day Free Trial # CTA button (team section)
-    upgradeNow: Upgrade now # CTA button (header)
-    noCreditCard: No credit card required. Cancel anytime. # Trial benefit text
-    additionalLicense: Additional License # License label
-    perMonthUser: /mo/user # Price suffix
 
   # ========================================
   # Public Pricing - Public pricing page
   # ========================================
   publicPricing:
-    title: Our pricing plans # Page title (pricing page)
-    subtitle: Always free. Get more powers with our Pricing Plans. # Page subtitle
-    monthlyBilling: Monthly billing # Billing toggle option
-    annualBilling: Annual billing # Billing toggle option (discounted)
-    saveUpTo: Save up to 42% # Annual discount banner
-    getStartedFree: Get Started Free # Primary CTA button
-    errorFetching: Error fetching user pricing # Error message
 
   # ========================================
   # Upgrade Button - Contextual upgrade

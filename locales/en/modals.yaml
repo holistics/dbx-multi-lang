@@ -9,36 +9,22 @@ modals:
     confirm: Confirm # Generic confirm modal title
     delete: Delete # Delete confirmation modal title
     remove: Remove # Remove confirmation modal title
-    archive: Archive # Archive modal title
-    unarchive: Unarchive # Unarchive modal title
     rename: Rename # Rename modal title
-    share: Share # Share modal title
-    invite: Invite # Invite modal title
-    settings: Settings # Settings modal title
-    publish: Publish # Publish modal title
-    export: Export # Export modal title
-    import: Import # Import modal title
 
   # ========================================
   # Confirmation dialogs - Generic and specific
   # ========================================
   confirmation:
     default:
-      title: Confirm # Default confirm modal title
       message: Do you really want to continue this action? # Default confirmation message
       checkbox: Don't show this again # Checkbox to disable future confirmations
     delete:
-      title: Delete # Delete confirmation title
-      message: Are you sure you want to delete this item? # Delete confirmation message
     deleteDiagram:
-      title: Delete Diagram # Delete diagram modal title
       message: Are you sure you want to delete this diagram? This action cannot be undone. # Delete diagram warning
       warning: Please note that this action cannot be undone! # Additional warning
       embedLinkActive: You have an active embedded link. # Warning about embed links
       lastViewed: Last viewed # Label for last viewed timestamp
     removeWorkspace:
-      title: Remove Workspace # Remove workspace modal title
-      message: Are you sure you want to remove this workspace? # Remove workspace confirmation
     removeMember:
       title: Remove Member # Remove member modal title
       message: Are you sure you want to remove this member from the workspace? # Remove member confirmation
@@ -48,17 +34,11 @@ modals:
   # Share modal - Diagram sharing
   # ========================================
   share:
-    title: Share Diagram # Share modal title
     tabs:
       sharing: Sharing # Sharing tab label
       embedding: Embedding # Embedding tab label
     generalAccess:
-      title: General Access # Section title
       options:
-        private: Private # Private access option
-        restricted: Restricted # Restricted access option
-        public: Anyone with the link # Public access option
-      password: Password # Password field label
       passwordPlaceholder: Enter password # Password input placeholder
       createPassword: Create # Create password button
       updatePassword: Update # Update password button
@@ -66,11 +46,6 @@ modals:
       copyLink: Copy link # Copy link button
       updatePasswordButton: Update password # Update password button
     permissions:
-      title: Permissions # Permissions section title
-      owner: Owner # Owner role label
-      admin: Admin # Admin role label
-      editor: Editor # Editor role label
-      viewer: Viewer # Viewer role label
       canEditAndInvite: Can edit & invite # Permission label
       canEditAndInviteDesc: Can edit & invite people. # Permission description
       canEdit: Can edit # Permission label
@@ -82,27 +57,16 @@ modals:
       noAccess: No access # No access label
       noAccessDesc: No access to this diagram # No access description
     invite:
-      title: Invite people # Invite section title
       placeholder: Email, comma or space separated # Email input placeholder
       button: Invite # Invite button
-      copyLink: Copy link # Copy link button
-      linkCopied: Link copied! # Success toast
     members:
-      title: People with access # Members section title
       you: (you) # Label for current user
     confirmRemoveCollaborator: You are about to remove <b>{email}</b> from collaborators, please confirm your action! # Remove confirmation message
     errors:
       publicPermissionUpdateFailed: Diagram's public permission update failed, please try again! # Error toast
       publicPermissionUpdated: Diagram's public permission updated! # Success toast
       passwordLength: Password must be between 6 and 128 characters # Validation error
-      createPasswordSuccess: Create password successfully # Success toast
-      updatePasswordSuccess: Update password successfully # Success toast
-      createPasswordFailed: Create password failed # Error toast
-      updatePasswordFailed: Update password failed # Error toast
       cannotUpdateDiagramState: Can not update diagram state # Error toast
-      diagramIsPublic: Diagram is public now! # Success toast
-      diagramIsPrivate: Diagram is private now! # Success toast
-      diagramIsProtected: Diagram is protected now! # Success toast
     permissionChanged: Your permissions have been changed, please reload to apply changes! # Permission change toast
     reload: Reload # Reload button
     cannotGetPermission: Can not get diagram permission, please try again! # Error toast
@@ -149,11 +113,7 @@ modals:
   publish:
     title: Publish to # Modal title (publish dropdown)
     dbdocsLink: dbdocs # Link label
-    placeholder: Project URL # Project URL placeholder
-    urlLabel: dbdocs.holistics.io/ # URL prefix label
     publishButton: Publish # Publish button
-    success: Published successfully! # Success toast
-    error: Failed to publish # Error toast
     bullet1: Publish a web-viewable database documentation of your diagram. # Feature bullet point
     bullet2: Published document will be available in a dbdocs account linked to diagram owner email. # Feature bullet point
     bullet3: Changes to your diagram will not automatically update the dbdocs document. # Feature bullet point
@@ -179,45 +139,12 @@ modals:
   # Export modal - Export diagram
   # ========================================
   export:
-    title: Export Diagram # Export modal title
-    button: Export # Export button
     formats:
-      png: PNG Image # PNG format label
-      svg: SVG Image # SVG format label
-      pdf: PDF Document # PDF format label
-      dbml: DBML # DBML format label
-      sql: SQL # SQL format label
-    toPDF: To PDF # Export PDF option
-    toPNG: To PNG # Export PNG option
-    toSVG: To SVG # Export SVG option
-    toPostgreSQL: To PostgreSQL # Export PostgreSQL option
-    toMySQL: To MySQL # Export MySQL option
-    toSQLServer: To SQL Server # Export SQL Server option
-    toOracleSQL: To Oracle SQL # Export Oracle option
-    error: Failed to export # Error toast
 
   # ========================================
   # Import modal - Import diagram
   # ========================================
   import:
-    title: Import # Import modal title
-    fromDatabase: From Database # Database import option
-    fromFile: From File # File import option
-    fromSQL: From SQL # SQL import option
-    pasteSQL: Paste SQL here # SQL textarea placeholder
-    validate: Validate # Validate button
-    validating: Validating... # Validating status
-    invalid: Invalid SQL format # Validation error
-    error: Failed to import # Error toast
-    fromDbConnection: From Database Connection (via CLI) # CLI import option
-    fromMySQL: From MySQL # MySQL import
-    fromPostgreSQL: From PostgreSQL # PostgreSQL import
-    fromSQLServer: From SQL Server # SQL Server import
-    fromSnowflake: From Snowflake # Snowflake import
-    fromOracleSQL: From Oracle SQL # Oracle import
-    fromRails: From Rails (schema.rb) # Rails import
-    fromCSV: From CSV # CSV import
-    fromFormat: Import from {format} # Format-specific import title
     instructions: Instructions # Instructions section title
     showInstructions: Show instructions # Show instructions button
     hideInstructions: Hide instructions # Hide instructions button
@@ -255,9 +182,6 @@ modals:
   # Sticky notes modal - Sticky notes upgrade
   # ========================================
   stickyNotes:
-    title: Sticky Notes # Modal title
-    upgradeRequired: Upgrade your plan to use Sticky Notes # Upgrade required message
-    upgradeButton: View Plans # Upgrade button
 
   # ========================================
   # Upgrade modals - Feature upgrade prompts
@@ -275,8 +199,6 @@ modals:
       stickyNotesDbdocs: You discovered a feature of paid projects! # DBDocs sticky notes title
       versionHistory: You discovered a paid feature! # Version history title
       aiAssistant: dbdiagram AI Assistant is a paid feature # AI assistant title
-      tableGroup: You discovered a paid feature! # Table group title
-      tableGroupDbdocs: You discovered Table Group, a feature of paid projects! # DBDocs table group title
     descriptions:
       createDiagram: Upgrade to our paid plans now for <b>unlimited<br>diagram creations</b> and other advanced features! # Description
       detailLevels: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # Description
@@ -289,8 +211,6 @@ modals:
       stickyNotesDbdocs: Upgrade your project to include<strong> Sticky Notes </strong> in your diagram<br>and take advantage of other advanced features! # DBDocs description
       versionHistory: Freely experiment your ideas with different <b>schema versions</b>.<br>Roll back to a past version whenever you want. # Description
       aiAssistant: Upgrade to our paid plans now to design and optimize your database schemas<br>with <strong>AI-powered natural language assistance</strong> # Description
-      tableGroup: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # Description
-      tableGroupDbdocs: Upgrade your project to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # DBDocs description
     buttons:
       viewPlans: View Plans # View plans button
       upgradeProject: Upgrade Project # Upgrade project button
@@ -333,14 +253,6 @@ modals:
     savePdfFailed: Unable to save your pdf # Error toast
     saveSvgFailed: Unable to save your svg # Error toast
     savePngFailed: Unable to save your png # Error toast
-    checkoutFailed: An error occur during checkout. Please try again later # Error toast
-    checkoutSuccess: Checkout success # Success toast
-    switchPlanSuccess: Switch plan successfully # Success toast
-    paymentProcessing: Your payment is processing, please reload the page in a few minutes. # Info toast
-    tokenGenerated: Generated token successfully # Success toast
-    githubSignInFailed: Failed to sign in with GitHub # Error toast
-    microsoftSignInFailed: Failed to sign in with Microsoft, please try again! # Error toast
-    supportContact: An error has occurred, please contact our support at dbdiagram@holistics.io # Support contact
     cannotGetDiagrams: Can not get diagrams, please try to reload the app! # Error toast
     cannotRemoveDefaultView: You are not allowed to remove the default view! # Error toast
     cannotRemoveView: Cannot remove this view, please reload and try again! # Error toast

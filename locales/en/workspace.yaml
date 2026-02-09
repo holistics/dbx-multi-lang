@@ -5,7 +5,6 @@ workspace:
   # ========================================
   # General workspace labels - Sidebar and dropdown
   # ========================================
-  title: Workspace # Page/section title (workspace settings)
   personalWorkspace: Personal Workspace # Label for personal workspace (when no team workspace selected in dropdown)
   personal: Personal # Short label for personal workspace type
   createWorkspace: Create new workspace # Button/link to create new team workspace (sidebar)
@@ -18,109 +17,41 @@ workspace:
   sharedWithMe: Shared with Me # Sidebar section for shared diagrams
   workspace: Workspace # Label for team workspace type
   private: Private # Privacy label for private items
-  empty: Empty # Empty state label
-  untitledDiagram: Untitled Diagram # Default name for unnamed diagrams (diagram list)
-  starred: Starred # Sidebar section for starred diagrams
-  archived: Archived # Sidebar section for archived items
-  trash: Trash # Sidebar section for deleted items (with restore option)
 
   # ========================================
   # Folders - Sidebar folder management
   # ========================================
   folders:
-    title: Folders # Folders section title (left sidebar)
-    createFolder: New Folder # Button to create new folder
-    folderName: Folder Name # Placeholder for folder name input
-    moveDiagram: Move to Folder # Action to move diagram to folder
-    noFolders: No folders yet # Empty state when no folders exist
-    deleteFolder: Delete Folder # Button to delete folder
-    deleteFolderConfirm: Are you sure you want to delete this folder? Diagrams will be moved to the parent folder. # Delete confirmation
 
   # ========================================
   # Diagrams - Diagram list actions
   # ========================================
   diagrams:
-    title: Diagrams # Diagrams section title
-    createDiagram: New Diagram # Button to create new diagram
-    importDiagram: Import Diagram # Button to import diagram
-    duplicateDiagram: Duplicate # Action to duplicate diagram (context menu)
-    renameDiagram: Rename # Action to rename diagram (context menu)
-    moveDiagram: Move # Action to move diagram (context menu)
-    deleteDiagram: Delete # Action to delete diagram (context menu)
-    shareDiagram: Share # Action to share diagram (context menu)
-    archiveDiagram: Archive # Action to archive diagram (context menu)
-    unarchiveDiagram: Unarchive # Action to restore archived diagram
-    restoreDiagram: Restore # Action to restore deleted diagram
-    permanentDelete: Delete Permanently # Action to permanently delete
 
   # ========================================
   # Sharing - Share diagram modal
   # ========================================
   sharing:
-    title: Share Diagram # Share modal title
-    shareLink: Share Link # Label for share link field
-    copyLink: Copy Link # Button to copy share link
-    anyoneWithLink: Anyone with the link can view # Help text for link permissions
-    invitePeople: Invite People # Section title for email invitations
-    inviteEmail: Enter email address # Placeholder for email input
-    inviteButton: Send Invite # Button to send invitation
-    canView: Can view # Permission label for view-only
-    canEdit: Can edit # Permission label for edit access
-    canComment: Can comment # Permission label for comments
-    removeAccess: Remove access # Button to remove access
-    owner: Owner # Role label for owner
-    pending: Pending # Status label for pending invitations
 
   # ========================================
   # Collaboration - Collaborator management
   # ========================================
   collaboration:
-    title: Collaborators # Collaborators section title
-    addCollaborator: Add Collaborator # Button to add collaborator
-    collaboratorsCount: "{count} collaborators" # Label showing collaborator count
-    onlineNow: Online now # Status for online collaborators
-    viewers: Viewing # Status for viewing collaborators
-    editors: Editing # Status for editing collaborators
-    joined: joined # Activity message when someone joins
-    left: left # Activity message when someone leaves
 
   # ========================================
   # Templates - Workspace templates
   # ========================================
   templates:
-    title: Templates # Templates section title
-    useTemplate: Use Template # Button to use template
-    blankDiagram: Blank Diagram # Blank template option
-    ecommerce: E-commerce Schema # E-commerce database template
-    blog: Blog Schema # Blog database template
-    socialNetwork: Social Network Schema # Social network template
-    library: Library Management # Library management template
-    hospital: Hospital Management # Hospital management template
-    school: School Management # School management template
 
   # ========================================
   # Activity - Activity feed
   # ========================================
   activity:
-    title: Activity # Activity feed title
-    recentActivity: Recent Activity # Recent activity section title
-    created: created # Activity label for created items
-    edited: edited # Activity label for edited items
-    deleted: deleted # Activity label for deleted items
-    shared: shared # Activity label for shared items
-    renamed: renamed # Activity label for renamed items
-    moved: moved # Activity label for moved items
-    restored: restored # Activity label for restored items
 
   # ========================================
   # Notifications - In-app notifications
   # ========================================
   notifications:
-    inviteReceived: "{userName} invited you to collaborate on {diagramName}" # Notification for new invite
-    inviteAccepted: "{userName} accepted your invitation" # Notification when invite accepted
-    diagramCommented: "{userName} commented on {diagramName}" # Notification for new comment
-    diagramEdited: "{userName} edited {diagramName}" # Notification for diagram edit
-    diagramShared: "{userName} shared {diagramName} with you" # Notification when shared
 
   # ========================================
   # Settings - Workspace settings page
@@ -175,7 +106,6 @@ workspace:
     invitePlaceholder: Enter email address # Email input placeholder
     inviteButton: Invite # Send invite button
     members: Members # Members section title
-    memberSlots: "{used}/{limit} members" # Usage indicator showing used/limit
     role:
       member: Member # Member role label
       owner: Owner # Owner role label
@@ -184,7 +114,6 @@ workspace:
       removeInvitation: Remove this invitation # Remove invitation action
       removeMember: Remove this member # Remove member confirmation
     dialog:
-      removeTitle: Remove member? # Remove dialog title
       removeMessage: You are about to remove <b>{email}</b> from your workspace, please confirm your action! # Remove dialog message
     notifications:
       removeSuccess: Successfully removed {email} from workspace! # Success toast
@@ -260,7 +189,6 @@ workspace:
       dateCreated: Date Created # Created date column header
       lastUsed: Last Used # Last used column header
       owner: Owner # Owner column header
-      action: "" # Action column header
     empty: No created tokens # Empty state message
     actions:
       revoke: Revoke # Revoke token action
@@ -290,10 +218,8 @@ workspace:
   # ========================================
   common:
     labels:
-      you: "(You)" # Label indicating current user
 
   # ========================================
   # Errors - Error messages
   # ========================================
   errors:
-    permissionDenied: You don't have the permission to access this workspace # Permission denied message

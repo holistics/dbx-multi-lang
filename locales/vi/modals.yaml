@@ -3,48 +3,28 @@ modals:
     confirm: Xác nhận
     delete: Xóa
     remove: Xóa bỏ
-    archive: Lưu trữ
-    unarchive: Bỏ lưu trữ
     rename: Đổi tên
-    share: Chia sẻ
-    invite: Mời
-    settings: Cài đặt
-    publish: Xuất bản
-    export: Xuất
-    import: Nhập
   confirmation:
     default:
-      title: Xác nhận
       message: Bạn có thực sự muốn tiếp tục hành động này?
       checkbox: Đừng hiện lại thông báo này
     delete:
-      title: Xóa
-      message: Bạn có chắc muốn xóa mục này?
     deleteDiagram:
-      title: Xóa Sơ đồ
       message: Bạn có chắc muốn xóa sơ đồ này? Hành động này không thể hoàn tác.
       warning: Vui lòng lưu ý rằng hành động này không thể hoàn tác!
       embedLinkActive: Bạn đang có một liên kết nhúng đang hoạt động.
       lastViewed: Xem lần cuối
     removeWorkspace:
-      title: Xóa Không gian làm việc
-      message: Bạn có chắc muốn xóa không gian làm việc này?
     removeMember:
       title: Xóa Thành viên
       message: Bạn có chắc muốn xóa thành viên này khỏi không gian làm việc?
       suggestion: Vui lòng nhập email của bạn để xác nhận.
   share:
-    title: Chia sẻ Sơ đồ
     tabs:
       sharing: Chia sẻ
       embedding: Nhúng
     generalAccess:
-      title: Quyền truy cập chung
       options:
-        private: Riêng tư
-        restricted: Hạn chế
-        public: Bất kỳ ai có liên kết
-      password: Mật khẩu
       passwordPlaceholder: Nhập mật khẩu
       createPassword: Tạo
       updatePassword: Cập nhật
@@ -52,11 +32,6 @@ modals:
       copyLink: Sao chép liên kết
       updatePasswordButton: Cập nhật mật khẩu
     permissions:
-      title: Quyền hạn
-      owner: Chủ sở hữu
-      admin: Quản trị viên
-      editor: Người chỉnh sửa
-      viewer: Người xem
       canEditAndInvite: Có thể chỉnh sửa & mời
       canEditAndInviteDesc: Có thể chỉnh sửa & mời người khác.
       canEdit: Có thể chỉnh sửa
@@ -68,27 +43,16 @@ modals:
       noAccess: Không có quyền truy cập
       noAccessDesc: Không có quyền truy cập sơ đồ này
     invite:
-      title: Mời mọi người
       placeholder: Email, phân cách bằng dấu phẩy hoặc khoảng trắng
       button: Mời
-      copyLink: Sao chép liên kết
-      linkCopied: Đã sao chép liên kết!
     members:
-      title: Những người có quyền truy cập
       you: (bạn)
     confirmRemoveCollaborator: Bạn sắp xóa <b>{email}</b> khỏi danh sách cộng tác viên, vui lòng xác nhận hành động của bạn!
     errors:
       publicPermissionUpdateFailed: Cập nhật quyền công khai của sơ đồ thất bại, vui lòng thử lại!
       publicPermissionUpdated: Quyền công khai của sơ đồ đã được cập nhật!
       passwordLength: Mật khẩu phải từ 6 đến 128 ký tự
-      createPasswordSuccess: Tạo mật khẩu thành công
-      updatePasswordSuccess: Cập nhật mật khẩu thành công
-      createPasswordFailed: Tạo mật khẩu thất bại
-      updatePasswordFailed: Cập nhật mật khẩu thất bại
       cannotUpdateDiagramState: Không thể cập nhật trạng thái sơ đồ
-      diagramIsPublic: Sơ đồ hiện đang công khai!
-      diagramIsPrivate: Sơ đồ hiện đang riêng tư!
-      diagramIsProtected: Sơ đồ hiện đang được bảo vệ!
     permissionChanged: Quyền hạn của bạn đã thay đổi, vui lòng tải lại để áp dụng!
     reload: Tải lại
     cannotGetPermission: Không thể lấy quyền hạn sơ đồ, vui lòng thử lại!
@@ -127,11 +91,7 @@ modals:
   publish:
     title: Xuất bản lên
     dbdocsLink: dbdocs
-    placeholder: URL Dự án
-    urlLabel: dbdocs.holistics.io/
     publishButton: Xuất bản
-    success: Xuất bản thành công!
-    error: Xuất bản thất bại
     bullet1: Xuất bản tài liệu cơ sở dữ liệu có thể xem trên web từ sơ đồ của bạn.
     bullet2: Tài liệu được xuất bản sẽ có trong tài khoản dbdocs liên kết với email chủ sở hữu sơ đồ.
     bullet3: Thay đổi trong sơ đồ sẽ không tự động cập nhật tài liệu trên dbdocs.
@@ -153,41 +113,8 @@ modals:
     projectNameInvalid: Tên dự án chỉ được chứa chữ cái, số, khoảng trắng, "-" hoặc "_"
     passwordInvalid: Mật khẩu không hợp lệ, vui lòng thử lại!
   export:
-    title: Xuất Sơ đồ
-    button: Xuất
     formats:
-      png: Ảnh PNG
-      svg: Ảnh SVG
-      pdf: Tài liệu PDF
-      dbml: DBML
-      sql: SQL
-    toPDF: Ra PDF
-    toPNG: Ra PNG
-    toSVG: Ra SVG
-    toPostgreSQL: Ra PostgreSQL
-    toMySQL: Ra MySQL
-    toSQLServer: Ra SQL Server
-    toOracleSQL: Ra Oracle SQL
-    error: Xuất thất bại
   import:
-    title: Nhập
-    fromDatabase: Từ Cơ sở dữ liệu
-    fromFile: Từ Tệp
-    fromSQL: Từ SQL
-    pasteSQL: Dán SQL vào đây
-    validate: Xác thực
-    validating: Đang xác thực...
-    invalid: Định dạng SQL không hợp lệ
-    error: Nhập thất bại
-    fromDbConnection: Từ Kết nối CSDL (qua CLI)
-    fromMySQL: Từ MySQL
-    fromPostgreSQL: Từ PostgreSQL
-    fromSQLServer: Từ SQL Server
-    fromSnowflake: Từ Snowflake
-    fromOracleSQL: Từ Oracle SQL
-    fromRails: Từ Rails (schema.rb)
-    fromCSV: Từ CSV
-    fromFormat: Nhập từ {format}
     instructions: Hướng dẫn
     showInstructions: Hiển thị hướng dẫn
     hideInstructions: Ẩn hướng dẫn
@@ -221,9 +148,6 @@ modals:
         snowflake: Snowflake
         bigquery: BigQuery
   stickyNotes:
-    title: Ghi chú dán (Sticky Notes)
-    upgradeRequired: Nâng cấp gói của bạn để sử dụng Ghi chú dán
-    upgradeButton: Xem các gói
   upgrade:
     titles:
       createDiagram: Bạn đã đạt giới hạn số lượng sơ đồ!
@@ -237,8 +161,6 @@ modals:
       stickyNotesDbdocs: Bạn đã khám phá một tính năng của dự án trả phí!
       versionHistory: Bạn đã khám phá một tính năng trả phí!
       aiAssistant: Trợ lý AI dbdiagram là tính năng trả phí
-      tableGroup: Bạn đã khám phá một tính năng trả phí!
-      tableGroupDbdocs: Bạn đã khám phá Nhóm bảng, một tính năng của dự án trả phí!
     descriptions:
       createDiagram: Nâng cấp lên các gói trả phí ngay để <b>tạo sơ đồ không giới hạn</b> và các tính năng nâng cao khác!
       detailLevels: Nâng cấp lên các gói trả phí ngay để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
@@ -251,8 +173,6 @@ modals:
       stickyNotesDbdocs: Nâng cấp dự án của bạn để thêm<strong> Ghi chú dán </strong> vào sơ đồ của bạn<br>và tận dụng các tính năng nâng cao khác!
       versionHistory: Tự do thử nghiệm ý tưởng với các <b>phiên bản lược đồ</b> khác nhau.<br>Quay lại phiên bản quá khứ bất cứ khi nào bạn muốn.
       aiAssistant: Nâng cấp lên các gói trả phí ngay để thiết kế và tối ưu hóa lược đồ cơ sở dữ liệu<br>với <strong>hỗ trợ ngôn ngữ tự nhiên từ AI</strong>
-      tableGroup: Nâng cấp lên các gói trả phí ngay để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
-      tableGroupDbdocs: Nâng cấp dự án của bạn để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
     buttons:
       viewPlans: Xem các gói
       upgradeProject: Nâng cấp dự án
@@ -286,14 +206,6 @@ modals:
     savePdfFailed: Không thể lưu PDF
     saveSvgFailed: Không thể lưu SVG
     savePngFailed: Không thể lưu PNG
-    checkoutFailed: Có lỗi xảy ra khi thanh toán. Vui lòng thử lại sau
-    checkoutSuccess: Thanh toán thành công
-    switchPlanSuccess: Chuyển đổi gói thành công
-    paymentProcessing: Thanh toán đang được xử lý, vui lòng tải lại trang sau vài phút.
-    tokenGenerated: Tạo token thành công
-    githubSignInFailed: Đăng nhập bằng GitHub thất bại
-    microsoftSignInFailed: Đăng nhập bằng Microsoft thất bại, vui lòng thử lại!
-    supportContact: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
     cannotGetDiagrams: Không thể lấy danh sách sơ đồ, vui lòng tải lại ứng dụng!
     permissionDenied: Quyền bị từ chối
     cannotRemoveDefaultView: Bạn không được phép xóa chế độ xem mặc định!

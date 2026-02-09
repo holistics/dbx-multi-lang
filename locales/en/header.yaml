@@ -8,14 +8,10 @@ header:
   buttons:
     save: Save # Blue button in header toolbar (saves current diagram - Ctrl/Cmd+S)
     share: Share # Share icon button in header toolbar (opens share modal)
-    history: History # Clock icon button in header toolbar (opens Version History modal)
     editAsNew: Edit as New # Option in header dropdown (duplicates diagram to personal workspace)
-    export: Export # Dropdown in header containing export options
-    signIn: Sign In # Button in header (for unauthenticated users - top-right)
     signOut: Sign Out # Last item in account dropdown (top-right user menu)
     publishToDbdocs: Publish to DBDocs # Button in header export dropdown
     publish: Publish # Blue button in share modal (publishes current diagram to DBDocs)
-    discard: Discard # Red button in discard draft confirmation dialog
 
   # ========================================
   # Draft badge - Small indicator next to diagram name
@@ -56,11 +52,6 @@ header:
   # Tooltips - Tooltip text for header elements
   # ========================================
   tooltips:
-    synced: All changes are synced # Tooltip on synced status icon (green check)
-    unsynced: You have unsaved changes # Tooltip on unsynced indicator (yellow dot)
-    readonly: Read-only mode # Tooltip on read-only badge
-    unsaved: Unsaved changes # Tooltip on unsaved changes indicator
-    loginRequired: Please log in to save # Tooltip on login-required save icon
     clickToEdit: Click to edit # Tooltip on diagram name (when hovering)
     openInDbdocs: Open in dbdocs # Tooltip on DBDocs link icon
     noPublishedContent: This project has no published content yet # Tooltip on empty DBDocs link
@@ -98,16 +89,11 @@ header:
   # Views - View dropdown labels
   # ========================================
   views:
-    main: Main # Label for main diagram view (default view)
 
   # ========================================
   # Modals - Modal dialog texts (discard, overwrite)
   # ========================================
   modals:
-    overwriteTitle: Overwrite Diagram # Modal title (when overwriting existing diagram)
-    overwriteContent: This will overwrite the existing diagram. Do you want to continue? # Modal body text
-    'yes': Yes, overwrite # Confirm button in overwrite modal
-    'no': Cancel # Cancel button in overwrite modal
     discardDraftsTitle: Discard All Drafts # Modal title (discard drafts confirmation)
     discardDraftsContent: Are you sure you want to discard all your draft versions and fetch the latest content of the project? This action cannot be undone. # Modal warning text
     discardButton: Discard # Primary button in discard modal (red)
