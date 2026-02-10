@@ -1,0 +1,46 @@
+auth:
+  login:
+    email: Email
+    loginWithGithub: Đăng nhập bằng GitHub
+    loginWithMicrosoft: Đăng nhập bằng Microsoft
+  oauth:
+    authorizationError: Ủy quyền thất bại
+    processing: Đang xử lý...
+    justAMomentPleaseWait: Vui lòng đợi trong giây lát...
+    signedInAs: Bạn đang đăng nhập với tư cách là
+    failedSignInGitHub: Đăng nhập bằng GitHub thất bại
+    failedSignInMicrosoft: Đăng nhập bằng Microsoft thất bại, vui lòng thử lại!
+  errors:
+    invalidEmail: Địa chỉ email không hợp lệ, vui lòng thử lại!
+    githubPopupBlocked: Vui lòng cho phép cửa sổ bật lên (popups) để đăng nhập bằng GitHub
+  otp:
+    signInWithEmail: Đăng nhập bằng Email
+    otpSentTo: OTP đã được gửi đến
+    wrongEmail: Sai địa chỉ email?
+    changeEmail: Đổi email
+    inputEmail: Vui lòng nhập địa chỉ email của bạn
+    inputYourOtp: Nhập mã OTP của bạn
+    inputOtpCode: Vui lòng nhập mã OTP được gửi đến email
+    signInSuccess: Đăng nhập thành công
+    didntReceiveOtp: Không nhận được OTP?
+    resendOtp: Gửi lại OTP
+    resendAfter: Bạn có thể gửi lại OTP sau {counter} giây
+    submit: Gửi
+    sendOtpFailed: Gửi OTP thất bại, vui lòng thử lại!
+  sso:
+    orContinueWith: hoặc tiếp tục với
+  portal:
+    signIn: Đăng nhập
+  additional:
+    unknownError: Lỗi không xác định
+    invalidOtp: Mã OTP không hợp lệ, vui lòng thử lại!
+    cannotValidateOtp: Không thể xác thực OTP, vui lòng thử lại!
+    emailNotVerified: Email của bạn chưa được xác minh. Vui lòng xác minh trên tài khoản Microsoft.
+    cannotSignInMicrosoftSSO: Không thể đăng nhập bằng Microsoft SSO, vui lòng thử lại!
+    cannotSignIn: Không thể đăng nhập, vui lòng thử lại!
+    failedReloadProject: Tải lại dự án sau khi đăng nhập thất bại. Vui lòng làm mới trang.
+    loginError: Lỗi đăng nhập
+    signInCancelled: Đăng nhập đã bị hủy. Vui lòng thử lại.
+  logoutCallback:
+    redirecting: Đang chuyển hướng...
+    redirectDescription: Bạn sẽ được chuyển đến ứng dụng trong vài giây.

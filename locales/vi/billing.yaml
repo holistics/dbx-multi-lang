@@ -1,0 +1,84 @@
+billing:
+  buttons:
+    upgrade: Nâng cấp
+    upgradeToPersonalPro: Nâng cấp lên gói Personal Pro
+    collaborateWithTeam: Cộng tác với gói Team
+
+  pricing:
+
+  plans:
+    free:
+      features:
+        - Tối đa 3 sơ đồ
+        - Công cụ chỉnh sửa cơ bản
+        - Xuất ra SQL/PNG
+        - Hỗ trợ cộng đồng
+
+    pro:
+      features:
+        - Không giới hạn sơ đồ
+        - Công cụ chỉnh sửa nâng cao
+        - Lịch sử phiên bản
+        - Hỗ trợ ưu tiên
+        - Xuất ra PDF
+        - Chủ đề tùy chỉnh
+
+    team:
+      features:
+        - Mọi thứ trong Pro
+        - Cộng tác nhóm
+        - Kiểm soát quản trị (Admin controls)
+        - Xác thực SSO
+        - Hỗ trợ ưu tiên
+        - Tích hợp tùy chỉnh
+
+  payment:
+    paymentMethod: Phương thức thanh toán
+
+  billing:
+
+  subscription:
+
+  personalPro:
+
+  team:
+
+  publicPricing:
+
+  upgradeNowBtn:
+    ownerOnly: Chỉ chủ sở hữu không gian làm việc mới có thể nâng cấp lên gói Nhóm
+
+  managePlanModal:
+    loadingSubscription: Đang tải thông tin gói đăng ký...
+    currentPlan: Gói hiện tại
+    personalPlanForever: Gói Cá nhân - Vĩnh viễn
+    unknownPlan: Gói không xác định
+    billedMonthly: Thanh toán hàng tháng
+    billedAnnually: Thanh toán hàng năm
+    chargeEvery: Tính phí mỗi {period} {unit}
+    cancelledOn: Đã hủy vào ngày
+    planDetails: Chi tiết gói →
+    upgradeDescription: Nâng cấp lên gói trả phí để có Cấp độ chi tiết, Màu tiêu đề và tất cả các tính năng sắp ra mắt
+    nextPayment: Khoản thanh toán tiếp theo của bạn là
+    chargedOn: sẽ được tính vào ngày
+    editSubscription: Chỉnh sửa gói đăng ký
+    switchToMonthly: Chuyển sang thanh toán hàng tháng
+    switchToYearly: Chuyển sang thanh toán hàng năm
+    noPaymentMethod: Không có phương thức thanh toán
+    updatePaymentMethod: Cập nhật phương thức thanh toán
+    invoicing: Hóa đơn
+    lastPayment: Thanh toán gần nhất
+    editBillingInfo: Chỉnh sửa thông tin thanh toán
+    paymentProcessing: Giao dịch của bạn đang được xử lý, vui lòng tải lại trang sau vài phút.
+
+  disabledCard:
+    personalUpgrade: Nâng cấp workspace cá nhân của bạn để sử dụng các tính năng cao cấp.
+    teamReadOnly: Workspace đang ở chế độ chỉ do hủy đăng ký. Gia hạn để kích hoạt lại workspace.
+
+  planPickingSimpleView:
+    collaborateWithTeamPlan: Cộng tác với gói Team
+    collaborateWithColleagues: Cộng tác với đồng nghiệp của bạn.
+    manageTeamDiagrams: Quản lý sơ đồ của nhóm ở một nơi.
+    startFreeTrial: Bắt đầu dùng thử miễn phí 7 ngày
+    learnMore: Tìm hiểu thêm
+    pricingFrom: Giá chỉ từ {currency}{price}/tháng

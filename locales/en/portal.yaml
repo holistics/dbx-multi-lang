@@ -1,0 +1,107 @@
+# Portal translations - Embedded documentation portal
+# UI Areas: OAuth callback pages, SSO portal, Error pages
+
+portal:
+  # ========================================
+  # OAuth Welcome - OAuth success messages
+  # ========================================
+  oauth:
+    welcomeTo: Welcome to {clientName} # Welcome message (OAuth success)
+    signingInTo: Signing in to {clientName} # Loading message (OAuth)
+    successfullySignedInTo: Successfully signed in to {clientName} # Success message (OAuth)
+    welcome: Welcome # Simple welcome label
+    signingIn: Signing in # Loading label
+    successfullySignedIn: Successfully signed in # Success label
+    powering: Powering # Portal attribution prefix
+    signOutFrom: Sign out from {clientName} # Sign out link
+    signOutFromAccount: Sign out from your account # Sign out button
+
+  # ========================================
+  # GitHub Callback - OAuth callback messages
+  # ========================================
+  githubCallback:
+    authenticating: Authentication in progress, please wait for a moment... # Loading message (GitHub OAuth)
+    authSuccess: Authenticate successfully! You can safely close this window # Success message (GitHub OAuth)
+    title: GitHub Authentication # Page title (browser tab)
+    errors:
+      noOpener:
+        title: Invalid Access # Error title (no opener)
+        description: This page cannot be opened directly. Please return to the application and start the login process. # Error description (no opener)
+      openerClosed:
+        title: Parent Window Closed # Error title (window closed)
+        description: The original application window was closed during authentication. Please return to the application and start the login process again. # Error description (window closed)
+      accessDenied:
+        title: Access Denied # Error title (user denied)
+        description: You cancelled the GitHub authentication. # Error description (access denied)
+      appSuspended:
+        title: Application Suspended # Error title (app suspended)
+        description: The GitHub application has been suspended. # Error description (app suspended)
+      redirectUriMismatch:
+        title: Redirect URI Mismatch # Error title (redirect URI)
+        description: The redirect URI does not match the configuration. # Error description (redirect URI)
+      unknown:
+        title: Unexpected Error # Error title (generic)
+        description: Something went wrong. Please contact our support at dbdiagram@holistics.io # Error description (generic)
+
+  # ========================================
+  # Logout - Logout messages
+  # ========================================
+  logout:
+    validating: Validating logout request... # Loading message (logout)
+    loggingOut: Logging you out... # Loading message (logging out)
+    authorizationError: Authorization Error # Error title
+    logoutFailed: Logout Failed # Error title
+
+  # ========================================
+  # SSO - Single Sign-On messages
+  # ========================================
+  sso:
+    continue: Continue # Button (SSO continue)
+    multipleWorkspaces: Multiple SSO workspaces found for {email} # Multiple workspaces warning
+    failedInitiate: Failed to initiate SSO login. Please try again. # Error message (SSO)
+    somethingWrong: Something went wrong, please try again! # Generic error
+    loginCancelled: Login cancelled, please try again! # Cancelled message
+
+  # ========================================
+  # Account Selection - Email selection
+  # ========================================
+  accountSelection:
+    continue: Continue # Button (account selection)
+    or: or # Divider text
+    differentAccount: Use a different account # Link (different account)
+
+  # ========================================
+  # Email Input - Email form
+  # ========================================
+  emailInput:
+    placeholder: Email # Input placeholder
+    send: Send # Submit button
+
+  # ========================================
+  # Error Pages - Generic error messages
+  # ========================================
+  errors:
+    internalServerError: An unexpected error occurred on the server. Please try again later. # 500 error
+    serviceUnavailable: The service is temporarily unavailable. Please try again in a few moments. # 503 error
+    networkError: Unable to connect to the server. Please check your internet connection and try again. # Network error
+    authenticationError: Authentication error. Please contact our support at dbdiagram@holistics.io # Auth error
+    windowNotOpened: This window was not opened properly. Please return to {clientName} and try again. # Window error
+    windowClosed: The original application window was closed. Please return to {clientName} and try again. # Window closed error
+    communicationFailed: Failed to communicate with {clientName}. Please try again # Communication error
+    transferFailed: Failed to transfer authentication. Please try again. # Transfer error
+    canCloseWindow: You can close this window now. # Success message (close window)
+
+  # ========================================
+  # OAuth Errors - OAuth-specific errors
+  # ========================================
+  oauthErrors:
+    invalidAuthRequest: Invalid Authentication Request # OAuth error
+    unsupportedResponseType: Unsupported response_type parameter # OAuth error
+    invalidClient: Invalid Client # OAuth error
+    missingClientIdOrRedirectUri: Missing client_id or redirect_uri # OAuth error
+    missingCodeChallenge: 'Missing required parameter: code_challenge' # OAuth error
+    missingState: 'Missing required parameter: state' # OAuth error
+    invalidAccess: Invalid Access # OAuth error
+    pageMustBeOpened: This page must be opened from the application. # OAuth error
+    unsupportedPrompt: Unsupported prompt parameter # OAuth error
+    unexpectedError: Unexpected error # OAuth error

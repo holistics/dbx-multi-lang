@@ -1,0 +1,80 @@
+# Authentication translations - Login, Signup, Password pages
+# UI Areas: Auth pages (/login, /signup, /forgot-password)
+
+auth:
+  # ========================================
+  # Login Page - Email/password login
+  # ========================================
+  login:
+    email: Email # Email input label
+    loginWithGithub: Log in with GitHub # Social login button (GitHub)
+    loginWithMicrosoft: Log in with Microsoft # Social login button (Microsoft)
+
+  # ========================================
+  # OAuth Errors - OAuth flow errors
+  # ========================================
+  oauth:
+    authorizationError: Authorization failed # OAuth error title
+    processing: Processing... # Loading state (OAuth redirect)
+    justAMomentPleaseWait: Just a moment, please wait... # Loading message (OAuth redirect)
+    signedInAs: You are signed in as # Session label (SSO indicator)
+    failedSignInGitHub: Failed to sign in with GitHub # Error toast (GitHub OAuth)
+    failedSignInMicrosoft: Failed to sign in with Microsoft, please try again! # Error toast (Microsoft OAuth)
+
+  # ========================================
+  # Form Errors - Validation error messages
+  # ========================================
+  errors:
+    invalidEmail: Invalid email address, please try again! # Email validation
+    githubPopupBlocked: Please allow popups to sign in with GitHub # Browser setting error
+
+  # ========================================
+  # OTP Authentication - One-time password
+  # ========================================
+  otp:
+    signInWithEmail: Sign in with Email # OTP tab label
+    otpSentTo: OTP sent to # Label (shows masked email)
+    wrongEmail: Wrong email address? # Change email link
+    changeEmail: Change email # Change email button
+    inputEmail: Please input your email address # Email input placeholder
+    inputYourOtp: Input your OTP # OTP input placeholder
+    inputOtpCode: Please input the OTP code sent to the email # OTP help text
+    signInSuccess: Signed in successfully # Success message
+    didntReceiveOtp: Didn't receive the OTP? # Help text (resend section)
+    resendOtp: Resend OTP # Resend button
+    resendAfter: You can resend OTP after {counter}s # Timer label (disabled state)
+    submit: Submit # OTP submit button
+    sendOtpFailed: Send OTP failed, please try again! # Error toast
+
+  # ========================================
+  # SSO Login - Single Sign-On
+  # ========================================
+  sso:
+    orContinueWith: or continue with # SSO divider text
+
+  # ========================================
+  # Embedded Portal - OAuth portal pages
+  # ========================================
+  portal:
+    signIn: Sign in # Button (portal embedded login)
+
+  # ========================================
+  # Additional Errors - Extra error messages
+  # ========================================
+  additional:
+    unknownError: Unknown error # Fallback error
+    invalidOtp: Invalid OTP, please try again! # OTP validation error
+    cannotValidateOtp: Can not validate OTP, please try again! # OTP validation failure
+    emailNotVerified: Your email is not verified. Please verify them on Microsoft account. # MS email verification
+    cannotSignInMicrosoftSSO: Cannot sign in with Microsoft SSO, please try again! # MS SSO error
+    cannotSignIn: Cannot sign in, please try again! # Generic sign-in error
+    failedReloadProject: Failed to reload project after login. Please refresh the page. # Reload error
+    loginError: Login error # Generic login error
+    signInCancelled: Sign in cancelled. Please try again. # Cancelled flow
+
+  # ========================================
+  # Logout Callback - Post-logout redirect
+  # ========================================
+  logoutCallback:
+    redirecting: Redirecting... # Loading message (logout redirect)
+    redirectDescription: You will be redirected to the application in a few seconds. # Help text

@@ -1,0 +1,225 @@
+# Workspace translations - Sidebar, dropdown, and settings
+# UI Areas: Left sidebar, Workspace dropdown, Settings page
+
+workspace:
+  # ========================================
+  # General workspace labels - Sidebar and dropdown
+  # ========================================
+  personalWorkspace: Personal Workspace # Label for personal workspace (when no team workspace selected in dropdown)
+  personal: Personal # Short label for personal workspace type
+  createWorkspace: Create new workspace # Button/link to create new team workspace (sidebar)
+  dashboard: Dashboard # Sidebar link to workspace dashboard (left sidebar)
+  newDiagram: New Diagram # Button to create new diagram (sidebar)
+  newSampleDiagram: New Sample Diagram # Dropdown with sample diagram templates (sidebar)
+  basic: Basic # Label for basic tier/sample (templates dropdown)
+  advanced: Advanced # Label for advanced tier/sample (templates dropdown)
+  myDiagrams: My Diagrams # Sidebar section for personal diagrams
+  sharedWithMe: Shared with Me # Sidebar section for shared diagrams
+  workspace: Workspace # Label for team workspace type
+  private: Private # Privacy label for private items
+
+  # ========================================
+  # Folders - Sidebar folder management
+  # ========================================
+  folders:
+
+  # ========================================
+  # Diagrams - Diagram list actions
+  # ========================================
+  diagrams:
+
+  # ========================================
+  # Sharing - Share diagram modal
+  # ========================================
+  sharing:
+
+  # ========================================
+  # Collaboration - Collaborator management
+  # ========================================
+  collaboration:
+
+  # ========================================
+  # Templates - Workspace templates
+  # ========================================
+  templates:
+
+  # ========================================
+  # Activity - Activity feed
+  # ========================================
+  activity:
+
+  # ========================================
+  # Notifications - In-app notifications
+  # ========================================
+  notifications:
+
+  # ========================================
+  # Settings - Workspace settings page
+  # ========================================
+  settings:
+    title: Settings # Settings page title
+    workspaceName: Workspace name # Label for workspace name field
+    update: Update # Save button for settings
+    loadingInfo: Loading workspace information... # Loading message when fetching settings
+    singleSignOn: Single Sign-On # SSO settings section title
+    authenticateWithSSO: Authenticate with SSO (SAML) # SSO toggle label
+    enabled: Enabled # Status label for enabled
+    samlConfiguration: SAML configuration # SAML config section title
+    enforceSSO: Enforce SSO # Enforce SSO toggle
+    enforceSSODescription: Once enforced, workspace members can only access this workspace via SSO # Help text for enforce SSO
+    identityProviderUrl: Identity Provider Single Sign-On URL # IdP URL field label
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
+    identityProviderUrlHelp: The URL of your Identity Provider endpoint. # Help text for IdP URL
+    certificate: Certificate # Certificate field label
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----" # Placeholder for certificate
+    samlConfigurationForProvider: SAML configuration for your identity provider # Provider config section
+    assertionConsumerServiceUrl: Assertion consumer service URL # ACS URL field label
+    assertionConsumerServiceUrlHelp: Also called "Replying party service URL" or "Reply URL" # Help text for ACS URL
+    identifier: Identifier # Identifier field label
+    identifierHelp: Also called "Issuer" or "Relying party trust identifier" # Help text for identifier
+    saveSSOSettings: Save Single Sign-On Settings # Save SSO settings button
+    manageWorkspace: Manage workspace # Link to workspace management
+    removeWorkspace: Remove workspace... # Danger button to remove workspace
+    cancelRemovalRequest: Cancel removal request # Cancel workspace removal button
+    removalWarning: This action cannot be undone! # Warning about removal
+    removalScheduledHours: Your workspace will be removed after a few hours. # Removal scheduled message
+    removalScheduledDay: Your workspace will be removed after a day. # Removal scheduled message
+    removalScheduledDays: "Your workspace will be removed after {count} days." # Removal scheduled message
+    removeWorkspaceTitle: Remove this workspace? # Remove workspace modal title
+    removeWorkspaceContent: We'll set a schedule to remove your workspace after 7 days. You can cancel the workspace removal schedule in this "Settings" menu if you change your mind. # Remove workspace modal content
+    removeWorkspaceButton: Remove this workspace # Confirm remove button
+    removeWorkspaceSuggestion: 'Please type <i>permanently delete</i> in the text input field to confirm.' # Confirmation input prompt
+    removalRequestCanceled: Removal request was canceled successfully! # Success toast
+    removalRequestCreated: Removal request was created successfully! # Success toast
+    contactSupportError: An error has occurred, please contact our support at dbdiagram@holistics.io # Support contact message
+    workspaceNameUpdated: Workspace name updated successfully # Success toast
+    workspaceNameUpdateFailed: Workspace name update failed, please try again! # Error toast
+    ssoConfigFetchFailed: Failed to fetch SSO configuration. Please try to refresh the page. # Error toast
+    ssoConfigUpdated: SSO configuration updated successfully # Success toast
+    ssoConfigSaveFailed: Failed to save SSO configuration. Please try again. # Error toast
+
+  # ========================================
+  # Members - Member management
+  # ========================================
+  members:
+    invite: Invite # Invite button
+    invitePlaceholder: Enter email address # Email input placeholder
+    inviteButton: Invite # Send invite button
+    members: Members # Members section title
+    role:
+      member: Member # Member role label
+      owner: Owner # Owner role label
+    actions:
+      remove: Remove # Remove action
+      removeInvitation: Remove this invitation # Remove invitation action
+      removeMember: Remove this member # Remove member confirmation
+    dialog:
+      removeMessage: You are about to remove <b>{email}</b> from your workspace, please confirm your action! # Remove dialog message
+    notifications:
+      removeSuccess: Successfully removed {email} from workspace! # Success toast
+      removeError: Cannot remove {email} from workspace! # Error toast
+
+  # ========================================
+  # Diagram List - Diagram list view
+  # ========================================
+  diagramList:
+    searchPlaceholder: Search diagrams # Search input placeholder
+    freePlan: Free # Label for free plan
+    plan: plan # Plan suffix label
+    diagramCount: "Diagrams: {count}/{limit}" # Diagram count indicator
+    duplicate: Duplicate # Duplicate button
+    delete: Delete # Delete button
+    untitledDiagram: Untitled Diagram # Default name for unnamed diagrams
+    columns:
+      name: Name # Table column header (diagram name)
+      dateCreated: Date Created # Table column header
+      dateModified: Date Modified # Table column header
+      owner: Owner # Table column header
+
+  # ========================================
+  # Sidebar - Sidebar sections
+  # ========================================
+  sidebar:
+    apiTokens: API Tokens # API Tokens link (left sidebar)
+    billing: Billing # Billing link (left sidebar)
+
+  # ========================================
+  # Empty States - Empty diagrams views
+  # ========================================
+  emptyDiagrams:
+    title: No diagrams yet # Empty diagrams title
+    created:
+      description: There are no diagrams in your workspace. You can create a new one with the # Empty state description (part 1)
+      button: + New Diagram # Button to create first diagram
+      buttonSuffix: button. # Empty state description (part 2)
+    shared:
+      description: You have not yet been invited to any diagrams. # Empty state for shared diagrams
+    workspacePublic:
+      description: There are no diagrams displayed to the team. You can create new diagrams with the # Empty state for public workspace
+    workspacePrivate:
+      description: There are no private diagrams. You can create a new diagram and keep it personal. # Empty state for private workspace
+
+  # ========================================
+  # Plan - Plan labels
+  # ========================================
+  plan:
+    pro: Pro Plan # Pro plan label
+    free: Free Plan # Free plan label
+    team: Team Plan # Team plan label
+    disabled: "(disabled)" # Disabled plan label
+
+  # ========================================
+  # Welcome - Welcome modal
+  # ========================================
+  welcome:
+    title: Welcome to Team Workspace! # Welcome modal title
+    description: Get started by creating new diagrams and collaborating with your teammates. # Welcome modal description
+    learnMore: Learn more → # Learn more link
+
+  # ========================================
+  # API Tokens - API tokens management
+  # ========================================
+  apiTokens:
+    title: API Tokens # API Tokens page title
+    description: API tokens are used for authentication to dbdiagram API every time an API request is made. Like passwords, API token should remain a secret. # Description text
+    seeDocumentation: See documentation. # Link to API docs
+    generateNew: Generate new token # Button to generate token
+    columns:
+      name: Name # Token name column header
+      dateCreated: Date Created # Created date column header
+      lastUsed: Last Used # Last used column header
+      owner: Owner # Owner column header
+    empty: No created tokens # Empty state message
+    actions:
+      revoke: Revoke # Revoke token action
+    modal:
+      newToken: New API Token # New token modal title
+      tokenName: Token name # Token name input label
+      tokenNamePlaceholder: Enter token name # Token name placeholder
+      generate: Generate token # Generate button
+      copyWarning: Make sure to copy the API token now as you will not be able to see it again. # Warning about copying token
+      copied: Copied # Success message after copying
+      copy: Copy # Copy button
+      done: Done # Done button
+      revokeTitle: Revoke API Token? # Revoke confirmation title
+      revokeContent: Do you want to revoke the "{name}" API Token? This action cannot be undone. # Revoke confirmation content
+      revokePositive: Revoke Token # Confirm revoke button
+      revokeSuggestion: 'Please type <i>permanently delete</i> in the text input field to confirm.' # Revoke input prompt
+      generateSuccess: Generated token successfully # Success toast
+    errors:
+      nameEmpty: Token name cannot be empty # Validation error
+      nameInvalid: Token name can only contain only alphabets, numbers, space, "-" or "_" # Validation error
+      nameWhitespace: Token name cannot be empty or only contain white space # Validation error
+      upgradeRequired: Please upgrade your plan to create tokens and access our API # Upgrade required error
+      ownerOnly: Only workspace owner can generate new tokens # Permission error
+
+  # ========================================
+  # Common labels - Shared labels
+  # ========================================
+  common:
+    labels:
+
+  # ========================================
+  # Errors - Error messages
+  # ========================================
+  errors:

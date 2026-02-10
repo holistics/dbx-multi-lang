@@ -1,0 +1,151 @@
+# DBRenderer translations - Diagram canvas and panels
+# UI Areas: Left sidebar, Canvas toolbar, Bottom-right zoom, Context menus
+
+dbrenderer:
+  # ========================================
+  # Table Search Panel - Left sidebar (toggle with Ctrl/Cmd+K)
+  # ========================================
+  tableSearchPanel:
+    title: Tables # Panel title (left sidebar header)
+    diagramViews: Diagram Views # Dropdown header for views (table search panel)
+    diagramViewsTooltip: Diagram views are collections of tables that represent specific domains or workflows in your database. # Tooltip for views dropdown
+    viewActions: View actions # Dropdown header for view actions
+    cannotRenameOrDelete: Cannot rename or delete the {name} # Error toast (default view protection)
+    rename: Rename # Menu option (view context menu)
+    delete: Delete # Menu option (view context menu)
+    reset: Reset # Button (resets view to default)
+    save: Save # Button (saves current view)
+    saveAsNew: Save as New # Button (creates new view)
+    searchPlaceholder: Search table or schema # Search input placeholder (no groups)
+    searchPlaceholderWithGroup: Search table, schema or group # Search input placeholder (with groups)
+    groupBy: Group by # Dropdown to group tables
+    showAll: Show All # Button (shows all tables)
+    hideAll: Hide All # Button (hides all tables)
+    schema: Schema # Group by option (group by schema)
+    tableGroup: Table Group # Group by option (group by custom table group)
+    noGroup: (no group) # Group label (tables without group)
+    defaultView: Default View # Label (default view indicator)
+    unknownView: Unknown View # Label (unknown view name)
+    newView: New View # Button (creates new diagram view)
+    copyOfName: Copy of {name} # Default name for copied view
+
+  # ========================================
+  # Controller Bar - Top canvas toolbar
+  # ========================================
+  controllerBar:
+    highlightRelationships: Highlight relationships # Toggle button (highlights related tables)
+    unhighlightRelationships: Unhighlight relationships # Toggle button (removes highlight)
+    enableGrid: Enable grid # Toggle button (shows grid)
+    disableGrid: Disable grid # Toggle button (hides grid)
+    addStickyNote: Add sticky note # Button (creates new sticky note on canvas)
+    searchTables: Search tables # Button (opens table search panel)
+    hideTableSearch: Hide table search # Button (closes table search panel)
+    enterFullscreen: Enter full screen # Button (goes fullscreen)
+    exitFullscreen: Exit full screen # Button (exits fullscreen)
+
+  # ========================================
+  # Auto Arrange - Modal dialog (Ctrl/Cmd+Shift+A)
+  # ========================================
+  autoArrange:
+    title: Choose auto arrange algorithm # Modal title
+    leftRight: Left-right # Algorithm option (horizontal layout L→R)
+    snowflake: Snowflake # Algorithm option (snowflake schema layout)
+    compact: Compact # Algorithm option (compact layout)
+    confirmMessage: Your diagram will be automatically rearranged and you will not be able to undo. Are you sure? # Warning in modal body
+    confirm: Confirm (↵) # Confirm button (with Enter shortcut)
+    cancel: Cancel (Esc) # Cancel button (with Escape shortcut)
+
+  # ========================================
+  # Detail Level - Dropdown (eye icon)
+  # ========================================
+  detailLevel:
+    title: Detail level # Dropdown title
+    showAllColumns: Show all columns # Option (shows all columns)
+    hideColumns: Hide columns # Option (hides non-PK columns)
+    showPrimaryKeys: Primary keys only # Option (shows only primary keys)
+
+  # ========================================
+  # View Dropdown - View selector menu
+  # ========================================
+  viewDropdown:
+    renameView: Rename view # Menu option (renames current view)
+    removeView: Remove view # Menu option (deletes current view)
+    newView: New View # Menu option (creates new view)
+
+  # ========================================
+  # Diff Legend - Shown in compare mode
+  # ========================================
+  diffLegend:
+    added: Added # Green legend item (new tables)
+    modified: Modified # Yellow legend item (changed tables)
+    deleted: Deleted # Red legend item (removed tables)
+
+  # ========================================
+  # Viewport Controller - Bottom-right corner
+  # ========================================
+  viewportController:
+    zoomOut: Zoom out (hold to accelerate) # Zoom out button tooltip
+    zoomIn: Zoom in (hold to accelerate) # Zoom in button tooltip
+    editZoomLevel: Click to edit zoom level # Zoom input tooltip
+    zoomToFit: Zoom to fit all elements in view # Fit to screen button tooltip
+    enablePanMode: Click to enable pan mode # Pan mode toggle tooltip
+    disablePanMode: Click to disable pan mode # Pan mode toggle tooltip
+    panModeHint: Or hold Space/Middle mouse + drag to pan # Hint text for pan mode
+
+  # ========================================
+  # Common - Shared buttons in renderer
+  # ========================================
+  common:
+
+  # ========================================
+  # Empty State Hint - Canvas empty states
+  # ========================================
+  emptyStateHint:
+    filtered:
+      title: Your diagram view is empty # Empty state title (all tables hidden)
+      description: All tables in this view are currently hidden. Use the table search panel to show tables in the diagram view. # Empty state description
+      openTableSearchPanel: Open table search panel # Button (opens sidebar)
+    noDbml:
+      title: No database schema found # Empty state title (no tables in DBML)
+      description: Your DBML code doesn't contain any tables yet. Add tables and relationships to see your diagram. # Empty state description
+      startAddingTables: Start adding tables # Button (opens add table modal)
+
+  # ========================================
+  # Loading States - Loading indicator messages
+  # ========================================
+  loading:
+    initializingTables: Initializing tables... # Loading message (table loading)
+    initializingTablesProgress: Initializing tables... ({current}/{total}) # Loading with progress
+    initializingTableGroups: Initializing table groups... # Loading message (group loading)
+    initializingTableGroupsProgress: Initializing table groups... ({current}/{total}) # Loading with progress
+    initializingReferences: Initializing references... # Loading message (relationship loading)
+    initializingReferencesProgress: Initializing references... ({current}/{total}) # Loading with progress
+    arrangingDiagram: Arranging your diagram... # Loading message (layout calculation)
+    finalizingDiagram: Finalizing diagram... # Loading message (render completion)
+
+  # ========================================
+  # Filter Config Tags - Filter chips in canvas
+  # ========================================
+  filterConfigTags:
+    all: All # Filter chip (shows all items)
+    allTables: All Tables # Filter chip (all tables)
+    allNotes: All Notes # Filter chip (all notes)
+    nothing: Nothing # Filter chip (nothing shown)
+    moreItems: '{count} more items:' # Overflow indicator (more filters)
+
+  # ========================================
+  # Sticky Notes - Sticky note section
+  # ========================================
+  stickyNotesSection:
+    title: Sticky Notes # Section title (left sidebar)
+  stickyNotes:
+    untitledNote: Untitled Note # Default name for new notes
+    removeNoteConfirmation: Remove your note? # Delete confirmation dialog title
+    'yes': 'Yes' # Confirm button (delete note)
+    'no': 'No' # Cancel button
+
+  # ========================================
+  # Table List - Table list in sidebar
+  # ========================================
+  tableList:
+    noTablesFound: No tables found # Empty state (search results)

@@ -1,0 +1,87 @@
+# Diagram Editor translations - Editor interface
+# UI Areas: Diagram editor, Toolbar, Header, Panels
+
+diagram:
+  # ========================================
+  # Editor - Main editor area
+  # ========================================
+  editor:
+
+  # ========================================
+  # Toolbar - Top editor toolbar
+  # ========================================
+  toolbar:
+
+  # ========================================
+  # Views - Diagram view management
+  # ========================================
+  views:
+
+  # ========================================
+  # Panels - Side panels
+  # ========================================
+  panels:
+
+  # ========================================
+  # Menu - Menu bar items
+  # ========================================
+  menu:
+
+  # ========================================
+  # Actions - Menu actions
+  # ========================================
+  actions:
+
+  # ========================================
+  # Notifications - Toast messages
+  # ========================================
+  notifications:
+
+  # ========================================
+  # Shortcuts - Keyboard shortcuts modal
+  # ========================================
+  shortcuts:
+
+  # ========================================
+  # Header - Diagram header section
+  # ========================================
+  header:
+
+  # ========================================
+  # Status - Sync status indicators
+  # ========================================
+  status:
+
+  # ========================================
+  # Tooltips - Hover tooltips
+  # ========================================
+  tooltip:
+
+  # ========================================
+  # Access - Diagram access levels
+  # ========================================
+  access:
+    public: Public # Access level option
+    passwordProtected: Password Protected # Access level option
+    private: Private # Access level option
+    publicText: Anyone with the link # Public access description
+    passwordProtectedText: Anyone with the link and password # Protected access description
+    privateText: Only invited people # Private access description
+    publicTooltip: Public - People can access via its link # Public tooltip
+    passwordProtectedTooltip: Password Protected - People can access via its link, but have to fill the correct password # Protected tooltip
+    privateTooltip: Private - Only invited people can access # Private tooltip
+
+  # ========================================
+  # Detail Levels - Diagram display options
+  # ========================================
+  detailLevels:
+
+  # ========================================
+  # Detail Level Options - Dropdown options
+  # ========================================
+  detailLevelOptions:
+
+  # ========================================
+  # DBDocs - DBDocs integration
+  # ========================================
+  dbdocs:

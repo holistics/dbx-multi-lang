@@ -1,0 +1,120 @@
+# Header translations - Top header toolbar
+# UI Areas: Header toolbar, Account dropdown, Status indicators, Publish modal
+
+header:
+  # ========================================
+  # Header toolbar buttons - Left side of top header
+  # ========================================
+  buttons:
+    save: Save # Blue button in header toolbar (saves current diagram - Ctrl/Cmd+S)
+    share: Share # Share icon button in header toolbar (opens share modal)
+    editAsNew: Edit as New # Option in header dropdown (duplicates diagram to personal workspace)
+    signOut: Sign Out # Last item in account dropdown (top-right user menu)
+    publishToDbdocs: Publish to DBDocs # Button in header export dropdown
+    publish: Publish # Blue button in share modal (publishes current diagram to DBDocs)
+
+  # ========================================
+  # Draft badge - Small indicator next to diagram name
+  # ========================================
+  draftBadge:
+    label: Draft # Small badge showing "Draft" label (appears next to unsaved diagram name)
+    discardAll: Discard all drafts # Button in draft dropdown (discards all draft versions)
+
+  # ========================================
+  # Placeholders - Input field placeholders
+  # ========================================
+  placeholders:
+    untitledDiagram: Untitled Diagram # Placeholder text in header diagram name input (when name is empty)
+
+  # ========================================
+  # Status - Diagram sync status indicators (header toolbar)
+  # ========================================
+  status:
+    readOnly: Read-only # Status label when viewing read-only diagram (gray text)
+    synced: Synced # Status label showing all changes synced (green dot + text)
+    unsynced: Unsynced # Status label when changes pending sync (yellow dot + text)
+    saved: Saved # Status label when diagram saved (blue text)
+    unsaved: Unsaved # Status label with unsaved indicator (orange text)
+
+  # ========================================
+  # Sync status - Detailed sync messages (header toolbar tooltip/status)
+  # ========================================
+  syncStatus:
+    reconnecting: Reconnecting... # Toast message when reconnecting to server
+    saving: Saving diagram... # Toast message during manual save
+    autoSaving: Auto-saving diagram... # Toast during auto-save
+    disconnected: You are disconnected. Your edits are being saved locally and will be synced with the server the next time you are online. # Toast when offline
+    readOnly: This diagram is read-only # Toast explaining read-only state
+    unsaved: This diagram is not saved # Toast when diagram has unsaved changes
+    unsavedWithLogin: This diagram is not saved. Login is required to save your diagrams # Toast prompting login for saving
+
+  # ========================================
+  # Tooltips - Tooltip text for header elements
+  # ========================================
+  tooltips:
+    clickToEdit: Click to edit # Tooltip on diagram name (when hovering)
+    openInDbdocs: Open in dbdocs # Tooltip on DBDocs link icon
+    noPublishedContent: This project has no published content yet # Tooltip on empty DBDocs link
+    editAsNewDisabledWorkspace: <p class="text-center"><b>Edit as New</b> is not available because your workspace has been disabled due to subscription cancellation.</p> # Tooltip explaining disabled Edit as New
+    editAsNewNormal: Edit as New # Tooltip on Edit as New button (normal state)
+
+  # ========================================
+  # Draft status - Draft version status messages
+  # ========================================
+  draftStatus:
+    upToDate: Draft is up to date # Status text when draft matches published version
+    hasUnsavedChanges: Draft has unsaved changes # Status text when draft has changes
+
+  # ========================================
+  # Project status - Published project status messages
+  # ========================================
+  projectStatus:
+    upToDate: Project is up to date # Status when published project matches draft
+    hasUnsavedChanges: Project has unsaved changes # Status when draft not published
+    synchronized: Your diagram content is synchronized with the server # Status confirming sync
+    allChangesSaved: All changes saved # Toast when everything saved
+
+  # ========================================
+  # Publish validation - Messages in share/publish modal
+  # ========================================
+  publishValidation:
+    parseError: There's an error in your diagram. Please fix all syntax errors first before publishing. # Error in share modal when DBML has errors
+    saveFirst: Please save your diagram first # Error when trying to publish unsaved diagram
+    ownerPublishFirst: Please ask your diagram owner to publish a database document first # Error for collaborators without publish rights
+    needLogin: Please login to publish your changes # Error when publishing without authentication
+    hasErrors: You have errors in your diagram # Error summary in publish modal
+    noChanges: No changes to publish # Info when diagram unchanged
+
+  # ========================================
+  # Views - View dropdown labels
+  # ========================================
+  views:
+
+  # ========================================
+  # Modals - Modal dialog texts (discard, overwrite)
+  # ========================================
+  modals:
+    discardDraftsTitle: Discard All Drafts # Modal title (discard drafts confirmation)
+    discardDraftsContent: Are you sure you want to discard all your draft versions and fetch the latest content of the project? This action cannot be undone. # Modal warning text
+    discardButton: Discard # Primary button in discard modal (red)
+    cancelButton: Cancel # Secondary button (gray)
+
+  # ========================================
+  # Notifications - Toast notification messages
+  # ========================================
+  notifications:
+    publishSuccess: Project published successfully and draft versions cleared # Success toast after publish
+    publishFailed: Failed to publish project # Error toast when publish fails
+    discardSuccess: All drafts discarded and latest version loaded # Success toast after discard
+    discardFailed: Failed to discard drafts # Error toast when discard fails
+    showPublishFailed: Failed to show publish confirmation # Error toast when publish modal fails to open
+    renameFailed: Failed to rename diagram. Please try again # Error toast on rename failure
+
+  # ========================================
+  # Account dropdown - Top-right user menu
+  # ========================================
+  accountDropdown:
+    loggedInWithSSO: Logged in with SSO # Label showing SSO login status (top-right menu)
+    darkMode: Dark Mode # Toggle switch label for dark mode theme
+    managePersonalPlan: Manage Personal Plan # Link to billing/subscription management
+    manageAccount: Manage Account # Link to account settings page

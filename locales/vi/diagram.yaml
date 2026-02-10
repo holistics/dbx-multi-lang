@@ -1,0 +1,25 @@
+diagram:
+  editor:
+  toolbar:
+  views:
+  panels:
+  menu:
+  actions:
+  notifications:
+  shortcuts:
+  header:
+  status:
+  tooltip:
+  access:
+    public: Công khai
+    passwordProtected: Bảo vệ bằng mật khẩu
+    private: Riêng tư
+    publicText: Bất kỳ ai có link đều có thể truy cập
+    passwordProtectedText: Bất kỳ ai có link và mật khẩu
+    privateText: Chỉ những người được mời
+    publicTooltip: Công khai - Mọi người có thể truy cập qua link
+    passwordProtectedTooltip: Bảo vệ bằng mật khẩu - Mọi người có thể truy cập qua link, nhưng phải nhập đúng mật khẩu
+    privateTooltip: Riêng tư - Chỉ những người được mời mới có thể truy cập
+  detailLevels:
+  detailLevelOptions:
+  dbdocs:

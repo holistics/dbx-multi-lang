@@ -1,0 +1,97 @@
+dbrenderer:
+  tableSearchPanel:
+    title: Bảng
+    diagramViews: Chế độ xem sơ đồ
+    diagramViewsTooltip: Chế độ xem sơ đồ là tập hợp các bảng đại diện cho các miền (domain) hoặc quy trình cụ thể trong cơ sở dữ liệu của bạn.
+    viewActions: Hành động xem
+    cannotRenameOrDelete: Không thể đổi tên hoặc xóa {name}
+    rename: Đổi tên
+    delete: Xóa
+    reset: Đặt lại
+    save: Lưu
+    saveAsNew: Lưu mới
+    searchPlaceholder: Tìm bảng hoặc lược đồ (schema)
+    searchPlaceholderWithGroup: Tìm bảng, lược đồ hoặc nhóm
+    groupBy: Nhóm theo
+    showAll: Hiện tất cả
+    hideAll: Ẩn tất cả
+    schema: Lược đồ (Schema)
+    tableGroup: Nhóm bảng (Table Group)
+    noGroup: (không nhóm)
+    defaultView: Chế độ xem mặc định
+    unknownView: Chế độ xem không xác định
+    newView: Chế độ xem mới
+    copyOfName: Bản sao của {name}
+  controllerBar:
+    highlightRelationships: Làm nổi bật các mối quan hệ
+    unhighlightRelationships: Bỏ làm nổi bật các mối quan hệ
+    enableGrid: Bật lưới
+    disableGrid: Tắt lưới
+    addStickyNote: Thêm ghi chú dán (sticky note)
+    searchTables: Tìm kiếm bảng
+    hideTableSearch: Ẩn tìm kiếm bảng
+    enterFullscreen: Vào toàn màn hình
+    exitFullscreen: Thoát toàn màn hình
+  autoArrange:
+    title: Chọn thuật toán tự động sắp xếp
+    leftRight: Trái-phải
+    snowflake: Snowflake
+    compact: Gọn gàng
+    confirmMessage: Sơ đồ của bạn sẽ được tự động sắp xếp lại và bạn sẽ không thể hoàn tác. Bạn có chắc không?
+    confirm: Xác nhận (↵)
+    cancel: Hủy (Esc)
+  detailLevel:
+    title: Mức độ chi tiết
+    showAllColumns: Hiện tất cả cột
+    hideColumns: Ẩn cột
+    showPrimaryKeys: Chỉ khóa chính
+  viewDropdown:
+    renameView: Đổi tên chế độ xem
+    removeView: Xóa chế độ xem
+    newView: Chế độ xem mới
+  diffLegend:
+    added: Thêm mới
+    modified: Thay đổi
+    deleted: Xóa
+  viewportController:
+    zoomOut: Thu nhỏ (giữ để tăng tốc)
+    zoomIn: Phóng to (giữ để tăng tốc)
+    editZoomLevel: Nhấn để sửa mức thu phóng
+    zoomToFit: Thu phóng vừa tất cả phần tử
+    enablePanMode: Nhấn để bật chế độ trượt (pan)
+    disablePanMode: Nhấn để tắt chế độ trượt (pan)
+    panModeHint: Hoặc giữ phím Space/Chuột giữa + kéo để trượt
+  common:
+  emptyStateHint:
+    filtered:
+      title: Sơ đồ của bạn trống
+      description: Tất cả các bảng trong chế độ xem này hiện đang ẩn. Sử dụng bảng tìm kiếm để hiển thị các bảng trong sơ đồ.
+      openTableSearchPanel: Mở bảng tìm kiếm bảng
+    noDbml:
+      title: Không tìm thấy cơ sở dữ liệu
+      description: Mã DBML của bạn chưa chứa bảng nào. Thêm bảng và mối quan hệ để xem sơ đồ.
+      startAddingTables: Bắt đầu thêm bảng
+  loading:
+    initializingTables: Đang khởi tạo bảng...
+    initializingTablesProgress: Đang khởi tạo bảng... ({current}/{total})
+    initializingTableGroups: Đang khởi tạo nhóm bảng...
+    initializingTableGroupsProgress: Đang khởi tạo nhóm bảng... ({current}/{total})
+    initializingReferences: Đang khởi tạo quan hệ...
+    initializingReferencesProgress: Đang khởi tạo quan hệ... ({current}/{total})
+    arrangingDiagram: Đang sắp xếp sơ đồ của bạn...
+    finalizingDiagram: Đang hoàn tất sơ đồ...
+  filterConfigTags:
+    all: Tất cả
+    allTables: Tất cả bảng
+    allNotes: Tất cả ghi chú dán
+    nothing: Không có gì
+    moreItems: '{count} mục khác:'
+  stickyNotesSection:
+    title: Ghi chú dán
+  stickyNotes:
+    untitledNote: Ghi chú dán không có tiêu đề
+    removeNoteConfirmation: Xóa ghi chú dán của bạn?
+    'yes': Có
+    'no': Không
+  tableList:
+    noTablesFound: Không tìm thấy bảng nào

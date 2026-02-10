@@ -1,0 +1,79 @@
+ai:
+  panel:
+    inputPlaceholder: Hỏi tôi bất cứ điều gì về sơ đồ của bạn...
+    currentChat: Đoạn chat hiện tại
+    previousChats: Các đoạn chat trước
+    noOtherChats: Chưa có đoạn chat nào khác
+    sendInstructions: Nhấn Enter để gửi, Shift+Enter để xuống dòng
+    sendMessage: Gửi tin nhắn
+    workspaceDisabled: Không gian làm việc đã bị vô hiệu hóa
+    editPermissionRequired: Cần quyền chỉnh sửa
+    usageLimitReached: Bạn đã sử dụng hết giới hạn của tháng này. Vui lòng thử lại vào
+    learnMoreAboutUsageLimits: Tìm hiểu thêm về giới hạn sử dụng
+    chat: Trò chuyện
+    clickToEdit: Nhấn để chỉnh sửa
+    newChat: Trò chuyện mới
+    showChatHistory: Hiện lịch sử chat
+    hideChatHistory: Ẩn lịch sử chat
+  welcome:
+    title: Chào mừng đến với DBDiagram AI
+    subtitle: Trợ lý thông minh cho thiết kế cơ sở dữ liệu của bạn
+  messages:
+    thinking: Đang suy nghĩ...
+    generating: Đang tạo...
+    explaining: Đang giải thích...
+    error: Đã xảy ra lỗi. Vui lòng thử lại.
+    rateLimit: Bạn đã đạt đến giới hạn sử dụng. Vui lòng nâng cấp để tiếp tục.
+  diffViewer:
+    reject: Từ chối
+    accept: Chấp nhận
+    rejectAll: Từ chối tất cả
+    acceptAll: Chấp nhận tất cả
+  tokenUsage:
+    used: Đã dùng
+    usageText: Bạn đã sử dụng {percentage} giới hạn của mình
+    tokens: token
+    learnMore: Nhấn để tìm hiểu thêm về giới hạn
+    resetOn: Đặt lại vào
+  assistant:
+    dbmlCode: Mã DBML
+    lines: dòng
+  responseMessages:
+    noExplanation: Lược đồ đã được cập nhật. Kiểm tra trình xem khác biệt (diff viewer) để xem lại các thay đổi.
+    invalidIntent: |-
+      Chào mừng đến với dbdiagram AI.
+
+      Tôi ở đây để giúp bạn:
+
+      • **Thiết kế lược đồ DBML** - Tạo và sửa đổi bảng, mối quan hệ và cấu trúc cơ sở dữ liệu
+      • **Các phương pháp tốt nhất về CSDL** - Đề xuất các kiểu dữ liệu, chỉ mục (index) và ràng buộc (constraint) tối ưu
+      • **Tối ưu hóa lược đồ** - Tổ chức bảng với Nhóm bảng (TableGroup), thêm dấu thời gian, ánh xạ lại kiểu dữ liệu
+      • **Chuyển đổi nhanh** - Chuyển đổi giữa các hệ quản trị CSDL (PostgreSQL, MySQL, SQL Server, v.v.)
+
+      Hãy thử yêu cầu tôi tạo bảng, thêm mối quan hệ hoặc sử dụng các thao tác nhanh ở trên để bắt đầu!
+  quickActionTitles:
+    createTableGroups: Tạo Nhóm bảng (Table Groups)
+    addTimestampColumns: Thêm cột thời gian (Timestamp)
+    addRelationships: Thêm mối quan hệ
+    addIndexes: Thêm chỉ mục (Indexes)
+    learnDatabaseDesign: Học thiết kế CSDL
+    cloneSlack: Clone Slack
+    documentDatabase: Viết tài liệu CSDL
+    todoList: Ứng dụng Todo List
+    remapDataTypes: Ánh xạ lại kiểu dữ liệu
+  quickActionDescriptions:
+    createTableGroups: Tổ chức các bảng thành các nhóm logic theo nghiệp vụ và chức năng với màu sắc riêng biệt
+    addTimestampColumns: Thêm cột created_at và updated_at cho các bảng cần theo dõi lịch sử
+    addRelationships: Tự động phát hiện và thêm quan hệ khóa ngoại dựa trên quy ước đặt tên
+    addIndexes: Thêm khối chỉ mục (index block) cho các khóa ngoại và các cột thường được truy vấn
+    learnDatabaseDesign: Tìm hiểu về thiết kế cơ sở dữ liệu
+    cloneSlack: Tạo bản sao ứng dụng Slack
+    documentDatabase: Tạo cơ sở dữ liệu để lưu trữ tài liệu
+    todoList: Tạo ứng dụng danh sách việc cần làm
+    remapDataTypes: Chuyển đổi kiểu dữ liệu để khớp với hệ quản trị CSDL mục tiêu của bạn
+  quickActionSubActions:
+    postgresql: PostgreSQL
+    mysql: MySQL
+    sqlServer: SQL Server
+    sqlite: SQLite
+    oracle: Oracle

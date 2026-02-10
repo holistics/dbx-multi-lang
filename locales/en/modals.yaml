@@ -1,0 +1,278 @@
+# Modals translations - Modal dialogs throughout the app
+# UI Areas: Share modal, Import modal, Export modal, History modal, Upgrade modals
+
+modals:
+  # ========================================
+  # Generic modal titles - Common titles
+  # ========================================
+  titles:
+    confirm: Confirm # Generic confirm modal title
+    delete: Delete # Delete confirmation modal title
+    remove: Remove # Remove confirmation modal title
+    rename: Rename # Rename modal title
+
+  # ========================================
+  # Confirmation dialogs - Generic and specific
+  # ========================================
+  confirmation:
+    default:
+      message: Do you really want to continue this action? # Default confirmation message
+      checkbox: Don't show this again # Checkbox to disable future confirmations
+    delete:
+    deleteDiagram:
+      message: Are you sure you want to delete this diagram? This action cannot be undone. # Delete diagram warning
+      warning: Please note that this action cannot be undone! # Additional warning
+      embedLinkActive: You have an active embedded link. # Warning about embed links
+      lastViewed: Last viewed # Label for last viewed timestamp
+    removeWorkspace:
+    removeMember:
+      title: Remove Member # Remove member modal title
+      message: Are you sure you want to remove this member from the workspace? # Remove member confirmation
+      suggestion: Please type your email to confirm. # Input prompt for confirmation
+
+  # ========================================
+  # Share modal - Diagram sharing
+  # ========================================
+  share:
+    tabs:
+      sharing: Sharing # Sharing tab label
+      embedding: Embedding # Embedding tab label
+    generalAccess:
+      options:
+      passwordPlaceholder: Enter password # Password input placeholder
+      createPassword: Create # Create password button
+      updatePassword: Update # Update password button
+      canAccess: can access # Helper text suffix
+      copyLink: Copy link # Copy link button
+      updatePasswordButton: Update password # Update password button
+    permissions:
+      canEditAndInvite: Can edit & invite # Permission label
+      canEditAndInviteDesc: Can edit & invite people. # Permission description
+      canEdit: Can edit # Permission label
+      canEditDesc: Can edit, but not invite people. # Permission description
+      canView: Can view # Permission label
+      canViewDesc: Can view, but not edit. # Permission description
+      remove: Remove # Remove button
+      removeDesc: Remove this collaborator. # Remove description
+      noAccess: No access # No access label
+      noAccessDesc: No access to this diagram # No access description
+    invite:
+      placeholder: Email, comma or space separated # Email input placeholder
+      button: Invite # Invite button
+    members:
+      you: (you) # Label for current user
+    confirmRemoveCollaborator: You are about to remove <b>{email}</b> from collaborators, please confirm your action! # Remove confirmation message
+    errors:
+      publicPermissionUpdateFailed: Diagram's public permission update failed, please try again! # Error toast
+      publicPermissionUpdated: Diagram's public permission updated! # Success toast
+      passwordLength: Password must be between 6 and 128 characters # Validation error
+      cannotUpdateDiagramState: Can not update diagram state # Error toast
+    permissionChanged: Your permissions have been changed, please reload to apply changes! # Permission change toast
+    reload: Reload # Reload button
+    cannotGetPermission: Can not get diagram permission, please try again! # Error toast
+    embedLink:
+      title: Embedded Link # Embed link section title
+      lastView: Last view # Last viewed label
+      customize: Customize your embedded link with options # Customize label
+      darkMode: Dark mode # Dark mode toggle label
+      highlightRelationships: Highlight relationships # Highlight toggle label
+      detailLevel: Detail level # Detail level dropdown label
+      anyoneWithLink: Anyone with the link can view embedded diagram. # Help text
+      remove: Do you want to remove this embed link? Other people will no longer be able to access it. # Remove confirmation
+      generate: Generate embed link # Generate button
+      errors:
+        cannotGet: Can not get embed links, please try again! # Error toast
+        cannotCreate: Can not create embed link, please try again! # Error toast
+        cannotDelete: Can not delete embed link, please try again! # Error toast
+        cannotUpdate: Can not update embed link settings, please try again! # Error toast
+    tooltip:
+      viewOnly: This user permission is limited to viewing only. # Permission tooltip
+      upgradePersonal: To enable editing collaboration, please upgrade your personal workspace. # Upgrade tooltip
+      freeAccount: This user has a <b>free</b> account. # Free account tooltip
+      editAfterUpgrade: They will be allowed to <b>edit</b> the diagram after their account is upgraded. # Upgrade tooltip
+      collaborationLimit: You can only collaborate with # Collaboration limit text
+      diagramLimit: Up to 4 free users in each diagram (currently {count} users) # Diagram limit text
+      workspaceLimit: Up to 6 free users across all diagrams (currently {count} users) # Workspace limit text
+
+  # ========================================
+  # Private diagram - Password protection
+  # ========================================
+  private:
+    protected: Protected diagram # Protected badge
+    private: This diagram is private # Private badge
+    passwordRequired: You need a password to view this diagram. # Password required message
+    noAccess: You don't have access to this diagram. # No access message
+    enterPassword: Enter your password # Password input placeholder
+    incorrectPassword: Incorrect password # Incorrect password error
+    tryAgain: Please try again! # Try again button
+    viewDiagram: View Diagram # View diagram button
+
+  # ========================================
+  # Publish modal - Publish to DBDocs
+  # ========================================
+  publish:
+    title: Publish to # Modal title (publish dropdown)
+    dbdocsLink: dbdocs # Link label
+    publishButton: Publish # Publish button
+    bullet1: Publish a web-viewable database documentation of your diagram. # Feature bullet point
+    bullet2: Published document will be available in a dbdocs account linked to diagram owner email. # Feature bullet point
+    bullet3: Changes to your diagram will not automatically update the dbdocs document. # Feature bullet point
+    publishNewOrUpdate: Publish a new document / Update an existing one # Section title
+    updateExisting: Update an existing document # Update option
+    projectPublicDefault: Your dbdocs project is set to "public" by default. People can gain access through its link. # Public default info
+    documentProjectName: Document project name # Project name field label
+    enterProjectName: Enter project name # Project name placeholder
+    options: Options # Options section title
+    passwordProtection: Password protection # Password section title
+    passwordOptional: Enter a password (optional) # Password placeholder
+    passwordMinLength: Password must be at least 6 characters # Password validation
+    feedback: Let us know your # Feedback label
+    feedbackLink: feedback # Feedback link
+    aboutThisFeature: about this feature! # Feedback link suffix
+    errorLoadingProjects: An error has occurred while loading published projects, please contact our support at dbdiagram@holistics.io # Error toast
+    errorPublishing: An error has occurred while publishing project, please contact our support at dbdiagram@holistics.io # Error toast
+    projectNameEmpty: Project name cannot be empty # Validation error
+    projectNameInvalid: Project name can only contain only alphabets, numbers, space, "-" or "_" # Validation error
+    passwordInvalid: Invalid password, please try again! # Validation error
+
+  # ========================================
+  # Export modal - Export diagram
+  # ========================================
+  export:
+    formats:
+
+  # ========================================
+  # Import modal - Import diagram
+  # ========================================
+  import:
+    instructions: Instructions # Instructions section title
+    showInstructions: Show instructions # Show instructions button
+    hideInstructions: Hide instructions # Hide instructions button
+    upload: Upload {file} # Upload button label
+    appendMode: Append converted DBML to the end # Append mode toggle
+    modal:
+      validating: Validating # Validating modal title
+    dbConnection:
+      title: Generate DBML from Direct DB Connection # CLI import modal title
+      intro1: This method connects directly to your database and reads off your database schema (usually from INFORMATION_SCHEMA) to generate DBML code. # Intro text part 1
+      intro2: Everything runs on your local machine, and the database credentials are not tracked or sent anywhere. # Intro text part 2
+      intro3: The code is open source from the # Intro text part 3
+      intro3Link: and can be checked # Link text
+      step1: 1. Install # Step 1 label
+      step1Note: you might need to add # Note text
+      step1NoteSudo: before your commands on Linux # Sudo note
+      step2: 2. Run the following command # Step 2 label
+      exampleFor: Example for # Example label
+      successMessage: 'Generated DBML file from database''s connection: database.dbml' # Success message
+      successBigquery: 'Note: For BigQuery, your JSON credential file must contain the following keys' # BigQuery note
+      successSnowflake1: Attempting to connect... # Snowflake step 1
+      successSnowflake2: Executing query... # Snowflake step 2
+      successSnowflake3: Query executed successfully. # Snowflake step 3
+      successSnowflake4: Connection destroyed successfully. # Snowflake step 4
+      step3: 3. Copy and paste the produced DBML into the code panel to visualize your database. # Step 3 label
+      databaseTypes:
+        mysql: MySQL # Database type label
+        postgres: PostgreSQL # Database type label
+        mssql: SQL Server # Database type label
+        oracle: Oracle # Database type label
+        snowflake: Snowflake # Database type label
+        bigquery: BigQuery # Database type label
+
+  # ========================================
+  # Sticky notes modal - Sticky notes upgrade
+  # ========================================
+  stickyNotes:
+
+  # ========================================
+  # Upgrade modals - Feature upgrade prompts
+  # ========================================
+  upgrade:
+    titles:
+      createDiagram: You have hit the limit for diagram numbers! # Diagram limit title
+      detailLevels: You discovered a paid feature! # Detail levels title
+      detailLevelsDbdocs: You discovered a feature of paid projects! # DBDocs detail levels title
+      diagramView: Creating additional views is a paid feature # Diagram view title
+      headerColor: You discovered a paid feature! # Header color title
+      headerColorDbdocs: You discovered a feature of paid projects! # DBDocs header color title
+      privateDiagram: You discovered a paid feature! # Private diagram title
+      stickyNotes: You discovered a paid feature! # Sticky notes title
+      stickyNotesDbdocs: You discovered a feature of paid projects! # DBDocs sticky notes title
+      versionHistory: You discovered a paid feature! # Version history title
+      aiAssistant: dbdiagram AI Assistant is a paid feature # AI assistant title
+    descriptions:
+      createDiagram: Upgrade to our paid plans now for <b>unlimited<br>diagram creations</b> and other advanced features! # Description
+      detailLevels: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # Description
+      detailLevelsDbdocs: Upgrade your project to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # DBDocs description
+      diagramView: On the Free plan, you can only save the default view.<br>Upgrade to our paid plans now for <b>unlimited diagram views</b> and other advanced features! # Description
+      headerColor: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Relationship Color, Table Group and access all our upcoming features! # Description
+      headerColorDbdocs: Upgrade your project to get Detail Levels, Header Color,<br>Relationship Color, Table Group and access all our upcoming features! # DBDocs description
+      privateDiagram: Upgrade to our paid plans now for protecting your diagrams with<br><strong> Password Protection, Private Mode </strong> and other advanced features! # Description
+      stickyNotes: Upgrade to our paid plans now to include<strong> Sticky Notes </strong> in your diagram<br>and take advantage of other advanced features! # Description
+      stickyNotesDbdocs: Upgrade your project to include<strong> Sticky Notes </strong> in your diagram<br>and take advantage of other advanced features! # DBDocs description
+      versionHistory: Freely experiment your ideas with different <b>schema versions</b>.<br>Roll back to a past version whenever you want. # Description
+      aiAssistant: Upgrade to our paid plans now to design and optimize your database schemas<br>with <strong>AI-powered natural language assistance</strong> # Description
+    buttons:
+      viewPlans: View Plans # View plans button
+      upgradeProject: Upgrade Project # Upgrade project button
+
+  # ========================================
+  # History modal - Version history
+  # ========================================
+  history:
+    title: Version History # Modal title
+    deletedUser: Deleted user # Deleted user label
+    restoreVersion: Restore version # Restore button
+    makeCopy: Make a copy # Copy button
+    upgradeTitle: Upgrade to view, restore & duplicate # Upgrade prompt title
+    errors:
+      cannotView: Cannot view this version # Error toast
+      cannotCopy: Cannot copy this version # Error toast
+    restoreConfirmation:
+      title: Restore this version? # Restore confirmation title
+      message: Your current diagram will be restored to this version. # Restore message
+    success:
+      versionCopied: Your version is copied successfully # Success toast
+    copiedName: (Restored) {name} # Copied version name prefix
+    untitled: Untitled # Untitled diagram label
+
+  # ========================================
+  # Error messages - Generic modal errors
+  # ========================================
+  errors:
+    inviteMaxEmails: Can not invite more than 50 emails # Validation error
+    inviteFailed: Can not invite, please try again! # Error toast
+    cannotGetCollaborators: Can not get collaborators information! # Error toast
+    permissionUpdateFailed: Update permission failed # Error toast
+    permissionUpdateSuccess: Update permission successfully # Success toast
+    inviteSent: Invite sent # Success toast
+    permissionDenied: Permission Denied # Permission error
+    cannotGetWorkspaceParticipants: Cannot get workspace participants, please try again! # Error toast
+    cannotGetUserWorkspaces: Can not get user workspaces, please try again! # Error toast
+    cannotGetWorkspacesSubscription: Can not get workspaces subscription, please try again! # Error toast
+    exportSqlFailed: Fail to export SQL, please update your database schema and try again. # Error toast
+    savePdfFailed: Unable to save your pdf # Error toast
+    saveSvgFailed: Unable to save your svg # Error toast
+    savePngFailed: Unable to save your png # Error toast
+    cannotGetDiagrams: Can not get diagrams, please try to reload the app! # Error toast
+    cannotRemoveDefaultView: You are not allowed to remove the default view! # Error toast
+    cannotRemoveView: Cannot remove this view, please reload and try again! # Error toast
+    removeViewTitle: Remove Diagram View? # Remove view modal title
+    removeViewContent: Do you want to remove the "{name}" view? # Remove view confirmation
+    cancel: Cancel # Cancel button
+    removeView: Remove View # Remove view button
+    close: Close # Close button
+
+  # ========================================
+  # Workspace type labels
+  # ========================================
+  workspaceType:
+    personal: Personal Workspace # Personal workspace label
+    team: Team Workspace # Team workspace label
+
+  # ========================================
+  # Detail levels dropdown
+  # ========================================
+  detailLevelsDropdown:
+    tableNames: Table names # Show table names only
+    keysOnly: Keys only # Show keys only
+    allFields: All fields # Show all fields

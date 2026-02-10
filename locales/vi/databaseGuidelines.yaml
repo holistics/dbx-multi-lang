@@ -1,0 +1,58 @@
+databaseGuidelines:
+  mysql:
+    title: MySQL
+    install: Cài đặt
+    tool: mysqldump
+    terminalCommand: Trong terminal, chạy lệnh sau
+    linuxPrefix: (Trên Linux, bạn có thể cần thêm
+    sudo: sudo
+    linuxSuffix: trước nó)
+    example: Ví dụ
+    step3: Sao chép nội dung SQL đã dump và dán vào modal này
+  postgres:
+    title: PostgreSQL
+    install: Cài đặt
+    tool: pg_dump
+    terminalCommand: Trong terminal, chạy lệnh sau
+    linuxPrefix: (Trên Linux, bạn có thể cần thêm
+    sudo: sudo
+    linuxSuffix: trước nó)
+    example: Ví dụ
+    step3: Sao chép nội dung SQL đã dump và dán vào modal này
+  csv:
+    title: CSV
+    description: Tải lên file CSV để tự động tạo cấu trúc bảng DBML. Hàng đầu tiên phải chứa tiêu đề cột
+    exampleFormat: Ví dụ định dạng CSV
+  rails:
+    title: Rails schema.rb
+    step1: Mở file
+    schemaRb: schema.rb
+    step1Suffix: trong project của bạn bằng bất kỳ trình soạn thảo code nào
+    step2: Sao chép nội dung schema.rb và dán vào modal này
+  sqlServer:
+    title: SQL Server
+    step1: Tải về và cài đặt
+    tool: SQL Server Management Studio
+    step1Suffix: SSMS
+    step2: Mở SSMS và kết nối tới SQL server của bạn
+    step3: Sau khi kết nối nhấp chuột phải vào database cần export và chọn
+    scriptDatabaseAs: Script Database as
+    createTo: CREATE To
+    newQueryEditorWindows: New Query Editor Windows
+    step4: Sao chép nội dung SQL đã dump và dán vào modal này
+  oracle:
+    title: Oracle
+    description: Chạy các lệnh sau bằng tay sau đó tải lên file SQL sử dụng
+    uploadSql: Tải lên .sql
+    createDirectory: Tạo directory object trong Oracle
+    grantPrivileges: Cấp quyền đọc và ghi trên directory object
+    exportSchema: Export một schema cụ thể ra file dump
+    convertDump: Chuyển đổi file dump sang file SQL
+  snowflake:
+    title: Snowflake
+    description: Chạy lệnh
+    getDdl: GET_DDL
+    descriptionSuffix: bằng tay sau đó sao chép và dán output vào ô nhập liệu trên màn hình hoặc lưu thành file và tải lên sử dụng
+    uploadSql: Tải lên .sql
+    exportAllTables: Export tất cả các bảng DDL cho toàn bộ database
+    selectSchema: Chọn tất cả các bảng trong một schema
