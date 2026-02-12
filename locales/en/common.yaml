@@ -129,6 +129,9 @@ common:
   editor:
     keyboardShortcuts: Keyboard Shortcuts # Dialog title for keyboard shortcuts reference
     openInDbdiagram: Open in dbdiagram.io # Link in embedded DBDocs views (top-right)
+    hide: Hide editor # Button to hide code editor
+    expand: Expand editor # Button to expand code editor
+    loadingContent: Loading content from server, please wait... # Loading message in editor
 
   # ========================================
   # Toast notifications - Popup messages at bottom-right
