@@ -17,6 +17,7 @@ workspace:
   sharedWithMe: Shared with Me # Sidebar section for shared diagrams
   workspace: Workspace # Label for team workspace type
   private: Private # Privacy label for private items
+  readOnlyMode: Workspace is in read-only mode due to a subscription cancellation. Please renew to enable workspace functionality.
 
   # ========================================
   # Folders - Sidebar folder management

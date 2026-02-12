@@ -11,6 +11,7 @@ workspace:
   sharedWithMe: Đã chia sẻ với tôi
   workspace: Không gian làm việc
   private: Riêng tư
+  readOnlyMode: Không gian làm việc đang ở chế độ chỉ đọc do hủy gói đăng ký. Vui lòng gia hạn để bật các tính năng của không gian làm việc.
 
   folders:
 
