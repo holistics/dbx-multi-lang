@@ -199,6 +199,8 @@ modals:
       stickyNotesDbdocs: You discovered a feature of paid projects! # DBDocs sticky notes title
       versionHistory: You discovered a paid feature! # Version history title
       aiAssistant: dbdiagram AI Assistant is a paid feature # AI assistant title
+      tableGroup: You discovered a paid feature! # Table group title
+      tableGroupDbdocs: You discovered a feature of paid projects! # DBDocs table group title
     descriptions:
       createDiagram: Upgrade to our paid plans now for <b>unlimited<br>diagram creations</b> and other advanced features! # Description
       detailLevels: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # Description
@@ -211,6 +213,8 @@ modals:
       stickyNotesDbdocs: Upgrade your project to include<strong> Sticky Notes </strong> in your diagram<br>and take advantage of other advanced features! # DBDocs description
       versionHistory: Freely experiment your ideas with different <b>schema versions</b>.<br>Roll back to a past version whenever you want. # Description
       aiAssistant: Upgrade to our paid plans now to design and optimize your database schemas<br>with <strong>AI-powered natural language assistance</strong> # Description
+      tableGroup: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # Description
+      tableGroupDbdocs: Upgrade your project to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # DBDocs description
     buttons:
       viewPlans: View Plans # View plans button
       upgradeProject: Upgrade Project # Upgrade project button
@@ -261,6 +265,7 @@ modals:
     cancel: Cancel # Cancel button
     removeView: Remove View # Remove view button
     close: Close # Close button
+    reload: Reload # Reload button
 
   # ========================================
   # Workspace type labels

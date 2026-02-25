@@ -161,6 +161,8 @@ modals:
       stickyNotesDbdocs: Bạn đã khám phá một tính năng của dự án trả phí!
       versionHistory: Bạn đã khám phá một tính năng trả phí!
       aiAssistant: Trợ lý AI dbdiagram là tính năng trả phí
+      tableGroup: Bạn đã khám phá một tính năng trả phí!
+      tableGroupDbdocs: Bạn đã khám phá một tính năng của dự án trả phí!
     descriptions:
       createDiagram: Nâng cấp lên các gói trả phí ngay để <b>tạo sơ đồ không giới hạn</b> và các tính năng nâng cao khác!
       detailLevels: Nâng cấp lên các gói trả phí ngay để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
@@ -173,6 +175,8 @@ modals:
       stickyNotesDbdocs: Nâng cấp dự án của bạn để thêm<strong> Ghi chú dán </strong> vào sơ đồ của bạn<br>và tận dụng các tính năng nâng cao khác!
       versionHistory: Tự do thử nghiệm ý tưởng với các <b>phiên bản lược đồ</b> khác nhau.<br>Quay lại phiên bản quá khứ bất cứ khi nào bạn muốn.
       aiAssistant: Nâng cấp lên các gói trả phí ngay để thiết kế và tối ưu hóa lược đồ cơ sở dữ liệu<br>với <strong>hỗ trợ ngôn ngữ tự nhiên từ AI</strong>
+      tableGroup: Nâng cấp lên các gói trả phí ngay để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
+      tableGroupDbdocs: Nâng cấp dự án của bạn để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
     buttons:
       viewPlans: Xem các gói
       upgradeProject: Nâng cấp dự án
@@ -215,6 +219,7 @@ modals:
     cancel: Hủy
     removeView: Xóa Chế độ xem
     close: Đóng
+    reload: Tải lại
   workspaceType:
     personal: Không gian làm việc cá nhân
     team: Không gian làm việc nhóm
