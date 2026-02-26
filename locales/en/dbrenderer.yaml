@@ -60,9 +60,9 @@ dbrenderer:
   # ========================================
   detailLevel:
     title: Detail level # Dropdown title
-    showAllColumns: Show all columns # Option (shows all columns)
-    hideColumns: Hide columns # Option (hides non-PK columns)
-    showPrimaryKeys: Primary keys only # Option (shows only primary keys)
+    all: All fields # Option (shows all fields)
+    tables: Table names # Option (only shows table names, hides all fields)
+    keys: Keys only # Option (only shows primary and foreign keys, hides other fields)
 
   # ========================================
   # View Dropdown - View selector menu

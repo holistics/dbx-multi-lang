@@ -20,41 +20,6 @@ workspace:
   readOnlyMode: Workspace is in read-only mode due to a subscription cancellation. Please renew to enable workspace functionality.
 
   # ========================================
-  # Folders - Sidebar folder management
-  # ========================================
-  folders:
-
-  # ========================================
-  # Diagrams - Diagram list actions
-  # ========================================
-  diagrams:
-
-  # ========================================
-  # Sharing - Share diagram modal
-  # ========================================
-  sharing:
-
-  # ========================================
-  # Collaboration - Collaborator management
-  # ========================================
-  collaboration:
-
-  # ========================================
-  # Templates - Workspace templates
-  # ========================================
-  templates:
-
-  # ========================================
-  # Activity - Activity feed
-  # ========================================
-  activity:
-
-  # ========================================
-  # Notifications - In-app notifications
-  # ========================================
-  notifications:
-
-  # ========================================
   # Settings - Workspace settings page
   # ========================================
   settings:
@@ -213,14 +178,3 @@ workspace:
       nameWhitespace: Token name cannot be empty or only contain white space # Validation error
       upgradeRequired: Please upgrade your plan to create tokens and access our API # Upgrade required error
       ownerOnly: Only workspace owner can generate new tokens # Permission error
-
-  # ========================================
-  # Common labels - Shared labels
-  # ========================================
-  common:
-    labels:
-
-  # ========================================
-  # Errors - Error messages
-  # ========================================
-  errors:

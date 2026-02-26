@@ -8,7 +8,6 @@ modals:
     default:
       message: Bạn có thực sự muốn tiếp tục hành động này?
       checkbox: Đừng hiện lại thông báo này
-    delete:
     deleteDiagram:
       message: Bạn có chắc muốn xóa sơ đồ này? Hành động này không thể hoàn tác.
       warning: Vui lòng lưu ý rằng hành động này không thể hoàn tác!
@@ -24,7 +23,6 @@ modals:
       sharing: Chia sẻ
       embedding: Nhúng
     generalAccess:
-      options:
       passwordPlaceholder: Nhập mật khẩu
       createPassword: Tạo
       updatePassword: Cập nhật
@@ -53,6 +51,14 @@ modals:
       publicPermissionUpdated: Quyền công khai của sơ đồ đã được cập nhật!
       passwordLength: Mật khẩu phải từ 6 đến 128 ký tự
       cannotUpdateDiagramState: Không thể cập nhật trạng thái sơ đồ
+      createPasswordFailed: Tạo mật khẩu thất bại
+      updatePasswordFailed: Cập nhật mật khẩu thất bại
+    success:
+      createPasswordSuccess: Tạo mật khẩu thành công
+      updatePasswordSuccess: Cập nhật mật khẩu thành công
+      diagramIsPublic: Cập nhật quyền riêng tư của sơ đồ sang công khai
+      diagramIsPrivate: Cập nhật quyền riêng tư của sơ đồ sang riêng tư
+      diagramIsProtected: Cập nhật quyền riêng tư của sơ đồ sang bảo vệ bằng mật khẩu
     permissionChanged: Quyền hạn của bạn đã thay đổi, vui lòng tải lại để áp dụng!
     reload: Tải lại
     cannotGetPermission: Không thể lấy quyền hạn sơ đồ, vui lòng thử lại!
@@ -112,8 +118,7 @@ modals:
     projectNameEmpty: Tên dự án không được để trống
     projectNameInvalid: Tên dự án chỉ được chứa chữ cái, số, khoảng trắng, "-" hoặc "_"
     passwordInvalid: Mật khẩu không hợp lệ, vui lòng thử lại!
-  export:
-    formats:
+
   import:
     instructions: Hướng dẫn
     showInstructions: Hiển thị hướng dẫn
@@ -147,7 +152,7 @@ modals:
         oracle: Oracle
         snowflake: Snowflake
         bigquery: BigQuery
-  stickyNotes:
+
   upgrade:
     titles:
       createDiagram: Bạn đã đạt giới hạn số lượng sơ đồ!

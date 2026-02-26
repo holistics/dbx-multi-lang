@@ -86,11 +86,6 @@ header:
     noChanges: No changes to publish # Info when diagram unchanged
 
   # ========================================
-  # Views - View dropdown labels
-  # ========================================
-  views:
-
-  # ========================================
   # Modals - Modal dialog texts (discard, overwrite)
   # ========================================
   modals:
