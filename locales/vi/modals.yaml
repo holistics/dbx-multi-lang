@@ -56,9 +56,9 @@ modals:
     success:
       createPasswordSuccess: Tạo mật khẩu thành công
       updatePasswordSuccess: Cập nhật mật khẩu thành công
-      diagramIsPublic: Cập nhật quyền riêng tư của sơ đồ sang công khai
-      diagramIsPrivate: Cập nhật quyền riêng tư của sơ đồ sang riêng tư
-      diagramIsProtected: Cập nhật quyền riêng tư của sơ đồ sang bảo vệ bằng mật khẩu
+      diagramIsPublic: Cập nhật quyền truy cập của sơ đồ sang công khai
+      diagramIsPrivate: Cập nhật quyền truy cập của sơ đồ sang riêng tư
+      diagramIsProtected: Cập nhật quyền truy cập của sơ đồ sang bảo vệ bằng mật khẩu
     permissionChanged: Quyền hạn của bạn đã thay đổi, vui lòng tải lại để áp dụng!
     reload: Tải lại
     cannotGetPermission: Không thể lấy quyền hạn sơ đồ, vui lòng thử lại!
@@ -86,7 +86,7 @@ modals:
       diagramLimit: Tối đa 4 người dùng miễn phí trong mỗi sơ đồ (hiện tại {count} người dùng)
       workspaceLimit: Tối đa 6 người dùng miễn phí trên tất cả các sơ đồ (hiện tại {count} người dùng)
   private:
-    protected: Sơ đồ được bảo vệ
+    protected: Sơ đồ được bảo vệ bằng mật khẩu
     private: Sơ đồ này riêng tư
     passwordRequired: Bạn cần mật khẩu để xem sơ đồ này.
     noAccess: Bạn không có quyền truy cập sơ đồ này.
