@@ -7,9 +7,9 @@ databaseGuidelines:
     install: 安装
     tool: mysqldump
     terminalCommand: 在你的终端中运行以下命令
-    linuxPrefix: 在 Linux 上你可能需要添加
+    linuxPrefix: 在 Linux 上，你可能需要在命令前添加
     sudo: sudo
-    linuxSuffix: 在它之前
+    linuxSuffix: ""
     example: 示例
     step3: 复制导出的 SQL 内容并粘贴到此对话框中
 
@@ -18,9 +18,9 @@ databaseGuidelines:
     install: 安装
     tool: pg_dump
     terminalCommand: 在你的终端中运行以下命令
-    linuxPrefix: 在 Linux 上你可能需要添加
+    linuxPrefix: 在 Linux 上，你可能需要在命令前添加
     sudo: sudo
-    linuxSuffix: 在它之前
+    linuxSuffix: ""
     example: 示例
     step3: 复制导出的 SQL 内容并粘贴到此对话框中
 

@@ -108,7 +108,7 @@ workspace:
     shared:
       description: まだダイアグラムへの招待を受けていません。
     workspacePublic:
-      description: チームに表示されているダイアグラムはありません。
+      description: チームに表示されているダイアグラムはありません。次のボタンで新しいダイアグラムを作成できます：
     workspacePrivate:
       description: プライベートダイアグラムはありません。新しいダイアグラムを作成してプライベートにできます。
   plan:

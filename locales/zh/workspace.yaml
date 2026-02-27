@@ -112,9 +112,9 @@ workspace:
     workspacePrivate:
       description: 没有私有图表。你可以创建新图表并保持私有。
   plan:
-    pro: 专业版
-    free: 免费版
-    team: 团队版
+    pro: 专业版方案
+    free: 免费版方案
+    team: 团队版方案
     disabled: （已禁用）
   welcome:
     title: 欢迎来到团队工作区！

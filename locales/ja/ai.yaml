@@ -11,7 +11,7 @@ ai:
     sendMessage: メッセージを送信
     workspaceDisabled: ワークスペースが無効です
     editPermissionRequired: 編集権限が必要です
-    usageLimitReached: 今月の使用量の上限に達しました。次の日以降にもう一度お試しください
+    usageLimitReached: 今月の使用量の上限に達しました。次回のリセット日以降に再度お試しください：
     learnMoreAboutUsageLimits: 使用量の制限について詳しく見る
     chat: チャット
     clickToEdit: クリックして編集
@@ -61,7 +61,7 @@ ai:
     addIndexes: インデックスを追加
     learnDatabaseDesign: データベース設計を学ぶ
     cloneSlack: Slack をクローン
-    documentDatabase: ドキュメントデータベース
+    documentDatabase: データベースを文書化
     todoList: ToDoリスト
     remapDataTypes: データ型を再マッピング
   quickActionDescriptions:

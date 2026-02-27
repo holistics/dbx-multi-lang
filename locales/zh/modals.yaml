@@ -132,8 +132,8 @@ modals:
       intro3: 代码是开源的，来自
       intro3Link: 可以查看
       step1: 1. 安装
-      step1Note: 你可能需要添加
-      step1NoteSudo: 在 Linux 上的命令前
+      step1Note: 在 Linux 上，你可能需要在命令前添加
+      step1NoteSudo: ""
       step2: 2. 运行以下命令
       exampleFor: 示例
       successMessage: 从数据库连接生成的 DBML 文件：database.dbml
@@ -165,7 +165,7 @@ modals:
       versionHistory: 你发现了一个付费功能！
       aiAssistant: dbdiagram AI 助手是一个付费功能
       tableGroup: 你发现了一个付费功能！
-      tableGroupDbdocs: 你发现了表组——付费项目的一个功能！
+      tableGroupDbdocs: 你发现了付费项目的一个功能！
     descriptions:
       createDiagram: 立即升级到我们的付费方案，获得<b>无限<br>图表创建</b>和其他高级功能！
       detailLevels: 立即升级到我们的付费方案，获得详细级别、标题颜色、<br>表组以及所有即将推出的功能！

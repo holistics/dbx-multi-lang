@@ -61,7 +61,7 @@ ai:
     addIndexes: 添加索引
     learnDatabaseDesign: 学习数据库设计
     cloneSlack: 克隆 Slack
-    documentDatabase: 文档数据库
+    documentDatabase: 为数据库创建文档
     todoList: 待办事项列表
     remapDataTypes: 重新映射数据类型
   quickActionDescriptions:

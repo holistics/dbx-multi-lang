@@ -5,7 +5,7 @@ billing:
   buttons:
     upgrade: アップグレード
     upgradeToPersonalPro: パーソナル Pro プランにアップグレード
-    collaborateWithTeam: チームプランで協力
+    collaborateWithTeam: チームプランで共同作業
   pricing: null
   plans:
     free:
@@ -65,7 +65,7 @@ billing:
     personalUpgrade: プレミアム機能を利用するには、パーソナルワークスペースをアップグレードしてください。
     teamReadOnly: サブスクリプションのキャンセルにより、ワークスペースは読み取り専用モードです。ワークスペース機能を有効にするには、更新してください。
   planPickingSimpleView:
-    collaborateWithTeamPlan: チームプランで協力
+    collaborateWithTeamPlan: チームプランで共同作業
     collaborateWithColleagues: 同僚と一緒に作業しましょう。
     manageTeamDiagrams: チームのダイアグラムを一か所で管理。
     startFreeTrial: 7日間の無料トライアルを開始

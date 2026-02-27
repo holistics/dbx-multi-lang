@@ -5,7 +5,7 @@ modals:
   titles:
     confirm: 確認
     delete: 削除
-    remove: 削除
+    remove: 取り除く
     rename: 名前を変更
   confirmation:
     default:
@@ -132,8 +132,8 @@ modals:
       intro3: コードはオープンソースです
       intro3Link: から確認できます
       step1: 1. インストール
-      step1Note: 追加が必要な場合があります
-      step1NoteSudo: Linux でのコマンドの前に
+      step1Note: Linux ではコマンドの前に
+      step1NoteSudo: の追加が必要な場合があります
       step2: 2. 以下のコマンドを実行
       exampleFor: 例
       successMessage: データベース接続から DBML ファイルが生成されました：database.dbml
@@ -165,7 +165,7 @@ modals:
       versionHistory: 有料機能を発見しました！
       aiAssistant: dbdiagram AI アシスタントは有料機能です
       tableGroup: 有料機能を発見しました！
-      tableGroupDbdocs: テーブルグループ（有料プロジェクトの機能）を発見しました！
+      tableGroupDbdocs: 有料プロジェクトの機能を発見しました！
     descriptions:
       createDiagram: 有料プランにアップグレードして、<b>無制限の<br>ダイアグラム作成</b>やその他の高度な機能をご利用ください！
       detailLevels: 有料プランにアップグレードして、詳細レベル、ヘッダーカラー、<br>テーブルグループ、その他の今後の機能をご利用ください！

@@ -9,7 +9,7 @@ portal:
     welcome: 欢迎
     signingIn: 正在登录
     successfullySignedIn: 已成功登录
-    powering: 技术支持
+    powering: 技术由此提供
     signOutFrom: 从 {clientName} 退出
     signOutFromAccount: 退出你的账户
 

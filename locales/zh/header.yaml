@@ -5,7 +5,7 @@ header:
   buttons:
     save: 保存
     share: 分享
-    editAsNew: 编辑为新
+    editAsNew: 复制并编辑
     signOut: 退出登录
     publishToDbdocs: 发布到 DBDocs
     publish: 发布
@@ -32,8 +32,8 @@ header:
     clickToEdit: 点击编辑
     openInDbdocs: 在 dbdocs 中打开
     noPublishedContent: 此项目还没有已发布的内容
-    editAsNewDisabledWorkspace: <p class="text-center"><b>编辑为新</b>不可用，因为你的工作区已因订阅取消而被禁用。</p>
-    editAsNewNormal: 编辑为新
+    editAsNewDisabledWorkspace: <p class="text-center"><b>复制并编辑</b>不可用，因为你的工作区已因订阅取消而被禁用。</p>
+    editAsNewNormal: 复制并编辑
   draftStatus:
     upToDate: 草稿已是最新
     hasUnsavedChanges: 草稿有未保存的更改
