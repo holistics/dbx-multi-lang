@@ -2,139 +2,17 @@
 # UI Areas: Diagram editor, Toolbar, Header, Panels
 
 diagram:
-  editor:
-    title: ダイアグラムエディター
-    untitled: 無題のダイアグラム
-    placeholder: ここに DBML コードを入力してください...
-
-  toolbar:
-    undo: 元に戻す
-    redo: やり直す
-    save: 保存
-    export: エクスポート
-    share: 共有
-    settings: 設定
-    help: ヘルプ
-    fullscreen: 全画面
-    zoomIn: 拡大
-    zoomOut: 縮小
-    resetZoom: ズームをリセット
-    fitToScreen: 画面に合わせる
-    autoLayout: 自動レイアウト
-    clear: キャンバスをクリア
-
-  views:
-    default: デフォルトビュー
-    list: リストビュー
-    custom: カスタムビュー
-    createView: 新しいビューを作成
-    editView: ビューを編集
-    deleteView: ビューを削除
-    viewName: ビュー名
-    viewNamePlaceholder: ビュー名を入力...
-
-  panels:
-    tableSearch: テーブル検索
-    tableSearchPlaceholder: テーブルを検索...
-    noTablesFound: テーブルが見つかりません
-    showAllTables: すべてのテーブルを表示
-    hideAllTables: すべてのテーブルを非表示
-
-  menu:
-    file: ファイル
-    edit: 編集
-    view: 表示
-    help: ヘルプ
-
-  actions:
-    newDiagram: 新しいダイアグラム
-    openDiagram: ダイアグラムを開く
-    saveDiagram: ダイアグラムを保存
-    duplicateDiagram: ダイアグラムを複製
-    deleteDiagram: ダイアグラムを削除
-    exportAsImage: 画像としてエクスポート
-    exportAsSql: SQL としてエクスポート
-    exportAsPdf: PDF としてエクスポート
-    print: 印刷
-    settings: 設定
-    shortcuts: キーボードショートカット
-    documentation: ドキュメント
-    feedback: フィードバックを送信
-    reportBug: バグを報告
-
-  notifications:
-    saving: 保存中...
-    saved: 正常に保存されました
-    errorSaving: ダイアグラムの保存中にエラーが発生しました
-    autoSaved: 自動保存されました
-    unsavedChanges: 保存されていない変更があります
-    confirmClose: 本当に閉じますか？保存されていない変更は失われます。
-
-  shortcuts:
-    toggleTitle: キーボードショートカット
-    close: 閉じる
-    save: ダイアグラムを保存
-    undo: 元に戻す
-    redo: やり直す
-    find: コード内を検索
-    toggleEditor: エディターを切り替え
-    toggleFullscreen: 全画面を切り替え
-    zoomIn: 拡大
-    zoomOut: 縮小
-
-  header:
-    clickToEdit: クリックして編集
-    publishToDbdocs: dbdocs に公開
-    history: 履歴
-    editAsNew: 新規として編集
-    signOut: サインアウト
-    personal: パーソナル
-    dbdiagramAI: dbdiagram AI
-    openInDbdocs: dbdocs で開く
-    draftIsUpToDate: ドラフトは最新です
-    draftHasUnsavedChanges: ドラフトに未保存の変更があります
-    projectIsUpToDate: プロジェクトは最新です
-    projectHasUnsavedChanges: プロジェクトに未保存の変更があります
-    diagramSynchronized: ダイアグラムの内容はサーバーと同期されています
-    reconnecting: 再接続中...
-    savingDiagram: ダイアグラムを保存中...
-    autoSavingDiagram: ダイアグラムを自動保存中...
-    disconnectedMessage: 切断されました。編集はローカルに保存され、<br>次回オンライン時にサーバーと同期されます。
-    readOnlyMode: このダイアグラムは読み取り専用です
-    unsavedDiagramMessage: このダイアグラムは保存されていません{loginRequired}
-    loginRequiredForSave: 。ダイアグラムを保存するにはログインが必要です
-    allChangesSaved: すべての変更が保存されました
-    errorInDiagram: ダイアグラムにエラーがあります。公開前にすべての構文エラーを修正してください。
-    pleaseSaveFirst: まずダイアグラムを保存してください
-    askOwnerToPublish: ダイアグラムのオーナーに先にデータベースドキュメントの公開を依頼してください
-    editAsNewDisabled: <b>新規として編集</b>は、サブスクリプションのキャンセルによりワークスペースが<br>無効になっているため利用できません。
-    pleaseLoginToPublish: 変更を公開するにはログインしてください
-    youHaveErrorsInDiagram: ダイアグラムにエラーがあります
-    noChangesToPublish: 公開する変更はありません
-    noPublishedContentYet: このプロジェクトにはまだ公開されたコンテンツがありません
-    discardAllDrafts: すべてのドラフトを破棄
-    discardAllDraftsConfirmation: すべてのドラフトバージョンを破棄して、プロジェクトの最新コンテンツを取得してもよろしいですか？この操作は元に戻せません。
-    discard: 破棄
-    projectPublishedSuccessfully: プロジェクトが正常に公開され、ドラフトバージョンがクリアされました
-    failedToPublishProject: プロジェクトの公開に失敗しました
-    failedToDiscardDrafts: ドラフトの破棄に失敗しました
-    allDraftsDiscarded: すべてのドラフトが破棄され、最新バージョンが読み込まれました
-    cannotChangeDiagramName: ダイアグラム名を変更できません。もう一度お試しください！
-    publishToDbdocsConfirmationTitle: dbdocs に公開
-    publishToDbdocsConfirmationMessage: このプロジェクトを dbdocs に公開してもよろしいですか？
-    versionOutdatedWarning: このプロジェクトの新しいバージョンが存在します。他のユーザーの変更を上書きしようとしています。
-
-  status:
-    readOnly: 読み取り専用
-    synced: 同期済み
-    unsynced: 未同期
-    saved: 保存済み
-    unsaved: 未保存
-
-  tooltip:
-    focusDiagramElement: フォーカス
-    toFocus: フォーカス
-
+  editor: null
+  toolbar: null
+  views: null
+  panels: null
+  menu: null
+  actions: null
+  notifications: null
+  shortcuts: null
+  header: null
+  status: null
+  tooltip: null
   access:
     public: 公開
     passwordProtected: パスワード保護
@@ -145,16 +23,6 @@ diagram:
     publicTooltip: 公開 - リンクからアクセスできます
     passwordProtectedTooltip: パスワード保護 - リンクからアクセスできますが、正しいパスワードの入力が必要です
     privateTooltip: プライベート - 招待された人のみがアクセスできます
-
-  detailLevels:
-    tables: テーブル
-    keys: キー
-    all: すべて
-
-  detailLevelOptions:
-    tableNames: テーブル名
-    keysOnly: キーのみ
-    allFields: すべてのフィールド
-
-  dbdocs:
-    publishConfirmation: このドラフトを dbdocs プロジェクトに公開しますか？
+  detailLevels: null
+  detailLevelOptions: null
+  dbdocs: null

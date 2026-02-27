@@ -3,92 +3,19 @@
 
 auth:
   login:
-    title: 登录 DBDiagram
-    subtitle: 欢迎回来！请登录以继续。
     email: 邮箱
-    password: 密码
-    forgotPassword: 忘记密码？
-    rememberMe: 记住我
-    loginButton: 登录
-    noAccount: 还没有账号？
-    signupLink: 注册
-    orContinueWith: 或通过以下方式继续
     loginWithGithub: 使用 GitHub 登录
-    loginWithGoogle: 使用 Google 登录
     loginWithMicrosoft: 使用 Microsoft 登录
-
-  signup:
-    title: 注册 DBDiagram
-    subtitle: 创建你的免费账号开始使用。
-    name: 全名
-    email: 邮箱
-    password: 密码
-    confirmPassword: 确认密码
-    agreeToTerms: 我同意
-    termsOfService: 服务条款
-    and: 和
-    privacyPolicy: 隐私政策
-    signupButton: 注册
-    alreadyHaveAccount: 已有账号？
-    loginLink: 登录
-    orContinueWith: 或通过以下方式继续
-    signupWithGithub: 使用 GitHub 注册
-    signupWithGoogle: 使用 Google 注册
-    signupWithMicrosoft: 使用 Microsoft 注册
-
-  forgotPassword:
-    title: 重置你的密码
-    subtitle: 输入你的邮箱地址，我们将发送重置密码链接给你。
-    email: 邮箱
-    sendLink: 发送重置链接
-    backToLogin: 返回登录
-    checkEmail: 检查你的邮箱
-    emailSent: 我们已将密码重置链接发送到你的邮箱
-    didntReceive: 没有收到邮件？
-    resendLink: 重新发送
-
-  resetPassword:
-    title: 设置新密码
-    subtitle: 在下方输入你的新密码。
-    newPassword: 新密码
-    confirmPassword: 确认密码
-    resetButton: 重置密码
-    passwordMismatch: 密码不匹配
-    passwordTooWeak: 密码强度太弱
-    success: 密码重置成功
-    loginNow: 立即登录
-
   oauth:
     authorizationError: 授权失败
-    authorizationDenied: 授权被拒绝
-    linkingError: 账号关联失败
-    alreadyLinked: 此账号已关联到另一个用户
-    emailNotVerified: 请先验证你的邮箱
     processing: 处理中...
     justAMomentPleaseWait: 请稍候...
     signedInAs: 你已登录为
     failedSignInGitHub: 使用 GitHub 登录失败
     failedSignInMicrosoft: 使用 Microsoft 登录失败，请重试！
-
-  verification:
-    title: 验证你的邮箱
-    subtitle: 我们已向你的邮箱发送了验证链接
-    resendLink: 重新发送验证邮件
-    verifyButton: 验证邮箱
-    verified: 邮箱验证成功
-    expired: 验证链接已过期
-    invalidLink: 无效的验证链接
-
   errors:
-    invalidCredentials: 邮箱或密码无效
-    userNotFound: 未找到使用此邮箱的账号
-    emailAlreadyExists: 使用此邮箱的账号已存在
-    weakPassword: 密码强度太弱
-    invalidToken: 无效或已过期的令牌
-    sessionExpired: 你的会话已过期。请重新登录
     invalidEmail: 无效的邮箱地址，请重试！
     githubPopupBlocked: 请允许弹出窗口以使用 GitHub 登录
-
   otp:
     signInWithEmail: 使用邮箱登录
     otpSentTo: OTP 已发送至
@@ -103,34 +30,20 @@ auth:
     resendAfter: 你可以在 {counter} 秒后重新发送 OTP
     submit: 提交
     sendOtpFailed: 发送 OTP 失败，请重试！
-
   sso:
     orContinueWith: 或通过以下方式继续
-
   portal:
     signIn: 登录
-
   additional:
     unknownError: 未知错误
-    unknownErrorDuringLogin: 登录过程中出现未知错误
-    networkError: 网络错误
-    invalidAccess: 无效访问
-    invalidAuthenticationRequest: 无效的认证请求
-    invalidClient: 无效的客户端
-    missingClientIdOrRedirectUri: 缺少 client_id 或重定向 URI
     invalidOtp: 无效的 OTP，请重试！
     cannotValidateOtp: 无法验证 OTP，请重试！
     emailNotVerified: 你的邮箱未验证。请在 Microsoft 账号中验证邮箱。
-    invalidToken: 无效的令牌
     cannotSignInMicrosoftSSO: 无法使用 Microsoft SSO 登录，请重试！
     cannotSignIn: 无法登录，请重试！
     failedReloadProject: 登录后重新加载项目失败。请刷新页面。
     loginError: 登录错误
     signInCancelled: 登录已取消。请重试。
-    authenticationFailed: 认证失败！
-    invalidRequest: 无效的请求！
-    connectionErrorRetrying: 连接错误。正在重试...
-
   logoutCallback:
     redirecting: 重定向中...
     redirectDescription: 你将在几秒钟后被重定向到应用程序。

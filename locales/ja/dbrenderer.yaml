@@ -7,7 +7,7 @@ dbrenderer:
     diagramViews: ダイアグラムビュー
     diagramViewsTooltip: ダイアグラムビューは、データベース内の特定のドメインやワークフローを表すテーブルのコレクションです。
     viewActions: ビュー操作
-    cannotRenameOrDelete: "{name} の名前変更や削除はできません"
+    cannotRenameOrDelete: '{name} の名前変更や削除はできません'
     rename: 名前を変更
     delete: 削除
     reset: リセット
@@ -23,10 +23,8 @@ dbrenderer:
     noGroup: （グループなし）
     defaultView: デフォルトビュー
     unknownView: 不明なビュー
-    database: データベース
     newView: 新しいビュー
-    copyOfName: "{name} のコピー"
-
+    copyOfName: '{name} のコピー'
   controllerBar:
     highlightRelationships: リレーションシップをハイライト
     unhighlightRelationships: リレーションシップのハイライトを解除
@@ -37,36 +35,27 @@ dbrenderer:
     hideTableSearch: テーブル検索を非表示
     enterFullscreen: 全画面に切り替え
     exitFullscreen: 全画面を終了
-
   autoArrange:
     title: 自動配置アルゴリズムを選択
     leftRight: 左から右
-    topDown: 上から下
-    rightLeft: 右から左
-    bottomUp: 下から上
     snowflake: スノーフレーク
     compact: コンパクト
     confirmMessage: ダイアグラムが自動的に再配置され、元に戻すことはできません。よろしいですか？
     confirm: 確認 (↵)
     cancel: キャンセル (Esc)
-
   detailLevel:
     title: 詳細レベル
     showAllColumns: すべてのカラムを表示
     hideColumns: カラムを非表示
     showPrimaryKeys: 主キーのみ
-    showLimitedColumns: 限定カラム
-
   viewDropdown:
     renameView: ビューの名前を変更
     removeView: ビューを削除
     newView: 新しいビュー
-
   diffLegend:
     added: 追加
     modified: 変更
     deleted: 削除
-
   viewportController:
     zoomOut: 縮小（長押しで加速）
     zoomIn: 拡大（長押しで加速）
@@ -75,16 +64,7 @@ dbrenderer:
     enablePanMode: クリックしてパンモードを有効化
     disablePanMode: クリックしてパンモードを無効化
     panModeHint: または Space / マウス中ボタン + ドラッグでパン
-
-  common:
-    confirm: 確認
-    cancel: キャンセル
-    save: 保存
-    close: 閉じる
-    delete: 削除
-    rename: 名前を変更
-    remove: 削除
-
+  common: null
   emptyStateHint:
     filtered:
       title: ダイアグラムビューが空です
@@ -94,7 +74,6 @@ dbrenderer:
       title: データベーススキーマが見つかりません
       description: DBML コードにはまだテーブルが含まれていません。テーブルとリレーションシップを追加して、ダイアグラムを表示してください。
       startAddingTables: テーブルの追加を開始
-
   loading:
     initializingTables: テーブルを初期化中...
     initializingTablesProgress: テーブルを初期化中... ({current}/{total})
@@ -104,21 +83,18 @@ dbrenderer:
     initializingReferencesProgress: リファレンスを初期化中... ({current}/{total})
     arrangingDiagram: ダイアグラムを配置中...
     finalizingDiagram: ダイアグラムを仕上げ中...
-
   filterConfigTags:
     all: すべて
     allTables: すべてのテーブル
     allNotes: すべてのノート
     nothing: なし
-    moreItems: '他 {count} 項目：'
-
+    moreItems: 他 {count} 項目：
   stickyNotesSection:
     title: 付箋
   stickyNotes:
     untitledNote: 無題のノート
     removeNoteConfirmation: ノートを削除しますか？
-    'yes': 'はい'
-    'no': 'いいえ'
-
+    'yes': はい
+    'no': いいえ
   tableList:
     noTablesFound: テーブルが見つかりません

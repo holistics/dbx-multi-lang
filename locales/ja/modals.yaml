@@ -6,50 +6,28 @@ modals:
     confirm: 確認
     delete: 削除
     remove: 削除
-    archive: アーカイブ
-    unarchive: アーカイブ解除
     rename: 名前を変更
-    share: 共有
-    invite: 招待
-    settings: 設定
-    publish: 公開
-    export: エクスポート
-    import: インポート
-
   confirmation:
     default:
-      title: 確認
       message: この操作を本当に続行しますか？
       checkbox: 今後表示しない
-    delete:
-      title: 削除
-      message: この項目を削除してもよろしいですか？
+    delete: null
     deleteDiagram:
-      title: ダイアグラムを削除
       message: このダイアグラムを削除してもよろしいですか？この操作は元に戻せません。
       warning: この操作は元に戻せないことにご注意ください！
       embedLinkActive: アクティブな埋め込みリンクがあります。
       lastViewed: 最終閲覧
-    removeWorkspace:
-      title: ワークスペースを削除
-      message: このワークスペースを削除してもよろしいですか？
+    removeWorkspace: null
     removeMember:
       title: メンバーを削除
       message: このメンバーをワークスペースから削除してもよろしいですか？
       suggestion: 確認のためメールアドレスを入力してください。
-
   share:
-    title: ダイアグラムを共有
     tabs:
       sharing: 共有
       embedding: 埋め込み
     generalAccess:
-      title: 一般アクセス
-      options:
-        private: プライベート
-        restricted: 制限付き
-        public: リンクを知っている全員
-      password: パスワード
+      options: null
       passwordPlaceholder: パスワードを入力
       createPassword: 作成
       updatePassword: 更新
@@ -57,11 +35,6 @@ modals:
       copyLink: リンクをコピー
       updatePasswordButton: パスワードを更新
     permissions:
-      title: 権限
-      owner: オーナー
-      admin: 管理者
-      editor: 編集者
-      viewer: 閲覧者
       canEditAndInvite: 編集と招待が可能
       canEditAndInviteDesc: 編集と他のユーザーの招待ができます。
       canEdit: 編集可能
@@ -73,27 +46,16 @@ modals:
       noAccess: アクセスなし
       noAccessDesc: このダイアグラムへのアクセス権がありません
     invite:
-      title: ユーザーを招待
       placeholder: メールアドレス（カンマまたはスペースで区切り）
       button: 招待
-      copyLink: リンクをコピー
-      linkCopied: リンクがコピーされました！
     members:
-      title: アクセス権を持つユーザー
       you: （あなた）
     confirmRemoveCollaborator: <b>{email}</b> をコラボレーターから削除しようとしています。操作を確認してください！
     errors:
       publicPermissionUpdateFailed: ダイアグラムの公開権限の更新に失敗しました。もう一度お試しください！
       publicPermissionUpdated: ダイアグラムの公開権限が更新されました！
       passwordLength: パスワードは6文字以上128文字以下である必要があります
-      createPasswordSuccess: パスワードの作成に成功しました
-      updatePasswordSuccess: パスワードの更新に成功しました
-      createPasswordFailed: パスワードの作成に失敗しました
-      updatePasswordFailed: パスワードの更新に失敗しました
       cannotUpdateDiagramState: ダイアグラムの状態を更新できません
-      diagramIsPublic: ダイアグラムが公開になりました！
-      diagramIsPrivate: ダイアグラムがプライベートになりました！
-      diagramIsProtected: ダイアグラムが保護されました！
     permissionChanged: 権限が変更されました。変更を適用するには再読み込みしてください！
     reload: 再読み込み
     cannotGetPermission: ダイアグラムの権限を取得できません。もう一度お試しください！
@@ -120,7 +82,6 @@ modals:
       collaborationLimit: コラボレーションできる最大人数
       diagramLimit: 各ダイアグラムに最大4人の無料ユーザー（現在 {count} 人）
       workspaceLimit: すべてのダイアグラムで最大6人の無料ユーザー（現在 {count} 人）
-
   private:
     protected: 保護されたダイアグラム
     private: このダイアグラムはプライベートです
@@ -130,15 +91,10 @@ modals:
     incorrectPassword: パスワードが正しくありません
     tryAgain: もう一度お試しください！
     viewDiagram: ダイアグラムを表示
-
   publish:
     title: 公開先
     dbdocsLink: dbdocs
-    placeholder: プロジェクト URL
-    urlLabel: dbdocs.holistics.io/
     publishButton: 公開
-    success: 正常に公開されました！
-    error: 公開に失敗しました
     bullet1: ダイアグラムのウェブ閲覧可能なデータベースドキュメントを公開します。
     bullet2: 公開されたドキュメントは、ダイアグラムオーナーのメールアドレスにリンクされた dbdocs アカウントで利用可能になります。
     bullet3: ダイアグラムへの変更は dbdocs ドキュメントに自動的に反映されません。
@@ -159,48 +115,13 @@ modals:
     projectNameEmpty: プロジェクト名を入力してください
     projectNameInvalid: プロジェクト名にはアルファベット、数字、スペース、"-" または "_" のみ使用できます
     passwordInvalid: 無効なパスワードです。もう一度お試しください！
-
   export:
-    title: ダイアグラムをエクスポート
-    button: エクスポート
-    formats:
-      png: PNG 画像
-      svg: SVG 画像
-      pdf: PDF ドキュメント
-      dbml: DBML
-      sql: SQL
-    toPDF: PDF へ
-    toPNG: PNG へ
-    toSVG: SVG へ
-    toPostgreSQL: PostgreSQL へ
-    toMySQL: MySQL へ
-    toSQLServer: SQL Server へ
-    toOracleSQL: Oracle SQL へ
-    error: エクスポートに失敗しました
-
+    formats: null
   import:
-    title: インポート
-    fromDatabase: データベースから
-    fromFile: ファイルから
-    fromSQL: SQL から
-    pasteSQL: ここに SQL を貼り付けてください
-    validate: 検証
-    validating: 検証中...
-    invalid: 無効な SQL フォーマットです
-    error: インポートに失敗しました
-    fromDbConnection: データベース接続から（CLI 経由）
-    fromMySQL: MySQL から
-    fromPostgreSQL: PostgreSQL から
-    fromSQLServer: SQL Server から
-    fromSnowflake: Snowflake から
-    fromOracleSQL: Oracle SQL から
-    fromRails: Rails (schema.rb) から
-    fromCSV: CSV から
-    fromFormat: "{format} からインポート"
     instructions: 手順
     showInstructions: 手順を表示
     hideInstructions: 手順を非表示
-    upload: "{file} をアップロード"
+    upload: '{file} をアップロード'
     appendMode: 変換された DBML を末尾に追加
     modal:
       validating: 検証中
@@ -215,8 +136,8 @@ modals:
       step1NoteSudo: Linux でのコマンドの前に
       step2: 2. 以下のコマンドを実行
       exampleFor: 例
-      successMessage: 'データベース接続から DBML ファイルが生成されました：database.dbml'
-      successBigquery: '注意：BigQuery の場合、JSON 認証情報ファイルに以下のキーが含まれている必要があります'
+      successMessage: データベース接続から DBML ファイルが生成されました：database.dbml
+      successBigquery: 注意：BigQuery の場合、JSON 認証情報ファイルに以下のキーが含まれている必要があります
       successSnowflake1: 接続を試行中...
       successSnowflake2: クエリを実行中...
       successSnowflake3: クエリが正常に実行されました。
@@ -229,12 +150,7 @@ modals:
         oracle: Oracle
         snowflake: Snowflake
         bigquery: BigQuery
-
-  stickyNotes:
-    title: 付箋
-    upgradeRequired: 付箋を使用するにはプランをアップグレードしてください
-    upgradeButton: プランを見る
-
+  stickyNotes: null
   upgrade:
     titles:
       createDiagram: ダイアグラム数の上限に達しました！
@@ -267,7 +183,6 @@ modals:
     buttons:
       viewPlans: プランを見る
       upgradeProject: プロジェクトをアップグレード
-
   history:
     title: バージョン履歴
     deletedUser: 削除されたユーザー
@@ -284,7 +199,6 @@ modals:
       versionCopied: バージョンが正常にコピーされました
     copiedName: （復元済み）{name}
     untitled: 無題
-
   errors:
     inviteMaxEmails: 50件以上のメールアドレスを招待することはできません
     inviteFailed: 招待できません。もう一度お試しください！
@@ -300,27 +214,18 @@ modals:
     savePdfFailed: PDF を保存できません
     saveSvgFailed: SVG を保存できません
     savePngFailed: PNG を保存できません
-    checkoutFailed: チェックアウト中にエラーが発生しました。後でもう一度お試しください
-    checkoutSuccess: チェックアウトに成功しました
-    switchPlanSuccess: プランの切り替えに成功しました
-    paymentProcessing: お支払いを処理中です。数分後にページを再読み込みしてください。
-    tokenGenerated: トークンの生成に成功しました
-    githubSignInFailed: GitHub でのサインインに失敗しました
-    microsoftSignInFailed: Microsoft でのサインインに失敗しました。もう一度お試しください！
-    supportContact: エラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
     cannotGetDiagrams: ダイアグラムを取得できません。アプリを再読み込みしてください！
     cannotRemoveDefaultView: デフォルトビューは削除できません！
     cannotRemoveView: このビューを削除できません。再読み込みしてもう一度お試しください！
     removeViewTitle: ダイアグラムビューを削除しますか？
-    removeViewContent: "「{name}」ビューを削除しますか？"
+    removeViewContent: 「{name}」ビューを削除しますか？
     cancel: キャンセル
     removeView: ビューを削除
     close: 閉じる
-
+    reload: 再読み込み
   workspaceType:
     personal: パーソナルワークスペース
     team: チームワークスペース
-
   detailLevelsDropdown:
     tableNames: テーブル名
     keysOnly: キーのみ

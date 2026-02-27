@@ -3,92 +3,19 @@
 
 auth:
   login:
-    title: DBDiagram にログイン
-    subtitle: お帰りなさい！ログインして続けてください。
     email: メールアドレス
-    password: パスワード
-    forgotPassword: パスワードをお忘れですか？
-    rememberMe: ログイン状態を保持する
-    loginButton: ログイン
-    noAccount: アカウントをお持ちでないですか？
-    signupLink: 新規登録
-    orContinueWith: または以下で続行
     loginWithGithub: GitHub でログイン
-    loginWithGoogle: Google でログイン
     loginWithMicrosoft: Microsoft でログイン
-
-  signup:
-    title: DBDiagram に新規登録
-    subtitle: 無料アカウントを作成して始めましょう。
-    name: 氏名
-    email: メールアドレス
-    password: パスワード
-    confirmPassword: パスワードの確認
-    agreeToTerms: 以下に同意します
-    termsOfService: 利用規約
-    and: および
-    privacyPolicy: プライバシーポリシー
-    signupButton: 新規登録
-    alreadyHaveAccount: すでにアカウントをお持ちですか？
-    loginLink: ログイン
-    orContinueWith: または以下で続行
-    signupWithGithub: GitHub で新規登録
-    signupWithGoogle: Google で新規登録
-    signupWithMicrosoft: Microsoft で新規登録
-
-  forgotPassword:
-    title: パスワードをリセット
-    subtitle: メールアドレスを入力してください。パスワードリセット用のリンクをお送りします。
-    email: メールアドレス
-    sendLink: リセットリンクを送信
-    backToLogin: ログインに戻る
-    checkEmail: メールを確認してください
-    emailSent: パスワードリセット用のリンクをメールに送信しました
-    didntReceive: メールが届きませんか？
-    resendLink: 再送信
-
-  resetPassword:
-    title: 新しいパスワードを設定
-    subtitle: 新しいパスワードを以下に入力してください。
-    newPassword: 新しいパスワード
-    confirmPassword: パスワードの確認
-    resetButton: パスワードをリセット
-    passwordMismatch: パスワードが一致しません
-    passwordTooWeak: パスワードが脆弱です
-    success: パスワードのリセットに成功しました
-    loginNow: 今すぐログイン
-
   oauth:
     authorizationError: 認証に失敗しました
-    authorizationDenied: 認証が拒否されました
-    linkingError: アカウントの連携に失敗しました
-    alreadyLinked: このアカウントは既に別のユーザーに連携されています
-    emailNotVerified: まずメールアドレスを確認してください
     processing: 処理中...
     justAMomentPleaseWait: 少々お待ちください...
     signedInAs: ログイン中のアカウント
     failedSignInGitHub: GitHub でのログインに失敗しました
     failedSignInMicrosoft: Microsoft でのログインに失敗しました。もう一度お試しください！
-
-  verification:
-    title: メールアドレスの確認
-    subtitle: 確認用のリンクをメールに送信しました
-    resendLink: 確認メールを再送信
-    verifyButton: メールを確認
-    verified: メールアドレスの確認に成功しました
-    expired: 確認用のリンクの有効期限が切れました
-    invalidLink: 無効な確認用リンクです
-
   errors:
-    invalidCredentials: メールアドレスまたはパスワードが無効です
-    userNotFound: このメールアドレスのアカウントが見つかりません
-    emailAlreadyExists: このメールアドレスのアカウントは既に存在します
-    weakPassword: パスワードが脆弱です
-    invalidToken: 無効または期限切れのトークンです
-    sessionExpired: セッションが期限切れです。もう一度ログインしてください
     invalidEmail: 無効なメールアドレスです。もう一度お試しください！
     githubPopupBlocked: GitHub でのログインにはポップアップを許可してください
-
   otp:
     signInWithEmail: メールでサインイン
     otpSentTo: OTP の送信先
@@ -103,34 +30,20 @@ auth:
     resendAfter: '{counter}秒後に OTP を再送信できます'
     submit: 送信
     sendOtpFailed: OTP の送信に失敗しました。もう一度お試しください！
-
   sso:
     orContinueWith: または以下で続行
-
   portal:
     signIn: サインイン
-
   additional:
     unknownError: 不明なエラー
-    unknownErrorDuringLogin: ログイン中に不明なエラーが発生しました
-    networkError: ネットワークエラー
-    invalidAccess: 無効なアクセス
-    invalidAuthenticationRequest: 無効な認証リクエスト
-    invalidClient: 無効なクライアント
-    missingClientIdOrRedirectUri: client_id または redirect uri がありません
     invalidOtp: 無効な OTP です。もう一度お試しください！
     cannotValidateOtp: OTP を検証できません。もう一度お試しください！
     emailNotVerified: メールアドレスが確認されていません。Microsoft アカウントで確認してください。
-    invalidToken: 無効なトークン
     cannotSignInMicrosoftSSO: Microsoft SSO でサインインできません。もう一度お試しください！
     cannotSignIn: サインインできません。もう一度お試しください！
     failedReloadProject: ログイン後のプロジェクトの再読み込みに失敗しました。ページを更新してください。
     loginError: ログインエラー
     signInCancelled: サインインがキャンセルされました。もう一度お試しください。
-    authenticationFailed: 認証に失敗しました！
-    invalidRequest: 無効なリクエストです！
-    connectionErrorRetrying: 接続エラーです。再試行中...
-
   logoutCallback:
     redirecting: リダイレクト中...
     redirectDescription: 数秒後にアプリケーションにリダイレクトされます。

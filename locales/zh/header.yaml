@@ -5,29 +5,21 @@ header:
   buttons:
     save: 保存
     share: 分享
-    history: 历史
     editAsNew: 编辑为新
-    export: 导出
-    signIn: 登录
-    signout: 退出登录
+    signOut: 退出登录
     publishToDbdocs: 发布到 DBDocs
     publish: 发布
-    discard: 丢弃
-
   draftBadge:
     label: 草稿
     discardAll: 丢弃所有草稿
-
   placeholders:
     untitledDiagram: 未命名图表
-
   status:
     readOnly: 只读
     synced: 已同步
     unsynced: 未同步
     saved: 已保存
     unsaved: 未保存
-
   syncStatus:
     reconnecting: 重新连接中...
     saving: 正在保存图表...
@@ -36,29 +28,20 @@ header:
     readOnly: 此图表为只读
     unsaved: 此图表未保存
     unsavedWithLogin: 此图表未保存。需要登录才能保存你的图表
-
   tooltips:
-    synced: 所有更改已同步
-    unsynced: 你有未保存的更改
-    readonly: 只读模式
-    unsaved: 未保存的更改
-    loginRequired: 请登录以保存
     clickToEdit: 点击编辑
     openInDbdocs: 在 dbdocs 中打开
     noPublishedContent: 此项目还没有已发布的内容
     editAsNewDisabledWorkspace: <p class="text-center"><b>编辑为新</b>不可用，因为你的工作区已因订阅取消而被禁用。</p>
     editAsNewNormal: 编辑为新
-
   draftStatus:
     upToDate: 草稿已是最新
     hasUnsavedChanges: 草稿有未保存的更改
-
   projectStatus:
     upToDate: 项目已是最新
     hasUnsavedChanges: 项目有未保存的更改
     synchronized: 你的图表内容已与服务器同步
     allChangesSaved: 所有更改已保存
-
   publishValidation:
     parseError: 你的图表中有错误。请先修复所有语法错误再发布。
     saveFirst: 请先保存你的图表
@@ -66,20 +49,12 @@ header:
     needLogin: 请登录以发布你的更改
     hasErrors: 你的图表中有错误
     noChanges: 没有需要发布的更改
-
-  views:
-    main: 主视图
-
+  views: null
   modals:
-    overwriteTitle: 覆盖图表
-    overwriteContent: 这将覆盖现有图表。你要继续吗？
-    'yes': 是的，覆盖
-    'no': 取消
     discardDraftsTitle: 丢弃所有草稿
     discardDraftsContent: 你确定要丢弃所有草稿版本并获取项目的最新内容吗？此操作无法撤销。
     discardButton: 丢弃
     cancelButton: 取消
-
   notifications:
     publishSuccess: 项目发布成功，草稿版本已清除
     publishFailed: 发布项目失败
@@ -87,7 +62,6 @@ header:
     discardFailed: 丢弃草稿失败
     showPublishFailed: 显示发布确认失败
     renameFailed: 重命名图表失败。请重试
-
   accountDropdown:
     loggedInWithSSO: 已通过 SSO 登录
     darkMode: 深色模式

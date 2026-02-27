@@ -6,36 +6,15 @@ billing:
     upgrade: 升级
     upgradeToPersonalPro: 升级到个人专业版
     collaborateWithTeam: 使用团队版协作
-
-  pricing:
-    title: 定价
-    subtitle: 选择适合你的方案
-    free: 免费版
-    pro: 专业版
-    team: 团队版
-    currentPlan: 当前方案
-    upgrade: 升级
-    downgrade: 降级
-    cancel: 取消订阅
-
+  pricing: null
   plans:
     free:
-      name: 免费版
-      description: 适合个人和小型项目
-      price: "$0"
-      period: 永久免费
       features:
         - 最多 3 个图表
         - 基础编辑工具
         - 导出为 SQL/PNG
         - 社区支持
-      cta: 开始使用
-
     pro:
-      name: 专业版
-      description: 适合需要更多功能的专业人士
-      price: "$10"
-      period: 每月
       features:
         - 无限图表
         - 高级编辑工具
@@ -43,13 +22,7 @@ billing:
         - 优先支持
         - 导出为 PDF
         - 自定义主题
-      cta: 开始免费试用
-
     team:
-      name: 团队版
-      description: 适合团队和组织
-      price: 自定义
-      period: 联系销售
       features:
         - 专业版全部功能
         - 团队协作
@@ -57,83 +30,15 @@ billing:
         - SSO 认证
         - 优先支持
         - 自定义集成
-      cta: 联系销售
-
   payment:
-    title: 支付信息
-    cardNumber: 卡号
-    expiryDate: 有效期
-    cvv: CVV
-    nameOnCard: 持卡人姓名
-    savePayment: 保存支付方式
     paymentMethod: 支付方式
-    addNewCard: 添加新卡
-
-  billing:
-    title: 账单
-    invoiceHistory: 发票历史
-    downloadInvoice: 下载
-    nextBilling: 下次账单日期
-    planRenews: 你的方案将在以下日期续费
-    planWillCancel: 你的方案将在以下日期取消
-
-  subscription:
-    manage: 管理订阅
-    changePlan: 更换方案
-    cancelSubscription: 取消订阅
-    reactivate: 重新激活订阅
-    confirmCancel: 你确定要取消订阅吗？
-    cancelFeedback: 请告诉我们你取消的原因
-    reason: 取消原因
-    tooExpensive: 太贵了
-    missingFeatures: 缺少功能
-    switchedService: 转用其他服务
-    notUsing: 使用不够频繁
-    other: 其他
-
-  personalPro:
-    name: 个人专业版
-    description: 适合独立自由职业者、顾问设计数据库图表
-    everythingInFree: ← 免费版全部功能，另外
-    unlimitedDiagramsTables: 无限图表和表
-    unlimitedViews: 无限图表视图
-    aiAssistant: AI 助手
-    protectedDiagrams: 受保护和私有图表
-    limitedCollaboration: 有限协作
-    headerColorTableGroup: 标题颜色和表组
-    detailLevels: 图表详细级别
-    versionHistory: 版本历史
-    stickyNotes: 便签
-    upgradeNow: 立即升级
-    getStarted: 开始使用
-
-  team:
-    name: 团队版
-    description: 适合需要设计和协作数据库图表的团队
-    everythingInPro: ← 个人专业版全部功能，另外
-    collaborativeWorkspace: 协作工作区
-    publicApi: 公共 API
-    teamManagement: 团队管理与协作
-    adminBilling: 统一管理和账单
-    freeUserLicenses: 3 个免费用户许可
-    startTrial: 开始 7 天免费试用
-    upgradeNow: 立即升级
-    noCreditCard: 无需信用卡。随时取消。
-    additionalLicense: 额外许可
-    perMonthUser: /月/用户
-
-  publicPricing:
-    title: 我们的定价方案
-    subtitle: 永久免费。通过我们的定价方案获取更多功能。
-    monthlyBilling: 月付
-    annualBilling: 年付
-    saveUpTo: 最高节省 42%
-    getStartedFree: 免费开始
-    errorFetching: 获取用户定价出错
-
+  billing: null
+  subscription: null
+  personalPro: null
+  team: null
+  publicPricing: null
   upgradeNowBtn:
     ownerOnly: 只有工作区所有者才能升级到团队版
-
   managePlanModal:
     loadingSubscription: 正在加载订阅信息...
     currentPlan: 当前方案
@@ -156,11 +61,9 @@ billing:
     lastPayment: 上次付款
     editBillingInfo: 编辑账单信息
     paymentProcessing: 你的付款正在处理中，请几分钟后刷新页面。
-
   disabledCard:
     personalUpgrade: 升级你的个人工作区以获取高级功能。
     teamReadOnly: 由于订阅取消，工作区处于只读模式。请续费以启用工作区功能。
-
   planPickingSimpleView:
     collaborateWithTeamPlan: 使用团队版协作
     collaborateWithColleagues: 与你的同事协作。

@@ -2,139 +2,17 @@
 # UI Areas: Diagram editor, Toolbar, Header, Panels
 
 diagram:
-  editor:
-    title: 图表编辑器
-    untitled: 未命名图表
-    placeholder: 在此开始输入你的 DBML 代码...
-
-  toolbar:
-    undo: 撤销
-    redo: 重做
-    save: 保存
-    export: 导出
-    share: 分享
-    settings: 设置
-    help: 帮助
-    fullscreen: 全屏
-    zoomIn: 放大
-    zoomOut: 缩小
-    resetZoom: 重置缩放
-    fitToScreen: 适应屏幕
-    autoLayout: 自动布局
-    clear: 清空画布
-
-  views:
-    default: 默认视图
-    list: 列表视图
-    custom: 自定义视图
-    createView: 创建新视图
-    editView: 编辑视图
-    deleteView: 删除视图
-    viewName: 视图名称
-    viewNamePlaceholder: 输入视图名称...
-
-  panels:
-    tableSearch: 表搜索
-    tableSearchPlaceholder: 搜索表...
-    noTablesFound: 未找到表
-    showAllTables: 显示所有表
-    hideAllTables: 隐藏所有表
-
-  menu:
-    file: 文件
-    edit: 编辑
-    view: 视图
-    help: 帮助
-
-  actions:
-    newDiagram: 新建图表
-    openDiagram: 打开图表
-    saveDiagram: 保存图表
-    duplicateDiagram: 复制图表
-    deleteDiagram: 删除图表
-    exportAsImage: 导出为图片
-    exportAsSql: 导出为 SQL
-    exportAsPdf: 导出为 PDF
-    print: 打印
-    settings: 设置
-    shortcuts: 键盘快捷键
-    documentation: 文档
-    feedback: 发送反馈
-    reportBug: 报告错误
-
-  notifications:
-    saving: 保存中...
-    saved: 保存成功
-    errorSaving: 保存图表出错
-    autoSaved: 自动保存
-    unsavedChanges: 你有未保存的更改
-    confirmClose: 你确定要关闭吗？未保存的更改将丢失。
-
-  shortcuts:
-    toggleTitle: 键盘快捷键
-    close: 关闭
-    save: 保存图表
-    undo: 撤销
-    redo: 重做
-    find: 在代码中查找
-    toggleEditor: 切换编辑器
-    toggleFullscreen: 切换全屏
-    zoomIn: 放大
-    zoomOut: 缩小
-
-  header:
-    clickToEdit: 点击编辑
-    publishToDbdocs: 发布到 dbdocs
-    history: 历史
-    editAsNew: 编辑为新
-    signOut: 退出登录
-    personal: 个人
-    dbdiagramAI: dbdiagram AI
-    openInDbdocs: 在 dbdocs 中打开
-    draftIsUpToDate: 草稿已是最新
-    draftHasUnsavedChanges: 草稿有未保存的更改
-    projectIsUpToDate: 项目已是最新
-    projectHasUnsavedChanges: 项目有未保存的更改
-    diagramSynchronized: 你的图表内容已与服务器同步
-    reconnecting: 重新连接中...
-    savingDiagram: 正在保存图表...
-    autoSavingDiagram: 正在自动保存图表...
-    disconnectedMessage: 你已断开连接。你的编辑正在本地保存，<br>下次在线时将与服务器同步。
-    readOnlyMode: 此图表为只读
-    unsavedDiagramMessage: 此图表未保存 {loginRequired}
-    loginRequiredForSave: 。需要登录才能保存你的图表
-    allChangesSaved: 所有更改已保存
-    errorInDiagram: 你的图表中有错误。请先修复所有语法错误再发布。
-    pleaseSaveFirst: 请先保存你的图表
-    askOwnerToPublish: 请要求图表所有者先发布数据库文档
-    editAsNewDisabled: <b>编辑为新</b>不可用，因为你的工作区<br>已因订阅取消而被禁用。
-    pleaseLoginToPublish: 请登录以发布你的更改
-    youHaveErrorsInDiagram: 你的图表中有错误
-    noChangesToPublish: 没有需要发布的更改
-    noPublishedContentYet: 此项目还没有已发布的内容
-    discardAllDrafts: 丢弃所有草稿
-    discardAllDraftsConfirmation: 你确定要丢弃所有草稿版本并获取项目的最新内容吗？此操作无法撤销。
-    discard: 丢弃
-    projectPublishedSuccessfully: 项目发布成功，草稿版本已清除
-    failedToPublishProject: 发布项目失败
-    failedToDiscardDrafts: 丢弃草稿失败
-    allDraftsDiscarded: 所有草稿已丢弃，最新版本已加载
-    cannotChangeDiagramName: 无法更改图表名称，请重试！
-    publishToDbdocsConfirmationTitle: 发布到 dbdocs
-    publishToDbdocsConfirmationMessage: 你确定要将此项目发布到 dbdocs 吗？
-    versionOutdatedWarning: 此项目存在更新的版本。你即将覆盖其他人所做的更改。
-
-  status:
-    readOnly: 只读
-    synced: 已同步
-    unsynced: 未同步
-    saved: 已保存
-    unsaved: 未保存
-
-  tooltip:
-    focusDiagramElement: 聚焦
-    toFocus: 聚焦
-
+  editor: null
+  toolbar: null
+  views: null
+  panels: null
+  menu: null
+  actions: null
+  notifications: null
+  shortcuts: null
+  header: null
+  status: null
+  tooltip: null
   access:
     public: 公开
     passwordProtected: 密码保护
@@ -145,16 +23,6 @@ diagram:
     publicTooltip: 公开 - 任何人可通过链接访问
     passwordProtectedTooltip: 密码保护 - 任何人可通过链接访问，但需要输入正确密码
     privateTooltip: 私有 - 仅受邀人员可访问
-
-  detailLevels:
-    tables: 表
-    keys: 键
-    all: 全部
-
-  detailLevelOptions:
-    tableNames: 表名
-    keysOnly: 仅键
-    allFields: 所有字段
-
-  dbdocs:
-    publishConfirmation: 你想将此草稿发布到你的 dbdocs 项目吗？
+  detailLevels: null
+  detailLevelOptions: null
+  dbdocs: null

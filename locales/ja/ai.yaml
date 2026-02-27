@@ -2,15 +2,8 @@
 # UI Areas: Right sidebar AI panel, Welcome modal, Diff viewer
 
 ai:
-  title: DBDiagram AI
-
   panel:
-    title: AI アシスタント
-    welcome: こんにちは！AI アシスタントです。データベースダイアグラムについて、何かお手伝いできることはありますか？
     inputPlaceholder: ダイアグラムについて何でも聞いてください...
-    send: 送信
-    close: 閉じる
-    clear: チャットをクリア
     currentChat: 現在のチャット
     previousChats: 過去のチャット
     noOtherChats: 他のチャットはまだありません
@@ -25,60 +18,42 @@ ai:
     newChat: 新しいチャット
     showChatHistory: チャット履歴を表示
     hideChatHistory: チャット履歴を非表示
-
   welcome:
     title: DBDiagram AI へようこそ
     subtitle: データベース設計のためのインテリジェントアシスタント
-    features:
-      title: 何をお手伝いしましょうか？
-      generate: 説明からスキーマを生成
-      optimize: データベース設計を最適化
-      explain: リレーションシップと構造を説明
-      suggest: 改善とベストプラクティスを提案
-    getStarted:
-      title: 始めましょう
-      button: 何でも聞いてください
-
   messages:
     thinking: 思考中...
     generating: 生成中...
     explaining: 説明中...
     error: エラーが発生しました。もう一度お試しください。
     rateLimit: 使用量の上限に達しました。続けるにはアップグレードしてください。
-
-  quickActions:
-    title: クイックアクション
-
   diffViewer:
-    title: 変更を比較
-    current: 現在
-    proposed: 提案
-    apply: 変更を適用
-    discard: 破棄
-    noChanges: 表示する変更はありません
     reject: 却下
     accept: 承認
     rejectAll: すべて却下
     acceptAll: すべて承認
-
   tokenUsage:
-    title: 使用量
     used: 使用済み
-    limit: 上限
-    upgrade: アップグレードして増やす
     usageText: 使用量の {percentage} を使用しました
     tokens: tokens
     learnMore: クリックして使用量の制限について詳しく見る
     resetOn: リセット日
-
   assistant:
     dbmlCode: DBML コード
     lines: 行
-
   responseMessages:
     noExplanation: スキーマが更新されました。差分ビューアーで変更を確認してください。
-    invalidIntent: "dbdiagram AI へようこそ。\n\nお手伝いできること：\n\n• **DBML スキーマ設計** - テーブル、リレーションシップ、データベース構造の作成と変更\n• **データベースのベストプラクティス** - 最適なデータ型、インデックス、制約の提案\n• **スキーマの最適化** - テーブルグループでの整理、タイムスタンプの追加、データ型の再マッピング\n• **クイック変換** - データベースシステム間の変換（PostgreSQL、MySQL、SQL Server など）\n\nテーブルの作成、リレーションシップの追加を依頼するか、上のクイックアクションを使って始めましょう！"
+    invalidIntent: |-
+      dbdiagram AI へようこそ。
 
+      お手伝いできること：
+
+      • **DBML スキーマ設計** - テーブル、リレーションシップ、データベース構造の作成と変更
+      • **データベースのベストプラクティス** - 最適なデータ型、インデックス、制約の提案
+      • **スキーマの最適化** - テーブルグループでの整理、タイムスタンプの追加、データ型の再マッピング
+      • **クイック変換** - データベースシステム間の変換（PostgreSQL、MySQL、SQL Server など）
+
+      テーブルの作成、リレーションシップの追加を依頼するか、上のクイックアクションを使って始めましょう！
   quickActionTitles:
     createTableGroups: テーブルグループを作成
     addTimestampColumns: タイムスタンプカラムを追加
@@ -89,7 +64,6 @@ ai:
     documentDatabase: ドキュメントデータベース
     todoList: ToDoリスト
     remapDataTypes: データ型を再マッピング
-
   quickActionDescriptions:
     createTableGroups: テーブルをドメインと機能ごとに論理グループに整理し、異なる色を付けます
     addTimestampColumns: 監査追跡が必要なテーブルに created_at と updated_at カラムを追加します
@@ -100,19 +74,9 @@ ai:
     documentDatabase: ドキュメント保存用のデータベースを作成
     todoList: ToDoリストアプリケーションを作成
     remapDataTypes: ターゲットデータベースシステムに合わせてデータ型を変換します
-
   quickActionSubActions:
     postgresql: PostgreSQL
     mysql: MySQL
     sqlServer: SQL Server
     sqlite: SQLite
     oracle: Oracle
-
-  additional:
-    errorLoading: 読み込みエラーです。もう一度お試しください。
-    createNewThread: 新しいスレッドを作成
-    typeMessage: メッセージを入力...
-    sendMessage: メッセージを送信
-    loadMore: もっと読み込む
-    chatHistory: chat-history
-    errorLoadingChatHistory: チャット履歴の読み込みエラーです。もう一度お試しください。

@@ -3,77 +3,13 @@
 
 common:
   buttons:
-    save: 保存
     cancel: 取消
     confirm: 确认
     delete: 删除
-    edit: 编辑
-    create: 创建
-    search: 搜索
-    share: 分享
-    close: 关闭
-    publish: 发布
     history: 历史
-    update: 更新
-    copy: 复制
-    import: 导入
     export: 导出
-    download: 下载
-    upload: 上传
-    login: 登录
-    logout: 退出
-    signup: 注册
-    continue: 继续
-    back: 返回
-    next: 下一步
-    skip: 跳过
-    done: 完成
-    tryAgain: 重试
-    refresh: 刷新页面
-    clear: 清除
-    apply: 应用
-    reset: 重置
-    'yes': '是'
-    'no': '否'
     ok: 确定
-    invite: 邀请
-    join: 加入
-    leave: 离开
-    rename: 重命名
-    duplicate: 复制
-    archive: 归档
-    restore: 恢复
-    move: 移动
-    select: 选择
-    deselect: 取消选择
-    selectAll: 全选
-    deselectAll: 取消全选
-    show: 显示
-    hide: 隐藏
-    expand: 展开
-    collapse: 折叠
-    filter: 筛选
-    sort: 排序
-    group: 分组
-    ungroup: 取消分组
-    fullscreen: 全屏
-    exitFullscreen: 退出全屏
-    zoomIn: 放大
-    zoomOut: 缩小
-    resetZoom: 重置缩放
-    undo: 撤销
-    redo: 重做
-    cut: 剪切
-    paste: 粘贴
     submit: 提交
-    reload: 重新加载
-    remove: 移除
-    add: 添加
-    view: 查看
-    open: 打开
-    manage: 管理
-    settings: 设置
-
   help:
     title: 帮助
     documentation: 文档
@@ -90,7 +26,6 @@ common:
     whatsNew: 新功能
     language: 语言
     contribute: 帮助翻译此应用
-
   export:
     title: 导出
     publishToDbdocs: 发布文档（到 dbdocs）
@@ -101,7 +36,6 @@ common:
     toMySQL: 导出为 MySQL
     toSQLServer: 导出为 SQL Server
     toOracleSQL: 导出为 Oracle SQL
-
   import:
     title: 导入
     importFrom: 导入来源
@@ -113,104 +47,41 @@ common:
     fromOracleSQL: 从 Oracle SQL
     fromRails: 从 Rails (schema.rb)
     fromCSV: 从 CSV
-
   upgrade:
     title: 升级
-    upgradeToPersonalPro: 升级到个人专业版
-    collaborateWithTeam: 使用团队版协作
-
   quickActions:
     title: 快捷操作
-
   sso:
     signInWithSSO: 使用 SSO 登录
     signInWithEmail: 使用邮箱登录
     useWorkEmail: 使用你的工作邮箱通过 SSO 访问 dbdiagram
     signInUnsuccessful: 登录失败。请验证你的工作邮箱或使用其他方式。
     selectWorkspace: 选择要登录的工作区
-
   ai:
     title: AI
     scrollToBottom: 滚动到底部
-
   actions:
-    saveChanges: 保存更改
-    confirmDelete: 你确定要删除这个吗？
-    confirmDeleteItem: 你确定要删除 "{name}" 吗？
-    confirmArchive: 你确定要归档这个吗？
     confirmUnsaved:
       title: 请确认
       content: 你所做的更改可能不会被保存，是否继续？
-      negativeText: '否'
-      positiveText: '是'
-    copyToClipboard: 复制到剪贴板
-    copiedToClipboard: 已复制到剪贴板！
-    selectAll: 全选
-    deselectAll: 取消全选
-    loading: 加载中...
-    saving: 保存中...
-    processing: 处理中...
-    pleaseWait: 请稍候...
-
+      negativeText: 否
+      positiveText: 是
   states:
-    loading: 加载中...
-    saving: 保存中...
-    error: 发生错误
-    success: 成功
-    warning: 警告
-    info: 信息
     empty: 无数据
-    noResults: 未找到结果
-    noItems: 未找到项目
-    offline: 你已离线
-    online: 你已恢复在线
-
-  time:
-    justNow: 刚刚
-    minuteAgo: 一分钟前
-    minutesAgo: '{count} 分钟前'
-    hourAgo: 一小时前
-    hoursAgo: '{count} 小时前'
-    dayAgo: 一天前
-    daysAgo: '{count} 天前'
-    weekAgo: 一周前
-    weeksAgo: '{count} 周前'
-    monthAgo: 一个月前
-    monthsAgo: '{count} 个月前'
-    yearAgo: 一年前
-    yearsAgo: '{count} 年前'
-
-  errors:
-    generic: 出了点问题。请重试。
-    network: 网络错误。请检查你的连接。
-    unauthorized: 你需要登录才能继续。
-    forbidden: 你没有权限执行此操作。
-    notFound: 请求的资源未找到。
-    serverError: 服务器错误。请稍后重试。
-    invalidInput: 请检查你的输入并重试。
-    required: 此字段为必填项。
-    invalidEmail: 请输入有效的邮箱地址。
-    passwordTooShort: 密码至少需要 {min} 个字符。
-    passwordMismatch: 密码不匹配。
-    permissionDenied: 权限被拒绝
-    dontHavePermission: 你没有权限访问此工作区
-
-  workspace:
-    readOnlyMode: 由于订阅取消，工作区处于只读模式。请续费以启用工作区功能。
-
+  time: null
+  errors: null
+  workspace: null
   editor:
-    expand: 展开编辑器
-    hide: 隐藏编辑器
-    loadingContent: 正在从服务器加载内容，请稍候...
     keyboardShortcuts: 键盘快捷键
     openInDbdiagram: 在 dbdiagram.io 中打开
-
+    hide: 隐藏编辑器
+    expand: 展开编辑器
+    loadingContent: 正在从服务器加载内容，请稍候...
   notifications:
     noPermissionRemoveView: 你没有权限删除图表视图！
     noPermissionRenameView: 你没有权限重命名图表视图！
     workspaceDisabled: 此工作区目前已被禁用
     noEditPermissionAi: 你需要编辑权限才能使用 dbdiagram AI。请联系图表所有者升级你的访问权限。
-
   needLogin:
     hiThere: 你好，
     saveQuery: 请登录以保存你的图表
@@ -226,7 +97,6 @@ common:
     chartUpdateVisibleEntities: 请登录以保存表/便签可见性
     diagramViewCreateView: 请登录以创建新图表视图
     default: 请登录以继续你的工作
-
   dbdocsAuth:
     pleaseLoginWith: 请使用以下方式登录
     youAreLoggedInAs: 你已登录
@@ -236,10 +106,8 @@ common:
     contactProjectOwner: 联系项目所有者请求访问权限。
     weWillNeedNonSSO: 我们需要你使用非 SSO 账号进行身份验证。
     weWillNeedSameEmail: 我们需要你使用与 dbdocs 相同的邮箱账号进行身份验证。
-
   additional:
     collab:
-      updatingDiagramMetadata: 正在更新图表元数据
       noLongerViewPermission: 你已不再拥有查看权限！
       doNotHaveViewPermission: 你没有查看权限！
       fullSession: 由于会话已满，无法连接！
@@ -247,12 +115,9 @@ common:
       overwrittenDiagram: 有人已覆盖了图表内容，请重新加载以查看最新更改！
       permissionsChanged: 你的权限已更改，请重新加载以应用更改！
       cannotReconnect: 无法重新连接到服务器
-
     query:
       noPermissionShare: 你没有权限分享此图表
       cantCreateDiagram: 无法创建新图表，请备份你的文件然后尝试退出登录并重新登录
-      changesSaved: 你的更改已保存。
-      autoSaveDiagram: 我们也会定期自动保存图表。
       cantSaveDiagram: 无法保存图表，请备份你的文件然后尝试退出登录并重新登录
       noPermissionSave: 你没有权限保存此图表
       diagramDeleted: 你的图表已被删除
@@ -263,7 +128,6 @@ common:
       failedLoadProjectDbdocs: 从 DBDocs 加载项目失败
       failedPublishDbdocs: 发布项目到 DBDocs 失败
       pleaseSignInSaveDraft: 请登录以保存草稿版本
-      draftVersionSaved: 草稿版本保存成功
       noPermissionSaveDraft: 你没有权限保存草稿版本
       autoSaveDraftFailed: 自动保存草稿失败！
       failedSaveDraft: 保存草稿版本失败

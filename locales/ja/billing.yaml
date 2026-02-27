@@ -6,36 +6,15 @@ billing:
     upgrade: アップグレード
     upgradeToPersonalPro: パーソナル Pro プランにアップグレード
     collaborateWithTeam: チームプランで協力
-
-  pricing:
-    title: 料金プラン
-    subtitle: あなたに合ったプランを選択してください
-    free: Free
-    pro: Pro
-    team: Team
-    currentPlan: 現在のプラン
-    upgrade: アップグレード
-    downgrade: ダウングレード
-    cancel: サブスクリプションをキャンセル
-
+  pricing: null
   plans:
     free:
-      name: Free
-      description: 個人や小規模プロジェクト向け
-      price: "$0"
-      period: 永久
       features:
         - ダイアグラム最大3つ
         - 基本的な編集ツール
         - SQL/PNG としてエクスポート
         - コミュニティサポート
-      cta: 始める
-
     pro:
-      name: Pro
-      description: より多くの機能を必要とするプロフェッショナル向け
-      price: "$10"
-      period: 月額
       features:
         - 無制限のダイアグラム
         - 高度な編集ツール
@@ -43,13 +22,7 @@ billing:
         - 優先サポート
         - PDF としてエクスポート
         - カスタムテーマ
-      cta: 無料トライアルを開始
-
     team:
-      name: Team
-      description: チームや組織向け
-      price: カスタム
-      period: 営業にお問い合わせ
       features:
         - Pro のすべての機能
         - チームコラボレーション
@@ -57,83 +30,15 @@ billing:
         - SSO 認証
         - 優先サポート
         - カスタムインテグレーション
-      cta: 営業に問い合わせ
-
   payment:
-    title: 支払い情報
-    cardNumber: カード番号
-    expiryDate: 有効期限
-    cvv: CVV
-    nameOnCard: カード名義人
-    savePayment: 支払い方法を保存
     paymentMethod: 支払い方法
-    addNewCard: 新しいカードを追加
-
-  billing:
-    title: 請求
-    invoiceHistory: 請求書履歴
-    downloadInvoice: ダウンロード
-    nextBilling: 次回の請求日
-    planRenews: プランの更新日
-    planWillCancel: プランのキャンセル日
-
-  subscription:
-    manage: サブスクリプションを管理
-    changePlan: プランを変更
-    cancelSubscription: サブスクリプションをキャンセル
-    reactivate: サブスクリプションを再開
-    confirmCancel: サブスクリプションをキャンセルしてもよろしいですか？
-    cancelFeedback: キャンセルの理由をお聞かせください
-    reason: キャンセルの理由
-    tooExpensive: 料金が高い
-    missingFeatures: 必要な機能がない
-    switchedService: 他のサービスに切り替えた
-    notUsing: あまり使用していない
-    other: その他
-
-  personalPro:
-    name: パーソナル Pro
-    description: フリーランスやコンサルタントがデータベースダイアグラムを設計するためのプラン
-    everythingInFree: ← Free のすべてに加えて
-    unlimitedDiagramsTables: 無制限のダイアグラムとテーブル
-    unlimitedViews: 無制限のダイアグラムビュー
-    aiAssistant: AI アシスタント
-    protectedDiagrams: 保護されたダイアグラムとプライベートダイアグラム
-    limitedCollaboration: 限定的なコラボレーション
-    headerColorTableGroup: ヘッダーカラーとテーブルグループ
-    detailLevels: ダイアグラムの詳細レベル
-    versionHistory: バージョン履歴
-    stickyNotes: 付箋
-    upgradeNow: 今すぐアップグレード
-    getStarted: 始める
-
-  team:
-    name: Team
-    description: データベースダイアグラムの設計とコラボレーションが必要なチーム向け
-    everythingInPro: ← パーソナル Pro のすべてに加えて
-    collaborativeWorkspace: コラボレーションワークスペース
-    publicApi: パブリック API
-    teamManagement: チーム管理とコラボレーション
-    adminBilling: 統合された管理者と請求
-    freeUserLicenses: 3つの無料ユーザーライセンス
-    startTrial: 7日間の無料トライアルを開始
-    upgradeNow: 今すぐアップグレード
-    noCreditCard: クレジットカード不要。いつでもキャンセルできます。
-    additionalLicense: 追加ライセンス
-    perMonthUser: /月/ユーザー
-
-  publicPricing:
-    title: 料金プラン
-    subtitle: 永久無料。有料プランでさらにパワフルに。
-    monthlyBilling: 月額課金
-    annualBilling: 年額課金
-    saveUpTo: 最大42%お得
-    getStartedFree: 無料で始める
-    errorFetching: ユーザー料金の取得エラー
-
+  billing: null
+  subscription: null
+  personalPro: null
+  team: null
+  publicPricing: null
   upgradeNowBtn:
     ownerOnly: チームプランにアップグレードできるのはワークスペースのオーナーのみです
-
   managePlanModal:
     loadingSubscription: サブスクリプション情報を読み込み中...
     currentPlan: 現在のプラン
@@ -156,11 +61,9 @@ billing:
     lastPayment: 前回の支払い
     editBillingInfo: 請求情報を編集
     paymentProcessing: お支払いを処理中です。数分後にページを再読み込みしてください。
-
   disabledCard:
     personalUpgrade: プレミアム機能を利用するには、パーソナルワークスペースをアップグレードしてください。
     teamReadOnly: サブスクリプションのキャンセルにより、ワークスペースは読み取り専用モードです。ワークスペース機能を有効にするには、更新してください。
-
   planPickingSimpleView:
     collaborateWithTeamPlan: チームプランで協力
     collaborateWithColleagues: 同僚と一緒に作業しましょう。

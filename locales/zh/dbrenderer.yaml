@@ -23,10 +23,8 @@ dbrenderer:
     noGroup: (无分组)
     defaultView: 默认视图
     unknownView: 未知视图
-    database: 数据库
     newView: 新视图
     copyOfName: '{name} 的副本'
-
   controllerBar:
     highlightRelationships: 高亮关系
     unhighlightRelationships: 取消高亮关系
@@ -37,36 +35,27 @@ dbrenderer:
     hideTableSearch: 隐藏表搜索
     enterFullscreen: 进入全屏
     exitFullscreen: 退出全屏
-
   autoArrange:
     title: 选择自动排列算法
     leftRight: 从左到右
-    topDown: 从上到下
-    rightLeft: 从右到左
-    bottomUp: 从下到上
     snowflake: 雪花形
     compact: 紧凑型
     confirmMessage: 你的图表将被自动重新排列，且无法撤销。你确定吗？
     confirm: 确认 (↵)
     cancel: 取消 (Esc)
-
   detailLevel:
     title: 详细级别
     showAllColumns: 显示所有列
     hideColumns: 隐藏列
     showPrimaryKeys: 仅显示主键
-    showLimitedColumns: 有限列
-
   viewDropdown:
     renameView: 重命名视图
     removeView: 删除视图
     newView: 新视图
-
   diffLegend:
     added: 新增
     modified: 修改
     deleted: 删除
-
   viewportController:
     zoomOut: 缩小（按住加速）
     zoomIn: 放大（按住加速）
@@ -75,16 +64,7 @@ dbrenderer:
     enablePanMode: 点击启用平移模式
     disablePanMode: 点击禁用平移模式
     panModeHint: 或按住空格键/鼠标中键 + 拖动来平移
-
-  common:
-    confirm: 确认
-    cancel: 取消
-    save: 保存
-    close: 关闭
-    delete: 删除
-    rename: 重命名
-    remove: 移除
-
+  common: null
   emptyStateHint:
     filtered:
       title: 你的图表视图为空
@@ -94,7 +74,6 @@ dbrenderer:
       title: 未找到数据库模式
       description: 你的 DBML 代码还没有任何表。添加表和关系以查看你的图表。
       startAddingTables: 开始添加表
-
   loading:
     initializingTables: 正在初始化表...
     initializingTablesProgress: 正在初始化表... ({current}/{total})
@@ -104,21 +83,18 @@ dbrenderer:
     initializingReferencesProgress: 正在初始化关系... ({current}/{total})
     arrangingDiagram: 正在排列你的图表...
     finalizingDiagram: 正在完成图表...
-
   filterConfigTags:
     all: 全部
     allTables: 所有表
     allNotes: 所有笔记
     nothing: 无
-    moreItems: '还有 {count} 项：'
-
+    moreItems: 还有 {count} 项：
   stickyNotesSection:
     title: 便签
   stickyNotes:
     untitledNote: 无标题便签
     removeNoteConfirmation: 删除你的便签？
-    'yes': '是'
-    'no': '否'
-
+    'yes': 是
+    'no': 否
   tableList:
     noTablesFound: 未找到表

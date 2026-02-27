@@ -2,7 +2,6 @@
 # UI Areas: Left sidebar, Workspace dropdown, Settings page
 
 workspace:
-  title: ワークスペース
   personalWorkspace: パーソナルワークスペース
   personal: パーソナル
   createWorkspace: 新しいワークスペースを作成
@@ -15,89 +14,14 @@ workspace:
   sharedWithMe: 共有されたダイアグラム
   workspace: ワークスペース
   private: プライベート
-  empty: 空
-  untitledDiagram: 無題のダイアグラム
-  starred: スター付き
-  archived: アーカイブ済み
-  trash: ゴミ箱
-
-  folders:
-    title: フォルダー
-    createFolder: 新しいフォルダー
-    folderName: フォルダー名
-    moveDiagram: フォルダーに移動
-    noFolders: フォルダーはまだありません
-    deleteFolder: フォルダーを削除
-    deleteFolderConfirm: このフォルダーを削除してもよろしいですか？ダイアグラムは親フォルダーに移動されます。
-
-  diagrams:
-    title: ダイアグラム
-    createDiagram: 新しいダイアグラム
-    importDiagram: ダイアグラムをインポート
-    duplicateDiagram: 複製
-    renameDiagram: 名前を変更
-    moveDiagram: 移動
-    deleteDiagram: 削除
-    shareDiagram: 共有
-    archiveDiagram: アーカイブ
-    unarchiveDiagram: アーカイブ解除
-    restoreDiagram: 復元
-    permanentDelete: 完全に削除
-
-  sharing:
-    title: ダイアグラムを共有
-    shareLink: 共有リンク
-    copyLink: リンクをコピー
-    anyoneWithLink: リンクを持つすべての人が閲覧可能
-    invitePeople: ユーザーを招待
-    inviteEmail: メールアドレスを入力
-    inviteButton: 招待を送信
-    canView: 閲覧可能
-    canEdit: 編集可能
-    canComment: コメント可能
-    removeAccess: アクセスを削除
-    owner: オーナー
-    pending: 保留中
-
-  collaboration:
-    title: コラボレーター
-    addCollaborator: コラボレーターを追加
-    collaboratorsCount: "{count} 人のコラボレーター"
-    onlineNow: 現在オンライン
-    viewers: 閲覧中
-    editors: 編集中
-    joined: 参加しました
-    left: 退出しました
-
-  templates:
-    title: テンプレート
-    useTemplate: テンプレートを使用
-    blankDiagram: 空のダイアグラム
-    ecommerce: Eコマーススキーマ
-    blog: ブログスキーマ
-    socialNetwork: ソーシャルネットワークスキーマ
-    library: 図書館管理
-    hospital: 病院管理
-    school: 学校管理
-
-  activity:
-    title: アクティビティ
-    recentActivity: 最近のアクティビティ
-    created: 作成しました
-    edited: 編集しました
-    deleted: 削除しました
-    shared: 共有しました
-    renamed: 名前を変更しました
-    moved: 移動しました
-    restored: 復元しました
-
-  notifications:
-    inviteReceived: "{userName} が {diagramName} のコラボレーションに招待しました"
-    inviteAccepted: "{userName} が招待を承諾しました"
-    diagramCommented: "{userName} が {diagramName} にコメントしました"
-    diagramEdited: "{userName} が {diagramName} を編集しました"
-    diagramShared: "{userName} が {diagramName} をあなたと共有しました"
-
+  readOnlyMode: サブスクリプションのキャンセルにより、ワークスペースは読み取り専用モードです。機能を有効にするにはサブスクリプションを更新してください。
+  folders: null
+  diagrams: null
+  sharing: null
+  collaboration: null
+  templates: null
+  activity: null
+  notifications: null
   settings:
     title: 設定
     workspaceName: ワークスペース名
@@ -110,10 +34,13 @@ workspace:
     enforceSSO: SSO を強制
     enforceSSODescription: 強制すると、ワークスペースメンバーは SSO 経由でのみこのワークスペースにアクセスできます
     identityProviderUrl: ID プロバイダーシングルサインオン URL
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
+    identityProviderUrlPlaceholder: https://login.microsoftonline.com/{tenant}/saml2
     identityProviderUrlHelp: ID プロバイダーのエンドポイント URL です。
     certificate: 証明書
-    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----"
+    certificatePlaceholder: |-
+      -----BEGIN CERTIFICATE-----
+      <X.509 certificate>
+      -----END CERTIFICATE-----
     samlConfigurationForProvider: ID プロバイダーの SAML 設定
     assertionConsumerServiceUrl: アサーション コンシューマー サービス URL
     assertionConsumerServiceUrlHelp: 「応答先サービス URL」または「応答 URL」とも呼ばれます
@@ -126,11 +53,11 @@ workspace:
     removalWarning: この操作は元に戻せません！
     removalScheduledHours: ワークスペースは数時間後に削除されます。
     removalScheduledDay: ワークスペースは1日後に削除されます。
-    removalScheduledDays: "ワークスペースは {count} 日後に削除されます。"
+    removalScheduledDays: ワークスペースは {count} 日後に削除されます。
     removeWorkspaceTitle: このワークスペースを削除しますか？
     removeWorkspaceContent: 7日後にワークスペースを削除するスケジュールを設定します。気が変わった場合は、この「設定」メニューからワークスペースの削除スケジュールをキャンセルできます。
     removeWorkspaceButton: このワークスペースを削除
-    removeWorkspaceSuggestion: '確認のため、テキスト入力欄に <i>permanently delete</i> と入力してください。'
+    removeWorkspaceSuggestion: 確認のため、テキスト入力欄に <i>permanently delete</i> と入力してください。
     removalRequestCanceled: 削除リクエストが正常にキャンセルされました！
     removalRequestCreated: 削除リクエストが正常に作成されました！
     contactSupportError: エラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
@@ -139,13 +66,11 @@ workspace:
     ssoConfigFetchFailed: SSO 設定の取得に失敗しました。ページを更新してください。
     ssoConfigUpdated: SSO 設定が正常に更新されました
     ssoConfigSaveFailed: SSO 設定の保存に失敗しました。もう一度お試しください。
-
   members:
     invite: 招待
     invitePlaceholder: メールアドレスを入力
     inviteButton: 招待
     members: メンバー
-    memberSlots: "{used}/{limit} メンバー"
     role:
       member: メンバー
       owner: オーナー
@@ -154,17 +79,15 @@ workspace:
       removeInvitation: この招待を削除
       removeMember: このメンバーを削除
     dialog:
-      removeTitle: メンバーを削除しますか？
       removeMessage: <b>{email}</b> をワークスペースから削除しようとしています。操作を確認してください！
     notifications:
-      removeSuccess: "{email} をワークスペースから正常に削除しました！"
-      removeError: "{email} をワークスペースから削除できません！"
-
+      removeSuccess: '{email} をワークスペースから正常に削除しました！'
+      removeError: '{email} をワークスペースから削除できません！'
   diagramList:
     searchPlaceholder: ダイアグラムを検索
     freePlan: Free
     plan: プラン
-    diagramCount: "ダイアグラム：{count}/{limit}"
+    diagramCount: ダイアグラム：{count}/{limit}
     duplicate: 複製
     delete: 削除
     untitledDiagram: 無題のダイアグラム
@@ -173,11 +96,9 @@ workspace:
       dateCreated: 作成日
       dateModified: 更新日
       owner: オーナー
-
   sidebar:
     apiTokens: API トークン
     billing: 請求
-
   emptyDiagrams:
     title: ダイアグラムがまだありません
     created:
@@ -190,18 +111,15 @@ workspace:
       description: チームに表示されているダイアグラムはありません。
     workspacePrivate:
       description: プライベートダイアグラムはありません。新しいダイアグラムを作成してプライベートにできます。
-
   plan:
     pro: Pro プラン
     free: Free プラン
     team: Team プラン
-    disabled: "（無効）"
-
+    disabled: （無効）
   welcome:
     title: チームワークスペースへようこそ！
     description: 新しいダイアグラムを作成し、チームメンバーとのコラボレーションを始めましょう。
     learnMore: 詳しく見る →
-
   apiTokens:
     title: API トークン
     description: API トークンは、API リクエストを行う際に dbdiagram API への認証に使用されます。パスワードと同様に、API トークンは秘密にしてください。
@@ -212,7 +130,6 @@ workspace:
       dateCreated: 作成日
       lastUsed: 最終使用日
       owner: オーナー
-      action: ""
     empty: 作成されたトークンはありません
     actions:
       revoke: 取り消し
@@ -226,9 +143,9 @@ workspace:
       copy: コピー
       done: 完了
       revokeTitle: API トークンを取り消しますか？
-      revokeContent: "「{name}」API トークンを取り消しますか？この操作は元に戻せません。"
+      revokeContent: 「{name}」API トークンを取り消しますか？この操作は元に戻せません。
       revokePositive: トークンを取り消し
-      revokeSuggestion: '確認のため、テキスト入力欄に <i>permanently delete</i> と入力してください。'
+      revokeSuggestion: 確認のため、テキスト入力欄に <i>permanently delete</i> と入力してください。
       generateSuccess: トークンの生成に成功しました
     errors:
       nameEmpty: トークン名を入力してください
@@ -236,10 +153,6 @@ workspace:
       nameWhitespace: トークン名は空またはスペースのみにすることはできません
       upgradeRequired: トークンの作成と API へのアクセスには、プランをアップグレードしてください
       ownerOnly: 新しいトークンを生成できるのはワークスペースのオーナーのみです
-
   common:
-    labels:
-      you: "（あなた）"
-
-  errors:
-    permissionDenied: このワークスペースにアクセスする権限がありません
+    labels: null
+  errors: null

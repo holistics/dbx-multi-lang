@@ -2,7 +2,6 @@
 # UI Areas: Left sidebar, Workspace dropdown, Settings page
 
 workspace:
-  title: 工作区
   personalWorkspace: 个人工作区
   personal: 个人
   createWorkspace: 创建新工作区
@@ -15,89 +14,14 @@ workspace:
   sharedWithMe: 与我分享
   workspace: 工作区
   private: 私有
-  empty: 空
-  untitledDiagram: 无标题图表
-  starred: 已收藏
-  archived: 已归档
-  trash: 回收站
-
-  folders:
-    title: 文件夹
-    createFolder: 新建文件夹
-    folderName: 文件夹名称
-    moveDiagram: 移动到文件夹
-    noFolders: 还没有文件夹
-    deleteFolder: 删除文件夹
-    deleteFolderConfirm: 你确定要删除此文件夹吗？图表将被移动到父文件夹。
-
-  diagrams:
-    title: 图表
-    createDiagram: 新建图表
-    importDiagram: 导入图表
-    duplicateDiagram: 复制
-    renameDiagram: 重命名
-    moveDiagram: 移动
-    deleteDiagram: 删除
-    shareDiagram: 分享
-    archiveDiagram: 归档
-    unarchiveDiagram: 取消归档
-    restoreDiagram: 恢复
-    permanentDelete: 永久删除
-
-  sharing:
-    title: 分享图表
-    shareLink: 分享链接
-    copyLink: 复制链接
-    anyoneWithLink: 任何拥有链接的人都可以查看
-    invitePeople: 邀请他人
-    inviteEmail: 输入邮箱地址
-    inviteButton: 发送邀请
-    canView: 可查看
-    canEdit: 可编辑
-    canComment: 可评论
-    removeAccess: 移除访问权限
-    owner: 所有者
-    pending: 待处理
-
-  collaboration:
-    title: 协作者
-    addCollaborator: 添加协作者
-    collaboratorsCount: "{count} 个协作者"
-    onlineNow: 当前在线
-    viewers: 正在查看
-    editors: 正在编辑
-    joined: 已加入
-    left: 已离开
-
-  templates:
-    title: 模板
-    useTemplate: 使用模板
-    blankDiagram: 空白图表
-    ecommerce: 电商模式
-    blog: 博客模式
-    socialNetwork: 社交网络模式
-    library: 图书馆管理
-    hospital: 医院管理
-    school: 学校管理
-
-  activity:
-    title: 动态
-    recentActivity: 最近动态
-    created: 创建了
-    edited: 编辑了
-    deleted: 删除了
-    shared: 分享了
-    renamed: 重命名了
-    moved: 移动了
-    restored: 恢复了
-
-  notifications:
-    inviteReceived: "{userName} 邀请你协作 {diagramName}"
-    inviteAccepted: "{userName} 接受了你的邀请"
-    diagramCommented: "{userName} 评论了 {diagramName}"
-    diagramEdited: "{userName} 编辑了 {diagramName}"
-    diagramShared: "{userName} 与你分享了 {diagramName}"
-
+  readOnlyMode: 由于订阅已取消，工作区处于只读模式。请续订以启用工作区功能。
+  folders: null
+  diagrams: null
+  sharing: null
+  collaboration: null
+  templates: null
+  activity: null
+  notifications: null
   settings:
     title: 设置
     workspaceName: 工作区名称
@@ -110,10 +34,13 @@ workspace:
     enforceSSO: 强制 SSO
     enforceSSODescription: 一旦强制执行，工作区成员只能通过 SSO 访问此工作区
     identityProviderUrl: 身份提供商单点登录 URL
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
+    identityProviderUrlPlaceholder: https://login.microsoftonline.com/{tenant}/saml2
     identityProviderUrlHelp: 你的身份提供商端点的 URL。
     certificate: 证书
-    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----"
+    certificatePlaceholder: |-
+      -----BEGIN CERTIFICATE-----
+      <X.509 certificate>
+      -----END CERTIFICATE-----
     samlConfigurationForProvider: 你的身份提供商的 SAML 配置
     assertionConsumerServiceUrl: 断言消费者服务 URL
     assertionConsumerServiceUrlHelp: 也称为"回复方服务 URL"或"回复 URL"
@@ -126,11 +53,11 @@ workspace:
     removalWarning: 此操作无法撤销！
     removalScheduledHours: 你的工作区将在几小时后被移除。
     removalScheduledDay: 你的工作区将在一天后被移除。
-    removalScheduledDays: "你的工作区将在 {count} 天后被移除。"
+    removalScheduledDays: 你的工作区将在 {count} 天后被移除。
     removeWorkspaceTitle: 移除此工作区？
     removeWorkspaceContent: 我们将安排在 7 天后移除你的工作区。如果你改变主意，可以在此"设置"菜单中取消工作区移除计划。
     removeWorkspaceButton: 移除此工作区
-    removeWorkspaceSuggestion: '请在文本输入框中输入 <i>permanently delete</i> 以确认。'
+    removeWorkspaceSuggestion: 请在文本输入框中输入 <i>permanently delete</i> 以确认。
     removalRequestCanceled: 移除请求已成功取消！
     removalRequestCreated: 移除请求已成功创建！
     contactSupportError: 发生错误，请联系我们的支持 dbdiagram@holistics.io
@@ -139,13 +66,11 @@ workspace:
     ssoConfigFetchFailed: 获取 SSO 配置失败。请尝试刷新页面。
     ssoConfigUpdated: SSO 配置更新成功
     ssoConfigSaveFailed: 保存 SSO 配置失败。请重试。
-
   members:
     invite: 邀请
     invitePlaceholder: 输入邮箱地址
     inviteButton: 邀请
     members: 成员
-    memberSlots: "{used}/{limit} 个成员"
     role:
       member: 成员
       owner: 所有者
@@ -154,17 +79,15 @@ workspace:
       removeInvitation: 移除此邀请
       removeMember: 移除此成员
     dialog:
-      removeTitle: 移除成员？
       removeMessage: 你即将从工作区中移除 <b>{email}</b>，请确认你的操作！
     notifications:
       removeSuccess: 已成功从工作区中移除 {email}！
       removeError: 无法从工作区中移除 {email}！
-
   diagramList:
     searchPlaceholder: 搜索图表
     freePlan: 免费
     plan: 方案
-    diagramCount: "图表：{count}/{limit}"
+    diagramCount: 图表：{count}/{limit}
     duplicate: 复制
     delete: 删除
     untitledDiagram: 无标题图表
@@ -173,11 +96,9 @@ workspace:
       dateCreated: 创建日期
       dateModified: 修改日期
       owner: 所有者
-
   sidebar:
     apiTokens: API 令牌
     billing: 计费
-
   emptyDiagrams:
     title: 还没有图表
     created:
@@ -190,18 +111,15 @@ workspace:
       description: 没有向团队展示的图表。你可以使用
     workspacePrivate:
       description: 没有私有图表。你可以创建新图表并保持私有。
-
   plan:
     pro: 专业版
     free: 免费版
     team: 团队版
-    disabled: "（已禁用）"
-
+    disabled: （已禁用）
   welcome:
     title: 欢迎来到团队工作区！
     description: 开始创建新图表并与你的队友协作。
     learnMore: 了解更多 →
-
   apiTokens:
     title: API 令牌
     description: API 令牌用于每次发出 API 请求时对 dbdiagram API 进行身份验证。与密码一样，API 令牌应保密。
@@ -212,7 +130,6 @@ workspace:
       dateCreated: 创建日期
       lastUsed: 最后使用
       owner: 所有者
-      action: ""
     empty: 没有已创建的令牌
     actions:
       revoke: 撤销
@@ -228,7 +145,7 @@ workspace:
       revokeTitle: 撤销 API 令牌？
       revokeContent: 你要撤销 "{name}" API 令牌吗？此操作无法撤销。
       revokePositive: 撤销令牌
-      revokeSuggestion: '请在文本输入框中输入 <i>permanently delete</i> 以确认。'
+      revokeSuggestion: 请在文本输入框中输入 <i>permanently delete</i> 以确认。
       generateSuccess: 令牌生成成功
     errors:
       nameEmpty: 令牌名称不能为空
@@ -236,10 +153,6 @@ workspace:
       nameWhitespace: 令牌名称不能为空或仅包含空格
       upgradeRequired: 请升级你的方案以创建令牌并访问我们的 API
       ownerOnly: 只有工作区所有者才能生成新令牌
-
   common:
-    labels:
-      you: "（你）"
-
-  errors:
-    permissionDenied: 你没有权限访问此工作区
+    labels: null
+  errors: null

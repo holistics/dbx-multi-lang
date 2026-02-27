@@ -6,50 +6,28 @@ modals:
     confirm: 确认
     delete: 删除
     remove: 移除
-    archive: 归档
-    unarchive: 取消归档
     rename: 重命名
-    share: 分享
-    invite: 邀请
-    settings: 设置
-    publish: 发布
-    export: 导出
-    import: 导入
-
   confirmation:
     default:
-      title: 确认
       message: 你确定要继续此操作吗？
       checkbox: 不再显示
-    delete:
-      title: 删除
-      message: 你确定要删除此项目吗？
+    delete: null
     deleteDiagram:
-      title: 删除图表
       message: 你确定要删除此图表吗？此操作无法撤销。
       warning: 请注意，此操作无法撤销！
       embedLinkActive: 你有一个活跃的嵌入链接。
       lastViewed: 最后查看
-    removeWorkspace:
-      title: 移除工作区
-      message: 你确定要移除此工作区吗？
+    removeWorkspace: null
     removeMember:
       title: 移除成员
       message: 你确定要从工作区中移除此成员吗？
       suggestion: 请输入你的邮箱以确认。
-
   share:
-    title: 分享图表
     tabs:
       sharing: 分享
       embedding: 嵌入
     generalAccess:
-      title: 常规访问
-      options:
-        private: 私有
-        restricted: 受限
-        public: 任何拥有链接的人
-      password: 密码
+      options: null
       passwordPlaceholder: 输入密码
       createPassword: 创建
       updatePassword: 更新
@@ -57,11 +35,6 @@ modals:
       copyLink: 复制链接
       updatePasswordButton: 更新密码
     permissions:
-      title: 权限
-      owner: 所有者
-      admin: 管理员
-      editor: 编辑者
-      viewer: 查看者
       canEditAndInvite: 可编辑和邀请
       canEditAndInviteDesc: 可以编辑和邀请他人。
       canEdit: 可编辑
@@ -73,27 +46,16 @@ modals:
       noAccess: 无权访问
       noAccessDesc: 无权访问此图表
     invite:
-      title: 邀请他人
       placeholder: 邮箱，用逗号或空格分隔
       button: 邀请
-      copyLink: 复制链接
-      linkCopied: 链接已复制！
     members:
-      title: 有访问权限的人
       you: （你）
     confirmRemoveCollaborator: 你即将从协作者中移除 <b>{email}</b>，请确认你的操作！
     errors:
       publicPermissionUpdateFailed: 图表公开权限更新失败，请重试！
       publicPermissionUpdated: 图表公开权限已更新！
       passwordLength: 密码长度必须在 6 到 128 个字符之间
-      createPasswordSuccess: 创建密码成功
-      updatePasswordSuccess: 更新密码成功
-      createPasswordFailed: 创建密码失败
-      updatePasswordFailed: 更新密码失败
       cannotUpdateDiagramState: 无法更新图表状态
-      diagramIsPublic: 图表现在是公开的！
-      diagramIsPrivate: 图表现在是私有的！
-      diagramIsProtected: 图表现在是受保护的！
     permissionChanged: 你的权限已更改，请重新加载以应用更改！
     reload: 重新加载
     cannotGetPermission: 无法获取图表权限，请重试！
@@ -120,7 +82,6 @@ modals:
       collaborationLimit: 你只能与以下人数协作
       diagramLimit: 每个图表最多 4 个免费用户（当前 {count} 个用户）
       workspaceLimit: 所有图表中最多 6 个免费用户（当前 {count} 个用户）
-
   private:
     protected: 受保护的图表
     private: 此图表是私有的
@@ -130,15 +91,10 @@ modals:
     incorrectPassword: 密码错误
     tryAgain: 请重试！
     viewDiagram: 查看图表
-
   publish:
     title: 发布到
     dbdocsLink: dbdocs
-    placeholder: 项目 URL
-    urlLabel: dbdocs.holistics.io/
     publishButton: 发布
-    success: 发布成功！
-    error: 发布失败
     bullet1: 发布你图表的可在线查看的数据库文档。
     bullet2: 发布的文档将在与图表所有者邮箱关联的 dbdocs 账户中可用。
     bullet3: 对图表的更改不会自动更新 dbdocs 文档。
@@ -159,44 +115,9 @@ modals:
     projectNameEmpty: 项目名称不能为空
     projectNameInvalid: 项目名称只能包含字母、数字、空格、"-" 或 "_"
     passwordInvalid: 密码无效，请重试！
-
   export:
-    title: 导出图表
-    button: 导出
-    formats:
-      png: PNG 图片
-      svg: SVG 图片
-      pdf: PDF 文档
-      dbml: DBML
-      sql: SQL
-    toPDF: 导出为 PDF
-    toPNG: 导出为 PNG
-    toSVG: 导出为 SVG
-    toPostgreSQL: 导出为 PostgreSQL
-    toMySQL: 导出为 MySQL
-    toSQLServer: 导出为 SQL Server
-    toOracleSQL: 导出为 Oracle SQL
-    error: 导出失败
-
+    formats: null
   import:
-    title: 导入
-    fromDatabase: 从数据库
-    fromFile: 从文件
-    fromSQL: 从 SQL
-    pasteSQL: 在此粘贴 SQL
-    validate: 验证
-    validating: 验证中...
-    invalid: 无效的 SQL 格式
-    error: 导入失败
-    fromDbConnection: 从数据库连接（通过 CLI）
-    fromMySQL: 从 MySQL
-    fromPostgreSQL: 从 PostgreSQL
-    fromSQLServer: 从 SQL Server
-    fromSnowflake: 从 Snowflake
-    fromOracleSQL: 从 Oracle SQL
-    fromRails: 从 Rails (schema.rb)
-    fromCSV: 从 CSV
-    fromFormat: 从 {format} 导入
     instructions: 说明
     showInstructions: 显示说明
     hideInstructions: 隐藏说明
@@ -215,8 +136,8 @@ modals:
       step1NoteSudo: 在 Linux 上的命令前
       step2: 2. 运行以下命令
       exampleFor: 示例
-      successMessage: '从数据库连接生成的 DBML 文件：database.dbml'
-      successBigquery: '注意：对于 BigQuery，你的 JSON 凭据文件必须包含以下键'
+      successMessage: 从数据库连接生成的 DBML 文件：database.dbml
+      successBigquery: 注意：对于 BigQuery，你的 JSON 凭据文件必须包含以下键
       successSnowflake1: 正在尝试连接...
       successSnowflake2: 正在执行查询...
       successSnowflake3: 查询执行成功。
@@ -229,12 +150,7 @@ modals:
         oracle: Oracle
         snowflake: Snowflake
         bigquery: BigQuery
-
-  stickyNotes:
-    title: 便签
-    upgradeRequired: 升级你的方案以使用便签
-    upgradeButton: 查看方案
-
+  stickyNotes: null
   upgrade:
     titles:
       createDiagram: 你已达到图表数量限制！
@@ -267,7 +183,6 @@ modals:
     buttons:
       viewPlans: 查看方案
       upgradeProject: 升级项目
-
   history:
     title: 版本历史
     deletedUser: 已删除的用户
@@ -284,7 +199,6 @@ modals:
       versionCopied: 你的版本已成功复制
     copiedName: （已恢复）{name}
     untitled: 无标题
-
   errors:
     inviteMaxEmails: 无法邀请超过 50 个邮箱
     inviteFailed: 无法邀请，请重试！
@@ -300,14 +214,6 @@ modals:
     savePdfFailed: 无法保存你的 PDF
     saveSvgFailed: 无法保存你的 SVG
     savePngFailed: 无法保存你的 PNG
-    checkoutFailed: 结账时发生错误。请稍后重试
-    checkoutSuccess: 结账成功
-    switchPlanSuccess: 切换方案成功
-    paymentProcessing: 你的支付正在处理中，请在几分钟后重新加载页面。
-    tokenGenerated: 令牌生成成功
-    githubSignInFailed: 使用 GitHub 登录失败
-    microsoftSignInFailed: 使用 Microsoft 登录失败，请重试！
-    supportContact: 发生错误，请联系我们的支持 dbdiagram@holistics.io
     cannotGetDiagrams: 无法获取图表，请尝试重新加载应用！
     cannotRemoveDefaultView: 你不被允许移除默认视图！
     cannotRemoveView: 无法移除此视图，请重新加载并重试！
@@ -316,11 +222,10 @@ modals:
     cancel: 取消
     removeView: 移除视图
     close: 关闭
-
+    reload: 重新加载
   workspaceType:
     personal: 个人工作区
     team: 团队工作区
-
   detailLevelsDropdown:
     tableNames: 表名
     keysOnly: 仅键

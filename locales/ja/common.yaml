@@ -3,77 +3,13 @@
 
 common:
   buttons:
-    save: 保存
     cancel: キャンセル
     confirm: 確認
     delete: 削除
-    edit: 編集
-    create: 作成
-    search: 検索
-    share: 共有
-    close: 閉じる
-    publish: 公開
     history: 履歴
-    update: 更新
-    copy: コピー
-    import: インポート
     export: エクスポート
-    download: ダウンロード
-    upload: アップロード
-    login: ログイン
-    logout: ログアウト
-    signup: 新規登録
-    continue: 続行
-    back: 戻る
-    next: 次へ
-    skip: スキップ
-    done: 完了
-    tryAgain: 再試行
-    refresh: ページを更新
-    clear: クリア
-    apply: 適用
-    reset: リセット
-    'yes': 'はい'
-    'no': 'いいえ'
     ok: OK
-    invite: 招待
-    join: 参加
-    leave: 退出
-    rename: 名前を変更
-    duplicate: 複製
-    archive: アーカイブ
-    restore: 復元
-    move: 移動
-    select: 選択
-    deselect: 選択解除
-    selectAll: すべて選択
-    deselectAll: すべて選択解除
-    show: 表示
-    hide: 非表示
-    expand: 展開
-    collapse: 折りたたむ
-    filter: フィルター
-    sort: 並び替え
-    group: グループ化
-    ungroup: グループ解除
-    fullscreen: 全画面
-    exitFullscreen: 全画面を終了
-    zoomIn: 拡大
-    zoomOut: 縮小
-    resetZoom: ズームをリセット
-    undo: 元に戻す
-    redo: やり直す
-    cut: 切り取り
-    paste: 貼り付け
     submit: 送信
-    reload: 再読み込み
-    remove: 削除
-    add: 追加
-    view: 表示
-    open: 開く
-    manage: 管理
-    settings: 設定
-
   help:
     title: ヘルプ
     documentation: ドキュメント
@@ -90,7 +26,6 @@ common:
     whatsNew: 新機能
     language: 言語
     contribute: このアプリの翻訳に協力
-
   export:
     title: エクスポート
     publishToDbdocs: ドキュメントを公開（dbdocs へ）
@@ -101,7 +36,6 @@ common:
     toMySQL: MySQL へ
     toSQLServer: SQL Server へ
     toOracleSQL: Oracle SQL へ
-
   import:
     title: インポート
     importFrom: インポート元
@@ -113,104 +47,41 @@ common:
     fromOracleSQL: Oracle SQL から
     fromRails: Rails (schema.rb) から
     fromCSV: CSV から
-
   upgrade:
     title: アップグレード
-    upgradeToPersonalPro: パーソナル Pro プランにアップグレード
-    collaborateWithTeam: チームプランで協力
-
   quickActions:
     title: クイックアクション
-
   sso:
     signInWithSSO: SSO でサインイン
     signInWithEmail: メールでサインイン
     useWorkEmail: 仕事用のメールアドレスで SSO を使って dbdiagram にアクセスしてください
     signInUnsuccessful: サインインに失敗しました。仕事用のメールアドレスを確認するか、別の方法をお試しください。
     selectWorkspace: サインインするワークスペースを選択してください
-
   ai:
     title: AI
     scrollToBottom: 一番下にスクロール
-
   actions:
-    saveChanges: 変更を保存
-    confirmDelete: 本当に削除しますか？
-    confirmDeleteItem: 本当に "{name}" を削除しますか？
-    confirmArchive: 本当にアーカイブしますか？
     confirmUnsaved:
       title: 確認してください
       content: 変更が保存されていない可能性があります。続行しますか？
-      negativeText: 'いいえ'
-      positiveText: 'はい'
-    copyToClipboard: クリップボードにコピー
-    copiedToClipboard: クリップボードにコピーしました！
-    selectAll: すべて選択
-    deselectAll: すべて選択解除
-    loading: 読み込み中...
-    saving: 保存中...
-    processing: 処理中...
-    pleaseWait: お待ちください...
-
+      negativeText: いいえ
+      positiveText: はい
   states:
-    loading: 読み込み中...
-    saving: 保存中...
-    error: エラーが発生しました
-    success: 成功
-    warning: 警告
-    info: 情報
     empty: データがありません
-    noResults: 結果が見つかりません
-    noItems: 項目が見つかりません
-    offline: オフラインです
-    online: オンラインに戻りました
-
-  time:
-    justNow: たった今
-    minuteAgo: 1分前
-    minutesAgo: '{count}分前'
-    hourAgo: 1時間前
-    hoursAgo: '{count}時間前'
-    dayAgo: 1日前
-    daysAgo: '{count}日前'
-    weekAgo: 1週間前
-    weeksAgo: '{count}週間前'
-    monthAgo: 1か月前
-    monthsAgo: '{count}か月前'
-    yearAgo: 1年前
-    yearsAgo: '{count}年前'
-
-  errors:
-    generic: エラーが発生しました。もう一度お試しください。
-    network: ネットワークエラーです。接続を確認してください。
-    unauthorized: 続行するにはログインが必要です。
-    forbidden: この操作を行う権限がありません。
-    notFound: リクエストされたリソースが見つかりませんでした。
-    serverError: サーバーエラーです。後でもう一度お試しください。
-    invalidInput: 入力内容を確認して、もう一度お試しください。
-    required: この項目は必須です。
-    invalidEmail: 有効なメールアドレスを入力してください。
-    passwordTooShort: パスワードは {min} 文字以上である必要があります。
-    passwordMismatch: パスワードが一致しません。
-    permissionDenied: 権限が拒否されました
-    dontHavePermission: このワークスペースにアクセスする権限がありません
-
-  workspace:
-    readOnlyMode: サブスクリプションのキャンセルにより、ワークスペースは読み取り専用モードです。ワークスペース機能を有効にするには、更新してください。
-
+  time: null
+  errors: null
+  workspace: null
   editor:
-    expand: エディターを展開
-    hide: エディターを非表示
-    loadingContent: サーバーからコンテンツを読み込み中です。お待ちください...
     keyboardShortcuts: キーボードショートカット
     openInDbdiagram: dbdiagram.io で開く
-
+    hide: エディターを非表示
+    expand: エディターを展開
+    loadingContent: サーバーからコンテンツを読み込み中です。お待ちください...
   notifications:
     noPermissionRemoveView: ダイアグラムビューを削除する権限がありません！
     noPermissionRenameView: ダイアグラムビューの名前を変更する権限がありません！
     workspaceDisabled: このワークスペースは現在無効になっています
     noEditPermissionAi: dbdiagram AI を使用するには編集権限が必要です。ダイアグラムのオーナーにアクセス権のアップグレードを依頼してください。
-
   needLogin:
     hiThere: こんにちは、
     saveQuery: ダイアグラムを保存するにはログインしてください
@@ -226,7 +97,6 @@ common:
     chartUpdateVisibleEntities: テーブル/付箋の表示設定を保存するにはログインしてください
     diagramViewCreateView: 新しいダイアグラムビューを作成するにはログインしてください
     default: 作業を続行するにはログインしてください
-
   dbdocsAuth:
     pleaseLoginWith: 以下の方法でログインしてください
     youAreLoggedInAs: ログイン中です
@@ -236,10 +106,8 @@ common:
     contactProjectOwner: アクセス権をリクエストするには、プロジェクトオーナーにお問い合わせください。
     weWillNeedNonSSO: 認証には非 SSO アカウントを使用していただく必要があります。
     weWillNeedSameEmail: 認証には dbdocs と同じメールアカウントを使用していただく必要があります。
-
   additional:
     collab:
-      updatingDiagramMetadata: ダイアグラムメタデータを更新中
       noLongerViewPermission: 閲覧権限がなくなりました！
       doNotHaveViewPermission: 閲覧権限がありません！
       fullSession: セッションが満員のため接続できません！
@@ -247,12 +115,9 @@ common:
       overwrittenDiagram: ダイアグラムの内容が上書きされました。最新の変更を表示するには再読み込みしてください！
       permissionsChanged: 権限が変更されました。変更を適用するには再読み込みしてください！
       cannotReconnect: サーバーに再接続できません
-
     query:
       noPermissionShare: このダイアグラムを共有する権限がありません
       cantCreateDiagram: 新しいダイアグラムを作成できません。ファイルをバックアップしてから、サインアウトして再ログインしてください
-      changesSaved: 変更が保存されました。
-      autoSaveDiagram: ダイアグラムは定期的に自動保存されます。
       cantSaveDiagram: ダイアグラムを保存できません。ファイルをバックアップしてから、サインアウトして再ログインしてください
       noPermissionSave: このダイアグラムを保存する権限がありません
       diagramDeleted: ダイアグラムが削除されました
@@ -263,7 +128,6 @@ common:
       failedLoadProjectDbdocs: DBDocs からプロジェクトの読み込みに失敗しました
       failedPublishDbdocs: DBDocs へのプロジェクトの公開に失敗しました
       pleaseSignInSaveDraft: ドラフトバージョンを保存するにはサインインしてください
-      draftVersionSaved: ドラフトバージョンが正常に保存されました
       noPermissionSaveDraft: ドラフトバージョンを保存する権限がありません
       autoSaveDraftFailed: ドラフトの自動保存に失敗しました！
       failedSaveDraft: ドラフトバージョンの保存に失敗しました
