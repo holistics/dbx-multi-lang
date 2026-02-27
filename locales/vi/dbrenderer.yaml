@@ -42,9 +42,9 @@ dbrenderer:
     cancel: Hủy (Esc)
   detailLevel:
     title: Mức độ chi tiết
-    showAllColumns: Hiện tất cả cột
-    hideColumns: Ẩn cột
-    showPrimaryKeys: Chỉ khóa chính
+    all: Hiện tất cả cột
+    tables: Chỉ tên bảng
+    keys: Chỉ các khóa
   viewDropdown:
     renameView: Đổi tên chế độ xem
     removeView: Xóa chế độ xem

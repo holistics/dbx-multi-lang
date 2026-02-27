@@ -109,21 +109,6 @@ common:
     empty: No data # Empty table/list message (centered)
 
   # ========================================
-  # Time relative - Relative timestamps in lists/activity feeds
-  # ========================================
-  time:
-
-  # ========================================
-  # Errors - Generic error messages throughout the app
-  # ========================================
-  errors:
-
-  # ========================================
-  # Workspace read-only - Subscription cancellation banner
-  # ========================================
-  workspace:
-
-  # ========================================
   # Code editor - Right panel DBML code editor
   # ========================================
   editor:

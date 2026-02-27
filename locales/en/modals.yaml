@@ -18,7 +18,6 @@ modals:
     default:
       message: Do you really want to continue this action? # Default confirmation message
       checkbox: Don't show this again # Checkbox to disable future confirmations
-    delete:
     deleteDiagram:
       message: Are you sure you want to delete this diagram? This action cannot be undone. # Delete diagram warning
       warning: Please note that this action cannot be undone! # Additional warning
@@ -38,7 +37,6 @@ modals:
       sharing: Sharing # Sharing tab label
       embedding: Embedding # Embedding tab label
     generalAccess:
-      options:
       passwordPlaceholder: Enter password # Password input placeholder
       createPassword: Create # Create password button
       updatePassword: Update # Update password button
@@ -67,6 +65,14 @@ modals:
       publicPermissionUpdated: Diagram's public permission updated! # Success toast
       passwordLength: Password must be between 6 and 128 characters # Validation error
       cannotUpdateDiagramState: Can not update diagram state # Error toast
+      createPasswordFailed: Create password failed # Error toast
+      updatePasswordFailed: Update password failed # Error toast
+    success:
+      createPasswordSuccess: Create password successfully # Success toast for password creation
+      updatePasswordSuccess: Update password updated successfully # Success toast for password update
+      diagramIsPublic: Diagram is public now! # Success toast for making diagram public
+      diagramIsPrivate: Diagram is private now! # Success toast for making diagram private
+      diagramIsProtected: Diagram is protected now! # Success toast for making diagram protected
     permissionChanged: Your permissions have been changed, please reload to apply changes! # Permission change toast
     reload: Reload # Reload button
     cannotGetPermission: Can not get diagram permission, please try again! # Error toast
@@ -136,12 +142,6 @@ modals:
     passwordInvalid: Invalid password, please try again! # Validation error
 
   # ========================================
-  # Export modal - Export diagram
-  # ========================================
-  export:
-    formats:
-
-  # ========================================
   # Import modal - Import diagram
   # ========================================
   import:
@@ -177,11 +177,6 @@ modals:
         oracle: Oracle # Database type label
         snowflake: Snowflake # Database type label
         bigquery: BigQuery # Database type label
-
-  # ========================================
-  # Sticky notes modal - Sticky notes upgrade
-  # ========================================
-  stickyNotes:
 
   # ========================================
   # Upgrade modals - Feature upgrade prompts
