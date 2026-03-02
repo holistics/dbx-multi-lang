@@ -45,9 +45,9 @@ dbrenderer:
     cancel: キャンセル (Esc)
   detailLevel:
     title: 詳細レベル
-    showAllColumns: すべてのカラムを表示
-    hideColumns: カラムを非表示
-    showPrimaryKeys: 主キーのみ
+    all: すべてのカラムを表示
+    tables: カラムを非表示
+    keys: 主キーのみ
   viewDropdown:
     renameView: ビューの名前を変更
     removeView: ビューを削除

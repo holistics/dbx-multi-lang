@@ -45,9 +45,9 @@ dbrenderer:
     cancel: 取消 (Esc)
   detailLevel:
     title: 详细级别
-    showAllColumns: 显示所有列
-    hideColumns: 隐藏列
-    showPrimaryKeys: 仅显示主键
+    all: 显示所有列
+    tables: 隐藏列
+    keys: 仅显示主键
   viewDropdown:
     renameView: 重命名视图
     removeView: 删除视图
