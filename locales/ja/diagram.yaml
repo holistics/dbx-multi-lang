@@ -2,17 +2,6 @@
 # UI Areas: Diagram editor, Toolbar, Header, Panels
 
 diagram:
-  editor: null
-  toolbar: null
-  views: null
-  panels: null
-  menu: null
-  actions: null
-  notifications: null
-  shortcuts: null
-  header: null
-  status: null
-  tooltip: null
   access:
     public: 公開
     passwordProtected: パスワード保護
@@ -23,6 +12,3 @@ diagram:
     publicTooltip: 公開 - リンクからアクセスできます
     passwordProtectedTooltip: パスワード保護 - リンクからアクセスできますが、正しいパスワードの入力が必要です
     privateTooltip: プライベート - 招待された人のみがアクセスできます
-  detailLevels: null
-  detailLevelOptions: null
-  dbdocs: null

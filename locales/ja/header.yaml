@@ -49,7 +49,6 @@ header:
     needLogin: 変更を公開するにはログインしてください
     hasErrors: ダイアグラムにエラーがあります
     noChanges: 公開する変更はありません
-  views: null
   modals:
     discardDraftsTitle: すべてのドラフトを破棄
     discardDraftsContent: すべてのドラフトバージョンを破棄して、プロジェクトの最新コンテンツを取得してもよろしいですか？この操作は元に戻せません。

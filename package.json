@@ -25,7 +25,8 @@
     "link": "yarn link",
     "clean": "rm -rf ./dist",
     "prepublishOnly": "yarn build",
-    "build:locales": "node scripts/build-locales.cjs"
+    "build:locales": "node scripts/build-locales.cjs",
+    "test": "node --test tests/**/*.cjs"
   },
   "keywords": [
     "i18n",

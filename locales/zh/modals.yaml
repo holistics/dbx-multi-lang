@@ -11,7 +11,6 @@ modals:
     default:
       message: 你确定要继续此操作吗？
       checkbox: 不再显示
-    delete: null
     deleteDiagram:
       message: 你确定要删除此图表吗？此操作无法撤销。
       warning: 请注意，此操作无法撤销！
@@ -27,7 +26,6 @@ modals:
       sharing: 分享
       embedding: 嵌入
     generalAccess:
-      options: null
       passwordPlaceholder: 输入密码
       createPassword: 创建
       updatePassword: 更新
@@ -56,6 +54,14 @@ modals:
       publicPermissionUpdated: 图表公开权限已更新！
       passwordLength: 密码长度必须在 6 到 128 个字符之间
       cannotUpdateDiagramState: 无法更新图表状态
+      createPasswordFailed: 创建密码失败
+      updatePasswordFailed: 更新密码失败
+    success:
+      createPasswordSuccess: 密码创建成功
+      updatePasswordSuccess: 密码更新成功
+      diagramIsPublic: 图表现在是公开的！
+      diagramIsPrivate: 图表现在是私有的！
+      diagramIsProtected: 图表现在是受保护的！
     permissionChanged: 你的权限已更改，请重新加载以应用更改！
     reload: 重新加载
     cannotGetPermission: 无法获取图表权限，请重试！
@@ -115,8 +121,6 @@ modals:
     projectNameEmpty: 项目名称不能为空
     projectNameInvalid: 项目名称只能包含字母、数字、空格、"-" 或 "_"
     passwordInvalid: 密码无效，请重试！
-  export:
-    formats: null
   import:
     instructions: 说明
     showInstructions: 显示说明
@@ -150,7 +154,6 @@ modals:
         oracle: Oracle
         snowflake: Snowflake
         bigquery: BigQuery
-  stickyNotes: null
   upgrade:
     titles:
       createDiagram: 你已达到图表数量限制！

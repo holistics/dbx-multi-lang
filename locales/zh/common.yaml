@@ -68,9 +68,6 @@ common:
       positiveText: 是
   states:
     empty: 无数据
-  time: null
-  errors: null
-  workspace: null
   editor:
     keyboardShortcuts: 键盘快捷键
     openInDbdiagram: 在 dbdiagram.io 中打开

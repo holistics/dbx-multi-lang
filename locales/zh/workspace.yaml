@@ -15,13 +15,6 @@ workspace:
   workspace: 工作区
   private: 私有
   readOnlyMode: 由于订阅已取消，工作区处于只读模式。请续订以启用工作区功能。
-  folders: null
-  diagrams: null
-  sharing: null
-  collaboration: null
-  templates: null
-  activity: null
-  notifications: null
   settings:
     title: 设置
     workspaceName: 工作区名称
@@ -153,6 +146,3 @@ workspace:
       nameWhitespace: 令牌名称不能为空或仅包含空格
       upgradeRequired: 请升级你的方案以创建令牌并访问我们的 API
       ownerOnly: 只有工作区所有者才能生成新令牌
-  common:
-    labels: null
-  errors: null

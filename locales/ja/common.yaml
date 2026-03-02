@@ -68,9 +68,6 @@ common:
       positiveText: はい
   states:
     empty: データがありません
-  time: null
-  errors: null
-  workspace: null
   editor:
     keyboardShortcuts: キーボードショートカット
     openInDbdiagram: dbdiagram.io で開く

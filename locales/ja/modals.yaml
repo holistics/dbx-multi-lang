@@ -11,7 +11,6 @@ modals:
     default:
       message: この操作を本当に続行しますか？
       checkbox: 今後表示しない
-    delete: null
     deleteDiagram:
       message: このダイアグラムを削除してもよろしいですか？この操作は元に戻せません。
       warning: この操作は元に戻せないことにご注意ください！
@@ -27,7 +26,6 @@ modals:
       sharing: 共有
       embedding: 埋め込み
     generalAccess:
-      options: null
       passwordPlaceholder: パスワードを入力
       createPassword: 作成
       updatePassword: 更新
@@ -56,6 +54,14 @@ modals:
       publicPermissionUpdated: ダイアグラムの公開権限が更新されました！
       passwordLength: パスワードは6文字以上128文字以下である必要があります
       cannotUpdateDiagramState: ダイアグラムの状態を更新できません
+      createPasswordFailed: パスワードの作成に失敗しました
+      updatePasswordFailed: パスワードの更新に失敗しました
+    success:
+      createPasswordSuccess: パスワードを正常に作成しました
+      updatePasswordSuccess: パスワードが正常に更新されました
+      diagramIsPublic: ダイアグラムが公開になりました！
+      diagramIsPrivate: ダイアグラムがプライベートになりました！
+      diagramIsProtected: ダイアグラムが保護されました！
     permissionChanged: 権限が変更されました。変更を適用するには再読み込みしてください！
     reload: 再読み込み
     cannotGetPermission: ダイアグラムの権限を取得できません。もう一度お試しください！
@@ -115,8 +121,6 @@ modals:
     projectNameEmpty: プロジェクト名を入力してください
     projectNameInvalid: プロジェクト名にはアルファベット、数字、スペース、"-" または "_" のみ使用できます
     passwordInvalid: 無効なパスワードです。もう一度お試しください！
-  export:
-    formats: null
   import:
     instructions: 手順
     showInstructions: 手順を表示
@@ -150,7 +154,6 @@ modals:
         oracle: Oracle
         snowflake: Snowflake
         bigquery: BigQuery
-  stickyNotes: null
   upgrade:
     titles:
       createDiagram: ダイアグラム数の上限に達しました！

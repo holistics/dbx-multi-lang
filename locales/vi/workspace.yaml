@@ -148,3 +148,4 @@ workspace:
       nameWhitespace: Tên token không được để trống hoặc chỉ chứa khoảng trắng
       upgradeRequired: Vui lòng nâng cấp gói của bạn để tạo token và truy cập API
       ownerOnly: Chỉ chủ sở hữu workspace mới có thể tạo token mới
+

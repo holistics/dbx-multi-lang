@@ -69,7 +69,7 @@ modals:
       updatePasswordFailed: Update password failed # Error toast
     success:
       createPasswordSuccess: Create password successfully # Success toast for password creation
-      updatePasswordSuccess: Update password updated successfully # Success toast for password update
+      updatePasswordSuccess: Update password successfully # Success toast for password update
       diagramIsPublic: Diagram is public now! # Success toast for making diagram public
       diagramIsPrivate: Diagram is private now! # Success toast for making diagram private
       diagramIsProtected: Diagram is protected now! # Success toast for making diagram protected

@@ -15,13 +15,6 @@ workspace:
   workspace: ワークスペース
   private: プライベート
   readOnlyMode: サブスクリプションのキャンセルにより、ワークスペースは読み取り専用モードです。機能を有効にするにはサブスクリプションを更新してください。
-  folders: null
-  diagrams: null
-  sharing: null
-  collaboration: null
-  templates: null
-  activity: null
-  notifications: null
   settings:
     title: 設定
     workspaceName: ワークスペース名
@@ -153,6 +146,3 @@ workspace:
       nameWhitespace: トークン名は空またはスペースのみにすることはできません
       upgradeRequired: トークンの作成と API へのアクセスには、プランをアップグレードしてください
       ownerOnly: 新しいトークンを生成できるのはワークスペースのオーナーのみです
-  common:
-    labels: null
-  errors: null
