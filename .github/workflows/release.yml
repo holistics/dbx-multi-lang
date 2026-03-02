@@ -4,30 +4,69 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  SLACK_CHANNEL_ID: '#dbx-releases'
 
 jobs:
   release:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
+    runs-on: blacksmith-2vcpu-ubuntu-2204
 
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22.14.0'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@holistics'
 
       - name: Install dependencies
-        run: npm install
+        run: yarn install --frozen-lockfile
 
       - name: Build
-        run: npm run build
+        run: yarn build
 
       - name: Publish to GitHub Packages
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  send-release-notes:
+    needs: release
+    timeout-minutes: 5
+    runs-on: blacksmith-2vcpu-ubuntu-2204
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare Slack payload
+        id: slack_payload
+        run: |
+          echo "today=$(date +'%b %d, %Y')" >> "$GITHUB_OUTPUT"
+          echo "version=v$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
+
+      - name: Load secret
+        id: op-load-secret
+        uses: 1password/load-secrets-action@v1
+        with:
+          export-env: false
+        env:
+          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_DBX_SERVICE_ACCOUNT_TOKEN }}
+          SLACK_BOT_TOKEN: op://github-action-dbx-team/dbx-deploy-bot/password
+
+      - name: Post to Slack channel
+        uses: slackapi/slack-github-action@v1.26.0
+        with:
+          channel-id: ${{ env.SLACK_CHANNEL_ID }}
+          payload: |
+            {
+              "text": "*dbdocs CLI*: Version ${{ steps.slack_payload.outputs.version }} (${{ steps.slack_payload.outputs.today }}) has been released"
+            }
+        env:
+          SLACK_BOT_TOKEN: ${{ steps.op-load-secret.outputs.SLACK_BOT_TOKEN }}
