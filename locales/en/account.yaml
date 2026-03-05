@@ -1,0 +1,117 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    title: Account # Modal main title
+    loadingInfo: Loading account information... # Loading spinner text
+    displayName: Display Name # Label for display name field
+    email: Email # Label for email field
+
+    # Connected accounts section
+    connectedAccounts:
+      title: Connected Accounts # Section title
+      loading: Loading connected accounts... # Loading text for connected accounts
+      noAccounts: No connected accounts # Empty state text
+      loggedInWith: Logged in with {provider} # Provider badge label (e.g., "Logged in with Google")
+
+    # Manage account section
+    manageTitle: Manage Account # Section title
+    changeEmail: Change email address # Change email button label
+
+    # Account removal
+    removal:
+      removeAccount: Remove account... # Remove account button label
+      cancelRequest: Cancel removal request # Cancel removal request button label
+      cannotBeUndone: This action cannot be undone! # Warning text when no removal request
+      removedAfter: "Your account will be removed after {time}." # Removal countdown text
+      aFewHours: a few hours # Time label when less than 1 day remaining
+      aDay: a day # Time label when exactly 1 day remaining
+      days: "{count} days" # Time label for multiple days remaining
+      workspaceDeletionWarning: "You have {count} owned workspace(s) that will be deleted:" # Warning about workspaces to be deleted
+      confirmTitle: Remove this account? # Confirmation modal title
+      cancelSuccess: Removal request was canceled successfully! # Success toast after canceling
+      submitSuccess: Removal request was created successfully! # Success toast after submitting
+
+    errors:
+      generic: An error has occurred, please contact our support at dbdiagram@holistics.io # Generic error toast
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: Change Email # Modal title
+
+    # Step labels (stepper header)
+    steps:
+      verifyCurrentEmail: Verify Current Email # Step 1 title
+      currentEmailVerified: Current email verified # Step 1 completed label
+      enterNewEmail: Enter New Email # Step 2 title
+      verifyNewEmail: Verify New Email # Step 3 title
+      newEmailVerified: New email verified # Step 3 completed label
+      confirmChange: Confirm Change # Step 4 title
+      emailChanged: Email changed # Step 4 completed label
+
+    # Step 1: Verify current email
+    verifyCurrent:
+      description: For security, you need to verify your current email via OTP to change it. # Step 1 description
+      currentEmailLabel: "Current email:" # Label before current email address
+      sendCode: Send Code # Send OTP button
+      otpSentMessage: We sent a 6-digit code to your email. The code expires in 4 minutes. # OTP sent info text
+      verificationCode: Verification Code # OTP input label
+      resendCode: Resend code # Resend button label
+      resendCodeCooldown: "Resend code ({seconds}s)" # Resend button with cooldown timer
+      verify: Verify # Verify OTP button
+
+    # Step 2: Enter new email
+    enterNew:
+      description: "Enter your new email address. We'll send a verification code to confirm it's yours." # Step 2 description
+      newEmailLabel: New Email Address # New email input label
+      placeholder: Enter new email # New email input placeholder
+      sendCode: Send Code # Send OTP button
+
+    # Step 3: Verify new email
+    verifyNew:
+      otpSentTo: We sent a 6-digit code to # Text before new email address
+      codeExpires: The code expires in 4 minutes. # OTP expiry info
+      verificationCode: Verification Code # OTP input label
+      resendCode: Resend code # Resend button label
+      resendCodeCooldown: "Resend code ({seconds}s)" # Resend button with cooldown timer
+      back: Back # Back button to return to step 2
+      verify: Verify # Verify OTP button
+
+    # Step 4: Confirm change
+    confirm:
+      description: "You're about to change your email address:" # Step 4 description
+      from: "From:" # Label for current email in summary
+      to: "To:" # Label for new email in summary
+      pleaseNote: "Please note:" # Notes section title
+      noteLogin: You will need to use your new email to log in to this account. # Note about login
+      noteNotifications: The new email will receive all account notifications (billing, invitations, etc.) in the future. # Note about notifications
+      noteSubscription: Your current subscription will not be affected. No further action is required. # Note about subscription (shown only if subscribed)
+      noteLogout: "You won't be logged out automatically. Please log out from other devices manually." # Note about logout
+      noteIrreversible: This action cannot be undone. # Note about irreversibility
+      confirmButton: Confirm Change # Confirm change button
+
+    # Polling notifications for email change propagation
+    polling:
+      inProgressTitle: Updating your email across services... # Notification title while syncing
+      inProgressText: This may take a few minutes. You can still continue using the app. # Notification body while syncing
+      completedText: Email updated across all services successfully! # Success notification
+      failedTitle: Some services failed to sync your new email. # Warning notification title
+      failedText: Your email has been changed, but some services may still show the old one. Please contact our support at dbdiagram@holistics.io. # Warning notification body
+
+    # Error messages
+    errors:
+      invalidEmail: Please enter a valid email address # Invalid email format
+      incorrectCode: The code you entered is incorrect # Wrong OTP code
+      codeExpired: The verification code has expired. Please request a new one. # OTP expired
+      codeAlreadyUsed: This code has already been used. Please request a new one. # OTP already used
+      requestExpired: Your verification request has expired. Please request a new code. # OTP request token expired
+      emailInUse: This email is already in use by another account # Duplicate email
+      verificationExpired: Your verification has expired. Please start over. # Verification token expired
+      changeFailed: Failed to change email. Please try again later. # Email update API failure
+      generic: Something went wrong. Please try again. # Fallback error

@@ -1,0 +1,107 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    title: Tài khoản
+    loadingInfo: Đang tải thông tin tài khoản...
+    displayName: Tên hiển thị
+    email: Email
+
+    connectedAccounts:
+      title: Tài khoản liên kết
+      loading: Đang tải tài khoản liên kết...
+      noAccounts: Không có tài khoản liên kết
+      loggedInWith: Đã đăng nhập bằng {provider}
+
+    manageTitle: Quản lý tài khoản
+    changeEmail: Thay đổi địa chỉ email
+
+    removal:
+      removeAccount: Xóa tài khoản...
+      cancelRequest: Hủy yêu cầu xóa
+      cannotBeUndone: Hành động này không thể hoàn tác!
+      removedAfter: "Tài khoản của bạn sẽ bị xóa sau {time}."
+      aFewHours: vài giờ
+      aDay: một ngày
+      days: "{count} ngày"
+      workspaceDeletionWarning: "{count} không gian làm việc của bạn sẽ bị xóa:"
+      confirmTitle: Xóa tài khoản này?
+      cancelSuccess: Yêu cầu xóa đã được hủy thành công!
+      submitSuccess: Yêu cầu xóa đã được tạo thành công!
+
+    errors:
+      generic: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: Thay đổi Email
+
+    steps:
+      verifyCurrentEmail: Xác minh Email hiện tại
+      currentEmailVerified: Email hiện tại đã được xác minh
+      enterNewEmail: Nhập Email mới
+      verifyNewEmail: Xác minh Email mới
+      newEmailVerified: Email mới đã được xác minh
+      confirmChange: Xác nhận thay đổi
+      emailChanged: Email đã được thay đổi
+
+    verifyCurrent:
+      description: Để bảo mật, bạn cần xác minh email hiện tại qua OTP trước khi thay đổi.
+      currentEmailLabel: "Email hiện tại:"
+      sendCode: Gửi mã
+      otpSentMessage: Chúng tôi đã gửi mã 6 chữ số đến email của bạn. Mã sẽ hết hạn sau 4 phút.
+      verificationCode: Mã xác minh
+      resendCode: Gửi lại mã
+      resendCodeCooldown: "Gửi lại mã ({seconds}s)"
+      verify: Xác minh
+
+    enterNew:
+      description: Nhập địa chỉ email mới. Chúng tôi sẽ gửi mã xác minh để xác nhận email thuộc về bạn.
+      newEmailLabel: Địa chỉ Email mới
+      placeholder: Nhập email mới
+      sendCode: Gửi mã
+
+    verifyNew:
+      otpSentTo: Chúng tôi đã gửi mã 6 chữ số đến
+      codeExpires: Mã sẽ hết hạn sau 4 phút.
+      verificationCode: Mã xác minh
+      resendCode: Gửi lại mã
+      resendCodeCooldown: "Gửi lại mã ({seconds}s)"
+      back: Quay lại
+      verify: Xác minh
+
+    confirm:
+      description: "Bạn sắp thay đổi địa chỉ email:"
+      from: "Từ:"
+      to: "Đến:"
+      pleaseNote: "Lưu ý:"
+      noteLogin: Bạn sẽ cần sử dụng email mới để đăng nhập vào tài khoản này.
+      noteNotifications: Email mới sẽ nhận tất cả thông báo tài khoản (thanh toán, lời mời, v.v.) trong tương lai.
+      noteSubscription: Gói đăng ký hiện tại của bạn sẽ không bị ảnh hưởng. Không cần thực hiện thêm hành động nào.
+      noteLogout: Bạn sẽ không bị đăng xuất tự động. Vui lòng đăng xuất thủ công từ các thiết bị khác.
+      noteIrreversible: Hành động này không thể hoàn tác.
+      confirmButton: Xác nhận thay đổi
+
+    polling:
+      inProgressTitle: Đang cập nhật email trên các dịch vụ...
+      inProgressText: Quá trình này có thể mất vài phút. Bạn vẫn có thể tiếp tục sử dụng ứng dụng.
+      completedText: Email đã được cập nhật thành công trên tất cả các dịch vụ!
+      failedTitle: Một số dịch vụ không thể đồng bộ email mới của bạn.
+      failedText: Email của bạn đã được thay đổi, nhưng một số dịch vụ có thể vẫn hiển thị email cũ. Vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io.
+
+    errors:
+      invalidEmail: Vui lòng nhập địa chỉ email hợp lệ
+      incorrectCode: Mã bạn nhập không chính xác
+      codeExpired: Mã xác minh đã hết hạn. Vui lòng yêu cầu mã mới.
+      codeAlreadyUsed: Mã này đã được sử dụng. Vui lòng yêu cầu mã mới.
+      requestExpired: Yêu cầu xác minh của bạn đã hết hạn. Vui lòng yêu cầu mã mới.
+      emailInUse: Email này đã được sử dụng bởi tài khoản khác
+      verificationExpired: Xác minh của bạn đã hết hạn. Vui lòng bắt đầu lại.
+      changeFailed: Không thể thay đổi email. Vui lòng thử lại sau.
+      generic: Đã xảy ra lỗi. Vui lòng thử lại.

@@ -1,0 +1,107 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    title: アカウント
+    loadingInfo: アカウント情報を読み込み中...
+    displayName: 表示名
+    email: メール
+
+    connectedAccounts:
+      title: 連携済みアカウント
+      loading: 連携済みアカウントを読み込み中...
+      noAccounts: 連携済みアカウントはありません
+      loggedInWith: "{provider}でログイン中"
+
+    manageTitle: アカウント管理
+    changeEmail: メールアドレスを変更
+
+    removal:
+      removeAccount: アカウントを削除...
+      cancelRequest: 削除リクエストをキャンセル
+      cannotBeUndone: この操作は元に戻せません！
+      removedAfter: "アカウントは{time}後に削除されます。"
+      aFewHours: 数時間
+      aDay: 1日
+      days: "{count}日"
+      workspaceDeletionWarning: "削除される所有ワークスペースが{count}件あります："
+      confirmTitle: このアカウントを削除しますか？
+      cancelSuccess: 削除リクエストが正常にキャンセルされました！
+      submitSuccess: 削除リクエストが正常に作成されました！
+
+    errors:
+      generic: エラーが発生しました。dbdiagram@holistics.io までお問い合わせください
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: メール変更
+
+    steps:
+      verifyCurrentEmail: 現在のメールを確認
+      currentEmailVerified: 現在のメールが確認されました
+      enterNewEmail: 新しいメールを入力
+      verifyNewEmail: 新しいメールを確認
+      newEmailVerified: 新しいメールが確認されました
+      confirmChange: 変更を確認
+      emailChanged: メールが変更されました
+
+    verifyCurrent:
+      description: セキュリティのため、メールを変更するには現在のメールをOTPで確認する必要があります。
+      currentEmailLabel: "現在のメール："
+      sendCode: コードを送信
+      otpSentMessage: メールに6桁のコードを送信しました。コードは4分後に期限切れになります。
+      verificationCode: 確認コード
+      resendCode: コードを再送信
+      resendCodeCooldown: "コードを再送信（{seconds}秒）"
+      verify: 確認
+
+    enterNew:
+      description: 新しいメールアドレスを入力してください。確認コードを送信して本人確認を行います。
+      newEmailLabel: 新しいメールアドレス
+      placeholder: 新しいメールを入力
+      sendCode: コードを送信
+
+    verifyNew:
+      otpSentTo: 6桁のコードを送信しました
+      codeExpires: コードは4分後に期限切れになります。
+      verificationCode: 確認コード
+      resendCode: コードを再送信
+      resendCodeCooldown: "コードを再送信（{seconds}秒）"
+      back: 戻る
+      verify: 確認
+
+    confirm:
+      description: メールアドレスを変更しようとしています：
+      from: "変更前："
+      to: "変更後："
+      pleaseNote: ご注意ください：
+      noteLogin: 新しいメールでこのアカウントにログインする必要があります。
+      noteNotifications: 今後、新しいメールにすべてのアカウント通知（請求、招待など）が届きます。
+      noteSubscription: 現在のサブスクリプションには影響しません。追加の操作は不要です。
+      noteLogout: 自動的にログアウトされません。他のデバイスから手動でログアウトしてください。
+      noteIrreversible: この操作は元に戻せません。
+      confirmButton: 変更を確認
+
+    polling:
+      inProgressTitle: サービス全体でメールを更新中...
+      inProgressText: 数分かかる場合があります。引き続きアプリをご利用いただけます。
+      completedText: すべてのサービスでメールが正常に更新されました！
+      failedTitle: 一部のサービスで新しいメールの同期に失敗しました。
+      failedText: メールは変更されましたが、一部のサービスでは古いメールが表示される場合があります。dbdiagram@holistics.io までお問い合わせください。
+
+    errors:
+      invalidEmail: 有効なメールアドレスを入力してください
+      incorrectCode: 入力したコードが正しくありません
+      codeExpired: 確認コードの有効期限が切れました。新しいコードをリクエストしてください。
+      codeAlreadyUsed: このコードは既に使用されています。新しいコードをリクエストしてください。
+      requestExpired: 確認リクエストの有効期限が切れました。新しいコードをリクエストしてください。
+      emailInUse: このメールは既に別のアカウントで使用されています
+      verificationExpired: 確認の有効期限が切れました。最初からやり直してください。
+      changeFailed: メールの変更に失敗しました。後でもう一度お試しください。
+      generic: 問題が発生しました。もう一度お試しください。

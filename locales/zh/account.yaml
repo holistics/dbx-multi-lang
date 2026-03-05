@@ -1,0 +1,107 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    title: 账户
+    loadingInfo: 正在加载账户信息...
+    displayName: 显示名称
+    email: 邮箱
+
+    connectedAccounts:
+      title: 已关联账户
+      loading: 正在加载已关联账户...
+      noAccounts: 没有已关联的账户
+      loggedInWith: 已通过 {provider} 登录
+
+    manageTitle: 管理账户
+    changeEmail: 更改邮箱地址
+
+    removal:
+      removeAccount: 删除账户...
+      cancelRequest: 取消删除请求
+      cannotBeUndone: 此操作无法撤销！
+      removedAfter: "您的账户将在{time}后被删除。"
+      aFewHours: 几小时
+      aDay: 一天
+      days: "{count}天"
+      workspaceDeletionWarning: "您拥有 {count} 个工作区将被删除："
+      confirmTitle: 删除此账户？
+      cancelSuccess: 删除请求已成功取消！
+      submitSuccess: 删除请求已成功创建！
+
+    errors:
+      generic: 发生错误，请联系我们的支持团队 dbdiagram@holistics.io
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: 更改邮箱
+
+    steps:
+      verifyCurrentEmail: 验证当前邮箱
+      currentEmailVerified: 当前邮箱已验证
+      enterNewEmail: 输入新邮箱
+      verifyNewEmail: 验证新邮箱
+      newEmailVerified: 新邮箱已验证
+      confirmChange: 确认更改
+      emailChanged: 邮箱已更改
+
+    verifyCurrent:
+      description: 为了安全起见，您需要通过OTP验证当前邮箱后才能更改。
+      currentEmailLabel: "当前邮箱："
+      sendCode: 发送验证码
+      otpSentMessage: 我们已向您的邮箱发送了6位验证码。验证码将在4分钟后过期。
+      verificationCode: 验证码
+      resendCode: 重新发送验证码
+      resendCodeCooldown: "重新发送验证码（{seconds}秒）"
+      verify: 验证
+
+    enterNew:
+      description: 输入您的新邮箱地址。我们将发送验证码以确认该邮箱属于您。
+      newEmailLabel: 新邮箱地址
+      placeholder: 输入新邮箱
+      sendCode: 发送验证码
+
+    verifyNew:
+      otpSentTo: 我们已发送6位验证码至
+      codeExpires: 验证码将在4分钟后过期。
+      verificationCode: 验证码
+      resendCode: 重新发送验证码
+      resendCodeCooldown: "重新发送验证码（{seconds}秒）"
+      back: 返回
+      verify: 验证
+
+    confirm:
+      description: 您即将更改邮箱地址：
+      from: "从："
+      to: "至："
+      pleaseNote: 请注意：
+      noteLogin: 您需要使用新邮箱登录此账户。
+      noteNotifications: 新邮箱将接收所有账户通知（账单、邀请等）。
+      noteSubscription: 您当前的订阅不会受到影响。无需进一步操作。
+      noteLogout: 您不会被自动登出。请手动从其他设备登出。
+      noteIrreversible: 此操作无法撤销。
+      confirmButton: 确认更改
+
+    polling:
+      inProgressTitle: 正在跨服务更新您的邮箱...
+      inProgressText: 这可能需要几分钟。您仍然可以继续使用应用。
+      completedText: 邮箱已在所有服务中成功更新！
+      failedTitle: 部分服务未能同步您的新邮箱。
+      failedText: 您的邮箱已更改，但部分服务可能仍显示旧邮箱。请联系我们的支持团队 dbdiagram@holistics.io。
+
+    errors:
+      invalidEmail: 请输入有效的邮箱地址
+      incorrectCode: 您输入的验证码不正确
+      codeExpired: 验证码已过期。请重新获取验证码。
+      codeAlreadyUsed: 此验证码已被使用。请重新获取验证码。
+      requestExpired: 您的验证请求已过期。请重新获取验证码。
+      emailInUse: 此邮箱已被其他账户使用
+      verificationExpired: 您的验证已过期。请重新开始。
+      changeFailed: 邮箱更改失败。请稍后重试。
+      generic: 出了点问题。请重试。
