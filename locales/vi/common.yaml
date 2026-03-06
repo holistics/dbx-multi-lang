@@ -100,6 +100,7 @@ common:
     contactProjectOwner: Liên hệ chủ sở hữu dự án để yêu cầu quyền truy cập.
     weWillNeedNonSSO: Chúng tôi sẽ cần bạn sử dụng tài khoản không phải SSO để xác thực.
     weWillNeedSameEmail: Chúng tôi sẽ cần bạn sử dụng cùng email với tài khoản dbdocs để xác thực.
+    noEditPermission: Bạn không có quyền chỉnh sửa dự án này.
   additional:
     collab:
       noLongerViewPermission: Bạn không còn quyền xem!

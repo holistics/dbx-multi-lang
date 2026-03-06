@@ -31,6 +31,7 @@ auth:
     orContinueWith: hoặc tiếp tục với
   portal:
     signIn: Đăng nhập
+    signInWith: Đăng nhập với
   additional:
     unknownError: Lỗi không xác định
     invalidOtp: Mã OTP không hợp lệ, vui lòng thử lại!

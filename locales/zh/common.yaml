@@ -103,6 +103,7 @@ common:
     contactProjectOwner: 联系项目所有者请求访问权限。
     weWillNeedNonSSO: 我们需要你使用非 SSO 账号进行身份验证。
     weWillNeedSameEmail: 我们需要你使用与 dbdocs 相同的邮箱账号进行身份验证。
+    noEditPermission: 你没有此项目的编辑权限。
   additional:
     collab:
       noLongerViewPermission: 你已不再拥有查看权限！
