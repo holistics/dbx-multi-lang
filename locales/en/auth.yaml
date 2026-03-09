@@ -57,6 +57,7 @@ auth:
   # ========================================
   portal:
     signIn: Sign in # Button (portal embedded login)
+    signInWith: Sign in with
 
   # ========================================
   # Additional Errors - Extra error messages

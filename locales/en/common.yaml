@@ -158,6 +158,7 @@ common:
     contactProjectOwner: Contact the project owner to request access. # Guidance text (who to contact)
     weWillNeedNonSSO: We will need you to use non-SSO account for authentication. # Auth guidance message
     weWillNeedSameEmail: We will need you to use the same email account as dbdocs for authentication. # Email match guidance
+    noEditPermission: You do not have edit permission for this project. # Error message (DBDocs edit permission denied)
 
   # ========================================
   # Real-time collaboration - Connection and sync messages

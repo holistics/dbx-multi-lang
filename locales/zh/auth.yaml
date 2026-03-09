@@ -34,6 +34,7 @@ auth:
     orContinueWith: 或通过以下方式继续
   portal:
     signIn: 登录
+    signInWith: 登录为
   additional:
     unknownError: 未知错误
     invalidOtp: 无效的 OTP，请重试！

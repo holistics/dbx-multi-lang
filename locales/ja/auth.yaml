@@ -34,6 +34,7 @@ auth:
     orContinueWith: または以下で続行
   portal:
     signIn: サインイン
+    signInWith: '〜でサインイン'
   additional:
     unknownError: 不明なエラー
     invalidOtp: 無効な OTP です。もう一度お試しください！

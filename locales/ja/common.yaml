@@ -103,6 +103,7 @@ common:
     contactProjectOwner: アクセス権をリクエストするには、プロジェクトオーナーにお問い合わせください。
     weWillNeedNonSSO: 認証には非 SSO アカウントを使用していただく必要があります。
     weWillNeedSameEmail: 認証には dbdocs と同じメールアカウントを使用していただく必要があります。
+    noEditPermission: このプロジェクトの編集権限がありません。
   additional:
     collab:
       noLongerViewPermission: 閲覧権限がなくなりました！
