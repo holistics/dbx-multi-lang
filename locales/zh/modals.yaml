@@ -169,6 +169,7 @@ modals:
       aiAssistant: dbdiagram AI 助手是一个付费功能
       tableGroup: 你发现了一个付费功能！
       tableGroupDbdocs: 你发现了付费项目的一个功能！
+      invitePeople: 你发现了一个付费功能！
     descriptions:
       createDiagram: 立即升级到我们的付费方案，获得<b>无限<br>图表创建</b>和其他高级功能！
       detailLevels: 立即升级到我们的付费方案，获得详细级别、标题颜色、<br>表组以及所有即将推出的功能！
@@ -183,6 +184,7 @@ modals:
       aiAssistant: 立即升级到我们的付费方案，使用<br><strong>AI 驱动的自然语言辅助</strong>设计和优化你的数据库模式
       tableGroup: 立即升级到我们的付费方案，获得详细级别、标题颜色、<br>表组以及所有即将推出的功能！
       tableGroupDbdocs: 升级你的项目以获得详细级别、标题颜色、<br>表组以及所有即将推出的功能！
+      invitePeople: 立即升级到我们的付费方案，协作设计 ER 图，<br><strong> 邀请协作者、发布可编辑图表 </strong>以及其他高级功能！
     buttons:
       viewPlans: 查看方案
       upgradeProject: 升级项目

@@ -196,6 +196,7 @@ modals:
       aiAssistant: dbdiagram AI Assistant is a paid feature # AI assistant title
       tableGroup: You discovered a paid feature! # Table group title
       tableGroupDbdocs: You discovered a feature of paid projects! # DBDocs table group title
+      invitePeople: You discovered a paid feature! # Invite people title
     descriptions:
       createDiagram: Upgrade to our paid plans now for <b>unlimited<br>diagram creations</b> and other advanced features! # Description
       detailLevels: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # Description
@@ -210,6 +211,7 @@ modals:
       aiAssistant: Upgrade to our paid plans now to design and optimize your database schemas<br>with <strong>AI-powered natural language assistance</strong> # Description
       tableGroup: Upgrade to our paid plans now to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # Description
       tableGroupDbdocs: Upgrade your project to get Detail Levels, Header Color,<br>Table Group and access all our upcoming features! # DBDocs description
+      invitePeople: Upgrade to our paid plans now to collaborate in designing ER diagrams with<br><strong> Invite Collaborators, Publish Editable Diagrams </strong> and other advanced features! # Description
     buttons:
       viewPlans: View Plans # View plans button
       upgradeProject: Upgrade Project # Upgrade project button

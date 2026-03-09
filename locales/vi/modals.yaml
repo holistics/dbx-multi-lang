@@ -168,6 +168,7 @@ modals:
       aiAssistant: Trợ lý AI dbdiagram là tính năng trả phí
       tableGroup: Bạn đã khám phá một tính năng trả phí!
       tableGroupDbdocs: Bạn đã khám phá một tính năng của dự án trả phí!
+      invitePeople: Bạn đã khám phá một tính năng trả phí!
     descriptions:
       createDiagram: Nâng cấp lên các gói trả phí ngay để <b>tạo sơ đồ không giới hạn</b> và các tính năng nâng cao khác!
       detailLevels: Nâng cấp lên các gói trả phí ngay để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
@@ -182,6 +183,7 @@ modals:
       aiAssistant: Nâng cấp lên các gói trả phí ngay để thiết kế và tối ưu hóa lược đồ cơ sở dữ liệu<br>với <strong>hỗ trợ ngôn ngữ tự nhiên từ AI</strong>
       tableGroup: Nâng cấp lên các gói trả phí ngay để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
       tableGroupDbdocs: Nâng cấp dự án của bạn để có Mức độ chi tiết, Màu tiêu đề,<br>Nhóm bảng và truy cập tất cả các tính năng sắp tới!
+      invitePeople: Nâng cấp lên các gói trả phí ngay để cộng tác thiết kế sơ đồ ER với<br><strong> Mời Cộng tác viên, Xuất bản Sơ đồ có thể chỉnh sửa </strong> và các tính năng nâng cao khác!
     buttons:
       viewPlans: Xem các gói
       upgradeProject: Nâng cấp dự án

@@ -169,6 +169,7 @@ modals:
       aiAssistant: dbdiagram AI アシスタントは有料機能です
       tableGroup: 有料機能を発見しました！
       tableGroupDbdocs: 有料プロジェクトの機能を発見しました！
+      invitePeople: 有料機能を発見しました！
     descriptions:
       createDiagram: 有料プランにアップグレードして、<b>無制限の<br>ダイアグラム作成</b>やその他の高度な機能をご利用ください！
       detailLevels: 有料プランにアップグレードして、詳細レベル、ヘッダーカラー、<br>テーブルグループ、その他の今後の機能をご利用ください！
@@ -183,6 +184,7 @@ modals:
       aiAssistant: 有料プランにアップグレードして、<br><strong>AI を活用した自然言語アシスタンス</strong>でデータベーススキーマを設計・最適化しましょう
       tableGroup: 有料プランにアップグレードして、詳細レベル、ヘッダーカラー、<br>テーブルグループ、その他の今後の機能をご利用ください！
       tableGroupDbdocs: プロジェクトをアップグレードして、詳細レベル、ヘッダーカラー、<br>テーブルグループ、その他の今後の機能をご利用ください！
+      invitePeople: 有料プランにアップグレードして、ERダイアグラムの共同設計で<br><strong> コラボレーターの招待、編集可能なダイアグラムの公開 </strong>やその他の高度な機能をご利用ください！
     buttons:
       viewPlans: プランを見る
       upgradeProject: プロジェクトをアップグレード
