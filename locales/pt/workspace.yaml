@@ -1,0 +1,180 @@
+# Workspace translations - Sidebar, dropdown, and settings
+# UI Areas: Left sidebar, Workspace dropdown, Settings page
+
+workspace:
+  # ========================================
+  # General workspace labels - Sidebar and dropdown
+  # ========================================
+  personalWorkspace: Workspace Pessoal # Label for personal workspace (when no team workspace selected in dropdown)
+  personal: Pessoal # Short label for personal workspace type
+  createWorkspace: Criar novo workspace # Button/link to create new team workspace (sidebar)
+  dashboard: Painel # Sidebar link to workspace dashboard (left sidebar)
+  newDiagram: Novo Diagrama # Button to create new diagram (sidebar)
+  newSampleDiagram: Novo Diagrama de Exemplo # Dropdown with sample diagram templates (sidebar)
+  basic: Básico # Label for basic tier/sample (templates dropdown)
+  advanced: Avançado # Label for advanced tier/sample (templates dropdown)
+  myDiagrams: Meus Diagramas # Sidebar section for personal diagrams
+  sharedWithMe: Compartilhados Comigo # Sidebar section for shared diagrams
+  workspace: Workspace # Label for team workspace type
+  private: Privado # Privacy label for private items
+  readOnlyMode: O workspace está em modo somente leitura devido ao cancelamento da assinatura. Por favor, renove para habilitar a funcionalidade do workspace.
+
+  # ========================================
+  # Settings - Workspace settings page
+  # ========================================
+  settings:
+    title: Configurações # Settings page title
+    workspaceName: Nome do workspace # Label for workspace name field
+    update: Atualizar # Save button for settings
+    loadingInfo: Carregando informações do workspace... # Loading message when fetching settings
+    singleSignOn: Login Único (SSO) # SSO settings section title
+    authenticateWithSSO: Autenticar com SSO (SAML) # SSO toggle label
+    enabled: Habilitado # Status label for enabled
+    samlConfiguration: Configuração SAML # SAML config section title
+    enforceSSO: Forçar SSO # Enforce SSO toggle
+    enforceSSODescription: Uma vez forçado, os membros do workspace só poderão acessá-lo via SSO # Help text for enforce SSO
+    identityProviderUrl: URL de Login Único do Provedor de Identidade # IdP URL field label
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
+    identityProviderUrlHelp: A URL do endpoint do seu Provedor de Identidade. # Help text for IdP URL
+    certificate: Certificado # Certificate field label
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<Certificado X.509>\n-----END CERTIFICATE-----" # Placeholder for certificate
+    samlConfigurationForProvider: Configuração SAML para o seu provedor de identidade # Provider config section
+    assertionConsumerServiceUrl: URL do serviço de consumo de asserção # ACS URL field label
+    assertionConsumerServiceUrlHelp: Também chamado de "URL do serviço de parte de confiança" ou "URL de resposta" # Help text for ACS URL
+    identifier: Identificador # Identifier field label
+    identifierHelp: Também chamado de "Emissor" ou "Identificador de confiança de parte de confiança" # Help text for identifier
+    saveSSOSettings: Salvar Configurações de Login Único # Save SSO settings button
+    manageWorkspace: Gerenciar workspace # Link to workspace management
+    removeWorkspace: Remover workspace... # Danger button to remove workspace
+    cancelRemovalRequest: Cancelar solicitação de remoção # Cancel workspace removal button
+    removalWarning: Esta ação não pode ser desfeita! # Warning about removal
+    removalScheduledHours: Seu workspace será removido em algumas horas. # Removal scheduled message
+    removalScheduledDay: Seu workspace será removido em um dia. # Removal scheduled message
+    removalScheduledDays: "Seu workspace será removido em {count} dias." # Removal scheduled message
+    removeWorkspaceTitle: Remover este workspace? # Remove workspace modal title
+    removeWorkspaceContent: Agendaremos a remoção do seu workspace em 7 dias. Você pode cancelar o agendamento de remoção do workspace neste menu "Configurações" se mudar de ideia. # Remove workspace modal content
+    removeWorkspaceButton: Remover este workspace # Confirm remove button
+    removeWorkspaceSuggestion: 'Por favor, digite <i>excluir permanentemente</i> no campo de texto para confirmar.' # Confirmation input prompt
+    removalRequestCanceled: Solicitação de remoção cancelada com sucesso! # Success toast
+    removalRequestCreated: Solicitação de remoção criada com sucesso! # Success toast
+    contactSupportError: Ocorreu um erro. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io # Support contact message
+    workspaceNameUpdated: Nome do workspace atualizado com sucesso # Success toast
+    workspaceNameUpdateFailed: Falha ao atualizar o nome do workspace. Por favor, tente novamente! # Error toast
+    ssoConfigFetchFailed: Falha ao buscar a configuração SSO. Por favor, tente atualizar a página. # Error toast
+    ssoConfigUpdated: Configuração SSO atualizada com sucesso # Success toast
+    ssoConfigSaveFailed: Falha ao salvar a configuração SSO. Por favor, tente novamente. # Error toast
+
+  # ========================================
+  # Members - Member management
+  # ========================================
+  members:
+    invite: Convidar # Invite button
+    invitePlaceholder: Insira o endereço de e-mail # Email input placeholder
+    inviteButton: Convidar # Send invite button
+    members: Membros # Members section title
+    role:
+      member: Membro # Member role label
+      owner: Proprietário # Owner role label
+    actions:
+      remove: Remover # Remove action
+      removeInvitation: Remover este convite # Remove invitation action
+      removeMember: Remover este membro # Remove member confirmation
+    dialog:
+      removeMessage: "Você está prestes a remover <b>{email}</b> do seu workspace. Por favor, confirme sua ação!" # Remove dialog message
+    notifications:
+      removeSuccess: "{email} removido(a) do workspace com sucesso!" # Success toast
+      removeError: "Não foi possível remover {email} do workspace!" # Error toast
+
+  # ========================================
+  # Diagram List - Diagram list view
+  # ========================================
+  diagramList:
+    searchPlaceholder: Pesquisar diagramas # Search input placeholder
+    freePlan: Gratuito # Label for free plan
+    plan: plano # Plan suffix label
+    diagramCount: "Diagramas: {count}/{limit}" # Diagram count indicator
+    duplicate: Duplicar # Duplicate button
+    delete: Excluir # Delete button
+    untitledDiagram: Diagrama sem Título # Default name for unnamed diagrams
+    columns:
+      name: Nome # Table column header (diagram name)
+      dateCreated: Data de Criação # Table column header
+      dateModified: Data de Modificação # Table column header
+      owner: Proprietário # Table column header
+
+  # ========================================
+  # Sidebar - Sidebar sections
+  # ========================================
+  sidebar:
+    apiTokens: Tokens de API # API Tokens link (left sidebar)
+    billing: Cobrança # Billing link (left sidebar)
+
+  # ========================================
+  # Empty States - Empty diagrams views
+  # ========================================
+  emptyDiagrams:
+    title: Nenhum diagrama ainda # Empty diagrams title
+    created:
+      description: Não há diagramas no seu workspace. Você pode criar um novo com o # Empty state description (part 1)
+      button: + Novo Diagrama # Button to create first diagram
+      buttonSuffix: botão. # Empty state description (part 2)
+    shared:
+      description: Você ainda não foi convidado para nenhum diagrama. # Empty state for shared diagrams
+    workspacePublic:
+      description: Nenhum diagrama foi exibido para a equipe. Você pode criar novos diagramas com o # Empty state for public workspace
+    workspacePrivate:
+      description: Não há diagramas privados. Você pode criar um novo diagrama e mantê-lo pessoal. # Empty state for private workspace
+
+  # ========================================
+  # Plan - Plan labels
+  # ========================================
+  plan:
+    pro: Plano Pro # Pro plan label
+    free: Plano Gratuito # Free plan label
+    team: Plano Team # Team plan label
+    disabled: "(desativado)" # Disabled plan label
+
+  # ========================================
+  # Welcome - Welcome modal
+  # ========================================
+  welcome:
+    title: Bem-vindo(a) ao Workspace de Equipe! # Welcome modal title
+    description: Comece criando novos diagramas e colaborando com seus colegas. # Welcome modal description
+    learnMore: Saiba mais → # Learn more link
+
+  # ========================================
+  # API Tokens - API tokens management
+  # ========================================
+  apiTokens:
+    title: Tokens de API # API Tokens page title
+    description: Tokens de API são usados para autenticação na API do dbdiagram a cada solicitação de API. Como senhas, os tokens de API devem ser mantidos em segredo. # Description text
+    seeDocumentation: Ver documentação. # Link to API docs
+    generateNew: Gerar novo token # Button to generate token
+    columns:
+      name: Nome # Token name column header
+      dateCreated: Data de Criação # Created date column header
+      lastUsed: Último Uso # Last used column header
+      owner: Proprietário # Owner column header
+    empty: Nenhum token criado # Empty state message
+    actions:
+      revoke: Revogar # Revoke token action
+    modal:
+      newToken: Novo Token de API # New token modal title
+      tokenName: Nome do token # Token name input label
+      tokenNamePlaceholder: Insira o nome do token # Token name placeholder
+      generate: Gerar token # Generate button
+      copyWarning: Certifique-se de copiar o token de API agora, pois você não poderá vê-lo novamente. # Warning about copying token
+      copied: Copiado # Success message after copying
+      copy: Copiar # Copy button
+      done: Concluído # Done button
+      revokeTitle: Revogar Token de API? # Revoke confirmation title
+      revokeContent: Deseja revogar o Token de API "{name}"? Esta ação não pode ser desfeita. # Revoke confirmation content
+      revokePositive: Revogar Token # Confirm revoke button
+      revokeSuggestion: 'Por favor, digite <i>excluir permanentemente</i> no campo de texto para confirmar.' # Revoke input prompt
+      generateSuccess: Token gerado com sucesso # Success toast
+    errors:
+      nameEmpty: O nome do token não pode estar vazio # Validation error
+      nameInvalid: O nome do token pode conter apenas letras, números, espaço, "-" ou "_" # Validation error
+      nameWhitespace: O nome do token não pode estar vazio ou conter apenas espaços # Validation error
+      upgradeRequired: Por favor, faça upgrade do seu plano para criar tokens e acessar nossa API # Upgrade required error
+      ownerOnly: Apenas o proprietário do workspace pode gerar novos tokens # Permission error

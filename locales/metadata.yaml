@@ -24,3 +24,9 @@ ja:
   nativeName: 日本語
   flag: 🇯🇵
   hello: こんにちは
+
+pt:
+  name: Portuguese
+  nativeName: Português
+  flag: 🇧🇷
+  hello: Olá
