@@ -19,6 +19,8 @@ account:
 
     manageTitle: 管理账户
     changeEmail: 更改邮箱地址
+    changeEmailInProgress: 您有一个邮箱更改正在进行中，请稍候
+    changeEmailFailed: "上次邮箱更改失败，请联系我们的支持团队 dbdiagram@holistics.io"
 
     removal:
       removeAccount: 删除账户...
@@ -101,5 +103,4 @@ account:
       requestExpired: 您的验证请求已过期。请重新获取验证码。
       emailInUse: 此邮箱已被其他账户使用
       verificationExpired: 您的验证已过期。请重新开始。
-      changeFailed: 邮箱更改失败。请稍后重试。
       generic: 出了点问题。请重试。

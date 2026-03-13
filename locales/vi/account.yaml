@@ -19,6 +19,8 @@ account:
 
     manageTitle: Quản lý tài khoản
     changeEmail: Thay đổi địa chỉ email
+    changeEmailInProgress: Bạn đang có một thay đổi email đang được xử lý, vui lòng đợi
+    changeEmailFailed: "Thay đổi email lần trước đã thất bại, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io"
 
     removal:
       removeAccount: Xóa tài khoản...
@@ -101,5 +103,4 @@ account:
       requestExpired: Yêu cầu xác minh của bạn đã hết hạn. Vui lòng yêu cầu mã mới.
       emailInUse: Email này đã được sử dụng bởi tài khoản khác
       verificationExpired: Xác minh của bạn đã hết hạn. Vui lòng bắt đầu lại.
-      changeFailed: Không thể thay đổi email. Vui lòng thử lại sau.
       generic: Đã xảy ra lỗi. Vui lòng thử lại.

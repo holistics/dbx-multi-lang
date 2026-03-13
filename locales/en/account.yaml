@@ -21,6 +21,8 @@ account:
     # Manage account section
     manageTitle: Manage Account # Section title
     changeEmail: Change email address # Change email button label
+    changeEmailInProgress: You have an email change in progress, please wait # Disabled message when email change is in progress
+    changeEmailFailed: "Your last email change failed, please contact our support at dbdiagram@holistics.io" # Disabled message when last email change failed
 
     # Account removal
     removal:
@@ -111,5 +113,4 @@ account:
       requestExpired: Your verification request has expired. Please request a new code. # OTP request token expired
       emailInUse: This email is already in use by another account # Duplicate email
       verificationExpired: Your verification has expired. Please start over. # Verification token expired
-      changeFailed: Failed to change email. Please try again later. # Email update API failure
       generic: Something went wrong. Please try again. # Fallback error

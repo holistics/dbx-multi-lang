@@ -19,6 +19,8 @@ account:
 
     manageTitle: アカウント管理
     changeEmail: メールアドレスを変更
+    changeEmailInProgress: メールアドレスの変更が進行中です。しばらくお待ちください
+    changeEmailFailed: 前回のメール変更に失敗しました。dbdiagram@holistics.io までお問い合わせください
 
     removal:
       removeAccount: アカウントを削除...
@@ -101,5 +103,4 @@ account:
       requestExpired: 確認リクエストの有効期限が切れました。新しいコードをリクエストしてください。
       emailInUse: このメールは既に別のアカウントで使用されています
       verificationExpired: 確認の有効期限が切れました。最初からやり直してください。
-      changeFailed: メールの変更に失敗しました。後でもう一度お試しください。
       generic: 問題が発生しました。もう一度お試しください。
