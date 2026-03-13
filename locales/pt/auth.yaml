@@ -1,0 +1,81 @@
+# Authentication translations - Login, Signup, Password pages
+# UI Areas: Auth pages (/login, /signup, /forgot-password)
+
+auth:
+  # ========================================
+  # Login Page - Email/password login
+  # ========================================
+  login:
+    email: E-mail # Email input label
+    loginWithGithub: Entrar com GitHub # Social login button (GitHub)
+    loginWithMicrosoft: Entrar com Microsoft # Social login button (Microsoft)
+
+  # ========================================
+  # OAuth Errors - OAuth flow errors
+  # ========================================
+  oauth:
+    authorizationError: Falha na autorização # OAuth error title
+    processing: Processando... # Loading state (OAuth redirect)
+    justAMomentPleaseWait: Só um momento, por favor aguarde... # Loading message (OAuth redirect)
+    signedInAs: Você está conectado como # Session label (SSO indicator)
+    failedSignInGitHub: Falha ao entrar com GitHub # Error toast (GitHub OAuth)
+    failedSignInMicrosoft: Falha ao entrar com Microsoft, por favor tente novamente! # Error toast (Microsoft OAuth)
+
+  # ========================================
+  # Form Errors - Validation error messages
+  # ========================================
+  errors:
+    invalidEmail: Endereço de e-mail inválido, por favor tente novamente! # Email validation
+    githubPopupBlocked: Por favor, permita pop-ups para entrar com GitHub # Browser setting error
+
+  # ========================================
+  # OTP Authentication - One-time password
+  # ========================================
+  otp:
+    signInWithEmail: Entrar com E-mail # OTP tab label
+    otpSentTo: OTP enviado para # Label (shows masked email)
+    wrongEmail: Endereço de e-mail incorreto? # Change email link
+    changeEmail: Alterar e-mail # Change email button
+    inputEmail: Por favor, insira seu endereço de e-mail # Email input placeholder
+    inputYourOtp: Insira seu OTP # OTP input placeholder
+    inputOtpCode: Por favor, insira o código OTP enviado para o e-mail # OTP help text
+    signInSuccess: Conectado com sucesso # Success message
+    didntReceiveOtp: Não recebeu o OTP? # Help text (resend section)
+    resendOtp: Reenviar OTP # Resend button
+    resendAfter: Você pode reenviar o OTP após {counter}s # Timer label (disabled state)
+    submit: Enviar # OTP submit button
+    sendOtpFailed: Falha ao enviar OTP, por favor tente novamente! # Error toast
+
+  # ========================================
+  # SSO Login - Single Sign-On
+  # ========================================
+  sso:
+    orContinueWith: ou continue com # SSO divider text
+
+  # ========================================
+  # Embedded Portal - OAuth portal pages
+  # ========================================
+  portal:
+    signIn: Entrar # Button (portal embedded login)
+    signInWith: Entrar com
+
+  # ========================================
+  # Additional Errors - Extra error messages
+  # ========================================
+  additional:
+    unknownError: Erro desconhecido # Fallback error
+    invalidOtp: OTP inválido, por favor tente novamente! # OTP validation error
+    cannotValidateOtp: Não foi possível validar o OTP, por favor tente novamente! # OTP validation failure
+    emailNotVerified: Seu e-mail não foi verificado. Por favor, verifique-o na conta Microsoft. # MS email verification
+    cannotSignInMicrosoftSSO: Não foi possível entrar com o Microsoft SSO, por favor tente novamente! # MS SSO error
+    cannotSignIn: Não foi possível entrar, por favor tente novamente! # Generic sign-in error
+    failedReloadProject: Falha ao recarregar o projeto após o login. Por favor, atualize a página. # Reload error
+    loginError: Erro de login # Generic login error
+    signInCancelled: Login cancelado. Por favor, tente novamente. # Cancelled flow
+
+  # ========================================
+  # Logout Callback - Post-logout redirect
+  # ========================================
+  logoutCallback:
+    redirecting: Redirecionando... # Loading message (logout redirect)
+    redirectDescription: Você será redirecionado ao aplicativo em alguns segundos. # Help text

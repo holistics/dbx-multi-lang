@@ -1,0 +1,202 @@
+# Common UI translations used across the application
+# UI Areas: Header toolbar, Help menu, Export/Import dropdowns, SSO login, Editor panel
+
+common:
+  # ========================================
+  # Buttons - Generic buttons in modals, toolbars, forms throughout the app
+  # ========================================
+  buttons:
+    cancel: Cancelar # Gray button in modal dialogs (bottom-right)
+    confirm: Confirmar # Green button in confirmation dialogs
+    delete: Excluir # Red button in item context menus (with trash icon)
+    history: Histórico # Clock icon in header toolbar (opens Version History modal)
+    export: Exportar # Export icon in header dropdown (opens export options)
+    ok: OK # Simple acknowledgment button in alerts
+    submit: Enviar # Form submission button (submits form data)
+
+  # ========================================
+  # Help menu - Top-right help icon (?) dropdown in header
+  # ========================================
+  help:
+    title: Ajuda # Dropdown label (question mark icon in header toolbar)
+    documentation: Documentação # External link to docs.dbdiagram.io
+    releaseNotes: Notas de Versão # Link to changelog page
+    roadmap: Roadmap do produto # Link to feature roadmap (publicly visible)
+    basicEditing: Experiência Básica de Edição # Link to editing guide documentation
+    sendFeedback: Enviar Feedback # Link to feedback form (opens modal)
+    askCommunity: Perguntar à Comunidade # Link to Discord/community forum
+    suggestFeature: Sugerir Funcionalidade # Link to feature request board
+    contactUs: Contate-nos # Link to support email (dbdiagram@holistics.io)
+    sampleDiagrams: Diagramas de Exemplo # Opens templates gallery modal
+    sampleAirbnb: Exemplo Airbnb # Opens Airbnb database schema template
+    sampleEcommerce: Exemplo E-commerce # Opens e-commerce schema template
+    whatsNew: O que há de novo # Opens what's new modal (highlights recent features)
+    language: Idioma # Submenu for selecting app language
+    contribute: Ajudar a traduzir este aplicativo # Link to Crowdin/translation project
+
+  # ========================================
+  # Export menu - Header export dropdown (blue download icon)
+  # ========================================
+  export:
+    title: Exportar # Dropdown header in header toolbar (download icon)
+    publishToDbdocs: Publicar documento (no dbdocs) # First option in export dropdown
+    toPdf: Para PDF # Export diagram as PDF format
+    toPng: Para PNG # Export diagram as PNG image
+    toSvg: Para SVG # Export diagram as SVG vector file
+    toPostgreSQL: Para PostgreSQL # Export schema as PostgreSQL DDL
+    toMySQL: Para MySQL # Export schema as MySQL DDL
+    toSQLServer: Para SQL Server # Export schema as SQL Server DDL
+    toOracleSQL: Para Oracle SQL # Export schema as Oracle DDL
+
+  # ========================================
+  # Import menu - Header import dropdown (blue upload icon)
+  # ========================================
+  import:
+    title: Importar # Dropdown header in header toolbar (upload icon)
+    importFrom: Importar de # Label above import options
+    fromDatabaseConnection: De Conexão com Banco de Dados (via CLI) # CLI import option (opens documentation)
+    fromMySQL: Do MySQL # MySQL database import (opens connection form)
+    fromPostgreSQL: Do PostgreSQL # PostgreSQL database import
+    fromSQLServer: Do SQL Server # SQL Server database import
+    fromSnowflake: Do Snowflake # Snowflake database import
+    fromOracleSQL: Do Oracle SQL # Oracle database import
+    fromRails: Do Rails (schema.rb) # Rails schema.rb file import
+    fromCSV: Do CSV # CSV file import (opens file picker)
+
+  # ========================================
+  # Upgrade prompts - Feature upgrade dialogs (shown when free users hit limits)
+  # ========================================
+  upgrade:
+    title: Fazer Upgrade # Modal title (gold star icon badge)
+
+  # ========================================
+  # Quick actions - Keyboard shortcuts dialog (Ctrl/Cmd+K)
+  # ========================================
+  quickActions:
+    title: Ações Rápidas # Dialog title showing command palette
+
+  # ========================================
+  # SSO authentication - Login page (enterprise SSO login)
+  # ========================================
+  sso:
+    signInWithSSO: Entrar com SSO # Large SSO button on login page
+    signInWithEmail: Entrar com E-mail # Email login option button
+    useWorkEmail: Use seu e-mail corporativo para acessar o dbdiagram via SSO # Helper text below SSO button
+    signInUnsuccessful: Falha ao entrar. Verifique seu e-mail corporativo ou use outro método. # Error message on SSO failure
+    selectWorkspace: Selecione um workspace para entrar # Dropdown on SSO login (for users with multiple workspaces)
+
+  # ========================================
+  # AI Assistant - Chat panel (right sidebar with AI chat)
+  # ========================================
+  ai:
+    title: IA # Panel title (robot icon in right sidebar)
+    scrollToBottom: Rolar para baixo # Floating button when new chat messages arrive
+
+  # ========================================
+  # Common actions - Confirmation dialogs and action confirmations
+  # ========================================
+  actions:
+    confirmUnsaved:
+      title: Por favor, confirme # Modal title for unsaved work dialog
+      content: As alterações feitas podem não ser salvas. Deseja continuar? # Warning text in dialog body
+      negativeText: 'Não' # Cancel action button (gray, says "No")
+      positiveText: 'Sim' # Continue anyway button (blue, says "Yes")
+
+  # ========================================
+  # States - Empty, loading, error state displays
+  # ========================================
+  states:
+    empty: Sem dados # Empty table/list message (centered)
+
+  # ========================================
+  # Code editor - Right panel DBML code editor
+  # ========================================
+  editor:
+    keyboardShortcuts: Atalhos de Teclado # Dialog title for keyboard shortcuts reference
+    openInDbdiagram: Abrir no dbdiagram.io # Link in embedded DBDocs views (top-right)
+    hide: Ocultar editor # Button to hide code editor
+    expand: Expandir editor # Button to expand code editor
+    loadingContent: Carregando conteúdo do servidor, por favor aguarde... # Loading message in editor
+
+  # ========================================
+  # Toast notifications - Popup messages at bottom-right
+  # ========================================
+  notifications:
+    noPermissionRemoveView: Você não tem permissão para remover a visualização do diagrama! # Toast error (shown when user can't remove view)
+    noPermissionRenameView: Você não tem permissão para renomear a visualização do diagrama! # Toast error (shown when user can't rename view)
+    workspaceDisabled: Este workspace está desativado no momento # Warning toast (workspace subscription issue)
+    noEditPermissionAi: Você precisa de permissão de edição para usar o dbdiagram AI. Por favor, peça ao proprietário do diagrama para atualizar seu acesso. # Toast (AI feature requires edit rights)
+
+  # ========================================
+  # Login prompts - Gray banner for unauthenticated users
+  # ========================================
+  needLogin:
+    hiThere: "Olá," # Banner greeting (first line, bold)
+    saveQuery: Por favor, faça login para salvar seu diagrama # Banner text (when saving requires auth)
+    shareQuery: Por favor, faça login para compartilhar seu diagrama # Banner text (share modal when not logged in)
+    newQuery: Por favor, faça login para criar um novo diagrama # Banner text (new diagram page)
+    export: Por favor, faça login para exportar seu diagrama # Banner text (export modal)
+    dbdocsAccess: Por favor, faça login para editar seu projeto dbdocs # Banner text (DBDocs editor)
+    aiAssistant: Por favor, faça login para usar o assistente de IA do dbdiagram # Banner text (AI panel)
+    newDiagram: Por favor, faça login para criar um novo diagrama # Banner text (creation page)
+    upgradePersonal: Por favor, faça login para fazer upgrade para o plano Personal Pro # Banner text (upgrade page)
+    upgradeTeam: Por favor, faça login para iniciar seu período de teste do Plano Team # Banner text (team trial page)
+    joinTeam: Por favor, faça login para entrar neste workspace de equipe # Banner text (team invite page)
+    chartUpdateVisibleEntities: Por favor, faça login para salvar a visibilidade de tabelas/notas adesivas # Banner text (visibility change)
+    diagramViewCreateView: Por favor, faça login para criar uma nova visualização de diagrama # Banner text (view creation)
+    default: Por favor, faça login para continuar seu trabalho # Default banner text (fallback)
+
+  # ========================================
+  # DBDocs authentication - Embedded DBDocs login screen
+  # ========================================
+  dbdocsAuth:
+    pleaseLoginWith: Por favor, faça login com # Login prompt label (above login buttons)
+    youAreLoggedInAs: Você está logado # Logged in status (shows user email)
+    viaSSO: via SSO # SSO badge (next to email)
+    youNeedToLoginWith: Você precisa fazer login com # Login required text (precedes login buttons)
+    pleaseLoginToAccess: Por favor, faça login para acessar este projeto. # Access denied message (DBDocs embed)
+    contactProjectOwner: Entre em contato com o proprietário do projeto para solicitar acesso. # Guidance text (who to contact)
+    weWillNeedNonSSO: Precisaremos que você use uma conta não-SSO para autenticação. # Auth guidance message
+    weWillNeedSameEmail: Precisaremos que você use a mesma conta de e-mail do dbdocs para autenticação. # Email match guidance
+    noEditPermission: Você não tem permissão de edição para este projeto. # Error message (DBDocs edit permission denied)
+
+  # ========================================
+  # Real-time collaboration - Connection and sync messages
+  # ========================================
+  additional:
+    collab:
+      noLongerViewPermission: Você não tem mais permissão de visualização! # Toast when view access revoked
+      doNotHaveViewPermission: Você não tem permissão de visualização! # Toast when no access at all
+      fullSession: Não foi possível conectar devido à sessão cheia! # Toast when collaboration session full
+      diagramDeleted: Este diagrama foi excluído! # Toast when diagram deleted by owner
+      overwrittenDiagram: Alguém sobrescreveu o conteúdo do diagrama. Por favor, recarregue para ver a alteração mais recente! # Toast when remote changes
+      permissionsChanged: Suas permissões foram alteradas. Por favor, recarregue para aplicar as mudanças! # Toast when permissions updated
+      cannotReconnect: Não foi possível reconectar ao servidor # Toast when reconnection fails
+
+    # ========================================
+    # Save, share, publish - Diagram operation messages
+    # ========================================
+    query:
+      noPermissionShare: Você não tem permissão para compartilhar este diagrama # Error toast (share action)
+      cantCreateDiagram: Não foi possível criar um novo diagrama. Por favor, faça backup do seu arquivo e tente sair e entrar novamente # Error toast (create failed)
+      cantSaveDiagram: Não foi possível salvar o diagrama. Por favor, faça backup do seu arquivo e tente sair e entrar novamente # Error toast (save failed)
+      noPermissionSave: Você não tem permissão para salvar este diagrama # Error toast (save permission)
+      diagramDeleted: Seu diagrama foi excluído # Toast (diagram deleted notification)
+      cantDeleteDiagram: Não foi possível excluir seu diagrama. Por favor, faça backup do seu arquivo e tente sair e entrar novamente # Error toast (delete failed)
+      noPermissionGetInfo: Você não tem permissão para obter informações do diagrama! # Error toast (info load permission)
+      cantGetDiagramInfo: Não foi possível obter informações do diagrama. Por favor, tente novamente! # Error toast (info load failed)
+      noPermissionAccessProject: Você não tem permissão para acessar este projeto # Error toast (project access)
+      failedLoadProjectDbdocs: Falha ao carregar o projeto do DBDocs # Error toast (DBDocs load)
+      failedPublishDbdocs: Falha ao publicar o projeto no DBDocs # Error toast (DBDocs publish)
+      pleaseSignInSaveDraft: Por favor, faça login para salvar versões de rascunho # Login prompt toast (save draft)
+      noPermissionSaveDraft: Você não tem permissão para salvar versões de rascunho # Error toast (draft permission)
+      autoSaveDraftFailed: Falha no salvamento automático do rascunho! # Error toast (auto-save draft)
+      failedSaveDraft: Falha ao salvar versão de rascunho # Error toast (draft save failed)
+      pleaseSignInDeleteDraft: Por favor, faça login para excluir versões de rascunho # Login prompt toast (delete draft)
+      noPermissionDeleteDraft: Você não tem permissão para excluir versões de rascunho # Error toast (delete draft permission)
+      failedDeleteDrafts: Falha ao excluir versões de rascunho # Error toast (delete draft failed)
+      pleaseSignInCheckVersion: Por favor, faça login para verificar o status da versão # Login prompt toast (version check)
+      noPermissionCheckVersion: Você não tem permissão para verificar o status da versão # Error toast (version check permission)
+      failedCheckVersion: Falha ao verificar o status da versão # Error toast (version check failed)
+      pleaseSignInLoadLatest: Por favor, faça login para carregar a versão mais recente # Login prompt toast (load version)
+      failedLoadLatest: Falha ao carregar a versão mais recente # Error toast (load version failed)

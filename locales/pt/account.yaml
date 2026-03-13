@@ -1,0 +1,115 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    title: Conta # Modal main title
+    loadingInfo: Carregando informações da conta... # Loading spinner text
+    displayName: Nome de Exibição # Label for display name field
+    email: E-mail # Label for email field
+
+    # Connected accounts section
+    connectedAccounts:
+      title: Contas Conectadas # Section title
+      loading: Carregando contas conectadas... # Loading text for connected accounts
+      noAccounts: Nenhuma conta conectada # Empty state text
+      loggedInWith: Conectado com {provider} # Provider badge label (e.g., "Conectado com Google")
+
+    # Manage account section
+    manageTitle: Gerenciar Conta # Section title
+    changeEmail: Alterar endereço de e-mail # Change email button label
+
+    # Account removal
+    removal:
+      removeAccount: Remover conta... # Remove account button label
+      cancelRequest: Cancelar solicitação de remoção # Cancel removal request button label
+      cannotBeUndone: Esta ação não pode ser desfeita! # Warning text when no removal request
+      removedAfter: "Sua conta será removida após {time}." # Removal countdown text
+      aFewHours: algumas horas # Time label when less than 1 day remaining
+      aDay: um dia # Time label when exactly 1 day remaining
+      days: "{count} dias" # Time label for multiple days remaining
+      workspaceDeletionWarning: "Você possui {count} workspace(s) de sua propriedade que serão excluídos:" # Warning about workspaces to be deleted
+      confirmTitle: Remover esta conta? # Confirmation modal title
+      cancelSuccess: Solicitação de remoção cancelada com sucesso! # Success toast after canceling
+      submitSuccess: Solicitação de remoção criada com sucesso! # Success toast after submitting
+
+    errors:
+      generic: Ocorreu um erro. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io # Generic error toast
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: Alterar E-mail # Modal title
+
+    # Step labels (stepper header)
+    steps:
+      verifyCurrentEmail: Verificar E-mail Atual # Step 1 title
+      currentEmailVerified: E-mail atual verificado # Step 1 completed label
+      enterNewEmail: Inserir Novo E-mail # Step 2 title
+      verifyNewEmail: Verificar Novo E-mail # Step 3 title
+      newEmailVerified: Novo e-mail verificado # Step 3 completed label
+      confirmChange: Confirmar Alteração # Step 4 title
+      emailChanged: E-mail alterado # Step 4 completed label
+
+    # Step 1: Verify current email
+    verifyCurrent:
+      description: Por segurança, você precisa verificar seu e-mail atual via OTP para alterá-lo. # Step 1 description
+      currentEmailLabel: "E-mail atual:" # Label before current email address
+      sendCode: Enviar Código # Send OTP button
+      otpSentMessage: Enviamos um código de 6 dígitos para o seu e-mail. O código expira em 4 minutos. # OTP sent info text
+      verificationCode: Código de Verificação # OTP input label
+      resendCode: Reenviar código # Resend button label
+      resendCodeCooldown: "Reenviar código ({seconds}s)" # Resend button with cooldown timer
+      verify: Verificar # Verify OTP button
+
+    # Step 2: Enter new email
+    enterNew:
+      description: "Insira seu novo endereço de e-mail. Enviaremos um código de verificação para confirmar que é seu." # Step 2 description
+      newEmailLabel: Novo Endereço de E-mail # New email input label
+      placeholder: Insira o novo e-mail # New email input placeholder
+      sendCode: Enviar Código # Send OTP button
+
+    # Step 3: Verify new email
+    verifyNew:
+      otpSentTo: Enviamos um código de 6 dígitos para # Text before new email address
+      codeExpires: O código expira em 4 minutos. # OTP expiry info
+      verificationCode: Código de Verificação # OTP input label
+      resendCode: Reenviar código # Resend button label
+      resendCodeCooldown: "Reenviar código ({seconds}s)" # Resend button with cooldown timer
+      back: Voltar # Back button to return to step 2
+      verify: Verificar # Verify OTP button
+
+    # Step 4: Confirm change
+    confirm:
+      description: "Você está prestes a alterar seu endereço de e-mail:" # Step 4 description
+      from: "De:" # Label for current email in summary
+      to: "Para:" # Label for new email in summary
+      pleaseNote: "Atenção:" # Notes section title
+      noteNotifications: O novo e-mail receberá todas as notificações da conta (cobrança, convites, etc.) no futuro. # Note about notifications
+      noteLogout: "Você não será desconectado automaticamente. Por favor, saia dos outros dispositivos manualmente." # Note about logout
+      noteIrreversible: Esta ação não pode ser desfeita. # Note about irreversibility
+      confirmButton: Confirmar Alteração # Confirm change button
+
+    # Polling notifications for email change propagation
+    polling:
+      inProgressTitle: Atualizando seu e-mail nos serviços... # Notification title while syncing
+      inProgressText: Isso pode levar alguns minutos. Você pode continuar usando o aplicativo. # Notification body while syncing
+      completedText: E-mail atualizado em todos os serviços com sucesso! # Success notification
+      failedTitle: Alguns serviços falharam ao sincronizar seu novo e-mail. # Warning notification title
+      failedText: Seu e-mail foi alterado, mas alguns serviços ainda podem exibir o antigo. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io. # Warning notification body
+
+    # Error messages
+    errors:
+      invalidEmail: Por favor, insira um endereço de e-mail válido # Invalid email format
+      incorrectCode: O código que você inseriu está incorreto # Wrong OTP code
+      codeExpired: O código de verificação expirou. Por favor, solicite um novo. # OTP expired
+      codeAlreadyUsed: Este código já foi utilizado. Por favor, solicite um novo. # OTP already used
+      requestExpired: Sua solicitação de verificação expirou. Por favor, solicite um novo código. # OTP request token expired
+      emailInUse: Este e-mail já está sendo usado por outra conta # Duplicate email
+      verificationExpired: Sua verificação expirou. Por favor, comece novamente. # Verification token expired
+      changeFailed: Falha ao alterar o e-mail. Por favor, tente novamente mais tarde. # Email update API failure
+      generic: Algo deu errado. Por favor, tente novamente. # Fallback error

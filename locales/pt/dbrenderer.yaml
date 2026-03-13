@@ -1,0 +1,151 @@
+# DBRenderer translations - Diagram canvas and panels
+# UI Areas: Left sidebar, Canvas toolbar, Bottom-right zoom, Context menus
+
+dbrenderer:
+  # ========================================
+  # Table Search Panel - Left sidebar (toggle with Ctrl/Cmd+K)
+  # ========================================
+  tableSearchPanel:
+    title: Tabelas # Panel title (left sidebar header)
+    diagramViews: Visualizações do Diagrama # Dropdown header for views (table search panel)
+    diagramViewsTooltip: Visualizações do diagrama são coleções de tabelas que representam domínios ou fluxos de trabalho específicos do seu banco de dados. # Tooltip for views dropdown
+    viewActions: Ações da visualização # Dropdown header for view actions
+    cannotRenameOrDelete: Não é possível renomear ou excluir {name} # Error toast (default view protection)
+    rename: Renomear # Menu option (view context menu)
+    delete: Excluir # Menu option (view context menu)
+    reset: Redefinir # Button (resets view to default)
+    save: Salvar # Button (saves current view)
+    saveAsNew: Salvar como Novo # Button (creates new view)
+    searchPlaceholder: Pesquisar tabela ou esquema # Search input placeholder (no groups)
+    searchPlaceholderWithGroup: Pesquisar tabela, esquema ou grupo # Search input placeholder (with groups)
+    groupBy: Agrupar por # Dropdown to group tables
+    showAll: Mostrar Tudo # Button (shows all tables)
+    hideAll: Ocultar Tudo # Button (hides all tables)
+    schema: Esquema # Group by option (group by schema)
+    tableGroup: Grupo de Tabelas # Group by option (group by custom table group)
+    noGroup: (sem grupo) # Group label (tables without group)
+    defaultView: Visualização Padrão # Label (default view indicator)
+    unknownView: Visualização Desconhecida # Label (unknown view name)
+    newView: Nova Visualização # Button (creates new diagram view)
+    copyOfName: Cópia de {name} # Default name for copied view
+
+  # ========================================
+  # Controller Bar - Top canvas toolbar
+  # ========================================
+  controllerBar:
+    highlightRelationships: Destacar relacionamentos # Toggle button (highlights related tables)
+    unhighlightRelationships: Remover destaque de relacionamentos # Toggle button (removes highlight)
+    enableGrid: Habilitar grade # Toggle button (shows grid)
+    disableGrid: Desabilitar grade # Toggle button (hides grid)
+    addStickyNote: Adicionar nota adesiva # Button (creates new sticky note on canvas)
+    searchTables: Pesquisar tabelas # Button (opens table search panel)
+    hideTableSearch: Ocultar pesquisa de tabelas # Button (closes table search panel)
+    enterFullscreen: Entrar em tela cheia # Button (goes fullscreen)
+    exitFullscreen: Sair da tela cheia # Button (exits fullscreen)
+
+  # ========================================
+  # Auto Arrange - Modal dialog (Ctrl/Cmd+Shift+A)
+  # ========================================
+  autoArrange:
+    title: Escolha o algoritmo de arranjo automático # Modal title
+    leftRight: Esquerda-direita # Algorithm option (horizontal layout L→R)
+    snowflake: Snowflake # Algorithm option (snowflake schema layout)
+    compact: Compacto # Algorithm option (compact layout)
+    confirmMessage: Seu diagrama será reorganizado automaticamente e você não poderá desfazer. Tem certeza? # Warning in modal body
+    confirm: Confirmar (↵) # Confirm button (with Enter shortcut)
+    cancel: Cancelar (Esc) # Cancel button (with Escape shortcut)
+
+  # ========================================
+  # Detail Level - Dropdown (eye icon)
+  # ========================================
+  detailLevel:
+    title: Nível de detalhe # Dropdown title
+    all: Todos os campos # Option (shows all fields)
+    tables: Nomes das tabelas # Option (only shows table names, hides all fields)
+    keys: Apenas chaves # Option (only shows primary and foreign keys, hides other fields)
+
+  # ========================================
+  # View Dropdown - View selector menu
+  # ========================================
+  viewDropdown:
+    renameView: Renomear visualização # Menu option (renames current view)
+    removeView: Remover visualização # Menu option (deletes current view)
+    newView: Nova Visualização # Menu option (creates new view)
+
+  # ========================================
+  # Diff Legend - Shown in compare mode
+  # ========================================
+  diffLegend:
+    added: Adicionado # Green legend item (new tables)
+    modified: Modificado # Yellow legend item (changed tables)
+    deleted: Excluído # Red legend item (removed tables)
+
+  # ========================================
+  # Viewport Controller - Bottom-right corner
+  # ========================================
+  viewportController:
+    zoomOut: Diminuir zoom (segure para acelerar) # Zoom out button tooltip
+    zoomIn: Ampliar zoom (segure para acelerar) # Zoom in button tooltip
+    editZoomLevel: Clique para editar o nível de zoom # Zoom input tooltip
+    zoomToFit: Ajustar zoom para ver todos os elementos # Fit to screen button tooltip
+    enablePanMode: Clique para habilitar o modo de panorâmica # Pan mode toggle tooltip
+    disablePanMode: Clique para desabilitar o modo de panorâmica # Pan mode toggle tooltip
+    panModeHint: Ou segure Espaço/botão do meio do mouse + arraste para mover # Hint text for pan mode
+
+  # ========================================
+  # Common - Shared buttons in renderer
+  # ========================================
+  common:
+
+  # ========================================
+  # Empty State Hint - Canvas empty states
+  # ========================================
+  emptyStateHint:
+    filtered:
+      title: Sua visualização do diagrama está vazia # Empty state title (all tables hidden)
+      description: Todas as tabelas nesta visualização estão ocultas no momento. Use o painel de pesquisa de tabelas para mostrar tabelas na visualização do diagrama. # Empty state description
+      openTableSearchPanel: Abrir painel de pesquisa de tabelas # Button (opens sidebar)
+    noDbml:
+      title: Nenhum esquema de banco de dados encontrado # Empty state title (no tables in DBML)
+      description: Seu código DBML ainda não contém nenhuma tabela. Adicione tabelas e relacionamentos para ver seu diagrama. # Empty state description
+      startAddingTables: Começar a adicionar tabelas # Button (opens add table modal)
+
+  # ========================================
+  # Loading States - Loading indicator messages
+  # ========================================
+  loading:
+    initializingTables: Inicializando tabelas... # Loading message (table loading)
+    initializingTablesProgress: Inicializando tabelas... ({current}/{total}) # Loading with progress
+    initializingTableGroups: Inicializando grupos de tabelas... # Loading message (group loading)
+    initializingTableGroupsProgress: Inicializando grupos de tabelas... ({current}/{total}) # Loading with progress
+    initializingReferences: Inicializando referências... # Loading message (relationship loading)
+    initializingReferencesProgress: Inicializando referências... ({current}/{total}) # Loading with progress
+    arrangingDiagram: Organizando seu diagrama... # Loading message (layout calculation)
+    finalizingDiagram: Finalizando diagrama... # Loading message (render completion)
+
+  # ========================================
+  # Filter Config Tags - Filter chips in canvas
+  # ========================================
+  filterConfigTags:
+    all: Tudo # Filter chip (shows all items)
+    allTables: Todas as Tabelas # Filter chip (all tables)
+    allNotes: Todas as Notas # Filter chip (all notes)
+    nothing: Nada # Filter chip (nothing shown)
+    moreItems: '{count} itens a mais:' # Overflow indicator (more filters)
+
+  # ========================================
+  # Sticky Notes - Sticky note section
+  # ========================================
+  stickyNotesSection:
+    title: Notas Adesivas # Section title (left sidebar)
+  stickyNotes:
+    untitledNote: Nota sem Título # Default name for new notes
+    removeNoteConfirmation: Remover sua nota? # Delete confirmation dialog title
+    'yes': 'Sim' # Confirm button (delete note)
+    'no': 'Não' # Cancel button
+
+  # ========================================
+  # Table List - Table list in sidebar
+  # ========================================
+  tableList:
+    noTablesFound: Nenhuma tabela encontrada # Empty state (search results)

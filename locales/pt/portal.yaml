@@ -1,0 +1,107 @@
+# Portal translations - Embedded documentation portal
+# UI Areas: OAuth callback pages, SSO portal, Error pages
+
+portal:
+  # ========================================
+  # OAuth Welcome - OAuth success messages
+  # ========================================
+  oauth:
+    welcomeTo: Bem-vindo(a) ao {clientName} # Welcome message (OAuth success)
+    signingInTo: Entrando em {clientName} # Loading message (OAuth)
+    successfullySignedInTo: Conectado com sucesso ao {clientName} # Success message (OAuth)
+    welcome: Bem-vindo(a) # Simple welcome label
+    signingIn: Entrando # Loading label
+    successfullySignedIn: Conectado com sucesso # Success label
+    powering: Desenvolvido por # Portal attribution prefix
+    signOutFrom: Sair de {clientName} # Sign out link
+    signOutFromAccount: Sair da sua conta # Sign out button
+
+  # ========================================
+  # GitHub Callback - OAuth callback messages
+  # ========================================
+  githubCallback:
+    authenticating: Autenticação em andamento, por favor aguarde um momento... # Loading message (GitHub OAuth)
+    authSuccess: Autenticado com sucesso! Você pode fechar esta janela com segurança # Success message (GitHub OAuth)
+    title: Autenticação GitHub # Page title (browser tab)
+    errors:
+      noOpener:
+        title: Acesso Inválido # Error title (no opener)
+        description: Esta página não pode ser aberta diretamente. Por favor, volte ao aplicativo e inicie o processo de login. # Error description (no opener)
+      openerClosed:
+        title: Janela Principal Fechada # Error title (window closed)
+        description: A janela original do aplicativo foi fechada durante a autenticação. Por favor, volte ao aplicativo e inicie o processo de login novamente. # Error description (window closed)
+      accessDenied:
+        title: Acesso Negado # Error title (user denied)
+        description: Você cancelou a autenticação do GitHub. # Error description (access denied)
+      appSuspended:
+        title: Aplicativo Suspenso # Error title (app suspended)
+        description: O aplicativo GitHub foi suspenso. # Error description (app suspended)
+      redirectUriMismatch:
+        title: URI de Redirecionamento Incompatível # Error title (redirect URI)
+        description: O URI de redirecionamento não corresponde à configuração. # Error description (redirect URI)
+      unknown:
+        title: Erro Inesperado # Error title (generic)
+        description: Algo deu errado. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io # Error description (generic)
+
+  # ========================================
+  # Logout - Logout messages
+  # ========================================
+  logout:
+    validating: Validando solicitação de saída... # Loading message (logout)
+    loggingOut: Saindo... # Loading message (logging out)
+    authorizationError: Erro de Autorização # Error title
+    logoutFailed: Falha ao Sair # Error title
+
+  # ========================================
+  # SSO - Single Sign-On messages
+  # ========================================
+  sso:
+    continue: Continuar # Button (SSO continue)
+    multipleWorkspaces: Múltiplos workspaces SSO encontrados para {email} # Multiple workspaces warning
+    failedInitiate: Falha ao iniciar o login SSO. Por favor, tente novamente. # Error message (SSO)
+    somethingWrong: Algo deu errado. Por favor, tente novamente! # Generic error
+    loginCancelled: Login cancelado. Por favor, tente novamente! # Cancelled message
+
+  # ========================================
+  # Account Selection - Email selection
+  # ========================================
+  accountSelection:
+    continue: Continuar # Button (account selection)
+    or: ou # Divider text
+    differentAccount: Usar uma conta diferente # Link (different account)
+
+  # ========================================
+  # Email Input - Email form
+  # ========================================
+  emailInput:
+    placeholder: E-mail # Input placeholder
+    send: Enviar # Submit button
+
+  # ========================================
+  # Error Pages - Generic error messages
+  # ========================================
+  errors:
+    internalServerError: Ocorreu um erro inesperado no servidor. Por favor, tente novamente mais tarde. # 500 error
+    serviceUnavailable: O serviço está temporariamente indisponível. Por favor, tente novamente em alguns instantes. # 503 error
+    networkError: Não foi possível conectar ao servidor. Por favor, verifique sua conexão com a internet e tente novamente. # Network error
+    authenticationError: Erro de autenticação. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io # Auth error
+    windowNotOpened: Esta janela não foi aberta corretamente. Por favor, volte ao {clientName} e tente novamente. # Window error
+    windowClosed: A janela original do aplicativo foi fechada. Por favor, volte ao {clientName} e tente novamente. # Window closed error
+    communicationFailed: Falha ao comunicar com {clientName}. Por favor, tente novamente # Communication error
+    transferFailed: Falha ao transferir a autenticação. Por favor, tente novamente. # Transfer error
+    canCloseWindow: Você pode fechar esta janela agora. # Success message (close window)
+
+  # ========================================
+  # OAuth Errors - OAuth-specific errors
+  # ========================================
+  oauthErrors:
+    invalidAuthRequest: Solicitação de Autenticação Inválida # OAuth error
+    unsupportedResponseType: Parâmetro response_type não suportado # OAuth error
+    invalidClient: Cliente Inválido # OAuth error
+    missingClientIdOrRedirectUri: client_id ou redirect_uri ausente # OAuth error
+    missingCodeChallenge: 'Parâmetro obrigatório ausente: code_challenge' # OAuth error
+    missingState: 'Parâmetro obrigatório ausente: state' # OAuth error
+    invalidAccess: Acesso Inválido # OAuth error
+    pageMustBeOpened: Esta página deve ser aberta a partir do aplicativo. # OAuth error
+    unsupportedPrompt: Parâmetro prompt não suportado # OAuth error
+    unexpectedError: Erro inesperado # OAuth error
