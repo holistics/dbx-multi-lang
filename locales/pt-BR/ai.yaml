@@ -8,20 +8,20 @@ ai:
 
   panel:
     inputPlaceholder: Pergunte-me qualquer coisa sobre o seu diagrama...
-    currentChat: Chat Atual
-    previousChats: Chats Anteriores
-    noOtherChats: Nenhum outro chat ainda
+    currentChat: Bate-papo atual
+    previousChats: Bate-papos anteriores
+    noOtherChats: Nenhum outro bate-papo ainda
     sendInstructions: Pressione Enter para enviar, Shift+Enter para nova linha
     sendMessage: Enviar mensagem
-    workspaceDisabled: Workspace desativado
+    workspaceDisabled: Espaço de trabalho desativado
     editPermissionRequired: Permissão de edição necessária
-    usageLimitReached: Você usou todo o seu limite de uso para este mês. Tente novamente em
+    usageLimitReached: Você usou todo o seu limite de uso para este mês. Tente novamente em {date}.
     learnMoreAboutUsageLimits: Saiba mais sobre os limites de uso
-    chat: Chat
+    chat: Bate-papo
     clickToEdit: Clique para editar
-    newChat: Novo Chat
-    showChatHistory: Mostrar Histórico de Chat
-    hideChatHistory: Ocultar Histórico de Chat
+    newChat: Novo Bate-papo
+    showChatHistory: Mostrar Histórico de Bate-papo
+    hideChatHistory: Ocultar Histórico de Bate-papo
 
   # ========================================
   # AI Welcome Modal - First-time user experience
@@ -70,8 +70,8 @@ ai:
   # AI Response Messages - Standard responses
   # ========================================
   responseMessages:
-    noExplanation: O schema foi atualizado. Verifique o visualizador de diferenças para revisar as alterações.
-    invalidIntent: "Bem-vindo ao dbdiagram AI.\n\nEstou aqui para ajudar você com:\n\n• **Design de schema DBML** - Crie e modifique tabelas, relacionamentos e estruturas de banco de dados\n• **Melhores práticas de banco de dados** - Sugira tipos de dados, índices e restrições ideais\n• **Otimização de schema** - Organize tabelas com TableGroups, adicione timestamps, remapeie tipos de dados\n• **Transformações rápidas** - Converta entre sistemas de banco de dados (PostgreSQL, MySQL, SQL Server, etc.)\n\nTente me pedir para criar tabelas, adicionar relacionamentos ou usar as ações rápidas acima para começar!"
+    noExplanation: O esquema foi atualizado. Verifique o visualizador de diferenças para revisar as alterações.
+    invalidIntent: "Bem-vindo ao dbdiagram AI.\n\nEstou aqui para ajudar você com:\n\n• **Design de esquema DBML** - Crie e modifique tabelas, relacionamentos e estruturas de banco de dados\n• **Melhores práticas de banco de dados** - Sugira tipos de dados, índices e restrições ideais\n• **Otimização de esquema** - Organize tabelas com Grupo de Tabelas, adicione carimbos de data/hora, remapeie tipos de dados\n• **Transformações rápidas** - Converta entre sistemas de banco de dados (PostgreSQL, MySQL, SQL Server, etc.)\n\nTente me pedir para criar tabelas, adicionar relacionamentos ou usar as ações rápidas acima para começar!"
 
   # ========================================
   # Quick Action Titles - Action card headers

@@ -21,9 +21,9 @@ common:
     title: Ajuda
     documentation: Documentação
     releaseNotes: Notas de lançamento
-    roadmap: Roadmap do produto
+    roadmap: Roteiro do produto
     basicEditing: Experiência Básica de Edição
-    sendFeedback: Enviar feedback
+    sendFeedback: Enviar comentários
     askCommunity: Perguntar à comunidade
     suggestFeature: Sugerir recurso
     contactUs: Fale Conosco
@@ -53,7 +53,7 @@ common:
   # ========================================
   import:
     title: Importar
-    importFrom: Importar de
+    importFrom: "Importar de:"
     fromDatabaseConnection: Da conexão com o banco de dados (via CLI)
     fromMySQL: Do MySQL
     fromPostgreSQL: Do PostgreSQL
@@ -80,10 +80,10 @@ common:
   # ========================================
   sso:
     signInWithSSO: Entrar com SSO
-    signInWithEmail: Entrar com Email
-    useWorkEmail: Use o email da sua empresa para acessar o dbdiagram via SSO
+    signInWithEmail: Entrar com E-mail
+    useWorkEmail: Use o e-mail da sua empresa para acessar o dbdiagram via SSO
     signInUnsuccessful: Falha no login. Verifique seu e-mail corporativo ou use outro método
-    selectWorkspace: Selecione um workspace para entrar
+    selectWorkspace: Selecione um Espaço de Trabalho para entrar
 
   # ========================================
   # AI Assistant - Chat panel (right sidebar with AI chat)
@@ -124,7 +124,7 @@ common:
   notifications:
     noPermissionRemoveView: Você não tem permissão para remover a visualização do diagrama!
     noPermissionRenameView: Você não tem permissão para renomear a visualização do diagrama!
-    workspaceDisabled: Este workspace está atualmente desabilitado
+    workspaceDisabled: Este Espaço de Trabalho está atualmente desabilitado
     noEditPermissionAi: Você precisa de permissão de edição para usar o dbdiagram AI. Por favor, peça ao proprietário do diagrama para atualizar seu acesso.
 
   # ========================================
@@ -141,7 +141,7 @@ common:
     newDiagram: Faça login para criar um novo diagrama
     upgradePersonal: Faça login para fazer upgrade para o plano Personal Pro
     upgradeTeam: Faça login para iniciar seu teste do plano Team
-    joinTeam: Faça login para entrar neste workspace de equipe
+    joinTeam: Faça login para entrar neste Espaço de Trabalho de Equipe
     chartUpdateVisibleEntities: Faça login para salvar a visibilidade da tabela/nota adesiva
     diagramViewCreateView: Faça login para criar uma nova visualização de diagrama
     default: Faça login para continuar seu trabalho

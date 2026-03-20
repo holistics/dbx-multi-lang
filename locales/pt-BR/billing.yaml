@@ -6,9 +6,9 @@ billing:
   # Billing Buttons - Action buttons
   # ========================================
   buttons:
-    upgrade: Fazer Upgrade
-    upgradeToPersonalPro: Fazer upgrade para o plano Personal Pro
-    collaborateWithTeam: Colabore com o plano Team
+    upgrade: Atualizar
+    upgradeToPersonalPro: Atualizar para o plano Personal Pro
+    collaborateWithTeam: Colabore com o plano Equipe
 
   # ========================================
   # Pricing Page - Pricing table
@@ -79,7 +79,7 @@ billing:
   # Upgrade Button - Contextual upgrade
   # ========================================
   upgradeNowBtn:
-    ownerOnly: Apenas o proprietário do workspace pode fazer upgrade para o plano Team
+    ownerOnly: Apenas o proprietário do Espaço de Trabalho pode fazer upgrade para o plano Equipe
 
   # ========================================
   # Manage Plan Modal - Subscription details
@@ -92,7 +92,7 @@ billing:
     billedMonthly: Cobrado mensalmente
     billedAnnually: Cobrado anualmente
     chargeEvery: Cobrado a cada {period} {unit}
-    cancelledOn: Cancelado em
+    cancelledOn: Cancelado em {date}
     planDetails: Detalhes do plano →
     upgradeDescription: Faça upgrade para nossos planos pagos para obter Níveis de Detalhe, Cor do Cabeçalho e todos os próximos recursos
     nextPayment: Seu próximo pagamento é
@@ -111,14 +111,14 @@ billing:
   # Disabled Card - Disabled workspace state
   # ========================================
   disabledCard:
-    personalUpgrade: Faça upgrade do seu workspace pessoal para recursos premium.
-    teamReadOnly: O workspace está em modo somente leitura devido ao cancelamento da assinatura. Renove para habilitar a funcionalidade do workspace.
+    personalUpgrade: Faça upgrade do seu Espaço de Trabalho pessoal para recursos premium.
+    teamReadOnly: O Espaço de Trabalho está em modo somente leitura devido ao cancelamento da assinatura. Renove para habilitar a funcionalidade do Espaço de Trabalho.
 
   # ========================================
   # Plan Picking View - Simple pricing view
   # ========================================
   planPickingSimpleView:
-    collaborateWithTeamPlan: Colabore com o plano Team
+    collaborateWithTeamPlan: Colabore com o plano Equipe
     collaborateWithColleagues: Colabore com seus colegas.
     manageTeamDiagrams: Gerencie os diagramas da equipe em um só lugar.
     startFreeTrial: Comece o teste gratuito de 7 dias

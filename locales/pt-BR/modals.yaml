@@ -7,7 +7,7 @@ modals:
   # ========================================
   titles:
     confirm: Confirmar
-    delete: Deletar
+    delete: Excluir
     remove: Remover
     rename: Renomear
 
@@ -151,7 +151,7 @@ modals:
     upload: Fazer upload de {file}
     appendMode: Anexar o DBML convertido ao final
     modal:
-      validating: Validating # Validating modal title
+      validating: Validando
     dbConnection:
       title: Gerar DBML a partir de uma conexão direta com o banco de dados
       intro1: Este método conecta diretamente ao seu banco de dados e lê o esquema do seu banco de dados (geralmente do INFORMATION_SCHEMA) para gerar código DBML.

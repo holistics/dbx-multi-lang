@@ -9,7 +9,7 @@ account:
     title: Conta
     loadingInfo: Carregando informações da conta...
     displayName: Nome de exibição
-    email: Email
+    email: E-mail
 
     # Connected accounts section
     connectedAccounts:
@@ -21,7 +21,7 @@ account:
     # Manage account section
     manageTitle: Gerenciar conta
     changeEmail: Alterar endereço de e-mail
-    changeEmailInProgress: Você tem uma alteração de e-mail em andamento, por favor aguarde
+    changeEmailInProgress: Você tem uma alteração de e-mail em andamento, por favor, aguarde
     changeEmailFailed: "Sua última alteração de e-mail falhou, entre em contato com nosso suporte em dbdiagram@holistics.io"
 
     # Account removal
@@ -33,7 +33,7 @@ account:
       aFewHours: algumas horas
       aDay: um dia
       days: "{count} dias"
-      workspaceDeletionWarning: "Você tem {count} workspace(s) de propriedade que serão excluídos:"
+      workspaceDeletionWarning: "Você tem {count} espaço(s) de trabalho de propriedade que serão excluídos."
       confirmTitle: Remover esta conta?
       cancelSuccess: Solicitação de remoção cancelada com sucesso!
       submitSuccess: Solicitação de remoção criada com sucesso!
@@ -65,7 +65,7 @@ account:
       otpSentMessage: Enviamos um código de 6 dígitos para o seu e-mail. O código expira em 4 minutos.
       verificationCode: Código de verificação
       resendCode: Reenviar código
-      resendCodeCooldown: "Reenviar código ({seconds}s)"
+      resendCodeCooldown: "Reenviar código em ({seconds}s)"
       verify: Verificar
 
     # Step 2: Enter new email
@@ -77,11 +77,11 @@ account:
 
     # Step 3: Verify new email
     verifyNew:
-      otpSentTo: Enviamos um código de 6 dígitos para
+      otpSentTo: Enviamos um código de 6 dígitos para {email}
       codeExpires: O código expira em 4 minutos.
       verificationCode: Código de verificação
       resendCode: Reenviar código
-      resendCodeCooldown: "Reenviar código ({seconds}s)"
+      resendCodeCooldown: "Reenviar código em ({seconds}s)"
       back: Voltar
       verify: Verificar
 

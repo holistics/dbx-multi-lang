@@ -131,7 +131,7 @@ dbrenderer:
     allTables: Todas as tabelas
     allNotes: Todas as notas
     nothing: Nada
-    moreItems: 'Mais {count} itens:'
+    moreItems: "Mais {count} itens:"
 
   # ========================================
   # Sticky Notes - Sticky note section

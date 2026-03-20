@@ -59,7 +59,7 @@ databaseGuidelines:
     step2: Abra o SSMS e conecte-se ao seu servidor SQL
     step3: Uma vez conectado, clique com o botão direito do mouse no banco de dados a ser exportado e escolha
     scriptDatabaseAs: Gerar Script do Banco de Dados como
-    createTo: CREATE To
+    createTo: CREATE Para
     newQueryEditorWindows: Nova Janela de Editor de Consultas
     step4: Copie o conteúdo SQL gerado e cole-o neste modal
 

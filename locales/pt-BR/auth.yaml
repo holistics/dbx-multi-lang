@@ -17,7 +17,7 @@ auth:
     authorizationError: Falha na autorização
     processing: Processando...
     justAMomentPleaseWait: Só um momento, por favor aguarde...
-    signedInAs: Você está logado como
+    signedInAs: Você está logado como {user}
     failedSignInGitHub: Falha ao entrar com o GitHub
     failedSignInMicrosoft: Falha ao entrar com a Microsoft, por favor tente novamente!
 
@@ -42,7 +42,7 @@ auth:
     signInSuccess: Logado com sucesso
     didntReceiveOtp: Não recebeu o código OTP?
     resendOtp: Reenviar código OTP
-    resendAfter: Você pode reenviar o código OTP após {counter}s
+    resendAfter: Você pode reenviar o código OTP após {counter} segundos
     submit: Enviar
     sendOtpFailed: Falha ao enviar código OTP, por favor tente novamente!
 
