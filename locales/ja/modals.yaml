@@ -99,13 +99,12 @@ modals:
     viewDiagram: ダイアグラムを表示
   publish:
     title: 公開先
+    publishedTitle: 公開済み
     dbdocsLink: dbdocs
     publishButton: 公開
     bullet1: ダイアグラムのウェブ閲覧可能なデータベースドキュメントを公開します。
     bullet2: 公開されたドキュメントは、ダイアグラムオーナーのメールアドレスにリンクされた dbdocs アカウントで利用可能になります。
     bullet3: ダイアグラムへの変更は dbdocs ドキュメントに自動的に反映されません。
-    publishNewOrUpdate: 新しいドキュメントを公開 / 既存のドキュメントを更新
-    updateExisting: 既存のドキュメントを更新
     projectPublicDefault: dbdocs プロジェクトはデフォルトで「公開」に設定されています。リンクからアクセスできます。
     documentProjectName: ドキュメントプロジェクト名
     enterProjectName: プロジェクト名を入力
@@ -120,7 +119,15 @@ modals:
     errorPublishing: プロジェクトの公開中にエラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
     projectNameEmpty: プロジェクト名を入力してください
     projectNameInvalid: プロジェクト名にはアルファベット、数字、スペース、"-" または "_" のみ使用できます
+    projectNameExists: この名前/URLのプロジェクトは既に存在します。別の名前を選択してください。
     passwordInvalid: 無効なパスワードです。もう一度お試しください！
+    editFromDbdocsInfo: 公開済みプロジェクトを編集するには、dbdocs から直接編集できます。
+    learnMore: 詳細を見る
+    ownerOnlyPublish: 新しいプロジェクトを dbdocs に公開できるのは、ダイアグラムの所有者のみです。
+    publishedProject: 公開済みプロジェクト
+    viewExistingProjects: 既存のプロジェクトを表示
+    projectNameHeader: 名前
+    projectUrlHeader: URL
   import:
     instructions: 手順
     showInstructions: 手順を表示
