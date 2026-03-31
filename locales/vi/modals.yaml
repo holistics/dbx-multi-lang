@@ -99,8 +99,8 @@ modals:
     publishedTitle: Đã xuất bản lên
     dbdocsLink: dbdocs
     publishButton: Xuất bản
-    bullet1: Xuất bản tài liệu cơ sở dữ liệu có thể xem trên web từ sơ đồ của bạn.
-    bullet2: Tài liệu được xuất bản sẽ có trong tài khoản dbdocs liên kết với email chủ sở hữu sơ đồ.
+    bullet1: Xuất bản tài liệu cơ sở dữ liệu có thể xem trên web mới từ sơ đồ của bạn.
+    bullet2: Tài liệu được xuất bản sẽ có trong tài khoản dbdocs liên kết với email của bạn.
     bullet3: Thay đổi trong sơ đồ sẽ không tự động cập nhật tài liệu trên dbdocs.
     projectPublicDefault: Dự án dbdocs của bạn được đặt là "công khai" theo mặc định. Mọi người có thể truy cập qua liên kết.
     documentProjectName: Tên dự án tài liệu

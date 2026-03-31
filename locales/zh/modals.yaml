@@ -102,8 +102,8 @@ modals:
     publishedTitle: 已发布到
     dbdocsLink: dbdocs
     publishButton: 发布
-    bullet1: 发布你图表的可在线查看的数据库文档。
-    bullet2: 发布的文档将在与图表所有者邮箱关联的 dbdocs 账户中可用。
+    bullet1: 发布你图表的一个新的可在线查看的数据库文档。
+    bullet2: 发布的文档将在与你的邮箱关联的 dbdocs 账户中可用。
     bullet3: 对图表的更改不会自动更新 dbdocs 文档。
     projectPublicDefault: 你的 dbdocs 项目默认设置为"公开"。人们可以通过链接访问。
     documentProjectName: 文档项目名称

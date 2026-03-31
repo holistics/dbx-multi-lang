@@ -102,8 +102,8 @@ modals:
     publishedTitle: 公開済み
     dbdocsLink: dbdocs
     publishButton: 公開
-    bullet1: ダイアグラムのウェブ閲覧可能なデータベースドキュメントを公開します。
-    bullet2: 公開されたドキュメントは、ダイアグラムオーナーのメールアドレスにリンクされた dbdocs アカウントで利用可能になります。
+    bullet1: ダイアグラムの新しいウェブ閲覧可能なデータベースドキュメントを公開します。
+    bullet2: 公開されたドキュメントは、あなたのメールアドレスにリンクされた dbdocs アカウントで利用可能になります。
     bullet3: ダイアグラムへの変更は dbdocs ドキュメントに自動的に反映されません。
     projectPublicDefault: dbdocs プロジェクトはデフォルトで「公開」に設定されています。リンクからアクセスできます。
     documentProjectName: ドキュメントプロジェクト名
