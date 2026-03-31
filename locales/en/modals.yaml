@@ -118,13 +118,12 @@ modals:
   # ========================================
   publish:
     title: Publish to # Modal title (publish dropdown)
+    publishedTitle: Published to # Modal title for published diagram
     dbdocsLink: dbdocs # Link label
     publishButton: Publish # Publish button
-    bullet1: Publish a web-viewable database documentation of your diagram. # Feature bullet point
-    bullet2: Published document will be available in a dbdocs account linked to diagram owner email. # Feature bullet point
+    bullet1: Publish a new web-viewable database documentation of your diagram. # Feature bullet point
+    bullet2: Published document will be available in a dbdocs account linked to your email. # Feature bullet point
     bullet3: Changes to your diagram will not automatically update the dbdocs document. # Feature bullet point
-    publishNewOrUpdate: Publish a new document / Update an existing one # Section title
-    updateExisting: Update an existing document # Update option
     projectPublicDefault: Your dbdocs project is set to "public" by default. People can gain access through its link. # Public default info
     documentProjectName: Document project name # Project name field label
     enterProjectName: Enter project name # Project name placeholder
@@ -139,7 +138,15 @@ modals:
     errorPublishing: An error has occurred while publishing project, please contact our support at dbdiagram@holistics.io # Error toast
     projectNameEmpty: Project name cannot be empty # Validation error
     projectNameInvalid: Project name can only contain only alphabets, numbers, space, "-" or "_" # Validation error
+    projectNameExists: A project with this name/url already exists. Please choose a different name. # Validation error for duplicate name/url
     passwordInvalid: Invalid password, please try again! # Validation error
+    editFromDbdocsInfo: To edit a published project, you can do it directly from dbdocs. # Info about editing from dbdocs
+    learnMore: Learn more # Learn more link text
+    ownerOnlyPublish: Only the diagram owner can publish a new project to dbdocs. # Non-owner message
+    publishedProject: Published project # Label for published project
+    viewExistingProjects: View existing projects # Link to view existing projects popover
+    projectNameHeader: Name # Header for project name column in popover
+    projectUrlHeader: URL # Header for project URL column in popover
 
   # ========================================
   # Import modal - Import diagram
