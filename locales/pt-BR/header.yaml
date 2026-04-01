@@ -1,0 +1,115 @@
+# Header translations - Top header toolbar
+# UI Areas: Header toolbar, Account dropdown, Status indicators, Publish modal
+
+header:
+  # ========================================
+  # Header toolbar buttons - Left side of top header
+  # ========================================
+  buttons:
+    save: Salvar
+    share: Compartilhar
+    editAsNew: Editar como Novo
+    signOut: Sair
+    publishToDbdocs: Publicar no DBDocs
+    publish: Publicar
+
+  # ========================================
+  # Draft badge - Small indicator next to diagram name
+  # ========================================
+  draftBadge:
+    label: Rascunho
+    discardAll: Descartar todos os rascunhos
+
+  # ========================================
+  # Placeholders - Input field placeholders
+  # ========================================
+  placeholders:
+    untitledDiagram: Diagrama sem título
+
+  # ========================================
+  # Status - Diagram sync status indicators (header toolbar)
+  # ========================================
+  status:
+    readOnly: Somente leitura
+    synced: Sincronizado
+    unsynced: Não sincronizado
+    saved: Salvo
+    unsaved: Não salvo
+
+  # ========================================
+  # Sync status - Detailed sync messages (header toolbar tooltip/status)
+  # ========================================
+  syncStatus:
+    reconnecting: Reconectando...
+    saving: Salvando diagrama...
+    autoSaving: Salvando diagrama automaticamente...
+    disconnected: Você está desconectado. Suas edições estão sendo salvas localmente e serão sincronizadas com o servidor na próxima vez que você estiver online.
+    readOnly: Este diagrama está somente leitura
+    unsaved: Este diagrama não está salvo
+    unsavedWithLogin: Este diagrama não está salvo. O login é necessário para salvar seus diagramas
+
+  # ========================================
+  # Tooltips - Tooltip text for header elements
+  # ========================================
+  tooltips:
+    clickToEdit: Clique para editar
+    openInDbdocs: Abrir no dbdocs
+    noPublishedContent: Este projeto ainda não tem conteúdo publicado
+    editAsNewDisabledWorkspace: <p class="text-center"><b>Editar como Novo</b> não está disponível porque seu espaço de trabalho foi desabilitado devido ao cancelamento da assinatura.</p>
+    editAsNewNormal: Editar como Novo
+
+  # ========================================
+  # Draft status - Draft version status messages
+  # ========================================
+  draftStatus:
+    upToDate: O rascunho está atualizado
+    hasUnsavedChanges: O rascunho tem alterações não salvas
+
+  # ========================================
+  # Project status - Published project status messages
+  # ========================================
+  projectStatus:
+    upToDate: O projeto está atualizado
+    hasUnsavedChanges: O projeto tem alterações não salvas
+    synchronized: O conteúdo do seu diagrama está sincronizado com o servidor
+    allChangesSaved: Todas as alterações foram salvas
+
+  # ========================================
+  # Publish validation - Messages in share/publish modal
+  # ========================================
+  publishValidation:
+    parseError: Há um erro no seu diagrama. Por favor, corrija todos os erros de sintaxe antes de publicar.
+    saveFirst: Por favor, salve seu diagrama primeiro
+    ownerPublishFirst: Por favor, peça ao proprietário do diagrama para publicar um documento de banco de dados primeiro
+    needLogin: Por favor, faça login para publicar suas alterações
+    hasErrors: Você tem erros no seu diagrama
+    noChanges: Não há alterações para publicar
+
+  # ========================================
+  # Modals - Modal dialog texts (discard, overwrite)
+  # ========================================
+  modals:
+    discardDraftsTitle: Descartar todos os rascunhos
+    discardDraftsContent: Tem certeza de que deseja descartar todas as suas versões de rascunho e buscar o conteúdo mais recente do projeto? Esta ação não pode ser desfeita.
+    discardButton: Descartar
+    cancelButton: Cancelar
+
+  # ========================================
+  # Notifications - Toast notification messages
+  # ========================================
+  notifications:
+    publishSuccess: Projeto publicado com sucesso e versões de rascunho limpas
+    publishFailed: Falha ao publicar projeto
+    discardSuccess: Todos os rascunhos descartados e versão mais recente carregada
+    discardFailed: Falha ao descartar rascunhos
+    showPublishFailed: Falha ao mostrar confirmação de publicação
+    renameFailed: Falha ao renomear diagrama. Por favor, tente novamente
+
+  # ========================================
+  # Account dropdown - Top-right user menu
+  # ========================================
+  accountDropdown:
+    loggedInWithSSO: Logado com SSO
+    darkMode: Modo Escuro
+    managePersonalPlan: Gerenciar Plano Pessoal
+    manageAccount: Gerenciar Conta

@@ -1,0 +1,81 @@
+# Authentication translations - Login, Signup, Password pages
+# UI Areas: Auth pages (/login, /signup, /forgot-password)
+
+auth:
+  # ========================================
+  # Login Page - Email/password login
+  # ========================================
+  login:
+    email: E-mail
+    loginWithGithub: Entrar com o GitHub
+    loginWithMicrosoft: Entrar com a Microsoft
+
+  # ========================================
+  # OAuth Errors - OAuth flow errors
+  # ========================================
+  oauth:
+    authorizationError: Falha na autorização
+    processing: Processando...
+    justAMomentPleaseWait: Só um momento, por favor aguarde...
+    signedInAs: Você está logado como {user}
+    failedSignInGitHub: Falha ao entrar com o GitHub
+    failedSignInMicrosoft: Falha ao entrar com a Microsoft, por favor tente novamente!
+
+  # ========================================
+  # Form Errors - Validation error messages
+  # ========================================
+  errors:
+    invalidEmail: Endereço de e-mail inválido, por favor tente novamente!
+    githubPopupBlocked: Por favor, permita popups para entrar com o GitHub
+
+  # ========================================
+  # OTP Authentication - One-time password
+  # ========================================
+  otp:
+    signInWithEmail: Entrar com e-mail
+    otpSentTo: Código OTP enviado para
+    wrongEmail: Endereço de e-mail errado?
+    changeEmail: Alterar e-mail
+    inputEmail: Por favor, insira seu endereço de e-mail
+    inputYourOtp: Insira seu código OTP
+    inputOtpCode: Por favor, insira o código OTP enviado para o e-mail
+    signInSuccess: Logado com sucesso
+    didntReceiveOtp: Não recebeu o código OTP?
+    resendOtp: Reenviar código OTP
+    resendAfter: Você pode reenviar o código OTP após {counter} segundos
+    submit: Enviar
+    sendOtpFailed: Falha ao enviar código OTP, por favor tente novamente!
+
+  # ========================================
+  # SSO Login - Single Sign-On
+  # ========================================
+  sso:
+    orContinueWith: ou continue com
+
+  # ========================================
+  # Embedded Portal - OAuth portal pages
+  # ========================================
+  portal:
+    signIn: Entrar
+    signInWith: Entrar com
+
+  # ========================================
+  # Additional Errors - Extra error messages
+  # ========================================
+  additional:
+    unknownError: Erro desconhecido
+    invalidOtp: Código OTP inválido, por favor tente novamente!
+    cannotValidateOtp: Não é possível validar o código OTP, por favor tente novamente!
+    emailNotVerified: Seu endereço de e-mail não está verificado. Por favor, verifique-o na conta Microsoft.
+    cannotSignInMicrosoftSSO: Não é possível entrar com o SSO da Microsoft, por favor tente novamente!
+    cannotSignIn: Não é possível entrar, por favor tente novamente!
+    failedReloadProject: Falha ao recarregar o projeto após o login. Por favor, atualize a página.
+    loginError: Erro de login
+    signInCancelled: Login cancelado. Por favor, tente novamente.
+
+  # ========================================
+  # Logout Callback - Post-logout redirect
+  # ========================================
+  logoutCallback:
+    redirecting: Redirecionando...
+    redirectDescription: Você será redirecionado para o aplicativo em alguns segundos.

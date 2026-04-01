@@ -1,0 +1,112 @@
+# AI Assistant translations - AI panel and features
+# UI Areas: Right sidebar AI panel, Welcome modal, Diff viewer
+
+ai:
+  # ========================================
+  # AI Panel - Right sidebar chat interface
+  # ========================================
+
+  panel:
+    inputPlaceholder: Pergunte-me qualquer coisa sobre o seu diagrama...
+    currentChat: Bate-papo atual
+    previousChats: Bate-papos anteriores
+    noOtherChats: Nenhum outro bate-papo ainda
+    sendInstructions: Pressione Enter para enviar, Shift+Enter para nova linha
+    sendMessage: Enviar mensagem
+    workspaceDisabled: Espaço de trabalho desativado
+    editPermissionRequired: Permissão de edição necessária
+    usageLimitReached: Você usou todo o seu limite de uso para este mês. Tente novamente em {date}.
+    learnMoreAboutUsageLimits: Saiba mais sobre os limites de uso
+    chat: Bate-papo
+    clickToEdit: Clique para editar
+    newChat: Novo Bate-papo
+    showChatHistory: Mostrar Histórico de Bate-papo
+    hideChatHistory: Ocultar Histórico de Bate-papo
+
+  # ========================================
+  # AI Welcome Modal - First-time user experience
+  # ========================================
+  welcome:
+    title: Bem-vindo ao DBDiagram AI
+    subtitle: Seu assistente inteligente para design de banco de dados
+
+  # ========================================
+  # AI Loading States - Message states
+  # ========================================
+  messages:
+    thinking: Pensando...
+    generating: Gerando...
+    explaining: Explicando...
+    error: Algo deu errado. Por favor, tente novamente.
+    rateLimit: Você atingiu o limite de uso. Faça o upgrade para continuar.
+
+  # ========================================
+  # Diff Viewer - AI change comparison
+  # ========================================
+  diffViewer:
+    reject: Rejeitar
+    accept: Aceitar
+    rejectAll: Rejeitar Tudo
+    acceptAll: Aceitar Tudo
+
+  # ========================================
+  # Token Usage - AI usage tracking
+  # ========================================
+  tokenUsage:
+    used: Usado
+    usageText: Você usou {percentage} do seu limite de uso
+    tokens: tokens
+    learnMore: Clique para saber mais sobre os limites de uso
+    resetOn: Reinicia em
+
+  # ========================================
+  # AI Response Details - Response metadata
+  # ========================================
+  assistant:
+    dbmlCode: Código DBML
+    lines: linhas
+
+  # ========================================
+  # AI Response Messages - Standard responses
+  # ========================================
+  responseMessages:
+    noExplanation: O esquema foi atualizado. Verifique o visualizador de diferenças para revisar as alterações.
+    invalidIntent: "Bem-vindo ao dbdiagram AI.\n\nEstou aqui para ajudar você com:\n\n• **Design de esquema DBML** - Crie e modifique tabelas, relacionamentos e estruturas de banco de dados\n• **Melhores práticas de banco de dados** - Sugira tipos de dados, índices e restrições ideais\n• **Otimização de esquema** - Organize tabelas com Grupo de Tabelas, adicione carimbos de data/hora, remapeie tipos de dados\n• **Transformações rápidas** - Converta entre sistemas de banco de dados (PostgreSQL, MySQL, SQL Server, etc.)\n\nTente me pedir para criar tabelas, adicionar relacionamentos ou usar as ações rápidas acima para começar!"
+
+  # ========================================
+  # Quick Action Titles - Action card headers
+  # ========================================
+  quickActionTitles:
+    createTableGroups: Criar Grupos de Tabelas
+    addTimestampColumns: Adicionar Colunas de Timestamp
+    addRelationships: Adicionar Relacionamentos
+    addIndexes: Adicionar Índices
+    learnDatabaseDesign: Aprender Design de Banco de Dados
+    cloneSlack: Clonar Slack
+    documentDatabase: Documentar Banco de Dados
+    todoList: Lista de Tarefas
+    remapDataTypes: Remapear Tipos de Dados
+
+  # ========================================
+  # Quick Action Descriptions - Action card subtitles
+  # ========================================
+  quickActionDescriptions:
+    createTableGroups: Organize suas tabelas em grupos lógicos por domínio e funcionalidade com cores distintas
+    addTimestampColumns: Adicione colunas created_at e updated_at às tabelas que precisam de rastreamento de auditoria
+    addRelationships: Detecte e adicione automaticamente relacionamentos de chave estrangeira com base nas convenções de nomenclatura
+    addIndexes: Adicione blocos de índice para chaves estrangeiras e colunas comumente consultadas
+    learnDatabaseDesign: Aprenda sobre design de banco de dados
+    cloneSlack: Crie um clone do Slack
+    documentDatabase: Crie um banco de dados para armazenar documentos
+    todoList: Crie um aplicativo de lista de tarefas
+    remapDataTypes: Converta tipos de dados para corresponder ao seu sistema de banco de dados de destino
+
+  # ========================================
+  # Quick Action Sub-actions - Database type selectors
+  # ========================================
+  quickActionSubActions:
+    postgresql: PostgreSQL
+    mysql: MySQL
+    sqlServer: SQL Server
+    sqlite: SQLite
+    oracle: Oracle

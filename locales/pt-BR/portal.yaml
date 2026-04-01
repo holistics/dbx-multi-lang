@@ -1,0 +1,107 @@
+# Portal translations - Embedded documentation portal
+# UI Areas: OAuth callback pages, SSO portal, Error pages
+
+portal:
+  # ========================================
+  # OAuth Welcome - OAuth success messages
+  # ========================================
+  oauth:
+    welcomeTo: Bem-vindo ao {clientName}
+    signingInTo: Entrando em {clientName}
+    successfullySignedInTo: Conectado com sucesso ao {clientName}
+    welcome: Bem-vindo
+    signingIn: Entrando
+    successfullySignedIn: Conectado com sucesso
+    powering: Potencializando
+    signOutFrom: Sair de {clientName}
+    signOutFromAccount: Sair de sua conta
+
+  # ========================================
+  # GitHub Callback - OAuth callback messages
+  # ========================================
+  githubCallback:
+    authenticating: Autenticação em progresso, por favor, aguarde um momento...
+    authSuccess: Autenticado com sucesso! Você pode fechar esta janela com segurança.
+    title: Autenticação do GitHub
+    errors:
+      noOpener:
+        title: Acesso Inválido
+        description: Esta página não pode ser aberta diretamente. Por favor, retorne ao aplicativo e inicie o processo de login.
+      openerClosed:
+        title: Janela Principal Fechada
+        description: A janela original do aplicativo foi fechada durante a autenticação. Por favor, retorne ao aplicativo e inicie o processo de login novamente.
+      accessDenied:
+        title: Acesso Negado
+        description: Você cancelou a autenticação do GitHub.
+      appSuspended:
+        title: Aplicação Suspensa
+        description: A aplicação do GitHub foi suspensa.
+      redirectUriMismatch:
+        title: URI de redirecionamento incompatível
+        description: O URI de redirecionamento não corresponde à configuração.
+      unknown:
+        title: Erro inesperado
+        description: Algo deu errado. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io
+
+  # ========================================
+  # Logout - Logout messages
+  # ========================================
+  logout:
+    validating: Validando solicitação de logout...
+    loggingOut: Desconectando você...
+    authorizationError: Erro de Autorização
+    logoutFailed: Falha no Logout
+
+  # ========================================
+  # SSO - Single Sign-On messages
+  # ========================================
+  sso:
+    continue: Continuar
+    multipleWorkspaces: Vários workspaces SSO encontrados para {email}
+    failedInitiate: Falha ao iniciar login SSO. Por favor, tente novamente.
+    somethingWrong: Algo deu errado, por favor, tente novamente!
+    loginCancelled: Login cancelado, por favor, tente novamente!
+
+  # ========================================
+  # Account Selection - Email selection
+  # ========================================
+  accountSelection:
+    continue: Continuar
+    or: ou
+    differentAccount: Usar uma conta diferente
+
+  # ========================================
+  # Email Input - Email form
+  # ========================================
+  emailInput:
+    placeholder: E-mail
+    send: Enviar
+
+  # ========================================
+  # Error Pages - Generic error messages
+  # ========================================
+  errors:
+    internalServerError: Ocorreu um erro inesperado no servidor. Por favor, tente novamente mais tarde.
+    serviceUnavailable: O serviço está temporariamente indisponível. Por favor, tente novamente em alguns instantes.
+    networkError: Não foi possível conectar ao servidor. Por favor, verifique sua conexão com a internet e tente novamente.
+    authenticationError: Erro de autenticação. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io
+    windowNotOpened: Esta janela não foi aberta corretamente. Por favor, retorne ao {clientName} e tente novamente.
+    windowClosed: A janela original do aplicativo foi fechada. Por favor, retorne ao {clientName} e tente novamente.
+    communicationFailed: Falha ao se comunicar com {clientName}. Por favor, tente novamente
+    transferFailed: Falha ao transferir a autenticação. Por favor, tente novamente.
+    canCloseWindow: Você pode fechar esta janela agora.
+
+  # ========================================
+  # OAuth Errors - OAuth-specific errors
+  # ========================================
+  oauthErrors:
+    invalidAuthRequest: Solicitação de Autenticação Inválida
+    unsupportedResponseType: Parâmetro response_type não suportado
+    invalidClient: Cliente Inválido
+    missingClientIdOrRedirectUri: Faltando client_id ou redirect_uri
+    missingCodeChallenge: 'Faltando parâmetro obrigatório: code_challenge'
+    missingState: 'Faltando parâmetro obrigatório: state'
+    invalidAccess: Acesso Inválido
+    pageMustBeOpened: Esta página deve ser aberta pelo aplicativo.
+    unsupportedPrompt: Parâmetro prompt não suportado
+    unexpectedError: Erro inesperado

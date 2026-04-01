@@ -1,0 +1,180 @@
+# Workspace translations - Sidebar, dropdown, and settings
+# UI Areas: Left sidebar, Workspace dropdown, Settings page
+
+workspace:
+  # ========================================
+  # General workspace labels - Sidebar and dropdown
+  # ========================================
+  personalWorkspace: Espaço de Trabalho Pessoal
+  personal: Pessoal
+  createWorkspace: Criar novo Espaço de Trabalho
+  dashboard: Dashboard
+  newDiagram: Novo Diagrama
+  newSampleDiagram: Novo Diagrama de Exemplo
+  basic: Básico
+  advanced: Avançado
+  myDiagrams: Meus Diagramas
+  sharedWithMe: Compartilhados Comigo
+  workspace: Espaço de Trabalho
+  private: Privado
+  readOnlyMode: O Espaço de Trabalho está no modo somente leitura devido ao cancelamento de uma assinatura. Por favor, renove para habilitar a funcionalidade do Espaço de Trabalho.
+
+  # ========================================
+  # Settings - Workspace settings page
+  # ========================================
+  settings:
+    title: Configurações
+    workspaceName: Nome do Espaço de Trabalho
+    update: Atualizar
+    loadingInfo: Carregando informações do Espaço de Trabalho...
+    singleSignOn: Login Único (SSO)
+    authenticateWithSSO: Autenticar com SSO (SAML)
+    enabled: Ativado
+    samlConfiguration: Configuração de SAML
+    enforceSSO: Forçar SSO
+    enforceSSODescription: Uma vez ativado, os membros do Espaço de Trabalho só poderão acessar este Espaço de Trabalho via SSO
+    identityProviderUrl: URL de Login Único (SSO) do Provedor de Identidade
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
+    identityProviderUrlHelp: A URL do endpoint do seu Provedor de Identidade.
+    certificate: Certificado
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificado>\n-----END CERTIFICATE-----"
+    samlConfigurationForProvider: Configuração de SAML para seu provedor de identidade
+    assertionConsumerServiceUrl: URL do serviço do consumidor de asserção (ACS)
+    assertionConsumerServiceUrlHelp: Também chamada de "URL do serviço de terceira parte confiável" ou "URL de Resposta"
+    identifier: Identificador
+    identifierHelp: Também chamado de "Emissor" ou "Identificador de confiança de terceira parte"
+    saveSSOSettings: Salvar configurações de Login Único (SSO)
+    manageWorkspace: Gerenciar Espaço de Trabalho
+    removeWorkspace: Remover Espaço de Trabalho...
+    cancelRemovalRequest: Cancelar solicitação de remoção
+    removalWarning: Esta ação não pode ser desfeita!
+    removalScheduledHours: Seu Espaço de Trabalho será removido após algumas horas.
+    removalScheduledDay: Seu Espaço de Trabalho será removido após um dia.
+    removalScheduledDays: "Seu Espaço de Trabalho será removido após {count} dias."
+    removeWorkspaceTitle: Remover este Espaço de Trabalho?
+    removeWorkspaceContent: Vamos agendar a remoção do seu Espaço de Trabalho para daqui a 7 dias. Você pode cancelar a solicitação de remoção no menu "Configurações" se mudar de ideia.
+    removeWorkspaceButton: Remover este Espaço de Trabalho
+    removeWorkspaceSuggestion: 'Por favor, digite <i>permanently delete</i> no campo de texto para confirmar.'
+    removalRequestCanceled: Solicitação de remoção cancelada com sucesso!
+    removalRequestCreated: Solicitação de remoção criada com sucesso!
+    contactSupportError: Ocorreu um erro, entre em contato com nosso suporte em dbdiagram@holistics.io
+    workspaceNameUpdated: Nome do Espaço de Trabalho atualizado com sucesso
+    workspaceNameUpdateFailed: Falha ao atualizar nome do Espaço de Trabalho, por favor, tente novamente!
+    ssoConfigFetchFailed: Falha ao buscar configuração de SSO. Por favor, tente atualizar a página.
+    ssoConfigUpdated: Configuração de SSO atualizada com sucesso
+    ssoConfigSaveFailed: Falha ao salvar configuração de SSO. Por favor, tente novamente.
+
+  # ========================================
+  # Members - Member management
+  # ========================================
+  members:
+    invite: Convidar
+    invitePlaceholder: Digite o endereço de e-mail
+    inviteButton: Convidar
+    members: Membros
+    role:
+      member: Membro
+      owner: Proprietário
+    actions:
+      remove: Remover
+      removeInvitation: Remover este convite
+      removeMember: Remover este membro
+    dialog:
+      removeMessage: Você está prestes a remover <b>{email}</b> do seu Espaço de Trabalho, por favor, confirme sua ação!
+    notifications:
+      removeSuccess: "{email} removido do Espaço de Trabalho com sucesso!"
+      removeError: Não é possível remover {email} do Espaço de Trabalho!
+
+  # ========================================
+  # Diagram List - Diagram list view
+  # ========================================
+  diagramList:
+    searchPlaceholder: Buscar diagramas
+    freePlan: Gratuito
+    plan: plano
+    diagramCount: "Diagramas: {count}/{limit}"
+    duplicate: Duplicar
+    delete: Excluir
+    untitledDiagram: Diagrama sem título
+    columns:
+      name: Nome
+      dateCreated: Data de Criação
+      dateModified: Data de Modificação
+      owner: Proprietário
+
+  # ========================================
+  # Sidebar - Sidebar sections
+  # ========================================
+  sidebar:
+    apiTokens: Tokens de API
+    billing: Faturamento
+
+  # ========================================
+  # Empty States - Empty diagrams views
+  # ========================================
+  emptyDiagrams:
+    title: Ainda não há diagramas
+    created:
+      description: Não há diagramas no seu Espaço de Trabalho. Você pode criar um novo com o
+      button: + Novo Diagrama
+      buttonSuffix: botão.
+    shared:
+      description: Você ainda não foi convidado para nenhum diagrama.
+    workspacePublic:
+      description: Não há diagramas exibidos para a equipe. Você pode criar novos diagramas com o
+    workspacePrivate:
+      description: Não há diagramas privados. Você pode criar um novo diagrama e mantê-lo pessoal.
+
+  # ========================================
+  # Plan - Plan labels
+  # ========================================
+  plan:
+    pro: Plano Pro
+    free: Plano Gratuito
+    team: Plano Equipe
+    disabled: (desabilitado)
+
+  # ========================================
+  # Welcome - Welcome modal
+  # ========================================
+  welcome:
+    title: Bem-vindo ao Espaço de Trabalho da Equipe!
+    description: Comece criando novos diagramas e colaborando com seus colegas de equipe.
+    learnMore: Saiba mais →
+
+  # ========================================
+  # API Tokens - API tokens management
+  # ========================================
+  apiTokens:
+    title: Tokens de API
+    description: Os tokens de API são usados para autenticação na API do dbdiagram toda vez que uma solicitação de API é feita. Assim como as senhas, o token de API deve permanecer em segredo.
+    seeDocumentation: Visualizar documentação.
+    generateNew: Gerar novo token
+    columns:
+      name: Nome
+      dateCreated: Data de Criação
+      lastUsed: Último Uso
+      owner: Proprietário
+    empty: Nenhum token criado
+    actions:
+      revoke: Revogar
+    modal:
+      newToken: Novo Token de API
+      tokenName: Nome do token
+      tokenNamePlaceholder: Digite o nome do token
+      generate: Gerar token
+      copyWarning: Certifique-se de copiar o token de API agora, pois você não poderá vê-lo novamente.
+      copied: Copiado
+      copy: Copiar
+      done: Concluído
+      revokeTitle: "Revogar Token de API?"
+      revokeContent: Você deseja revogar o Token de API "{name}"? Esta ação não pode ser desfeita.
+      revokePositive: Revogar Token
+      revokeSuggestion: 'Por favor, digite <i>permanently delete</i> no campo de texto para confirmar.'
+      generateSuccess: Token gerado com sucesso
+    errors:
+      nameEmpty: O nome do token não pode estar vazio
+      nameInvalid: O nome do token só pode conter letras, números, espaço, "-" ou "_"
+      nameWhitespace: O nome do token não pode estar vazio ou conter apenas espaços em branco
+      upgradeRequired: Por favor, atualize seu plano para criar tokens e acessar nossa API
+      ownerOnly: Somente o proprietário do Espaço de Trabalho pode gerar novos tokens

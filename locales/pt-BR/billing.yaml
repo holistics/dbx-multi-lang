@@ -1,0 +1,126 @@
+# Billing translations - Pricing, subscriptions, payment
+# UI Areas: Pricing page, Billing settings, Upgrade modals
+
+billing:
+  # ========================================
+  # Billing Buttons - Action buttons
+  # ========================================
+  buttons:
+    upgrade: Atualizar
+    upgradeToPersonalPro: Atualizar para o plano Personal Pro
+    collaborateWithTeam: Colabore com o plano Equipe
+
+  # ========================================
+  # Pricing Page - Pricing table
+  # ========================================
+  pricing:
+
+  # ========================================
+  # Plan Details - Individual plan info
+  # ========================================
+  plans:
+    free:
+      features:
+        - Até 3 diagramas
+        - Ferramentas básicas de edição
+        - Exportar como SQL/PNG
+        - Suporte da comunidade
+
+    pro:
+      features:
+        - Diagramas ilimitados
+        - Ferramentas avançadas de edição
+        - Histórico de versões
+        - Suporte prioritário
+        - Exportar como PDF
+        - Temas personalizados
+
+    team:
+      features:
+        - Tudo do plano Pro
+        - Colaboração em equipe
+        - Controles de administrador
+        - Autenticação SSO
+        - Suporte prioritário
+        - Integrações personalizadas
+
+  # ========================================
+  # Payment Form - Credit card inputs
+  # ========================================
+  payment:
+    paymentMethod: Método de pagamento
+
+  # ========================================
+  # Billing History - Invoice section
+  # ========================================
+  billing:
+
+  # ========================================
+  # Subscription Management - Subscription actions
+  # ========================================
+  subscription:
+
+  # ========================================
+  # Personal Pro Plan - Plan features list
+  # ========================================
+  personalPro:
+
+  # ========================================
+  # Team Plan - Plan features list
+  # ========================================
+  team:
+
+  # ========================================
+  # Public Pricing - Public pricing page
+  # ========================================
+  publicPricing:
+
+  # ========================================
+  # Upgrade Button - Contextual upgrade
+  # ========================================
+  upgradeNowBtn:
+    ownerOnly: Apenas o proprietário do Espaço de Trabalho pode fazer upgrade para o plano Equipe
+
+  # ========================================
+  # Manage Plan Modal - Subscription details
+  # ========================================
+  managePlanModal:
+    loadingSubscription: Carregando informações da assinatura...
+    currentPlan: Plano atual
+    personalPlanForever: Plano Pessoal - Para sempre
+    unknownPlan: Plano desconhecido
+    billedMonthly: Cobrado mensalmente
+    billedAnnually: Cobrado anualmente
+    chargeEvery: Cobrado a cada {period} {unit}
+    cancelledOn: Cancelado em {date}
+    planDetails: Detalhes do plano →
+    upgradeDescription: Faça upgrade para nossos planos pagos para obter Níveis de Detalhe, Cor do Cabeçalho e todos os próximos recursos
+    nextPayment: Seu próximo pagamento é
+    chargedOn: a ser cobrado em
+    editSubscription: Editar assinatura
+    switchToMonthly: Mudar para cobrança mensal
+    switchToYearly: Mudar para cobrança anual
+    noPaymentMethod: Nenhum método de pagamento
+    updatePaymentMethod: Atualizar método de pagamento
+    invoicing: Faturamento
+    lastPayment: Último pagamento
+    editBillingInfo: Editar informações de faturamento
+    paymentProcessing: Seu pagamento está sendo processado, por favor recarregue a página em alguns minutos.
+
+  # ========================================
+  # Disabled Card - Disabled workspace state
+  # ========================================
+  disabledCard:
+    personalUpgrade: Faça upgrade do seu Espaço de Trabalho pessoal para recursos premium.
+    teamReadOnly: O Espaço de Trabalho está em modo somente leitura devido ao cancelamento da assinatura. Renove para habilitar a funcionalidade do Espaço de Trabalho.
+
+  # ========================================
+  # Plan Picking View - Simple pricing view
+  # ========================================
+  planPickingSimpleView:
+    collaborateWithTeamPlan: Colabore com o plano Equipe
+    collaborateWithColleagues: Colabore com seus colegas.
+    manageTeamDiagrams: Gerencie os diagramas da equipe em um só lugar.
+    startFreeTrial: Comece o teste gratuito de 7 dias
+    learnMore: Saiba mais
+    pricingFrom: Preço a partir de {currency}{price}/mês

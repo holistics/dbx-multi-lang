@@ -1,0 +1,280 @@
+# Modals translations - Modal dialogs throughout the app
+# UI Areas: Share modal, Import modal, Export modal, History modal, Upgrade modals
+
+modals:
+  # ========================================
+  # Generic modal titles - Common titles
+  # ========================================
+  titles:
+    confirm: Confirmar
+    delete: Excluir
+    remove: Remover
+    rename: Renomear
+
+  # ========================================
+  # Confirmation dialogs - Generic and specific
+  # ========================================
+  confirmation:
+    default:
+      message: Tem certeza de que deseja continuar esta ação?
+      checkbox: Não mostrar isso novamente
+    deleteDiagram:
+      message: Tem certeza de que deseja excluir este diagrama? Esta ação não pode ser desfeita.
+      warning: Por favor, note que esta ação não pode ser desfeita!
+      embedLinkActive: Você tem um link incorporado ativo.
+      lastViewed: Última visualização
+    removeWorkspace:
+    removeMember:
+      title: Remover Membro
+      message: Tem certeza de que deseja remover este membro do espaço de trabalho?
+      suggestion: Por favor, digite seu e-mail para confirmar.
+
+  # ========================================
+  # Share modal - Diagram sharing
+  # ========================================
+  share:
+    tabs:
+      sharing: Compartilhamento
+      embedding: Incorporação
+    generalAccess:
+      passwordPlaceholder: Digite a senha
+      createPassword: Criar
+      updatePassword: Atualizar
+      canAccess: pode acessar
+      copyLink: Copiar link
+      updatePasswordButton: Atualizar senha
+    permissions:
+      canEditAndInvite: Pode editar e convidar
+      canEditAndInviteDesc: Pode editar e convidar pessoas.
+      canEdit: Pode editar
+      canEditDesc: Pode editar, mas não convidar pessoas.
+      canView: Pode visualizar
+      canViewDesc: Pode visualizar, mas não editar.
+      remove: Remover
+      removeDesc: Remover este colaborador.
+      noAccess: Sem acesso
+      noAccessDesc: Sem acesso a este diagrama
+    invite:
+      placeholder: E-mail, separado por vírgula ou espaço
+      button: Convidar
+    members:
+      you: (você)
+    confirmRemoveCollaborator: Você está prestes a remover <b>{email}</b> dos colaboradores, por favor confirme sua ação!
+    errors:
+      publicPermissionUpdateFailed: Falha ao atualizar permissão pública do diagrama, por favor tente novamente!
+      publicPermissionUpdated: Permissão pública do diagrama atualizada!
+      passwordLength: A senha deve ter entre 6 e 128 caracteres
+      cannotUpdateDiagramState: Não é possível atualizar o estado do diagrama
+      createPasswordFailed: Falha ao criar a senha
+      updatePasswordFailed: Falha ao atualizar a senha
+    success:
+      createPasswordSuccess: Senha criada com sucesso!
+      updatePasswordSuccess: Senha atualizada com sucesso!
+      diagramIsPublic: O diagrama agora é público!
+      diagramIsPrivate: O diagrama agora é privado!
+      diagramIsProtected: O diagrama agora está protegido!
+    permissionChanged: Suas permissões foram alteradas, por favor recarregue para aplicar as alterações!
+    reload: Recarregar
+    cannotGetPermission: Não é possível obter permissão do diagrama, por favor tente novamente!
+    embedLink:
+      title: Link Incorporado
+      lastView: Última visualização
+      customize: Personalize seu link incorporado com opções
+      darkMode: Modo Escuro
+      highlightRelationships: Destacar relacionamentos
+      detailLevel: Nível de detalhe
+      anyoneWithLink: Qualquer pessoa com o link pode visualizar o diagrama incorporado.
+      remove: Você deseja remover este link incorporado? Outras pessoas não poderão mais acessá-lo.
+      generate: Gerar link incorporado
+      errors:
+        cannotGet: Não é possível obter links incorporados, por favor tente novamente!
+        cannotCreate: Não é possível criar link incorporado, por favor tente novamente!
+        cannotDelete: Não é possível excluir link incorporado, por favor tente novamente!
+        cannotUpdate: Não é possível atualizar as configurações do link incorporado, por favor tente novamente!
+    tooltip:
+      viewOnly: A permissão deste usuário é limitada apenas à visualização.
+      upgradePersonal: Para habilitar a colaboração de edição, por favor atualize seu espaço de trabalho pessoal.
+      freeAccount: Este usuário tem uma conta <b>gratuita</b>.
+      editAfterUpgrade: Eles poderão <b>editar</b> o diagrama após a atualização de suas contas.
+      collaborationLimit: Você só pode colaborar com
+      diagramLimit: Até 4 usuários gratuitos em cada diagrama (atualmente {count} usuários)
+      workspaceLimit: Até 6 usuários gratuitos em todos os diagramas (atualmente {count} usuários)
+
+  # ========================================
+  # Private diagram - Password protection
+  # ========================================
+  private:
+    protected: Diagrama protegido
+    private: Este diagrama é privado
+    passwordRequired: Você precisa de uma senha para visualizar este diagrama.
+    noAccess: Você não tem acesso a este diagrama.
+    enterPassword: Digite sua senha
+    incorrectPassword: Senha incorreta
+    tryAgain: Tente novamente!
+    viewDiagram: Visualizar Diagrama
+
+  # ========================================
+  # Publish modal - Publish to DBDocs
+  # ========================================
+  publish:
+    title: Publicar em
+    dbdocsLink: dbdocs
+    publishButton: Publicar
+    bullet1: Publique uma documentação de banco de dados visualizável na web do seu diagrama.
+    bullet2: O documento publicado estará disponível em uma conta dbdocs vinculada ao e-mail do proprietário do diagrama.
+    bullet3: As alterações no seu diagrama não atualizarão automaticamente o documento dbdocs.
+    publishNewOrUpdate: Publicar um novo documento / Atualizar um existente
+    updateExisting: Atualizar um documento existente
+    projectPublicDefault: Seu projeto dbdocs está definido como "público" por padrão. As pessoas podem obter acesso através do seu link.
+    documentProjectName: Nome do projeto do documento
+    enterProjectName: Digite o nome do projeto
+    options: Opções
+    passwordProtection: Proteção por senha
+    passwordOptional: Digite uma senha (opcional)
+    passwordMinLength: A senha deve ter pelo menos 6 caracteres
+    feedback: Deixe-nos saber seu
+    feedbackLink: feedback
+    aboutThisFeature: sobre este recurso!
+    errorLoadingProjects: Ocorreu um erro ao carregar os projetos publicados, entre em contato com nosso suporte em dbdiagram@holistics.io
+    errorPublishing: Ocorreu um erro ao publicar o projeto, entre em contato com nosso suporte em dbdiagram@holistics.io
+    projectNameEmpty: O nome do projeto não pode estar vazio
+    projectNameInvalid: O nome do projeto só pode conter letras, números, espaço, "-" ou "_"
+    passwordInvalid: Senha inválida, por favor tente novamente!
+
+  # ========================================
+  # Import modal - Import diagram
+  # ========================================
+  import:
+    instructions: Instruções
+    showInstructions: Mostrar instruções
+    hideInstructions: Ocultar instruções
+    upload: Fazer upload de {file}
+    appendMode: Anexar o DBML convertido ao final
+    modal:
+      validating: Validando
+    dbConnection:
+      title: Gerar DBML a partir de uma conexão direta com o banco de dados
+      intro1: Este método conecta diretamente ao seu banco de dados e lê o esquema do seu banco de dados (geralmente do INFORMATION_SCHEMA) para gerar código DBML.
+      intro2: Tudo é executado na sua máquina local e as credenciais do banco de dados não são rastreadas ou enviadas para lugar nenhum.
+      intro3: O código é de código aberto do
+      intro3Link: e pode ser verificado
+      step1: 1. Instalar
+      step1Note: você pode precisar adicionar
+      step1NoteSudo: antes dos seus comandos no Linux
+      step2: 2. Execute o seguinte comando
+      exampleFor: Exemplo para
+      successMessage: 'Arquivo DBML gerado a partir da conexão do banco de dados: database.dbml'
+      successBigquery: 'Nota: Para BigQuery, seu arquivo de credenciais JSON deve conter as seguintes chaves'
+      successSnowflake1: Tentando conectar...
+      successSnowflake2: Executando consulta...
+      successSnowflake3: Consulta executada com sucesso.
+      successSnowflake4: Conexão destruída com sucesso.
+      step3: 3. Copie e cole o DBML produzido no painel de código para visualizar seu banco de dados.
+      databaseTypes:
+        mysql: MySQL
+        postgres: PostgreSQL
+        mssql: SQL Server
+        oracle: Oracle
+        snowflake: Snowflake
+        bigquery: BigQuery
+
+  # ========================================
+  # Upgrade modals - Feature upgrade prompts
+  # ========================================
+  upgrade:
+    titles:
+      createDiagram: Você atingiu o limite de números de diagramas!
+      detailLevels: Você descobriu um recurso pago!
+      detailLevelsDbdocs: Você descobriu um recurso de projetos pagos!
+      diagramView: Criar visualizações adicionais é um recurso pago
+      headerColor: Você descobriu um recurso pago!
+      headerColorDbdocs: Você descobriu um recurso de projetos pagos!
+      privateDiagram: Você descobriu um recurso pago!
+      stickyNotes: Você descobriu um recurso pago!
+      stickyNotesDbdocs: Você descobriu um recurso de projetos pagos!
+      versionHistory: Você descobriu um recurso pago!
+      aiAssistant: dbdiagram AI Assistant é um recurso pago
+      tableGroup: Você descobriu um recurso pago!
+      tableGroupDbdocs: Você descobriu um recurso de projetos pagos!
+      invitePeople: Você descobriu um recurso pago!
+    descriptions:
+      createDiagram: Faça upgrade para nossos planos pagos agora para obter <b>criações ilimitadas de diagramas</b> e outros recursos avançados!
+      detailLevels: Faça upgrade para nossos planos pagos agora para obter Níveis de Detalhe, Cor do Cabeçalho,<br>Agrupamento de Tabelas e acesso a todos os nossos próximos recursos!
+      detailLevelsDbdocs: Faça upgrade do seu projeto para obter Níveis de Detalhe, Cor do Cabeçalho,<br>Agrupamento de Tabelas e acesso a todos os nossos próximos recursos!
+      diagramView: No plano Gratuito, você só pode salvar a visualização padrão.<br>Faça upgrade para nossos planos pagos agora para obter <b>visualizações ilimitadas de diagramas</b> e outros recursos avançados!
+      headerColor: Faça upgrade para nossos planos pagos agora para obter Níveis de Detalhe, Cor do Cabeçalho,<br>Cor do Relacionamento, Agrupamento de Tabelas e acesso a todos os nossos próximos recursos!
+      headerColorDbdocs: Faça upgrade do seu projeto para obter Níveis de Detalhe, Cor do Cabeçalho,<br>Cor do Relacionamento, Agrupamento de Tabelas e acesso a todos os nossos próximos recursos!
+      privateDiagram: Faça upgrade para nossos planos pagos agora para proteger seus diagramas com<br><strong> Proteção por Senha, Modo Privado </strong> e outros recursos avançados!
+      stickyNotes: Faça upgrade para nossos planos pagos agora para incluir <strong> Notas Adesivas </strong> em seu diagrama<br>e aproveitar outros recursos avançados!
+      stickyNotesDbdocs: Faça upgrade do seu projeto para incluir <strong> Notas Adesivas </strong> em seu diagrama<br>e aproveitar outros recursos avançados!
+      versionHistory: Experimente livremente suas ideias com diferentes <b>versões de esquema</b>.<br>Volte para uma versão anterior sempre que quiser.
+      aiAssistant: Faça upgrade para nossos planos pagos agora para projetar e otimizar seus esquemas de banco de dados<br>com <strong>assistência de linguagem natural baseada em IA</strong>
+      tableGroup: Faça upgrade para nossos planos pagos agora para obter Níveis de Detalhe, Cor do Cabeçalho,<br>Agrupamento de Tabelas e acesso a todos os nossos próximos recursos!
+      tableGroupDbdocs: Faça upgrade do seu projeto para obter Níveis de Detalhe, Cor do Cabeçalho,<br>Agrupamento de Tabelas e acesso a todos os nossos próximos recursos!
+      invitePeople: Faça upgrade para nossos planos pagos agora para colaborar no design de diagramas ER com<br><strong> Convite de Colaboradores, Publicação de Diagramas Editáveis </strong> e outros recursos avançados!
+    buttons:
+      viewPlans: Ver Planos
+      upgradeProject: Fazer Upgrade do Projeto
+
+  # ========================================
+  # History modal - Version history
+  # ========================================
+  history:
+    title: Histórico de Versões
+    deletedUser: Usuário excluído
+    restoreVersion: Restaurar versão
+    makeCopy: Fazer uma cópia
+    upgradeTitle: Faça upgrade para visualizar, restaurar e duplicar
+    errors:
+      cannotView: Não é possível visualizar esta versão
+      cannotCopy: Não é possível copiar esta versão
+    restoreConfirmation:
+      title: Restaurar esta versão?
+      message: Seu diagrama atual será restaurado para esta versão.
+    success:
+      versionCopied: Sua versão foi copiada com sucesso
+    copiedName: (Restaurado) {name}
+    untitled: Sem título
+
+  # ========================================
+  # Error messages - Generic modal errors
+  # ========================================
+  errors:
+    inviteMaxEmails: Não é possível convidar mais de 50 emails
+    inviteFailed: Não é possível convidar, por favor, tente novamente!
+    cannotGetCollaborators: Não é possível obter informações dos colaboradores!
+    permissionUpdateFailed: Falha ao atualizar permissão
+    permissionUpdateSuccess: Permissão atualizada com sucesso
+    inviteSent: Convite enviado
+    permissionDenied: Permissão negada
+    cannotGetWorkspaceParticipants: Não é possível obter os participantes do espaço de trabalho, por favor, tente novamente!
+    cannotGetUserWorkspaces: Não é possível obter os espaços de trabalho do usuário, por favor, tente novamente!
+    cannotGetWorkspacesSubscription: Não é possível obter a assinatura dos espaços de trabalho, por favor, tente novamente!
+    exportSqlFailed: Falha ao exportar SQL, por favor, atualize o esquema do seu banco de dados e tente novamente.
+    savePdfFailed: Não foi possível salvar seu pdf
+    saveSvgFailed: Não foi possível salvar seu svg
+    savePngFailed: Não foi possível salvar seu png
+    cannotGetDiagrams: Não foi possível obter os diagramas, por favor, tente recarregar o aplicativo!
+    cannotRemoveDefaultView: Você não tem permissão para remover a visualização padrão!
+    cannotRemoveView: Não é possível remover esta visualização, por favor, recarregue e tente novamente!
+    removeViewTitle: Remover visualização do diagrama
+    removeViewContent: Você deseja remover a visualização "{name}"?
+    cancel: Cancelar
+    removeView: Remover visualização
+    close: Fechar
+    reload: Recarregar
+
+  # ========================================
+  # Workspace type labels
+  # ========================================
+  workspaceType:
+    personal: Workspace Pessoal
+    team: Workspace em Equipe
+
+  # ========================================
+  # Detail levels dropdown
+  # ========================================
+  detailLevelsDropdown:
+    tableNames: Nomes das tabelas
+    keysOnly: Apenas chaves
+    allFields: Todos os campos

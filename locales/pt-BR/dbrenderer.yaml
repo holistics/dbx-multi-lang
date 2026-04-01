@@ -1,0 +1,151 @@
+# DBRenderer translations - Diagram canvas and panels
+# UI Areas: Left sidebar, Canvas toolbar, Bottom-right zoom, Context menus
+
+dbrenderer:
+  # ========================================
+  # Table Search Panel - Left sidebar (toggle with Ctrl/Cmd+K)
+  # ========================================
+  tableSearchPanel:
+    title: Tabelas
+    diagramViews: Visualizações de Diagrama
+    diagramViewsTooltip: As visualizações de diagrama são coleções de tabelas que representam domínios ou fluxos de trabalho específicos em seu banco de dados.
+    viewActions: Ações de Visualização
+    cannotRenameOrDelete: Não é possível renomear ou excluir o {name}
+    rename: Renomear
+    delete: Excluir
+    reset: Redefinir
+    save: Salvar
+    saveAsNew: Salvar como Nova
+    searchPlaceholder: Pesquisar tabela ou esquema
+    searchPlaceholderWithGroup: Pesquisar tabela, esquema ou grupo
+    groupBy: Agrupar por
+    showAll: Mostrar Todas
+    hideAll: Ocultar Todas
+    schema: Esquema
+    tableGroup: Grupo de Tabelas
+    noGroup: (sem grupo)
+    defaultView: Visualização Padrão
+    unknownView: Visualização Desconhecida
+    newView: Nova Visualização
+    copyOfName: Cópia de {name}
+
+  # ========================================
+  # Controller Bar - Top canvas toolbar
+  # ========================================
+  controllerBar:
+    highlightRelationships: Destacar relacionamentos
+    unhighlightRelationships: Remover destaque de relacionamentos
+    enableGrid: Ativar grade
+    disableGrid: Desativar grade
+    addStickyNote: Adicionar nota adesiva
+    searchTables: Pesquisar tabelas
+    hideTableSearch: Ocultar pesquisa de tabelas
+    enterFullscreen: Entrar em tela cheia
+    exitFullscreen: Sair da tela cheia
+
+  # ========================================
+  # Auto Arrange - Modal dialog (Ctrl/Cmd+Shift+A)
+  # ========================================
+  autoArrange:
+    title: Escolher algoritmo de organização automática
+    leftRight: Esquerda-direita
+    snowflake: Snowflake
+    compact: Compacto
+    confirmMessage: Seu diagrama será organizado automaticamente e você não poderá desfazer. Tem certeza?
+    confirm: Confirmar (↵)
+    cancel: Cancelar (Esc)
+
+  # ========================================
+  # Detail Level - Dropdown (eye icon)
+  # ========================================
+  detailLevel:
+    title: Nível de detalhe
+    all: Todos os campos
+    tables: Nomes das tabelas
+    keys: Apenas chaves
+
+  # ========================================
+  # View Dropdown - View selector menu
+  # ========================================
+  viewDropdown:
+    renameView: Renomear visualização
+    removeView: Remover visualização
+    newView: Nova visualização
+
+  # ========================================
+  # Diff Legend - Shown in compare mode
+  # ========================================
+  diffLegend:
+    added: Adicionada
+    modified: Modificada
+    deleted: Removida
+
+  # ========================================
+  # Viewport Controller - Bottom-right corner
+  # ========================================
+  viewportController:
+    zoomOut: Diminuir zoom (segure para acelerar)
+    zoomIn: Aumentar zoom (segure para acelerar)
+    editZoomLevel: Clique para editar o nível de zoom
+    zoomToFit: Ajustar zoom para caber todos os elementos na tela
+    enablePanMode: Clique para ativar o modo de movimentação (pan)
+    disablePanMode: Clique para desativar o modo de movimentação (pan)
+    panModeHint: Ou segure Espaço/Mouse central + arraste para mover
+
+  # ========================================
+  # Common - Shared buttons in renderer
+  # ========================================
+  common:
+
+  # ========================================
+  # Empty State Hint - Canvas empty states
+  # ========================================
+  emptyStateHint:
+    filtered:
+      title: Sua visualização de diagrama está vazia
+      description: Todas as tabelas nesta visualização estão ocultas. Use o painel de pesquisa de tabelas para mostrar as tabelas na visualização do diagrama.
+      openTableSearchPanel: Abrir painel de pesquisa de tabelas
+    noDbml:
+      title: Nenhum esquema de banco de dados encontrado
+      description: Seu código DBML ainda não contém tabelas. Adicione tabelas e relacionamentos para ver seu diagrama.
+      startAddingTables: Começar a adicionar tabelas
+
+  # ========================================
+  # Loading States - Loading indicator messages
+  # ========================================
+  loading:
+    initializingTables: Inicializando tabelas...
+    initializingTablesProgress: Inicializando tabelas... ({current}/{total})
+    initializingTableGroups: Inicializando grupos de tabelas...
+    initializingTableGroupsProgress: Inicializando grupos de tabelas... ({current}/{total})
+    initializingReferences: Inicializando referências...
+    initializingReferencesProgress: Inicializando referências... ({current}/{total})
+    arrangingDiagram: Organizando seu diagrama...
+    finalizingDiagram: Finalizando o diagrama...
+
+  # ========================================
+  # Filter Config Tags - Filter chips in canvas
+  # ========================================
+  filterConfigTags:
+    all: Tudo
+    allTables: Todas as tabelas
+    allNotes: Todas as notas
+    nothing: Nada
+    moreItems: "Mais {count} itens:"
+
+  # ========================================
+  # Sticky Notes - Sticky note section
+  # ========================================
+  stickyNotesSection:
+    title: Notas Adesivas
+  stickyNotes:
+    untitledNote: Nota sem título
+    removeNoteConfirmation: Remover sua nota?
+    'yes': 'Sim'
+    'no': 'Não'
+
+  # ========================================
+  # Table List - Table list in sidebar
+  # ========================================
+  tableList:
+    noTablesFound: Nenhuma tabela encontrada

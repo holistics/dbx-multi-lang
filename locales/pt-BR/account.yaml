@@ -1,0 +1,116 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    title: Conta
+    loadingInfo: Carregando informações da conta...
+    displayName: Nome de exibição
+    email: E-mail
+
+    # Connected accounts section
+    connectedAccounts:
+      title: Contas conectadas
+      loading: Carregando contas conectadas...
+      noAccounts: Nenhuma conta conectada
+      loggedInWith: Logado com {provider}
+
+    # Manage account section
+    manageTitle: Gerenciar conta
+    changeEmail: Alterar endereço de e-mail
+    changeEmailInProgress: Você tem uma alteração de e-mail em andamento, por favor, aguarde
+    changeEmailFailed: "Sua última alteração de e-mail falhou, entre em contato com nosso suporte em dbdiagram@holistics.io"
+
+    # Account removal
+    removal:
+      removeAccount: Remover conta...
+      cancelRequest: Cancelar solicitação de remoção
+      cannotBeUndone: Esta ação não pode ser desfeita!
+      removedAfter: "Sua conta será removida após {time}."
+      aFewHours: algumas horas
+      aDay: um dia
+      days: "{count} dias"
+      workspaceDeletionWarning: "Você tem {count} espaço(s) de trabalho de propriedade que serão excluídos."
+      confirmTitle: Remover esta conta?
+      cancelSuccess: Solicitação de remoção cancelada com sucesso!
+      submitSuccess: Solicitação de remoção criada com sucesso!
+
+    errors:
+      generic: Ocorreu um erro, entre em contato com nosso suporte em dbdiagram@holistics.io
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: Alterar e-mail
+
+    # Step labels (stepper header)
+    steps:
+      verifyCurrentEmail: Verificar e-mail atual
+      currentEmailVerified: E-mail atual verificado
+      enterNewEmail: Inserir novo e-mail
+      verifyNewEmail: Verificar novo e-mail
+      newEmailVerified: Novo e-mail verificado
+      confirmChange: Confirmar alteração
+      emailChanged: E-mail alterado
+
+    # Step 1: Verify current email
+    verifyCurrent:
+      description: Para sua segurança, você precisa verificar seu e-mail atual via OTP para alterá-lo.
+      currentEmailLabel: "E-mail atual:"
+      sendCode: Enviar código
+      otpSentMessage: Enviamos um código de 6 dígitos para o seu e-mail. O código expira em 4 minutos.
+      verificationCode: Código de verificação
+      resendCode: Reenviar código
+      resendCodeCooldown: "Reenviar código em ({seconds}s)"
+      verify: Verificar
+
+    # Step 2: Enter new email
+    enterNew:
+      description: "Digite o novo endereço de e-mail. Enviaremos um código de verificação para confirmar que é seu."
+      newEmailLabel: Novo endereço de e-mail
+      placeholder: Digite o novo e-mail
+      sendCode: Enviar código
+
+    # Step 3: Verify new email
+    verifyNew:
+      otpSentTo: Enviamos um código de 6 dígitos para {email}
+      codeExpires: O código expira em 4 minutos.
+      verificationCode: Código de verificação
+      resendCode: Reenviar código
+      resendCodeCooldown: "Reenviar código em ({seconds}s)"
+      back: Voltar
+      verify: Verificar
+
+    # Step 4: Confirm change
+    confirm:
+      description: "Você está prestes a alterar seu endereço de e-mail:"
+      from: "De:"
+      to: "Para:"
+      pleaseNote: "Atenção:"
+      noteNotifications: O novo e-mail receberá todas as notificações da conta (faturamento, convites, etc.) no futuro.
+      noteLogout: "Você não será desconectado automaticamente. Por favor, desconecte-se de outros dispositivos manualmente."
+      noteIrreversible: Esta ação não pode ser desfeita.
+      confirmButton: Confirmar alteração
+
+    # Polling notifications for email change propagation
+    polling:
+      inProgressTitle: Atualizando seu e-mail em todos os serviços...
+      inProgressText: Isso pode levar alguns minutos. Você ainda pode continuar usando o aplicativo.
+      completedText: E-mail atualizado em todos os serviços com sucesso!
+      failedTitle: Alguns serviços falharam ao sincronizar seu novo e-mail.
+      failedText: Seu e-mail foi alterado, mas alguns serviços ainda podem mostrar o antigo. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io.
+
+    # Error messages
+    errors:
+      invalidEmail: Por favor, insira um endereço de e-mail válido
+      incorrectCode: O código que você inseriu está incorreto
+      codeExpired: O código de verificação expirou. Por favor, solicite um novo.
+      codeAlreadyUsed: Este código já foi usado. Por favor, solicite um novo.
+      requestExpired: Sua solicitação de verificação expirou. Por favor, solicite um novo código.
+      emailInUse: Este e-mail já está em uso por outra conta
+      verificationExpired: Sua verificação expirou. Por favor, recomece.
+      generic: Ocorreu um erro. Por favor, tente novamente.
