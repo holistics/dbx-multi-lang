@@ -147,6 +147,8 @@ modals:
     viewExistingProjects: View existing projects # Link to view existing projects popover
     projectNameHeader: Name # Header for project name column in popover
     projectUrlHeader: URL # Header for project URL column in popover
+    publishNewQuestion: Want to publish to another project? # Prompt to publish to a new project
+    publishNewAction: Publish to a new project # Action link text
 
   # ========================================
   # Import modal - Import diagram

@@ -128,6 +128,8 @@ modals:
     viewExistingProjects: 查看现有项目
     projectNameHeader: 名称
     projectUrlHeader: URL
+    publishNewQuestion: 想要发布到另一个项目？
+    publishNewAction: 发布到新项目
   import:
     instructions: 说明
     showInstructions: 显示说明

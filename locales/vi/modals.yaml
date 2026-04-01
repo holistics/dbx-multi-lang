@@ -125,6 +125,8 @@ modals:
     viewExistingProjects: Xem các dự án hiện có
     projectNameHeader: Tên
     projectUrlHeader: URL
+    publishNewQuestion: Bạn muốn xuất bản sang một dự án khác?
+    publishNewAction: Xuất bản sang dự án mới
 
   import:
     instructions: Hướng dẫn
