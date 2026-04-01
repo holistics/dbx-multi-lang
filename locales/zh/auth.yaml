@@ -48,3 +48,11 @@ auth:
   logoutCallback:
     redirecting: 重定向中...
     redirectDescription: 你将在几秒钟后被重定向到应用程序。
+
+  popupsWarning:
+    title: 登录窗口已拦截
+    description: 请禁用浏览器扩展程序，允许此站点的弹出窗口，然后重试。
+    needHelp: 需要帮助？
+    seeChromeGuide: 查看如何在 Chrome 中允许弹出窗口
+    or: 或
+    contactSupport: 联系支持

@@ -45,3 +45,11 @@ auth:
   logoutCallback:
     redirecting: Đang chuyển hướng...
     redirectDescription: Bạn sẽ được chuyển đến ứng dụng trong vài giây.
+
+  popupsWarning:
+    title: Cửa sổ đăng nhập bị chặn
+    description: Vui lòng tắt các tiện ích mở rộng của trình duyệt, cho phép cửa sổ bật lên cho trang web này và thử lại.
+    needHelp: Cần trợ giúp?
+    seeChromeGuide: Xem cách cho phép cửa sổ bật lên trong Chrome
+    or: hoặc
+    contactSupport: Liên hệ hỗ trợ

@@ -79,3 +79,11 @@ auth:
   logoutCallback:
     redirecting: Redirecting... # Loading message (logout redirect)
     redirectDescription: You will be redirected to the application in a few seconds. # Help text
+
+  popupsWarning:
+    title: Login window blocked
+    description: Please disable browser extensions, allow pop-ups for this site, and try again.
+    needHelp: Need help?
+    seeChromeGuide: See how to allow pop-ups in Chrome
+    or: or
+    contactSupport: Contact support

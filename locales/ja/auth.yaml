@@ -48,3 +48,11 @@ auth:
   logoutCallback:
     redirecting: リダイレクト中...
     redirectDescription: 数秒後にアプリケーションにリダイレクトされます。
+
+  popupsWarning:
+    title: ログインウィンドウがブロックされました
+    description: ブラウザの拡張機能を無効にするか、このサイトのポップアップを許可してから、もう一度お試しください。
+    needHelp: お困りですか？
+    seeChromeGuide: Chrome でポップアップを許可する方法を確認する
+    or: または
+    contactSupport: サポートに問い合わせる
