@@ -291,7 +291,7 @@ modals:
     backupAdvice: >-
       We recommend reviewing the changes below and backing up your current DBML before proceeding.
     contact: >-
-      If you encounter any issues, please contact {'@'}dbdiagram@holistics.io
+      If you encounter any issues, please contact dbdiagram{'@'}holistics.io
     dismiss: Remind me later
     confirm: Apply migration
     diffTitle: DBML Changes

@@ -241,7 +241,7 @@ modals:
     description: 您的图表视图需要迁移到新的"Diagram View as Code"格式。以下更改将应用于您的DBML代码。
     learnMore: 了解更多关于图表视图
     backupAdvice: 我们建议您查看以下更改并在继续之前备份当前的DBML。
-    contact: 如遇任何问题，请联系 {'@'}dbdiagram@holistics.io。
+    contact: 如遇任何问题，请联系 dbdiagram{'@'}holistics.io。
     dismiss: 稍后提醒我
     confirm: 应用迁移
     diffTitle: DBML更改

@@ -240,7 +240,7 @@ modals:
     description: Các diagram view của bạn cần được chuyển đổi sang định dạng "Diagram View as Code" mới. Các thay đổi sau sẽ được áp dụng vào DBML của bạn.
     learnMore: Tìm hiểu thêm về Diagram Views
     backupAdvice: Chúng tôi khuyên bạn xem xét các thay đổi bên dưới và sao lưu DBML hiện tại trước khi tiếp tục.
-    contact: Nếu bạn gặp bất kỳ vấn đề nào, vui lòng liên hệ {'@'}dbdiagram@holistics.io.
+    contact: Nếu bạn gặp bất kỳ vấn đề nào, vui lòng liên hệ dbdiagram{'@'}holistics.io.
     dismiss: Nhắc tôi sau
     confirm: Áp dụng chuyển đổi
     diffTitle: Thay đổi DBML
