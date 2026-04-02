@@ -278,3 +278,13 @@ modals:
     tableNames: Nomes das tabelas
     keysOnly: Apenas chaves
     allFields: Todos os campos
+
+  migrationPreview:
+    title: Pré-visualização da Migração de Visualização de Diagrama
+    description: Suas visualizações de diagrama precisam ser migradas para o novo formato "Diagram View as Code". As seguintes alterações serão aplicadas ao seu DBML.
+    learnMore: Saiba mais sobre Visualizações de Diagrama
+    backupAdvice: Recomendamos que você revise as alterações abaixo e faça backup do seu DBML atual antes de prosseguir.
+    contact: Se você encontrar algum problema, entre em contato com {'@'}dbdiagram@holistics.io.
+    dismiss: Lembrar-me mais tarde
+    confirm: Aplicar migração
+    diffTitle: Alterações no DBML

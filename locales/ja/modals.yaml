@@ -235,3 +235,13 @@ modals:
     tableNames: テーブル名
     keysOnly: キーのみ
     allFields: すべてのフィールド
+
+  migrationPreview:
+    title: ダイアグラムビュー移行プレビュー
+    description: ダイアグラムビューを新しい「Diagram View as Code」形式に移行する必要があります。以下の変更がDBMLコードに適用されます。
+    learnMore: ダイアグラムビューについて詳しくはこちら
+    backupAdvice: 続行する前に、以下の変更を確認し、現在のDBMLのバックアップを作成することをお勧めします。
+    contact: 問題が発生した場合は、{'@'}dbdiagram@holistics.io までご連絡ください。
+    dismiss: 後で通知
+    confirm: 移行を適用
+    diffTitle: DBMLの変更

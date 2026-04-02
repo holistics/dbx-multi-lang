@@ -278,3 +278,20 @@ modals:
     tableNames: Table names # Show table names only
     keysOnly: Keys only # Show keys only
     allFields: All fields # Show all fields
+
+  # ========================================
+  # Migration preview modal
+  # ========================================
+  migrationPreview:
+    title: Diagram View Migration Preview
+    description: >-
+      Your diagram views need to be migrated to the new "Diagram View as Code" format.
+      The following changes will be applied to your DBML code.
+    learnMore: Learn more about Diagram Views
+    backupAdvice: >-
+      We recommend reviewing the changes below and backing up your current DBML before proceeding.
+    contact: >-
+      If you encounter any issues, please contact {'@'}dbdiagram@holistics.io
+    dismiss: Remind me later
+    confirm: Apply migration
+    diffTitle: DBML Changes
