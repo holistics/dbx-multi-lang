@@ -96,13 +96,12 @@ modals:
     viewDiagram: Xem sơ đồ
   publish:
     title: Xuất bản lên
+    publishedTitle: Đã xuất bản lên
     dbdocsLink: dbdocs
     publishButton: Xuất bản
-    bullet1: Xuất bản tài liệu cơ sở dữ liệu có thể xem trên web từ sơ đồ của bạn.
-    bullet2: Tài liệu được xuất bản sẽ có trong tài khoản dbdocs liên kết với email chủ sở hữu sơ đồ.
+    bullet1: Xuất bản tài liệu cơ sở dữ liệu có thể xem trên web mới từ sơ đồ của bạn.
+    bullet2: Tài liệu được xuất bản sẽ có trong tài khoản dbdocs liên kết với email của bạn.
     bullet3: Thay đổi trong sơ đồ sẽ không tự động cập nhật tài liệu trên dbdocs.
-    publishNewOrUpdate: Xuất bản tài liệu mới / Cập nhật tài liệu hiện có
-    updateExisting: Cập nhật tài liệu hiện có
     projectPublicDefault: Dự án dbdocs của bạn được đặt là "công khai" theo mặc định. Mọi người có thể truy cập qua liên kết.
     documentProjectName: Tên dự án tài liệu
     enterProjectName: Nhập tên dự án
@@ -117,7 +116,17 @@ modals:
     errorPublishing: Đã xảy ra lỗi khi xuất bản dự án, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
     projectNameEmpty: Tên dự án không được để trống
     projectNameInvalid: Tên dự án chỉ được chứa chữ cái, số, khoảng trắng, "-" hoặc "_"
+    projectNameExists: Đã tồn tại dự án với tên/URL này. Vui lòng chọn tên khác.
     passwordInvalid: Mật khẩu không hợp lệ, vui lòng thử lại!
+    editFromDbdocsInfo: Để chỉnh sửa dự án đã xuất bản, bạn có thể thực hiện trực tiếp từ dbdocs.
+    learnMore: Tìm hiểu thêm
+    ownerOnlyPublish: Chỉ chủ sở hữu sơ đồ mới có thể xuất bản dự án mới lên dbdocs.
+    publishedProject: Dự án đã xuất bản
+    viewExistingProjects: Xem các dự án hiện có
+    projectNameHeader: Tên
+    projectUrlHeader: URL
+    publishNewQuestion: Bạn muốn xuất bản sang một dự án khác?
+    publishNewAction: Xuất bản sang dự án mới
 
   import:
     instructions: Hướng dẫn
