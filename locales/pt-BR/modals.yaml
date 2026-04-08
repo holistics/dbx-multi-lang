@@ -117,29 +117,38 @@ modals:
   # Publish modal - Publish to DBDocs
   # ========================================
   publish:
-    title: Publicar em
-    dbdocsLink: dbdocs
-    publishButton: Publicar
-    bullet1: Publique uma documentação de banco de dados visualizável na web do seu diagrama.
-    bullet2: O documento publicado estará disponível em uma conta dbdocs vinculada ao e-mail do proprietário do diagrama.
-    bullet3: As alterações no seu diagrama não atualizarão automaticamente o documento dbdocs.
-    publishNewOrUpdate: Publicar um novo documento / Atualizar um existente
-    updateExisting: Atualizar um documento existente
-    projectPublicDefault: Seu projeto dbdocs está definido como "público" por padrão. As pessoas podem obter acesso através do seu link.
-    documentProjectName: Nome do projeto do documento
-    enterProjectName: Digite o nome do projeto
-    options: Opções
-    passwordProtection: Proteção por senha
-    passwordOptional: Digite uma senha (opcional)
-    passwordMinLength: A senha deve ter pelo menos 6 caracteres
-    feedback: Deixe-nos saber seu
-    feedbackLink: feedback
-    aboutThisFeature: sobre este recurso!
-    errorLoadingProjects: Ocorreu um erro ao carregar os projetos publicados, entre em contato com nosso suporte em dbdiagram@holistics.io
-    errorPublishing: Ocorreu um erro ao publicar o projeto, entre em contato com nosso suporte em dbdiagram@holistics.io
-    projectNameEmpty: O nome do projeto não pode estar vazio
-    projectNameInvalid: O nome do projeto só pode conter letras, números, espaço, "-" ou "_"
-    passwordInvalid: Senha inválida, por favor tente novamente!
+    title: Publicar em # Modal title (publish dropdown)
+    publishedTitle: Publicado em # Modal title for published diagram
+    dbdocsLink: dbdocs # Link label
+    publishButton: Publicar # Publish button
+    bullet1: Publique uma documentação de banco de dados visualizável na web do seu diagrama. # Feature bullet point
+    bullet2: O documento publicado estará disponível em uma conta dbdocs vinculada ao e-mail do proprietário do diagrama. # Feature bullet point
+    bullet3: As alterações no seu diagrama não atualizarão automaticamente o documento dbdocs. # Feature bullet point
+    projectPublicDefault: Seu projeto dbdocs está definido como "público" por padrão. As pessoas podem obter acesso através do seu link. # Public default info
+    documentProjectName: Nome do projeto do documento # Project name field label
+    enterProjectName: Digite o nome do projeto # Project name placeholder
+    options: Opções # Options section title
+    passwordProtection: Proteção por senha # Password section title
+    passwordOptional: Digite uma senha (optional) # Password placeholder
+    passwordMinLength: A senha deve ter pelo menos 6 caracteres # Password validation
+    feedback: Deixe-nos saber seu # Feedback label
+    feedbackLink: feedback # Feedback link
+    aboutThisFeature: sobre este recurso! # Feedback link suffix
+    errorLoadingProjects: Ocorreu um erro ao carregar os projetos publicados, entre em contato com nosso suporte em dbdiagram@holistics.io # Error toast
+    errorPublishing: Ocorreu um erro ao publicar o projeto, entre em contato com nosso suporte em dbdiagram@holistics.io # Error toast
+    projectNameEmpty: O nome do projeto não pode estar vazio # Validation error
+    projectNameInvalid: O nome do projeto só pode conter letras, números, espaço, "-" ou "_" # Validation error
+    projectNameExists: Já existe um projeto com este nome/url. Por favor, escolha um nome diferente. # Validation error for duplicate name/url
+    passwordInvalid: Senha inválida, por favor tente novamente! # Validation error
+    editFromDbdocsInfo: Para editar um projeto publicado, você pode fazê-lo diretamente do dbdocs. # Info about editing from dbdocs
+    learnMore: Saiba mais # Learn more link text
+    ownerOnlyPublish: Apenas o proprietário do diagrama pode publicar um novo projeto no dbdocs. # Non-owner message
+    publishedProject: Projeto publicado # Label for published project
+    viewExistingProjects: Ver projetos existentes # Link to view existing projects popover
+    projectNameHeader: Nome # Header for project name column in popover
+    projectUrlHeader: URL # Header for project URL column in popover
+    publishNewQuestion: Deseja publicar em outro projeto? # Prompt to publish to a new project
+    publishNewAction: Publicar em um novo projeto # Action link text
 
   # ========================================
   # Import modal - Import diagram

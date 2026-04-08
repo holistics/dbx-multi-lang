@@ -99,13 +99,12 @@ modals:
     viewDiagram: 查看图表
   publish:
     title: 发布到
+    publishedTitle: 已发布到
     dbdocsLink: dbdocs
     publishButton: 发布
-    bullet1: 发布你图表的可在线查看的数据库文档。
-    bullet2: 发布的文档将在与图表所有者邮箱关联的 dbdocs 账户中可用。
+    bullet1: 发布你图表的一个新的可在线查看的数据库文档。
+    bullet2: 发布的文档将在与你的邮箱关联的 dbdocs 账户中可用。
     bullet3: 对图表的更改不会自动更新 dbdocs 文档。
-    publishNewOrUpdate: 发布新文档 / 更新现有文档
-    updateExisting: 更新现有文档
     projectPublicDefault: 你的 dbdocs 项目默认设置为"公开"。人们可以通过链接访问。
     documentProjectName: 文档项目名称
     enterProjectName: 输入项目名称
@@ -120,7 +119,17 @@ modals:
     errorPublishing: 发布项目时发生错误，请联系我们的支持 dbdiagram@holistics.io
     projectNameEmpty: 项目名称不能为空
     projectNameInvalid: 项目名称只能包含字母、数字、空格、"-" 或 "_"
+    projectNameExists: 具有此名称/URL 的项目已存在。请选择其他名称。
     passwordInvalid: 密码无效，请重试！
+    editFromDbdocsInfo: 要编辑已发布的项目，你可以直接从 dbdocs 进行编辑。
+    learnMore: 了解更多
+    ownerOnlyPublish: 只有图表所有者才能将新项目发布到 dbdocs。
+    publishedProject: 已发布的项目
+    viewExistingProjects: 查看现有项目
+    projectNameHeader: 名称
+    projectUrlHeader: URL
+    publishNewQuestion: 想要发布到另一个项目？
+    publishNewAction: 发布到新项目
   import:
     instructions: 说明
     showInstructions: 显示说明
