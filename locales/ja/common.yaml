@@ -111,6 +111,7 @@ common:
       fullSession: セッションが満員のため接続できません！
       diagramDeleted: このダイアグラムは削除されました！
       overwrittenDiagram: ダイアグラムの内容が上書きされました。最新の変更を表示するには再読み込みしてください！
+      diagramMigratedDiagramViewAsCode: ダイアグラムビューが新しい「Diagram View as Code」形式に移行されました。続行するには再読み込みしてください。問題が発生した場合はdbdiagram{'@'}holistics.ioにお問い合わせください。
       permissionsChanged: 権限が変更されました。変更を適用するには再読み込みしてください！
       cannotReconnect: サーバーに再接続できません
     query:

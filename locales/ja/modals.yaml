@@ -244,3 +244,9 @@ modals:
     tableNames: テーブル名
     keysOnly: キーのみ
     allFields: すべてのフィールド
+
+  migrationPreview:
+    title: ダイアグラムビューがDBMLに保存されるようになりました
+    description: ダイアグラムビューの設定をDiagramViewブロックとしてDBMLコードに直接移動しました。これにより、ビューがDBMLコードの一部になります。
+    learnMore: ダイアグラムビューについて詳しくはこちら
+    confirm: 続行

@@ -49,6 +49,7 @@ dbrenderer:
     renameView: Đổi tên chế độ xem
     removeView: Xóa chế độ xem
     newView: Chế độ xem mới
+    disabled: (vô hiệu hóa)
   diffLegend:
     added: Thêm mới
     modified: Thay đổi

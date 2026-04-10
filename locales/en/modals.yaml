@@ -287,3 +287,14 @@ modals:
     tableNames: Table names # Show table names only
     keysOnly: Keys only # Show keys only
     allFields: All fields # Show all fields
+
+  # ========================================
+  # Migration preview modal
+  # ========================================
+  migrationPreview:
+    title: Diagram Views are now stored in your DBML
+    description: >-
+      We've moved your diagram view settings directly into your DBML code as DiagramView blocks.
+      This makes your views part of your DBML code alongside your schema.
+    learnMore: Learn more about Diagram Views
+    confirm: Continue

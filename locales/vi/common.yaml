@@ -108,6 +108,7 @@ common:
       fullSession: Không thể kết nối do phiên đã đầy!
       diagramDeleted: Sơ đồ này đã bị xóa!
       overwrittenDiagram: Ai đó đã ghi đè nội dung sơ đồ, vui lòng tải lại để xem thay đổi mới nhất!
+      diagramMigratedDiagramViewAsCode: Các diagram view của bạn đã được chuyển sang định dạng "Diagram View as Code" mới. Vui lòng tải lại để tiếp tục. Liên hệ dbdiagram{'@'}holistics.io nếu bạn gặp bất kỳ vấn đề nào.
       permissionsChanged: Quyền của bạn đã thay đổi, vui lòng tải lại để áp dụng!
       cannotReconnect: Không thể kết nối lại với máy chủ
     query:

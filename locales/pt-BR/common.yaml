@@ -170,6 +170,7 @@ common:
       fullSession: Não é possível conectar devido à sessão cheia!
       diagramDeleted: Este diagrama foi excluído!
       overwrittenDiagram: Alguém sobrescreveu o conteúdo do diagrama, por favor recarregue para ver a última alteração!
+      diagramMigratedDiagramViewAsCode: Suas visualizações de diagrama foram migradas para o novo formato "Diagram View as Code". Por favor, recarregue para continuar. Entre em contato com dbdiagram{'@'}holistics.io se encontrar algum problema.
       permissionsChanged: Suas permissões foram alteradas, por favor recarregue para aplicar as alterações!
       cannotReconnect: Não é possível reconectar ao servidor
 

@@ -71,6 +71,7 @@ dbrenderer:
     renameView: Renomear visualização
     removeView: Remover visualização
     newView: Nova visualização
+    disabled: (desabilitado)
 
   # ========================================
   # Diff Legend - Shown in compare mode

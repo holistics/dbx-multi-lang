@@ -170,6 +170,7 @@ common:
       fullSession: Cannot connect due to full session! # Toast when collaboration session full
       diagramDeleted: This diagram was deleted! # Toast when diagram deleted by owner
       overwrittenDiagram: Someone has overwrite the diagram content, please reload to see the latest change! # Toast when remote changes
+      diagramMigratedDiagramViewAsCode: Your diagram views have been migrated to the new "Diagram View as Code" format. Please reload to continue. Contact dbdiagram{'@'}holistics.io if you encounter any issues. # Toast when DiagramView-as-code migration completes
       permissionsChanged: Your permissions have been changed, please reload to apply changes! # Toast when permissions updated
       cannotReconnect: Can not reconnect to the server # Toast when reconnection fails
 

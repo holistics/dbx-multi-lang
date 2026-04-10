@@ -52,6 +52,7 @@ dbrenderer:
     renameView: 重命名视图
     removeView: 删除视图
     newView: 新视图
+    disabled: （已禁用）
   diffLegend:
     added: 新增
     modified: 修改

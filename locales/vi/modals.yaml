@@ -243,3 +243,9 @@ modals:
     tableNames: Ẩn cột
     keysOnly: Chỉ khóa chính
     allFields: Hiện tất cả cột
+
+  migrationPreview:
+    title: Diagram View nay được lưu trong DBML của bạn
+    description: Chúng tôi đã chuyển cài đặt diagram view trực tiếp vào DBML dưới dạng các khối DiagramView. Điều này giúp diagram view trở thành một phần của DBML cùng với schema.
+    learnMore: Tìm hiểu thêm về Diagram Views
+    confirm: Tiếp tục

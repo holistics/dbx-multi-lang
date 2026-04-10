@@ -52,6 +52,7 @@ dbrenderer:
     renameView: ビューの名前を変更
     removeView: ビューを削除
     newView: 新しいビュー
+    disabled: （無効）
   diffLegend:
     added: 追加
     modified: 変更

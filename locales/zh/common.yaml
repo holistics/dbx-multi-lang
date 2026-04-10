@@ -111,6 +111,7 @@ common:
       fullSession: 由于会话已满，无法连接！
       diagramDeleted: 此图表已被删除！
       overwrittenDiagram: 有人已覆盖了图表内容，请重新加载以查看最新更改！
+      diagramMigratedDiagramViewAsCode: 您的图表视图已迁移到新的"Diagram View as Code"格式。请重新加载以继续。如遇任何问题，请联系dbdiagram{'@'}holistics.io。
       permissionsChanged: 你的权限已更改，请重新加载以应用更改！
       cannotReconnect: 无法重新连接到服务器
     query:

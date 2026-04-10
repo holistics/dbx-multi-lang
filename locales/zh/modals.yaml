@@ -244,3 +244,9 @@ modals:
     tableNames: 表名
     keysOnly: 仅键
     allFields: 所有字段
+
+  migrationPreview:
+    title: 图表视图现在保存在您的DBML中
+    description: 我们已将您的图表视图设置直接移入DBML代码中，作为DiagramView块。这使得视图成为DBML代码的一部分，与您的模式并存。
+    learnMore: 了解更多关于图表视图
+    confirm: 继续

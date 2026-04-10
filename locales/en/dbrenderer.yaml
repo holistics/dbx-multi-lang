@@ -71,6 +71,7 @@ dbrenderer:
     renameView: Rename view # Menu option (renames current view)
     removeView: Remove view # Menu option (deletes current view)
     newView: New View # Menu option (creates new view)
+    disabled: (disabled) # Label for restricted views (free users)
 
   # ========================================
   # Diff Legend - Shown in compare mode
