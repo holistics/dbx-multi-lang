@@ -91,7 +91,7 @@ billing:
     unknownPlan: Bilinmeyen Plan # Fallback plan name
     billedMonthly: Aylık faturalandırılır # Billing frequency
     billedAnnually: Yıllık faturalandırılır # Billing frequency
-    chargeEvery: "{period} {unit} tarihinde ücretlendirilir" # Charge description
+    chargeEvery: "Her {period} {unit} ücretlendirilir" # Charge description
     cancelledOn: İptal edildi # Cancellation date label
     planDetails: Plan Detayları → # Link to plan features
     upgradeDescription: Detay Seviyeleri, Başlık Rengi ve tüm gelecek özellikler için ücretli planlarımıza yükseltin # Upgrade prompt
