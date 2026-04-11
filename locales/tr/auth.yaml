@@ -1,0 +1,87 @@
+# Authentication translations - Login, Signup, Password pages
+# UI Areas: Auth pages (/login, /signup, /forgot-password)
+
+auth:
+  # ========================================
+  # Login Page - Email/password login
+  # ========================================
+  login:
+    email: E-posta # Email input label
+    loginWithGithub: GitHub ile giriş yap # Social login button (GitHub)
+    loginWithMicrosoft: Microsoft ile giriş yap # Social login button (Microsoft)
+
+  # ========================================
+  # OAuth Errors - OAuth flow errors
+  # ========================================
+  oauth:
+    authorizationError: Yetkilendirme başarısız # OAuth error title
+    processing: İşleniyor... # Loading state (OAuth redirect)
+    justAMomentPleaseWait: Bir saniye, lütfen bekleyin... # Loading message (OAuth redirect)
+    signedInAs: Başarıyla giriş yaptınız # Session label (SSO indicator)
+    failedSignInGitHub: GitHub ile giriş yapılamadı # Error toast (GitHub OAuth)
+    failedSignInMicrosoft: Microsoft ile giriş yapılamadı, lütfen tekrar deneyin! # Error toast (Microsoft OAuth)
+
+  # ========================================
+  # Form Errors - Validation error messages
+  # ========================================
+  errors:
+    invalidEmail: Geçersiz e-posta adresi, lütfen tekrar deneyin! # Email validation
+    githubPopupBlocked: GitHub ile giriş yapmak için lütfen açılır pencerelere izin verin # Browser setting error
+
+  # ========================================
+  # OTP Authentication - One-time password
+  # ========================================
+  otp:
+    signInWithEmail: E-posta ile giriş yap # OTP tab label
+    otpSentTo: OTP şuraya gönderildi # Label (shows masked email)
+    wrongEmail: Yanlış e-posta adresi mi? # Change email link
+    changeEmail: E-postayı değiştir # Change email button
+    inputEmail: Lütfen e-posta adresinizi girin # Email input placeholder
+    inputYourOtp: OTP'nizi girin # OTP input placeholder
+    inputOtpCode: Lütfen e-postanıza gönderilen OTP kodunu girin # OTP help text
+    signInSuccess: Başarıyla giriş yaptınız # Success message
+    didntReceiveOtp: OTP'yi almadınız mı? # Help text (resend section)
+    resendOtp: OTP'yi tekrar gönder # Resend button
+    resendAfter: "{counter} saniye sonra OTP'yi tekrar gönderebilirsiniz" # Timer label (disabled state)
+    submit: Gönder # OTP submit button
+    sendOtpFailed: OTP gönderme başarısız, lütfen tekrar deneyin! # Error toast
+
+  # ========================================
+  # SSO Login - Single Sign-On
+  # ========================================
+  sso:
+    orContinueWith: veya devam et # SSO divider text
+
+  # ========================================
+  # Embedded Portal - OAuth portal pages
+  # ========================================
+  portal:
+    signIn: Giriş yap # Button (portal embedded login)
+    signInWith: ile giriş yap
+
+  # ========================================
+  # Additional Errors - Extra error messages
+  # ========================================
+  additional:
+    unknownError: Bilinmeyen hata # Fallback error
+    invalidOtp: Geçersiz OTP, lütfen tekrar deneyin! # OTP validation error
+    cannotValidateOtp: OTP doğrulanamadı, lütfen tekrar deneyin! # OTP validation failure
+    emailNotVerified: E-postanız doğrulanmadı. Lütfen Microsoft hesabınızda doğrulayın. # MS email verification
+    cannotSignInMicrosoftSSO: Microsoft SSO ile giriş yapılamadı, lütfen tekrar deneyin! # MS SSO error
+    cannotSignIn: Giriş yapılamadı, lütfen tekrar deneyin! # Generic sign-in error
+    failedReloadProject: Giriş yaptıktan sonra projeyi yeniden yükleme başarısız. Lütfen sayfayı yenileyin. # Reload error
+    loginError: Giriş hatası # Generic login error
+    signInCancelled: Giriş iptal edildi. Lütfen tekrar deneyin. # Cancelled flow
+
+  # ========================================
+  # Logout Callback - Post-logout redirect
+  # ========================================
+  logoutCallback:
+    redirecting: Yönlendiriliyor... # Loading message (logout redirect)
+    redirectDescription: Uygulamaya yönlendiriliyorsunuz, lütfen bekleyin. # Help text
+
+  popupsWarning:
+    title: Giriş penceresi açılamadı
+    description: Giriş penceresi tarayıcınız veya bir eklenti tarafından engellenmiş olabilir. Ayarlarınızı kontrol edin ve tekrar deneyin.
+    needHelp: Yardım mı lazım?
+    contactSupport: Destek ile iletişime geçin

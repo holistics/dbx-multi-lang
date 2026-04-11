@@ -1,0 +1,180 @@
+# Workspace translations - Sidebar, dropdown, and settings
+# UI Areas: Left sidebar, Workspace dropdown, Settings page
+
+workspace:
+  # ========================================
+  # General workspace labels - Sidebar and dropdown
+  # ========================================
+  personalWorkspace: Kişisel Çalışma Alanı # Label for personal workspace (when no team workspace selected in dropdown)
+  personal: Kişisel # Short label for personal workspace type
+  createWorkspace: Yeni çalışma alanı oluştur # Button/link to create new team workspace (sidebar)
+  dashboard: Kontrol Paneli # Sidebar link to workspace dashboard (left sidebar)
+  newDiagram: Yeni Diyagram # Button to create new diagram (sidebar)
+  newSampleDiagram: Yeni Örnek Diyagram # Dropdown with sample diagram templates (sidebar)
+  basic: Temel # Label for basic tier/sample (templates dropdown)
+  advanced: Gelişmiş # Label for advanced tier/sample (templates dropdown)
+  myDiagrams: Diyagramlarım # Sidebar section for personal diagrams
+  sharedWithMe: Benimle Paylaşılanlar # Sidebar section for shared diagrams
+  workspace: Çalışma Alanı # Label for team workspace type
+  private: Gizli # Privacy label for private items
+  readOnlyMode: Abonelik iptali sebebiyle çalışma alanı salt okunur modda. Çalışma alanı özelliklerini kullanmak için aboneliğinizi yenileyin.
+
+  # ========================================
+  # Settings - Workspace settings page
+  # ========================================
+  settings:
+    title: Ayarlar # Settings page title
+    workspaceName: Çalışma alanı adı # Label for workspace name field
+    update: Güncelle # Save button for settings
+    loadingInfo: Çalışma alanı bilgileri yükleniyor... # Loading message when fetching settings
+    singleSignOn: SSO Girişi (Single Sign-On) # SSO settings section title
+    authenticateWithSSO: SSO ile Doğrula (SAML) # SSO toggle label
+    enabled: Etkin # Status label for enabled
+    samlConfiguration: SAML yapılandırması # SAML config section title
+    enforceSSO: SSO Zorunlu Kıl # Enforce SSO toggle
+    enforceSSODescription: Etkinleştirildiğinde, çalışma alanı üyeleri buraya yalnızca SSO aracılığıyla erişebilir # Help text for enforce SSO
+    identityProviderUrl: Kimlik Sağlayıcısı (IdP) SSO URL Seçeneği # IdP URL field label
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
+    identityProviderUrlHelp: Kimlik Sağlayıcınızın (Identity Provider) URL uç noktası. # Help text for IdP URL
+    certificate: Sertifika # Certificate field label
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----" # Placeholder for certificate
+    samlConfigurationForProvider: Kimlik sağlayıcınız için SAML yapılandırması # Provider config section
+    assertionConsumerServiceUrl: Assertion Consumer Service URL # ACS URL field label
+    assertionConsumerServiceUrlHelp: Aynı zamanda "Replying party service URL" veya "Reply URL" olarak da bilinir # Help text for ACS URL
+    identifier: Tanımlayıcı # Identifier field label
+    identifierHelp: Aynı zamanda "Issuer" veya "Relying party trust identifier" olarak da bilinir # Help text for identifier
+    saveSSOSettings: SSO Ayarlarını Kaydet # Save SSO settings button
+    manageWorkspace: Çalışma alanını yönet # Link to workspace management
+    removeWorkspace: Çalışma alanını sil... # Danger button to remove workspace
+    cancelRemovalRequest: Silme isteğini iptal et # Cancel workspace removal button
+    removalWarning: Bu işlem geri alınamaz! # Warning about removal
+    removalScheduledHours: Çalışma alanınız birkaç saat içinde silinecektir. # Removal scheduled message
+    removalScheduledDay: Çalışma alanınız bir gün sonra silinecektir. # Removal scheduled message
+    removalScheduledDays: "Çalışma alanınız {count} gün sonra silinecektir." # Removal scheduled message
+    removeWorkspaceTitle: Bu çalışma alanını silmek istiyor musunuz? # Remove workspace modal title
+    removeWorkspaceContent: Çalışma alanınızı 7 gün sonra silinmek üzere zamanlayacağız. Fikrinizi değiştirirseniz "Ayarlar" menüsünden çalışma alanı silme zamanlamasını iptal edebilirsiniz. # Remove workspace modal content
+    removeWorkspaceButton: Bu çalışma alanını sil # Confirm remove button
+    removeWorkspaceSuggestion: "İşlemi onaylamak için lütfen metin giriş alanına <i>kalıcı olarak sil</i> (permanently delete) yazın." # Confirmation input prompt
+    removalRequestCanceled: Silme isteği başarıyla iptal edildi! # Success toast
+    removalRequestCreated: Silme isteği başarıyla oluşturuldu! # Success toast
+    contactSupportError: Bir hata oluştu, lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin # Support contact message
+    workspaceNameUpdated: Çalışma alanı adı başarıyla güncellendi # Success toast
+    workspaceNameUpdateFailed: Çalışma alanı adı güncellenemedi, lütfen tekrar deneyin! # Error toast
+    ssoConfigFetchFailed: SSO yapılandırması alınamadı. Lütfen sayfayı yenilemeyi deneyin. # Error toast
+    ssoConfigUpdated: SSO yapılandırması başarıyla güncellendi # Success toast
+    ssoConfigSaveFailed: SSO yapılandırması kaydedilemedi. Lütfen tekrar deneyin. # Error toast
+
+  # ========================================
+  # Members - Member management
+  # ========================================
+  members:
+    invite: Davet et # Invite button
+    invitePlaceholder: E-posta adresini girin # Email input placeholder
+    inviteButton: Davet Gönder # Send invite button
+    members: Üyeler # Members section title
+    role:
+      member: Üye # Member role label
+      owner: Sahip # Owner role label
+    actions:
+      remove: Çıkar # Remove action
+      removeInvitation: Bu daveti sil # Remove invitation action
+      removeMember: Bu üyeyi çıkar # Remove member confirmation
+    dialog:
+      removeMessage: <b>{email}</b> adlı kullanıcıyı çalışma alanınızdan çıkarmak üzeresiniz, lütfen işleminizi onaylayın! # Remove dialog message
+    notifications:
+      removeSuccess: "{email} çalışma alanından başarıyla çıkarıldı!" # Success toast
+      removeError: "{email} çalışma alanından çıkarılamıyor!" # Error toast
+
+  # ========================================
+  # Diagram List - Diagram list view
+  # ========================================
+  diagramList:
+    searchPlaceholder: Diyagramlarda ara # Search input placeholder
+    freePlan: Ücretsiz # Label for free plan
+    plan: planı # Plan suffix label
+    diagramCount: "Diyagramlar: {count}/{limit}" # Diagram count indicator
+    duplicate: Çoğalt # Duplicate button
+    delete: Sil # Delete button
+    untitledDiagram: İsimsiz Diyagram # Default name for unnamed diagrams
+    columns:
+      name: İsim # Table column header (diagram name)
+      dateCreated: Oluşturulma Tarihi # Table column header
+      dateModified: Değiştirilme Tarihi # Table column header
+      owner: Sahip # Table column header
+
+  # ========================================
+  # Sidebar - Sidebar sections
+  # ========================================
+  sidebar:
+    apiTokens: API Token'ları # API Tokens link (left sidebar)
+    billing: Faturalandırma # Billing link (left sidebar)
+
+  # ========================================
+  # Empty States - Empty diagrams views
+  # ========================================
+  emptyDiagrams:
+    title: Henüz diyagram yok # Empty diagrams title
+    created:
+      description: "Çalışma alanınızda hiç diyagram yok. Yeni bir diyagram oluşturmak için şu butonu kullanabilirsiniz:" # Empty state description (part 1)
+      button: + Yeni Diyagram # Button to create first diagram
+      buttonSuffix: "" # Empty state description (part 2)
+    shared:
+      description: Henüz hiçbir diyagrama davet edilmediniz. # Empty state for shared diagrams
+    workspacePublic:
+      description: "Ekibe gösterilen bir diyagram yok. Şu butonu kullanarak yeni diyagramlar oluşturabilirsiniz:" # Empty state for public workspace
+    workspacePrivate:
+      description: Gizli diyagram yok. Yeni bir diyagram oluşturabilir ve bunu tamamen kişisel tutabilirsiniz. # Empty state for private workspace
+
+  # ========================================
+  # Plan - Plan labels
+  # ========================================
+  plan:
+    pro: Pro Plan # Pro plan label
+    free: Ücretsiz Plan # Free plan label
+    team: Team Plan # Team plan label
+    disabled: "(devre dışı)" # Disabled plan label
+
+  # ========================================
+  # Welcome - Welcome modal
+  # ========================================
+  welcome:
+    title: Takım Çalışma Alanına Hoş Geldiniz! # Welcome modal title
+    description: Yeni diyagramlar oluşturarak ve takım arkadaşlarınızla işbirliği yaparak başlayın. # Welcome modal description
+    learnMore: Daha fazla bilgi edinin → # Learn more link
+
+  # ========================================
+  # API Tokens - API tokens management
+  # ========================================
+  apiTokens:
+    title: API Token'ları # API Tokens page title
+    description: API token'ları, her API isteği yapıldığında dbdiagram API'sinde kimlik doğrulaması yapmak için kullanılır. Tıpkı parolalar gibi, API token'ı da gizli kalmalıdır. # Description text
+    seeDocumentation: Dokümantasyona göz atın. # Link to API docs
+    generateNew: Yeni token oluştur # Button to generate token
+    columns:
+      name: İsim # Token name column header
+      dateCreated: Oluşturulma Tarihi # Created date column header
+      lastUsed: Son Kullanım # Last used column header
+      owner: Sahip # Owner column header
+    empty: Oluşturulmuş token yok # Empty state message
+    actions:
+      revoke: İptal Et (Revoke) # Revoke token action
+    modal:
+      newToken: Yeni API Token'ı # New token modal title
+      tokenName: Token adı # Token name input label
+      tokenNamePlaceholder: Token adını girin # Token name placeholder
+      generate: Token oluştur # Generate button
+      copyWarning: API token'ınızı oluşturur oluşturmaz kopyaladığınızdan emin olun; çünkü daha sonra tekrar görüntüleyemeyeceksiniz. # Warning about copying token
+      copied: Kopyalandı # Success message after copying
+      copy: Kopyala # Copy button
+      done: Bitti # Done button
+      revokeTitle: API Token'ı iptal edilsin mi? # Revoke confirmation title
+      revokeContent: '"{name}" API Token''ını iptal (revoke) etmek istediğinize emin misiniz? Bu işlem geri alınamaz.' # Revoke confirmation content
+      revokePositive: Token'ı İptal Et # Confirm revoke button
+      revokeSuggestion: "İşlemi onaylamak için lütfen metin giriş alanına <i>kalıcı olarak sil</i> (permanently delete) yazın." # Revoke input prompt
+      generateSuccess: Token başarıyla oluşturuldu # Success toast
+    errors:
+      nameEmpty: Token adı boş olamaz # Validation error
+      nameInvalid: Token adı yalnızca harf, sayı, boşluk, "-" veya "_" içerebilir # Validation error
+      nameWhitespace: Token adı boş olamaz veya yalnızca boşluklardan oluşamaz # Validation error
+      upgradeRequired: Token oluşturmak ve API'lerimize erişmek için lütfen planınızı yükseltin # Upgrade required error
+      ownerOnly: Yalnızca çalışma alanı sahibi yeni token oluşturabilir # Permission error

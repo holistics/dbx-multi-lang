@@ -1,0 +1,107 @@
+# Portal translations - Embedded documentation portal
+# UI Areas: OAuth callback pages, SSO portal, Error pages
+
+portal:
+  # ========================================
+  # OAuth Welcome - OAuth success messages
+  # ========================================
+  oauth:
+    welcomeTo: "{clientName} uygulamasına hoş geldiniz" # Welcome message (OAuth success)
+    signingInTo: "{clientName} uygulamasına giriş yapılıyor" # Loading message (OAuth)
+    successfullySignedInTo: "{clientName} uygulamasına başarıyla giriş yapıldı" # Success message (OAuth)
+    welcome: Hoş Geldiniz # Simple welcome label
+    signingIn: Giriş yapılıyor # Loading label
+    successfullySignedIn: Başarıyla giriş yapıldı # Success label
+    powering: Destekleyen # Portal attribution prefix
+    signOutFrom: "{clientName} oturumunu kapat" # Sign out link
+    signOutFromAccount: Hesabınızdan çıkış yapın # Sign out button
+
+  # ========================================
+  # GitHub Callback - OAuth callback messages
+  # ========================================
+  githubCallback:
+    authenticating: Kimlik doğrulaması ediliyor, lütfen bir süre bekleyin... # Loading message (GitHub OAuth)
+    authSuccess: Kimlik doğrulaması başarılı! Bu pencereyi güvenle kapatabilirsiniz # Success message (GitHub OAuth)
+    title: GitHub Kimlik Doğrulaması # Page title (browser tab)
+    errors:
+      noOpener:
+        title: Geçersiz Erişim # Error title (no opener)
+        description: Bu sayfa doğrudan açılamaz. Lütfen uygulamaya geri dönün ve giriş işlemini başlatın. # Error description (no opener)
+      openerClosed:
+        title: Ana Pencere Kapatıldı # Error title (window closed)
+        description: Orijinal uygulama penceresi kimlik doğrulama sırasında kapatıldı. Lütfen uygulamaya geri dönün ve giriş işlemini tekrar başlatın. # Error description (window closed)
+      accessDenied:
+        title: Erişim Reddedildi # Error title (user denied)
+        description: GitHub kimlik doğrulamasını iptal ettiniz. # Error description (access denied)
+      appSuspended:
+        title: Uygulama Askıya Alındı # Error title (app suspended)
+        description: GitHub uygulaması askıya alındı. # Error description (app suspended)
+      redirectUriMismatch:
+        title: Yönlendirme URI Uyuşmazlığı # Error title (redirect URI)
+        description: Yönlendirme (redirect) URI, yapılandırmayla eşleşmiyor. # Error description (redirect URI)
+      unknown:
+        title: Beklenmeyen Hata # Error title (generic)
+        description: Bir şeyler ters gitti. Lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin. # Error description (generic)
+
+  # ========================================
+  # Logout - Logout messages
+  # ========================================
+  logout:
+    validating: Çıkış isteği doğrulanıyor... # Loading message (logout)
+    loggingOut: Çıkış yapılıyor... # Loading message (logging out)
+    authorizationError: Yetkilendirme Hatası # Error title
+    logoutFailed: Çıkış İşlemi Başarısız # Error title
+
+  # ========================================
+  # SSO - Single Sign-On messages
+  # ========================================
+  sso:
+    continue: Devam et # Button (SSO continue)
+    multipleWorkspaces: "{email} için birden fazla SSO çalışma alanı bulundu" # Multiple workspaces warning
+    failedInitiate: SSO girişi başlatılamadı. Lütfen tekrar deneyin. # Error message (SSO)
+    somethingWrong: Bir şeyler ters gitti, lütfen tekrar deneyin! # Generic error
+    loginCancelled: Giriş işlemi iptal edildi, lütfen tekrar deneyin! # Cancelled message
+
+  # ========================================
+  # Account Selection - Email selection
+  # ========================================
+  accountSelection:
+    continue: Devam et # Button (account selection)
+    or: veya # Divider text
+    differentAccount: Başka bir hesap kullan # Link (different account)
+
+  # ========================================
+  # Email Input - Email form
+  # ========================================
+  emailInput:
+    placeholder: E-posta # Input placeholder
+    send: Gönder # Submit button
+
+  # ========================================
+  # Error Pages - Generic error messages
+  # ========================================
+  errors:
+    internalServerError: Sunucuda beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin. # 500 error
+    serviceUnavailable: Hizmet geçici olarak kullanım dışı. Lütfen birkaç dakika sonra tekrar deneyin. # 503 error
+    networkError: Sunucuya bağlanılamıyor. Lütfen internet bağlantınızı kontrol edip tekrar deneyin. # Network error
+    authenticationError: Kimlik doğrulama hatası. Lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin. # Auth error
+    windowNotOpened: Bu pencere düzgün açılmadı. Lütfen {clientName} uygulamasına dönerek tekrar deneyin. # Window error
+    windowClosed: Orijinal uygulama penceresi kapatıldı. Lütfen {clientName} uygulamasına dönerek tekrar deneyin. # Window closed error
+    communicationFailed: "{clientName} ile iletişim kurulamadı. Lütfen tekrar deneyin." # Communication error
+    transferFailed: Kimlik doğrulaması aktarılamadı. Lütfen tekrar deneyin. # Transfer error
+    canCloseWindow: Bu pencereyi şimdi kapatabilirsiniz. # Success message (close window)
+
+  # ========================================
+  # OAuth Errors - OAuth-specific errors
+  # ========================================
+  oauthErrors:
+    invalidAuthRequest: Geçersiz Kimlik Doğrulama İsteği # OAuth error
+    unsupportedResponseType: Desteklenmeyen response_type parametresi # OAuth error
+    invalidClient: Geçersiz İstemci # OAuth error
+    missingClientIdOrRedirectUri: Eksik client_id veya redirect_uri # OAuth error
+    missingCodeChallenge: 'Eksik zorunlu parametre: code_challenge' # OAuth error
+    missingState: 'Eksik zorunlu parametre: state' # OAuth error
+    invalidAccess: Geçersiz Erişim # OAuth error
+    pageMustBeOpened: Bu sayfa uygulama içinden açılmalıdır. # OAuth error
+    unsupportedPrompt: Desteklenmeyen prompt parametresi # OAuth error
+    unexpectedError: Beklenmeyen hata # OAuth error

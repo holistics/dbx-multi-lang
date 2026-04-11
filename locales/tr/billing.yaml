@@ -1,0 +1,126 @@
+# Billing translations - Pricing, subscriptions, payment
+# UI Areas: Pricing page, Billing settings, Upgrade modals
+
+billing:
+  # ========================================
+  # Billing Buttons - Action buttons
+  # ========================================
+  buttons:
+    upgrade: Yükselt # Generic upgrade button
+    upgradeToPersonalPro: Personal Pro plan'a yükselt # CTA button (pricing page)
+    collaborateWithTeam: Takım planı ile işbirliği yap # CTA button (team plan)
+
+  # ========================================
+  # Pricing Page - Pricing table
+  # ========================================
+  pricing:
+
+  # ========================================
+  # Plan Details - Individual plan info
+  # ========================================
+  plans:
+    free:
+      features:
+        - 3 diyagrama kadar # Feature list item 1
+        - Temel düzenleme araçları # Feature list item 2
+        - SQL/PNG olarak dışa aktar # Feature list item 3
+        - Topluluk desteği # Feature list item 4
+
+    pro:
+      features:
+        - Sınırsız diyagram # Feature list item 1
+        - Gelişmiş düzenleme araçları # Feature list item 2
+        - Sürüm geçmişi # Feature list item 3
+        - Öncelikli destek # Feature list item 4
+        - PDF olarak dışa aktar # Feature list item 5
+        - Özel temalar # Feature list item 6
+
+    team:
+      features:
+        - Pro'daki her şey # Feature list item 1
+        - Ekip işbirliği # Feature list item 2
+        - Yönetici kontrolleri # Feature list item 3
+        - SSO kimlik doğrulaması # Feature list item 4
+        - Öncelikli destek # Feature list item 5
+        - Özel entegrasyonlar # Feature list item 6
+
+  # ========================================
+  # Payment Form - Credit card inputs
+  # ========================================
+  payment:
+    paymentMethod: Ödeme Yöntemi # Section label (existing cards)
+
+  # ========================================
+  # Billing History - Invoice section
+  # ========================================
+  billing:
+
+  # ========================================
+  # Subscription Management - Subscription actions
+  # ========================================
+  subscription:
+
+  # ========================================
+  # Personal Pro Plan - Plan features list
+  # ========================================
+  personalPro:
+
+  # ========================================
+  # Team Plan - Plan features list
+  # ========================================
+  team:
+
+  # ========================================
+  # Public Pricing - Public pricing page
+  # ========================================
+  publicPricing:
+
+  # ========================================
+  # Upgrade Button - Contextual upgrade
+  # ========================================
+  upgradeNowBtn:
+    ownerOnly: Sadece çalışma alanı sahibi ekip planına yükseltme yapabilir. # Disabled tooltip
+
+  # ========================================
+  # Manage Plan Modal - Subscription details
+  # ========================================
+  managePlanModal:
+    loadingSubscription: Yükleniyor... # Loading skeleton text
+    currentPlan: Mevcut Plan # Section header
+    personalPlanForever: Kişisel Plan - Sonsuza Kadar # Plan name display
+    unknownPlan: Bilinmeyen Plan # Fallback plan name
+    billedMonthly: Aylık faturalandırılır # Billing frequency
+    billedAnnually: Yıllık faturalandırılır # Billing frequency
+    chargeEvery: "{period} {unit} tarihinde ücretlendirilir" # Charge description
+    cancelledOn: İptal edildi # Cancellation date label
+    planDetails: Plan Detayları → # Link to plan features
+    upgradeDescription: Detay Seviyeleri, Başlık Rengi ve tüm gelecek özellikler için ücretli planlarımıza yükseltin # Upgrade prompt
+    nextPayment: Sonraki ödemeniz # Payment section header
+    chargedOn: tarihinde ücretlendirilecek # Payment date suffix
+    editSubscription: Aboneliği düzenle # Button (payment method)
+    switchToMonthly: Aylık faturalandırmaya geç # Toggle option
+    switchToYearly: Yıllık faturalandırmaya geç # Toggle option (savings)
+    noPaymentMethod: Ödeme yöntemi yok # Empty state label
+    updatePaymentMethod: Ödeme yöntemini güncelle # Button (add card)
+    invoicing: Faturalandırma # Section header
+    lastPayment: Son ödeme # Section header
+    editBillingInfo: Faturalandırma bilgilerini düzenle # Button (billing details)
+    paymentProcessing: Ödemeniz işleniyor, lütfen birkaç dakika içinde sayfayı yenileyin. # Processing toast
+
+  # ========================================
+  # Disabled Card - Disabled workspace state
+  # ========================================
+  disabledCard:
+    personalUpgrade: Kişisel çalışma alanınızı premium özellikler için yükseltin. # Upgrade prompt
+    teamReadOnly: Abonelik iptali nedeniyle çalışma alanı salt okunur modda. Çalışma alanı işlevselliğini etkinleştirmek için yenileyin. # Reactivation prompt
+
+  # ========================================
+  # Plan Picking View - Simple pricing view
+  # ========================================
+  planPickingSimpleView:
+    collaborateWithTeamPlan: Takım Planı ile İşbirliği Yap # Section header
+    collaborateWithColleagues: Meslektaşlarınızla işbirliği yapın. # Section subtitle
+    manageTeamDiagrams: Takım diyagramlarını tek bir yerden yönetin. # Benefit text
+    startFreeTrial: 7 Günlük Ücretsiz Denemeye Başla # CTA button
+    learnMore: Daha fazla bilgi # Link (learn more)
+    pricingFrom: "{currency}{price}/aydan başlayan fiyatlarla" # Pricing label
