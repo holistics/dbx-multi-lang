@@ -57,7 +57,7 @@ ai:
     usageText: Kullanım limitinizin %{percentage}'sini kullandınız # Usage progress text
     tokens: token # Unit label (usage display)
     learnMore: Kullanım limitleri hakkında daha fazla bilgi edinin # Tooltip (usage indicator)
-    resetOn: Reset on # Label (usage reset date)
+    resetOn: Sıfırlanma tarihi # Label (usage reset date)
 
   # ========================================
   # AI Response Details - Response metadata

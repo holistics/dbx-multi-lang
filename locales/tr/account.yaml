@@ -33,7 +33,7 @@ account:
       aFewHours: birkaç saat # Time label when less than 1 day remaining
       aDay: bir gün # Time label when exactly 1 day remaining
       days: "{count} gün" # Time label for multiple days remaining
-      workspaceDeletionWarning: "{count} sahip olduğunuz çalışma alanı silinecektir:" # Warning about workspaces to be deleted
+      workspaceDeletionWarning: "Sahip olduğunuz {count} çalışma alanı silinecektir:" # Warning about workspaces to be deleted
       confirmTitle: Bu hesabı silmek istiyor musunuz? # Confirmation modal title
       cancelSuccess: Silme isteği başarıyla iptal edildi! # Success toast after canceling
       submitSuccess: Silme isteği başarıyla oluşturuldu! # Success toast after submitting
@@ -88,8 +88,8 @@ account:
     # Step 4: Confirm change
     confirm:
       description: "E-posta adresinizi değiştirmek üzeresiniz:" # Step 4 description
-      from: "From:" # Label for current email in summary
-      to: "To:" # Label for new email in summary
+      from: "Eski:" # Label for current email in summary
+      to: "Yeni:" # Label for new email in summary
       pleaseNote: "Lütfen dikkat:" # Notes section title
       noteNotifications: Yeni e-posta adresi bundan sonra tüm hesap bildirimlerini (fatura, davetiye vb.) alacaktır. # Note about notifications
       noteLogout: "Otomatik olarak çıkış yapılmayacaktır. Lütfen diğer cihazlardan manuel olarak çıkış yapın." # Note about logout
