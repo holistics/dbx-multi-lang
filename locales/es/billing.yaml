@@ -1,0 +1,126 @@
+# Billing translations - Pricing, subscriptions, payment
+# UI Areas: Pricing page, Billing settings, Upgrade modals
+
+billing:
+  # ========================================
+  # Billing Buttons - Action buttons
+  # ========================================
+  buttons:
+    upgrade: Upgrade # Generic upgrade button
+    upgradeToPersonalPro: Upgrade to Personal Pro plan # CTA button (pricing page)
+    collaborateWithTeam: Collaborate with Team plan # CTA button (team plan)
+
+  # ========================================
+  # Pricing Page - Pricing table
+  # ========================================
+  pricing:
+
+  # ========================================
+  # Plan Details - Individual plan info
+  # ========================================
+  plans:
+    free:
+      features:
+        - Up to 3 diagrams # Feature list item 1
+        - Basic editing tools # Feature list item 2
+        - Export as SQL/PNG # Feature list item 3
+        - Community support # Feature list item 4
+
+    pro:
+      features:
+        - Unlimited diagrams # Feature list item 1
+        - Advanced editing tools # Feature list item 2
+        - Version history # Feature list item 3
+        - Priority support # Feature list item 4
+        - Export as PDF # Feature list item 5
+        - Custom themes # Feature list item 6
+
+    team:
+      features:
+        - Everything in Pro # Feature list item 1
+        - Team collaboration # Feature list item 2
+        - Admin controls # Feature list item 3
+        - SSO authentication # Feature list item 4
+        - Priority support # Feature list item 5
+        - Custom integrations # Feature list item 6
+
+  # ========================================
+  # Payment Form - Credit card inputs
+  # ========================================
+  payment:
+    paymentMethod: Payment Method # Section label (existing cards)
+
+  # ========================================
+  # Billing History - Invoice section
+  # ========================================
+  billing:
+
+  # ========================================
+  # Subscription Management - Subscription actions
+  # ========================================
+  subscription:
+
+  # ========================================
+  # Personal Pro Plan - Plan features list
+  # ========================================
+  personalPro:
+
+  # ========================================
+  # Team Plan - Plan features list
+  # ========================================
+  team:
+
+  # ========================================
+  # Public Pricing - Public pricing page
+  # ========================================
+  publicPricing:
+
+  # ========================================
+  # Upgrade Button - Contextual upgrade
+  # ========================================
+  upgradeNowBtn:
+    ownerOnly: Only the workspace owner can upgrade to the Team plan # Disabled tooltip
+
+  # ========================================
+  # Manage Plan Modal - Subscription details
+  # ========================================
+  managePlanModal:
+    loadingSubscription: Loading subscription information... # Loading skeleton text
+    currentPlan: Current Plan # Section header
+    personalPlanForever: Personal Plan - Forever # Plan name display
+    unknownPlan: Unknown Plan # Fallback plan name
+    billedMonthly: Billed every month # Billing frequency
+    billedAnnually: Billed every year # Billing frequency
+    chargeEvery: Charge every {period} {unit} # Charge description
+    cancelledOn: Cancelled on # Cancellation date label
+    planDetails: Plan Details → # Link to plan features
+    upgradeDescription: Upgrade to our paid plans to get Detail Levels, Header Color and all upcoming features # Upgrade prompt
+    nextPayment: Your next payment is # Payment section header
+    chargedOn: to be charged on # Payment date suffix
+    editSubscription: Edit subscription # Button (payment method)
+    switchToMonthly: Switch to monthly billing # Toggle option
+    switchToYearly: Switch to yearly billing # Toggle option (savings)
+    noPaymentMethod: No payment method # Empty state label
+    updatePaymentMethod: Update payment method # Button (add card)
+    invoicing: Invoicing # Section header
+    lastPayment: Last payment # Section header
+    editBillingInfo: Edit billing information # Button (billing details)
+    paymentProcessing: Your payment is processing, please reload the page in a few minutes. # Processing toast
+
+  # ========================================
+  # Disabled Card - Disabled workspace state
+  # ========================================
+  disabledCard:
+    personalUpgrade: Upgrade your personal workspace for premium features. # Upgrade prompt
+    teamReadOnly: Workspace is in read-only mode due to subscription cancelation. Renew to enable workspace functionality. # Reactivation prompt
+
+  # ========================================
+  # Plan Picking View - Simple pricing view
+  # ========================================
+  planPickingSimpleView:
+    collaborateWithTeamPlan: Collaborate with Team Plan # Section header
+    collaborateWithColleagues: Collaborate with your colleagues. # Section subtitle
+    manageTeamDiagrams: Manage team's diagrams all in one place. # Benefit text
+    startFreeTrial: Start 7-Day Free Trial # CTA button
+    learnMore: Learn more # Link (learn more)
+    pricingFrom: Pricing from {currency}{price}/month # Pricing label
