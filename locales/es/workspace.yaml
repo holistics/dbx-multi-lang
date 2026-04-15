@@ -54,7 +54,7 @@ workspace:
     removeWorkspaceTitle: Remove this workspace? # Remove workspace modal title
     removeWorkspaceContent: We'll set a schedule to remove your workspace after 7 days. You can cancel the workspace removal schedule in this "Settings" menu if you change your mind. # Remove workspace modal content
     removeWorkspaceButton: Remove this workspace # Confirm remove button
-    removeWorkspaceSuggestion: 'Please type <i>permanently delete</i> in the text input field to confirm.' # Confirmation input prompt
+    removeWorkspaceSuggestion: "Please type <i>permanently delete</i> in the text input field to confirm." # Confirmation input prompt
     removalRequestCanceled: Removal request was canceled successfully! # Success toast
     removalRequestCreated: Removal request was created successfully! # Success toast
     contactSupportError: An error has occurred, please contact our support at dbdiagram@holistics.io # Support contact message
@@ -129,52 +129,52 @@ workspace:
   # Plan - Plan labels
   # ========================================
   plan:
-    pro: Pro Plan # Pro plan label
-    free: Free Plan # Free plan label
-    team: Team Plan # Team plan label
-    disabled: "(disabled)" # Disabled plan label
+    pro: Plan Pro # Pro plan label
+    free: Plan Gratis # Free plan label
+    team: Plan Equipo # Team plan label
+    disabled: "(Desactivado)" # Disabled plan label
 
   # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
-    title: Welcome to Team Workspace! # Welcome modal title
-    description: Get started by creating new diagrams and collaborating with your teammates. # Welcome modal description
-    learnMore: Learn more → # Learn more link
+    title: Bienvenido al espacio de trabajo de equipo! # Welcome modal title
+    description: Empieza por crear nuevos diagramas y colaborar con tus compañeros de equipo. # Welcome modal description
+    learnMore: Saber más → # Learn more link
 
   # ========================================
   # API Tokens - API tokens management
   # ========================================
   apiTokens:
     title: API Tokens # API Tokens page title
-    description: API tokens are used for authentication to dbdiagram API every time an API request is made. Like passwords, API token should remain a secret. # Description text
-    seeDocumentation: See documentation. # Link to API docs
-    generateNew: Generate new token # Button to generate token
+    description: Los tokens de API se utilizan para la autenticación en la API de dbdiagram cada vez que se realiza una solicitud a la API. Al igual que las contraseñas, el token de API debe mantenerse en secreto. # Description text
+    seeDocumentation: Ver documentación # Link to API docs
+    generateNew: Generar nuevo token # Button to generate token
     columns:
-      name: Name # Token name column header
-      dateCreated: Date Created # Created date column header
-      lastUsed: Last Used # Last used column header
-      owner: Owner # Owner column header
-    empty: No created tokens # Empty state message
+      name: Nombre # Token name column header
+      dateCreated: Fecha de Creación # Created date column header
+      lastUsed: Último Uso # Last used column header
+      owner: Propietario # Owner column header
+    empty: No se han creado tokens # Empty state message
     actions:
-      revoke: Revoke # Revoke token action
+      revoke: Revocar # Revoke token action
     modal:
-      newToken: New API Token # New token modal title
-      tokenName: Token name # Token name input label
-      tokenNamePlaceholder: Enter token name # Token name placeholder
-      generate: Generate token # Generate button
-      copyWarning: Make sure to copy the API token now as you will not be able to see it again. # Warning about copying token
-      copied: Copied # Success message after copying
-      copy: Copy # Copy button
-      done: Done # Done button
-      revokeTitle: Revoke API Token? # Revoke confirmation title
-      revokeContent: Do you want to revoke the "{name}" API Token? This action cannot be undone. # Revoke confirmation content
-      revokePositive: Revoke Token # Confirm revoke button
-      revokeSuggestion: 'Please type <i>permanently delete</i> in the text input field to confirm.' # Revoke input prompt
-      generateSuccess: Generated token successfully # Success toast
+      newToken: Nuevo Token de API # New token modal title
+      tokenName: Nombre del token # Token name input label
+      tokenNamePlaceholder: Ingresar nombre del token # Token name placeholder
+      generate: Generar token # Generate button
+      copyWarning: Asegúrate de copiar el token de API ahora ya que no podrás verlo de nuevo. # Warning about copying token
+      copied: Copiado # Success message after copying
+      copy: Copiar # Copy button
+      done: Listo # Done button
+      revokeTitle: Revocar Token de API? # Revoke confirmation title
+      revokeContent: ¿Quieres revocar el token de API "{name}"? Esta acción no se puede deshacer. # Revoke confirmation content
+      revokePositive: Revocar Token # Confirm revoke button
+      revokeSuggestion: "Por favor, escribe <i>permanently delete</i> en el campo de entrada de texto para confirmar." # Revoke input prompt
+      generateSuccess: Token generado exitosamente # Success toast
     errors:
-      nameEmpty: Token name cannot be empty # Validation error
-      nameInvalid: Token name can only contain only alphabets, numbers, space, "-" or "_" # Validation error
-      nameWhitespace: Token name cannot be empty or only contain white space # Validation error
-      upgradeRequired: Please upgrade your plan to create tokens and access our API # Upgrade required error
-      ownerOnly: Only workspace owner can generate new tokens # Permission error
+      nameEmpty: Nombre del token no puede estar vacío # Validation error
+      nameInvalid: El nombre del token solo puede contener letras, números, espacios, "-" o "_" # Validation error
+      nameWhitespace: El nombre del token no puede estar vacío o solo contener espacios en blanco # Validation error
+      upgradeRequired: Por favor, actualiza tu plan para crear tokens y acceder a nuestra API # Upgrade required error
+      ownerOnly: Solo el propietario del espacio de trabajo puede generar nuevos tokens # Permission error
