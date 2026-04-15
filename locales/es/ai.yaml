@@ -7,99 +7,99 @@ ai:
   # ========================================
 
   panel:
-    inputPlaceholder: Ask me anything about your diagram... # Chat input placeholder (empty state)
-    currentChat: Current Chat # Current chat section header
-    previousChats: Previous Chats # Previous chats section header
-    noOtherChats: No other chats yet # Empty state (no previous chats)
-    sendInstructions: Press Enter to send, Shift+Enter for new line # Input hint (below chat box)
-    sendMessage: Send message # Send button (tooltip)
-    workspaceDisabled: Workspace disabled # Disabled state message (no workspace)
-    editPermissionRequired: Edit permission required # Permission error message
-    usageLimitReached: You have used all of your usage limit for this month. Please try again on # Usage limit message
-    learnMoreAboutUsageLimits: Learn more about usage limits # Link text (usage limit toast)
+    inputPlaceholder: Pregunteme cualquier cosa sobre su diagrama... # Chat input placeholder (empty state)
+    currentChat: Chat actual # Current chat section header
+    previousChats: Chats anteriores # Previous chats section header
+    noOtherChats: No hay otros chats aún # Empty state (no previous chats)
+    sendInstructions: Presione Enter para enviar, Shift+Enter para nueva línea # Input hint (below chat box)
+    sendMessage: Enviar mensaje # Send button (tooltip)
+    workspaceDisabled: Area de trabajo deshabilitada # Disabled state message (no workspace)
+    editPermissionRequired: Se requiere permiso de edición # Permission error message
+    usageLimitReached: Ha utilizado todo su límite de uso para este mes. Por favor, inténtelo de nuevo el # Usage limit message
+    learnMoreAboutUsageLimits: Aprenda más sobre los límites de uso # Link text (usage limit toast)
     chat: Chat # Chat tab label
-    clickToEdit: Click to edit # Editable message label
-    newChat: New Chat # New chat button (sidebar header)
-    showChatHistory: Show Chat History # Toggle button (shows chat sidebar)
-    hideChatHistory: Hide Chat History # Toggle button (hides chat sidebar)
+    clickToEdit: Click para editar # Editable message label
+    newChat: Nuevo Chat # New chat button (sidebar header)
+    showChatHistory: Mostrar Historial de Chat # Toggle button (shows chat sidebar)
+    hideChatHistory: Ocultar Historial de Chat # Toggle button (hides chat sidebar)
 
   # ========================================
   # AI Welcome Modal - First-time user experience
   # ========================================
   welcome:
-    title: Welcome to DBDiagram AI # Welcome modal title
-    subtitle: Your intelligent assistant for database design # Welcome modal subtitle
+    title: Bienvenido a DBDiagram AI # Welcome modal title
+    subtitle: Su asistente inteligente para el diseño de bases de datos # Welcome modal subtitle
 
   # ========================================
   # AI Loading States - Message states
   # ========================================
   messages:
-    thinking: Thinking... # Loading indicator (AI thinking)
-    generating: Generating... # Loading indicator (schema generation)
-    explaining: Explaining... # Loading indicator (explanation)
-    error: Something went wrong. Please try again. # Error message (retryable)
-    rateLimit: You've reached the usage limit. Please upgrade to continue. # Rate limit message
+    thinking: Pensando... # Loading indicator (AI thinking)
+    generating: Generando... # Loading indicator (schema generation)
+    explaining: Explicando... # Loading indicator (explanation)
+    error: Algo salió mal. Por favor, inténtelo de nuevo. # Error message (retryable)
+    rateLimit: Ha alcanzado el límite de uso. Por favor, actualice para continuar. # Rate limit message
 
   # ========================================
   # Diff Viewer - AI change comparison
   # ========================================
   diffViewer:
-    reject: Reject # Button (reject single change)
-    accept: Accept # Button (accept single change)
-    rejectAll: Reject All # Button (reject all changes)
-    acceptAll: Accept All # Button (accept all changes)
+    reject: Rechazar # Button (reject single change)
+    accept: Aceptar # Button (accept single change)
+    rejectAll: Rechazar Todo # Button (reject all changes)
+    acceptAll: Aceptar Todo # Button (accept all changes)
 
   # ========================================
   # Token Usage - AI usage tracking
   # ========================================
   tokenUsage:
-    used: Used # Usage counter label (left side)
-    usageText: You have used {percentage} of your usage limit # Usage progress text
+    used: Usado # Usage counter label (left side)
+    usageText: Has usado {percentage} de tu límite de uso # Usage progress text
     tokens: tokens # Unit label (usage display)
-    learnMore: Click to learn more about usage limits # Tooltip (usage indicator)
-    resetOn: Reset on # Label (usage reset date)
+    learnMore: Click para aprender más sobre los límites de uso # Tooltip (usage indicator)
+    resetOn: Reiniciar el # Label (usage reset date)
 
   # ========================================
   # AI Response Details - Response metadata
   # ========================================
   assistant:
-    dbmlCode: DBML Code # Label (code block header)
-    lines: lines # Unit label (code lines count)
+    dbmlCode: Codigo DBML # Label (code block header)
+    lines: lineas # Unit label (code lines count)
 
   # ========================================
   # AI Response Messages - Standard responses
   # ========================================
   responseMessages:
-    noExplanation: Schema has been updated. Check the diff viewer to review changes. # Message after schema update
-    invalidIntent: "Welcome to dbdiagram AI.\n\nI'm here to help you with:\n\n• **DBML schema design** - Create and modify tables, relationships, and database structures\n• **Database best practices** - Suggest optimal data types, indexes, and constraints\n• **Schema optimization** - Organize tables with TableGroups, add timestamps, remap data types\n• **Quick transformations** - Convert between database systems (PostgreSQL, MySQL, SQL Server, etc.)\n\nTry asking me to create tables, add relationships, or use the quick actions above to get started!" # Help message (unrecognized command)
+    noExplanation: Esquema actualizado. Revise el visor de diferencias para revisar los cambios. # Message after schema update
+    invalidIntent: "Bienvenido a dbdiagram AI.\n\nEstoy aquí para ayudarte con:\n\n• **Diseño de esquema DBML** - Crear y modificar tablas, relaciones y estructuras de base de datos\n• **Mejores prácticas de base de datos** - Sugerir tipos de datos óptimos, índices y restricciones\n• **Optimización de esquema** - Organizar tablas con Grupos de Tablas, agregar marcas de tiempo y remapear tipos de datos\n• **Transformaciones rápidas** - Convertir entre sistemas de base de datos (PostgreSQL, MySQL, SQL Server, etc.)\n\nPrueba preguntandome como crear tablas, agregar relaciones o usar las acciones rápidas de arriba para comenzar!" # Help message (unrecognized command)
 
   # ========================================
   # Quick Action Titles - Action card headers
   # ========================================
   quickActionTitles:
-    createTableGroups: Create Table Groups # Quick action card 1 title
-    addTimestampColumns: Add Timestamp Columns # Quick action card 2 title
-    addRelationships: Add Relationships # Quick action card 3 title
-    addIndexes: Add Indexes # Quick action card 4 title
-    learnDatabaseDesign: Learn Database Design # Quick action card 5 title
-    cloneSlack: Clone Slack # Quick action card 6 title
-    documentDatabase: Document Database # Quick action card 7 title
-    todoList: Todo List # Quick action card 8 title
-    remapDataTypes: Remap Data Types # Quick action card 9 title
+    createTableGroups: Crear Grupos de Tablas # Quick action card 1 title
+    addTimestampColumns: Agregar Columnas de Marca de Tiempo # Quick action card 2 title
+    addRelationships: Agregar Relaciones # Quick action card 3 title
+    addIndexes: Agregar Índices # Quick action card 4 title
+    learnDatabaseDesign: Aprender Diseño de Base de Datos # Quick action card 5 title
+    cloneSlack: Clonar Slack # Quick action card 6 title
+    documentDatabase: Documentar Base de Datos # Quick action card 7 title
+    todoList: Lista de Tareas # Quick action card 8 title
+    remapDataTypes: Remapear Tipos de Datos # Quick action card 9 title
 
   # ========================================
   # Quick Action Descriptions - Action card subtitles
   # ========================================
   quickActionDescriptions:
-    createTableGroups: Organize your tables into logical groups by domain and functionality with distinct colors # Card 1 description
-    addTimestampColumns: Add created_at and updated_at columns to tables that need audit tracking # Card 2 description
-    addRelationships: Automatically detect and add foreign key relationships based on naming conventions # Card 3 description
-    addIndexes: Add index blocks for foreign keys and commonly queried columns # Card 4 description
-    learnDatabaseDesign: Learn about database design # Card 5 description
-    cloneSlack: Create a Slack clone # Card 6 description
-    documentDatabase: Create a database for storing documents # Card 7 description
-    todoList: Create a todo list application # Card 8 description
-    remapDataTypes: Convert data types to match your target database system # Card 9 description
+    createTableGroups: Organizar tablas en grupos lógicos por dominio y funcionalidad con colores distintos # Card 1 description
+    addTimestampColumns: Agregar columnas created_at y updated_at a las tablas que necesitan seguimiento de auditoría # Card 2 description
+    addRelationships: Detectar y agregar automáticamente relaciones de llave foránea basadas en convenciones de nomenclatura # Card 3 description
+    addIndexes: Agregar bloques de índice para llaves foráneas y columnas comúnmente consultadas # Card 4 description
+    learnDatabaseDesign: Aprender sobre el diseño de base de datos # Card 5 description
+    cloneSlack: Crear un clon de Slack # Card 6 description
+    documentDatabase: Crear una base de datos para almacenar documentos # Card 7 description
+    todoList: Crear una aplicación de lista de tareas # Card 8 description
+    remapDataTypes: Convertir tipos de datos para que coincidan con tu sistema de base de datos objetivo # Card 9 description
 
   # ========================================
   # Quick Action Sub-actions - Database type selectors
