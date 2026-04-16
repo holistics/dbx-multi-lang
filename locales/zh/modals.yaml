@@ -99,16 +99,22 @@ modals:
     viewDiagram: 查看图表
   publish:
     title: 发布到
-    publishedTitle: 已发布到
+    reviewAndPublishTitle: 审核并发布到
     dbdocsLink: dbdocs
+    cancelButton: 取消
     publishButton: 发布
+    reviewAndPublishButton: 审核并发布
     bullet1: 发布你图表的一个新的可在线查看的数据库文档。
     bullet2: 发布的文档将在与你的邮箱关联的 dbdocs 账户中可用。
     bullet3: 对图表的更改不会自动更新 dbdocs 文档。
+    publishNewOrUpdate: 发布新文档 / 更新现有文档
+    updateExisting: 更新现有文档
+    publishNewOption: 发布新文档
     projectPublicDefault: 你的 dbdocs 项目默认设置为"公开"。人们可以通过链接访问。
     documentProjectName: 文档项目名称
     enterProjectName: 输入项目名称
     options: 选项
+    ownerOnlyUpdatePublishDestination: 只有图表所有者才能更新文档目的地
     passwordProtection: 密码保护
     passwordOptional: 输入密码（可选）
     passwordMinLength: 密码至少需要 6 个字符
@@ -130,6 +136,9 @@ modals:
     projectUrlHeader: URL
     publishNewQuestion: 想要发布到另一个项目？
     publishNewAction: 发布到新项目
+    resolveConflictsAndErrorsBeforePublish: 发布前请解决所有冲突和错误。
+    conflictWordSingular: 冲突
+    conflictWordPlural: 冲突
   import:
     instructions: 说明
     showInstructions: 显示说明

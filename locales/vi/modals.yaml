@@ -96,16 +96,22 @@ modals:
     viewDiagram: Xem sơ đồ
   publish:
     title: Xuất bản lên
-    publishedTitle: Đã xuất bản lên
+    reviewAndPublishTitle: Xem lại và xuất bản lên
     dbdocsLink: dbdocs
+    cancelButton: Hủy
     publishButton: Xuất bản
+    reviewAndPublishButton: Xem lại & Xuất bản
     bullet1: Xuất bản tài liệu cơ sở dữ liệu có thể xem trên web mới từ sơ đồ của bạn.
     bullet2: Tài liệu được xuất bản sẽ có trong tài khoản dbdocs liên kết với email của bạn.
     bullet3: Thay đổi trong sơ đồ sẽ không tự động cập nhật tài liệu trên dbdocs.
+    publishNewOrUpdate: Xuất bản tài liệu mới / Cập nhật tài liệu hiện có
+    updateExisting: Cập nhật tài liệu hiện có
+    publishNewOption: Xuất bản tài liệu mới
     projectPublicDefault: Dự án dbdocs của bạn được đặt là "công khai" theo mặc định. Mọi người có thể truy cập qua liên kết.
     documentProjectName: Tên dự án tài liệu
     enterProjectName: Nhập tên dự án
     options: Tùy chọn
+    ownerOnlyUpdatePublishDestination: Chỉ chủ sở hữu sơ đồ mới có thể cập nhật đích đến của tài liệu
     passwordProtection: Bảo vệ bằng mật khẩu
     passwordOptional: Nhập mật khẩu (tùy chọn)
     passwordMinLength: Mật khẩu phải có ít nhất 6 ký tự
@@ -127,6 +133,9 @@ modals:
     projectUrlHeader: URL
     publishNewQuestion: Bạn muốn xuất bản sang một dự án khác?
     publishNewAction: Xuất bản sang dự án mới
+    resolveConflictsAndErrorsBeforePublish: Giải quyết tất cả các xung đột và lỗi trước khi xuất bản.
+    conflictWordSingular: xung đột
+    conflictWordPlural: xung đột
 
   import:
     instructions: Hướng dẫn

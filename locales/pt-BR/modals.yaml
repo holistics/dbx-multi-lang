@@ -118,16 +118,22 @@ modals:
   # ========================================
   publish:
     title: Publicar em # Modal title (publish dropdown)
-    publishedTitle: Publicado em # Modal title for published diagram
+    reviewAndPublishTitle: Revisar e publicar em
     dbdocsLink: dbdocs # Link label
+    cancelButton: Cancelar
     publishButton: Publicar # Publish button
+    reviewAndPublishButton: Revisar e Publicar # Publish button
     bullet1: Publique uma documentação de banco de dados visualizável na web do seu diagrama. # Feature bullet point
     bullet2: O documento publicado estará disponível em uma conta dbdocs vinculada ao e-mail do proprietário do diagrama. # Feature bullet point
     bullet3: As alterações no seu diagrama não atualizarão automaticamente o documento dbdocs. # Feature bullet point
+    publishNewOrUpdate: Publicar um novo documento / Atualizar um existente
+    updateExisting: Atualizar um documento existente
+    publishNewOption: Publicar um novo documento
     projectPublicDefault: Seu projeto dbdocs está definido como "público" por padrão. As pessoas podem obter acesso através do seu link. # Public default info
     documentProjectName: Nome do projeto do documento # Project name field label
     enterProjectName: Digite o nome do projeto # Project name placeholder
     options: Opções # Options section title
+    ownerOnlyUpdatePublishDestination: Apenas o proprietário do diagrama pode atualizar o destino do documento
     passwordProtection: Proteção por senha # Password section title
     passwordOptional: Digite uma senha (optional) # Password placeholder
     passwordMinLength: A senha deve ter pelo menos 6 caracteres # Password validation
@@ -149,6 +155,9 @@ modals:
     projectUrlHeader: URL # Header for project URL column in popover
     publishNewQuestion: Deseja publicar em outro projeto? # Prompt to publish to a new project
     publishNewAction: Publicar em um novo projeto # Action link text
+    resolveConflictsAndErrorsBeforePublish: Resolva todos os conflitos e erros antes de publicar.
+    conflictWordSingular: conflito
+    conflictWordPlural: conflitos
 
   # ========================================
   # Import modal - Import diagram

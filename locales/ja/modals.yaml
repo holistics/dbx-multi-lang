@@ -99,16 +99,22 @@ modals:
     viewDiagram: ダイアグラムを表示
   publish:
     title: 公開先
-    publishedTitle: 公開済み
+    reviewAndPublishTitle: レビューして公開先：
     dbdocsLink: dbdocs
+    cancelButton: キャンセル
     publishButton: 公開
+    reviewAndPublishButton: レビューして公開
     bullet1: ダイアグラムの新しいウェブ閲覧可能なデータベースドキュメントを公開します。
     bullet2: 公開されたドキュメントは、あなたのメールアドレスにリンクされた dbdocs アカウントで利用可能になります。
     bullet3: ダイアグラムへの変更は dbdocs ドキュメントに自動的に反映されません。
+    publishNewOrUpdate: 新しいドキュメントを公開 / 既存のドキュメントを更新
+    updateExisting: 既存のドキュメントを更新
+    publishNewOption: 新しいドキュメントを公開
     projectPublicDefault: dbdocs プロジェクトはデフォルトで「公開」に設定されています。リンクからアクセスできます。
     documentProjectName: ドキュメントプロジェクト名
     enterProjectName: プロジェクト名を入力
     options: オプション
+    ownerOnlyUpdatePublishDestination: ドキュメントの公開先を更新できるのは、ダイアグラムの所有者のみです。
     passwordProtection: パスワード保護
     passwordOptional: パスワードを入力（オプション）
     passwordMinLength: パスワードは6文字以上である必要があります
@@ -130,6 +136,9 @@ modals:
     projectUrlHeader: URL
     publishNewQuestion: 別のプロジェクトに公開しますか？
     publishNewAction: 新しいプロジェクトに公開
+    resolveConflictsAndErrorsBeforePublish: 公開する前に、すべての競合とエラーを解決してください。
+    conflictWordSingular: 競合
+    conflictWordPlural: 競合
   import:
     instructions: 手順
     showInstructions: 手順を表示
