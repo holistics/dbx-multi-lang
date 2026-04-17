@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+### Misc
+* Update copywriting for dbdocs publish modal
+* Update test runner to check for key paths instead of number of keys
+
 ## 1.1.11 (Apr 14, 2026)
 ### Misc
 * Change "What's new" to "What's New" for consistent casings
