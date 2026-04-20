@@ -118,7 +118,7 @@ modals:
   # ========================================
   publish:
     title: Publish to # Modal title (publish dropdown)
-    reviewAndPublishTitle: Review and publish to # Modal title for published diagram
+    reviewAndPublishTitle: Review and publish to # Modal title for review and publish modal
     dbdocsLink: dbdocs # Link label
     cancelButton: Cancel # Cancel button
     publishButton: Publish # Publish button

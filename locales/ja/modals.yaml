@@ -99,7 +99,7 @@ modals:
     viewDiagram: ダイアグラムを表示
   publish:
     title: 公開先
-    reviewAndPublishTitle: レビューして公開先：
+    reviewAndPublishTitle: レビューして公開先
     dbdocsLink: dbdocs
     cancelButton: キャンセル
     publishButton: 公開
