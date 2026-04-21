@@ -160,6 +160,7 @@ modals:
     incomingChange: Alteração Recebida
     bothChanges: Ambas as Alterações
     acceptChangeButton: Aceitar {conflictTypeText}
+    acceptAllIncomingChangesButton: Aceitar Todas as Alterações Recebidas
     conflictWordSingular: conflito
     conflictWordPlural: conflitos
 

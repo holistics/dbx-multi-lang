@@ -141,6 +141,7 @@ modals:
     incomingChange: 受信した変更
     bothChanges: 両方の変更
     acceptChangeButton: '{conflictTypeText} を適用'
+    acceptAllIncomingChangesButton: 全ての受信した変更を適用
     conflictWordSingular: 競合
     conflictWordPlural: 競合
   import:

@@ -141,6 +141,7 @@ modals:
     incomingChange: 传入的更改
     bothChanges: 保留双方更改
     acceptChangeButton: 接受 {conflictTypeText}
+    acceptAllIncomingChangesButton: 接受所有传入的更改
     conflictWordSingular: 冲突
     conflictWordPlural: 冲突
   import:
