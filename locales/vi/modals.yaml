@@ -138,6 +138,7 @@ modals:
     incomingChange: thay đổi mới
     bothChanges: cả hai thay đổi
     acceptChangeButton: Chấp nhận {conflictTypeText}
+    acceptAllIncomingChangesButton: Chấp nhận tất cả thay đổi mới
     conflictWordSingular: xung đột
     conflictWordPlural: xung đột
 

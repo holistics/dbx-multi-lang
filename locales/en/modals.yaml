@@ -160,6 +160,7 @@ modals:
     incomingChange: Incoming Change # Incoming change conflict marker text
     bothChanges: Both Changes # Both change conflict marker text
     acceptChangeButton: Accept {conflictTypeText} # Accept change button
+    acceptAllIncomingChangesButton: Accept All Incoming Changes # Accept all incoming changes button
     conflictWordSingular: conflict # Word for counting conflicts
     conflictWordPlural: conflicts # Word for counting conflicts
 

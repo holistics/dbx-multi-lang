@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.13 (Apr 21, 2026)
+### Misc
+* Add copywriting for accepting all incoming changes button in dbdocs publish modal
+
 ## 1.1.12 (Apr 20, 2026)
 ### Misc
 * Update copywriting for dbdocs publish modal
