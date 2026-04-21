@@ -1,0 +1,116 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    title: Hesap Ayarları # Modal main title
+    loadingInfo: Hesap bilgileri yükleniyor... # Loading spinner text
+    displayName: Görünen Ad # Label for display name field
+    email: E-posta # Label for email field
+
+    # Connected accounts section
+    connectedAccounts:
+      title: Bağlı Hesaplar # Section title
+      loading: Bağlı hesaplar yükleniyor... # Loading text for connected accounts
+      noAccounts: Bağlı hesap yok # Empty state text
+      loggedInWith: "{provider} ile giriş yapıldı" # Provider badge label (e.g., "Logged in with Google")
+
+    # Manage account section
+    manageTitle: Hesap Yönetimi # Section title
+    changeEmail: E-posta adresini değiştir # Change email button label
+    changeEmailInProgress: E-posta değişikliği yapılıyor, lütfen bekleyin # Disabled message when email change is in progress
+    changeEmailFailed: "Son e-posta değişikliğiniz başarısız oldu, lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin." # Disabled message when last email change failed
+
+    # Account removal
+    removal:
+      removeAccount: Hesabı Sil... # Remove account button label
+      cancelRequest: Silme isteğini iptal et # Cancel removal request button label
+      cannotBeUndone: Bu işlem geri alınamaz! # Warning text when no removal request
+      removedAfter: "Hesabınız {time} sonra silinecektir." # Removal countdown text
+      aFewHours: birkaç saat # Time label when less than 1 day remaining
+      aDay: bir gün # Time label when exactly 1 day remaining
+      days: "{count} gün" # Time label for multiple days remaining
+      workspaceDeletionWarning: "Sahip olduğunuz {count} çalışma alanı silinecektir:" # Warning about workspaces to be deleted
+      confirmTitle: Bu hesabı silmek istiyor musunuz? # Confirmation modal title
+      cancelSuccess: Silme isteği başarıyla iptal edildi! # Success toast after canceling
+      submitSuccess: Silme isteği başarıyla oluşturuldu! # Success toast after submitting
+
+    errors:
+      generic: Bir hata oluştu, lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin. # Generic error toast
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: E-posta adresini değiştir # Modal title
+
+    # Step labels (stepper header)
+    steps:
+      verifyCurrentEmail: Mevcut e-postayı doğrula # Step 1 title
+      currentEmailVerified: Mevcut e-posta doğrulandı # Step 1 completed label
+      enterNewEmail: Yeni e-posta adresini gir # Step 2 title
+      verifyNewEmail: Yeni e-postayı doğrula # Step 3 title
+      newEmailVerified: Yeni e-posta doğrulandı # Step 3 completed label
+      confirmChange: Değişikliği onayla # Step 4 title
+      emailChanged: E-posta değiştirildi # Step 4 completed label
+
+    # Step 1: Verify current email
+    verifyCurrent:
+      description: E-postanızı değiştirmek için önce mevcut e-postanızı OTP ile doğrulamanız gerekir. # Step 1 description
+      currentEmailLabel: "Mevcut e-posta:" # Label before current email address
+      sendCode: Kodu Gönder # Send OTP button
+      otpSentMessage: E-postanıza 6 haneli bir kod gönderdik. Kod 4 dakika içinde geçerli olacaktır. # OTP sent info text
+      verificationCode: Doğrulama Kodu # OTP input label
+      resendCode: Kodu Tekrar Gönder # Resend button label
+      resendCodeCooldown: "Kodu Tekrar Gönder ({seconds}s)" # Resend button with cooldown timer
+      verify: Doğrula # Verify OTP button
+
+    # Step 2: Enter new email
+    enterNew:
+      description: "Yeni e-posta adresinizi girin. Doğrulama için kod göndereceğiz." # Step 2 description
+      newEmailLabel: Yeni E-posta Adresi # New email input label
+      placeholder: Yeni e-posta adresini girin # New email input placeholder
+      sendCode: Kodu Gönder # Send OTP button
+
+    # Step 3: Verify new email
+    verifyNew:
+      otpSentTo: Yeni e-posta adresinize 6 haneli bir kod gönderdik. # Text before new email address
+      codeExpires: Kod 4 dakika içinde geçerli olacaktır. # OTP expiry info
+      verificationCode: Doğrulama Kodu # OTP input label
+      resendCode: Kodu Tekrar Gönder # Resend button label
+      resendCodeCooldown: "Kodu Tekrar Gönder ({seconds}s)" # Resend button with cooldown timer
+      back: Geri # Back button to return to step 2
+      verify: Doğrula # Verify OTP button
+
+    # Step 4: Confirm change
+    confirm:
+      description: "E-posta adresinizi değiştirmek üzeresiniz:" # Step 4 description
+      from: "Eski:" # Label for current email in summary
+      to: "Yeni:" # Label for new email in summary
+      pleaseNote: "Lütfen dikkat:" # Notes section title
+      noteNotifications: Yeni e-posta adresi bundan sonra tüm hesap bildirimlerini (fatura, davetiye vb.) alacaktır. # Note about notifications
+      noteLogout: "Otomatik olarak çıkış yapılmayacaktır. Lütfen diğer cihazlardan manuel olarak çıkış yapın." # Note about logout
+      noteIrreversible: Bu işlem geri alınamaz. # Note about irreversibility
+      confirmButton: Değişikliği Onayla # Confirm change button
+
+    # Polling notifications for email change propagation
+    polling:
+      inProgressTitle: E-postanız tüm hizmetlerde güncelleniyor... # Notification title while syncing
+      inProgressText: Bu birkaç dakika sürebilir. Uygulamayı kullanmaya devam edebilirsiniz. # Notification body while syncing
+      completedText: E-posta tüm hizmetlerde başarıyla güncellendi! # Success notification
+      failedTitle: Bazı hizmetler yeni e-postanızı senkronize edemedi. # Warning notification title
+      failedText: E-postanız değiştirildi, ancak bazı hizmetler hala eski e-postayı gösterebilir. Lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin. # Warning notification body
+
+    # Error messages
+    errors:
+      invalidEmail: Geçerli bir e-posta adresi girin # Invalid email format
+      incorrectCode: Girilen kod yanlış # Wrong OTP code
+      codeExpired: Doğrulama kodu süresi doldu. Lütfen yeni bir kod isteyin. # OTP expired
+      codeAlreadyUsed: Bu kod zaten kullanılmış. Lütfen yeni bir kod isteyin. # OTP already used
+      requestExpired: Doğrulama isteğiniz süresi doldu. Lütfen yeni bir kod isteyin. # OTP request token expired
+      emailInUse: Bu e-posta başka bir hesap tarafından kullanılıyor # Duplicate email
+      verificationExpired: Doğrulamanız süresi doldu. Lütfen baştan başlayın. # Verification token expired
+      generic: Bir hata oluştu. Lütfen tekrar deneyin. # Fallback error
