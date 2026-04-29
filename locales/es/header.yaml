@@ -17,7 +17,7 @@ header:
   # Draft badge - Small indicator next to diagram name
   # ========================================
   draftBadge:
-    label: Arrastrar # Small badge showing "Draft" label (appears next to unsaved diagram name)
+    label: Borrador # Small badge showing "Draft" label (appears next to unsaved diagram name)
     discardAll: Descartar todos los borradores # Button in draft dropdown (discards all draft versions)
 
   # ========================================
