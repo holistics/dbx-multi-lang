@@ -13,7 +13,7 @@ ai:
     noOtherChats: No hay otros chats aún # Empty state (no previous chats)
     sendInstructions: Presione Enter para enviar, Shift+Enter para nueva línea # Input hint (below chat box)
     sendMessage: Enviar mensaje # Send button (tooltip)
-    workspaceDisabled: Espacio De Trabajo deshabilitada # Disabled state message (no workspace)
+    workspaceDisabled: Espacio De Trabajo deshabilitado # Disabled state message (no workspace)
     editPermissionRequired: Se requiere permiso de edición # Permission error message
     usageLimitReached: Ha utilizado todo su límite de uso para este mes. Por favor, inténtelo de nuevo el # Usage limit message
     learnMoreAboutUsageLimits: Aprenda más sobre los límites de uso # Link text (usage limit toast)
