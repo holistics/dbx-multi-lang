@@ -53,7 +53,7 @@ common:
   import:
     title: Importar # Dropdown header in header toolbar (upload icon)
     importFrom: Importar desde # Label above import options
-    fromDatabaseConnection: De Conneccion a base de datos (via CLI) # CLI import option (opens documentation)
+    fromDatabaseConnection: De conexión a base de datos (vía CLI) # CLI import option (opens documentation)
     fromMySQL: De MySQL # MySQL database import (opens connection form)
     fromPostgreSQL: De PostgreSQL # PostgreSQL database import
     fromSQLServer: De SQL Server # SQL Server database import
@@ -99,7 +99,7 @@ common:
       title: Por favor, confirma # Modal title for unsaved work dialog
       content: Los cambios que has hecho pueden no ser guardados, ¿deseas continuar? # Warning text in dialog body
       negativeText: "No" # Cancel action button (gray, says "No")
-      positiveText: "Si" # Continue anyway button (blue, says "Yes")
+      positiveText: "Sí" # Continue anyway button (blue, says "Yes")
 
   # ========================================
   # States - Empty, loading, error state displays
@@ -138,7 +138,7 @@ common:
     dbdocsAccess: Por favor, inicia sesión para editar tu proyecto de dbdocs # Banner text (DBDocs editor)
     aiAssistant: Por favor, inicia sesión para usar el asistente de IA de dbdiagram # Banner text (AI panel)
     newDiagram: Por favor, inicia sesión para crear un nuevo diagrama # Banner text (creation page)
-    upgradePersonal: Por favor, inicia sesión para actualizar aplan Personal Pro # Banner text (upgrade page)
+    upgradePersonal: Por favor, inicia sesión para actualizar al plan Personal Pro # Banner text (upgrade page)
     upgradeTeam: Por favor, inicia sesión para comenzar tu prueba del plan Team # Banner text (team trial page)
     joinTeam: Por favor, inicia sesión para unirte a este espacio de trabajo en equipo # Banner text (team invite page)
     chartUpdateVisibleEntities: Por favor, inicia sesión para guardar la visibilidad de la tabla/nota adhesiva # Banner text (visibility change)
