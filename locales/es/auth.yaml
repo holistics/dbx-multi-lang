@@ -1,0 +1,87 @@
+# Authentication translations - Login, Signup, Password pages
+# UI Areas: Auth pages (/login, /signup, /forgot-password)
+
+auth:
+  # ========================================
+  # Login Page - Email/password login
+  # ========================================
+  login:
+    email: Correo Electrónico # Email input label
+    loginWithGithub: Iniciar sesión con GitHub # Social login button (GitHub)
+    loginWithMicrosoft: Iniciar sesión con Microsoft # Social login button (Microsoft)
+
+  # ========================================
+  # OAuth Errors - OAuth flow errors
+  # ========================================
+  oauth:
+    authorizationError: Autorización fallida # OAuth error title
+    processing: Procesando... # Loading state (OAuth redirect)
+    justAMomentPleaseWait: Solo un momento, por favor espere... # Loading message (OAuth redirect)
+    signedInAs: Está conectado como # Session label (SSO indicator)
+    failedSignInGitHub: Error al iniciar sesión con GitHub # Error toast (GitHub OAuth)
+    failedSignInMicrosoft: Error al iniciar sesión con Microsoft, por favor intente de nuevo! # Error toast (Microsoft OAuth)
+
+  # ========================================
+  # Form Errors - Validation error messages
+  # ========================================
+  errors:
+    invalidEmail: Dirección de correo electrónico inválida, por favor intente de nuevo! # Email validation
+    githubPopupBlocked: Por favor, permita ventanas emergentes para iniciar sesión con GitHub # Browser setting error
+
+  # ========================================
+  # OTP Authentication - One-time password
+  # ========================================
+  otp:
+    signInWithEmail: Iniciar sesión con correo electrónico # OTP tab label
+    otpSentTo: OTP enviado a # Label (shows masked email)
+    wrongEmail: ¿Dirección de correo electrónico incorrecta? # Change email link
+    changeEmail: Cambiar correo electrónico # Change email button
+    inputEmail: Por favor, ingrese su dirección de correo electrónico # Email input placeholder
+    inputYourOtp: Ingrese su OTP # OTP input placeholder
+    inputOtpCode: Por favor, ingrese el código OTP enviado al correo electrónico # OTP help text
+    signInSuccess: Sesión iniciada correctamente # Success message
+    didntReceiveOtp: ¿No recibió el OTP? # Help text (resend section)
+    resendOtp: Reenviar OTP # Resend button
+    resendAfter: Puede reenviar el OTP después de {counter}s # Timer label (disabled state)
+    submit: Enviar # OTP submit button
+    sendOtpFailed: Error al enviar el OTP, por favor intente de nuevo! # Error toast
+
+  # ========================================
+  # SSO Login - Single Sign-On
+  # ========================================
+  sso:
+    orContinueWith: o continuar con # SSO divider text
+
+  # ========================================
+  # Embedded Portal - OAuth portal pages
+  # ========================================
+  portal:
+    signIn: Iniciar sesión # Button (portal embedded login)
+    signInWith: Iniciar sesión con
+
+  # ========================================
+  # Additional Errors - Extra error messages
+  # ========================================
+  additional:
+    unknownError: Error desconocido # Fallback error
+    invalidOtp: OTP inválido, por favor intente de nuevo! # OTP validation error
+    cannotValidateOtp: No se puede validar el OTP, por favor intente de nuevo! # OTP validation failure
+    emailNotVerified: Su correo electrónico no está verificado. Por favor, verifíquelo en su cuenta de Microsoft. # MS email verification
+    cannotSignInMicrosoftSSO: No se puede iniciar sesión con Microsoft SSO, por favor intente de nuevo! # MS SSO error
+    cannotSignIn: No se puede iniciar sesión, por favor intente de nuevo! # Generic sign-in error
+    failedReloadProject: Error al recargar el proyecto después del inicio de sesión. Por favor, actualice la página. # Reload error
+    loginError: Error de inicio de sesión # Generic login error
+    signInCancelled: Inicio de sesión cancelado. Por favor, intente de nuevo. # Cancelled flow
+
+  # ========================================
+  # Logout Callback - Post-logout redirect
+  # ========================================
+  logoutCallback:
+    redirecting: Redirigiendo... # Loading message (logout redirect)
+    redirectDescription: Será redirigido a la aplicación en unos segundos. # Help text
+
+  popupsWarning:
+    title: No se puede abrir la ventana de inicio de sesión
+    description: La ventana de inicio de sesión pudo haber sido bloqueada por su navegador o una extensión. Por favor, verifique sus configuraciones y vuelva a intentarlo.
+    needHelp: ¿Necesita ayuda?
+    contactSupport: Contactar con soporte

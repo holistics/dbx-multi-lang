@@ -1,0 +1,112 @@
+# AI Assistant translations - AI panel and features
+# UI Areas: Right sidebar AI panel, Welcome modal, Diff viewer
+
+ai:
+  # ========================================
+  # AI Panel - Right sidebar chat interface
+  # ========================================
+
+  panel:
+    inputPlaceholder: Pregunteme cualquier cosa sobre su diagrama... # Chat input placeholder (empty state)
+    currentChat: Chat actual # Current chat section header
+    previousChats: Chats anteriores # Previous chats section header
+    noOtherChats: No hay otros chats aún # Empty state (no previous chats)
+    sendInstructions: Presione Enter para enviar, Shift+Enter para nueva línea # Input hint (below chat box)
+    sendMessage: Enviar mensaje # Send button (tooltip)
+    workspaceDisabled: Espacio De Trabajo deshabilitado # Disabled state message (no workspace)
+    editPermissionRequired: Se requiere permiso de edición # Permission error message
+    usageLimitReached: Ha utilizado todo su límite de uso para este mes. Por favor, inténtelo de nuevo el # Usage limit message
+    learnMoreAboutUsageLimits: Aprenda más sobre los límites de uso # Link text (usage limit toast)
+    chat: Chat # Chat tab label
+    clickToEdit: Click para editar # Editable message label
+    newChat: Nuevo Chat # New chat button (sidebar header)
+    showChatHistory: Mostrar Historial de Chat # Toggle button (shows chat sidebar)
+    hideChatHistory: Ocultar Historial de Chat # Toggle button (hides chat sidebar)
+
+  # ========================================
+  # AI Welcome Modal - First-time user experience
+  # ========================================
+  welcome:
+    title: Bienvenido a DBDiagram AI # Welcome modal title
+    subtitle: Su asistente inteligente para el diseño de bases de datos # Welcome modal subtitle
+
+  # ========================================
+  # AI Loading States - Message states
+  # ========================================
+  messages:
+    thinking: Pensando... # Loading indicator (AI thinking)
+    generating: Generando... # Loading indicator (schema generation)
+    explaining: Explicando... # Loading indicator (explanation)
+    error: Algo salió mal. Por favor, inténtelo de nuevo. # Error message (retryable)
+    rateLimit: Ha alcanzado el límite de uso. Por favor, actualice para continuar. # Rate limit message
+
+  # ========================================
+  # Diff Viewer - AI change comparison
+  # ========================================
+  diffViewer:
+    reject: Rechazar # Button (reject single change)
+    accept: Aceptar # Button (accept single change)
+    rejectAll: Rechazar Todo # Button (reject all changes)
+    acceptAll: Aceptar Todo # Button (accept all changes)
+
+  # ========================================
+  # Token Usage - AI usage tracking
+  # ========================================
+  tokenUsage:
+    used: Usado # Usage counter label (left side)
+    usageText: Has usado {percentage} de tu límite de uso # Usage progress text
+    tokens: tokens # Unit label (usage display)
+    learnMore: Click para aprender más sobre los límites de uso # Tooltip (usage indicator)
+    resetOn: Reiniciar el # Label (usage reset date)
+
+  # ========================================
+  # AI Response Details - Response metadata
+  # ========================================
+  assistant:
+    dbmlCode: Codigo DBML # Label (code block header)
+    lines: lineas # Unit label (code lines count)
+
+  # ========================================
+  # AI Response Messages - Standard responses
+  # ========================================
+  responseMessages:
+    noExplanation: Esquema actualizado. Revise el visor de diferencias para revisar los cambios. # Message after schema update
+    invalidIntent: "Bienvenido a dbdiagram AI.\n\nEstoy aquí para ayudarte con:\n\n• **Diseño de esquema DBML** - Crear y modificar tablas, relaciones y estructuras de base de datos\n• **Mejores prácticas de base de datos** - Sugerir tipos de datos óptimos, índices y restricciones\n• **Optimización de esquema** - Organizar tablas con Grupos de Tablas, agregar marcas de tiempo y remapear tipos de datos\n• **Transformaciones rápidas** - Convertir entre sistemas de base de datos (PostgreSQL, MySQL, SQL Server, etc.)\n\nPrueba preguntandome como crear tablas, agregar relaciones o usar las acciones rápidas de arriba para comenzar!" # Help message (unrecognized command)
+
+  # ========================================
+  # Quick Action Titles - Action card headers
+  # ========================================
+  quickActionTitles:
+    createTableGroups: Crear Grupos de Tablas # Quick action card 1 title
+    addTimestampColumns: Agregar Columnas de Marca de Tiempo # Quick action card 2 title
+    addRelationships: Agregar Relaciones # Quick action card 3 title
+    addIndexes: Agregar Índices # Quick action card 4 title
+    learnDatabaseDesign: Aprender Diseño de Base de Datos # Quick action card 5 title
+    cloneSlack: Clonar Slack # Quick action card 6 title
+    documentDatabase: Documentar Base de Datos # Quick action card 7 title
+    todoList: Lista de Tareas # Quick action card 8 title
+    remapDataTypes: Remapear Tipos de Datos # Quick action card 9 title
+
+  # ========================================
+  # Quick Action Descriptions - Action card subtitles
+  # ========================================
+  quickActionDescriptions:
+    createTableGroups: Organizar tablas en grupos lógicos por dominio y funcionalidad con colores distintos # Card 1 description
+    addTimestampColumns: Agregar columnas created_at y updated_at a las tablas que necesitan seguimiento de auditoría # Card 2 description
+    addRelationships: Detectar y agregar automáticamente relaciones de llave foránea basadas en convenciones de nomenclatura # Card 3 description
+    addIndexes: Agregar bloques de índice para llaves foráneas y columnas comúnmente consultadas # Card 4 description
+    learnDatabaseDesign: Aprender sobre el diseño de base de datos # Card 5 description
+    cloneSlack: Crear un clon de Slack # Card 6 description
+    documentDatabase: Crear una base de datos para almacenar documentos # Card 7 description
+    todoList: Crear una aplicación de lista de tareas # Card 8 description
+    remapDataTypes: Convertir tipos de datos para que coincidan con tu sistema de base de datos objetivo # Card 9 description
+
+  # ========================================
+  # Quick Action Sub-actions - Database type selectors
+  # ========================================
+  quickActionSubActions:
+    postgresql: PostgreSQL # Database selector option
+    mysql: MySQL # Database selector option
+    sqlServer: SQL Server # Database selector option
+    sqlite: SQLite # Database selector option
+    oracle: Oracle # Database selector option

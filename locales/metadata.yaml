@@ -30,3 +30,9 @@ pt-BR:
   nativeName: Português (Brasil)
   flag: 🇧🇷
   hello: Olá
+
+es:
+  name: Spanish
+  nativeName: Español
+  flag: 🇨🇴
+  hello: Hola

@@ -1,0 +1,177 @@
+workspace:
+  # ========================================
+  # Etiquetas generales del workspace - Barra lateral y desplegable
+  # ========================================
+  personalWorkspace: Espacio de trabajo personal
+  personal: Personal
+  createWorkspace: Crear nuevo espacio de trabajo
+  dashboard: Panel
+  newDiagram: Nuevo diagrama
+  newSampleDiagram: Nuevo diagrama de ejemplo
+  basic: Básico
+  advanced: Avanzado
+  myDiagrams: Mis diagramas
+  sharedWithMe: Compartido conmigo
+  workspace: Espacio de trabajo
+  private: Privado
+  readOnlyMode: El espacio de trabajo está en modo de solo lectura debido a la cancelación de una suscripción. Por favor, renueva para habilitar la funcionalidad.
+
+  # ========================================
+  # Configuración - Página de configuración del workspace
+  # ========================================
+  settings:
+    title: Configuración
+    workspaceName: Nombre del espacio de trabajo
+    update: Actualizar
+    loadingInfo: Cargando información del espacio de trabajo...
+    singleSignOn: Inicio de sesión único
+    authenticateWithSSO: Autenticarse con SSO (SAML)
+    enabled: Habilitado
+    samlConfiguration: Configuración SAML
+    enforceSSO: Forzar SSO
+    enforceSSODescription: Una vez activado, los miembros solo podrán acceder a este espacio mediante SSO
+    identityProviderUrl: URL de inicio de sesión del proveedor de identidad
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
+    identityProviderUrlHelp: La URL del endpoint de tu proveedor de identidad.
+    certificate: Certificado
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----"
+    samlConfigurationForProvider: Configuración SAML para tu proveedor de identidad
+    assertionConsumerServiceUrl: URL del servicio consumidor de aserciones
+    assertionConsumerServiceUrlHelp: También llamada "Reply URL"
+    identifier: Identificador
+    identifierHelp: También llamado "Issuer"
+    saveSSOSettings: Guardar configuración de inicio de sesión único
+    manageWorkspace: Administrar espacio de trabajo
+    removeWorkspace: Eliminar espacio de trabajo...
+    cancelRemovalRequest: Cancelar solicitud de eliminación
+    removalWarning: ¡Esta acción no se puede deshacer!
+    removalScheduledHours: Tu espacio de trabajo será eliminado en unas horas.
+    removalScheduledDay: Tu espacio de trabajo será eliminado en un día.
+    removalScheduledDays: "Tu espacio de trabajo será eliminado en {count} días."
+    removeWorkspaceTitle: ¿Eliminar este espacio de trabajo?
+    removeWorkspaceContent: Programaremos la eliminación de tu espacio de trabajo en 7 días. Puedes cancelar esta programación en el menú de configuración si cambias de opinión.
+    removeWorkspaceButton: Eliminar este espacio de trabajo
+    removeWorkspaceSuggestion: "Por favor escribe <i>permanently delete</i> en el campo de texto para confirmar."
+    removalRequestCanceled: ¡Solicitud de eliminación cancelada con éxito!
+    removalRequestCreated: ¡Solicitud de eliminación creada con éxito!
+    contactSupportError: Ha ocurrido un error, por favor contacta a soporte en dbdiagram@holistics.io
+    workspaceNameUpdated: Nombre del espacio de trabajo actualizado con éxito
+    workspaceNameUpdateFailed: Error al actualizar el nombre del espacio de trabajo, ¡intenta de nuevo!
+    ssoConfigFetchFailed: Error al obtener la configuración SSO. Por favor recarga la página.
+    ssoConfigUpdated: Configuración SSO actualizada con éxito
+    ssoConfigSaveFailed: Error al guardar la configuración SSO. Por favor intenta nuevamente.
+
+  # ========================================
+  # Miembros - Gestión de miembros
+  # ========================================
+  members:
+    invite: Invitar
+    invitePlaceholder: Ingresa dirección de correo electrónico
+    inviteButton: Invitar
+    members: Miembros
+    role:
+      member: Miembro
+      owner: Propietario
+    actions:
+      remove: Eliminar
+      removeInvitation: Eliminar esta invitación
+      removeMember: Eliminar este miembro
+    dialog:
+      removeMessage: Estás a punto de eliminar a <b>{email}</b> de tu espacio de trabajo, ¡por favor confirma tu acción!
+    notifications:
+      removeSuccess: ¡{email} eliminado correctamente del espacio de trabajo!
+      removeError: ¡No se pudo eliminar a {email} del espacio de trabajo!
+
+  # ========================================
+  # Lista de diagramas - Vista de lista
+  # ========================================
+  diagramList:
+    searchPlaceholder: Buscar diagramas
+    freePlan: Gratis
+    plan: plan
+    diagramCount: "Diagramas: {count}/{limit}"
+    duplicate: Duplicar
+    delete: Eliminar
+    untitledDiagram: Diagrama sin título
+    columns:
+      name: Nombre
+      dateCreated: Fecha de creación
+      dateModified: Fecha de modificación
+      owner: Propietario
+
+  # ========================================
+  # Barra lateral - Secciones
+  # ========================================
+  sidebar:
+    apiTokens: Tokens API
+    billing: Facturación
+
+  # ========================================
+  # Estados vacíos - Vistas sin diagramas
+  # ========================================
+  emptyDiagrams:
+    title: Aún no hay diagramas
+    created:
+      description: No hay diagramas en tu espacio de trabajo. Puedes crear uno nuevo con el
+      button: + Nuevo diagrama
+      buttonSuffix: botón.
+    shared:
+      description: Aún no has sido invitado a ningún diagrama.
+    workspacePublic:
+      description: No hay diagramas visibles para el equipo. Puedes crear nuevos diagramas con el
+    workspacePrivate:
+      description: No hay diagramas privados. Puedes crear un nuevo diagrama y mantenerlo personal.
+
+  # ========================================
+  # Plan - Plan labels
+  # ========================================
+  plan:
+    pro: Plan Pro # Pro plan label
+    free: Plan Gratis # Free plan label
+    team: Plan Equipo # Team plan label
+    disabled: "(Desactivado)" # Disabled plan label
+
+  # ========================================
+  # Welcome - Welcome modal
+  # ========================================
+  welcome:
+    title: Bienvenido al espacio de trabajo de equipo! # Welcome modal title
+    description: Empieza por crear nuevos diagramas y colaborar con tus compañeros de equipo. # Welcome modal description
+    learnMore: Saber más → # Learn more link
+
+  # ========================================
+  # API Tokens - API tokens management
+  # ========================================
+  apiTokens:
+    title: API Tokens # API Tokens page title
+    description: Los tokens de API se utilizan para la autenticación en la API de dbdiagram cada vez que se realiza una solicitud a la API. Al igual que las contraseñas, el token de API debe mantenerse en secreto. # Description text
+    seeDocumentation: Ver documentación # Link to API docs
+    generateNew: Generar nuevo token # Button to generate token
+    columns:
+      name: Nombre # Token name column header
+      dateCreated: Fecha de Creación # Created date column header
+      lastUsed: Último Uso # Last used column header
+      owner: Propietario # Owner column header
+    empty: No se han creado tokens # Empty state message
+    actions:
+      revoke: Revocar # Revoke token action
+    modal:
+      newToken: Nuevo Token de API # New token modal title
+      tokenName: Nombre del token # Token name input label
+      tokenNamePlaceholder: Ingresar nombre del token # Token name placeholder
+      generate: Generar token # Generate button
+      copyWarning: Asegúrate de copiar el token de API ahora ya que no podrás verlo de nuevo. # Warning about copying token
+      copied: Copiado # Success message after copying
+      copy: Copiar # Copy button
+      done: Listo # Done button
+      revokeTitle: Revocar Token de API? # Revoke confirmation title
+      revokeContent: ¿Quieres revocar el token de API "{name}"? Esta acción no se puede deshacer. # Revoke confirmation content
+      revokePositive: Revocar Token # Confirm revoke button
+      revokeSuggestion: "Por favor, escribe <i>permanently delete</i> en el campo de entrada de texto para confirmar." # Revoke input prompt
+      generateSuccess: Token generado exitosamente # Success toast
+    errors:
+      nameEmpty: Nombre del token no puede estar vacío # Validation error
+      nameInvalid: El nombre del token solo puede contener letras, números, espacios, "-" o "_" # Validation error
+      nameWhitespace: El nombre del token no puede estar vacío o solo contener espacios en blanco # Validation error
+      upgradeRequired: Por favor, actualiza tu plan para crear tokens y acceder a nuestra API # Upgrade required error
+      ownerOnly: Solo el propietario del espacio de trabajo puede generar nuevos tokens # Permission error
