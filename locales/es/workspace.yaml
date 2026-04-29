@@ -1,129 +1,126 @@
-# Workspace translations - Sidebar, dropdown, and settings
-# UI Areas: Left sidebar, Workspace dropdown, Settings page
-
 workspace:
   # ========================================
-  # General workspace labels - Sidebar and dropdown
+  # Etiquetas generales del workspace - Barra lateral y desplegable
   # ========================================
-  personalWorkspace: Personal Workspace # Label for personal workspace (when no team workspace selected in dropdown)
-  personal: Personal # Short label for personal workspace type
-  createWorkspace: Create new workspace # Button/link to create new team workspace (sidebar)
-  dashboard: Dashboard # Sidebar link to workspace dashboard (left sidebar)
-  newDiagram: New Diagram # Button to create new diagram (sidebar)
-  newSampleDiagram: New Sample Diagram # Dropdown with sample diagram templates (sidebar)
-  basic: Basic # Label for basic tier/sample (templates dropdown)
-  advanced: Advanced # Label for advanced tier/sample (templates dropdown)
-  myDiagrams: My Diagrams # Sidebar section for personal diagrams
-  sharedWithMe: Shared with Me # Sidebar section for shared diagrams
-  workspace: Workspace # Label for team workspace type
-  private: Private # Privacy label for private items
-  readOnlyMode: Workspace is in read-only mode due to a subscription cancellation. Please renew to enable workspace functionality.
+  personalWorkspace: Espacio de trabajo personal
+  personal: Personal
+  createWorkspace: Crear nuevo espacio de trabajo
+  dashboard: Panel
+  newDiagram: Nuevo diagrama
+  newSampleDiagram: Nuevo diagrama de ejemplo
+  basic: Básico
+  advanced: Avanzado
+  myDiagrams: Mis diagramas
+  sharedWithMe: Compartido conmigo
+  workspace: Espacio de trabajo
+  private: Privado
+  readOnlyMode: El espacio de trabajo está en modo de solo lectura debido a la cancelación de una suscripción. Por favor, renueva para habilitar la funcionalidad.
 
   # ========================================
-  # Settings - Workspace settings page
+  # Configuración - Página de configuración del workspace
   # ========================================
   settings:
-    title: Settings # Settings page title
-    workspaceName: Workspace name # Label for workspace name field
-    update: Update # Save button for settings
-    loadingInfo: Loading workspace information... # Loading message when fetching settings
-    singleSignOn: Single Sign-On # SSO settings section title
-    authenticateWithSSO: Authenticate with SSO (SAML) # SSO toggle label
-    enabled: Enabled # Status label for enabled
-    samlConfiguration: SAML configuration # SAML config section title
-    enforceSSO: Enforce SSO # Enforce SSO toggle
-    enforceSSODescription: Once enforced, workspace members can only access this workspace via SSO # Help text for enforce SSO
-    identityProviderUrl: Identity Provider Single Sign-On URL # IdP URL field label
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
-    identityProviderUrlHelp: The URL of your Identity Provider endpoint. # Help text for IdP URL
-    certificate: Certificate # Certificate field label
-    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----" # Placeholder for certificate
-    samlConfigurationForProvider: SAML configuration for your identity provider # Provider config section
-    assertionConsumerServiceUrl: Assertion consumer service URL # ACS URL field label
-    assertionConsumerServiceUrlHelp: Also called "Replying party service URL" or "Reply URL" # Help text for ACS URL
-    identifier: Identifier # Identifier field label
-    identifierHelp: Also called "Issuer" or "Relying party trust identifier" # Help text for identifier
-    saveSSOSettings: Save Single Sign-On Settings # Save SSO settings button
-    manageWorkspace: Manage workspace # Link to workspace management
-    removeWorkspace: Remove workspace... # Danger button to remove workspace
-    cancelRemovalRequest: Cancel removal request # Cancel workspace removal button
-    removalWarning: This action cannot be undone! # Warning about removal
-    removalScheduledHours: Your workspace will be removed after a few hours. # Removal scheduled message
-    removalScheduledDay: Your workspace will be removed after a day. # Removal scheduled message
-    removalScheduledDays: "Your workspace will be removed after {count} days." # Removal scheduled message
-    removeWorkspaceTitle: Remove this workspace? # Remove workspace modal title
-    removeWorkspaceContent: We'll set a schedule to remove your workspace after 7 days. You can cancel the workspace removal schedule in this "Settings" menu if you change your mind. # Remove workspace modal content
-    removeWorkspaceButton: Remove this workspace # Confirm remove button
-    removeWorkspaceSuggestion: "Please type <i>permanently delete</i> in the text input field to confirm." # Confirmation input prompt
-    removalRequestCanceled: Removal request was canceled successfully! # Success toast
-    removalRequestCreated: Removal request was created successfully! # Success toast
-    contactSupportError: An error has occurred, please contact our support at dbdiagram@holistics.io # Support contact message
-    workspaceNameUpdated: Workspace name updated successfully # Success toast
-    workspaceNameUpdateFailed: Workspace name update failed, please try again! # Error toast
-    ssoConfigFetchFailed: Failed to fetch SSO configuration. Please try to refresh the page. # Error toast
-    ssoConfigUpdated: SSO configuration updated successfully # Success toast
-    ssoConfigSaveFailed: Failed to save SSO configuration. Please try again. # Error toast
+    title: Configuración
+    workspaceName: Nombre del espacio de trabajo
+    update: Actualizar
+    loadingInfo: Cargando información del espacio de trabajo...
+    singleSignOn: Inicio de sesión único
+    authenticateWithSSO: Autenticarse con SSO (SAML)
+    enabled: Habilitado
+    samlConfiguration: Configuración SAML
+    enforceSSO: Forzar SSO
+    enforceSSODescription: Una vez activado, los miembros solo podrán acceder a este espacio mediante SSO
+    identityProviderUrl: URL de inicio de sesión del proveedor de identidad
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
+    identityProviderUrlHelp: La URL del endpoint de tu proveedor de identidad.
+    certificate: Certificado
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----"
+    samlConfigurationForProvider: Configuración SAML para tu proveedor de identidad
+    assertionConsumerServiceUrl: URL del servicio consumidor de aserciones
+    assertionConsumerServiceUrlHelp: También llamada "Reply URL"
+    identifier: Identificador
+    identifierHelp: También llamado "Issuer"
+    saveSSOSettings: Guardar configuración de inicio de sesión único
+    manageWorkspace: Administrar espacio de trabajo
+    removeWorkspace: Eliminar espacio de trabajo...
+    cancelRemovalRequest: Cancelar solicitud de eliminación
+    removalWarning: ¡Esta acción no se puede deshacer!
+    removalScheduledHours: Tu espacio de trabajo será eliminado en unas horas.
+    removalScheduledDay: Tu espacio de trabajo será eliminado en un día.
+    removalScheduledDays: "Tu espacio de trabajo será eliminado en {count} días."
+    removeWorkspaceTitle: ¿Eliminar este espacio de trabajo?
+    removeWorkspaceContent: Programaremos la eliminación de tu espacio de trabajo en 7 días. Puedes cancelar esta programación en el menú de configuración si cambias de opinión.
+    removeWorkspaceButton: Eliminar este espacio de trabajo
+    removeWorkspaceSuggestion: "Por favor escribe <i>permanently delete</i> en el campo de texto para confirmar."
+    removalRequestCanceled: ¡Solicitud de eliminación cancelada con éxito!
+    removalRequestCreated: ¡Solicitud de eliminación creada con éxito!
+    contactSupportError: Ha ocurrido un error, por favor contacta a soporte en dbdiagram@holistics.io
+    workspaceNameUpdated: Nombre del espacio de trabajo actualizado con éxito
+    workspaceNameUpdateFailed: Error al actualizar el nombre del espacio de trabajo, ¡intenta de nuevo!
+    ssoConfigFetchFailed: Error al obtener la configuración SSO. Por favor recarga la página.
+    ssoConfigUpdated: Configuración SSO actualizada con éxito
+    ssoConfigSaveFailed: Error al guardar la configuración SSO. Por favor intenta nuevamente.
 
   # ========================================
-  # Members - Member management
+  # Miembros - Gestión de miembros
   # ========================================
   members:
-    invite: Invite # Invite button
-    invitePlaceholder: Enter email address # Email input placeholder
-    inviteButton: Invite # Send invite button
-    members: Members # Members section title
+    invite: Invitar
+    invitePlaceholder: Ingresa dirección de correo electrónico
+    inviteButton: Invitar
+    members: Miembros
     role:
-      member: Member # Member role label
-      owner: Owner # Owner role label
+      member: Miembro
+      owner: Propietario
     actions:
-      remove: Remove # Remove action
-      removeInvitation: Remove this invitation # Remove invitation action
-      removeMember: Remove this member # Remove member confirmation
+      remove: Eliminar
+      removeInvitation: Eliminar esta invitación
+      removeMember: Eliminar este miembro
     dialog:
-      removeMessage: You are about to remove <b>{email}</b> from your workspace, please confirm your action! # Remove dialog message
+      removeMessage: Estás a punto de eliminar a <b>{email}</b> de tu espacio de trabajo, ¡por favor confirma tu acción!
     notifications:
-      removeSuccess: Successfully removed {email} from workspace! # Success toast
-      removeError: Cannot remove {email} from workspace! # Error toast
+      removeSuccess: ¡{email} eliminado correctamente del espacio de trabajo!
+      removeError: ¡No se pudo eliminar a {email} del espacio de trabajo!
 
   # ========================================
-  # Diagram List - Diagram list view
+  # Lista de diagramas - Vista de lista
   # ========================================
   diagramList:
-    searchPlaceholder: Search diagrams # Search input placeholder
-    freePlan: Free # Label for free plan
-    plan: plan # Plan suffix label
-    diagramCount: "Diagrams: {count}/{limit}" # Diagram count indicator
-    duplicate: Duplicate # Duplicate button
-    delete: Delete # Delete button
-    untitledDiagram: Untitled Diagram # Default name for unnamed diagrams
+    searchPlaceholder: Buscar diagramas
+    freePlan: Gratis
+    plan: plan
+    diagramCount: "Diagramas: {count}/{limit}"
+    duplicate: Duplicar
+    delete: Eliminar
+    untitledDiagram: Diagrama sin título
     columns:
-      name: Name # Table column header (diagram name)
-      dateCreated: Date Created # Table column header
-      dateModified: Date Modified # Table column header
-      owner: Owner # Table column header
+      name: Nombre
+      dateCreated: Fecha de creación
+      dateModified: Fecha de modificación
+      owner: Propietario
 
   # ========================================
-  # Sidebar - Sidebar sections
+  # Barra lateral - Secciones
   # ========================================
   sidebar:
-    apiTokens: API Tokens # API Tokens link (left sidebar)
-    billing: Billing # Billing link (left sidebar)
+    apiTokens: Tokens API
+    billing: Facturación
 
   # ========================================
-  # Empty States - Empty diagrams views
+  # Estados vacíos - Vistas sin diagramas
   # ========================================
   emptyDiagrams:
-    title: No diagrams yet # Empty diagrams title
+    title: Aún no hay diagramas
     created:
-      description: There are no diagrams in your workspace. You can create a new one with the # Empty state description (part 1)
-      button: + New Diagram # Button to create first diagram
-      buttonSuffix: button. # Empty state description (part 2)
+      description: No hay diagramas en tu espacio de trabajo. Puedes crear uno nuevo con el
+      button: + Nuevo diagrama
+      buttonSuffix: botón.
     shared:
-      description: You have not yet been invited to any diagrams. # Empty state for shared diagrams
+      description: Aún no has sido invitado a ningún diagrama.
     workspacePublic:
-      description: There are no diagrams displayed to the team. You can create new diagrams with the # Empty state for public workspace
+      description: No hay diagramas visibles para el equipo. Puedes crear nuevos diagramas con el
     workspacePrivate:
-      description: There are no private diagrams. You can create a new diagram and keep it personal. # Empty state for private workspace
+      description: No hay diagramas privados. Puedes crear un nuevo diagrama y mantenerlo personal.
 
   # ========================================
   # Plan - Plan labels
