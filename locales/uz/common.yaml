@@ -169,7 +169,7 @@ common:
       fullSession: Sessiya to'lganligi sababli ulanib bo'lmadi! # Toast when collaboration session full
       diagramDeleted: Ushbu diagramma o'chirilgan! # Toast when diagram deleted by owner
       overwrittenDiagram: Kimdir diagramma tarkibini ustidan yozdi, oxirgi o'zgarishlarni ko'rish uchun sahifani yangilang! # Toast when remote changes
-      diagramMigratedDiagramViewAsCode: Sizning diagramma ko'rinishlaringiz (views) yangi "Diagram View as Code" formatiga o'tkazildi. Davom etish uchun sahifani yangilang. Agar muammoga duch kelsangiz, dbdiagram{'@'}holistics.io ga murojaat qiling. # Toast when DiagramView-as-code migration completes
+            diagramMigratedDiagramViewAsCode: Sizning diagramma ko'rinishlaringiz (views) yangi "Diagram View as Code" formatiga o'tkazildi. Davom etish uchun sahifani yangilang. Agar muammoga duch kelsangiz, dbdiagram@holistics.io ga murojaat qiling. # Toast when DiagramView-as-code migration completes
       permissionsChanged: Ruxsatlaringiz o'zgartirildi, o'zgarishlarni qo'llash uchun sahifani yangilang! # Toast when permissions updated
       cannotReconnect: Serverga qayta ulanib bo'lmadi # Toast when reconnection fails
 
