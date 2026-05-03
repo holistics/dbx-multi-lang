@@ -97,11 +97,11 @@ portal:
   oauthErrors:
     invalidAuthRequest: Noto'g'ri autentifikatsiya so'rovi # OAuth error
     unsupportedResponseType: Qo'llab-quvvatlanmaydigan response_type parametri # OAuth error
-    invalidClient: Noto'g'ri mijoz (Invalid Client) # OAuth error
+    invalidClient: Noto'g'ri mijoz # OAuth error
     missingClientIdOrRedirectUri: client_id yoki redirect_uri yetishmayapti # OAuth error
     missingCodeChallenge: "Majburiy parametr yetishmayapti: code_challenge" # OAuth error
     missingState: "Majburiy parametr yetishmayapti: state" # OAuth error
-    invalidAccess: Noto'g'ri kirish (Invalid Access) # OAuth error
+    invalidAccess: Ruxsat yaroqsiz # OAuth error
     pageMustBeOpened: Ushbu sahifa dasturdan ochilishi kerak. # OAuth error
     unsupportedPrompt: Qo'llab-quvvatlanmaydigan prompt parametri # OAuth error
     unexpectedError: Kutilmagan xatolik # OAuth error
