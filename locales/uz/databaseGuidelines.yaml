@@ -10,7 +10,7 @@ databaseGuidelines:
     install: O'rnatish # Install link text
     tool: mysqldump # Tool name
     terminalCommand: Terminalingizda quyidagi buyruqni bajaring # Instruction (command block)
-    linuxPrefix: "Linuxda qo‘shishingiz kerak bo‘lishi mumkin" # Linux-specific note
+    linuxPrefix: "Linuxda qo'shishingiz kerak bo'lishi mumkin" # Linux-specific note
     sudo: sudo # Sudo command
     linuxSuffix: undan avval # Sudo placement hint
     example: Misol # Command block label
@@ -21,10 +21,10 @@ databaseGuidelines:
   # ========================================
   postgres:
     title: PostgreSQL # Database selector option (import modal)
-    install: O'rnatish # Install link text
+    install: "O'rnatish" # Install link text
     tool: pg_dump # Tool name
     terminalCommand: Terminalingizda quyidagi buyruqni bajaring # Instruction (command block)
-    linuxPrefix: "Linuxda qo‘shishingiz kerak bo‘lishi mumkin" # Linux-specific note
+    linuxPrefix: "Linuxda qo'shishingiz kerak bo'lishi mumkin" # Linux-specific note
     sudo: sudo # Sudo command
     linuxSuffix: undan avval # Sudo placement hint
     example: Misol # Command block label
