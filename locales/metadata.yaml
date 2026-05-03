@@ -25,6 +25,12 @@ ja:
   flag: 🇯🇵
   hello: こんにちは
 
+uz:
+  name: Uzbek
+  nativeName: O'zbek
+  flag: 🇺🇿
+  hello: Salom
+
 pt-BR:
   name: Portuguese (Brazil)
   nativeName: Português (Brasil)

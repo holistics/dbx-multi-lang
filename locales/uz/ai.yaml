@@ -1,0 +1,112 @@
+# AI Assistant translations - AI panel and features
+# UI Areas: Right sidebar AI panel, Welcome modal, Diff viewer
+
+ai:
+  # ========================================
+  # AI Panel - Right sidebar chat interface
+  # ========================================
+
+  panel:
+    inputPlaceholder: Diagrammangiz haqida istalgan narsani so'rang... # Chat input placeholder (empty state)
+    currentChat: Joriy suhbat # Current chat section header
+    previousChats: Oldingi suhbatlar # Previous chats section header
+    noOtherChats: Boshqa suhbatlar yo'q # Empty state (no previous chats)
+    sendInstructions: Yuborish uchun Enter, yangi qator uchun Shift+Enter tugmasini bosing # Input hint (below chat box)
+    sendMessage: Xabar yuborish # Send button (tooltip)
+    workspaceDisabled: Ish maydoni o'chirilgan # Disabled state message (no workspace)
+    editPermissionRequired: Tahrirlash ruxsati kerak # Permission error message
+    usageLimitReached: Siz ushbu oy uchun foydalanish limitiga yetdingiz. Iltimos, qayta urinib ko'ring # Usage limit message
+    learnMoreAboutUsageLimits: Foydalanish limitlari haqida ko'proq bilib oling # Link text (usage limit toast)
+    chat: Suhbat # Chat tab label
+    clickToEdit: Tahrirlash uchun bosing # Editable message label
+    newChat: Yangi suhbat # New chat button (sidebar header)
+    showChatHistory: Suhbatlar tarixini ko'rsatish # Toggle button (shows chat sidebar)
+    hideChatHistory: Suhbatlar tarixini yashirish # Toggle button (hides chat sidebar)
+
+  # ========================================
+  # AI Welcome Modal - First-time user experience
+  # ========================================
+  welcome:
+    title: DBDiagram AI-ga xush kelibsiz # Welcome modal title
+    subtitle: Ma'lumotlar bazasini loyihalash uchun sizning aqlli yordamchingiz # Welcome modal subtitle
+
+  # ========================================
+  # AI Loading States - Message states
+  # ========================================
+  messages:
+    thinking: O'ylanmoqda... # Loading indicator (AI thinking)
+    generating: Yaratilmoqda... # Loading indicator (schema generation)
+    explaining: Tushuntirilmoqda... # Loading indicator (explanation)
+    error: Nimadir xato ketdi. Iltimos, qayta urinib ko'ring. # Error message (retryable)
+    rateLimit: Siz foydalanish limitiga yetdingiz. Davom etish uchun tarifni oshiring. # Rate limit message
+
+  # ========================================
+  # Diff Viewer - AI change comparison
+  # ========================================
+  diffViewer:
+    reject: Rad etish # Button (reject single change)
+    accept: Qabul qilish # Button (accept single change)
+    rejectAll: Barchasini rad etish # Button (reject all changes)
+    acceptAll: Barchasini qabul qilish # Button (accept all changes)
+
+  # ========================================
+  # Token Usage - AI usage tracking
+  # ========================================
+  tokenUsage:
+    used: Foydalanildi # Usage counter label (left side)
+    usageText: Siz foydalanish limitining {percentage} qismini ishlatdingiz # Usage progress text
+    tokens: tokenlar # Unit label (usage display)
+    learnMore: Foydalanish limitlari haqida ko'proq bilish uchun bosing # Tooltip (usage indicator)
+    resetOn: Yangilanish vaqti # Label (usage reset date)
+
+  # ========================================
+  # AI Response Details - Response metadata
+  # ========================================
+  assistant:
+    dbmlCode: DBML kodi # Label (code block header)
+    lines: qatorlar # Unit label (code lines count)
+
+  # ========================================
+  # AI Response Messages - Standard responses
+  # ========================================
+  responseMessages:
+    noExplanation: Sxema yangilandi. O'zgarishlarni ko'rib chiqish uchun farqlar ko'ruvchisini (diff viewer) tekshiring. # Message after schema update
+    invalidIntent: "DBDiagram AI-ga xush kelibsiz.\n\nMen sizga quyidagilarda yordam berish uchun shu yerdaman:\n\n• **DBML sxemasi dizayni** - Jadvallar, munosabatlar va ma'lumotlar bazasi tuzilmalarini yaratish va o'zgartirish\n• **Ma'lumotlar bazasining eng yaxshi amaliyotlari** - Optimal ma'lumotlar turlari, indekslar va cheklovlarni taklif qilish\n• **Sxemani optimallashtirish** - Jadvallarni guruhlar (TableGroups) bo'yicha tashkil etish, vaqt belgilarini (timestamps) qo'shish, ma'lumotlar turlarini qayta xaritalash\n• **Tezkor o'zgartirishlar** - Ma'lumotlar bazasi tizimlari o'rtasida konvertatsiya qilish (PostgreSQL, MySQL, SQL Server va hokazo.)\n\nBoshlash uchun mendan jadvallar yaratish, munosabatlar qo'shish yoki yuqoridagi tezkor amallardan birini bajarishni so'rab ko'ring!" # Help message (unrecognized command)
+
+  # ========================================
+  # Quick Action Titles - Action card headers
+  # ========================================
+  quickActionTitles:
+    createTableGroups: Jadval guruhlarini yaratish # Quick action card 1 title
+    addTimestampColumns: Vaqt ustunlarini (Timestamp) qo'shish # Quick action card 2 title
+    addRelationships: Munosabatlar qo'shish # Quick action card 3 title
+    addIndexes: Indekslar qo'shish # Quick action card 4 title
+    learnDatabaseDesign: Ma'lumotlar bazasi dizaynini o'rganish # Quick action card 5 title
+    cloneSlack: Slack klonini yaratish # Quick action card 6 title
+    documentDatabase: Hujjatlar ma'lumotlar bazasini yaratish # Quick action card 7 title
+    todoList: Vazifalar ro'yxatini (Todo List) yaratish # Quick action card 8 title
+    remapDataTypes: Ma'lumotlar turini o'zgartirish # Quick action card 9 title
+
+  # ========================================
+  # Quick Action Descriptions - Action card subtitles
+  # ========================================
+  quickActionDescriptions:
+    createTableGroups: Jadvallaringizni domeni va funksionalligi bo'yicha turli xil ranglar bilan mantiqiy guruhlarga ajrating # Card 1 description
+    addTimestampColumns: Audit uchun kuzatilishi kerak bo'lgan jadvallarga created_at va updated_at ustunlarini qo'shing # Card 2 description
+    addRelationships: Nomlash qoidalariga asoslangan holda tashqi kalit (foreign key) munosabatlarini avtomatik aniqlang va qo'shing # Card 3 description
+    addIndexes: Tashqi kalitlar (foreign keys) va tez-tez so'raladigan ustunlar uchun indeks bloklarini qo'shing # Card 4 description
+    learnDatabaseDesign: Ma'lumotlar bazasini loyihalash haqida o'rganing # Card 5 description
+    cloneSlack: Slack klonini yarating # Card 6 description
+    documentDatabase: Hujjatlarni saqlash uchun ma'lumotlar bazasini yarating # Card 7 description
+    todoList: Vazifalar ro'yxati dasturini yarating # Card 8 description
+    remapDataTypes: Ma'lumotlar turlarini maqsadli ma'lumotlar bazasi tizimiga moslashtirish uchun o'zgartiring # Card 9 description
+
+  # ========================================
+  # Quick Action Sub-actions - Database type selectors
+  # ========================================
+  quickActionSubActions:
+    postgresql: PostgreSQL # Database selector option
+    mysql: MySQL # Database selector option
+    sqlServer: SQL Server # Database selector option
+    sqlite: SQLite # Database selector option
+    oracle: Oracle # Database selector option

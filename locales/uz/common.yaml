@@ -1,0 +1,202 @@
+# Common UI translations used across the application
+# UI Areas: Header toolbar, Help menu, Export/Import dropdowns, SSO login, Editor panel
+
+common:
+  # ========================================
+  # Buttons - Generic buttons in modals, toolbars, forms throughout the app
+  # ========================================
+  buttons:
+    cancel: Bekor qilish # Gray button in modal dialogs (bottom-right)
+    confirm: Tasdiqlash # Green button in confirmation dialogs
+    delete: "O'chirish" # Red button in item context menus (with trash icon)
+    history: Tarix # Clock icon in header toolbar (opens Version History modal)
+    export: Eksport # Export icon in header dropdown (opens export options)
+    ok: OK # Simple acknowledgment button in alerts
+    submit: Yuborish # Form submission button (submits form data)
+
+  # ========================================
+  # Help menu - Top-right help icon (?) dropdown in header
+  # ========================================
+  help:
+    title: Yordam # Dropdown label (question mark icon in header toolbar)
+    documentation: Hujjatlar # External link to docs.dbdiagram.io
+    releaseNotes: Chiqarilgan yangiliklar # Link to changelog page
+    roadmap: "Mahsulot yo'l xaritasi" # Link to feature roadmap (publicly visible)
+    sendFeedback: Fikr-mulohaza yuborish # Link to feedback form (opens modal)
+    askCommunity: Jamiyatdan so'rash # Link to Discord/community forum
+    suggestFeature: Yangi funksiya taklif qilish # Link to feature request board
+    contactUs: "Biz bilan bog'lanish" # Link to support email (dbdiagram@holistics.io)
+    sampleDiagrams: Namunaviy diagrammalar # Opens templates gallery modal
+    sampleAirbnb: Airbnb namunasi # Opens Airbnb database schema template
+    sampleEcommerce: E-commerce namunasi # Opens e-commerce schema template
+    whatsNew: Yangiliklar # Opens what's new modal (highlights recent features)
+    language: Til # Submenu for selecting app language
+    contribute: Ushbu ilovani tarjima qilishga yordam bering # Link to Crowdin/translation project
+
+  # ========================================
+  # Export menu - Header export dropdown (blue download icon)
+  # ========================================
+  export:
+    title: Eksport # Dropdown header in header toolbar (download icon)
+    publishToDbdocs: Hujjatni nashr qilish (dbdocs-ga) # First option in export dropdown
+    toPdf: PDFga # Export diagram as PDF format
+    toPng: PNGga # Export diagram as PNG image
+    toSvg: SVGga # Export diagram as SVG vector file
+    toPostgreSQL: PostgreSQLga # Export schema as PostgreSQL DDL
+    toMySQL: MySQLga # Export schema as MySQL DDL
+    toSQLServer: SQL Serverga # Export schema as SQL Server DDL
+    toOracleSQL: Oracle SQLga # Export schema as Oracle DDL
+
+  # ========================================
+  # Import menu - Header import dropdown (blue upload icon)
+  # ========================================
+  import:
+    title: Import # Dropdown header in header toolbar (upload icon)
+    importFrom: Dan import qilish # Label above import options
+    fromDatabaseConnection: "Ma'lumotlar bazasiga ulanish orqali (CLI orqali)" # CLI import option (opens documentation)
+    fromMySQL: MySQL-dan # MySQL database import (opens connection form)
+    fromPostgreSQL: PostgreSQLdan # PostgreSQL database import
+    fromSQLServer: SQL Serverdan # SQL Server database import
+    fromSnowflake: Snowflakedan # Snowflake database import
+    fromOracleSQL: Oracle SQLdan # Oracle database import
+    fromRails: Railsdan (schema.rb) # Rails schema.rb file import
+    fromCSV: CSVdan # CSV file import (opens file picker)
+
+  # ========================================
+  # Upgrade prompts - Feature upgrade dialogs (shown when free users hit limits)
+  # ========================================
+  upgrade:
+    title: Yangilash # Modal title (gold star icon badge)
+
+  # ========================================
+  # Quick actions - Keyboard shortcuts dialog (Ctrl/Cmd+K)
+  # ========================================
+  quickActions:
+    title: Tezkor amallar # Dialog title showing command palette
+
+  # ========================================
+  # SSO authentication - Login page (enterprise SSO login)
+  # ========================================
+  sso:
+    signInWithSSO: SSO orqali kirish # Large SSO button on login page
+    signInWithEmail: Elektron pochta orqali kirish # Email login option button
+    useWorkEmail: dbdiagramga SSO orqali kirish uchun ish pochtangizdan foydalaning # Helper text below SSO button
+    signInUnsuccessful: Tizimga kirish amalga oshmadi. Ish pochtangizni tekshiring yoki boshqa usuldan foydalaning. # Error message on SSO failure
+    selectWorkspace: Tizimga kirish uchun ish maydonini (workspace) tanlang # Dropdown on SSO login (for users with multiple workspaces)
+
+  # ========================================
+  # AI Assistant - Chat panel (right sidebar with AI chat)
+  # ========================================
+  ai:
+    title: AI # Panel title (robot icon in right sidebar)
+    scrollToBottom: Eng pastga o'tish # Floating button when new chat messages arrive
+
+  # ========================================
+  # Common actions - Confirmation dialogs and action confirmations
+  # ========================================
+  actions:
+    confirmUnsaved:
+      title: Iltimos, tasdiqlang # Modal title for unsaved work dialog
+      content: Kiritilgan o'zgarishlar saqlanmasligi mumkin, davom etishni xohlaysizmi? # Warning text in dialog body
+      negativeText: 'Yoq' # Cancel action button (gray, says "No")
+      positiveText: 'Ha' # Continue anyway button (blue, says "Yes")
+
+  # ========================================
+  # States - Empty, loading, error state displays
+  # ========================================
+  states:
+    empty: Ma'lumot yo'q # Empty table/list message (centered)
+
+  # ========================================
+  # Code editor - Right panel DBML code editor
+  # ========================================
+  editor:
+    keyboardShortcuts: Klaviatura yorliqlari (Shortcuts) # Dialog title for keyboard shortcuts reference
+    openInDbdiagram: dbdiagram.io da ochish # Link in embedded DBDocs views (top-right)
+    hide: Muharrirni yashirish # Button to hide code editor
+    expand: Muharrirni kengaytirish # Button to expand code editor
+    loadingContent: Serverdan kontent yuklanmoqda, iltimos kuting... # Loading message in editor
+
+  # ========================================
+  # Toast notifications - Popup messages at bottom-right
+  # ========================================
+  notifications:
+    noPermissionRemoveView: "Diagramma ko'rinishini o'chirishga ruxsatingiz yo'q!" # Toast error (shown when user can't remove view)
+    noPermissionRenameView: "Diagramma ko'rinishi nomini o'zgartirishga ruxsatingiz yo'q!" # Toast error (shown when user can't rename view)
+    workspaceDisabled: Ushbu ish maydoni (workspace) hozirda o'chirilgan # Warning toast (workspace subscription issue)
+    noEditPermissionAi: dbdiagram AI dan foydalanish uchun tahrirlash ruxsati kerak. Iltimos, diagramma egasidan kirish huquqingizni oshirishni so'rang. # Toast (AI feature requires edit rights)
+
+  # ========================================
+  # Login prompts - Gray banner for unauthenticated users
+  # ========================================
+  needLogin:
+    hiThere: Salom, # Banner greeting (first line, bold)
+    saveQuery: Diagrammangizni saqlash uchun tizimga kiring # Banner text (when saving requires auth)
+    shareQuery: Diagrammangizni ulashish uchun tizimga kiring # Banner text (share modal when not logged in)
+    newQuery: Yangi diagramma yaratish uchun tizimga kiring # Banner text (new diagram page)
+    export: Diagrammangizni eksport qilish uchun tizimga kiring # Banner text (export modal)
+    dbdocsAccess: dbdocs loyihangizni tahrirlash uchun tizimga kiring # Banner text (DBDocs editor)
+    aiAssistant: dbdiagram AI yordamchisidan foydalanish uchun tizimga kiring # Banner text (AI panel)
+    newDiagram: Yangi diagramma yaratish uchun tizimga kiring # Banner text (creation page)
+    upgradePersonal: "Personal Pro rejasiga o'tish uchun tizimga kiring" # Banner text (upgrade page)
+    upgradeTeam: Team (Jamoa) rejasi sinov muddatini boshlash uchun tizimga kiring # Banner text (team trial page)
+    joinTeam: Ushbu jamoa ish maydoniga qo'shilish uchun tizimga kiring # Banner text (team invite page)
+    chartUpdateVisibleEntities: Jadval/eslatma (sticky note) ko'rinishini saqlash uchun tizimga kiring # Banner text (visibility change)
+    diagramViewCreateView: Yangi diagramma ko'rinishini yaratish uchun tizimga kiring # Banner text (view creation)
+    default: Ishingizni davom ettirish uchun tizimga kiring # Default banner text (fallback)
+
+  # ========================================
+  # DBDocs authentication - Embedded DBDocs login screen
+  # ========================================
+  dbdocsAuth:
+    pleaseLoginWith: Iltimos, quyidagilar orqali tizimga kiring # Login prompt label (above login buttons)
+    youAreLoggedInAs: Siz tizimga kirdingiz # Logged in status (shows user email)
+    viaSSO: SSO orqali # SSO badge (next to email)
+    youNeedToLoginWith: Tizimga kirishingiz kerak # Login required text (precedes login buttons)
+    pleaseLoginToAccess: Ushbu loyihaga kirish uchun tizimga kiring. # Access denied message (DBDocs embed)
+    contactProjectOwner: Kirish huquqini so'rash uchun loyiha egasi bilan bog'laning. # Guidance text (who to contact)
+    weWillNeedNonSSO: Autentifikatsiya uchun sizdan SSO bo'lmagan hisobdan foydalanishingizni so'raymiz. # Auth guidance message
+    weWillNeedSameEmail: Autentifikatsiya uchun dbdocs bilan bir xil elektron pochta hisobidan foydalanishingizni so'raymiz. # Email match guidance
+    noEditPermission: Sizda ushbu loyihani tahrirlash huquqi yo'q. # Error message (DBDocs edit permission denied)
+
+  # ========================================
+  # Real-time collaboration - Connection and sync messages
+  # ========================================
+  additional:
+    collab:
+      noLongerViewPermission: Sizda endi ko'rish ruxsati yo'q! # Toast when view access revoked
+      doNotHaveViewPermission: Sizda ko'rish ruxsati yo'q! # Toast when no access at all
+      fullSession: Sessiya to'lganligi sababli ulanib bo'lmadi! # Toast when collaboration session full
+      diagramDeleted: Ushbu diagramma o'chirilgan! # Toast when diagram deleted by owner
+      overwrittenDiagram: Kimdir diagramma tarkibini ustidan yozdi, oxirgi o'zgarishlarni ko'rish uchun sahifani yangilang! # Toast when remote changes
+            diagramMigratedDiagramViewAsCode: Sizning diagramma ko'rinishlaringiz (views) yangi "Diagram View as Code" formatiga o'tkazildi. Davom etish uchun sahifani yangilang. Agar muammoga duch kelsangiz, dbdiagram@holistics.io ga murojaat qiling. # Toast when DiagramView-as-code migration completes
+      permissionsChanged: Ruxsatlaringiz o'zgartirildi, o'zgarishlarni qo'llash uchun sahifani yangilang! # Toast when permissions updated
+      cannotReconnect: Serverga qayta ulanib bo'lmadi # Toast when reconnection fails
+
+    # ========================================
+    # Save, share, publish - Diagram operation messages
+    # ========================================
+    query:
+      noPermissionShare: Ushbu diagrammani ulashish huquqingiz yo'q # Error toast (share action)
+      cantCreateDiagram: Yangi diagramma yaratib bo'lmadi, faylingizni nusxalab, tizimdan chiqib, qayta kirishga urinib ko'ring # Error toast (create failed)
+      cantSaveDiagram: Diagrammani saqlab bo'lmadi, faylingizni nusxalab, tizimdan chiqib, qayta kirishga urinib ko'ring # Error toast (save failed)
+      noPermissionSave: Ushbu diagrammani saqlash huquqingiz yo'q # Error toast (save permission)
+      diagramDeleted: Diagrammangiz o'chirildi # Toast (diagram deleted notification)
+      cantDeleteDiagram: Diagrammani o'chirib bo'lmadi, faylingizni nusxalab, tizimdan chiqib, qayta kirishga urinib ko'ring # Error toast (delete failed)
+      noPermissionGetInfo: Diagramma ma'lumotlarini olish huquqingiz yo'q! # Error toast (info load permission)
+      cantGetDiagramInfo: Diagramma ma'lumotlarini olib bo'lmadi, qayta urinib ko'ring! # Error toast (info load failed)
+      noPermissionAccessProject: Ushbu loyihaga kirish huquqingiz yo'q # Error toast (project access)
+      failedLoadProjectDbdocs: Loyihani DBDocs-dan yuklab bo'lmadi # Error toast (DBDocs load)
+      failedPublishDbdocs: Loyihani DBDocs-ga nashr qilib bo'lmadi # Error toast (DBDocs publish)
+      pleaseSignInSaveDraft: Qoralama versiyalarni saqlash uchun tizimga kiring # Login prompt toast (save draft)
+      noPermissionSaveDraft: Qoralama versiyalarni saqlash huquqingiz yo'q # Error toast (draft permission)
+      autoSaveDraftFailed: Qoralama avtomatik saqlanishi muvaffaqiyatsiz tugadi! # Error toast (auto-save draft)
+      failedSaveDraft: Qoralama versiyani saqlab bo'lmadi # Error toast (draft save failed)
+      pleaseSignInDeleteDraft: Qoralama versiyalarni o'chirish uchun tizimga kiring # Login prompt toast (delete draft)
+      noPermissionDeleteDraft: Qoralama versiyalarni o'chirish huquqingiz yo'q # Error toast (delete draft permission)
+      failedDeleteDrafts: Qoralama versiyalarni o'chirib bo'lmadi # Error toast (delete draft failed)
+      pleaseSignInCheckVersion: Versiya holatini tekshirish uchun tizimga kiring # Login prompt toast (version check)
+      noPermissionCheckVersion: Versiya holatini tekshirish huquqingiz yo'q # Error toast (version check permission)
+      failedCheckVersion: Versiya holatini tekshirib bo'lmadi # Error toast (version check failed)
+      pleaseSignInLoadLatest: Oxirgi versiyani yuklash uchun tizimga kiring # Login prompt toast (load version)
+      failedLoadLatest: Oxirgi versiyani yuklab bo'lmadi # Error toast (load version failed)

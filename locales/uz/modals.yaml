@@ -1,0 +1,314 @@
+# Modals translations - Modal dialogs throughout the app
+# UI Areas: Share modal, Import modal, Export modal, History modal, Upgrade modals
+
+modals:
+  # ========================================
+  # Generic modal titles - Common titles
+  # ========================================
+  titles:
+    confirm: Tasdiqlash # Generic confirm modal title
+    delete: "O'chirish" # Delete confirmation modal title
+    remove: Olib tashlash # Remove confirmation modal title
+    rename: "Nomini o'zgartirish" # Rename modal title
+
+  # ========================================
+  # Confirmation dialogs - Generic and specific
+  # ========================================
+  confirmation:
+    default:
+      message: Ushbu amalni davom ettirishni rostdan ham xohlaysizmi? # Default confirmation message
+      checkbox: Buni boshqa ko'rsatmaslik # Checkbox to disable future confirmations
+    deleteDiagram:
+      message: Ushbu diagrammani rostdan ham o'chirib tashlamoqchimisiz? Bu amalni ortga qaytarib bo'lmaydi. # Delete diagram warning
+      warning: Iltimos, e'tibor bering, ushbu amalni ortga qaytarib bo'lmaydi! # Additional warning
+      embedLinkActive: Sizda faol o'rnatilgan (embedded) havola mavjud. # Warning about embed links
+      lastViewed: Oxirgi marta ko'rilgan # Label for last viewed timestamp
+    removeWorkspace:
+    removeMember:
+      title: A'zoni olib tashlash # Remove member modal title
+      message: Rostdan ham ushbu a'zoni ish maydonidan olib tashlamoqchimisiz? # Remove member confirmation
+      suggestion: Tasdiqlash uchun elektron pochtangizni kiriting. # Input prompt for confirmation
+
+  # ========================================
+  # Share modal - Diagram sharing
+  # ========================================
+  share:
+    tabs:
+      sharing: Ulashish # Sharing tab label
+      embedding: O'rnatish # Embedding tab label
+    generalAccess:
+      passwordPlaceholder: Parolni kiriting # Password input placeholder
+      createPassword: Yaratish # Create password button
+      updatePassword: Yangilash # Update password button
+      canAccess: kirish huquqiga ega # Helper text suffix
+      copyLink: Havolani nusxalash # Copy link button
+      updatePasswordButton: Parolni yangilash # Update password button
+    permissions:
+      canEditAndInvite: Tahrirlash va taklif qilish mumkin # Permission label
+      canEditAndInviteDesc: Odamlarni taklif qilishi va tahrirlashi mumkin. # Permission description
+      canEdit: Tahrirlash mumkin # Permission label
+      canEditDesc: Tahrirlashi mumkin, lekin odamlarni taklif qila olmaydi. # Permission description
+      canView: Ko'rish mumkin # Permission label
+      canViewDesc: Ko'rishi mumkin, lekin tahrirlay olmaydi. # Permission description
+      remove: Olib tashlash # Remove button
+      removeDesc: Ushbu hamkorni olib tashlash. # Remove description
+      noAccess: Kirish huquqi yo'q # No access label
+      noAccessDesc: Ushbu diagrammaga kirish huquqi yo'q # No access description
+    invite:
+      placeholder: Elektron pochta (vergul yoki probel bilan ajrating) # Email input placeholder
+      button: Taklif qilish # Invite button
+    members:
+      you: (siz) # Label for current user
+    confirmRemoveCollaborator: Siz <b>{email}</b> ni hamkorlar qatoridan olib tashlamoqchisiz, iltimos, amalingizni tasdiqlang! # Remove confirmation message
+    errors:
+      publicPermissionUpdateFailed: Diagrammaning ommaviy huquqlarini yangilab bo'lmadi, iltimos, qayta urinib ko'ring! # Error toast
+      publicPermissionUpdated: Diagrammaning ommaviy ruxsatlari yangilandi! # Success toast
+      passwordLength: Parol 6 dan 128 ta belgacha bo'lishi kerak # Validation error
+      cannotUpdateDiagramState: Diagramma holatini yangilab bo'lmadi # Error toast
+      createPasswordFailed: Parol yaratib bo'lmadi # Error toast
+      updatePasswordFailed: Parolni yangilab bo'lmadi # Error toast
+    success:
+      createPasswordSuccess: Parol muvaffaqiyatli yaratildi # Success toast for password creation
+      updatePasswordSuccess: Parol muvaffaqiyatli yangilandi # Success toast for password update
+      diagramIsPublic: Diagramma endi ommaviy! # Success toast for making diagram public
+      diagramIsPrivate: Diagramma endi xususiy! # Success toast for making diagram private
+      diagramIsProtected: Diagramma endi himoyalangan! # Success toast for making diagram protected
+    permissionChanged: Ruxsatlaringiz o'zgartirildi, o'zgarishlarni qo'llash uchun sahifani yangilang! # Permission change toast
+    reload: Qayta yuklash # Reload button
+    cannotGetPermission: Diagramma ruxsatlarini olib bo'lmadi, qayta urinib ko'ring! # Error toast
+    embedLink:
+      title: O'rnatilgan havola # Embed link section title
+      lastView: Oxirgi marta ko'rilgan # Last viewed label
+      customize: O'rnatilgan havolangizni moslashtiring # Customize label
+      darkMode: Tungi rejim # Dark mode toggle label
+      highlightRelationships: Munosabatlarni ta'kidlash # Highlight toggle label
+      detailLevel: Tafsilotlar darajasi # Detail level dropdown label
+      anyoneWithLink: Havolaga ega bo'lgan har kim o'rnatilgan diagrammani ko'rishi mumkin. # Help text
+      remove: Ushbu o'rnatilgan havolani o'chirib tashlamoqchimisiz? Boshqa odamlar endi unga kirmaydi. # Remove confirmation
+      generate: O'rnatilgan havola yaratish # Generate button
+      errors:
+        cannotGet: O'rnatilgan havolalarni olib bo'lmadi, iltimos, qayta urinib ko'ring! # Error toast
+        cannotCreate: O'rnatilgan havola yaratib bo'lmadi, iltimos, qayta urinib ko'ring! # Error toast
+        cannotDelete: O'rnatilgan havolani o'chirib bo'lmadi, iltimos, qayta urinib ko'ring! # Error toast
+        cannotUpdate: O'rnatilgan havola sozlamalarini yangilab bo'lmadi, iltimos, qayta urinib ko'ring! # Error toast
+    tooltip:
+      viewOnly: Ushbu foydalanuvchining ruxsati faqat ko'rish bilan cheklangan. # Permission tooltip
+      upgradePersonal: Tahrirlash huquqini berish uchun shaxsiy ish maydoningizni yangilang. # Upgrade tooltip
+      freeAccount: Ushbu foydalanuvchida <b>bepul</b> hisob mavjud. # Free account tooltip
+      editAfterUpgrade: Hisob yangilangandan so'ng, ularga diagrammani <b>tahrirlash</b> ruxsati beriladi. # Upgrade tooltip
+      collaborationLimit: Siz faqat quyidagilar bilan hamkorlik qilishingiz mumkin # Collaboration limit text
+      diagramLimit: Har bir diagrammada 4 tagacha bepul foydalanuvchi (hozirda {count} ta foydalanuvchi) # Diagram limit text
+      workspaceLimit: Barcha diagrammalar bo'yicha jami 6 tagacha bepul foydalanuvchi (hozirda {count} ta foydalanuvchi) # Workspace limit text
+
+  # ========================================
+  # Private diagram - Password protection
+  # ========================================
+  private:
+    protected: Himoyalangan diagramma # Protected badge
+    private: Bu diagramma xususiy (private) # Private badge
+    passwordRequired: Ushbu diagrammani ko'rish uchun sizga parol kerak. # Password required message
+    noAccess: Sizda ushbu diagrammaga kirish huquqi yo'q. # No access message
+    enterPassword: Parolingizni kiriting # Password input placeholder
+    incorrectPassword: Noto'g'ri parol # Incorrect password error
+    tryAgain: Iltimos, qayta urinib ko'ring! # Try again button
+    viewDiagram: Diagrammani ko'rish # View diagram button
+
+  # ========================================
+  # Publish modal - Publish to DBDocs
+  # ========================================
+  publish:
+    title: Nashr qilish # Modal title (publish dropdown)
+    reviewAndPublishTitle: Ko'rib chiqish va nashr qilish # Modal title for review and publish modal
+    dbdocsLink: dbdocs # Link label
+    cancelButton: Bekor qilish # Cancel button
+    publishButton: Nashr qilish # Publish button
+    reviewAndPublishButton: Ko'rib chiqish va nashr qilish # Publish button
+    bullet1: Diagrammangizning veb-ko'rinishida o'qiladigan yangi ma'lumotlar bazasi hujjatini nashr eting. # Feature bullet point
+    bullet2: Nashr etilgan hujjat elektron pochtangizga ulangan dbdocs hisobida mavjud bo'ladi. # Feature bullet point
+    bullet3: Diagrammangizdagi o'zgarishlar dbdocs hujjatini avtomatik ravishda yangilamaydi. # Feature bullet point
+    publishNewOrUpdate: Yangi hujjat nashr qilish / Mavjudini yangilash # Section title
+    updateExisting: Mavjud hujjatni yangilash # Update option
+    publishNewOption: Yangi hujjat nashr qilish # Publish a new document option
+    projectPublicDefault: Sizning dbdocs loyihangiz standart bo'yicha "ommaviy" qilib belgilangan. Odamlar unga havola orqali kirishlari mumkin. # Public default info
+    documentProjectName: Hujjat loyihasi nomi # Project name field label
+    enterProjectName: Loyiha nomini kiriting # Project name placeholder
+    options: Sozlamalar (Options) # Options section title
+    ownerOnlyUpdatePublishDestination: Faqat diagramma egasi nashr manzilini yangilashi mumkin # Non-owner message for selecting publish destination
+    passwordProtection: Parol bilan himoyalash (ixtiyoriy) # Password section title
+    passwordPlaceholder: Parolni kiriting # Password placeholder
+    passwordMinLength: Parol kamida 6 ta belgidan iborat bo'lishi kerak # Password validation
+    feedback: Bu xususiyat haqida # Feedback label
+    feedbackLink: fikringizni # Feedback link
+    aboutThisFeature: bizga bildiring! # Feedback link suffix
+    errorLoadingProjects: Nashr qilingan loyihalarni yuklashda xatolik yuz berdi, iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmatiga murojaat qiling # Error toast
+    errorPublishing: Loyihani nashr qilishda xatolik yuz berdi, iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmatiga murojaat qiling # Error toast
+    projectNameEmpty: Loyiha nomi bo'sh bo'lishi mumkin emas # Validation error
+    projectNameInvalid: Loyiha nomi faqat harflar, raqamlar, probel, "-" yoki "_" ni o'z ichiga olishi mumkin # Validation error
+    projectNameExists: Bunday nom/url ga ega loyiha allaqachon mavjud. Iltimos, boshqa nom tanlang. # Validation error for duplicate name/url
+    passwordInvalid: Noto'g'ri parol, iltimos, qayta urinib ko'ring! # Validation error
+    editFromDbdocsInfo: Nashr etilgan loyihani tahrirlash uchun buni to'g'ridan-to'g'ri dbdocs orqali amalga oshirishingiz mumkin. # Info about editing from dbdocs
+    learnMore: Batafsil ma'lumot # Learn more link text
+    ownerOnlyPublish: Faqat diagramma egasi dbdocs-da yangi loyiha nashr eta oladi. # Non-owner message
+    publishedProject: Nashr etilgan loyiha # Label for published project
+    viewExistingProjects: Mavjud loyihalarni ko'rish # Link to view existing projects popover
+    projectNameHeader: Nomi # Header for project name column in popover
+    projectUrlHeader: URL # Header for project URL column in popover
+    publishNewQuestion: Boshqa loyihaga nashr qilmoqchimisiz? # Prompt to publish to a new project
+    publishNewAction: Yangi loyihaga nashr qilish # Action link text
+    resolveConflictsAndErrorsBeforePublish: Nashr qilishdan oldin barcha nizolar (conflicts) va xatolarni hal qiling. # Hint to resolve all conflicts and errors before publishing
+    currentChange: Joriy o'zgarish # Current change conflict marker text
+    incomingChange: Kelayotgan o'zgarish # Incoming change conflict marker text
+    bothChanges: Ikkala o'zgarish ham # Both change conflict marker text
+    acceptChangeButton: "{conflictTypeText} qabul qilish" # Accept change button
+    acceptAllIncomingChangesButton: Barcha kelayotgan o'zgarishlarni qabul qilish # Accept all incoming changes button
+    conflictWordSingular: nizo # Word for counting conflicts
+    conflictWordPlural: nizolar # Word for counting conflicts
+
+  # ========================================
+  # Import modal - Import diagram
+  # ========================================
+  import:
+    instructions: Ko'rsatmalar # Instructions section title
+    showInstructions: Ko'rsatmalarni ko'rsatish # Show instructions button
+    hideInstructions: Ko'rsatmalarni yashirish # Hide instructions button
+    upload: "{file} ni yuklash" # Upload button label
+    appendMode: O'zgartirilgan DBML-ni oxiriga qo'shish # Append mode toggle
+    modal:
+      validating: Tekshirilmoqda (Validating) # Validating modal title
+    dbConnection:
+      title: To'g'ridan-to'g'ri JB ulanishi orqali DBML yaratish # CLI import modal title
+      intro1: Ushbu usul bevosita ma'lumotlar bazasiga ulanadi va DBML kodini yaratish uchun ma'lumotlar bazasi sxemasini (odatda INFORMATION_SCHEMA dan) o'qiydi. # Intro text part 1
+      intro2: Hamma narsa mahalliy kompyuteringizda ishlaydi va ma'lumotlar bazasi hisob ma'lumotlari kuzatilmaydi yoki hech qayerga yuborilmaydi. # Intro text part 2
+      intro3: Kod ochiq manbali va uni # Intro text part 3
+      intro3Link: "bu yerda ko'rishingiz mumkin" # Link text
+      step1: 1. O'rnatish # Step 1 label
+      step1Note: "siz qo'shishingiz kerak bo'lishi mumkin:" # Note text
+      step1NoteSudo: Linux-da buyruqlaringiz oldidan # Sudo note
+      step2: 2. Quyidagi buyruqni bajaring # Step 2 label
+      exampleFor: Misol uchun # Example label
+      successMessage: "Ma'lumotlar bazasiga ulanish orqali DBML fayli yaratildi: database.dbml" # Success message
+      successBigquery: 'Eslatma: BigQuery uchun JSON hisob ma''lumotlari faylingizda quyidagi kalitlar bo''lishi kerak' # BigQuery note
+      successSnowflake1: Ulanishga urinilmoqda... # Snowflake step 1
+      successSnowflake2: So'rov bajarilmoqda... # Snowflake step 2
+      successSnowflake3: So'rov muvaffaqiyatli bajarildi. # Snowflake step 3
+      successSnowflake4: Ulanish muvaffaqiyatli uzildi. # Snowflake step 4
+      step3: 3. Ma'lumotlar bazasini vizuallashtirish uchun yaratilgan DBML-ni nusxalash va kod paneliga joylashtirish (paste). # Step 3 label
+      databaseTypes:
+        mysql: MySQL # Database type label
+        postgres: PostgreSQL # Database type label
+        mssql: SQL Server # Database type label
+        oracle: Oracle # Database type label
+        snowflake: Snowflake # Database type label
+        bigquery: BigQuery # Database type label
+
+  # ========================================
+  # Upgrade modals - Feature upgrade prompts
+  # ========================================
+  upgrade:
+    titles:
+      createDiagram: Siz diagrammalar soni chegarasiga yetib keldingiz! # Diagram limit title
+      detailLevels: Siz pullik xususiyatni topdingiz! # Detail levels title
+      detailLevelsDbdocs: Siz pullik loyihalar xususiyatini topdingiz! # DBDocs detail levels title
+      diagramView: Qo'shimcha ko'rinishlar (views) yaratish pullik xususiyatdir # Diagram view title
+      headerColor: Siz pullik xususiyatni topdingiz! # Header color title
+      headerColorDbdocs: Siz pullik loyihalar xususiyatini topdingiz! # DBDocs header color title
+      privateDiagram: Siz pullik xususiyatni topdingiz! # Private diagram title
+      stickyNotes: Siz pullik xususiyatni topdingiz! # Sticky notes title
+      stickyNotesDbdocs: Siz pullik loyihalar xususiyatini topdingiz! # DBDocs sticky notes title
+      versionHistory: Siz pullik xususiyatni topdingiz! # Version history title
+      aiAssistant: dbdiagram AI yordamchisi pullik xususiyatdir # AI assistant title
+      tableGroup: Siz pullik xususiyatni topdingiz! # Table group title
+      tableGroupDbdocs: Siz pullik loyihalar xususiyatini topdingiz! # DBDocs table group title
+      invitePeople: Siz pullik xususiyatni topdingiz! # Invite people title
+    descriptions:
+      createDiagram: <b>Cheksiz diagramma yaratish</b> va boshqa ilg'or xususiyatlar uchun pullik rejalarimizga o'ting! # Description
+      detailLevels: Tafsilotlar darajasi (Detail Levels), Sarlavha rangi (Header Color),<br>Jadval guruhi va barcha kelgusi xususiyatlarga ega bo'lish uchun pullik rejalarimizga o'ting! # Description
+      detailLevelsDbdocs: Tafsilotlar darajasi (Detail Levels), Sarlavha rangi (Header Color),<br>Jadval guruhi va barcha kelgusi xususiyatlarga ega bo'lish uchun loyihangizni yangilang! # DBDocs description
+      diagramView: Bepul rejada siz faqat standart ko'rinishni saqlashingiz mumkin.<br><b>Cheksiz diagramma ko'rinishlari</b> va boshqa ilg'or xususiyatlar uchun pullik rejalarimizga o'ting! # Description
+      headerColor: Tafsilotlar darajasi (Detail Levels), Sarlavha rangi (Header Color),<br>Munosabat rangi, Jadval guruhi va barcha kelgusi xususiyatlarga ega bo'lish uchun pullik rejalarimizga o'ting! # Description
+      headerColorDbdocs: Tafsilotlar darajasi (Detail Levels), Sarlavha rangi (Header Color),<br>Munosabat rangi, Jadval guruhi va barcha kelgusi xususiyatlarga ega bo'lish uchun loyihangizni yangilang! # DBDocs description
+      privateDiagram: Diagrammalaringizni <strong>Parol bilan himoyalash, Xususiy (Private) rejim</strong> va boshqa ilg'or xususiyatlar bilan himoyalash uchun pullik rejalarimizga o'ting! # Description
+      stickyNotes: Diagrammangizga <strong>Eslatmalar (Sticky Notes)</strong> kiritish va boshqa ilg'or xususiyatlardan foydalanish uchun pullik rejalarimizga o'ting! # Description
+      stickyNotesDbdocs: Diagrammangizga <strong>Eslatmalar (Sticky Notes)</strong> kiritish va boshqa ilg'or xususiyatlardan foydalanish uchun loyihangizni yangilang! # DBDocs description
+      versionHistory: O'z g'oyalaringizni turli xil <b>sxema versiyalari</b> bilan erkin sinab ko'ring.<br>Istalgan vaqtda o'tgan versiyaga qayting. # Description
+      aiAssistant: Ma'lumotlar bazasi sxemalarini <strong>AI tabiatli til yordami</strong> bilan loyihalash va optimallashtirish uchun pullik rejalarimizga o'ting # Description
+      tableGroup: Tafsilotlar darajasi (Detail Levels), Sarlavha rangi (Header Color),<br>Jadval guruhi va barcha kelgusi xususiyatlarga ega bo'lish uchun pullik rejalarimizga o'ting! # Description
+      tableGroupDbdocs: Tafsilotlar darajasi (Detail Levels), Sarlavha rangi (Header Color),<br>Jadval guruhi va barcha kelgusi xususiyatlarga ega bo'lish uchun loyihangizni yangilang! # DBDocs description
+      invitePeople: ER diagrammalarini loyihalashda <strong>Hamkorlarni taklif qilish, Tahrirlanadigan diagrammalarni nashr qilish</strong> va boshqa ilg'or xususiyatlar bilan birga ishlash uchun pullik rejalarimizga o'ting! # Description
+    buttons:
+      viewPlans: Rejalarni ko'rish # View plans button
+      upgradeProject: Loyihani yangilash # Upgrade project button
+
+  # ========================================
+  # History modal - Version history
+  # ========================================
+  history:
+    title: Versiyalar tarixi # Modal title
+    deletedUser: O'chirilgan foydalanuvchi # Deleted user label
+    restoreVersion: Versiyani tiklash # Restore button
+    makeCopy: Nusxa olish # Copy button
+    upgradeTitle: Ko'rish, tiklash va nusxalash uchun yangilang # Upgrade prompt title
+    errors:
+      cannotView: Bu versiyani ko'rib bo'lmaydi # Error toast
+      cannotCopy: Ushbu versiyadan nusxa ko'chirib bo'lmaydi # Error toast
+    restoreConfirmation:
+      title: Ushbu versiya tiklansinmi? # Restore confirmation title
+      message: Joriy diagrammangiz ushbu versiyaga tiklanadi. # Restore message
+    success:
+      versionCopied: Versiyangiz muvaffaqiyatli nusxalandi # Success toast
+    copiedName: "(Tiklangan) {name}" # Copied version name prefix
+    untitled: Nomsiz # Untitled diagram label
+
+  # ========================================
+  # Error messages - Generic modal errors
+  # ========================================
+  errors:
+    inviteMaxEmails: 50 tadan ortiq elektron pochtani taklif qilib bo'lmaydi # Validation error
+    inviteFailed: Taklif qilib bo'lmadi, qayta urinib ko'ring! # Error toast
+    cannotGetCollaborators: Hamkorlar ma'lumotlarini olib bo'lmadi! # Error toast
+    permissionUpdateFailed: Ruxsatlarni yangilab bo'lmadi # Error toast
+    permissionUpdateSuccess: Ruxsatlar muvaffaqiyatli yangilandi # Success toast
+    inviteSent: Taklif yuborildi # Success toast
+    permissionDenied: Ruxsat rad etildi # Permission error
+    cannotGetWorkspaceParticipants: Ish maydoni ishtirokchilarini olib bo'lmadi, iltimos, qayta urinib ko'ring! # Error toast
+    cannotGetUserWorkspaces: Foydalanuvchi ish maydonlarini olib bo'lmadi, iltimos, qayta urinib ko'ring! # Error toast
+    cannotGetWorkspacesSubscription: Ish maydonlari obunasini olib bo'lmadi, iltimos, qayta urinib ko'ring! # Error toast
+    exportSqlFailed: SQL-ni eksport qilib bo'lmadi, iltimos, ma'lumotlar bazasi sxemasini yangilang va qayta urinib ko'ring. # Error toast
+    savePdfFailed: Pdf faylingizni saqlab bo'lmadi # Error toast
+    saveSvgFailed: Svg faylingizni saqlab bo'lmadi # Error toast
+    savePngFailed: Png faylingizni saqlab bo'lmadi # Error toast
+    cannotGetDiagrams: Diagrammalarni olib bo'lmadi, iltimos, ilovani qayta yuklashga urinib ko'ring! # Error toast
+    cannotRemoveDefaultView: Standart ko'rinishni olib tashlashga ruxsat etilmaydi! # Error toast
+    cannotRemoveView: Ushbu ko'rinishni olib tashlab bo'lmaydi, iltimos, sahifani yangilab, qayta urinib ko'ring! # Error toast
+    removeViewTitle: Diagramma ko'rinishini olib tashlash? # Remove view modal title
+    removeViewContent: '"{name}" ko''rinishini (view) olib tashlamoqchimisiz?' # Remove view confirmation
+    cancel: Bekor qilish # Cancel button
+    removeView: Ko'rinishni olib tashlash # Remove view button
+    close: Yopish # Close button
+    reload: Yangilash # Reload button
+
+  # ========================================
+  # Workspace type labels
+  # ========================================
+  workspaceType:
+    personal: Shaxsiy ish maydoni # Personal workspace label
+    team: Jamoa ish maydoni # Team workspace label
+
+  # ========================================
+  # Detail levels dropdown
+  # ========================================
+  detailLevelsDropdown:
+    tableNames: Jadval nomlari # Show table names only
+    keysOnly: Faqat kalitlar (Keys) # Show keys only
+    allFields: Barcha maydonlar # Show all fields
+
+  # ========================================
+  # Migration preview modal
+  # ========================================
+  migrationPreview:
+    title: Diagramma ko'rinishlari (Views) endi DBML ichida saqlanadi
+    description: >-
+      Biz sizning diagramma ko'rinish sozlamalarini to'g'ridan-to'g'ri DBML kodingizga DiagramView bloklari sifatida ko'chirdik.
+      Bu sizning ko'rinishlaringizni sxemangiz bilan birga DBML kodingizning bir qismiga aylantiradi.
+    learnMore: Diagramma ko'rinishlari (Views) haqida ko'proq bilib oling
+    confirm: Davom etish

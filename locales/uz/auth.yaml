@@ -1,0 +1,87 @@
+# Authentication translations - Login, Signup, Password pages
+# UI Areas: Auth pages (/login, /signup, /forgot-password)
+
+auth:
+  # ========================================
+  # Login Page - Email/password login
+  # ========================================
+  login:
+    email: Elektron pochta # Email input label
+    loginWithGithub: GitHub orqali kirish # Social login button (GitHub)
+    loginWithMicrosoft: Microsoft orqali kirish # Social login button (Microsoft)
+
+  # ========================================
+  # OAuth Errors - OAuth flow errors
+  # ========================================
+  oauth:
+    authorizationError: Avtorizatsiya amalga oshmadi # OAuth error title
+    processing: Qayta ishlanmoqda... # Loading state (OAuth redirect)
+    justAMomentPleaseWait: Bir oz kuting, iltimos... # Loading message (OAuth redirect)
+    signedInAs: Siz tizimga kirdingiz # Session label (SSO indicator)
+    failedSignInGitHub: GitHub orqali kirish amalga oshmadi # Error toast (GitHub OAuth)
+    failedSignInMicrosoft: "Microsoft orqali kirish amalga oshmadi, iltimos, qayta urinib ko'ring!" # Error toast (Microsoft OAuth)
+
+  # ========================================
+  # Form Errors - Validation error messages
+  # ========================================
+  errors:
+    invalidEmail: "Noto'g'ri elektron pochta manzili, iltimos, qayta urinib ko'ring!" # Email validation
+    githubPopupBlocked: GitHub orqali kirish uchun qalqib chiquvchi oynalarga ruxsat bering # Browser setting error
+
+  # ========================================
+  # OTP Authentication - One-time password
+  # ========================================
+  otp:
+    signInWithEmail: Elektron pochta orqali kirish # OTP tab label
+    otpSentTo: OTP yuborildi # Label (shows masked email)
+    wrongEmail: Noto'g'ri elektron pochta manzili? # Change email link
+    changeEmail: Elektron pochtani o'zgartirish # Change email button
+    inputEmail: Iltimos, elektron pochta manzilingizni kiriting # Email input placeholder
+    inputYourOtp: OTP ni kiriting # OTP input placeholder
+    inputOtpCode: Iltimos, elektron pochtaga yuborilgan OTP kodini kiriting # OTP help text
+    signInSuccess: Tizimga muvaffaqiyatli kirdingiz # Success message
+    didntReceiveOtp: OTP ni olmadingizmi? # Help text (resend section)
+    resendOtp: OTP ni qayta yuborish # Resend button
+    resendAfter: OTP ni {counter}s dan keyin qayta yuborishingiz mumkin # Timer label (disabled state)
+    submit: Yuborish # OTP submit button
+    sendOtpFailed: OTP yuborish amalga oshmadi, iltimos, qayta urinib ko'ring! # Error toast
+
+  # ========================================
+  # SSO Login - Single Sign-On
+  # ========================================
+  sso:
+    orContinueWith: yoki quyidagilardan biri orqali davom eting # SSO divider text
+
+  # ========================================
+  # Embedded Portal - OAuth portal pages
+  # ========================================
+  portal:
+    signIn: Kirish # Button (portal embedded login)
+    signInWith: Kirish
+
+  # ========================================
+  # Additional Errors - Extra error messages
+  # ========================================
+  additional:
+    unknownError: Noma'lum xatolik # Fallback error
+    invalidOtp: Noto'g'ri OTP, iltimos, qayta urinib ko'ring! # OTP validation error
+    cannotValidateOtp: OTP ni tasdiqlab bo'lmadi, iltimos, qayta urinib ko'ring! # OTP validation failure
+    emailNotVerified: Elektron pochtangiz tasdiqlanmagan. Iltimos, uni Microsoft hisobida tasdiqlang. # MS email verification
+    cannotSignInMicrosoftSSO: Microsoft SSO orqali kirib bo'lmadi, iltimos, qayta urinib ko'ring! # MS SSO error
+    cannotSignIn: Tizimga kirib bo'lmadi, iltimos, qayta urinib ko'ring! # Generic sign-in error
+    failedReloadProject: Kirishdan so'ng loyihani qayta yuklab bo'lmadi. Iltimos, sahifani yangilang. # Reload error
+    loginError: Tizimga kirish xatosi # Generic login error
+    signInCancelled: Tizimga kirish bekor qilindi. Iltimos, qayta urinib ko'ring. # Cancelled flow
+
+  # ========================================
+  # Logout Callback - Post-logout redirect
+  # ========================================
+  logoutCallback:
+    redirecting: Yo'naltirilmoqda... # Loading message (logout redirect)
+    redirectDescription: Bir necha soniya ichida dasturga yo'naltirilasiz. # Help text
+
+  popupsWarning:
+    title: Tizimga kirish oynasini ochib bo'lmadi
+    description: Tizimga kirish oynasi brauzeringiz yoki kengaytma tomonidan bloklangan bo'lishi mumkin. Iltimos, sozlamalaringizni tekshiring va qayta urinib ko'ring.
+    needHelp: Yordam kerakmi?
+    contactSupport: Qo'llab-quvvatlash xizmati bilan bog'lanish

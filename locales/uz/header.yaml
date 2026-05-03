@@ -1,0 +1,115 @@
+# Header translations - Top header toolbar
+# UI Areas: Header toolbar, Account dropdown, Status indicators, Publish modal
+
+header:
+  # ========================================
+  # Header toolbar buttons - Left side of top header
+  # ========================================
+  buttons:
+    save: Saqlash # Blue button in header toolbar (saves current diagram - Ctrl/Cmd+S)
+    share: Ulashish # Share icon button in header toolbar (opens share modal)
+    editAsNew: Yangi sifatida tahrirlash # Option in header dropdown (duplicates diagram to personal workspace)
+    signOut: Tizimdan chiqish # Last item in account dropdown (top-right user menu)
+    publishToDbdocs: DBDocsga nashr qilish # Button in header export dropdown
+    publish: Nashr qilish # Blue button in share modal (publishes current diagram to DBDocs)
+
+  # ========================================
+  # Draft badge - Small indicator next to diagram name
+  # ========================================
+  draftBadge:
+    label: Qoralama # Small badge showing "Draft" label (appears next to unsaved diagram name)
+    discardAll: Barcha qoralamalarni bekor qilish # Button in draft dropdown (discards all draft versions)
+
+  # ========================================
+  # Placeholders - Input field placeholders
+  # ========================================
+  placeholders:
+    untitledDiagram: Nomsiz diagramma # Placeholder text in header diagram name input (when name is empty)
+
+  # ========================================
+  # Status - Diagram sync status indicators (header toolbar)
+  # ========================================
+  status:
+    readOnly: Faqat o'qish uchun # Status label when viewing read-only diagram (gray text)
+    synced: Sinxronlashtirildi # Status label showing all changes synced (green dot + text)
+    unsynced: Sinxronlashtirilmagan # Status label when changes pending sync (yellow dot + text)
+    saved: Saqlangan # Status label when diagram saved (blue text)
+    unsaved: Saqlanmagan # Status label with unsaved indicator (orange text)
+
+  # ========================================
+  # Sync status - Detailed sync messages (header toolbar tooltip/status)
+  # ========================================
+  syncStatus:
+    reconnecting: Qayta ulanmoqda... # Toast message when reconnecting to server
+    saving: Diagramma saqlanmoqda... # Toast message during manual save
+    autoSaving: Diagramma avtomatik saqlanmoqda... # Toast during auto-save
+    disconnected: Siz tarmoqdan uzildingiz. O'zgarishlaringiz mahalliy saqlanmoqda va keyingi safar tarmoqqa ulanganda server bilan sinxronlashtiriladi. # Toast when offline
+    readOnly: Bu diagramma faqat o'qish uchun # Toast explaining read-only state
+    unsaved: Bu diagramma saqlanmagan # Toast when diagram has unsaved changes
+    unsavedWithLogin: Bu diagramma saqlanmagan. Diagrammalaringizni saqlash uchun tizimga kirish talab qilinadi # Toast prompting login for saving
+
+  # ========================================
+  # Tooltips - Tooltip text for header elements
+  # ========================================
+  tooltips:
+    clickToEdit: Tahrirlash uchun bosing # Tooltip on diagram name (when hovering)
+    openInDbdocs: dbdocs-da ochish # Tooltip on DBDocs link icon
+    noPublishedContent: Ushbu loyihada hali nashr etilgan tarkib yo'q # Tooltip on empty DBDocs link
+    editAsNewDisabledWorkspace: <p class="text-center"><b>Yangi sifatida tahrirlash</b> mavjud emas, chunki obuna bekor qilinganligi sababli ish maydoningiz o'chirilgan.</p> # Tooltip explaining disabled Edit as New
+    editAsNewNormal: Yangi sifatida tahrirlash # Tooltip on Edit as New button (normal state)
+
+  # ========================================
+  # Draft status - Draft version status messages
+  # ========================================
+  draftStatus:
+    upToDate: Qoralama dolzarb # Status text when draft matches published version
+    hasUnsavedChanges: Qoralamada saqlanmagan o'zgarishlar bor # Status text when draft has changes
+
+  # ========================================
+  # Project status - Published project status messages
+  # ========================================
+  projectStatus:
+    upToDate: Loyiha dolzarb # Status when published project matches draft
+    hasUnsavedChanges: Loyihada saqlanmagan o'zgarishlar bor # Status when draft not published
+    synchronized: Diagramma tarkibingiz server bilan sinxronlashtirilgan # Status confirming sync
+    allChangesSaved: Barcha o'zgarishlar saqlandi # Toast when everything saved
+
+  # ========================================
+  # Publish validation - Messages in share/publish modal
+  # ========================================
+  publishValidation:
+    parseError: Diagrammada xatolik bor. Nashr qilishdan oldin, barcha sintaktik xatolarni tuzating. # Error in share modal when DBML has errors
+    saveFirst: Iltimos, avval diagrammangizni saqlang # Error when trying to publish unsaved diagram
+    ownerPublishFirst: Iltimos, diagramma egasidan avval ma'lumotlar bazasi hujjatini nashr qilishini so'rang # Error for collaborators without publish rights
+    needLogin: O'zgarishlarni nashr qilish uchun tizimga kiring # Error when publishing without authentication
+    hasErrors: Diagrammangizda xatolar bor # Error summary in publish modal
+    noChanges: Nashr qilinadigan o'zgarishlar yo'q # Info when diagram unchanged
+
+  # ========================================
+  # Modals - Modal dialog texts (discard, overwrite)
+  # ========================================
+  modals:
+    discardDraftsTitle: Barcha qoralamalarni bekor qilish # Modal title (discard drafts confirmation)
+    discardDraftsContent: Barcha qoralama versiyalarni bekor qilib, loyihaning oxirgi tarkibini yuklab olmoqchimisiz? Bu amalni ortga qaytarib bo'lmaydi. # Modal warning text
+    discardButton: O'chirish # Primary button in discard modal (red)
+    cancelButton: Bekor qilish # Secondary button (gray)
+
+  # ========================================
+  # Notifications - Toast notification messages
+  # ========================================
+  notifications:
+    publishSuccess: Loyiha muvaffaqiyatli nashr etildi va qoralama versiyalari tozalandi # Success toast after publish
+    publishFailed: Loyihani nashr qilish amalga oshmadi # Error toast when publish fails
+    discardSuccess: Barcha qoralamalar bekor qilindi va oxirgi versiya yuklandi # Success toast after discard
+    discardFailed: Qoralamalarni bekor qilish amalga oshmadi # Error toast when discard fails
+    showPublishFailed: Nashr qilish tasdig'ini ko'rsatib bo'lmadi # Error toast when publish modal fails to open
+    renameFailed: Diagramma nomini o'zgartirib bo'lmadi. Iltimos, qayta urinib ko'ring # Error toast on rename failure
+
+  # ========================================
+  # Account dropdown - Top-right user menu
+  # ========================================
+  accountDropdown:
+    loggedInWithSSO: SSO orqali kirilgan # Label showing SSO login status (top-right menu)
+    darkMode: Tungi rejim # Toggle switch label for dark mode theme
+    managePersonalPlan: Shaxsiy rejani boshqarish # Link to billing/subscription management
+    manageAccount: Hisobni boshqarish # Link to account settings page
