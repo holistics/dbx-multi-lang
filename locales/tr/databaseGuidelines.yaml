@@ -1,0 +1,88 @@
+# Database Guidelines translations - Import instructions
+# UI Areas: Import modal, Database connection instructions
+
+databaseGuidelines:
+  # ========================================
+  # MySQL Import - MySQL-specific instructions
+  # ========================================
+  mysql:
+    title: MySQL # Database selector option (import modal)
+    install: Yükle # Install link text
+    tool: mysqldump # Tool name
+    terminalCommand: Terminalinizde aşağıdaki komutu çalıştırın # Instruction (command block)
+    linuxPrefix: Linux'ta komutun başına # Linux-specific note
+    sudo: sudo # Sudo command
+    linuxSuffix: eklemeniz gerekebilir # Sudo placement hint
+    example: Örnek # Command block label
+    step3: Çıktı alınan SQL içeriğini kopyalayıp bu panele yapıştırın # Final step instruction
+
+  # ========================================
+  # PostgreSQL Import - PostgreSQL-specific instructions
+  # ========================================
+  postgres:
+    title: PostgreSQL # Database selector option (import modal)
+    install: Yükle # Install link text
+    tool: pg_dump # Tool name
+    terminalCommand: Terminalinizde aşağıdaki komutu çalıştırın # Instruction (command block)
+    linuxPrefix: Linux'ta komutun başına # Linux-specific note
+    sudo: sudo # Sudo command
+    linuxSuffix: eklemeniz gerekebilir # Sudo placement hint
+    example: Örnek # Command block label
+    step3: Çıktı alınan SQL içeriğini kopyalayıp bu panele yapıştırın # Final step instruction
+
+  # ========================================
+  # CSV Import - CSV file instructions
+  # ========================================
+  csv:
+    title: CSV # Database selector option (import modal)
+    description: Bir DBML tablo yapısını otomatik olarak oluşturmak için bir CSV dosyası yükleyin. İlk satır sütun başlıklarını içermelidir # Import description
+    exampleFormat: Örnek CSV formatı # Example section header
+
+  # ========================================
+  # Rails Import - Rails schema.rb instructions
+  # ========================================
+  rails:
+    title: Rails schema.rb # Database selector option (import modal)
+    step1: Projenizdeki # Instruction step 1 prefix
+    schemaRb: schema.rb # File name (code font)
+    step1Suffix: dosyasını herhangi bir kod düzenleyiciyle açın # Instruction step 1 suffix
+    step2: schema.rb içeriğini kopyalayıp bu panele yapıştırın # Instruction step 2
+
+  # ========================================
+  # SQL Server Import - SQL Server instructions
+  # ========================================
+  sqlServer:
+    title: SQL Server # Database selector option (import modal)
+    step1: "İndirin ve yükleyin:" # Instruction step 1 prefix
+    tool: SQL Server Management Studio # Tool name
+    step1Suffix: (SSMS) # Tool abbreviation
+    step2: SSMS'yi açıp SQL sunucunuza bağlanın # Instruction step 2
+    step3: "Bağlandıktan sonra dışa aktarılacak veritabanına sağ tıklayın ve şunu seçin:" # Instruction step 3 prefix
+    scriptDatabaseAs: Script Database as # Menu option name
+    createTo: CREATE To # Menu option continuation
+    newQueryEditorWindows: New Query Editor Windows # Sub-menu option
+    step4: Çıktı alınan SQL içeriğini kopyalayıp bu panele yapıştırın # Instruction step 4
+
+  # ========================================
+  # Oracle Import - Oracle database instructions
+  # ========================================
+  oracle:
+    title: Oracle # Database selector option (import modal)
+    description: "Aşağıdaki komutları elle çalıştırın, ardından şu butonu kullanarak SQL dosyasını yükleyin:" # Description intro
+    uploadSql: .sql Yükle # Upload button label
+    createDirectory: Oracle'da bir dizin nesnesi (directory object) oluşturun # Command 1 description
+    grantPrivileges: Dizin nesnesine okuma ve yazma ayrıcalıkları verin # Command 2 description
+    exportSchema: Belirli bir şemayı bir döküm (dump) dosyasına dışa aktarın # Command 3 description
+    convertDump: Döküm dosyasını SQL dosyasına dönüştürün # Command 4 description
+
+  # ========================================
+  # Snowflake Import - Snowflake database instructions
+  # ========================================
+  snowflake:
+    title: Snowflake # Database selector option (import modal)
+    description: "Şu komutu çalıştırın:" # Description intro
+    getDdl: GET_DDL # Command name
+    descriptionSuffix: "komutun ardından çıktıyı kopyalayıp ekrandaki metin kutusuna yapıştırın veya bir dosyaya kaydedip şu butonla yükleyin:" # Description suffix
+    uploadSql: .sql Yükle # Upload button label
+    exportAllTables: Tüm veritabanı için tüm tabloların DDL'ini dışa aktarma # Feature description
+    selectSchema: Tek bir şemadaki tüm tabloları seçme # Feature description

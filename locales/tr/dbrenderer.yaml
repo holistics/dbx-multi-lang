@@ -1,0 +1,169 @@
+# DBRenderer translations - Diagram canvas and panels
+# UI Areas: Left sidebar, Canvas toolbar, Bottom-right zoom, Context menus
+
+dbrenderer:
+  # ========================================
+  # Table Search Panel - Left sidebar (toggle with Ctrl/Cmd+K)
+  # ========================================
+  tableSearchPanel:
+    title: Tablolar # Panel title (left sidebar header)
+    diagramViews: Diyagram Görünümleri # Dropdown header for views (table search panel)
+    diagramViewsTooltip: Diyagram görünümleri, veritabanınızdaki belirli etki alanlarını veya iş akışlarını temsil eden tablo koleksiyonlarıdır. # Tooltip for views dropdown
+    viewActions: Görünüm Eylemleri # Dropdown header for view actions
+    cannotRenameOrDelete: "{name} yeniden adlandırılamaz veya silinemez" # Error toast (default view protection)
+    rename: Yeniden Adlandır # Menu option (view context menu)
+    delete: Sil # Menu option (view context menu)
+    reset: Sıfırla # Button (resets view to default)
+    save: Kaydet # Button (saves current view)
+    saveAsNew: Yeni Olarak Kaydet # Button (creates new view)
+    searchPlaceholder: Tablo veya şema ara # Search input placeholder (no groups)
+    searchPlaceholderWithGroup: Tablo, şema veya grup ara # Search input placeholder (with groups)
+    groupBy: Gruplandır # Dropdown to group tables
+    showAll: Tümünü Göster # Button (shows all tables)
+    hideAll: Tümünü Gizle # Button (hides all tables)
+    schema: Şema # Group by option (group by schema)
+    tableGroup: Tablo Grubu # Group by option (group by custom table group)
+    noGroup: (grup yok) # Group label (tables without group)
+    defaultView: Varsayılan Görünüm # Label (default view indicator)
+    unknownView: Bilinmeyen Görünüm # Label (unknown view name)
+    newView: Yeni Görünüm # Button (creates new diagram view)
+    copyOfName: "{name} (Kopya)" # Default name for copied view
+
+  # ========================================
+  # Controller Bar - Top canvas toolbar
+  # ========================================
+  controllerBar:
+    highlightRelationships: İlişkileri vurgula # Toggle button (highlights related tables)
+    unhighlightRelationships: İlişkilerin vurgusunu kaldır # Toggle button (removes highlight)
+    enableGrid: Izgarayı etkinleştir # Toggle button (shows grid)
+    disableGrid: Izgarayı devre dışı bırak # Toggle button (hides grid)
+    addStickyNote: Yapışkan not ekle # Button (creates new sticky note on canvas)
+    searchTables: Tabloları ara # Button (opens table search panel)
+    hideTableSearch: Tablo aramasını gizle # Button (closes table search panel)
+    enterFullscreen: Tam ekrana geç # Button (goes fullscreen)
+    exitFullscreen: Tam ekrandan çık # Button (exits fullscreen)
+
+  # ========================================
+  # Auto Arrange - Modal dialog (Ctrl/Cmd+Shift+A)
+  # ========================================
+  autoArrange:
+    title: Otomatik düzenleme algoritmasını seçin # Modal title
+    leftRight: Soldan sağa # Algorithm option (horizontal layout L→R)
+    snowflake: Snowflake # Algorithm option (snowflake schema layout)
+    compact: Sıkışık # Algorithm option (compact layout)
+    confirmMessage: Diyagramınız otomatik olarak yeniden düzenlenecek ve bu işlemi geri alamayacaksınız. Emin misiniz? # Warning in modal body
+    confirm: Onayla (↵) # Confirm button (with Enter shortcut)
+    cancel: İptal (Esc) # Cancel button (with Escape shortcut)
+
+  # ========================================
+  # Detail Level - Dropdown (eye icon)
+  # ========================================
+  detailLevel:
+    title: Detay Seviyesi # Dropdown title
+    all: Tüm alanlar # Option (shows all fields)
+    tables: Tablo adları # Option (only shows table names, hides all fields)
+    keys: Sadece anahtarlar # Option (only shows primary and foreign keys, hides other fields)
+
+  # ========================================
+  # View Dropdown - View selector menu
+  # ========================================
+  viewDropdown:
+    renameView: Görünümü yeniden adlandır # Menu option (renames current view)
+    removeView: Görünümü kaldır # Menu option (deletes current view)
+    newView: Yeni Görünüm # Menu option (creates new view)
+    disabled: (devre dışı) # Label for restricted views (free users)
+
+  # ========================================
+  # Diff Legend - Shown in compare mode
+  # ========================================
+  diffLegend:
+    added: Eklendi # Green legend item (new tables)
+    modified: Değiştirildi # Yellow legend item (changed tables)
+    deleted: Silindi # Red legend item (removed tables)
+
+  # ========================================
+  # Viewport Controller - Bottom-right corner
+  # ========================================
+  viewportController:
+    zoomOut: Uzaklaştır (hızlandırmak için basılı tutun) # Zoom out button tooltip
+    zoomIn: Yakınlaştır (hızlandırmak için basılı tutun) # Zoom in button tooltip
+    editZoomLevel: Yakınlaştırma seviyesini düzenlemek için tıklayın # Zoom input tooltip
+    zoomToFit: Görünümdeki tüm öğeleri sığdırmak için uzaklaştır # Fit to screen button tooltip
+    enablePanMode: Kaydırma modunu etkinleştirmek için tıklayın # Pan mode toggle tooltip
+    disablePanMode: Kaydırma modunu devre dışı bırakmak için tıklayın # Pan mode toggle tooltip
+    panModeHint: Veya kaydırmak için Boşluk / Orta fare tuşuna basılı tutup sürükleyin # Hint text for pan mode
+
+  # ========================================
+  # Common - Shared buttons in renderer
+  # ========================================
+  common:
+
+  # ========================================
+  # Empty State Hint - Canvas empty states
+  # ========================================
+  emptyStateHint:
+    filtered:
+      title: Diyagram görünümünüz boş # Empty state title (all tables hidden)
+      description: Bu görünümdeki tüm tablolar şu anda gizlenmiş durumda. Tabloları diyagram görünümünde göstermek için tablo arama panelini kullanın. # Empty state description
+      openTableSearchPanel: Tablo arama panelini aç # Button (opens sidebar)
+    noDbml:
+      title: Veritabanı şeması bulunamadı # Empty state title (no tables in DBML)
+      description: DBML kodunuz henüz hiçbir tablo içermiyor. Diyagramı görmek için tablolar ve ilişkiler ekleyin. # Empty state description
+      startAddingTables: Tablo eklemeye başla # Button (opens add table modal)
+
+  # ========================================
+  # Loading States - Loading indicator messages
+  # ========================================
+  loading:
+    initializingTables: Tablolar başlatılıyor... # Loading message (table loading)
+    initializingTablesProgress: Tablolar başlatılıyor... ({current}/{total}) # Loading with progress
+    initializingTableGroups: Tablo grupları başlatılıyor... # Loading message (group loading)
+    initializingTableGroupsProgress: Tablo grupları başlatılıyor... ({current}/{total}) # Loading with progress
+    initializingReferences: Referanslar başlatılıyor... # Loading message (relationship loading)
+    initializingReferencesProgress: Referanslar başlatılıyor... ({current}/{total}) # Loading with progress
+    arrangingDiagram: Diyagramınız düzenleniyor... # Loading message (layout calculation)
+    finalizingDiagram: Diyagram tamamlanıyor... # Loading message (render completion)
+
+  # ========================================
+  # Filter Config Tags - Filter chips in canvas
+  # ========================================
+  filterConfigTags:
+    all: Tümü # Filter chip (shows all items)
+    allTables: Tüm Tablolar # Filter chip (all tables)
+    allNotes: Tüm Notlar # Filter chip (all notes)
+    nothing: Hiçbiri # Filter chip (nothing shown)
+    moreItems: '{count} öğe daha:' # Overflow indicator (more filters)
+
+  # ========================================
+  # Sticky Notes - Sticky note section
+  # ========================================
+  stickyNotesSection:
+    title: Yapışkan Notlar # Section title (left sidebar)
+  stickyNotes:
+    untitledNote: İsimsiz Not # Default name for new notes
+    removeNoteConfirmation: Notunuzu silmek istiyor musunuz? # Delete confirmation dialog title
+    'yes': 'Evet' # Confirm button (delete note)
+    'no': 'Hayır' # Cancel button
+
+  # ========================================
+  # Table List - Table list in sidebar
+  # ========================================
+  tableList:
+    noTablesFound: Tablo bulunamadı # Empty state (search results)
+
+  # ========================================
+  # Record Preview - Preview data sample modal
+  # ========================================
+  recordPreviewModal:
+    infoTooltip: Tablonun verilerini hızlıca anlamak için örnek satırları görüntüleyin
+    editBtn:
+      title: Düzenle
+      tooltip: Veri örneğini düzenle
+    downloadBtn:
+      title: İndir
+      tooltip: CSV olarak indir
+  # ========================================
+  # View note modal - Preview markdown note
+  # ========================================
+  viewNoteModal:
+    infoTooltip: Markdown ile biçimlendirme desteklenmektedir
