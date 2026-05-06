@@ -9,6 +9,7 @@ dbx-multi-lang/
 ├── locales/
 │   ├── en/           # English translations
 │   ├── vi/           # Vietnamese translations
+│   ├── uz/           # Uzbek translations
 │   └── metadata.yaml  # Language metadata
 ├── scripts/
 │   └── build-locales.cjs  # Merge YAML to JSON
