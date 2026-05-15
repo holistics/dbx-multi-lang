@@ -38,3 +38,4 @@ export const messages = {
 // 2. Copy translation YAML files from an existing language
 // 3. Add the language to locales/metadata.yaml with flag, hello, name, nativeName
 // 4. Run `yarn build` to regenerate the merged JSON files
+// test
