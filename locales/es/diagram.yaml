@@ -1,0 +1,17 @@
+# Traducciones del editor de diagramas - Interfaz del editor
+# Áreas de interfaz: editor de diagramas, barra de herramientas, encabezado, paneles
+
+diagram:
+  # ========================================
+  # Acceso - Niveles de acceso al diagrama
+  # ========================================
+  access:
+    public: Público # Opción de nivel de acceso
+    passwordProtected: Protegido con contraseña # Opción de nivel de acceso
+    private: Privado # Opción de nivel de acceso
+    publicText: Cualquier persona con el enlace # Descripción del acceso público
+    passwordProtectedText: Cualquier persona con el enlace y la contraseña # Descripción del acceso protegido
+    privateText: Solo personas invitadas # Descripción del acceso privado
+    publicTooltip: Público - Las personas pueden acceder mediante su enlace # Tooltip de acceso público
+    passwordProtectedTooltip: Protegido con contraseña - Las personas pueden acceder mediante su enlace, pero deben introducir la contraseña correcta # Tooltip de acceso protegido
+    privateTooltip: Privado - Solo pueden acceder las personas invitadas # Tooltip de acceso privado

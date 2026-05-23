@@ -1,0 +1,115 @@
+# Traducciones del encabezado - Barra superior
+# Áreas de interfaz: barra superior, menú de cuenta, indicadores de estado, modal de publicación
+
+header:
+  # ========================================
+  # Botones de la barra superior - Lado izquierdo del encabezado superior
+  # ========================================
+  buttons:
+    save: Guardar # Botón azul en la barra superior (guarda el diagrama actual - Ctrl/Cmd+S)
+    share: Compartir # Botón con icono de compartir en la barra superior (abre el modal de compartir)
+    editAsNew: Editar como nuevo # Opción del menú desplegable del encabezado (duplica el diagrama en el espacio personal)
+    signOut: Cerrar sesión # Último elemento del menú de cuenta (menú de usuario arriba a la derecha)
+    publishToDbdocs: Publicar en DBDocs # Botón del menú desplegable de exportación del encabezado
+    publish: Publicar # Botón azul en el modal de compartir (publica el diagrama actual en DBDocs)
+
+  # ========================================
+  # Insignia de borrador - Pequeño indicador junto al nombre del diagrama
+  # ========================================
+  draftBadge:
+    label: Borrador # Pequeña insignia que muestra "Borrador" junto al nombre del diagrama sin guardar
+    discardAll: Descartar todos los borradores # Botón del menú de borradores (descarta todas las versiones de borrador)
+
+  # ========================================
+  # Marcadores de posición - Textos de ayuda en campos de entrada
+  # ========================================
+  placeholders:
+    untitledDiagram: Diagrama sin título # Texto de marcador en el campo de nombre del diagrama cuando está vacío
+
+  # ========================================
+  # Estado - Indicadores de sincronización del diagrama en la barra superior
+  # ========================================
+  status:
+    readOnly: Solo lectura # Etiqueta de estado al ver un diagrama en modo solo lectura
+    synced: Sincronizado # Etiqueta que indica que todos los cambios están sincronizados
+    unsynced: Sin sincronizar # Etiqueta cuando hay cambios pendientes de sincronización
+    saved: Guardado # Etiqueta cuando el diagrama está guardado
+    unsaved: Sin guardar # Etiqueta con indicador de cambios sin guardar
+
+  # ========================================
+  # Estado de sincronización - Mensajes detallados de sincronización
+  # ========================================
+  syncStatus:
+    reconnecting: Reconectando... # Mensaje cuando se está reconectando al servidor
+    saving: Guardando diagrama... # Mensaje durante el guardado manual
+    autoSaving: Guardando diagrama automáticamente... # Mensaje durante el autoguardado
+    disconnected: Estás desconectado. Tus ediciones se están guardando localmente y se sincronizarán con el servidor la próxima vez que estés en línea. # Mensaje cuando no hay conexión
+    readOnly: Este diagrama es de solo lectura # Mensaje que explica el estado de solo lectura
+    unsaved: Este diagrama no está guardado # Mensaje cuando el diagrama tiene cambios sin guardar
+    unsavedWithLogin: Este diagrama no está guardado. Debes iniciar sesión para guardar tus diagramas # Mensaje que solicita login para guardar
+
+  # ========================================
+  # Tooltips - Textos de ayuda para elementos del encabezado
+  # ========================================
+  tooltips:
+    clickToEdit: Haz clic para editar # Tooltip sobre el nombre del diagrama
+    openInDbdocs: Abrir en dbdocs # Tooltip sobre el icono de enlace a DBDocs
+    noPublishedContent: Este proyecto aún no tiene contenido publicado # Tooltip cuando no hay enlace publicado de DBDocs
+    editAsNewDisabledWorkspace: <p class="text-center"><b>Editar como nuevo</b> no está disponible porque tu espacio de trabajo ha sido deshabilitado debido a la cancelación de la suscripción.</p> # Tooltip que explica por qué está deshabilitado Editar como nuevo
+    editAsNewNormal: Editar como nuevo # Tooltip del botón Editar como nuevo en estado normal
+
+  # ========================================
+  # Estado del borrador - Mensajes de estado de versiones de borrador
+  # ========================================
+  draftStatus:
+    upToDate: El borrador está actualizado # Texto cuando el borrador coincide con la versión publicada
+    hasUnsavedChanges: El borrador tiene cambios sin guardar # Texto cuando el borrador tiene cambios
+
+  # ========================================
+  # Estado del proyecto - Mensajes de estado del proyecto publicado
+  # ========================================
+  projectStatus:
+    upToDate: El proyecto está actualizado # Estado cuando el proyecto publicado coincide con el borrador
+    hasUnsavedChanges: El proyecto tiene cambios sin guardar # Estado cuando el borrador no está publicado
+    synchronized: El contenido de tu diagrama está sincronizado con el servidor # Estado que confirma la sincronización
+    allChangesSaved: Todos los cambios están guardados # Mensaje cuando todo está guardado
+
+  # ========================================
+  # Validación de publicación - Mensajes del modal de compartir/publicar
+  # ========================================
+  publishValidation:
+    parseError: Hay un error en tu diagrama. Corrige primero todos los errores de sintaxis antes de publicar. # Error en el modal de compartir cuando el DBML tiene errores
+    saveFirst: Guarda primero tu diagrama # Error al intentar publicar un diagrama sin guardar
+    ownerPublishFirst: Pide al propietario del diagrama que publique primero un documento de base de datos # Error para colaboradores sin permisos de publicación
+    needLogin: Inicia sesión para publicar tus cambios # Error al publicar sin autenticación
+    hasErrors: Tienes errores en tu diagrama # Resumen de errores en el modal de publicación
+    noChanges: No hay cambios para publicar # Información cuando el diagrama no tiene cambios
+
+  # ========================================
+  # Modales - Textos de diálogos modales
+  # ========================================
+  modals:
+    discardDraftsTitle: Descartar todos los borradores # Título del modal de confirmación para descartar borradores
+    discardDraftsContent: ¿Seguro que quieres descartar todas tus versiones de borrador y obtener el contenido más reciente del proyecto? Esta acción no se puede deshacer. # Texto de advertencia del modal
+    discardButton: Descartar # Botón principal del modal de descarte
+    cancelButton: Cancelar # Botón secundario
+
+  # ========================================
+  # Notificaciones - Mensajes emergentes
+  # ========================================
+  notifications:
+    publishSuccess: Proyecto publicado correctamente y versiones de borrador eliminadas # Mensaje de éxito después de publicar
+    publishFailed: No se pudo publicar el proyecto # Error cuando falla la publicación
+    discardSuccess: Todos los borradores se descartaron y se cargó la última versión # Mensaje de éxito después de descartar
+    discardFailed: No se pudieron descartar los borradores # Error cuando falla el descarte
+    showPublishFailed: No se pudo mostrar la confirmación de publicación # Error cuando no se puede abrir el modal de publicación
+    renameFailed: No se pudo renombrar el diagrama. Inténtalo de nuevo # Error al renombrar
+
+  # ========================================
+  # Menú de cuenta - Menú de usuario arriba a la derecha
+  # ========================================
+  accountDropdown:
+    loggedInWithSSO: Sesión iniciada con SSO # Etiqueta que muestra el estado de inicio de sesión con SSO
+    darkMode: Modo oscuro # Interruptor del tema oscuro
+    managePersonalPlan: Gestionar plan Personal # Enlace a gestión de facturación/suscripción
+    manageAccount: Gestionar cuenta # Enlace a la página de configuración de cuenta
