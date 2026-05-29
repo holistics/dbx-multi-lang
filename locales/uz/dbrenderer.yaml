@@ -1,0 +1,169 @@
+# DBRenderer translations - Diagram canvas and panels
+# UI Areas: Left sidebar, Canvas toolbar, Bottom-right zoom, Context menus
+
+dbrenderer:
+  # ========================================
+  # Table Search Panel - Left sidebar (toggle with Ctrl/Cmd+K)
+  # ========================================
+  tableSearchPanel:
+    title: Jadvallar # Panel title (left sidebar header)
+    diagramViews: Diagrammalarni ko'rish # Dropdown header for views (table search panel)
+    diagramViewsTooltip: Diagramma ko'rinishlari ma'lumotlar bazangizdagi muayyan domenlarni yoki ish oqimlarini ifodalovchi jadvallar to'plamidir. # Tooltip for views dropdown
+    viewActions: Ko'rinish amallari (View actions) # Dropdown header for view actions
+    cannotRenameOrDelete: "{name}ni qayta nomlab yoki o'chirib bo'lmaydi" # Error toast (default view protection)
+    rename: Nomini o'zgartirish # Menu option (view context menu)
+    delete: "O'chirish" # Menu option (view context menu)
+    reset: Asliga qaytarish # Button (resets view to default)
+    save: Saqlash # Button (saves current view)
+    saveAsNew: Yangi sifatida saqlash # Button (creates new view)
+    searchPlaceholder: Jadval yoki sxemani qidirish # Search input placeholder (no groups)
+    searchPlaceholderWithGroup: Jadval, sxema yoki guruhni qidirish # Search input placeholder (with groups)
+    groupBy: Guruhlash # Dropdown to group tables
+    showAll: "Barchasini ko'rsatish" # Button (shows all tables)
+    hideAll: Barchasini yashirish # Button (hides all tables)
+    schema: Sxema # Group by option (group by schema)
+    tableGroup: Jadval guruhi # Group by option (group by custom table group)
+    noGroup: (guruhsiz) # Group label (tables without group)
+    defaultView: "Standart ko'rinish" # Label (default view indicator)
+    unknownView: "Noma'lum ko'rinish" # Label (unknown view name)
+    newView: Yangi ko'rinish # Button (creates new diagram view)
+    copyOfName: "{name} nusxasi" # Default name for copied view
+
+  # ========================================
+  # Controller Bar - Top canvas toolbar
+  # ========================================
+  controllerBar:
+    highlightRelationships: Munosabatlarni ta'kidlash # Toggle button (highlights related tables)
+    unhighlightRelationships: Munosabatlar ta'kidini olib tashlash # Toggle button (removes highlight)
+    enableGrid: To'rni (grid) yoqish # Toggle button (shows grid)
+    disableGrid: To'rni o'chirish # Toggle button (hides grid)
+    addStickyNote: Eslatma (sticky note) qo'shish # Button (creates new sticky note on canvas)
+    searchTables: Jadvallarni qidirish # Button (opens table search panel)
+    hideTableSearch: Jadval qidiruvini yashirish # Button (closes table search panel)
+    enterFullscreen: To'liq ekranga o'tish # Button (goes fullscreen)
+    exitFullscreen: To'liq ekrandan chiqish # Button (exits fullscreen)
+
+  # ========================================
+  # Auto Arrange - Modal dialog (Ctrl/Cmd+Shift+A)
+  # ========================================
+  autoArrange:
+    title: Avtomatik tartiblash algoritmini tanlang # Modal title
+    leftRight: Chapdan-o'ngga # Algorithm option (horizontal layout L→R)
+    snowflake: Snowflake # Algorithm option (snowflake schema layout)
+    compact: Zich (Compact) # Algorithm option (compact layout)
+    confirmMessage: Diagrammangiz avtomatik ravishda qayta tartiblanadi va siz buni ortga qaytara olmaysiz. Bunga ishonchingiz komilmi? # Warning in modal body
+    confirm: Tasdiqlash (↵) # Confirm button (with Enter shortcut)
+    cancel: Bekor qilish (Esc) # Cancel button (with Escape shortcut)
+
+  # ========================================
+  # Detail Level - Dropdown (eye icon)
+  # ========================================
+  detailLevel:
+    title: Tafsilotlar darajasi # Dropdown title
+    all: Barcha maydonlar # Option (shows all fields)
+    tables: Jadval nomlari # Option (only shows table names, hides all fields)
+    keys: Faqat kalitlar (Keys) # Option (only shows primary and foreign keys, hides other fields)
+
+  # ========================================
+  # View Dropdown - View selector menu
+  # ========================================
+  viewDropdown:
+    renameView: Ko'rinish nomini o'zgartirish # Menu option (renames current view)
+    removeView: Ko'rinishni o'chirish # Menu option (deletes current view)
+    newView: Yangi ko'rinish # Menu option (creates new view)
+    disabled: (o'chirilgan) # Label for restricted views (free users)
+
+  # ========================================
+  # Diff Legend - Shown in compare mode
+  # ========================================
+  diffLegend:
+    added: Qo'shildi # Green legend item (new tables)
+    modified: O'zgartirildi # Yellow legend item (changed tables)
+    deleted: O'chirildi # Red legend item (removed tables)
+
+  # ========================================
+  # Viewport Controller - Bottom-right corner
+  # ========================================
+  viewportController:
+    zoomOut: Kichraytirish (tezlashtirish uchun bosib turing) # Zoom out button tooltip
+    zoomIn: Kattalashtirish (tezlashtirish uchun bosib turing) # Zoom in button tooltip
+    editZoomLevel: Masshtab darajasini tahrirlash uchun bosing # Zoom input tooltip
+    zoomToFit: Ko'rinishdagi barcha elementlarni ekranga moslashtirish # Fit to screen button tooltip
+    enablePanMode: Ko'chirish (pan) rejimini yoqish uchun bosing # Pan mode toggle tooltip
+    disablePanMode: Ko'chirish (pan) rejimini o'chirish uchun bosing # Pan mode toggle tooltip
+    panModeHint: Yoki ko'chirish uchun Space/Sichqonchaning o'rta tugmasini bosib torting # Hint text for pan mode
+
+  # ========================================
+  # Common - Shared buttons in renderer
+  # ========================================
+  common:
+
+  # ========================================
+  # Empty State Hint - Canvas empty states
+  # ========================================
+  emptyStateHint:
+    filtered:
+      title: Diagrammangiz ko'rinishi bo'sh # Empty state title (all tables hidden)
+      description: Hozirda ushbu ko'rinishdagi barcha jadvallar yashiringan. Diagramma ko'rinishida jadvallarni ko'rsatish uchun jadval qidirish panelidan foydalaning. # Empty state description
+      openTableSearchPanel: Jadval qidirish panelini ochish # Button (opens sidebar)
+    noDbml:
+      title: Ma'lumotlar bazasi sxemasi topilmadi # Empty state title (no tables in DBML)
+      description: DBML kodingizda hozircha hech qanday jadval yo'q. Diagrammangizni ko'rish uchun jadvallar va munosabatlar qo'shing. # Empty state description
+      startAddingTables: Jadvallar qo'shishni boshlash # Button (opens add table modal)
+
+  # ========================================
+  # Loading States - Loading indicator messages
+  # ========================================
+  loading:
+    initializingTables: Jadvallar ishga tushirilmoqda... # Loading message (table loading)
+    initializingTablesProgress: Jadvallar ishga tushirilmoqda... ({current}/{total}) # Loading with progress
+    initializingTableGroups: Jadval guruhlari ishga tushirilmoqda... # Loading message (group loading)
+    initializingTableGroupsProgress: Jadval guruhlari ishga tushirilmoqda... ({current}/{total}) # Loading with progress
+    initializingReferences: Munosabatlar ishga tushirilmoqda... # Loading message (relationship loading)
+    initializingReferencesProgress: Munosabatlar ishga tushirilmoqda... ({current}/{total}) # Loading with progress
+    arrangingDiagram: Diagrammangiz tartiblanmoqda... # Loading message (layout calculation)
+    finalizingDiagram: Diagramma yakunlanmoqda... # Loading message (render completion)
+
+  # ========================================
+  # Filter Config Tags - Filter chips in canvas
+  # ========================================
+  filterConfigTags:
+    all: Barchasi # Filter chip (shows all items)
+    allTables: Barcha jadvallar # Filter chip (all tables)
+    allNotes: Barcha eslatmalar # Filter chip (all notes)
+    nothing: Hech narsa # Filter chip (nothing shown)
+    moreItems: 'yana {count} ta element:' # Overflow indicator (more filters)
+
+  # ========================================
+  # Sticky Notes - Sticky note section
+  # ========================================
+  stickyNotesSection:
+    title: Eslatmalar # Section title (left sidebar)
+  stickyNotes:
+    untitledNote: Nomsiz eslatma # Default name for new notes
+    removeNoteConfirmation: Eslatmani o'chirib tashlaysizmi? # Delete confirmation dialog title
+    'yes': 'Ha' # Confirm button (delete note)
+    'no': 'Yoq' # Cancel button
+
+  # ========================================
+  # Table List - Table list in sidebar
+  # ========================================
+  tableList:
+    noTablesFound: Jadvallar topilmadi # Empty state (search results)
+
+  # ========================================
+  # Record Preview - Preview data sample modal
+  # ========================================
+  recordPreviewModal:
+    infoTooltip: Jadval ma'lumotlarini tezda tushunish uchun namunaviy qatorlarni ko'ring
+    editBtn:
+      title: Tahrirlash
+      tooltip: Namunaviy ma'lumotlarni tahrirlash
+    downloadBtn:
+      title: Yuklab olish
+      tooltip: CSV formatida yuklab olish
+  # ========================================
+  # View note modal - Preview markdown note
+  # ========================================
+  viewNoteModal:
+    infoTooltip: Markdown uslubida formatlash qo'llab-quvvatlanadi

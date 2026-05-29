@@ -1,0 +1,107 @@
+# Portal translations - Embedded documentation portal
+# UI Areas: OAuth callback pages, SSO portal, Error pages
+
+portal:
+  # ========================================
+  # OAuth Welcome - OAuth success messages
+  # ========================================
+  oauth:
+    welcomeTo: "{clientName}ga xush kelibsiz" # Welcome message (OAuth success)
+    signingInTo: "{clientName}ga kirilmoqda" # Loading message (OAuth)
+    successfullySignedInTo: "{clientName}ga muvaffaqiyatli kirildi" # Success message (OAuth)
+    welcome: Xush kelibsiz # Simple welcome label
+    signingIn: Kirilmoqda # Loading label
+    successfullySignedIn: Muvaffaqiyatli kirildi # Success label
+    powering: Quvvatlantirilmoqda # Portal attribution prefix
+    signOutFrom: "{clientName}dan chiqish" # Sign out link
+    signOutFromAccount: Hisobingizdan chiqish # Sign out button
+
+  # ========================================
+  # GitHub Callback - OAuth callback messages
+  # ========================================
+  githubCallback:
+    authenticating: Autentifikatsiya qilinmoqda, iltimos bir oz kuting... # Loading message (GitHub OAuth)
+    authSuccess: Autentifikatsiya muvaffaqiyatli! Bu oynani xavfsiz yopishingiz mumkin # Success message (GitHub OAuth)
+    title: GitHub autentifikatsiyasi # Page title (browser tab)
+    errors:
+      noOpener:
+        title: Noto'g'ri kirish # Error title (no opener)
+        description: Bu sahifani to'g'ridan-to'g'ri ochib bo'lmaydi. Iltimos, dasturga qayting va tizimga kirish jarayonini boshlang. # Error description (no opener)
+      openerClosed:
+        title: Asosiy oyna yopilgan # Error title (window closed)
+        description: Autentifikatsiya paytida dastlabki dastur oynasi yopildi. Iltimos, dasturga qayting va tizimga kirish jarayonini qayta boshlang. # Error description (window closed)
+      accessDenied:
+        title: Kirish rad etildi # Error title (user denied)
+        description: Siz GitHub autentifikatsiyasini bekor qildingiz. # Error description (access denied)
+      appSuspended:
+        title: Dastur to'xtatilgan # Error title (app suspended)
+        description: GitHub dasturi to'xtatib qo'yilgan. # Error description (app suspended)
+      redirectUriMismatch:
+        title: Yo'naltirish URI (Redirect URI) mos kelmadi # Error title (redirect URI)
+        description: Yo'naltirish URI (Redirect URI) konfiguratsiyaga mos kelmaydi. # Error description (redirect URI)
+      unknown:
+        title: Kutilmagan xatolik # Error title (generic)
+        description: Nimadir xato ketdi. Iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Error description (generic)
+
+  # ========================================
+  # Logout - Logout messages
+  # ========================================
+  logout:
+    validating: Tizimdan chiqish so'rovi tekshirilmoqda... # Loading message (logout)
+    loggingOut: Tizimdan chiqarilmoqda... # Loading message (logging out)
+    authorizationError: Avtorizatsiya xatosi # Error title
+    logoutFailed: Tizimdan chiqish amalga oshmadi # Error title
+
+  # ========================================
+  # SSO - Single Sign-On messages
+  # ========================================
+  sso:
+    continue: Davom etish # Button (SSO continue)
+    multipleWorkspaces: "{email} uchun bir nechta SSO ish maydoni topildi" # Multiple workspaces warning
+    failedInitiate: SSO orqali kirishni boshlab bo'lmadi. Iltimos, qayta urinib ko'ring. # Error message (SSO)
+    somethingWrong: Nimadir xato ketdi, iltimos qayta urinib ko'ring! # Generic error
+    loginCancelled: Tizimga kirish bekor qilindi, iltimos qayta urinib ko'ring! # Cancelled message
+
+  # ========================================
+  # Account Selection - Email selection
+  # ========================================
+  accountSelection:
+    continue: Davom etish # Button (account selection)
+    or: yoki # Divider text
+    differentAccount: Boshqa hisobdan foydalanish # Link (different account)
+
+  # ========================================
+  # Email Input - Email form
+  # ========================================
+  emailInput:
+    placeholder: Elektron pochta # Input placeholder
+    send: Yuborish # Submit button
+
+  # ========================================
+  # Error Pages - Generic error messages
+  # ========================================
+  errors:
+    internalServerError: Serverda kutilmagan xatolik yuz berdi. Iltimos, keyinroq qayta urinib ko'ring. # 500 error
+    serviceUnavailable: Xizmat vaqtincha mavjud emas. Iltimos, bir ozdan keyin qayta urinib ko'ring. # 503 error
+    networkError: Serverga ulanib bo'lmadi. Iltimos, internet ulanishingizni tekshiring va qayta urinib ko'ring. # Network error
+    authenticationError: Autentifikatsiya xatosi. Iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Auth error
+    windowNotOpened: Bu oyna to'g'ri ochilmadi. Iltimos, {clientName}-ga qayting va qayta urinib ko'ring. # Window error
+    windowClosed: Dastlabki dastur oynasi yopildi. Iltimos, {clientName}-ga qayting va qayta urinib ko'ring. # Window closed error
+    communicationFailed: "{clientName} bilan bog'lanib bo'lmadi. Iltimos, qayta urinib ko'ring" # Communication error
+    transferFailed: Autentifikatsiyani o'tkazib bo'lmadi. Iltimos, qayta urinib ko'ring. # Transfer error
+    canCloseWindow: Endi bu oynani yopishingiz mumkin. # Success message (close window)
+
+  # ========================================
+  # OAuth Errors - OAuth-specific errors
+  # ========================================
+  oauthErrors:
+    invalidAuthRequest: Noto'g'ri autentifikatsiya so'rovi # OAuth error
+    unsupportedResponseType: Qo'llab-quvvatlanmaydigan response_type parametri # OAuth error
+    invalidClient: Noto'g'ri mijoz # OAuth error
+    missingClientIdOrRedirectUri: client_id yoki redirect_uri yetishmayapti # OAuth error
+    missingCodeChallenge: "Majburiy parametr yetishmayapti: code_challenge" # OAuth error
+    missingState: "Majburiy parametr yetishmayapti: state" # OAuth error
+    invalidAccess: Ruxsat yaroqsiz # OAuth error
+    pageMustBeOpened: Ushbu sahifa dasturdan ochilishi kerak. # OAuth error
+    unsupportedPrompt: Qo'llab-quvvatlanmaydigan prompt parametri # OAuth error
+    unexpectedError: Kutilmagan xatolik # OAuth error

@@ -1,0 +1,180 @@
+# Workspace translations - Sidebar, dropdown, and settings
+# UI Areas: Left sidebar, Workspace dropdown, Settings page
+
+workspace:
+  # ========================================
+  # General workspace labels - Sidebar and dropdown
+  # ========================================
+  personalWorkspace: Shaxsiy ish maydoni (Personal Workspace) # Label for personal workspace (when no team workspace selected in dropdown)
+  personal: Shaxsiy # Short label for personal workspace type
+  createWorkspace: Yangi ish maydoni yaratish # Button/link to create new team workspace (sidebar)
+  dashboard: Boshqaruv paneli # Sidebar link to workspace dashboard (left sidebar)
+  newDiagram: Yangi diagramma # Button to create new diagram (sidebar)
+  newSampleDiagram: Yangi namunaviy diagramma # Dropdown with sample diagram templates (sidebar)
+  basic: Asosiy # Label for basic tier/sample (templates dropdown)
+  advanced: Ilg'or (Advanced) # Label for advanced tier/sample (templates dropdown)
+  myDiagrams: Mening diagrammalarim # Sidebar section for personal diagrams
+  sharedWithMe: Men bilan ulashilgan # Sidebar section for shared diagrams
+  workspace: Ish maydoni # Label for team workspace type
+  private: Xususiy # Privacy label for private items
+  readOnlyMode: Obuna bekor qilinganligi sababli ish maydoni faqat o'qish rejimida. Ish maydoni funksiyalarini yoqish uchun iltimos, obunani yangilang.
+
+  # ========================================
+  # Settings - Workspace settings page
+  # ========================================
+  settings:
+    title: Sozlamalar (Settings) # Settings page title
+    workspaceName: Ish maydoni nomi # Label for workspace name field
+    update: Yangilash # Save button for settings
+    loadingInfo: Ish maydoni ma'lumotlari yuklanmoqda... # Loading message when fetching settings
+    singleSignOn: Yagona tizimga kirish (Single Sign-On) # SSO settings section title
+    authenticateWithSSO: SSO (SAML) orqali autentifikatsiya qilish # SSO toggle label
+    enabled: Yoqilgan # Status label for enabled
+    samlConfiguration: SAML konfiguratsiyasi # SAML config section title
+    enforceSSO: SSO ni majburiy qilish # Enforce SSO toggle
+    enforceSSODescription: Majburiy qilingandan so'ng, ish maydoni a'zolari ushbu ish maydoniga faqat SSO orqali kirishlari mumkin # Help text for enforce SSO
+    identityProviderUrl: Identity Provider Single Sign-On URL (IdP SSO URL) # IdP URL field label
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
+    identityProviderUrlHelp: Identity Provider oxirgi nuqtasining URL manzili. # Help text for IdP URL
+    certificate: Sertifikat # Certificate field label
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----" # Placeholder for certificate
+    samlConfigurationForProvider: Identity provider uchun SAML konfiguratsiyasi # Provider config section
+    assertionConsumerServiceUrl: Assertion consumer service URL (ACS URL) # ACS URL field label
+    assertionConsumerServiceUrlHelp: '"Replying party service URL" yoki "Reply URL" deb ham ataladi' # Help text for ACS URL
+    identifier: Identifikator (Identifier) # Identifier field label
+    identifierHelp: '"Issuer" yoki "Relying party trust identifier" deb ham ataladi' # Help text for identifier
+    saveSSOSettings: SSO sozlamalarini saqlash # Save SSO settings button
+    manageWorkspace: Ish maydonini boshqarish # Link to workspace management
+    removeWorkspace: Ish maydonini o'chirish... # Danger button to remove workspace
+    cancelRemovalRequest: O'chirish so'rovini bekor qilish # Cancel workspace removal button
+    removalWarning: Bu amalni ortga qaytarib bo'lmaydi! # Warning about removal
+    removalScheduledHours: Sizning ish maydoningiz bir necha soatdan keyin o'chiriladi. # Removal scheduled message
+    removalScheduledDay: Sizning ish maydoningiz bir kundan keyin o'chiriladi. # Removal scheduled message
+    removalScheduledDays: "Sizning ish maydoningiz {count} kundan keyin o'chiriladi." # Removal scheduled message
+    removeWorkspaceTitle: Ushbu ish maydoni o'chirilsinmi? # Remove workspace modal title
+    removeWorkspaceContent: Biz sizning ish maydoningizni 7 kundan keyin o'chirishni rejalashtiramiz. Agar fikringizni o'zgartirsangiz, ushbu "Sozlamalar" menyusida ish maydonini o'chirish rejasini bekor qilishingiz mumkin. # Remove workspace modal content
+    removeWorkspaceButton: Ushbu ish maydonini o'chirish # Confirm remove button
+    removeWorkspaceSuggestion: "Tasdiqlash uchun matn kiritish maydoniga <i>permanently delete</i> deb yozing." # Confirmation input prompt
+    removalRequestCanceled: O'chirish so'rovi muvaffaqiyatli bekor qilindi! # Success toast
+    removalRequestCreated: O'chirish so'rovi muvaffaqiyatli yaratildi! # Success toast
+    contactSupportError: Xatolik yuz berdi, iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Support contact message
+    workspaceNameUpdated: Ish maydoni nomi muvaffaqiyatli yangilandi # Success toast
+    workspaceNameUpdateFailed: Ish maydoni nomini yangilab bo'lmadi, qayta urinib ko'ring! # Error toast
+    ssoConfigFetchFailed: SSO konfiguratsiyasini olib bo'lmadi. Iltimos, sahifani yangilab ko'ring. # Error toast
+    ssoConfigUpdated: SSO konfiguratsiyasi muvaffaqiyatli yangilandi # Success toast
+    ssoConfigSaveFailed: SSO konfiguratsiyasini saqlab bo'lmadi. Iltimos, qayta urinib ko'ring. # Error toast
+
+  # ========================================
+  # Members - Member management
+  # ========================================
+  members:
+    invite: Taklif qilish # Invite button
+    invitePlaceholder: Elektron pochta manzilini kiriting # Email input placeholder
+    inviteButton: Taklif yuborish # Send invite button
+    members: A'zolar # Members section title
+    role:
+      member: A'zo # Member role label
+      owner: Egasi # Owner role label
+    actions:
+      remove: Olib tashlash # Remove action
+      removeInvitation: Ushbu taklifni bekor qilish # Remove invitation action
+      removeMember: Ushbu a'zoni olib tashlash # Remove member confirmation
+    dialog:
+      removeMessage: Siz <b>{email}</b> ni ish maydoningizdan olib tashlamoqchisiz, iltimos amalingizni tasdiqlang! # Remove dialog message
+    notifications:
+      removeSuccess: "{email} ish maydonidan muvaffaqiyatli olib tashlandi!" # Success toast
+      removeError: "{email} ni ish maydonidan olib tashlab bo'lmadi!" # Error toast
+
+  # ========================================
+  # Diagram List - Diagram list view
+  # ========================================
+  diagramList:
+    searchPlaceholder: Diagrammalarni qidirish # Search input placeholder
+    freePlan: Bepul # Label for free plan
+    plan: reja # Plan suffix label
+    diagramCount: "Diagrammalar: {count}/{limit}" # Diagram count indicator
+    duplicate: Nusxalash (Duplicate) # Duplicate button
+    delete: O'chirish # Delete button
+    untitledDiagram: Nomsiz diagramma # Default name for unnamed diagrams
+    columns:
+      name: Nomi # Table column header (diagram name)
+      dateCreated: Yaratilgan sana # Table column header
+      dateModified: O'zgartirilgan sana # Table column header
+      owner: Egasi # Table column header
+
+  # ========================================
+  # Sidebar - Sidebar sections
+  # ========================================
+  sidebar:
+    apiTokens: API Tokenlar # API Tokens link (left sidebar)
+    billing: To'lovlar (Billing) # Billing link (left sidebar)
+
+  # ========================================
+  # Empty States - Empty diagrams views
+  # ========================================
+  emptyDiagrams:
+    title: Hozircha diagrammalar yo'q # Empty diagrams title
+    created:
+      description: Ish maydoningizda hech qanday diagramma yo'q. Siz yangisini yaratishingiz mumkin # Empty state description (part 1)
+      button: + Yangi diagramma # Button to create first diagram
+      buttonSuffix: tugmasi yordamida. # Empty state description (part 2)
+    shared:
+      description: Siz hali hech qanday diagrammaga taklif qilinmagansiz. # Empty state for shared diagrams
+    workspacePublic:
+      description: Jamoaga ko'rsatiladigan diagrammalar yo'q. Siz yangi diagrammalar yaratishingiz mumkin # Empty state for public workspace
+    workspacePrivate:
+      description: Hech qanday xususiy diagramma yo'q. Yangi diagramma yaratib, uni shaxsiy (private) qilib qo'yishingiz mumkin. # Empty state for private workspace
+
+  # ========================================
+  # Plan - Plan labels
+  # ========================================
+  plan:
+    pro: Pro Reja # Pro plan label
+    free: Bepul Reja # Free plan label
+    team: Jamoa Rejasi # Team plan label
+    disabled: "(o'chirilgan)" # Disabled plan label
+
+  # ========================================
+  # Welcome - Welcome modal
+  # ========================================
+  welcome:
+    title: Jamoa ish maydoniga xush kelibsiz! # Welcome modal title
+    description: Yangi diagrammalar yaratishni va jamoadoshlaringiz bilan ishlashni boshlang. # Welcome modal description
+    learnMore: Batafsil ma'lumot → # Learn more link
+
+  # ========================================
+  # API Tokens - API tokens management
+  # ========================================
+  apiTokens:
+    title: API Tokenlar # API Tokens page title
+    description: API tokenlari har marta API so'rovi amalga oshirilganda dbdiagram API uchun autentifikatsiya sifatida ishlatiladi. Parollar kabi, API tokenlari ham maxfiy saqlanishi kerak. # Description text
+    seeDocumentation: Hujjatlarni ko'ring. # Link to API docs
+    generateNew: Yangi token yaratish # Button to generate token
+    columns:
+      name: Nomi # Token name column header
+      dateCreated: Yaratilgan sana # Created date column header
+      lastUsed: Oxirgi marta ishlatilgan # Last used column header
+      owner: Egasi # Owner column header
+    empty: Yaratilgan tokenlar yo'q # Empty state message
+    actions:
+      revoke: Bekor qilish (Revoke) # Revoke token action
+    modal:
+      newToken: Yangi API token # New token modal title
+      tokenName: Token nomi # Token name input label
+      tokenNamePlaceholder: Token nomini kiriting # Token name placeholder
+      generate: Token yaratish # Generate button
+      copyWarning: API tokenidan nusxa olganingizga ishonch hosil qiling, uni qayta ko'ra olmaysiz. # Warning about copying token
+      copied: Nusxalandi # Success message after copying
+      copy: Nusxalash # Copy button
+      done: Bajarildi # Done button
+      revokeTitle: API tokenini bekor qilish? # Revoke confirmation title
+      revokeContent: '"{name}" API tokenini bekor qilmoqchimisiz? Bu amalni ortga qaytarib bo''lmaydi.' # Revoke confirmation content
+      revokePositive: Tokenni bekor qilish # Confirm revoke button
+      revokeSuggestion: "Tasdiqlash uchun matn kiritish maydoniga <i>permanently delete</i> deb yozing." # Revoke input prompt
+      generateSuccess: Token muvaffaqiyatli yaratildi # Success toast
+    errors:
+      nameEmpty: Token nomi bo'sh bo'lishi mumkin emas # Validation error
+      nameInvalid: Token nomi faqat harflar, raqamlar, probel, "-" yoki "_" ni o'z ichiga olishi mumkin # Validation error
+      nameWhitespace: Token nomi bo'sh bo'lishi yoki faqat probellardan iborat bo'lishi mumkin emas # Validation error
+      upgradeRequired: Token yaratish va API-ga ulanish uchun rejangizni yangilang # Upgrade required error
+      ownerOnly: Faqat ish maydoni egasi yangi tokenlar yarata oladi # Permission error

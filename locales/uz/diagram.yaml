@@ -1,0 +1,17 @@
+# Diagram Editor translations - Editor interface
+# UI Areas: Diagram editor, Toolbar, Header, Panels
+
+diagram:
+  # ========================================
+  # Access - Diagram access levels
+  # ========================================
+  access:
+    public: Ommaviy # Access level option
+    passwordProtected: Parol bilan himoyalangan # Access level option
+    private: Xususiy # Access level option
+    publicText: Havolaga ega bo'lgan har kim # Public access description
+    passwordProtectedText: Havola va parolga ega bo'lgan har kim # Protected access description
+    privateText: Faqat taklif qilingan foydalanuvchilar # Private access description
+    publicTooltip: Ommaviy - Foydalanuvchilar havola orqali kirishlari mumkin # Public tooltip
+    passwordProtectedTooltip: Parol bilan himoyalangan - Foydalanuvchilar havola orqali kirishlari mumkin, lekin to'g'ri parolni kiritishlari kerak # Protected tooltip
+    privateTooltip: Xususiy - Faqat taklif qilingan foydalanuvchilar kira oladi # Private tooltip

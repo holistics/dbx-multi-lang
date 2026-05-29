@@ -1,0 +1,116 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    title: Hisob # Modal main title
+    loadingInfo: "Hisob ma'lumotlari yuklanmoqda..." # Loading spinner text
+    displayName: "Ko'rsatiladigan ism" # Label for display name field
+    email: Elektron pochta # Label for email field
+
+    # Connected accounts section
+    connectedAccounts:
+      title: Ulangan hisoblar # Section title
+      loading: Ulangan hisoblar yuklanmoqda... # Loading text for connected accounts
+      noAccounts: "Ulangan hisoblar yo'q" # Empty state text
+      loggedInWith: "{provider} orqali tizimga kiritilgan" # Provider badge label (e.g., "Logged in with Google")
+
+    # Manage account section
+    manageTitle: Hisobni boshqarish # Section title
+    changeEmail: "Elektron pochta manzilini o'zgartirish" # Change email button label
+    changeEmailInProgress: "Sizda elektron pochtani o'zgartirish jarayoni davom etmoqda, iltimos kuting" # Disabled message when email change is in progress
+    changeEmailFailed: "Oxirgi marta elektron pochtani o'zgartirish amalga oshmadi, iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning" # Disabled message when last email change failed
+
+    # Account removal
+    removal:
+      removeAccount: "Hisobni o'chirish..." # Remove account button label
+      cancelRequest: "O'chirish so'rovini bekor qilish" # Cancel removal request button label
+      cannotBeUndone: "Bu amalni ortga qaytarib bo'lmaydi!" # Warning text when no removal request
+      removedAfter: "Sizning hisobingiz {time} o'tgach o'chiriladi." # Removal countdown text
+      aFewHours: bir necha soat # Time label when less than 1 day remaining
+      aDay: bir kun # Time label when exactly 1 day remaining
+      days: "{count} kun" # Time label for multiple days remaining
+      workspaceDeletionWarning: "Sizda o'chiriladigan {count} ta shaxsiy ish maydoni(workspace) mavjud:" # Warning about workspaces to be deleted
+      confirmTitle: "Ushbu hisob o'chirilsinmi?" # Confirmation modal title
+      cancelSuccess: "O'chirish so'rovi muvaffaqiyatli bekor qilindi!" # Success toast after canceling
+      submitSuccess: "O'chirish so'rovi muvaffaqiyatli yaratildi!" # Success toast after submitting
+
+    errors:
+      generic: "Xatolik yuz berdi, iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning" # Generic error toast
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: "Elektron pochtani o'zgartirish" # Modal title
+
+    # Step labels (stepper header)
+    steps:
+      verifyCurrentEmail: Joriy elektron pochtani tasdiqlash # Step 1 title
+      currentEmailVerified: Joriy elektron pochta tasdiqlandi # Step 1 completed label
+      enterNewEmail: Yangi elektron pochtani kiritish # Step 2 title
+      verifyNewEmail: Yangi elektron pochtani tasdiqlash # Step 3 title
+      newEmailVerified: Yangi elektron pochta tasdiqlandi # Step 3 completed label
+      confirmChange: "O'zgarishni tasdiqlash" # Step 4 title
+      emailChanged: "Elektron pochta o'zgartirildi" # Step 4 completed label
+
+    # Step 1: Verify current email
+    verifyCurrent:
+      description: "Xavfsizlik maqsadida, uni o'zgartirish uchun joriy elektron pochtangizni OTP orqali tasdiqlashingiz kerak." # Step 1 description
+      currentEmailLabel: "Joriy elektron pochta:" # Label before current email address
+      sendCode: Kodni yuborish # Send OTP button
+      otpSentMessage: Pochtangizga 6 xonali kod yubordik. Kodning amal qilish muddati 4 daqiqa. # OTP sent info text
+      verificationCode: Tasdiqlash kodi # OTP input label
+      resendCode: Kodni qayta yuborish # Resend button label
+      resendCodeCooldown: "Kodni qayta yuborish ({seconds}s)" # Resend button with cooldown timer
+      verify: Tasdiqlash # Verify OTP button
+
+    # Step 2: Enter new email
+    enterNew:
+      description: "Yangi elektron pochta manzilingizni kiriting. Bu sizniki ekanligini tasdiqlash uchun tasdiqlash kodi yuboramiz." # Step 2 description
+      newEmailLabel: Yangi elektron pochta manzili # New email input label
+      placeholder: Yangi elektron pochtani kiriting # New email input placeholder
+      sendCode: Kodni yuborish # Send OTP button
+
+    # Step 3: Verify new email
+    verifyNew:
+      otpSentTo: Biz 6 xonali kodni yubordik # Text before new email address
+      codeExpires: Kodning amal qilish muddati 4 daqiqa. # OTP expiry info
+      verificationCode: Tasdiqlash kodi # OTP input label
+      resendCode: Kodni qayta yuborish # Resend button label
+      resendCodeCooldown: "Kodni qayta yuborish ({seconds}s)" # Resend button with cooldown timer
+      back: Orqaga # Back button to return to step 2
+      verify: Tasdiqlash # Verify OTP button
+
+    # Step 4: Confirm change
+    confirm:
+      description: "Siz elektron pochta manzilingizni o'zgartirmoqchisiz:" # Step 4 description
+      from: "dan:" # Label for current email in summary
+      to: "ga:" # Label for new email in summary
+      pleaseNote: "Iltimos, e'tibor bering:" # Notes section title
+      noteNotifications: "Yangi elektron pochta kelajakda barcha hisob xabarnomalarini (to'lovlar, taklifnomalar va boshqalar) oladi." # Note about notifications
+      noteLogout: "Tizimdan avtomatik ravishda chiqarilmaysiz. Iltimos, boshqa qurilmalardan tizimdan o'zingiz chiqing." # Note about logout
+      noteIrreversible: "Bu amalni ortga qaytarib bo'lmaydi." # Note about irreversibility
+      confirmButton: "O'zgarishni tasdiqlash" # Confirm change button
+
+    # Polling notifications for email change propagation
+    polling:
+      inProgressTitle: "Elektron pochtangiz xizmatlar bo'ylab yangilanmoqda..." # Notification title while syncing
+      inProgressText: Bu bir necha daqiqa vaqt olishi mumkin. Siz hali ham dasturdan foydalanishda davom etishingiz mumkin. # Notification body while syncing
+      completedText: "Elektron pochta barcha xizmatlar bo'ylab muvaffaqiyatli yangilandi!" # Success notification
+      failedTitle: "Ba'zi xizmatlar yangi elektron pochtangizni sinxronlashtira olmadi." # Warning notification title
+      failedText: "Elektron pochtangiz o'zgartirildi, lekin ba'zi xizmatlar hali ham eskisini ko'rsatishi mumkin. Iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmatiga murojaat qiling." # Warning notification body
+
+    # Error messages
+    errors:
+      invalidEmail: Iltimos, yaroqli elektron pochta manzilini kiriting # Invalid email format
+      incorrectCode: "Siz kiritgan kod noto'g'ri" # Wrong OTP code
+      codeExpired: "Tasdiqlash muddati tugagan. Iltimos, yangisini so'rang." # OTP expired
+      codeAlreadyUsed: "Bu kod allaqachon ishlatilgan. Iltimos, yangisini so'rang." # OTP already used
+      requestExpired: "Tasdiqlash so'rovingizning muddati tugagan. Iltimos, yangi kod so'rang." # OTP request token expired
+      emailInUse: Bu elektron pochta allaqachon boshqa hisob tomonidan ishlatilmoqda # Duplicate email
+      verificationExpired: Tasdiqlashingiz muddati tugagan. Iltimos, boshidan boshlang. # Verification token expired
+      generic: "Nimadir xato ketdi. Iltimos, qayta urinib ko'ring." # Fallback error
