@@ -149,6 +149,13 @@ modals:
     projectUrlHeader: URL # Header for project URL column in popover
     publishNewQuestion: ¿Quieres publicar en otro proyecto? # Prompt to publish to a new project
     publishNewAction: Publicar en un nuevo proyecto # Action link text
+    reviewAndPublishTitle: Revisar y publicar en # Modal title for review and publish modal
+    cancelButton: Cancelar # Cancel button
+    reviewAndPublishButton: Revisar y publicar # Publish button
+    publishNewOrUpdate: Publicar un nuevo documento / Actualizar uno existente # Section title
+    updateExisting: Actualizar un documento existente # Update option
+    publishNewOption: Publicar un nuevo documento # Publish a new document option
+    ownerOnlyUpdatePublishDestination: Solo el propietario del diagrama puede actualizar el destino de publicación # Non-owner message for selecting publish destination
 
   # ========================================
   # Import modal - Import diagram
