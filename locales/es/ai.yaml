@@ -1,0 +1,112 @@
+# Traducciones del asistente de IA - Panel de IA y funciones
+# Áreas de interfaz: panel derecho de IA, modal de bienvenida, visor de diferencias
+
+ai:
+  # ========================================
+  # Panel de IA - Interfaz de chat en la barra lateral derecha
+  # ========================================
+
+  panel:
+    inputPlaceholder: Pregúntame cualquier cosa sobre tu diagrama... # Placeholder del campo de chat
+    currentChat: Chat actual # Encabezado de la sección del chat actual
+    previousChats: Chats anteriores # Encabezado de la sección de chats anteriores
+    noOtherChats: Aún no hay otros chats # Estado vacío cuando no hay chats anteriores
+    sendInstructions: Pulsa Enter para enviar, Shift+Enter para una nueva línea # Ayuda bajo el cuadro de chat
+    sendMessage: Enviar mensaje # Tooltip del botón de enviar
+    workspaceDisabled: Espacio de trabajo deshabilitado # Mensaje de estado deshabilitado
+    editPermissionRequired: Se requiere permiso de edición # Mensaje de error de permisos
+    usageLimitReached: Has usado todo tu límite de uso de este mes. Inténtalo de nuevo el # Mensaje de límite de uso
+    learnMoreAboutUsageLimits: Más información sobre los límites de uso # Texto del enlace
+    chat: Chat # Etiqueta de la pestaña Chat
+    clickToEdit: Haz clic para editar # Etiqueta de mensaje editable
+    newChat: Nuevo chat # Botón de nuevo chat
+    showChatHistory: Mostrar historial de chats # Botón para mostrar historial
+    hideChatHistory: Ocultar historial de chats # Botón para ocultar historial
+
+  # ========================================
+  # Modal de bienvenida de IA - Experiencia inicial del usuario
+  # ========================================
+  welcome:
+    title: Bienvenido a DBDiagram AI # Título del modal de bienvenida
+    subtitle: Tu asistente inteligente para el diseño de bases de datos # Subtítulo del modal de bienvenida
+
+  # ========================================
+  # Estados de carga de IA - Estados de mensajes
+  # ========================================
+  messages:
+    thinking: Pensando... # Indicador de carga
+    generating: Generando... # Indicador de generación de esquema
+    explaining: Explicando... # Indicador de explicación
+    error: Algo salió mal. Inténtalo de nuevo. # Mensaje de error recuperable
+    rateLimit: Has alcanzado el límite de uso. Mejora tu plan para continuar. # Mensaje de límite de uso
+
+  # ========================================
+  # Visor de diferencias - Comparación de cambios de IA
+  # ========================================
+  diffViewer:
+    reject: Rechazar # Botón para rechazar un cambio
+    accept: Aceptar # Botón para aceptar un cambio
+    rejectAll: Rechazar todo # Botón para rechazar todos los cambios
+    acceptAll: Aceptar todo # Botón para aceptar todos los cambios
+
+  # ========================================
+  # Uso de tokens - Seguimiento de uso de IA
+  # ========================================
+  tokenUsage:
+    used: Usado # Etiqueta del contador de uso
+    usageText: Has usado el {percentage} de tu límite de uso # Texto de progreso de uso
+    tokens: tokens # Unidad de uso
+    learnMore: Haz clic para obtener más información sobre los límites de uso # Tooltip del indicador de uso
+    resetOn: Se restablece el # Etiqueta de fecha de restablecimiento
+
+  # ========================================
+  # Detalles de respuesta de IA - Metadatos de respuesta
+  # ========================================
+  assistant:
+    dbmlCode: Código DBML # Etiqueta del encabezado del bloque de código
+    lines: líneas # Unidad para el número de líneas
+
+  # ========================================
+  # Mensajes de respuesta de IA - Respuestas estándar
+  # ========================================
+  responseMessages:
+    noExplanation: El esquema se ha actualizado. Revisa los cambios en el visor de diferencias. # Mensaje después de actualizar el esquema
+    invalidIntent: "Bienvenido a dbdiagram AI.\n\nEstoy aquí para ayudarte con:\n\n• **Diseño de esquemas DBML** - Crear y modificar tablas, relaciones y estructuras de base de datos\n• **Buenas prácticas de bases de datos** - Sugerir tipos de datos, índices y restricciones adecuados\n• **Optimización de esquemas** - Organizar tablas con TableGroups, añadir marcas de tiempo y reasignar tipos de datos\n• **Transformaciones rápidas** - Convertir entre sistemas de bases de datos (PostgreSQL, MySQL, SQL Server, etc.)\n\nPrueba a pedirme que cree tablas, añada relaciones o usa las acciones rápidas de arriba para empezar." # Mensaje de ayuda
+
+  # ========================================
+  # Títulos de acciones rápidas - Encabezados de tarjetas de acción
+  # ========================================
+  quickActionTitles:
+    createTableGroups: Crear grupos de tablas # Título de tarjeta 1
+    addTimestampColumns: Añadir columnas de marca de tiempo # Título de tarjeta 2
+    addRelationships: Añadir relaciones # Título de tarjeta 3
+    addIndexes: Añadir índices # Título de tarjeta 4
+    learnDatabaseDesign: Aprender diseño de bases de datos # Título de tarjeta 5
+    cloneSlack: Clonar Slack # Título de tarjeta 6
+    documentDatabase: Documentar base de datos # Título de tarjeta 7
+    todoList: Lista de tareas # Título de tarjeta 8
+    remapDataTypes: Reasignar tipos de datos # Título de tarjeta 9
+
+  # ========================================
+  # Descripciones de acciones rápidas - Subtítulos de tarjetas de acción
+  # ========================================
+  quickActionDescriptions:
+    createTableGroups: Organiza tus tablas en grupos lógicos por dominio y funcionalidad con colores diferenciados # Descripción de tarjeta 1
+    addTimestampColumns: Añade columnas created_at y updated_at a las tablas que necesitan seguimiento de auditoría # Descripción de tarjeta 2
+    addRelationships: Detecta y añade automáticamente relaciones de clave foránea según convenciones de nombres # Descripción de tarjeta 3
+    addIndexes: Añade bloques de índices para claves foráneas y columnas consultadas con frecuencia # Descripción de tarjeta 4
+    learnDatabaseDesign: Aprende sobre diseño de bases de datos # Descripción de tarjeta 5
+    cloneSlack: Crea un clon de Slack # Descripción de tarjeta 6
+    documentDatabase: Crea una base de datos para almacenar documentos # Descripción de tarjeta 7
+    todoList: Crea una aplicación de lista de tareas # Descripción de tarjeta 8
+    remapDataTypes: Convierte tipos de datos para que coincidan con tu sistema de base de datos objetivo # Descripción de tarjeta 9
+
+  # ========================================
+  # Subacciones de acciones rápidas - Selectores de tipo de base de datos
+  # ========================================
+  quickActionSubActions:
+    postgresql: PostgreSQL # Opción del selector de base de datos
+    mysql: MySQL # Opción del selector de base de datos
+    sqlServer: SQL Server # Opción del selector de base de datos
+    sqlite: SQLite # Opción del selector de base de datos
+    oracle: Oracle # Opción del selector de base de datos

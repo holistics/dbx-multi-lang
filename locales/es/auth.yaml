@@ -1,0 +1,87 @@
+# Traducciones de autenticación - Páginas de inicio de sesión, registro y contraseña
+# Áreas de interfaz: páginas de autenticación (/login, /signup, /forgot-password)
+
+auth:
+  # ========================================
+  # Página de inicio de sesión - Login con email/contraseña
+  # ========================================
+  login:
+    email: Email # Etiqueta del campo de email
+    loginWithGithub: Iniciar sesión con GitHub # Botón de inicio de sesión social (GitHub)
+    loginWithMicrosoft: Iniciar sesión con Microsoft # Botón de inicio de sesión social (Microsoft)
+
+  # ========================================
+  # Errores OAuth - Errores del flujo OAuth
+  # ========================================
+  oauth:
+    authorizationError: Falló la autorización # Título de error OAuth
+    processing: Procesando... # Estado de carga (redirección OAuth)
+    justAMomentPleaseWait: Un momento, espera por favor... # Mensaje de carga (redirección OAuth)
+    signedInAs: Has iniciado sesión como # Etiqueta de sesión (indicador SSO)
+    failedSignInGitHub: No se pudo iniciar sesión con GitHub # Mensaje de error (OAuth de GitHub)
+    failedSignInMicrosoft: No se pudo iniciar sesión con Microsoft. Inténtalo de nuevo. # Mensaje de error (OAuth de Microsoft)
+
+  # ========================================
+  # Errores de formulario - Mensajes de validación
+  # ========================================
+  errors:
+    invalidEmail: Dirección de email no válida. Inténtalo de nuevo. # Validación de email
+    githubPopupBlocked: Permite las ventanas emergentes para iniciar sesión con GitHub # Error de configuración del navegador
+
+  # ========================================
+  # Autenticación OTP - Contraseña de un solo uso
+  # ========================================
+  otp:
+    signInWithEmail: Iniciar sesión con email # Etiqueta de pestaña OTP
+    otpSentTo: OTP enviado a # Etiqueta que muestra el email oculto
+    wrongEmail: ¿Email incorrecto? # Enlace para cambiar email
+    changeEmail: Cambiar email # Botón para cambiar email
+    inputEmail: Introduce tu dirección de email # Placeholder del campo de email
+    inputYourOtp: Introduce tu OTP # Placeholder del campo OTP
+    inputOtpCode: Introduce el código OTP enviado al email # Texto de ayuda del OTP
+    signInSuccess: Sesión iniciada correctamente # Mensaje de éxito
+    didntReceiveOtp: ¿No recibiste el OTP? # Texto de ayuda para reenviar
+    resendOtp: Reenviar OTP # Botón de reenvío
+    resendAfter: Puedes reenviar el OTP después de {counter}s # Temporizador cuando el botón está deshabilitado
+    submit: Enviar # Botón de envío del OTP
+    sendOtpFailed: No se pudo enviar el OTP. Inténtalo de nuevo. # Mensaje de error
+
+  # ========================================
+  # Inicio de sesión SSO - Single Sign-On
+  # ========================================
+  sso:
+    orContinueWith: o continuar con # Texto divisor de SSO
+
+  # ========================================
+  # Portal incrustado - Páginas del portal OAuth
+  # ========================================
+  portal:
+    signIn: Iniciar sesión # Botón de inicio de sesión en portal incrustado
+    signInWith: Iniciar sesión con
+
+  # ========================================
+  # Errores adicionales - Mensajes extra de error
+  # ========================================
+  additional:
+    unknownError: Error desconocido # Error por defecto
+    invalidOtp: OTP no válido. Inténtalo de nuevo. # Error de validación OTP
+    cannotValidateOtp: No se puede validar el OTP. Inténtalo de nuevo. # Fallo de validación OTP
+    emailNotVerified: Tu email no está verificado. Verifícalo en tu cuenta de Microsoft. # Verificación de email de Microsoft
+    cannotSignInMicrosoftSSO: No se puede iniciar sesión con Microsoft SSO. Inténtalo de nuevo. # Error de SSO de Microsoft
+    cannotSignIn: No se puede iniciar sesión. Inténtalo de nuevo. # Error genérico de inicio de sesión
+    failedReloadProject: No se pudo recargar el proyecto después de iniciar sesión. Actualiza la página. # Error de recarga
+    loginError: Error de inicio de sesión # Error genérico de login
+    signInCancelled: Inicio de sesión cancelado. Inténtalo de nuevo. # Flujo cancelado
+
+  # ========================================
+  # Callback de cierre de sesión - Redirección posterior al logout
+  # ========================================
+  logoutCallback:
+    redirecting: Redirigiendo... # Mensaje de carga tras cerrar sesión
+    redirectDescription: Serás redirigido a la aplicación en unos segundos. # Texto de ayuda
+
+  popupsWarning:
+    title: No se pudo abrir la ventana de inicio de sesión
+    description: Es posible que la ventana de inicio de sesión haya sido bloqueada por tu navegador o por una extensión. Revisa la configuración e inténtalo de nuevo.
+    needHelp: ¿Necesitas ayuda?
+    contactSupport: Contactar con soporte

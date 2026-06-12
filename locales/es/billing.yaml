@@ -1,0 +1,126 @@
+# Traducciones de facturación - Precios, suscripciones y pagos
+# Áreas de interfaz: página de precios, configuración de facturación, modales de mejora de plan
+
+billing:
+  # ========================================
+  # Botones de facturación - Botones de acción
+  # ========================================
+  buttons:
+    upgrade: Mejorar plan # Botón genérico de mejora
+    upgradeToPersonalPro: Mejorar al plan Personal Pro # Botón CTA en página de precios
+    collaborateWithTeam: Colaborar con el plan Team # Botón CTA del plan de equipo
+
+  # ========================================
+  # Página de precios - Tabla de precios
+  # ========================================
+  pricing:
+
+  # ========================================
+  # Detalles de planes - Información individual de cada plan
+  # ========================================
+  plans:
+    free:
+      features:
+        - Hasta 3 diagramas # Elemento 1 de la lista de funciones
+        - Herramientas básicas de edición # Elemento 2 de la lista de funciones
+        - Exportación como SQL/PNG # Elemento 3 de la lista de funciones
+        - Soporte de la comunidad # Elemento 4 de la lista de funciones
+
+    pro:
+      features:
+        - Diagramas ilimitados # Elemento 1 de la lista de funciones
+        - Herramientas avanzadas de edición # Elemento 2 de la lista de funciones
+        - Historial de versiones # Elemento 3 de la lista de funciones
+        - Soporte prioritario # Elemento 4 de la lista de funciones
+        - Exportación como PDF # Elemento 5 de la lista de funciones
+        - Temas personalizados # Elemento 6 de la lista de funciones
+
+    team:
+      features:
+        - Todo lo incluido en Pro # Elemento 1 de la lista de funciones
+        - Colaboración en equipo # Elemento 2 de la lista de funciones
+        - Controles de administración # Elemento 3 de la lista de funciones
+        - Autenticación SSO # Elemento 4 de la lista de funciones
+        - Soporte prioritario # Elemento 5 de la lista de funciones
+        - Integraciones personalizadas # Elemento 6 de la lista de funciones
+
+  # ========================================
+  # Formulario de pago - Campos de tarjeta de crédito
+  # ========================================
+  payment:
+    paymentMethod: Método de pago # Etiqueta de sección para tarjetas existentes
+
+  # ========================================
+  # Historial de facturación - Sección de facturas
+  # ========================================
+  billing:
+
+  # ========================================
+  # Gestión de suscripción - Acciones de suscripción
+  # ========================================
+  subscription:
+
+  # ========================================
+  # Plan Personal Pro - Lista de funciones del plan
+  # ========================================
+  personalPro:
+
+  # ========================================
+  # Plan Team - Lista de funciones del plan
+  # ========================================
+  team:
+
+  # ========================================
+  # Precios públicos - Página pública de precios
+  # ========================================
+  publicPricing:
+
+  # ========================================
+  # Botón de mejora - Mejora contextual
+  # ========================================
+  upgradeNowBtn:
+    ownerOnly: Solo el propietario del espacio de trabajo puede mejorar al plan Team # Tooltip deshabilitado
+
+  # ========================================
+  # Modal de gestión de plan - Detalles de suscripción
+  # ========================================
+  managePlanModal:
+    loadingSubscription: Cargando información de la suscripción... # Texto de carga
+    currentPlan: Plan actual # Encabezado de sección
+    personalPlanForever: Plan Personal - Para siempre # Nombre del plan
+    unknownPlan: Plan desconocido # Nombre de plan por defecto
+    billedMonthly: Facturado cada mes # Frecuencia de facturación
+    billedAnnually: Facturado cada año # Frecuencia de facturación
+    chargeEvery: Cobro cada {period} {unit} # Descripción del cobro
+    cancelledOn: Cancelado el # Etiqueta de fecha de cancelación
+    planDetails: Detalles del plan → # Enlace a funciones del plan
+    upgradeDescription: Mejora a uno de nuestros planes de pago para obtener niveles de detalle, color de encabezado y todas las próximas funciones # Aviso de mejora
+    nextPayment: Tu próximo pago es # Encabezado de sección de pago
+    chargedOn: se cobrará el # Sufijo de fecha de pago
+    editSubscription: Editar suscripción # Botón de método de pago
+    switchToMonthly: Cambiar a facturación mensual # Opción de facturación mensual
+    switchToYearly: Cambiar a facturación anual # Opción de facturación anual
+    noPaymentMethod: Sin método de pago # Estado vacío
+    updatePaymentMethod: Actualizar método de pago # Botón para añadir tarjeta
+    invoicing: Facturación # Encabezado de sección
+    lastPayment: Último pago # Encabezado de sección
+    editBillingInfo: Editar información de facturación # Botón de datos de facturación
+    paymentProcessing: Tu pago se está procesando. Recarga la página en unos minutos. # Mensaje de procesamiento
+
+  # ========================================
+  # Tarjeta deshabilitada - Estado de espacio de trabajo deshabilitado
+  # ========================================
+  disabledCard:
+    personalUpgrade: Mejora tu espacio de trabajo personal para obtener funciones premium. # Aviso de mejora
+    teamReadOnly: El espacio de trabajo está en modo solo lectura debido a la cancelación de la suscripción. Renueva para habilitar la funcionalidad del espacio de trabajo. # Aviso de reactivación
+
+  # ========================================
+  # Vista simple de selección de plan - Vista simple de precios
+  # ========================================
+  planPickingSimpleView:
+    collaborateWithTeamPlan: Colaborar con el plan Team # Encabezado de sección
+    collaborateWithColleagues: Colabora con tus compañeros. # Subtítulo de sección
+    manageTeamDiagrams: Gestiona todos los diagramas del equipo en un solo lugar. # Texto de beneficio
+    startFreeTrial: Iniciar prueba gratuita de 7 días # Botón CTA
+    learnMore: Más información # Enlace
+    pricingFrom: Precios desde {currency}{price}/mes # Etiqueta de precio
