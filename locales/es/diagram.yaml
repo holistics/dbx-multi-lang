@@ -1,0 +1,17 @@
+# Diagram Editor translations - Editor interface
+# UI Areas: Diagram editor, Toolbar, Header, Panels
+
+diagram:
+  # ========================================
+  # Access - Diagram access levels
+  # ========================================
+  access:
+    public: Público # Access level option
+    passwordProtected: Protegido con contraseña # Access level option
+    private: Privado # Access level option
+    publicText: Cualquiera con el enlace # Public access description
+    passwordProtectedText: Cualquiera con el enlace y la contraseña # Protected access description
+    privateText: Solo personas invitadas # Private access description
+    publicTooltip: Público - Las personas pueden acceder mediante su enlace # Public tooltip
+    passwordProtectedTooltip: Protegido con contraseña - Las personas pueden acceder mediante su enlace, pero deben ingresar la contraseña correcta # Protected tooltip
+    privateTooltip: Privado - Solo las personas invitadas pueden acceder # Private tooltip

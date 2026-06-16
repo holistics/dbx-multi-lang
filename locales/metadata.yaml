@@ -36,3 +36,9 @@ tr:
   nativeName: Türkçe
   flag: 🇹🇷
   hello: Merhaba
+
+es:
+  name: Spanish
+  nativeName: Español
+  flag: 🇪🇸
+  hello: Hola

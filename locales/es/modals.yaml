@@ -1,0 +1,320 @@
+# Modals translations - Modal dialogs throughout the app
+# UI Areas: Share modal, Import modal, Export modal, History modal, Upgrade modals
+
+modals:
+  # ========================================
+  # Generic modal titles - Common titles
+  # ========================================
+  titles:
+    confirm: Confirmar # Generic confirm modal title
+    delete: Eliminar # Delete confirmation modal title
+    remove: Quitar # Remove confirmation modal title
+    rename: Renombrar # Rename modal title
+
+  # ========================================
+  # Confirmation dialogs - Generic and specific
+  # ========================================
+  confirmation:
+    default:
+      message: ¿Realmente deseas continuar con esta acción? # Default confirmation message
+      checkbox: No mostrar de nuevo # Checkbox to disable future confirmations
+    deleteDiagram:
+      message: ¿Estás seguro de que deseas eliminar este diagrama? Esta acción no se puede deshacer. # Delete diagram warning
+      warning: ¡Ten en cuenta que esta acción no se puede deshacer! # Additional warning
+      embedLinkActive: Tienes un enlace incrustado activo. # Warning about embed links
+      lastViewed: Última visualización # Label for last viewed timestamp
+    removeWorkspace:
+    removeMember:
+      title: Quitar miembro # Remove member modal title
+      message: ¿Estás seguro de que deseas quitar a este miembro del espacio de trabajo? # Remove member confirmation
+      suggestion: Por favor, escribe tu correo electrónico para confirmar. # Input prompt for confirmation
+
+  # ========================================
+  # Share modal - Diagram sharing
+  # ========================================
+  share:
+    tabs:
+      sharing: Compartir # Sharing tab label
+      embedding: Incrustar # Embedding tab label
+    generalAccess:
+      passwordPlaceholder: Ingresa la contraseña # Password input placeholder
+      createPassword: Crear # Create password button
+      updatePassword: Actualizar # Update password button
+      canAccess: puede acceder # Helper text suffix
+      copyLink: Copiar enlace # Copy link button
+      updatePasswordButton: Actualizar contraseña # Update password button
+    permissions:
+      canEditAndInvite: Puede editar e invitar # Permission label
+      canEditAndInviteDesc: Puede editar e invitar personas. # Permission description
+      canEdit: Puede editar # Permission label
+      canEditDesc: Puede editar, pero no invitar personas. # Permission description
+      canView: Puede ver # Permission label
+      canViewDesc: Puede ver, pero no editar. # Permission description
+      remove: Quitar # Remove button
+      removeDesc: Quitar este colaborador. # Remove description
+      noAccess: Sin acceso # No access label
+      noAccessDesc: Sin acceso a este diagrama # No access description
+    invite:
+      placeholder: Correo electrónico, separados por coma o espacio # Email input placeholder
+      button: Invitar # Invite button
+    members:
+      you: (tú) # Label for current user
+    confirmRemoveCollaborator: Estás a punto de quitar a <b>{email}</b> de los colaboradores, ¡por favor confirma tu acción! # Remove confirmation message
+    errors:
+      publicPermissionUpdateFailed: ¡Error al actualizar el permiso público del diagrama, por favor inténtalo de nuevo! # Error toast
+      publicPermissionUpdated: ¡Permiso público del diagrama actualizado! # Success toast
+      passwordLength: La contraseña debe tener entre 6 y 128 caracteres # Validation error
+      cannotUpdateDiagramState: No se puede actualizar el estado del diagrama # Error toast
+      createPasswordFailed: Error al crear la contraseña # Error toast
+      updatePasswordFailed: Error al actualizar la contraseña # Error toast
+    success:
+      createPasswordSuccess: Contraseña creada correctamente # Success toast for password creation
+      updatePasswordSuccess: Contraseña actualizada correctamente # Success toast for password update
+      diagramIsPublic: ¡El diagrama ahora es público! # Success toast for making diagram public
+      diagramIsPrivate: ¡El diagrama ahora es privado! # Success toast for making diagram private
+      diagramIsProtected: ¡El diagrama ahora está protegido! # Success toast for making diagram protected
+    permissionChanged: ¡Tus permisos han cambiado, por favor recarga para aplicar los cambios! # Permission change toast
+    reload: Recargar # Reload button
+    cannotGetPermission: ¡No se puede obtener el permiso del diagrama, por favor inténtalo de nuevo! # Error toast
+    embedLink:
+      title: Enlace incrustado # Embed link section title
+      lastView: Última visualización # Last viewed label
+      customize: Personaliza tu enlace incrustado con opciones # Customize label
+      darkMode: Modo oscuro # Dark mode toggle label
+      highlightRelationships: Resaltar relaciones # Highlight toggle label
+      detailLevel: Nivel de detalle # Detail level dropdown label
+      anyoneWithLink: Cualquiera con el enlace puede ver el diagrama incrustado. # Help text
+      remove: ¿Deseas eliminar este enlace incrustado? Otras personas ya no podrán acceder a él. # Remove confirmation
+      generate: Generar enlace incrustado # Generate button
+      errors:
+        cannotGet: ¡No se pueden obtener los enlaces incrustados, por favor inténtalo de nuevo! # Error toast
+        cannotCreate: ¡No se puede crear el enlace incrustado, por favor inténtalo de nuevo! # Error toast
+        cannotDelete: ¡No se puede eliminar el enlace incrustado, por favor inténtalo de nuevo! # Error toast
+        cannotUpdate: ¡No se puede actualizar la configuración del enlace incrustado, por favor inténtalo de nuevo! # Error toast
+    tooltip:
+      viewOnly: El permiso de este usuario está limitado solo a visualización. # Permission tooltip
+      upgradePersonal: Para habilitar la colaboración de edición, por favor mejora tu espacio de trabajo personal. # Upgrade tooltip
+      freeAccount: Este usuario tiene una cuenta <b>gratuita</b>. # Free account tooltip
+      editAfterUpgrade: Se le permitirá <b>editar</b> el diagrama después de que su cuenta sea mejorada. # Upgrade tooltip
+      collaborationLimit: Solo puedes colaborar con # Collaboration limit text
+      diagramLimit: Hasta 4 usuarios gratuitos en cada diagrama (actualmente {count} usuarios) # Diagram limit text
+      workspaceLimit: Hasta 6 usuarios gratuitos en todos los diagramas (actualmente {count} usuarios) # Workspace limit text
+
+  # ========================================
+  # Private diagram - Password protection
+  # ========================================
+  private:
+    protected: Diagrama protegido # Protected badge
+    private: Este diagrama es privado # Private badge
+    passwordRequired: Necesitas una contraseña para ver este diagrama. # Password required message
+    noAccess: No tienes acceso a este diagrama. # No access message
+    enterPassword: Ingresa tu contraseña # Password input placeholder
+    incorrectPassword: Contraseña incorrecta # Incorrect password error
+    tryAgain: ¡Por favor, inténtalo de nuevo! # Try again button
+    viewDiagram: Ver diagrama # View diagram button
+
+  # ========================================
+  # Publish modal - Publish to DBDocs
+  # ========================================
+  publish:
+    title: Publicar en # Modal title (publish dropdown)
+    reviewAndPublishTitle: Revisar y publicar en # Modal title for review and publish modal
+    dbdocsLink: dbdocs # Link label
+    cancelButton: Cancelar # Cancel button
+    publishButton: Publicar # Publish button
+    reviewAndPublishButton: Revisar y publicar # Publish button
+    bullet1: Publica una nueva documentación de base de datos visible en la web de tu diagrama. # Feature bullet point
+    bullet2: El documento publicado estará disponible en una cuenta de dbdocs vinculada a tu correo electrónico. # Feature bullet point
+    bullet3: Los cambios en tu diagrama no actualizarán automáticamente el documento de dbdocs. # Feature bullet point
+    publishNewOrUpdate: Publicar un nuevo documento / Actualizar uno existente # Section title
+    updateExisting: Actualizar un documento existente # Update option
+    publishNewOption: Publicar un nuevo documento # Publish a new document option
+    projectPublicDefault: Tu proyecto de dbdocs está configurado como "público" de forma predeterminada. Las personas pueden acceder mediante su enlace. # Public default info
+    documentProjectName: Nombre del proyecto de documento # Project name field label
+    enterProjectName: Ingresa el nombre del proyecto # Project name placeholder
+    options: Opciones # Options section title
+    ownerOnlyUpdatePublishDestination: Solo el propietario del diagrama puede actualizar el destino del documento # Non-owner message for selecting publish destination
+    passwordProtection: Protección con contraseña (opcional) # Password section title
+    passwordPlaceholder: Ingresa una contraseña # Password placeholder
+    passwordMinLength: La contraseña debe tener al menos 6 caracteres # Password validation
+    feedback: Cuéntanos tu # Feedback label
+    feedbackLink: opinión # Feedback link
+    aboutThisFeature: sobre esta función. # Feedback link suffix
+    errorLoadingProjects: Ocurrió un error al cargar los proyectos publicados, por favor contacta nuestro soporte en dbdiagram@holistics.io # Error toast
+    errorPublishing: Ocurrió un error al publicar el proyecto, por favor contacta nuestro soporte en dbdiagram@holistics.io # Error toast
+    projectNameEmpty: El nombre del proyecto no puede estar vacío # Validation error
+    projectNameInvalid: El nombre del proyecto solo puede contener letras, números, espacios, "-" o "_" # Validation error
+    projectNameExists: Ya existe un proyecto con este nombre/URL. Por favor, elige un nombre diferente. # Validation error for duplicate name/url
+    passwordInvalid: ¡Contraseña no válida, por favor inténtalo de nuevo! # Validation error
+    editFromDbdocsInfo: Para editar un proyecto publicado, puedes hacerlo directamente desde dbdocs. # Info about editing from dbdocs
+    learnMore: Más información # Learn more link text
+    ownerOnlyPublish: Solo el propietario del diagrama puede publicar un nuevo proyecto en dbdocs. # Non-owner message
+    publishedProject: Proyecto publicado # Label for published project
+    viewExistingProjects: Ver proyectos existentes # Link to view existing projects popover
+    projectNameHeader: Nombre # Header for project name column in popover
+    projectUrlHeader: URL # Header for project URL column in popover
+    publishNewQuestion: ¿Quieres publicar en otro proyecto? # Prompt to publish to a new project
+    publishNewAction: Publicar en un nuevo proyecto # Action link text
+    resolveConflictsAndErrorsBeforePublish: Resuelve todos los conflictos y errores antes de publicar. # Hint to resolve all conflicts and errors before publishing
+    currentChange: Cambio actual # Current change conflict marker text
+    incomingChange: Cambio entrante # Incoming change conflict marker text
+    bothChanges: Ambos cambios # Both change conflict marker text
+    acceptChangeButton: Aceptar {conflictTypeText} # Accept change button
+    acceptAllIncomingChangesButton: Aceptar todos los cambios entrantes # Accept all incoming changes button
+    conflictWordSingular: conflicto # Word for counting conflicts
+    conflictWordPlural: conflictos # Word for counting conflicts
+
+  # ========================================
+  # Import modal - Import diagram
+  # ========================================
+  import:
+    instructions: Instrucciones # Instructions section title
+    showInstructions: Mostrar instrucciones # Show instructions button
+    hideInstructions: Ocultar instrucciones # Hide instructions button
+    upload: Subir {file} # Upload button label
+    appendMode: Agregar DBML convertido al final # Append mode toggle
+    modal:
+      validating: Validando # Validating modal title
+    dbConnection:
+      title: Generar DBML desde conexión directa a la base de datos # CLI import modal title
+      intro1: Este método se conecta directamente a tu base de datos y lee tu esquema de base de datos (generalmente desde INFORMATION_SCHEMA) para generar código DBML. # Intro text part 1
+      intro2: Todo se ejecuta en tu máquina local y las credenciales de la base de datos no se rastrean ni se envían a ningún lugar. # Intro text part 2
+      intro3: El código es de código abierto desde el # Intro text part 3
+      intro3Link: y puede verificarse # Link text
+      step1: 1. Instala # Step 1 label
+      step1Note: es posible que necesites agregar # Note text
+      step1NoteSudo: antes de tus comandos en Linux # Sudo note
+      step2: 2. Ejecuta el siguiente comando # Step 2 label
+      exampleFor: Ejemplo para # Example label
+      successMessage: 'Archivo DBML generado desde la conexión de la base de datos: database.dbml' # Success message
+      successBigquery: 'Nota: Para BigQuery, tu archivo de credenciales JSON debe contener las siguientes claves' # BigQuery note
+      successSnowflake1: Intentando conectar... # Snowflake step 1
+      successSnowflake2: Ejecutando consulta... # Snowflake step 2
+      successSnowflake3: Consulta ejecutada correctamente. # Snowflake step 3
+      successSnowflake4: Conexión destruida correctamente. # Snowflake step 4
+      step3: 3. Copia y pega el DBML generado en el panel de código para visualizar tu base de datos. # Step 3 label
+      databaseTypes:
+        mysql: MySQL # Database type label
+        postgres: PostgreSQL # Database type label
+        mssql: SQL Server # Database type label
+        oracle: Oracle # Database type label
+        snowflake: Snowflake # Database type label
+        bigquery: BigQuery # Database type label
+
+  # ========================================
+  # Upgrade modals - Feature upgrade prompts
+  # ========================================
+  upgrade:
+    titles:
+      createDiagram: ¡Has alcanzado el límite de diagramas! # Diagram limit title
+      detailLevels: ¡Descubriste una función de pago! # Detail levels title
+      detailLevelsDbdocs: ¡Descubriste una función de proyectos de pago! # DBDocs detail levels title
+      diagramView: Crear vistas adicionales es una función de pago # Diagram view title
+      headerColor: ¡Descubriste una función de pago! # Header color title
+      headerColorDbdocs: ¡Descubriste una función de proyectos de pago! # DBDocs header color title
+      privateDiagram: ¡Descubriste una función de pago! # Private diagram title
+      stickyNotes: ¡Descubriste una función de pago! # Sticky notes title
+      stickyNotesDbdocs: ¡Descubriste una función de proyectos de pago! # DBDocs sticky notes title
+      versionHistory: ¡Descubriste una función de pago! # Version history title
+      aiAssistant: El asistente de IA de dbdiagram es una función de pago # AI assistant title
+      tableGroup: ¡Descubriste una función de pago! # Table group title
+      tableGroupDbdocs: ¡Descubriste una función de proyectos de pago! # DBDocs table group title
+      invitePeople: ¡Descubriste una función de pago! # Invite people title
+    descriptions:
+      createDiagram: ¡Mejora a nuestros planes de pago ahora para <b>creaciones de diagramas ilimitadas</b> y otras funciones avanzadas! # Description
+      detailLevels: ¡Mejora a nuestros planes de pago ahora para obtener Niveles de detalle, Color de encabezado,<br>Grupo de tablas y acceso a todas nuestras próximas funciones! # Description
+      detailLevelsDbdocs: ¡Mejora tu proyecto para obtener Niveles de detalle, Color de encabezado,<br>Grupo de tablas y acceso a todas nuestras próximas funciones! # DBDocs description
+      diagramView: En el plan gratuito, solo puedes guardar la vista predeterminada.<br>¡Mejora a nuestros planes de pago ahora para <b>vistas de diagrama ilimitadas</b> y otras funciones avanzadas! # Description
+      headerColor: ¡Mejora a nuestros planes de pago ahora para obtener Niveles de detalle, Color de encabezado,<br>Color de relación, Grupo de tablas y acceso a todas nuestras próximas funciones! # Description
+      headerColorDbdocs: ¡Mejora tu proyecto para obtener Niveles de detalle, Color de encabezado,<br>Color de relación, Grupo de tablas y acceso a todas nuestras próximas funciones! # DBDocs description
+      privateDiagram: ¡Mejora a nuestros planes de pago ahora para proteger tus diagramas con<br><strong>Protección con contraseña, Modo privado</strong> y otras funciones avanzadas! # Description
+      stickyNotes: ¡Mejora a nuestros planes de pago ahora para incluir<strong> Notas adhesivas </strong> en tu diagrama<br>y aprovechar otras funciones avanzadas! # Description
+      stickyNotesDbdocs: ¡Mejora tu proyecto para incluir<strong> Notas adhesivas </strong> en tu diagrama<br>y aprovechar otras funciones avanzadas! # DBDocs description
+      versionHistory: Experimenta libremente tus ideas con diferentes <b>versiones del esquema</b>.<br>Vuelve a una versión anterior cuando quieras. # Description
+      aiAssistant: Mejora a nuestros planes de pago ahora para diseñar y optimizar tus esquemas de base de datos<br>con <strong>asistencia de lenguaje natural impulsada por IA</strong> # Description
+      tableGroup: ¡Mejora a nuestros planes de pago ahora para obtener Niveles de detalle, Color de encabezado,<br>Grupo de tablas y acceso a todas nuestras próximas funciones! # Description
+      tableGroupDbdocs: ¡Mejora tu proyecto para obtener Niveles de detalle, Color de encabezado,<br>Grupo de tablas y acceso a todas nuestras próximas funciones! # DBDocs description
+      invitePeople: ¡Mejora a nuestros planes de pago ahora para colaborar en el diseño de diagramas ER con<br><strong>Invitar colaboradores, Publicar diagramas editables</strong> y otras funciones avanzadas! # Description
+    buttons:
+      viewPlans: Ver planes # View plans button
+      upgradeProject: Mejorar proyecto # Upgrade project button
+
+  # ========================================
+  # History modal - Version history
+  # ========================================
+  history:
+    title: Historial de versiones # Modal title
+    deletedUser: Usuario eliminado # Deleted user label
+    restoreVersion: Restaurar versión # Restore button
+    makeCopy: Hacer una copia # Copy button
+    upgradeTitle: Mejora para ver, restaurar y duplicar # Upgrade prompt title
+    errors:
+      cannotView: No se puede ver esta versión # Error toast
+      cannotCopy: No se puede copiar esta versión # Error toast
+    restoreConfirmation:
+      title: ¿Restaurar esta versión? # Restore confirmation title
+      message: Tu diagrama actual será restaurado a esta versión. # Restore message
+    success:
+      versionCopied: Tu versión fue copiada correctamente # Success toast
+    copiedName: (Restaurado) {name} # Copied version name prefix
+    untitled: Sin título # Untitled diagram label
+
+  # ========================================
+  # Error messages - Generic modal errors
+  # ========================================
+  errors:
+    inviteMaxEmails: No se pueden invitar más de 50 correos electrónicos # Validation error
+    inviteFailed: ¡No se puede invitar, por favor inténtalo de nuevo! # Error toast
+    cannotGetCollaborators: ¡No se puede obtener información de los colaboradores! # Error toast
+    permissionUpdateFailed: Error al actualizar el permiso # Error toast
+    permissionUpdateSuccess: Permiso actualizado correctamente # Success toast
+    inviteSent: Invitación enviada # Success toast
+    permissionDenied: Permiso denegado # Permission error
+    cannotGetWorkspaceParticipants: ¡No se pueden obtener los participantes del espacio de trabajo, por favor inténtalo de nuevo! # Error toast
+    cannotGetUserWorkspaces: ¡No se pueden obtener los espacios de trabajo del usuario, por favor inténtalo de nuevo! # Error toast
+    cannotGetWorkspacesSubscription: ¡No se puede obtener la suscripción de los espacios de trabajo, por favor inténtalo de nuevo! # Error toast
+    exportSqlFailed: Error al exportar SQL, por favor actualiza tu esquema de base de datos e inténtalo de nuevo. # Error toast
+    savePdfFailed: No se puede guardar tu PDF # Error toast
+    saveSvgFailed: No se puede guardar tu SVG # Error toast
+    savePngFailed: No se puede guardar tu PNG # Error toast
+    cannotGetDiagrams: ¡No se pueden obtener los diagramas, por favor intenta recargar la aplicación! # Error toast
+    cannotRemoveDefaultView: ¡No se te permite eliminar la vista predeterminada! # Error toast
+    cannotRemoveView: ¡No se puede eliminar esta vista, por favor recarga e inténtalo de nuevo! # Error toast
+    removeViewTitle: ¿Eliminar vista de diagrama? # Remove view modal title
+    removeViewContent: ¿Deseas eliminar la vista "{name}"? # Remove view confirmation
+    cancel: Cancelar # Cancel button
+    removeView: Eliminar vista # Remove view button
+    close: Cerrar # Close button
+    reload: Recargar # Reload button
+
+  # ========================================
+  # Workspace type labels
+  # ========================================
+  workspaceType:
+    personal: Espacio de trabajo personal # Personal workspace label
+    team: Espacio de trabajo de equipo # Team workspace label
+
+  # ========================================
+  # Detail levels dropdown
+  # ========================================
+  detailLevelsDropdown:
+    tableNames: Nombres de tablas # Show table names only
+    keysOnly: Solo claves # Show keys only
+    allFields: Todos los campos # Show all fields
+
+  # ========================================
+  # Migration preview modal
+  # ========================================
+  migrationPreview:
+    title: Las vistas de diagrama ahora se almacenan en tu DBML
+    description: >-
+      Hemos movido la configuración de tus vistas de diagrama directamente a tu código DBML como bloques DiagramView.
+      Esto hace que tus vistas sean parte de tu código DBML junto con tu esquema.
+    learnMore: Más información sobre las vistas de diagrama
+    confirm: Continuar
+  # ========================================
+  # Session expired modal
+  # ========================================
+  sessionExpired:
+    title: Sesión expirada
+    description: Tu sesión ha expirado, cerrarás sesión automáticamente en {countdown} segundo(s)…

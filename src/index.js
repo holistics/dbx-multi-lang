@@ -24,6 +24,7 @@ import ptBRMessages from '../dist/pt-BR.json' with { type: 'json' };
 import trMessages from '../dist/tr.json' with { type: 'json' };
 import viMessages from '../dist/vi.json' with { type: 'json' };
 import zhMessages from '../dist/zh.json' with { type: 'json' };
+import esMessages from '../dist/es.json' with { type: 'json' };
 
 // Build messages with namespaces
 export const messages = {
@@ -33,6 +34,7 @@ export const messages = {
   tr: trMessages,
   vi: viMessages,
   zh: zhMessages,
+  es: esMessages,
 };
 
 // NOTE: To add a new language:

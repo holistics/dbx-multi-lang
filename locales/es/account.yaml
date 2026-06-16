@@ -1,0 +1,172 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Account page
+  # ========================================
+  page:
+    title: Gestiona tu cuenta dbx
+    description: "Cualquier cambio que realices aquí se reflejará en los tres servicios:"
+    authenticating: Autenticando...
+
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    loadingInfo: Cargando información de la cuenta... # Loading spinner text
+    displayName: Nombre para mostrar # Label for display name field
+    email: Correo electrónico # Label for email field
+
+    # Connected accounts section
+    connectedAccounts:
+      title: Cuentas conectadas # Section title
+      noAccounts: No hay cuentas conectadas # Empty state text
+      loggedInWith: Sesión iniciada con {provider} # Provider badge label (e.g., "Logged in with Google")
+
+    # Manage account section
+    manageTitle: Gestionar cuenta # Section title
+    changeEmail: Cambiar dirección de correo electrónico # Change email button label
+    changeEmailInProgress: Tienes un cambio de correo electrónico en progreso, por favor espera # Disabled message when email change is in progress
+    changeEmailFailed: "Tu último cambio de correo electrónico falló, por favor contacta nuestro soporte en dbdiagram@holistics.io" # Disabled message when last email change failed
+
+    # Account removal
+    removal:
+      removeAccount: Eliminar cuenta # Remove account button label
+      cancelRequest: Cancelar solicitud de eliminación # Cancel removal request button label
+      removedAfter: "Tu cuenta será eliminada en {time}." # Removal countdown text
+      aFewHours: unas pocas horas # Time label when less than 1 day remaining
+      aDay: un día # Time label when exactly 1 day remaining
+      days: "{count} días" # Time label for multiple days remaining
+      cancelSuccess: ¡La solicitud de eliminación fue cancelada correctamente! # Success toast after canceling
+      status:
+        inProgressTitle: La eliminación de tu cuenta está en progreso.
+        inProgressDescription: Esto puede tardar unos momentos. Puedes cerrar esta ventana de forma segura; el proceso continuará en segundo plano.
+        completedTitle: Tu cuenta ha sido eliminada correctamente.
+        completedDescription: "Puedes cerrar esta ventana de forma segura. Nota: No cerrarás sesión automáticamente. Por favor, cierra sesión en otros dispositivos manualmente."
+        failedTitle: Error al eliminar la cuenta.
+        failedContactSupport: Por favor, contacta a nuestro equipo de soporte en
+
+    notifications:
+      profileUpdated: Perfil de usuario actualizado correctamente.
+      profileImageUpdated: Imagen de perfil de usuario actualizada correctamente.
+    profileImage:
+      title: Imagen de perfil de usuario
+      switchToGravatar: Cambiar a la imagen de perfil de Gravatar
+      switchToGravatarHint: Para cambiar tu avatar, por favor cambia a la imagen de perfil de Gravatar.
+      redirectingToGravatar: Redirigiendo a Gravatar...
+      changeOnGravatar: Cambiar imagen de perfil en Gravatar
+      doneUploading: ¿Terminaste de subir tu imagen en Gravatar?
+      gravatarHint: Inicia sesión en Gravatar con tu correo electrónico para cambiar tu foto de perfil.
+      refresh: Actualizar tu imagen de perfil
+    userInfo:
+      title: Información de usuario
+    dangerZone:
+      title: Zona de peligro
+    errors:
+      sessionExpired: Sesión expirada, por favor inicia sesión nuevamente.
+      updateProfileFailed: Error al actualizar el perfil de usuario, por favor inténtalo de nuevo.
+      loadProfileFailed: Error al cargar el perfil de usuario, por favor intenta actualizar la página.
+      updateProfileImageFailed: Error al actualizar la imagen de perfil de usuario, por favor inténtalo de nuevo.
+      cancelRemovalFailed: Error al cancelar la solicitud de eliminación de cuenta, por favor inténtalo de nuevo.
+
+  # ========================================
+  # Remove Account modal - 3-step account removal flow
+  # ========================================
+  removeAccountModal:
+    title: Eliminar cuenta
+    loadingAccountData: Cargando datos de la cuenta…
+    steps:
+      whatWillBeRemoved: Qué será eliminado
+      verifyIdentity: Verifica tu identidad
+      identityVerified: Identidad verificada
+      deleteAccount: Eliminar cuenta
+      accountDeleted: Cuenta eliminada
+    step1:
+      description: "Eliminar tu cuenta eliminará permanentemente los siguientes datos:"
+      warning: Esta acción es permanente y no se puede deshacer.
+    step2:
+      otpSentTo: Ingresa el código de 6 dígitos enviado a
+      resendCode: Reenviar código
+      resendCodeCooldown: "Reenviar código ({seconds}s)"
+    step3:
+      description: Estás a punto de eliminar permanentemente tu cuenta y todos los datos asociados. Esto no se puede deshacer.
+      confirmButton: Eliminar mi cuenta
+    errors:
+      generic: Algo salió mal. Por favor, inténtalo de nuevo.
+      ssoAccount: Las cuentas SSO no pueden gestionar la configuración de cuenta personal.
+      removalInProgress: Ya hay una eliminación en progreso.
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: Cambiar correo electrónico # Modal title
+
+    # Step labels (stepper header)
+    steps:
+      verifyCurrentEmail: Verificar correo electrónico actual # Step 1 title
+      currentEmailVerified: Correo electrónico actual verificado # Step 1 completed label
+      enterNewEmail: Ingresar nuevo correo electrónico # Step 2 title
+      verifyNewEmail: Verificar nuevo correo electrónico # Step 3 title
+      newEmailVerified: Nuevo correo electrónico verificado # Step 3 completed label
+      confirmChange: Confirmar cambio # Step 4 title
+      emailChanged: Correo electrónico cambiado # Step 4 completed label
+
+    # Step 1: Verify current email
+    verifyCurrent:
+      description: Por seguridad, debes verificar tu correo electrónico actual mediante OTP para cambiarlo. # Step 1 description
+      currentEmailLabel: "Correo electrónico actual:" # Label before current email address
+      sendCode: Enviar código # Send OTP button
+      otpSentMessage: Enviamos un código de 6 dígitos a tu correo electrónico. El código expira en 4 minutos. # OTP sent info text
+      verificationCode: Código de verificación # OTP input label
+      resendCode: Reenviar código # Resend button label
+      resendCodeCooldown: "Reenviar código ({seconds}s)" # Resend button with cooldown timer
+      verify: Verificar # Verify OTP button
+
+    # Step 2: Enter new email
+    enterNew:
+      description: "Ingresa tu nueva dirección de correo electrónico. Te enviaremos un código de verificación para confirmar que es tuya." # Step 2 description
+      newEmailLabel: Nueva dirección de correo electrónico # New email input label
+      placeholder: Ingresa el nuevo correo electrónico # New email input placeholder
+      sendCode: Enviar código # Send OTP button
+
+    # Step 3: Verify new email
+    verifyNew:
+      otpSentTo: Enviamos un código de 6 dígitos a # Text before new email address
+      codeExpires: El código expira en 4 minutos. # OTP expiry info
+      verificationCode: Código de verificación # OTP input label
+      resendCode: Reenviar código # Resend button label
+      resendCodeCooldown: "Reenviar código ({seconds}s)" # Resend button with cooldown timer
+      back: Volver # Back button to return to step 2
+      verify: Verificar # Verify OTP button
+
+    # Step 4: Confirm change
+    confirm:
+      description: "Estás a punto de cambiar tu dirección de correo electrónico:" # Step 4 description
+      from: "De:" # Label for current email in summary
+      to: "A:" # Label for new email in summary
+      pleaseNote: "Ten en cuenta:" # Notes section title
+      noteNotifications: El nuevo correo electrónico recibirá todas las notificaciones de la cuenta (facturación, invitaciones, etc.) en el futuro. # Note about notifications
+      noteLogout: "No cerrarás sesión automáticamente. Por favor, cierra sesión en otros dispositivos manualmente." # Note about logout
+      noteIrreversible: Esta acción no se puede deshacer. # Note about irreversibility
+      confirmButton: Confirmar cambio # Confirm change button
+
+    # Polling notifications for email change propagation
+    polling:
+      inProgressTitle: Actualizando tu correo electrónico en todos los servicios... # Notification title while syncing
+      inProgressText: Esto puede tardar unos minutos. Puedes continuar usando la aplicación. # Notification body while syncing
+      completedText: ¡Correo electrónico actualizado en todos los servicios correctamente! # Success notification
+      failedTitle: Algunos servicios no pudieron sincronizar tu nuevo correo electrónico. # Warning notification title
+      failedText: Tu correo electrónico ha sido cambiado, pero algunos servicios pueden seguir mostrando el anterior. Por favor, contacta nuestro soporte en dbdiagram@holistics.io. # Warning notification body
+
+    # Error messages
+    errors:
+      invalidEmail: Por favor, ingresa una dirección de correo electrónico válida # Invalid email format
+      incorrectCode: El código que ingresaste es incorrecto # Wrong OTP code
+      codeExpired: El código de verificación ha expirado. Por favor, solicita uno nuevo. # OTP expired
+      codeAlreadyUsed: Este código ya ha sido usado. Por favor, solicita uno nuevo. # OTP already used
+      requestExpired: Tu solicitud de verificación ha expirado. Por favor, solicita un nuevo código. # OTP request token expired
+      emailInUse: Este correo electrónico ya está en uso por otra cuenta # Duplicate email
+      verificationExpired: Tu verificación ha expirado. Por favor, comienza de nuevo. # Verification token expired
+      generic: Algo salió mal. Por favor, inténtalo de nuevo. # Fallback error
