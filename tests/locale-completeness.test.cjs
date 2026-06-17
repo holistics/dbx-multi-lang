@@ -25,10 +25,14 @@ function getYamlFiles(locale) {
     .sort();
 }
 
-function countLeafKeys(obj) {
-  if (obj === null || obj === undefined) return 1;
-  if (typeof obj !== 'object' || Array.isArray(obj)) return 1;
-  return Object.values(obj).reduce((sum, v) => sum + countLeafKeys(v), 0);
+function getLeafKeyPaths(obj, prefix = '') {
+  if (obj === null || obj === undefined || typeof obj !== 'object' || Array.isArray(obj)) {
+    return prefix ? [prefix] : [];
+  }
+  return Object.entries(obj).flatMap(([k, v]) => {
+    const newPrefix = prefix ? `${prefix}.${k}` : k;
+    return getLeafKeyPaths(v, newPrefix);
+  });
 }
 
 function loadYaml(locale, file) {
@@ -53,13 +57,18 @@ describe('Locale completeness', () => {
       });
 
       for (const file of referenceFiles) {
-        test(`${file} has the same number of key-value pairs as en`, () => {
-          const refCount = countLeafKeys(loadYaml(REFERENCE_LOCALE, file));
-          const locCount = countLeafKeys(loadYaml(locale, file));
-          assert.equal(
-            locCount,
-            refCount,
-            `${locale}/${file}: expected ${refCount} key-value pairs, got ${locCount}`
+        test(`${file} has the same keys as en`, () => {
+          const refKeys = new Set(getLeafKeyPaths(loadYaml(REFERENCE_LOCALE, file)));
+          const locKeys = new Set(getLeafKeyPaths(loadYaml(locale, file)));
+
+          const missing = [...refKeys].filter(k => !locKeys.has(k));
+          const extra = [...locKeys].filter(k => !refKeys.has(k));
+
+          assert.ok(
+            missing.length === 0 && extra.length === 0,
+            `${locale}/${file} keys mismatch:\n` +
+            (missing.length ? `  Missing: ${missing.join(', ')}\n` : '') +
+            (extra.length ? `  Extra: ${extra.join(', ')}` : '')
           );
         });
       }

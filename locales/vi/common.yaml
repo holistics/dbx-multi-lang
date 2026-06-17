@@ -7,6 +7,8 @@ common:
     export: Xuất
     ok: OK
     submit: Gửi
+    save: Lưu
+    next: Tiếp theo
   help:
     title: Trợ giúp
     documentation: Tài liệu
@@ -64,6 +66,7 @@ common:
       positiveText: Có
   states:
     empty: Không có dữ liệu
+    loading: Đang tải...
   editor:
     keyboardShortcuts: Phím tắt
     openInDbdiagram: Mở trong dbdiagram.io

@@ -79,5 +79,5 @@ portal:
     missingState: '缺少必需参数：state'
     invalidAccess: 无效访问
     pageMustBeOpened: 此页面必须从应用程序打开。
-    unsupportedPrompt: 不支持的 prompt 参数
+    unsupportedParameter: 不支持的 {message} 参数
     unexpectedError: 意外错误

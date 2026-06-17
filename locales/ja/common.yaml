@@ -10,6 +10,8 @@ common:
     export: エクスポート
     ok: OK
     submit: 送信
+    save: 保存
+    next: 次へ
   help:
     title: ヘルプ
     documentation: ドキュメント
@@ -67,6 +69,7 @@ common:
       positiveText: はい
   states:
     empty: データがありません
+    loading: 読み込み中...
   editor:
     keyboardShortcuts: キーボードショートカット
     openInDbdiagram: dbdiagram.io で開く

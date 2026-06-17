@@ -2,18 +2,21 @@
 # UI Areas: Manage Account modal, Change Email modal (stepper flow)
 
 account:
+  page:
+    title: dbxアカウントを管理する
+    description: "ここで行った変更はすべての3つのサービスに反映されます:"
+    authenticating: 認証中...
+
   # ========================================
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: アカウント
     loadingInfo: アカウント情報を読み込み中...
     displayName: 表示名
     email: メール
 
     connectedAccounts:
       title: 連携済みアカウント
-      loading: 連携済みアカウントを読み込み中...
       noAccounts: 連携済みアカウントはありません
       loggedInWith: "{provider}でログイン中"
 
@@ -23,20 +26,67 @@ account:
     changeEmailFailed: 前回のメール変更に失敗しました。dbdiagram@holistics.io までお問い合わせください
 
     removal:
-      removeAccount: アカウントを削除...
+      removeAccount: アカウントを削除
       cancelRequest: 削除リクエストをキャンセル
-      cannotBeUndone: この操作は元に戻せません！
       removedAfter: "アカウントは{time}後に削除されます。"
       aFewHours: 数時間
       aDay: 1日
       days: "{count}日"
-      workspaceDeletionWarning: "削除される所有ワークスペースが{count}件あります："
-      confirmTitle: このアカウントを削除しますか？
       cancelSuccess: 削除リクエストが正常にキャンセルされました！
-      submitSuccess: 削除リクエストが正常に作成されました！
+      status:
+        inProgressTitle: アカウントの削除が進行中です。
+        inProgressDescription: 数分かかる場合があります。このウィンドウを閉じても安全です — プロセスはバックグラウンドで続行されます。
+        completedTitle: アカウントが正常に削除されました。
+        completedDescription: "このウィンドウを閉じても安全です。注意: 自動的にログアウトされません。他のデバイスから手動でログアウトしてください。"
+        failedTitle: アカウントの削除に失敗しました。
+        failedContactSupport: サポートチームにお問い合わせください：
 
+    notifications:
+      profileUpdated: ユーザープロフィールが正常に更新されました。
+      profileImageUpdated: プロフィール画像が正常に更新されました。
+    profileImage:
+      title: ユーザープロフィール画像
+      switchToGravatar: Gravatarのプロフィール画像に切り替える
+      switchToGravatarHint: アバターを変更するには、Gravatarのプロフィール画像に切り替えてください。
+      redirectingToGravatar: Gravatarにリダイレクト中...
+      changeOnGravatar: Gravatarでプロフィール画像を変更する
+      doneUploading: Gravatarに画像をアップロードしましたか？
+      gravatarHint: メールアドレスでGravatarにログインしてプロフィール写真を変更してください。
+      refresh: プロフィール画像を更新する
+    userInfo:
+      title: ユーザー情報
+    dangerZone:
+      title: 危険ゾーン
     errors:
-      generic: エラーが発生しました。dbdiagram@holistics.io までお問い合わせください
+      sessionExpired: セッションが期限切れです。再度ログインしてください。
+      updateProfileFailed: プロフィールの更新に失敗しました。もう一度お試しください。
+      loadProfileFailed: プロフィールの読み込みに失敗しました。ページを更新してください。
+      updateProfileImageFailed: プロフィール画像の更新に失敗しました。もう一度お試しください。
+      cancelRemovalFailed: アカウント削除リクエストのキャンセルに失敗しました。もう一度お試しください。
+
+  removeAccountModal:
+    title: アカウントを削除
+    loadingAccountData: アカウントデータを読み込み中…
+    steps:
+      whatWillBeRemoved: 削除されるもの
+      verifyIdentity: 本人確認
+      identityVerified: 本人確認済み
+      deleteAccount: アカウントを削除
+      accountDeleted: アカウントが削除されました
+    step1:
+      description: "アカウントを削除すると、以下のデータが完全に削除されます:"
+      warning: この操作は永続的で元に戻せません。
+    step2:
+      otpSentTo: に送信された6桁のコードを入力してください
+      resendCode: コードを再送信
+      resendCodeCooldown: "コードを再送信（{seconds}秒）"
+    step3:
+      description: アカウントとすべての関連データを完全に削除しようとしています。この操作は元に戻せません。
+      confirmButton: アカウントを削除する
+    errors:
+      generic: エラーが発生しました。もう一度お試しください。
+      ssoAccount: SSOアカウントは個人アカウント設定を管理できません。
+      removalInProgress: 削除が既に進行中です。
 
   # ========================================
   # Change Email modal - 4-step email change flow

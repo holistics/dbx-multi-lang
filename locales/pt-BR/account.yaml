@@ -2,11 +2,15 @@
 # UI Areas: Manage Account modal, Change Email modal (stepper flow)
 
 account:
+  page:
+    title: Gerencie sua conta dbx
+    description: "Quaisquer alterações feitas aqui serão refletidas nos três serviços:"
+    authenticating: Autenticando...
+
   # ========================================
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: Conta
     loadingInfo: Carregando informações da conta...
     displayName: Nome de exibição
     email: E-mail
@@ -14,7 +18,6 @@ account:
     # Connected accounts section
     connectedAccounts:
       title: Contas conectadas
-      loading: Carregando contas conectadas...
       noAccounts: Nenhuma conta conectada
       loggedInWith: Logado com {provider}
 
@@ -26,20 +29,67 @@ account:
 
     # Account removal
     removal:
-      removeAccount: Remover conta...
+      removeAccount: Remover conta
       cancelRequest: Cancelar solicitação de remoção
-      cannotBeUndone: Esta ação não pode ser desfeita!
       removedAfter: "Sua conta será removida após {time}."
       aFewHours: algumas horas
       aDay: um dia
       days: "{count} dias"
-      workspaceDeletionWarning: "Você tem {count} espaço(s) de trabalho de propriedade que serão excluídos."
-      confirmTitle: Remover esta conta?
       cancelSuccess: Solicitação de remoção cancelada com sucesso!
-      submitSuccess: Solicitação de remoção criada com sucesso!
+      status:
+        inProgressTitle: A remoção da sua conta está em andamento.
+        inProgressDescription: Isso pode levar alguns minutos. Você pode fechar esta janela com segurança — o processo continuará em segundo plano.
+        completedTitle: Sua conta foi removida com sucesso.
+        completedDescription: "Você pode fechar esta janela com segurança. Nota: Você não será desconectado automaticamente. Por favor, saia manualmente de outros dispositivos."
+        failedTitle: Falha na remoção da conta.
+        failedContactSupport: Por favor, entre em contato com nossa equipe de suporte em
 
+    notifications:
+      profileUpdated: Perfil do usuário atualizado com sucesso.
+      profileImageUpdated: Imagem do perfil do usuário atualizada com sucesso.
+    profileImage:
+      title: Imagem do Perfil do Usuário
+      switchToGravatar: Mudar para imagem de perfil do Gravatar
+      switchToGravatarHint: Para alterar seu avatar, por favor mude para a imagem de perfil do Gravatar.
+      redirectingToGravatar: Redirecionando para o Gravatar...
+      changeOnGravatar: Alterar Imagem de Perfil no Gravatar
+      doneUploading: Terminou de enviar sua imagem no Gravatar?
+      gravatarHint: Faça login no Gravatar com seu e-mail para alterar sua foto de perfil.
+      refresh: Atualizar imagem de perfil
+    userInfo:
+      title: Informações do Usuário
+    dangerZone:
+      title: Zona de Perigo
     errors:
-      generic: Ocorreu um erro, entre em contato com nosso suporte em dbdiagram@holistics.io
+      sessionExpired: Sessão expirada, por favor faça login novamente.
+      updateProfileFailed: Falha ao atualizar o perfil do usuário, por favor tente novamente.
+      loadProfileFailed: Falha ao carregar o perfil do usuário, por favor tente atualizar a página.
+      updateProfileImageFailed: Falha ao atualizar a imagem do perfil do usuário, por favor tente novamente.
+      cancelRemovalFailed: Falha ao cancelar a solicitação de remoção da conta, por favor tente novamente.
+
+  removeAccountModal:
+    title: Remover Conta
+    loadingAccountData: Carregando dados da conta…
+    steps:
+      whatWillBeRemoved: O que será removido
+      verifyIdentity: Verificar sua identidade
+      identityVerified: Identidade verificada
+      deleteAccount: Excluir conta
+      accountDeleted: Conta excluída
+    step1:
+      description: "A remoção da sua conta excluirá permanentemente os seguintes dados:"
+      warning: Esta ação é permanente e não pode ser desfeita.
+    step2:
+      otpSentTo: Digite o código de 6 dígitos enviado para
+      resendCode: Reenviar código
+      resendCodeCooldown: "Reenviar código ({seconds}s)"
+    step3:
+      description: Você está prestes a excluir permanentemente sua conta e todos os dados associados. Esta ação não pode ser desfeita.
+      confirmButton: Excluir minha conta
+    errors:
+      generic: Algo deu errado. Por favor, tente novamente.
+      ssoAccount: Contas SSO não podem gerenciar configurações de conta pessoal.
+      removalInProgress: Uma remoção já está em andamento.
 
   # ========================================
   # Change Email modal - 4-step email change flow

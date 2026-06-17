@@ -106,3 +106,7 @@ dbrenderer:
       tooltip: Tải xuống CSV
   viewNoteModal:
     infoTooltip: Hỗ trợ định dạng bằng Markdown
+    editBtn:
+      title: Chỉnh sửa
+    cancelBtn: Hủy
+    saveBtn: Lưu

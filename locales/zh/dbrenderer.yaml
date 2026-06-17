@@ -109,3 +109,7 @@ dbrenderer:
       tooltip: 下载 CSV
   viewNoteModal:
     infoTooltip: 支持使用 Markdown 进行样式设置
+    editBtn:
+      title: 编辑
+    cancelBtn: 取消
+    saveBtn: 保存

@@ -13,6 +13,8 @@ common:
     export: Exportar
     ok: OK
     submit: Enviar
+    save: Salvar
+    next: Próximo
 
   # ========================================
   # Help menu - Top-right help icon (?) dropdown in header
@@ -106,6 +108,7 @@ common:
   # ========================================
   states:
     empty: Sem dados
+    loading: Carregando...
 
   # ========================================
   # Code editor - Right panel DBML code editor

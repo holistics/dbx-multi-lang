@@ -163,7 +163,11 @@ dbrenderer:
       title: Download
       tooltip: Download CSV
   # ========================================
-  # View note modal - Preview markdown note
+  # View Note Modal - Preview/edit markdown note
   # ========================================
   viewNoteModal:
     infoTooltip: Styling with Markdown is supported
+    editBtn:
+      title: Edit
+    cancelBtn: Cancel
+    saveBtn: Save

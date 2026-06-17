@@ -103,5 +103,5 @@ portal:
     missingState: 'Missing required parameter: state' # OAuth error
     invalidAccess: Invalid Access # OAuth error
     pageMustBeOpened: This page must be opened from the application. # OAuth error
-    unsupportedPrompt: Unsupported prompt parameter # OAuth error
+    unsupportedParameter: Unsupported {message} parameter # OAuth error
     unexpectedError: Unexpected error # OAuth error

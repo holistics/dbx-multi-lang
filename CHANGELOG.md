@@ -1,6 +1,27 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.16 (Jun 12, 2026)
+### Misc
+* Add markdown translations
+
+## 1.1.15 (May 29, 2026)
+### Misc
+* Add copywriting for session expired modal
+
+## 1.1.14 (May 19, 2026)
+### Misc
+* Add copywriting for portal's user profile
+
+## 1.1.13 (Apr 21, 2026)
+### Misc
+* Add copywriting for accepting all incoming changes button in dbdocs publish modal
+
+## 1.1.12 (Apr 20, 2026)
+### Misc
+* Update copywriting for dbdocs publish modal
+* Update test runner to check for key paths instead of number of keys
+
 ## 1.1.11 (Apr 14, 2026)
 ### Misc
 * Change "What's new" to "What's New" for consistent casings

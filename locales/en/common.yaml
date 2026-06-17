@@ -13,6 +13,8 @@ common:
     export: Export # Export icon in header dropdown (opens export options)
     ok: OK # Simple acknowledgment button in alerts
     submit: Submit # Form submission button (submits form data)
+    save: Save # Save button in forms
+    next: Next # Next button in multi-step flows
 
   # ========================================
   # Help menu - Top-right help icon (?) dropdown in header
@@ -106,6 +108,7 @@ common:
   # ========================================
   states:
     empty: No data # Empty table/list message (centered)
+    loading: Loading... # Generic loading spinner message
 
   # ========================================
   # Code editor - Right panel DBML code editor

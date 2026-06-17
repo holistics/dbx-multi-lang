@@ -2,18 +2,21 @@
 # UI Areas: Manage Account modal, Change Email modal (stepper flow)
 
 account:
+  page:
+    title: Quản lý tài khoản dbx của bạn
+    description: "Mọi thay đổi bạn thực hiện ở đây sẽ được áp dụng cho cả ba dịch vụ:"
+    authenticating: Đang xác thực...
+
   # ========================================
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: Tài khoản
     loadingInfo: Đang tải thông tin tài khoản...
     displayName: Tên hiển thị
     email: Email
 
     connectedAccounts:
       title: Tài khoản liên kết
-      loading: Đang tải tài khoản liên kết...
       noAccounts: Không có tài khoản liên kết
       loggedInWith: Đã đăng nhập bằng {provider}
 
@@ -23,20 +26,67 @@ account:
     changeEmailFailed: "Thay đổi email lần trước đã thất bại, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io"
 
     removal:
-      removeAccount: Xóa tài khoản...
+      removeAccount: Xóa tài khoản
       cancelRequest: Hủy yêu cầu xóa
-      cannotBeUndone: Hành động này không thể hoàn tác!
       removedAfter: "Tài khoản của bạn sẽ bị xóa sau {time}."
       aFewHours: vài giờ
       aDay: một ngày
       days: "{count} ngày"
-      workspaceDeletionWarning: "{count} không gian làm việc của bạn sẽ bị xóa:"
-      confirmTitle: Xóa tài khoản này?
       cancelSuccess: Yêu cầu xóa đã được hủy thành công!
-      submitSuccess: Yêu cầu xóa đã được tạo thành công!
+      status:
+        inProgressTitle: Tài khoản của bạn đang được xóa.
+        inProgressDescription: Quá trình này có thể mất vài phút. Bạn có thể đóng cửa sổ này — quá trình sẽ tiếp tục ở nền.
+        completedTitle: Tài khoản của bạn đã được xóa thành công.
+        completedDescription: "Bạn có thể đóng cửa sổ này. Lưu ý: Bạn sẽ không bị đăng xuất tự động. Vui lòng đăng xuất thủ công từ các thiết bị khác."
+        failedTitle: Xóa tài khoản thất bại.
+        failedContactSupport: Vui lòng liên hệ đội hỗ trợ của chúng tôi tại
 
+    notifications:
+      profileUpdated: Hồ sơ người dùng đã được cập nhật thành công.
+      profileImageUpdated: Ảnh hồ sơ người dùng đã được cập nhật thành công.
+    profileImage:
+      title: Ảnh hồ sơ người dùng
+      switchToGravatar: Chuyển sang ảnh hồ sơ Gravatar
+      switchToGravatarHint: Để thay đổi ảnh đại diện, vui lòng chuyển sang ảnh hồ sơ Gravatar.
+      redirectingToGravatar: Đang chuyển hướng đến Gravatar...
+      changeOnGravatar: Thay đổi ảnh hồ sơ trên Gravatar
+      doneUploading: Đã tải lên ảnh của bạn trên Gravatar?
+      gravatarHint: Đăng nhập vào Gravatar bằng email của bạn để thay đổi ảnh hồ sơ.
+      refresh: Làm mới ảnh hồ sơ của bạn
+    userInfo:
+      title: Thông tin người dùng
+    dangerZone:
+      title: Vùng nguy hiểm
     errors:
-      generic: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
+      sessionExpired: Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại.
+      updateProfileFailed: Không thể cập nhật hồ sơ người dùng, vui lòng thử lại.
+      loadProfileFailed: Không thể tải hồ sơ người dùng, vui lòng thử tải lại trang.
+      updateProfileImageFailed: Không thể cập nhật ảnh hồ sơ người dùng, vui lòng thử lại.
+      cancelRemovalFailed: Không thể hủy yêu cầu xóa tài khoản, vui lòng thử lại.
+
+  removeAccountModal:
+    title: Xóa tài khoản
+    loadingAccountData: Đang tải dữ liệu tài khoản…
+    steps:
+      whatWillBeRemoved: Những gì sẽ bị xóa
+      verifyIdentity: Xác minh danh tính của bạn
+      identityVerified: Danh tính đã được xác minh
+      deleteAccount: Xóa tài khoản
+      accountDeleted: Tài khoản đã bị xóa
+    step1:
+      description: "Việc xóa tài khoản của bạn sẽ xóa vĩnh viễn các dữ liệu sau:"
+      warning: Hành động này là vĩnh viễn và không thể hoàn tác.
+    step2:
+      otpSentTo: Nhập mã 6 chữ số được gửi đến
+      resendCode: Gửi lại mã
+      resendCodeCooldown: "Gửi lại mã ({seconds}s)"
+    step3:
+      description: Bạn sắp xóa vĩnh viễn tài khoản và tất cả dữ liệu liên quan. Hành động này không thể hoàn tác.
+      confirmButton: Xóa tài khoản của tôi
+    errors:
+      generic: Đã xảy ra lỗi. Vui lòng thử lại.
+      ssoAccount: Tài khoản SSO không thể quản lý cài đặt tài khoản cá nhân.
+      removalInProgress: Đang có một tiến trình xóa.
 
   # ========================================
   # Change Email modal - 4-step email change flow

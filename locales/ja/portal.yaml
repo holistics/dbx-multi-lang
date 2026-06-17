@@ -79,5 +79,5 @@ portal:
     missingState: '必須パラメーターがありません：state'
     invalidAccess: 無効なアクセス
     pageMustBeOpened: このページはアプリケーションから開く必要があります。
-    unsupportedPrompt: サポートされていない prompt パラメーター
+    unsupportedParameter: サポートされていない {message} パラメーター
     unexpectedError: 予期しないエラー

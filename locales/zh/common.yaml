@@ -10,6 +10,8 @@ common:
     export: 导出
     ok: 确定
     submit: 提交
+    save: 保存
+    next: 下一步
   help:
     title: 帮助
     documentation: 文档
@@ -67,6 +69,7 @@ common:
       positiveText: 是
   states:
     empty: 无数据
+    loading: 加载中...
   editor:
     keyboardShortcuts: 键盘快捷键
     openInDbdiagram: 在 dbdiagram.io 中打开
