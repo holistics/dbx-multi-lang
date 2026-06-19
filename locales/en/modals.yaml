@@ -318,3 +318,18 @@ modals:
   sessionExpired:
     title: Session Expired
     description: Your session has expired, you will be automatically logged out in {countdown} second(s)…
+
+  # ========================================
+  # Transfer ownership modal
+  # ========================================
+  transferOwnership:
+    title: Transfer ownership # Modal title
+    subtitle: "Select a member to transfer ownership to:" # Subtitle below the title
+    searchPlaceholder: Search by name or email... # Search input placeholder
+    noMembersFound: No members found. # Empty state when search has no results
+    transferButton: Transfer # Confirm transfer button
+    notes:
+      irreversible: This action cannot be undone. # Warning note
+      scopeRemains: "Version history, diagram's collaborators and workspace's access scope will remain the same." # Informational note
+    success: Diagram ownership transferred to {memberLabel} # Success toast
+    error: Failed to transfer diagram ownership. Please try again. # Error toast

@@ -70,6 +70,8 @@ common:
   states:
     empty: 无数据
     loading: 加载中...
+  notes:
+    header: "请注意："
   editor:
     keyboardShortcuts: 键盘快捷键
     openInDbdiagram: 在 dbdiagram.io 中打开

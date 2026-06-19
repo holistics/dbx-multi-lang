@@ -111,6 +111,12 @@ common:
     loading: Loading... # Generic loading spinner message
 
   # ========================================
+  # Notes - Warning/note section header
+  # ========================================
+  notes:
+    header: "Please note:" # Header label for note/warning sections in modals
+
+  # ========================================
   # Code editor - Right panel DBML code editor
   # ========================================
   editor:

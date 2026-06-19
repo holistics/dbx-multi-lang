@@ -109,6 +109,8 @@ common:
   states:
     empty: Sem dados
     loading: Carregando...
+  notes:
+    header: "Por favor, note:"
 
   # ========================================
   # Code editor - Right panel DBML code editor

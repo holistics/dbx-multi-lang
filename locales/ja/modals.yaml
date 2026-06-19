@@ -267,3 +267,15 @@ modals:
   sessionExpired:
     title: セッションの有効期限が切れました
     description: セッションの有効期限が切れました。{countdown} 秒後に自動的にログアウトされます…
+
+  transferOwnership:
+    title: 所有権を移転
+    subtitle: "所有権を移転するメンバーを選択してください："
+    searchPlaceholder: 名前またはメールで検索...
+    noMembersFound: メンバーが見つかりません。
+    transferButton: 移転
+    notes:
+      irreversible: この操作は元に戻せません。
+      scopeRemains: "バージョン履歴、ダイアグラムのコラボレーター、ワークスペースのアクセス範囲はそのまま維持されます。"
+    success: ダイアグラムの所有権を{memberLabel}に移転しました
+    error: ダイアグラムの所有権移転に失敗しました。もう一度お試しください。

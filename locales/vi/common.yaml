@@ -67,6 +67,8 @@ common:
   states:
     empty: Không có dữ liệu
     loading: Đang tải...
+  notes:
+    header: "Lưu ý:"
   editor:
     keyboardShortcuts: Phím tắt
     openInDbdiagram: Mở trong dbdiagram.io

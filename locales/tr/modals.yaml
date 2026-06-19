@@ -315,3 +315,15 @@ modals:
   sessionExpired:
     title: Oturum Süresi Doldu
     description: Oturumunuzun süresi doldu, {countdown} saniye içinde otomatik olarak çıkış yapılacak…
+
+  transferOwnership:
+    title: Sahipliği devret
+    subtitle: "Sahipliği devredeceğiniz üyeyi seçin:"
+    searchPlaceholder: Ad veya e-posta ile ara...
+    noMembersFound: Üye bulunamadı.
+    transferButton: Devret
+    notes:
+      irreversible: Bu işlem geri alınamaz.
+      scopeRemains: "Sürüm geçmişi, diyagramın ortak çalışanları ve çalışma alanının erişim kapsamı aynı kalacaktır."
+    success: Diyagram sahipliği {memberLabel}'a devredildi
+    error: Diyagram sahipliği devredilemedi. Lütfen tekrar deneyin.

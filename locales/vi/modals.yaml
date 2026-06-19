@@ -266,3 +266,15 @@ modals:
   sessionExpired:
     title: Phiên đăng nhập hết hạn
     description: Phiên đăng nhập của bạn đã hết hạn, bạn sẽ tự động đăng xuất sau {countdown} giây…
+
+  transferOwnership:
+    title: Chuyển quyền sở hữu
+    subtitle: "Chọn thành viên để chuyển quyền sở hữu:"
+    searchPlaceholder: Tìm theo tên hoặc email...
+    noMembersFound: Không tìm thấy thành viên.
+    transferButton: Chuyển
+    notes:
+      irreversible: Hành động này không thể hoàn tác.
+      scopeRemains: "Lịch sử phiên bản, cộng tác viên của sơ đồ và phạm vi truy cập của workspace vẫn giữ nguyên."
+    success: Đã chuyển quyền sở hữu sơ đồ cho {memberLabel}
+    error: Chuyển quyền sở hữu sơ đồ thất bại. Vui lòng thử lại.

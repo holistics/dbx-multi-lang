@@ -82,6 +82,7 @@ workspace:
     plan: 方案
     diagramCount: 图表：{count}/{limit}
     duplicate: 复制
+    transferOwnership: 转让所有权
     delete: 删除
     untitledDiagram: 无标题图表
     columns:

@@ -267,3 +267,15 @@ modals:
   sessionExpired:
     title: 会话已过期
     description: 您的会话已过期，您将在 {countdown} 秒后自动退出登录…
+
+  transferOwnership:
+    title: 转让所有权
+    subtitle: "选择要转让所有权的成员："
+    searchPlaceholder: 按姓名或邮箱搜索...
+    noMembersFound: 未找到成员。
+    transferButton: 转让
+    notes:
+      irreversible: 此操作无法撤销。
+      scopeRemains: "版本历史、图表协作者及工作区的访问范围将保持不变。"
+    success: 图表所有权已转让给{memberLabel}
+    error: 转让图表所有权失败，请重试。
