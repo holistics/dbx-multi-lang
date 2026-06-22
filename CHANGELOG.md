@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+### Misc
+* Add workspace id and copy workspace id button translations
+
 ## 1.1.16 (Jun 12, 2026)
 ### Misc
 * Add markdown translations
