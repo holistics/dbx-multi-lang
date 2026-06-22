@@ -15,8 +15,10 @@ workspace:
 
   settings:
     title: Cài đặt
+    workspaceId: ID không gian làm việc
     workspaceName: Tên không gian làm việc
     update: Cập nhật
+    copy: Sao chép
     loadingInfo: Đang tải thông tin không gian làm việc...
     singleSignOn: Đăng nhập một lần
     authenticateWithSSO: Xác thực bằng SSO (SAML)

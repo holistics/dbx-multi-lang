@@ -17,8 +17,10 @@ workspace:
   readOnlyMode: サブスクリプションのキャンセルにより、ワークスペースは読み取り専用モードです。機能を有効にするにはサブスクリプションを更新してください。
   settings:
     title: 設定
+    workspaceId: ワークスペース ID
     workspaceName: ワークスペース名
     update: 更新
+    copy: コピー
     loadingInfo: ワークスペース情報を読み込み中...
     singleSignOn: シングルサインオン
     authenticateWithSSO: SSO (SAML) で認証

@@ -24,8 +24,10 @@ workspace:
   # ========================================
   settings:
     title: Ayarlar # Settings page title
+    workspaceId: Çalışma alanı kimliği # Label for workspace id field
     workspaceName: Çalışma alanı adı # Label for workspace name field
     update: Güncelle # Save button for settings
+    copy: Kopyala # Copy button for settings
     loadingInfo: Çalışma alanı bilgileri yükleniyor... # Loading message when fetching settings
     singleSignOn: SSO Girişi (Single Sign-On) # SSO settings section title
     authenticateWithSSO: SSO ile Doğrula (SAML) # SSO toggle label

@@ -24,8 +24,10 @@ workspace:
   # ========================================
   settings:
     title: Settings # Settings page title
+    workspaceId: Workspace ID # Label for workspace id field
     workspaceName: Workspace name # Label for workspace name field
     update: Update # Save button for settings
+    copy: Copy # Copy button for settings
     loadingInfo: Loading workspace information... # Loading message when fetching settings
     singleSignOn: Single Sign-On # SSO settings section title
     authenticateWithSSO: Authenticate with SSO (SAML) # SSO toggle label

@@ -24,8 +24,10 @@ workspace:
   # ========================================
   settings:
     title: Configurações
+    workspaceId: ID do Espaço de Trabalho
     workspaceName: Nome do Espaço de Trabalho
     update: Atualizar
+    copy: Copiar
     loadingInfo: Carregando informações do Espaço de Trabalho...
     singleSignOn: Login Único (SSO)
     authenticateWithSSO: Autenticar com SSO (SAML)

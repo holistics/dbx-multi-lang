@@ -17,8 +17,10 @@ workspace:
   readOnlyMode: 由于订阅已取消，工作区处于只读模式。请续订以启用工作区功能。
   settings:
     title: 设置
+    workspaceId: 工作区 ID
     workspaceName: 工作区名称
     update: 更新
+    copy: 复制
     loadingInfo: 正在加载工作区信息...
     singleSignOn: 单点登录
     authenticateWithSSO: 使用 SSO (SAML) 进行身份验证
