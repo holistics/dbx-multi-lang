@@ -94,6 +94,7 @@ workspace:
     plan: planı # Plan suffix label
     diagramCount: "Diyagramlar: {count}/{limit}" # Diagram count indicator
     duplicate: Çoğalt # Duplicate button
+    transferOwnership: Sahipliği devret # Transfer ownership button
     delete: Sil # Delete button
     untitledDiagram: İsimsiz Diyagram # Default name for unnamed diagrams
     columns:

@@ -94,6 +94,7 @@ workspace:
     plan: plan # Plan suffix label
     diagramCount: "Diagrams: {count}/{limit}" # Diagram count indicator
     duplicate: Duplicate # Duplicate button
+    transferOwnership: Transfer ownership # Transfer ownership button
     delete: Delete # Delete button
     untitledDiagram: Untitled Diagram # Default name for unnamed diagrams
     columns:

@@ -70,6 +70,8 @@ common:
   states:
     empty: データがありません
     loading: 読み込み中...
+  notes:
+    header: "ご注意："
   editor:
     keyboardShortcuts: キーボードショートカット
     openInDbdiagram: dbdiagram.io で開く
@@ -77,6 +79,10 @@ common:
     expand: エディターを展開
     loadingContent: サーバーからコンテンツを読み込み中です。お待ちください...
   notifications:
+    titles:
+      error: エラーが発生しました
+      success: 成功！
+      warning: 警告
     noPermissionRemoveView: ダイアグラムビューを削除する権限がありません！
     noPermissionRenameView: ダイアグラムビューの名前を変更する権限がありません！
     workspaceDisabled: このワークスペースは現在無効になっています

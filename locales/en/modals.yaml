@@ -54,6 +54,8 @@ modals:
       removeDesc: Remove this collaborator. # Remove description
       noAccess: No access # No access label
       noAccessDesc: No access to this diagram # No access description
+      transferOwnership: Transfer ownership # Transfer ownership permission label
+      transferOwnershipDesc: Transfer ownership of this diagram # Transfer ownership permission description
     invite:
       placeholder: Email, comma or space separated # Email input placeholder
       button: Invite # Invite button
@@ -318,3 +320,19 @@ modals:
   sessionExpired:
     title: Session Expired
     description: Your session has expired, you will be automatically logged out in {countdown} second(s)…
+
+  # ========================================
+  # Transfer ownership modal
+  # ========================================
+  transferOwnership:
+    title: Transfer ownership # Modal title
+    subtitle: "Select a member to transfer ownership to:" # Subtitle below the title
+    searchPlaceholder: Search by name or email... # Search input placeholder
+    noMembersFound: No members found. # Empty state when search has no results
+    transferButton: Transfer # Confirm transfer button
+    notes:
+      irreversible: This action cannot be undone. # Warning note
+      scopeRemains: "Version history, diagram's collaborators and workspace's access scope will remain the same." # Informational note
+    confirmMessage: "Do you want to transfer ownership of this diagram to <b>{memberLabel}</b>?" # Confirmation dialog message
+    success: Diagram ownership transferred to {memberLabel} # Success toast
+    error: Failed to transfer diagram ownership. Please try again. # Error toast

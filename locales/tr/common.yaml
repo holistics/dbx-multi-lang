@@ -109,6 +109,8 @@ common:
   states:
     empty: Veri Yok # Empty table/list message (centered)
     loading: Yükleniyor...
+  notes:
+    header: "Lütfen dikkat:" # Header label for note/warning sections in modals
 
   # ========================================
   # Code editor - Right panel DBML code editor
@@ -124,6 +126,10 @@ common:
   # Toast notifications - Popup messages at bottom-right
   # ========================================
   notifications:
+    titles:
+      error: Bir hata oluştu # Default title for error toast notifications
+      success: "Başarılı!" # Default title for success toast notifications
+      warning: Uyarı # Default title for warning toast notifications
     noPermissionRemoveView: Diyagram görünümünü kaldırmak için izniniz yok! # Toast error (shown when user can't remove view)
     noPermissionRenameView: Diyagram görünümünü yeniden adlandırmak için izniniz yok! # Toast error (shown when user can't rename view)
     workspaceDisabled: Bu çalışma alanı şu anda devre dışı # Warning toast (workspace subscription issue)

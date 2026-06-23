@@ -70,6 +70,8 @@ common:
   states:
     empty: 无数据
     loading: 加载中...
+  notes:
+    header: "请注意："
   editor:
     keyboardShortcuts: 键盘快捷键
     openInDbdiagram: 在 dbdiagram.io 中打开
@@ -77,6 +79,10 @@ common:
     expand: 展开编辑器
     loadingContent: 正在从服务器加载内容，请稍候...
   notifications:
+    titles:
+      error: 发生错误
+      success: 成功！
+      warning: 警告
     noPermissionRemoveView: 你没有权限删除图表视图！
     noPermissionRenameView: 你没有权限重命名图表视图！
     workspaceDisabled: 此工作区目前已被禁用

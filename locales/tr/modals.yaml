@@ -54,6 +54,8 @@ modals:
       removeDesc: Bu işbirlikçiyi çıkar. # Remove description
       noAccess: Erişim yok # No access label
       noAccessDesc: Bu diyagrama erişim yok # No access description
+      transferOwnership: Sahipliği devret # Transfer ownership permission label
+      transferOwnershipDesc: Bu diyagramın sahipliğini devret # Transfer ownership permission description
     invite:
       placeholder: E-posta adresleri (virgül veya boşluk ile ayırın) # Email input placeholder
       button: Davet Et # Invite button
@@ -315,3 +317,16 @@ modals:
   sessionExpired:
     title: Oturum Süresi Doldu
     description: Oturumunuzun süresi doldu, {countdown} saniye içinde otomatik olarak çıkış yapılacak…
+
+  transferOwnership:
+    title: Sahipliği devret
+    subtitle: "Sahipliği devredeceğiniz üyeyi seçin:"
+    searchPlaceholder: Ad veya e-posta ile ara...
+    noMembersFound: Üye bulunamadı.
+    transferButton: Devret
+    notes:
+      irreversible: Bu işlem geri alınamaz.
+      scopeRemains: "Sürüm geçmişi, diyagramın ortak çalışanları ve çalışma alanının erişim kapsamı aynı kalacaktır."
+    confirmMessage: "Bu diyagramın sahipliğini <b>{memberLabel}</b>'a devretmek istiyor musunuz?"
+    success: Diyagram sahipliği {memberLabel}'a devredildi
+    error: Diyagram sahipliği devredilemedi. Lütfen tekrar deneyin.

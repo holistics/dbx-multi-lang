@@ -67,6 +67,8 @@ common:
   states:
     empty: Không có dữ liệu
     loading: Đang tải...
+  notes:
+    header: "Lưu ý:"
   editor:
     keyboardShortcuts: Phím tắt
     openInDbdiagram: Mở trong dbdiagram.io
@@ -74,6 +76,10 @@ common:
     expand: Mở rộng trình soạn thảo
     loadingContent: Đang tải nội dung từ máy chủ, vui lòng đợi...
   notifications:
+    titles:
+      error: Đã xảy ra lỗi
+      success: Thành công!
+      warning: Cảnh báo
     noPermissionRemoveView: Bạn không có quyền xóa chế độ xem sơ đồ!
     noPermissionRenameView: Bạn không có quyền đổi tên chế độ xem sơ đồ!
     workspaceDisabled: Không gian làm việc này hiện đang bị vô hiệu hóa

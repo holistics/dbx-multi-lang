@@ -82,6 +82,7 @@ workspace:
     plan: プラン
     diagramCount: ダイアグラム：{count}/{limit}
     duplicate: 複製
+    transferOwnership: 所有権を移転
     delete: 削除
     untitledDiagram: 無題のダイアグラム
     columns:

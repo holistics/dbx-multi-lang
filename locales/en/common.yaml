@@ -111,6 +111,12 @@ common:
     loading: Loading... # Generic loading spinner message
 
   # ========================================
+  # Notes - Warning/note section header
+  # ========================================
+  notes:
+    header: "Please note:" # Header label for note/warning sections in modals
+
+  # ========================================
   # Code editor - Right panel DBML code editor
   # ========================================
   editor:
@@ -124,6 +130,10 @@ common:
   # Toast notifications - Popup messages at bottom-right
   # ========================================
   notifications:
+    titles:
+      error: An error occurred # Default title for error toast notifications
+      success: "Success!" # Default title for success toast notifications
+      warning: Warning # Default title for warning toast notifications
     noPermissionRemoveView: You don't have the permission to remove diagram view! # Toast error (shown when user can't remove view)
     noPermissionRenameView: You don't have the permission to rename diagram view! # Toast error (shown when user can't rename view)
     workspaceDisabled: This workspace is currently disabled # Warning toast (workspace subscription issue)

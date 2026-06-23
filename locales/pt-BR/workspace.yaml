@@ -94,6 +94,7 @@ workspace:
     plan: plano
     diagramCount: "Diagramas: {count}/{limit}"
     duplicate: Duplicar
+    transferOwnership: Transferir propriedade
     delete: Excluir
     untitledDiagram: Diagrama sem título
     columns:
