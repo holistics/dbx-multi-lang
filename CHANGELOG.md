@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Unreleased
+## v1.1.17 (Jun 23, 2026)
 ### Misc
 * Add copywriting for transfer diagram modal
 

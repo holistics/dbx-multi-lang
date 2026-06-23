@@ -40,6 +40,8 @@ modals:
       removeDesc: Xóa cộng tác viên này.
       noAccess: Không có quyền truy cập
       noAccessDesc: Không có quyền truy cập sơ đồ này
+      transferOwnership: Chuyển quyền sở hữu
+      transferOwnershipDesc: Chuyển quyền sở hữu sơ đồ này
     invite:
       placeholder: Email, phân cách bằng dấu phẩy hoặc khoảng trắng
       button: Mời
@@ -276,5 +278,6 @@ modals:
     notes:
       irreversible: Hành động này không thể hoàn tác.
       scopeRemains: "Lịch sử phiên bản, cộng tác viên của sơ đồ và phạm vi truy cập của workspace vẫn giữ nguyên."
+    confirmMessage: "Bạn có muốn chuyển quyền sở hữu sơ đồ này cho <b>{memberLabel}</b> không?"
     success: Đã chuyển quyền sở hữu sơ đồ cho {memberLabel}
     error: Chuyển quyền sở hữu sơ đồ thất bại. Vui lòng thử lại.
