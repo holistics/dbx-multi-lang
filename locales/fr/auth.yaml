@@ -1,0 +1,90 @@
+# Traductions de l'authentification - Connexion, inscription et récupération du mot de passe
+# Zones de l'interface : Pages d'authentification (/login, /signup, /forgot-password)
+
+auth:
+  # ========================================
+  # Page de connexion - Connexion par e-mail/mot de passe
+  # ========================================
+  login:
+    email: Adresse e-mail
+    loginWithGithub: Se connecter avec GitHub
+    loginWithMicrosoft: Se connecter avec Microsoft
+
+  # ========================================
+  # Erreurs OAuth
+  # ========================================
+  oauth:
+    authorizationError: Échec de l'autorisation
+    processing: Traitement en cours...
+    justAMomentPleaseWait: Un instant, veuillez patienter...
+    signedInAs: Vous êtes connecté en tant que
+    failedSignInGitHub: Échec de la connexion avec GitHub
+    failedSignInMicrosoft: Échec de la connexion avec Microsoft. Veuillez réessayer.
+
+  # ========================================
+  # Erreurs de formulaire
+  # ========================================
+  errors:
+    invalidEmail: Adresse e-mail invalide. Veuillez réessayer.
+    githubPopupBlocked: Veuillez autoriser les fenêtres contextuelles pour vous connecter avec GitHub.
+
+  # ========================================
+  # Authentification par OTP
+  # ========================================
+  otp:
+    signInWithEmail: Se connecter avec une adresse e-mail
+    otpSentTo: Code OTP envoyé à
+    wrongEmail: Mauvaise adresse e-mail ?
+    changeEmail: Modifier l'adresse e-mail
+    inputEmail: Veuillez saisir votre adresse e-mail
+    inputYourOtp: Saisissez votre code OTP
+    inputOtpCode: Veuillez saisir le code OTP envoyé à votre adresse e-mail
+    signInSuccess: Connexion réussie
+    didntReceiveOtp: Vous n'avez pas reçu le code OTP ?
+    resendOtp: Renvoyer le code OTP
+    resendAfter: Vous pourrez renvoyer un code OTP dans {counter}s
+    submit: Valider
+    sendOtpFailed: Échec de l'envoi du code OTP. Veuillez réessayer.
+
+  # ========================================
+  # Connexion SSO
+  # ========================================
+  sso:
+    orContinueWith: ou continuer avec
+
+  # ========================================
+  # Portail intégré
+  # ========================================
+  portal:
+    signIn: Se connecter
+    signInWith: Se connecter avec
+
+  # ========================================
+  # Erreurs supplémentaires
+  # ========================================
+  additional:
+    unknownError: Erreur inconnue
+    invalidOtp: Code OTP invalide. Veuillez réessayer.
+    cannotValidateOtp: Impossible de valider le code OTP. Veuillez réessayer.
+    emailNotVerified: Votre adresse e-mail n'est pas vérifiée. Veuillez la vérifier dans votre compte Microsoft.
+    cannotSignInMicrosoftSSO: Impossible de vous connecter avec Microsoft SSO. Veuillez réessayer.
+    cannotSignIn: Impossible de vous connecter. Veuillez réessayer.
+    failedReloadProject: Impossible de recharger le projet après la connexion. Veuillez actualiser la page.
+    loginError: Erreur de connexion
+    signInCancelled: La connexion a été annulée. Veuillez réessayer.
+
+  # ========================================
+  # Redirection après déconnexion
+  # ========================================
+  logoutCallback:
+    redirecting: Redirection en cours...
+    redirectDescription: Vous serez redirigé vers l'application dans quelques secondes.
+
+  # ========================================
+  # Avertissement concernant les fenêtres contextuelles
+  # ========================================
+  popupsWarning:
+    title: Impossible d'ouvrir la fenêtre de connexion
+    description: La fenêtre de connexion a peut-être été bloquée par votre navigateur ou une extension. Veuillez vérifier vos paramètres et réessayer.
+    needHelp: Besoin d'aide ?
+    contactSupport: Contacter le support

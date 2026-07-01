@@ -7,6 +7,12 @@ en:
   flag: 🇺🇸
   hello: Hello
 
+fr:
+  name: Français (FR)
+  nativeName: Français (FR)
+  flag: 🇫🇷
+  hello: Salut
+
 vi:
   name: Vietnamese
   nativeName: Tiếng Việt

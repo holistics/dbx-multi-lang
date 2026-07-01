@@ -1,172 +1,177 @@
-# Account translations - Manage Account modal and Change Email flow
-# UI Areas: Manage Account modal, Change Email modal (stepper flow)
-
 account:
   # ========================================
-  # Account page
+  # Page du compte
   # ========================================
   page:
-    title: Manage your dbx account
-    description: "Any changes you make here will be reflected in all three services:"
-    authenticating: Authenticating...
+    title: Gérez votre compte dbx
+    description: "Toutes les modifications effectuées ici seront répercutées sur les trois services :"
+    authenticating: Authentification en cours...
 
   # ========================================
-  # Manage Account modal - Account settings overview
+  # Fenêtre Gérer le compte - Aperçu des paramètres du compte
   # ========================================
   manage:
-    loadingInfo: Loading account information... # Loading spinner text
-    displayName: Display Name # Label for display name field
-    email: Email # Label for email field
+    loadingInfo: Chargement des informations du compte...
+    displayName: Nom d'affichage
+    email: Adresse e-mail
 
-    # Connected accounts section
+    # Section Comptes connectés
     connectedAccounts:
-      title: Connected Accounts # Section title
-      noAccounts: No connected accounts # Empty state text
-      loggedInWith: Logged in with {provider} # Provider badge label (e.g., "Logged in with Google")
+      title: Comptes connectés
+      noAccounts: Aucun compte connecté
+      loggedInWith: Connecté avec {provider}
 
-    # Manage account section
-    manageTitle: Manage Account # Section title
-    changeEmail: Change email address # Change email button label
-    changeEmailInProgress: You have an email change in progress, please wait # Disabled message when email change is in progress
-    changeEmailFailed: "Your last email change failed, please contact our support at dbdiagram@holistics.io" # Disabled message when last email change failed
+    # Section Gestion du compte
+    manageTitle: Gérer le compte
+    changeEmail: Modifier l'adresse e-mail
+    changeEmailInProgress: Une modification de votre adresse e-mail est en cours. Veuillez patienter.
+    changeEmailFailed: "La dernière modification de votre adresse e-mail a échoué. Veuillez contacter notre support à l'adresse dbdiagram@holistics.io."
 
-    # Account removal
+    # Suppression du compte
     removal:
-      removeAccount: Remove account # Remove account button label
-      cancelRequest: Cancel removal request # Cancel removal request button label
-      removedAfter: "Your account will be removed after {time}." # Removal countdown text
-      aFewHours: a few hours # Time label when less than 1 day remaining
-      aDay: a day # Time label when exactly 1 day remaining
-      days: "{count} days" # Time label for multiple days remaining
-      cancelSuccess: Removal request was canceled successfully! # Success toast after canceling
+      removeAccount: Supprimer le compte
+      cancelRequest: Annuler la demande de suppression
+      removedAfter: "Votre compte sera supprimé dans {time}."
+      aFewHours: quelques heures
+      aDay: un jour
+      days: "{count} jours"
+      cancelSuccess: La demande de suppression a été annulée avec succès !
       status:
-        inProgressTitle: Your account removal is in progress.
-        inProgressDescription: This may take a few moments. You can safely close this window — the process will continue in the background.
-        completedTitle: Your account has been successfully removed.
-        completedDescription: "You can safely close this window. Note: You won't be logged out automatically. Please log out from other devices manually."
-        failedTitle: Account removal failed.
-        failedContactSupport: Please contact our support team at
+        inProgressTitle: La suppression de votre compte est en cours.
+        inProgressDescription: Ce processus peut prendre quelques instants. Vous pouvez fermer cette fenêtre en toute sécurité. La suppression se poursuivra en arrière-plan.
+        completedTitle: Votre compte a été supprimé avec succès.
+        completedDescription: "Vous pouvez fermer cette fenêtre en toute sécurité. Remarque : vous ne serez pas déconnecté automatiquement. Veuillez vous déconnecter manuellement sur vos autres appareils."
+        failedTitle: La suppression du compte a échoué.
+        failedContactSupport: Veuillez contacter notre équipe de support à
 
     notifications:
-      profileUpdated: User profile updated successfully.
-      profileImageUpdated: User profile image updated successfully.
+      profileUpdated: Le profil utilisateur a été mis à jour avec succès.
+      profileImageUpdated: L'image de profil a été mise à jour avec succès.
+
     profileImage:
-      title: User Profile Image
-      switchToGravatar: Switch to Gravatar's profile image
-      switchToGravatarHint: To change your user avatar, please switch to Gravatar's profile image.
-      redirectingToGravatar: Redirecting to Gravatar...
-      changeOnGravatar: Change Profile Image on Gravatar
-      doneUploading: Done uploading your image on Gravatar?
-      gravatarHint: Log in to Gravatar with your email to change your profile picture.
-      refresh: Refresh your profile image
+      title: Image de profil
+      switchToGravatar: Utiliser l'image de profil Gravatar
+      switchToGravatarHint: Pour modifier votre avatar, veuillez utiliser votre image de profil Gravatar.
+      redirectingToGravatar: Redirection vers Gravatar...
+      changeOnGravatar: Modifier l'image de profil sur Gravatar
+      doneUploading: Avez-vous terminé de téléverser votre image sur Gravatar ?
+      gravatarHint: Connectez-vous à Gravatar avec votre adresse e-mail pour modifier votre photo de profil.
+      refresh: Actualiser votre image de profil
+
     userInfo:
-      title: User Information
+      title: Informations utilisateur
+
     dangerZone:
-      title: Danger Zone
+      title: Zone de danger
+
     errors:
-      sessionExpired: Session expired, please log in again.
-      updateProfileFailed: Failed to update user profile, please try again.
-      loadProfileFailed: Failed to load user profile, please try to refresh the page.
-      updateProfileImageFailed: Failed to update user profile image, please try again.
-      cancelRemovalFailed: Failed to cancel account removal request, please try again.
+      sessionExpired: Votre session a expiré. Veuillez vous reconnecter.
+      updateProfileFailed: Échec de la mise à jour du profil utilisateur. Veuillez réessayer.
+      loadProfileFailed: Impossible de charger le profil utilisateur. Veuillez actualiser la page.
+      updateProfileImageFailed: Échec de la mise à jour de l'image de profil. Veuillez réessayer.
+      cancelRemovalFailed: Impossible d'annuler la demande de suppression du compte. Veuillez réessayer.
 
   # ========================================
-  # Remove Account modal - 3-step account removal flow
+  # Fenêtre Supprimer le compte - Processus de suppression en 3 étapes
   # ========================================
   removeAccountModal:
-    title: Remove Account
-    loadingAccountData: Loading account data…
+    title: Supprimer le compte
+    loadingAccountData: Chargement des données du compte…
     steps:
-      whatWillBeRemoved: What will be removed
-      verifyIdentity: Verify your identity
-      identityVerified: Identity verified
-      deleteAccount: Delete account
-      accountDeleted: Account deleted
+      whatWillBeRemoved: Ce qui sera supprimé
+      verifyIdentity: Vérifiez votre identité
+      identityVerified: Identité vérifiée
+      deleteAccount: Supprimer le compte
+      accountDeleted: Compte supprimé
+
     step1:
-      description: "Removing your account will permanently delete the following data:"
-      warning: This action is permanent and cannot be undone.
+      description: "La suppression de votre compte entraînera la suppression définitive des données suivantes :"
+      warning: Cette action est définitive et ne peut pas être annulée.
+
     step2:
-      otpSentTo: Enter the 6-digit code sent to
-      resendCode: Resend code
-      resendCodeCooldown: "Resend code ({seconds}s)"
+      otpSentTo: Saisissez le code à 6 chiffres envoyé à
+      resendCode: Renvoyer le code
+      resendCodeCooldown: "Renvoyer le code ({seconds}s)"
+
     step3:
-      description: You are about to permanently delete your account and all associated data. This cannot be undone.
-      confirmButton: Delete my account
+      description: Vous êtes sur le point de supprimer définitivement votre compte ainsi que toutes les données associées. Cette action est irréversible.
+      confirmButton: Supprimer mon compte
+
     errors:
-      generic: Something went wrong. Please try again.
-      ssoAccount: SSO accounts cannot manage personal account settings.
-      removalInProgress: A removal is already in progress.
+      generic: Une erreur est survenue. Veuillez réessayer.
+      ssoAccount: Les comptes SSO ne peuvent pas gérer les paramètres personnels du compte.
+      removalInProgress: Une suppression est déjà en cours.
 
   # ========================================
-  # Change Email modal - 4-step email change flow
+  # Fenêtre Modifier l'adresse e-mail - Processus en 4 étapes
   # ========================================
   changeEmail:
-    title: Change Email # Modal title
+    title: Modifier l'adresse e-mail
 
-    # Step labels (stepper header)
+    # Étapes
     steps:
-      verifyCurrentEmail: Verify Current Email # Step 1 title
-      currentEmailVerified: Current email verified # Step 1 completed label
-      enterNewEmail: Enter New Email # Step 2 title
-      verifyNewEmail: Verify New Email # Step 3 title
-      newEmailVerified: New email verified # Step 3 completed label
-      confirmChange: Confirm Change # Step 4 title
-      emailChanged: Email changed # Step 4 completed label
+      verifyCurrentEmail: Vérifier l'adresse e-mail actuelle
+      currentEmailVerified: Adresse e-mail actuelle vérifiée
+      enterNewEmail: Saisir la nouvelle adresse e-mail
+      verifyNewEmail: Vérifier la nouvelle adresse e-mail
+      newEmailVerified: Nouvelle adresse e-mail vérifiée
+      confirmChange: Confirmer la modification
+      emailChanged: Adresse e-mail modifiée
 
-    # Step 1: Verify current email
+    # Étape 1
     verifyCurrent:
-      description: For security, you need to verify your current email via OTP to change it. # Step 1 description
-      currentEmailLabel: "Current email:" # Label before current email address
-      sendCode: Send Code # Send OTP button
-      otpSentMessage: We sent a 6-digit code to your email. The code expires in 4 minutes. # OTP sent info text
-      verificationCode: Verification Code # OTP input label
-      resendCode: Resend code # Resend button label
-      resendCodeCooldown: "Resend code ({seconds}s)" # Resend button with cooldown timer
-      verify: Verify # Verify OTP button
+      description: Pour des raisons de sécurité, vous devez vérifier votre adresse e-mail actuelle à l'aide d'un code OTP avant de pouvoir la modifier.
+      currentEmailLabel: "Adresse e-mail actuelle :"
+      sendCode: Envoyer le code
+      otpSentMessage: Nous avons envoyé un code à 6 chiffres à votre adresse e-mail. Ce code expire dans 4 minutes.
+      verificationCode: Code de vérification
+      resendCode: Renvoyer le code
+      resendCodeCooldown: "Renvoyer le code ({seconds}s)"
+      verify: Vérifier
 
-    # Step 2: Enter new email
+    # Étape 2
     enterNew:
-      description: "Enter your new email address. We'll send a verification code to confirm it's yours." # Step 2 description
-      newEmailLabel: New Email Address # New email input label
-      placeholder: Enter new email # New email input placeholder
-      sendCode: Send Code # Send OTP button
+      description: "Saisissez votre nouvelle adresse e-mail. Nous vous enverrons un code de vérification afin de confirmer qu'elle vous appartient."
+      newEmailLabel: Nouvelle adresse e-mail
+      placeholder: Saisissez la nouvelle adresse e-mail
+      sendCode: Envoyer le code
 
-    # Step 3: Verify new email
+    # Étape 3
     verifyNew:
-      otpSentTo: We sent a 6-digit code to # Text before new email address
-      codeExpires: The code expires in 4 minutes. # OTP expiry info
-      verificationCode: Verification Code # OTP input label
-      resendCode: Resend code # Resend button label
-      resendCodeCooldown: "Resend code ({seconds}s)" # Resend button with cooldown timer
-      back: Back # Back button to return to step 2
-      verify: Verify # Verify OTP button
+      otpSentTo: Nous avons envoyé un code à 6 chiffres à
+      codeExpires: Le code expire dans 4 minutes.
+      verificationCode: Code de vérification
+      resendCode: Renvoyer le code
+      resendCodeCooldown: "Renvoyer le code ({seconds}s)"
+      back: Retour
+      verify: Vérifier
 
-    # Step 4: Confirm change
+    # Étape 4
     confirm:
-      description: "You're about to change your email address:" # Step 4 description
-      from: "From:" # Label for current email in summary
-      to: "To:" # Label for new email in summary
-      pleaseNote: "Please note:" # Notes section title
-      noteNotifications: The new email will receive all account notifications (billing, invitations, etc.) in the future. # Note about notifications
-      noteLogout: "You won't be logged out automatically. Please log out from other devices manually." # Note about logout
-      noteIrreversible: This action cannot be undone. # Note about irreversibility
-      confirmButton: Confirm Change # Confirm change button
+      description: "Vous êtes sur le point de modifier votre adresse e-mail :"
+      from: "De :"
+      to: "Vers :"
+      pleaseNote: "Veuillez noter :"
+      noteNotifications: La nouvelle adresse e-mail recevra désormais toutes les notifications liées à votre compte (facturation, invitations, etc.).
+      noteLogout: "Vous ne serez pas déconnecté automatiquement. Veuillez vous déconnecter manuellement sur vos autres appareils."
+      noteIrreversible: Cette action est irréversible.
+      confirmButton: Confirmer la modification
 
-    # Polling notifications for email change propagation
+    # Notifications de synchronisation
     polling:
-      inProgressTitle: Updating your email across services... # Notification title while syncing
-      inProgressText: This may take a few minutes. You can still continue using the app. # Notification body while syncing
-      completedText: Email updated across all services successfully! # Success notification
-      failedTitle: Some services failed to sync your new email. # Warning notification title
-      failedText: Your email has been changed, but some services may still show the old one. Please contact our support at dbdiagram@holistics.io. # Warning notification body
+      inProgressTitle: Mise à jour de votre adresse e-mail sur tous les services...
+      inProgressText: Cette opération peut prendre quelques minutes. Vous pouvez continuer à utiliser l'application pendant ce temps.
+      completedText: L'adresse e-mail a été mise à jour avec succès sur tous les services !
+      failedTitle: La synchronisation a échoué sur certains services.
+      failedText: Votre adresse e-mail a bien été modifiée, mais certains services peuvent encore afficher l'ancienne. Veuillez contacter notre support à l'adresse dbdiagram@holistics.io.
 
-    # Error messages
+    # Messages d'erreur
     errors:
-      invalidEmail: Please enter a valid email address # Invalid email format
-      incorrectCode: The code you entered is incorrect # Wrong OTP code
-      codeExpired: The verification code has expired. Please request a new one. # OTP expired
-      codeAlreadyUsed: This code has already been used. Please request a new one. # OTP already used
-      requestExpired: Your verification request has expired. Please request a new code. # OTP request token expired
-      emailInUse: This email is already in use by another account # Duplicate email
-      verificationExpired: Your verification has expired. Please start over. # Verification token expired
-      generic: Something went wrong. Please try again. # Fallback error
+      invalidEmail: Veuillez saisir une adresse e-mail valide.
+      incorrectCode: Le code que vous avez saisi est incorrect.
+      codeExpired: Le code de vérification a expiré. Veuillez en demander un nouveau.
+      codeAlreadyUsed: Ce code a déjà été utilisé. Veuillez en demander un nouveau.
+      requestExpired: Votre demande de vérification a expiré. Veuillez demander un nouveau code.
+      emailInUse: Cette adresse e-mail est déjà utilisée par un autre compte.
+      verificationExpired: Votre vérification a expiré. Veuillez recommencer.
+      generic: Une erreur est survenue. Veuillez réessayer.

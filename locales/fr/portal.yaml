@@ -1,0 +1,107 @@
+# Traductions du portail - Portail de documentation intégré
+# Zones de l’interface : pages de callback OAuth, portail SSO, pages d’erreur
+
+portal:
+  # ========================================
+  # OAuth - Messages de bienvenue
+  # ========================================
+  oauth:
+    welcomeTo: Bienvenue dans {clientName}
+    signingInTo: Connexion à {clientName} en cours
+    successfullySignedInTo: Connexion réussie à {clientName}
+    welcome: Bienvenue
+    signingIn: Connexion en cours
+    successfullySignedIn: Connexion réussie
+    powering: Propulsé par
+    signOutFrom: Se déconnecter de {clientName}
+    signOutFromAccount: Se déconnecter de votre compte
+
+  # ========================================
+  # Callback GitHub
+  # ========================================
+  githubCallback:
+    authenticating: Authentification en cours, veuillez patienter...
+    authSuccess: Authentification réussie ! Vous pouvez fermer cette fenêtre en toute sécurité
+    title: Authentification GitHub
+    errors:
+      noOpener:
+        title: Accès invalide
+        description: Cette page ne peut pas être ouverte directement. Veuillez revenir à l’application et relancer la connexion.
+      openerClosed:
+        title: Fenêtre principale fermée
+        description: La fenêtre principale de l’application a été fermée pendant l’authentification. Veuillez relancer le processus de connexion.
+      accessDenied:
+        title: Accès refusé
+        description: Vous avez annulé l’authentification GitHub.
+      appSuspended:
+        title: Application suspendue
+        description: L’application GitHub a été suspendue.
+      redirectUriMismatch:
+        title: URI de redirection incorrecte
+        description: L’URI de redirection ne correspond pas à la configuration.
+      unknown:
+        title: Erreur inattendue
+        description: Une erreur est survenue. Veuillez contacter notre support à dbdiagram@holistics.io
+
+  # ========================================
+  # Déconnexion
+  # ========================================
+  logout:
+    validating: Validation de la demande de déconnexion...
+    loggingOut: Déconnexion en cours...
+    authorizationError: Erreur d’autorisation
+    logoutFailed: Échec de la déconnexion
+
+  # ========================================
+  # SSO
+  # ========================================
+  sso:
+    continue: Continuer
+    multipleWorkspaces: Plusieurs espaces SSO trouvés pour {email}
+    failedInitiate: Échec de l’initialisation de la connexion SSO. Veuillez réessayer.
+    somethingWrong: Une erreur est survenue, veuillez réessayer !
+    loginCancelled: Connexion annulée, veuillez réessayer !
+
+  # ========================================
+  # Sélection de compte
+  # ========================================
+  accountSelection:
+    continue: Continuer
+    or: ou
+    differentAccount: Utiliser un autre compte
+
+  # ========================================
+  # Saisie e-mail
+  # ========================================
+  emailInput:
+    placeholder: E-mail
+    send: Envoyer
+
+  # ========================================
+  # Pages d’erreur
+  # ========================================
+  errors:
+    internalServerError: Une erreur inattendue est survenue sur le serveur. Veuillez réessayer plus tard.
+    serviceUnavailable: Le service est temporairement indisponible. Veuillez réessayer dans quelques instants.
+    networkError: Impossible de se connecter au serveur. Vérifiez votre connexion internet et réessayez.
+    authenticationError: Erreur d’authentification. Veuillez contacter notre support à dbdiagram@holistics.io
+    windowNotOpened: Cette fenêtre n’a pas été ouverte correctement. Veuillez retourner à {clientName} et réessayer.
+    windowClosed: La fenêtre principale de l’application a été fermée. Veuillez retourner à {clientName} et réessayer.
+    communicationFailed: Échec de la communication avec {clientName}. Veuillez réessayer.
+    transferFailed: Échec du transfert d’authentification. Veuillez réessayer.
+    canCloseWindow: Vous pouvez fermer cette fenêtre maintenant.
+
+  # ========================================
+  # Erreurs OAuth
+  # ========================================
+  oauthErrors:
+    invalidAuthRequest: Requête d’authentification invalide
+    unsupportedResponseType: Paramètre response_type non pris en charge
+    invalidClient: Client invalide
+    missingClientIdOrRedirectUri: client_id ou redirect_uri manquant
+    missingCodeChallenge: "Paramètre requis manquant : code_challenge"
+    missingState: "Paramètre requis manquant : state"
+    invalidAccess: Accès invalide
+    pageMustBeOpened: Cette page doit être ouverte depuis l’application
+    unsupportedParameter: Paramètre {message} non pris en charge
+    unexpectedError: Erreur inattendue

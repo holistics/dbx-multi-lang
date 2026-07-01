@@ -1,0 +1,17 @@
+# Traductions de l'éditeur de diagramme - Interface d’édition
+# Zones de l’interface : éditeur de diagramme, barre d’outils, en-tête, panneaux
+
+diagram:
+  # ========================================
+  # Accès - Niveaux d’accès au diagramme
+  # ========================================
+  access:
+    public: Public
+    passwordProtected: Protégé par mot de passe
+    private: Privé
+    publicText: Toute personne disposant du lien
+    passwordProtectedText: Toute personne disposant du lien et du mot de passe
+    privateText: Uniquement les personnes invitées
+    publicTooltip: Public - Accessible via le lien
+    passwordProtectedTooltip: Protégé par mot de passe - Accessible via le lien, mais nécessite la saisie du mot de passe correct
+    privateTooltip: Privé - Accessible uniquement aux personnes invitées

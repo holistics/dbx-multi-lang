@@ -1,0 +1,339 @@
+# Traductions des modales - Dialogues de l’application
+# Zones de l’interface : modales de partage, import, export, historique, mise à niveau
+
+modals:
+  # ========================================
+  # Titres génériques
+  # ========================================
+  titles:
+    confirm: Confirmer
+    delete: Supprimer
+    remove: Retirer
+    rename: Renommer
+
+  # ========================================
+  # Dialogues de confirmation
+  # ========================================
+  confirmation:
+    default:
+      message: Voulez-vous vraiment continuer cette action ?
+      checkbox: Ne plus afficher ce message
+    deleteDiagram:
+      message: Êtes-vous sûr de vouloir supprimer ce diagramme ? Cette action est irréversible.
+      warning: Veuillez noter que cette action est irréversible !
+      embedLinkActive: Vous avez un lien d’intégration actif.
+      lastViewed: Dernière consultation
+    removeWorkspace: {}
+    removeMember:
+      title: Retirer un membre
+      message: Êtes-vous sûr de vouloir retirer ce membre de l’espace de travail ?
+      suggestion: Veuillez saisir votre adresse e-mail pour confirmer.
+
+  # ========================================
+  # Modale de partage
+  # ========================================
+  share:
+    tabs:
+      sharing: Partage
+      embedding: Intégration
+    generalAccess:
+      passwordPlaceholder: Saisir le mot de passe
+      createPassword: Créer
+      updatePassword: Mettre à jour
+      canAccess: peut accéder
+      copyLink: Copier le lien
+      updatePasswordButton: Mettre à jour le mot de passe
+    permissions:
+      canEditAndInvite: Peut modifier et inviter
+      canEditAndInviteDesc: Peut modifier et inviter des personnes.
+      canEdit: Peut modifier
+      canEditDesc: Peut modifier, mais pas inviter.
+      canView: Peut consulter
+      canViewDesc: Peut consulter, mais pas modifier.
+      remove: Retirer
+      removeDesc: Retirer ce collaborateur.
+      noAccess: Aucun accès
+      noAccessDesc: Aucun accès à ce diagramme
+      transferOwnership: Transférer la propriété
+      transferOwnershipDesc: Transférer la propriété de ce diagramme
+    invite:
+      placeholder: Email, séparés par virgule ou espace
+      button: Inviter
+    members:
+      you: (vous)
+    confirmRemoveCollaborator: Vous êtes sur le point de retirer <b>{email}</b> des collaborateurs, veuillez confirmer !
+    errors:
+      publicPermissionUpdateFailed: Échec de la mise à jour des permissions publiques du diagramme, veuillez réessayer !
+      publicPermissionUpdated: Permissions publiques du diagramme mises à jour !
+      passwordLength: Le mot de passe doit contenir entre 6 et 128 caractères
+      cannotUpdateDiagramState: Impossible de mettre à jour l’état du diagramme
+      createPasswordFailed: Échec de la création du mot de passe
+      updatePasswordFailed: Échec de la mise à jour du mot de passe
+    success:
+      createPasswordSuccess: Mot de passe créé avec succès
+      updatePasswordSuccess: Mot de passe mis à jour avec succès
+      diagramIsPublic: Le diagramme est maintenant public !
+      diagramIsPrivate: Le diagramme est maintenant privé !
+      diagramIsProtected: Le diagramme est maintenant protégé !
+    permissionChanged: Vos permissions ont été modifiées, veuillez recharger pour appliquer les changements !
+    reload: Recharger
+    cannotGetPermission: Impossible de récupérer les permissions du diagramme, veuillez réessayer !
+    embedLink:
+      title: Lien d’intégration
+      lastView: Dernière consultation
+      customize: Personnalisez votre lien d’intégration avec des options
+      darkMode: Mode sombre
+      highlightRelationships: Mettre en évidence les relations
+      detailLevel: Niveau de détail
+      anyoneWithLink: Toute personne disposant du lien peut consulter le diagramme intégré.
+      remove: Voulez-vous supprimer ce lien d’intégration ? Les autres utilisateurs n’y auront plus accès.
+      generate: Générer un lien d’intégration
+      errors:
+        cannotGet: Impossible de récupérer les liens d’intégration, veuillez réessayer !
+        cannotCreate: Impossible de créer le lien d’intégration, veuillez réessayer !
+        cannotDelete: Impossible de supprimer le lien d’intégration, veuillez réessayer !
+        cannotUpdate: Impossible de mettre à jour les paramètres du lien d’intégration, veuillez réessayer !
+    tooltip:
+      viewOnly: Les permissions de cet utilisateur sont limitées à la consultation.
+      upgradePersonal: Pour activer la collaboration en édition, veuillez passer à un plan supérieur.
+      freeAccount: Cet utilisateur a un compte <b>gratuit</b>.
+      editAfterUpgrade: Il pourra <b>modifier</b> le diagramme après mise à niveau de son compte.
+      collaborationLimit: Vous ne pouvez collaborer qu’avec
+      diagramLimit: Jusqu’à 4 utilisateurs gratuits par diagramme ({count} utilisateurs actuellement)
+      workspaceLimit: Jusqu’à 6 utilisateurs gratuits dans tout l’espace de travail ({count} utilisateurs actuellement)
+
+  # ========================================
+  # Diagramme privé
+  # ========================================
+  private:
+    protected: Diagramme protégé
+    private: Ce diagramme est privé
+    passwordRequired: Un mot de passe est requis pour consulter ce diagramme.
+    noAccess: Vous n’avez pas accès à ce diagramme.
+    enterPassword: Saisir votre mot de passe
+    incorrectPassword: Mot de passe incorrect
+    tryAgain: Veuillez réessayer !
+    viewDiagram: Voir le diagramme
+
+  # ========================================
+  # Publication
+  # ========================================
+  publish:
+    title: Publier vers
+    reviewAndPublishTitle: Vérifier et publier vers
+    dbdocsLink: dbdocs
+    cancelButton: Annuler
+    publishButton: Publier
+    reviewAndPublishButton: Vérifier et publier
+    bullet1: Publier une documentation de base de données consultable en ligne.
+    bullet2: Le document sera disponible dans un compte dbdocs lié à votre e-mail.
+    bullet3: Les modifications du diagramme ne seront pas automatiquement répercutées.
+    publishNewOrUpdate: Publier un nouveau document / Mettre à jour un document existant
+    updateExisting: Mettre à jour un document existant
+    publishNewOption: Publier un nouveau document
+    projectPublicDefault: Votre projet dbdocs est public par défaut. Les utilisateurs peuvent y accéder via le lien.
+    documentProjectName: Nom du projet
+    enterProjectName: Saisir le nom du projet
+    options: Options
+    ownerOnlyUpdatePublishDestination: Seul le propriétaire peut modifier la destination de publication
+    passwordProtection: Protection par mot de passe (optionnelle)
+    passwordPlaceholder: Saisir un mot de passe
+    passwordMinLength: Le mot de passe doit contenir au moins 6 caractères
+    feedback: Donnez-nous votre
+    feedbackLink: retour
+    aboutThisFeature: sur cette fonctionnalité !
+    errorLoadingProjects: Une erreur est survenue lors du chargement des projets publiés, veuillez contacter le support à dbdiagram@holistics.io
+    errorPublishing: Une erreur est survenue lors de la publication, veuillez contacter le support à dbdiagram@holistics.io
+    projectNameEmpty: Le nom du projet ne peut pas être vide
+    projectNameInvalid: Le nom du projet ne peut contenir que des lettres, chiffres, espaces, "-" ou "_"
+    projectNameExists: Un projet avec ce nom existe déjà. Veuillez en choisir un autre.
+    passwordInvalid: Mot de passe invalide, veuillez réessayer !
+    editFromDbdocsInfo: Pour modifier un projet publié, utilisez directement dbdocs.
+    learnMore: En savoir plus
+    ownerOnlyPublish: Seul le propriétaire peut publier un nouveau projet vers dbdocs.
+    publishedProject: Projet publié
+    viewExistingProjects: Voir les projets existants
+    projectNameHeader: Nom
+    projectUrlHeader: URL
+    publishNewQuestion: Publier vers un autre projet ?
+    publishNewAction: Publier vers un nouveau projet
+    resolveConflictsAndErrorsBeforePublish: Résolvez tous les conflits et erreurs avant de publier.
+    currentChange: Modification actuelle
+    incomingChange: Modification entrante
+    bothChanges: Les deux modifications
+    acceptChangeButton: Accepter {conflictTypeText}
+    acceptAllIncomingChangesButton: Accepter toutes les modifications entrantes
+    conflictWordSingular: conflit
+    conflictWordPlural: conflits
+
+  # ========================================
+  # Importation
+  # ========================================
+  import:
+    instructions: Instructions
+    showInstructions: Afficher les instructions
+    hideInstructions: Masquer les instructions
+    upload: Importer {file}
+    appendMode: Ajouter le DBML converti à la fin
+    modal:
+      validating: Validation en cours
+    dbConnection:
+      title: Générer du DBML depuis une connexion directe à la base de données
+      intro1: Cette méthode se connecte directement à votre base de données et lit son schéma pour générer du DBML.
+      intro2: Tout est exécuté localement, et les identifiants ne sont ni enregistrés ni transmis.
+      intro3: Le code est open source depuis
+      intro3Link: et peut être vérifié
+      step1: 1. Installer
+      step1Note: vous devrez peut-être ajouter
+      step1NoteSudo: avant les commandes sous Linux
+      step2: 2. Exécuter la commande suivante
+      exampleFor: Exemple pour
+      successMessage: 'DBML généré depuis la connexion : database.dbml'
+      successBigquery: 'Note : pour BigQuery, votre fichier JSON doit contenir les clés suivantes'
+      successSnowflake1: Connexion en cours...
+      successSnowflake2: Exécution de la requête...
+      successSnowflake3: Requête exécutée avec succès.
+      successSnowflake4: Connexion fermée avec succès.
+      step3: 3. Copiez et collez le DBML généré dans l’éditeur
+      databaseTypes:
+        mysql: MySQL
+        postgres: PostgreSQL
+        mssql: SQL Server
+        oracle: Oracle
+        snowflake: Snowflake
+        bigquery: BigQuery
+
+  # ========================================
+  # Mise à niveau
+  # ========================================
+  upgrade:
+    titles:
+      createDiagram: Vous avez atteint la limite de création de diagrammes !
+      detailLevels: Fonctionnalité payante découverte !
+      detailLevelsDbdocs: Fonctionnalité des projets payants découverte !
+      diagramView: La création de vues supplémentaires est une fonctionnalité payante
+      headerColor: Fonctionnalité payante découverte !
+      headerColorDbdocs: Fonctionnalité des projets payants découverte !
+      privateDiagram: Fonctionnalité payante découverte !
+      stickyNotes: Fonctionnalité payante découverte !
+      stickyNotesDbdocs: Fonctionnalité des projets payants découverte !
+      versionHistory: Fonctionnalité payante découverte !
+      aiAssistant: L’assistant IA est une fonctionnalité payante
+      tableGroup: Fonctionnalité payante découverte !
+      tableGroupDbdocs: Fonctionnalité des projets payants découverte !
+      invitePeople: Fonctionnalité payante découverte !
+    descriptions:
+      createDiagram: Passez à une offre payante pour des <b>créations illimitées</b> et des fonctionnalités avancées !
+      detailLevels: Passez à une offre payante pour accéder aux niveaux de détail, couleurs d’en-tête et bien plus.
+      detailLevelsDbdocs: Passez à une offre payante pour les fonctionnalités avancées des projets.
+      diagramView: Sur le plan gratuit, une seule vue est disponible.
+      headerColor: Passez à une offre payante pour les couleurs d’en-tête et les fonctionnalités avancées.
+      headerColorDbdocs: Passez à une offre payante pour les fonctionnalités avancées des projets.
+      privateDiagram: Passez à une offre payante pour protéger vos diagrammes avec mot de passe et mode privé.
+      stickyNotes: Passez à une offre payante pour utiliser les notes dans vos diagrammes.
+      stickyNotesDbdocs: Passez à une offre payante pour les notes dans les projets.
+      versionHistory: Expérimentez librement avec différentes versions de schéma.
+      aiAssistant: Passez à une offre payante pour utiliser l’assistance IA en langage naturel.
+      tableGroup: Passez à une offre payante pour les groupes de tables et fonctionnalités avancées.
+      tableGroupDbdocs: Passez à une offre payante pour les fonctionnalités avancées des projets.
+      invitePeople: Passez à une offre payante pour collaborer avec des invités.
+    buttons:
+      viewPlans: Voir les offres
+      upgradeProject: Mettre à niveau le projet
+
+  # ========================================
+  # Historique
+  # ========================================
+  history:
+    title: Historique des versions
+    deletedUser: Utilisateur supprimé
+    restoreVersion: Restaurer cette version
+    makeCopy: Faire une copie
+    upgradeTitle: Passez à une offre payante pour voir, restaurer et dupliquer
+    errors:
+      cannotView: Impossible de consulter cette version
+      cannotCopy: Impossible de copier cette version
+    restoreConfirmation:
+      title: Restaurer cette version ?
+      message: Votre diagramme actuel sera remplacé par cette version.
+    success:
+      versionCopied: Version copiée avec succès
+    copiedName: (Restauré) {name}
+    untitled: Sans titre
+
+  # ========================================
+  # Erreurs générales
+  # ========================================
+  errors:
+    inviteMaxEmails: Impossible d’inviter plus de 50 e-mails
+    inviteFailed: Échec de l’invitation, veuillez réessayer !
+    cannotGetCollaborators: Impossible de récupérer les collaborateurs !
+    permissionUpdateFailed: Échec de la mise à jour des permissions
+    permissionUpdateSuccess: Permissions mises à jour avec succès
+    inviteSent: Invitation envoyée
+    permissionDenied: Permission refusée
+    cannotGetWorkspaceParticipants: Impossible de récupérer les participants
+    cannotGetUserWorkspaces: Impossible de récupérer les espaces de travail
+    cannotGetWorkspacesSubscription: Impossible de récupérer les abonnements
+    exportSqlFailed: Échec de l’export SQL, veuillez vérifier votre schéma
+    savePdfFailed: Impossible d’enregistrer le PDF
+    saveSvgFailed: Impossible d’enregistrer le SVG
+    savePngFailed: Impossible d’enregistrer le PNG
+    cannotGetDiagrams: Impossible de récupérer les diagrammes, veuillez recharger
+    cannotRemoveDefaultView: Vous ne pouvez pas supprimer la vue par défaut
+    cannotRemoveView: Impossible de supprimer cette vue, veuillez réessayer
+    removeViewTitle: Supprimer la vue du diagramme ?
+    removeViewContent: Voulez-vous supprimer la vue "{name}" ?
+    cancel: Annuler
+    removeView: Supprimer la vue
+    close: Fermer
+    reload: Recharger
+
+  # ========================================
+  # Types d’espace de travail
+  # ========================================
+  workspaceType:
+    personal: Espace personnel
+    team: Espace d’équipe
+
+  # ========================================
+  # Niveaux de détail
+  # ========================================
+  detailLevelsDropdown:
+    tableNames: Noms des tables
+    keysOnly: Clés uniquement
+    allFields: Tous les champs
+
+  # ========================================
+  # Migration des vues
+  # ========================================
+  migrationPreview:
+    title: Les vues de diagramme sont désormais stockées dans votre DBML
+    description: >-
+      Nous avons déplacé les paramètres de vue directement dans votre DBML sous forme de blocs DiagramView.
+      Cela permet d’inclure les vues dans le code du schéma.
+    learnMore: En savoir plus sur les vues de diagramme
+    confirm: Continuer
+
+  # ========================================
+  # Session expirée
+  # ========================================
+  sessionExpired:
+    title: Session expirée
+    description: Votre session a expiré, vous serez automatiquement déconnecté dans {countdown} seconde(s)...
+
+  # ========================================
+  # Transfert de propriété
+  # ========================================
+  transferOwnership:
+    title: Transférer la propriété
+    subtitle: "Sélectionnez un membre à qui transférer la propriété :"
+    searchPlaceholder: Rechercher par nom ou e-mail...
+    noMembersFound: Aucun membre trouvé.
+    transferButton: Transférer
+    notes:
+      irreversible: Cette action est irréversible.
+      scopeRemains: "L’historique des versions, les collaborateurs et les accès restent inchangés."
+    confirmMessage: "Voulez-vous transférer la propriété de ce diagramme à <b>{memberLabel}</b> ?"
+    success: Propriété du diagramme transférée à {memberLabel}
+    error: Échec du transfert de propriété du diagramme. Veuillez réessayer.

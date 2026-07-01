@@ -1,0 +1,126 @@
+# Traductions de la facturation - Tarifs, abonnements, paiements
+# Zones de l’interface : page de tarification, paramètres de facturation, modales de mise à niveau
+
+billing:
+  # ========================================
+  # Boutons de facturation
+  # ========================================
+  buttons:
+    upgrade: Mettre à niveau
+    upgradeToPersonalPro: Passer au plan Personal Pro
+    collaborateWithTeam: Collaborer avec le plan Team
+
+  # ========================================
+  # Page de tarification
+  # ========================================
+  pricing:
+
+  # ========================================
+  # Détails des plans
+  # ========================================
+  plans:
+    free:
+      features:
+        - Jusqu'à 3 diagrammes
+        - Outils d'édition de base
+        - Export en SQL/PNG
+        - Support communautaire
+
+    pro:
+      features:
+        - Diagrammes illimités
+        - Outils d'édition avancés
+        - Historique des versions
+        - Support prioritaire
+        - Export en PDF
+        - Thèmes personnalisés
+
+    team:
+      features:
+        - Tout ce qui est inclus dans Pro
+        - Collaboration en équipe
+        - Contrôles administrateur
+        - Authentification SSO
+        - Support prioritaire
+        - Intégrations personnalisées
+
+  # ========================================
+  # Formulaire de paiement
+  # ========================================
+  payment:
+    paymentMethod: Méthode de paiement
+
+  # ========================================
+  # Historique de facturation
+  # ========================================
+  billing:
+
+  # ========================================
+  # Gestion de l'abonnement
+  # ========================================
+  subscription:
+
+  # ========================================
+  # Plan Personal Pro
+  # ========================================
+  personalPro:
+
+  # ========================================
+  # Plan Team
+  # ========================================
+  team:
+
+  # ========================================
+  # Page de tarification publique
+  # ========================================
+  publicPricing:
+
+  # ========================================
+  # Bouton de mise à niveau
+  # ========================================
+  upgradeNowBtn:
+    ownerOnly: Seul le propriétaire de l’espace de travail peut passer au plan Team
+
+  # ========================================
+  # Modale de gestion du plan
+  # ========================================
+  managePlanModal:
+    loadingSubscription: Chargement des informations d'abonnement...
+    currentPlan: Plan actuel
+    personalPlanForever: Plan Personnel - À vie
+    unknownPlan: Plan inconnu
+    billedMonthly: Facturé chaque mois
+    billedAnnually: Facturé chaque année
+    chargeEvery: Facturation tous les {period} {unit}
+    cancelledOn: Résilié le
+    planDetails: Détails du plan →
+    upgradeDescription: Passez à nos plans payants pour obtenir les niveaux de détail, la couleur d'en-tête et toutes les futures fonctionnalités
+    nextPayment: Votre prochain paiement est
+    chargedOn: sera prélevé le
+    editSubscription: Modifier l'abonnement
+    switchToMonthly: Passer à la facturation mensuelle
+    switchToYearly: Passer à la facturation annuelle
+    noPaymentMethod: Aucun moyen de paiement
+    updatePaymentMethod: Mettre à jour le moyen de paiement
+    invoicing: Facturation
+    lastPayment: Dernier paiement
+    editBillingInfo: Modifier les informations de facturation
+    paymentProcessing: Votre paiement est en cours de traitement. Veuillez recharger la page dans quelques minutes.
+
+  # ========================================
+  # Carte désactivée
+  # ========================================
+  disabledCard:
+    personalUpgrade: Mettez à niveau votre espace personnel pour accéder aux fonctionnalités premium.
+    teamReadOnly: L’espace de travail est en lecture seule en raison de l’annulation de l’abonnement. Renouvelez pour réactiver les fonctionnalités.
+
+  # ========================================
+  # Vue simplifiée de sélection de plan
+  # ========================================
+  planPickingSimpleView:
+    collaborateWithTeamPlan: Collaborer avec le plan Team
+    collaborateWithColleagues: Collaborez avec vos collègues.
+    manageTeamDiagrams: Gérez les diagrammes de l’équipe en un seul endroit.
+    startFreeTrial: Commencer l'essai gratuit de 7 jours
+    learnMore: En savoir plus
+    pricingFrom: À partir de {currency}{price}/mois

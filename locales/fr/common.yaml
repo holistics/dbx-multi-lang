@@ -1,0 +1,212 @@
+# Traductions des éléments communs de l’interface - Utilisés dans toute l’application
+# Zones de l’interface : barre d’outils, menu aide, import/export, SSO, éditeur
+
+common:
+  # ========================================
+  # Boutons génériques
+  # ========================================
+  buttons:
+    cancel: Annuler
+    confirm: Confirmer
+    delete: Supprimer
+    history: Historique
+    export: Exporter
+    ok: OK
+    submit: Envoyer
+    save: Enregistrer
+    next: Suivant
+
+  # ========================================
+  # Menu d'aide
+  # ========================================
+  help:
+    title: Aide
+    documentation: Documentation
+    releaseNotes: Notes de version
+    roadmap: Feuille de route produit
+    sendFeedback: Envoyer un retour
+    askCommunity: Poser une question à la communauté
+    suggestFeature: Suggérer une fonctionnalité
+    contactUs: Nous contacter
+    sampleDiagrams: Exemples de diagrammes
+    sampleAirbnb: Exemple Airbnb
+    sampleEcommerce: Exemple e-commerce
+    whatsNew: Quoi de neuf
+    language: Langue
+    contribute: Aidez à traduire cette application
+
+  # ========================================
+  # Menu export
+  # ========================================
+  export:
+    title: Exporter
+    publishToDbdocs: Publier le document (vers dbdocs)
+    toPdf: En PDF
+    toPng: En PNG
+    toSvg: En SVG
+    toPostgreSQL: En PostgreSQL
+    toMySQL: En MySQL
+    toSQLServer: En SQL Server
+    toOracleSQL: En Oracle SQL
+
+  # ========================================
+  # Menu import
+  # ========================================
+  import:
+    title: Importer
+    importFrom: Importer depuis
+    fromDatabaseConnection: Depuis une connexion base de données (via CLI)
+    fromMySQL: Depuis MySQL
+    fromPostgreSQL: Depuis PostgreSQL
+    fromSQLServer: Depuis SQL Server
+    fromSnowflake: Depuis Snowflake
+    fromOracleSQL: Depuis Oracle SQL
+    fromRails: Depuis Rails (schema.rb)
+    fromCSV: Depuis CSV
+
+  # ========================================
+  # Mise à niveau
+  # ========================================
+  upgrade:
+    title: Mise à niveau
+
+  # ========================================
+  # Actions rapides
+  # ========================================
+  quickActions:
+    title: Actions rapides
+
+  # ========================================
+  # SSO
+  # ========================================
+  sso:
+    signInWithSSO: Se connecter avec SSO
+    signInWithEmail: Se connecter avec e-mail
+    useWorkEmail: Utilisez votre e-mail professionnel pour accéder à dbdiagram via SSO
+    signInUnsuccessful: Connexion échouée. Vérifiez votre e-mail professionnel ou essayez une autre méthode.
+    selectWorkspace: Sélectionnez un espace de travail pour vous connecter
+
+  # ========================================
+  # Assistant IA
+  # ========================================
+  ai:
+    title: IA
+    scrollToBottom: Aller en bas
+
+  # ========================================
+  # Actions
+  # ========================================
+  actions:
+    confirmUnsaved:
+      title: Veuillez confirmer
+      content: Les modifications apportées peuvent ne pas être enregistrées. Voulez-vous continuer ?
+      negativeText: 'Non'
+      positiveText: 'Oui'
+
+  # ========================================
+  # États
+  # ========================================
+  states:
+    empty: Aucune donnée
+    loading: Chargement...
+
+  # ========================================
+  # Notes
+  # ========================================
+  notes:
+    header: "Veuillez noter :"
+
+  # ========================================
+  # Éditeur de code
+  # ========================================
+  editor:
+    keyboardShortcuts: Raccourcis clavier
+    openInDbdiagram: Ouvrir sur dbdiagram.io
+    hide: Masquer l'éditeur
+    expand: Agrandir l'éditeur
+    loadingContent: Chargement du contenu depuis le serveur, veuillez patienter...
+
+  # ========================================
+  # Notifications
+  # ========================================
+  notifications:
+    titles:
+      error: Une erreur est survenue
+      success: Succès !
+      warning: Avertissement
+    noPermissionRemoveView: Vous n'avez pas la permission de supprimer cette vue du diagramme !
+    noPermissionRenameView: Vous n'avez pas la permission de renommer cette vue du diagramme !
+    workspaceDisabled: Cet espace de travail est actuellement désactivé
+    noEditPermissionAi: Vous devez avoir la permission d’édition pour utiliser l’IA de dbdiagram. Veuillez demander au propriétaire du diagramme de mettre à niveau votre accès.
+
+  # ========================================
+  # Invitations de connexion
+  # ========================================
+  needLogin:
+    hiThere: Bonjour,
+    saveQuery: Veuillez vous connecter pour enregistrer votre diagramme
+    shareQuery: Veuillez vous connecter pour partager votre diagramme
+    newQuery: Veuillez vous connecter pour créer un nouveau diagramme
+    export: Veuillez vous connecter pour exporter votre diagramme
+    dbdocsAccess: Veuillez vous connecter pour modifier votre projet dbdocs
+    aiAssistant: Veuillez vous connecter pour utiliser l’assistant IA dbdiagram
+    newDiagram: Veuillez vous connecter pour créer un nouveau diagramme
+    upgradePersonal: Veuillez vous connecter pour passer au plan Personal Pro
+    upgradeTeam: Veuillez vous connecter pour commencer votre essai Team Plan
+    joinTeam: Veuillez vous connecter pour rejoindre cet espace de travail
+    chartUpdateVisibleEntities: Veuillez vous connecter pour enregistrer la visibilité des tables/notes
+    diagramViewCreateView: Veuillez vous connecter pour créer une nouvelle vue de diagramme
+    default: Veuillez vous connecter pour continuer votre travail
+
+  # ========================================
+  # Auth DBDocs
+  # ========================================
+  dbdocsAuth:
+    pleaseLoginWith: Veuillez vous connecter avec
+    youAreLoggedInAs: Vous êtes connecté en tant que
+    viaSSO: via SSO
+    youNeedToLoginWith: Vous devez vous connecter avec
+    pleaseLoginToAccess: Veuillez vous connecter pour accéder à ce projet.
+    contactProjectOwner: Contactez le propriétaire du projet pour demander l’accès.
+    weWillNeedNonSSO: Vous devrez utiliser un compte non-SSO pour l’authentification.
+    weWillNeedSameEmail: Vous devrez utiliser le même e-mail que celui de dbdocs pour l’authentification.
+    noEditPermission: Vous n’avez pas la permission de modifier ce projet.
+
+  # ========================================
+  # Collaboration temps réel
+  # ========================================
+  additional:
+    collab:
+      noLongerViewPermission: Vous n’avez plus la permission de voir !
+      doNotHaveViewPermission: Vous n’avez pas la permission de voir !
+      fullSession: "Impossible de se connecter : session complète !"
+      diagramDeleted: Ce diagramme a été supprimé !
+      overwrittenDiagram: Quelqu’un a écrasé le contenu du diagramme, veuillez recharger pour voir les dernières modifications !
+      diagramMigratedDiagramViewAsCode: Vos vues de diagramme ont été migrées vers le nouveau format "Diagram View as Code". Veuillez recharger pour continuer. Contactez dbdiagram@holistics.io en cas de problème.
+      permissionsChanged: Vos permissions ont été modifiées, veuillez recharger pour appliquer les changements !
+      cannotReconnect: Impossible de se reconnecter au serveur
+
+    query:
+      noPermissionShare: Vous n’avez pas la permission de partager ce diagramme
+      cantCreateDiagram: Impossible de créer un nouveau diagramme, veuillez sauvegarder votre fichier puis vous reconnecter
+      cantSaveDiagram: Impossible d’enregistrer le diagramme, veuillez sauvegarder votre fichier puis vous reconnecter
+      noPermissionSave: Vous n’avez pas la permission d’enregistrer ce diagramme
+      diagramDeleted: Votre diagramme a été supprimé
+      cantDeleteDiagram: Impossible de supprimer le diagramme, veuillez sauvegarder puis vous reconnecter
+      noPermissionGetInfo: Vous n’avez pas la permission d’accéder aux informations du diagramme !
+      cantGetDiagramInfo: Impossible de récupérer les informations du diagramme, veuillez réessayer !
+      noPermissionAccessProject: Vous n’avez pas la permission d’accéder à ce projet
+      failedLoadProjectDbdocs: Échec du chargement du projet depuis DBDocs
+      failedPublishDbdocs: Échec de la publication vers DBDocs
+      pleaseSignInSaveDraft: Veuillez vous connecter pour enregistrer des brouillons
+      noPermissionSaveDraft: Vous n’avez pas la permission d’enregistrer des brouillons
+      autoSaveDraftFailed: Échec de la sauvegarde automatique du brouillon !
+      failedSaveDraft: Échec de l’enregistrement du brouillon
+      pleaseSignInDeleteDraft: Veuillez vous connecter pour supprimer des brouillons
+      noPermissionDeleteDraft: Vous n’avez pas la permission de supprimer des brouillons
+      failedDeleteDrafts: Échec de la suppression des brouillons
+      pleaseSignInCheckVersion: Veuillez vous connecter pour vérifier la version
+      noPermissionCheckVersion: Vous n’avez pas la permission de vérifier la version
+      failedCheckVersion: Échec de la vérification de version
+      pleaseSignInLoadLatest: Veuillez vous connecter pour charger la dernière version
+      failedLoadLatest: Échec du chargement de la dernière version

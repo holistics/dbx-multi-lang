@@ -1,0 +1,170 @@
+# Traductions DBRenderer - Canevas du diagramme et panneaux
+# Zones de l’interface : barre latérale gauche, barre d’outils du canevas, zoom, menus contextuels
+
+dbrenderer:
+  # ========================================
+  # Panneau de recherche des tables
+  # ========================================
+  tableSearchPanel:
+    title: Tables
+    diagramViews: Vues du diagramme
+    diagramViewsTooltip: Les vues du diagramme sont des collections de tables représentant des domaines ou des workflows spécifiques de votre base de données.
+    viewActions: Actions de la vue
+    cannotRenameOrDelete: Impossible de renommer ou supprimer {name}
+    rename: Renommer
+    delete: Supprimer
+    reset: Réinitialiser
+    save: Enregistrer
+    saveAsNew: Enregistrer comme nouvelle vue
+    searchPlaceholder: Rechercher une table ou un schéma
+    searchPlaceholderWithGroup: Rechercher une table, un schéma ou un groupe
+    groupBy: Regrouper par
+    showAll: Tout afficher
+    hideAll: Tout masquer
+    schema: Schéma
+    tableGroup: Groupe de tables
+    noGroup: (aucun groupe)
+    defaultView: Vue par défaut
+    unknownView: Vue inconnue
+    newView: Nouvelle vue
+    copyOfName: Copie de {name}
+
+  # ========================================
+  # Barre de contrôle du canevas
+  # ========================================
+  controllerBar:
+    highlightRelationships: Mettre en évidence les relations
+    unhighlightRelationships: Retirer la mise en évidence des relations
+    enableGrid: Activer la grille
+    disableGrid: Désactiver la grille
+    addStickyNote: Ajouter une note adhésive
+    searchTables: Rechercher des tables
+    hideTableSearch: Masquer la recherche de tables
+    enterFullscreen: Passer en plein écran
+    exitFullscreen: Quitter le plein écran
+
+  # ========================================
+  # Auto-organisation du diagramme
+  # ========================================
+  autoArrange:
+    title: Choisir l’algorithme d’organisation automatique
+    leftRight: Gauche-droite
+    snowflake: Flocon de neige
+    compact: Compact
+    confirmMessage: Votre diagramme sera réorganisé automatiquement et vous ne pourrez pas annuler cette action. Êtes-vous sûr ?
+    confirm: Confirmer (↵)
+    cancel: Annuler (Esc)
+
+  # ========================================
+  # Niveau de détail
+  # ========================================
+  detailLevel:
+    title: Niveau de détail
+    all: Tous les champs
+    tables: Noms des tables
+    keys: Uniquement les clés
+
+  # ========================================
+  # Menu des vues
+  # ========================================
+  viewDropdown:
+    renameView: Renommer la vue
+    removeView: Supprimer la vue
+    newView: Nouvelle vue
+    disabled: (désactivé)
+
+  # ========================================
+  # Légende des différences
+  # ========================================
+  diffLegend:
+    added: Ajouté
+    modified: Modifié
+    deleted: Supprimé
+
+  # ========================================
+  # Contrôleur de zoom (bas droite)
+  # ========================================
+  viewportController:
+    zoomOut: Zoom arrière (maintenir pour accélérer)
+    zoomIn: Zoom avant (maintenir pour accélérer)
+    editZoomLevel: Cliquez pour modifier le niveau de zoom
+    zoomToFit: Adapter à la taille de l’écran
+    enablePanMode: Activer le mode déplacement
+    disablePanMode: Désactiver le mode déplacement
+    panModeHint: Ou maintenez Espace/bouton central + glisser pour déplacer
+
+  # ========================================
+  # État vide
+  # ========================================
+  emptyStateHint:
+    filtered:
+      title: Votre vue de diagramme est vide
+      description: Toutes les tables de cette vue sont actuellement masquées. Utilisez le panneau de recherche pour les afficher.
+      openTableSearchPanel: Ouvrir le panneau de recherche des tables
+    noDbml:
+      title: Aucun schéma de base de données trouvé
+      description: Votre code DBML ne contient encore aucune table. Ajoutez des tables et relations pour voir votre diagramme.
+      startAddingTables: Commencer à ajouter des tables
+
+  # ========================================
+  # États de chargement
+  # ========================================
+  loading:
+    initializingTables: Initialisation des tables...
+    initializingTablesProgress: Initialisation des tables... ({current}/{total})
+    initializingTableGroups: Initialisation des groupes de tables...
+    initializingTableGroupsProgress: Initialisation des groupes de tables... ({current}/{total})
+    initializingReferences: Initialisation des relations...
+    initializingReferencesProgress: Initialisation des relations... ({current}/{total})
+    arrangingDiagram: Organisation du diagramme...
+    finalizingDiagram: Finalisation du diagramme...
+
+  # ========================================
+  # Filtres du canevas
+  # ========================================
+  filterConfigTags:
+    all: Tout
+    allTables: Toutes les tables
+    allNotes: Toutes les notes
+    nothing: Rien
+    moreItems: '{count} éléments supplémentaires :'
+
+  # ========================================
+  # Notes adhésives
+  # ========================================
+  stickyNotesSection:
+    title: Notes adhésives
+
+  stickyNotes:
+    untitledNote: Note sans titre
+    removeNoteConfirmation: Supprimer la note ?
+    'yes': 'Oui'
+    'no': 'Non'
+
+  # ========================================
+  # Liste des tables
+  # ========================================
+  tableList:
+    noTablesFound: Aucune table trouvée
+
+  # ========================================
+  # Aperçu des enregistrements
+  # ========================================
+  recordPreviewModal:
+    infoTooltip: Voir des lignes d’exemple pour comprendre rapidement les données de la table
+    editBtn:
+      title: Modifier
+      tooltip: Modifier l’exemple de données
+    downloadBtn:
+      title: Télécharger
+      tooltip: Télécharger en CSV
+
+  # ========================================
+  # Modale de note
+  # ========================================
+  viewNoteModal:
+    infoTooltip: La mise en forme Markdown est prise en charge
+    editBtn:
+      title: Modifier
+    cancelBtn: Annuler
+    saveBtn: Enregistrer

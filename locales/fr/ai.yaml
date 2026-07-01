@@ -1,0 +1,131 @@
+# Traductions de l'assistant IA - Panneau IA et fonctionnalités
+# Zones de l'interface : Panneau IA (barre latérale droite), fenêtre de bienvenue, visualiseur de différences
+
+ai:
+  # ========================================
+  # Panneau IA - Interface de discussion dans la barre latérale droite
+  # ========================================
+
+  panel:
+    inputPlaceholder: Posez-moi une question sur votre diagramme...
+    currentChat: Discussion actuelle
+    previousChats: Discussions précédentes
+    noOtherChats: Aucune autre discussion pour le moment
+    sendInstructions: Appuyez sur Entrée pour envoyer, sur Maj+Entrée pour insérer une nouvelle ligne
+    sendMessage: Envoyer le message
+    workspaceDisabled: Espace de travail désactivé
+    editPermissionRequired: Autorisation de modification requise
+    usageLimitReached: Vous avez atteint votre limite d'utilisation pour ce mois. Veuillez réessayer le
+    learnMoreAboutUsageLimits: En savoir plus sur les limites d'utilisation
+    chat: Discussion
+    clickToEdit: Cliquez pour modifier
+    newChat: Nouvelle discussion
+    showChatHistory: Afficher l'historique des discussions
+    hideChatHistory: Masquer l'historique des discussions
+
+  # ========================================
+  # Fenêtre de bienvenue IA - Première utilisation
+  # ========================================
+
+  welcome:
+    title: Bienvenue dans DBDiagram AI
+    subtitle: Votre assistant intelligent pour la conception de bases de données
+
+  # ========================================
+  # États de chargement de l'IA
+  # ========================================
+
+  messages:
+    thinking: Réflexion en cours...
+    generating: Génération en cours...
+    explaining: Explication en cours...
+    error: Une erreur est survenue. Veuillez réessayer.
+    rateLimit: Vous avez atteint votre limite d'utilisation. Passez à une offre supérieure pour continuer.
+
+  # ========================================
+  # Visualiseur de différences
+  # ========================================
+
+  diffViewer:
+    reject: Rejeter
+    accept: Accepter
+    rejectAll: Tout rejeter
+    acceptAll: Tout accepter
+
+  # ========================================
+  # Suivi de l'utilisation des jetons
+  # ========================================
+
+  tokenUsage:
+    used: Utilisés
+    usageText: Vous avez utilisé {percentage} de votre quota
+    tokens: jetons
+    learnMore: Cliquez pour en savoir plus sur les limites d'utilisation
+    resetOn: Réinitialisation le
+
+  # ========================================
+  # Détails de la réponse de l'IA
+  # ========================================
+
+  assistant:
+    dbmlCode: Code DBML
+    lines: lignes
+
+  # ========================================
+  # Messages de réponse de l'IA
+  # ========================================
+
+  responseMessages:
+    noExplanation: Le schéma a été mis à jour. Consultez le visualiseur de différences pour examiner les modifications.
+    invalidIntent: |
+      Bienvenue sur dbdiagram AI.
+
+      Je peux vous aider à :
+
+      • **Concevoir des schémas DBML** : créer et modifier des tables, des relations et des structures de bases de données.
+      • **Appliquer les bonnes pratiques** : suggérer les types de données, les index et les contraintes les plus adaptés.
+      • **Optimiser les schémas** : organiser les tables avec des TableGroups, ajouter des horodatages et remapper les types de données.
+      • **Effectuer des transformations rapides** : convertir des schémas entre PostgreSQL, MySQL, SQL Server et d'autres systèmes.
+
+      Essayez de me demander de créer des tables, d'ajouter des relations ou utilisez les actions rapides ci-dessus pour commencer !
+
+  # ========================================
+  # Titres des actions rapides
+  # ========================================
+
+  quickActionTitles:
+    createTableGroups: Créer des groupes de tables
+    addTimestampColumns: Ajouter des colonnes d'horodatage
+    addRelationships: Ajouter des relations
+    addIndexes: Ajouter des index
+    learnDatabaseDesign: Découvrir la conception de bases de données
+    cloneSlack: Créer un clone de Slack
+    documentDatabase: Créer une base de données documentaire
+    todoList: Créer une application de liste de tâches
+    remapDataTypes: Remapper les types de données
+
+  # ========================================
+  # Descriptions des actions rapides
+  # ========================================
+
+  quickActionDescriptions:
+    createTableGroups: Organisez vos tables en groupes logiques selon leur domaine et leur fonctionnalité, avec des couleurs distinctes.
+    addTimestampColumns: Ajoutez les colonnes created_at et updated_at aux tables nécessitant un suivi des modifications.
+    addRelationships: Détectez automatiquement les clés étrangères et créez les relations en fonction des conventions de nommage.
+    addIndexes: Ajoutez des index pour les clés étrangères et les colonnes fréquemment utilisées dans les requêtes.
+    learnDatabaseDesign: Découvrez les principes de conception des bases de données.
+    cloneSlack: Créez un clone de Slack.
+    documentDatabase: Créez une base de données pour le stockage de documents.
+    todoList: Créez une application de gestion de tâches.
+    remapDataTypes: Convertissez les types de données afin qu'ils correspondent à votre système de base de données cible.
+
+  # ========================================
+  # Sous-actions des actions rapides
+  # ========================================
+
+  quickActionSubActions:
+    postgresql: PostgreSQL
+    mysql: MySQL
+    sqlServer: SQL Server
+    sqlite: SQLite
+    oracle: Oracle

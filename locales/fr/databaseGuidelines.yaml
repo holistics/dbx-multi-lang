@@ -1,0 +1,88 @@
+# Traductions des guides de base de données - Instructions d'importation
+# Zones de l’interface : modale d’import, instructions de connexion base de données
+
+databaseGuidelines:
+  # ========================================
+  # Import MySQL - Instructions spécifiques MySQL
+  # ========================================
+  mysql:
+    title: MySQL
+    install: Installer
+    tool: mysqldump
+    terminalCommand: Dans votre terminal, exécutez la commande suivante
+    linuxPrefix: Sous Linux, vous devrez peut-être ajouter
+    sudo: sudo
+    linuxSuffix: avant la commande
+    example: Exemple
+    step3: Copiez le contenu SQL généré et collez-le dans cette fenêtre
+
+  # ========================================
+  # Import PostgreSQL - Instructions spécifiques PostgreSQL
+  # ========================================
+  postgres:
+    title: PostgreSQL
+    install: Installer
+    tool: pg_dump
+    terminalCommand: Dans votre terminal, exécutez la commande suivante
+    linuxPrefix: Sous Linux, vous devrez peut-être ajouter
+    sudo: sudo
+    linuxSuffix: avant la commande
+    example: Exemple
+    step3: Copiez le contenu SQL généré et collez-le dans cette fenêtre
+
+  # ========================================
+  # Import CSV - Instructions fichier CSV
+  # ========================================
+  csv:
+    title: CSV
+    description: Téléversez un fichier CSV pour générer automatiquement une structure de table DBML. La première ligne doit contenir les en-têtes de colonnes
+    exampleFormat: Exemple de format CSV
+
+  # ========================================
+  # Import Rails - Instructions schema.rb
+  # ========================================
+  rails:
+    title: Rails schema.rb
+    step1: Ouvrez le fichier
+    schemaRb: schema.rb
+    step1Suffix: de votre projet avec un éditeur de code
+    step2: Copiez le contenu de schema.rb et collez-le dans cette fenêtre
+
+  # ========================================
+  # Import SQL Server - Instructions SQL Server
+  # ========================================
+  sqlServer:
+    title: SQL Server
+    step1: Téléchargez et installez
+    tool: SQL Server Management Studio
+    step1Suffix: SSMS
+    step2: Ouvrez SSMS et connectez-vous à votre serveur SQL
+    step3: Une fois connecté, faites un clic droit sur la base de données à exporter et choisissez
+    scriptDatabaseAs: Script de la base de données en tant que
+    createTo: CREATE vers
+    newQueryEditorWindows: Nouvelle fenêtre de requête
+    step4: Copiez le contenu SQL généré et collez-le dans cette fenêtre
+
+  # ========================================
+  # Import Oracle - Instructions Oracle
+  # ========================================
+  oracle:
+    title: Oracle
+    description: Exécutez les commandes suivantes manuellement puis téléversez le fichier SQL via le bouton
+    uploadSql: Téléverser .sql
+    createDirectory: Créer un objet répertoire dans Oracle
+    grantPrivileges: Accorder les privilèges de lecture et d’écriture sur l’objet répertoire
+    exportSchema: Exporter un schéma spécifique vers un fichier dump
+    convertDump: Convertir le fichier dump en fichier SQL
+
+  # ========================================
+  # Import Snowflake - Instructions Snowflake
+  # ========================================
+  snowflake:
+    title: Snowflake
+    description: Exécutez la commande
+    getDdl: GET_DDL
+    descriptionSuffix: manuellement, puis copiez-collez le résultat dans le champ texte ou téléversez-le via
+    uploadSql: Téléverser .sql
+    exportAllTables: Export de toutes les tables DDL de toute la base de données
+    selectSchema: Sélectionner toutes les tables d’un même schéma

@@ -1,0 +1,181 @@
+# Traductions de l’espace de travail - Barre latérale, menu déroulant et paramètres
+# Zones de l’interface : barre latérale gauche, menu workspace, page paramètres
+
+workspace:
+  # ========================================
+  # Libellés généraux
+  # ========================================
+  personalWorkspace: Espace de travail personnel
+  personal: Personnel
+  createWorkspace: Créer un nouvel espace de travail
+  dashboard: Tableau de bord
+  newDiagram: Nouveau diagramme
+  newSampleDiagram: Nouveau diagramme exemple
+  basic: Basique
+  advanced: Avancé
+  myDiagrams: Mes diagrammes
+  sharedWithMe: Partagés avec moi
+  workspace: Espace de travail
+  private: Privé
+  readOnlyMode: L’espace de travail est en mode lecture seule en raison de l’annulation de l’abonnement. Veuillez renouveler pour réactiver les fonctionnalités.
+
+  # ========================================
+  # Paramètres
+  # ========================================
+  settings:
+    title: Paramètres
+    workspaceName: Nom de l’espace de travail
+    update: Mettre à jour
+    loadingInfo: Chargement des informations de l’espace de travail...
+    singleSignOn: Authentification unique (SSO)
+    authenticateWithSSO: Authentification via SSO (SAML)
+    enabled: Activé
+    samlConfiguration: Configuration SAML
+    enforceSSO: Imposer le SSO
+    enforceSSODescription: Une fois activé, les membres de l’espace de travail ne pourront accéder qu’avec le SSO
+    identityProviderUrl: URL de l’Identity Provider
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
+    identityProviderUrlHelp: URL du point de terminaison de votre fournisseur d’identité.
+    certificate: Certificat
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificat>\n-----END CERTIFICATE-----"
+    samlConfigurationForProvider: Configuration SAML pour votre fournisseur d’identité
+    assertionConsumerServiceUrl: URL du service consommateur d’assertions
+    assertionConsumerServiceUrlHelp: Aussi appelée “Reply URL” ou “Replying party service URL”
+    identifier: Identifiant
+    identifierHelp: Aussi appelé “Issuer” ou “Relying party trust identifier”
+    saveSSOSettings: Enregistrer les paramètres SSO
+    manageWorkspace: Gérer l’espace de travail
+    removeWorkspace: Supprimer l’espace de travail...
+    cancelRemovalRequest: Annuler la demande de suppression
+    removalWarning: Cette action est irréversible !
+    removalScheduledHours: Votre espace de travail sera supprimé dans quelques heures.
+    removalScheduledDay: Votre espace de travail sera supprimé dans un jour.
+    removalScheduledDays: "Votre espace de travail sera supprimé dans {count} jours."
+    removeWorkspaceTitle: Supprimer cet espace de travail ?
+    removeWorkspaceContent: Une suppression sera planifiée dans 7 jours. Vous pouvez l’annuler depuis les paramètres si vous changez d’avis.
+    removeWorkspaceButton: Supprimer cet espace de travail
+    removeWorkspaceSuggestion: 'Veuillez saisir <i>permanently delete</i> dans le champ pour confirmer.'
+    removalRequestCanceled: Demande de suppression annulée avec succès !
+    removalRequestCreated: Demande de suppression créée avec succès !
+    contactSupportError: Une erreur est survenue, veuillez contacter notre support à dbdiagram@holistics.io
+    workspaceNameUpdated: Nom de l’espace de travail mis à jour avec succès
+    workspaceNameUpdateFailed: Échec de la mise à jour du nom de l’espace de travail, veuillez réessayer !
+    ssoConfigFetchFailed: Échec de récupération de la configuration SSO. Veuillez actualiser la page.
+    ssoConfigUpdated: Configuration SSO mise à jour avec succès
+    ssoConfigSaveFailed: Échec de l’enregistrement de la configuration SSO. Veuillez réessayer.
+
+  # ========================================
+  # Membres
+  # ========================================
+  members:
+    invite: Inviter
+    invitePlaceholder: Saisir une adresse e-mail
+    inviteButton: Inviter
+    members: Membres
+    role:
+      member: Membre
+      owner: Propriétaire
+    actions:
+      remove: Retirer
+      removeInvitation: Retirer cette invitation
+      removeMember: Retirer ce membre
+    dialog:
+      removeMessage: Vous êtes sur le point de retirer <b>{email}</b> de votre espace de travail, veuillez confirmer !
+    notifications:
+      removeSuccess: "{email} a été retiré avec succès de l’espace de travail !"
+      removeError: Impossible de retirer {email} de l’espace de travail !
+
+  # ========================================
+  # Liste des diagrammes
+  # ========================================
+  diagramList:
+    searchPlaceholder: Rechercher des diagrammes
+    freePlan: Gratuit
+    plan: plan
+    diagramCount: "Diagrammes : {count}/{limit}"
+    duplicate: Dupliquer
+    transferOwnership: Transférer la propriété
+    delete: Supprimer
+    untitledDiagram: Diagramme sans titre
+    columns:
+      name: Nom
+      dateCreated: Date de création
+      dateModified: Date de modification
+      owner: Propriétaire
+
+  # ========================================
+  # Barre latérale
+  # ========================================
+  sidebar:
+    apiTokens: Jetons API
+    billing: Facturation
+
+  # ========================================
+  # États vides
+  # ========================================
+  emptyDiagrams:
+    title: Aucun diagramme
+    created:
+      description: Il n’y a aucun diagramme dans votre espace de travail. Vous pouvez en créer un avec le
+      button: + Nouveau diagramme
+      buttonSuffix: bouton.
+    shared:
+      description: Vous n’avez pas encore été invité à des diagrammes.
+    workspacePublic:
+      description: Aucun diagramme n’est affiché pour l’équipe. Vous pouvez en créer un avec le
+    workspacePrivate:
+      description: Aucun diagramme privé. Vous pouvez en créer un et le garder personnel.
+
+  # ========================================
+  # Plan
+  # ========================================
+  plan:
+    pro: Plan Pro
+    free: Plan Gratuit
+    team: Plan Équipe
+    disabled: "(désactivé)"
+
+  # ========================================
+  # Bienvenue
+  # ========================================
+  welcome:
+    title: Bienvenue dans l’espace de travail d’équipe !
+    description: Commencez à créer des diagrammes et collaborez avec votre équipe.
+    learnMore: En savoir plus →
+
+  # ========================================
+  # Jetons API
+  # ========================================
+  apiTokens:
+    title: Jetons API
+    description: Les jetons API servent à l’authentification à chaque requête API. Comme des mots de passe, ils doivent rester secrets.
+    seeDocumentation: Voir la documentation.
+    generateNew: Générer un nouveau jeton
+    columns:
+      name: Nom
+      dateCreated: Date de création
+      lastUsed: Dernière utilisation
+      owner: Propriétaire
+    empty: Aucun jeton créé
+    actions:
+      revoke: Révoquer
+    modal:
+      newToken: Nouveau jeton API
+      tokenName: Nom du jeton
+      tokenNamePlaceholder: Entrer le nom du jeton
+      generate: Générer le jeton
+      copyWarning: Copiez le jeton maintenant, il ne sera plus visible ensuite.
+      copied: Copié
+      copy: Copier
+      done: Terminé
+      revokeTitle: Révoquer le jeton API ?
+      revokeContent: Voulez-vous révoquer le jeton "{name}" ? Cette action est irréversible.
+      revokePositive: Révoquer le jeton
+      revokeSuggestion: 'Veuillez saisir <i>permanently delete</i> pour confirmer.'
+      generateSuccess: Jeton généré avec succès
+    errors:
+      nameEmpty: Le nom du jeton ne peut pas être vide
+      nameInvalid: Le nom du jeton ne peut contenir que des lettres, chiffres, espaces, "-" ou "_"
+      nameWhitespace: Le nom du jeton ne peut pas être vide ou contenir uniquement des espaces
+      upgradeRequired: Veuillez passer à un plan supérieur pour utiliser les API
+      ownerOnly: Seul le propriétaire peut générer des jetons

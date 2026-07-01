@@ -1,0 +1,115 @@
+# Traductions de l’en-tête - Barre d’outils supérieure
+# Zones de l’interface : barre d’outils header, menu compte, indicateurs de statut, modal de publication
+
+header:
+  # ========================================
+  # Boutons de la barre d’outils
+  # ========================================
+  buttons:
+    save: Enregistrer
+    share: Partager
+    editAsNew: Modifier comme nouveau
+    signOut: Se déconnecter
+    publishToDbdocs: Publier vers DBDocs
+    publish: Publier
+
+  # ========================================
+  # Badge brouillon
+  # ========================================
+  draftBadge:
+    label: Brouillon
+    discardAll: Supprimer tous les brouillons
+
+  # ========================================
+  # Placeholders
+  # ========================================
+  placeholders:
+    untitledDiagram: Diagramme sans titre
+
+  # ========================================
+  # Statut du diagramme
+  # ========================================
+  status:
+    readOnly: Lecture seule
+    synced: Synchronisé
+    unsynced: Non synchronisé
+    saved: Enregistré
+    unsaved: Non enregistré
+
+  # ========================================
+  # Statut de synchronisation
+  # ========================================
+  syncStatus:
+    reconnecting: Reconnexion...
+    saving: Enregistrement du diagramme...
+    autoSaving: Enregistrement automatique...
+    disconnected: Vous êtes hors ligne. Vos modifications sont enregistrées localement et seront synchronisées dès la reconnexion.
+    readOnly: Ce diagramme est en lecture seule
+    unsaved: Ce diagramme n’est pas enregistré
+    unsavedWithLogin: Ce diagramme n’est pas enregistré. La connexion est requise pour sauvegarder vos diagrammes
+
+  # ========================================
+  # Infobulles
+  # ========================================
+  tooltips:
+    clickToEdit: Cliquez pour modifier
+    openInDbdocs: Ouvrir dans dbdocs
+    noPublishedContent: Aucun contenu publié pour le moment
+    editAsNewDisabledWorkspace: <p class="text-center"><b>Modifier comme nouveau</b> n’est pas disponible car votre espace de travail a été désactivé suite à l’annulation de l’abonnement.</p>
+    editAsNewNormal: Modifier comme nouveau
+
+  # ========================================
+  # Statut des brouillons
+  # ========================================
+  draftStatus:
+    upToDate: Brouillon à jour
+    hasUnsavedChanges: Le brouillon contient des modifications non enregistrées
+
+  # ========================================
+  # Statut du projet
+  # ========================================
+  projectStatus:
+    upToDate: Projet à jour
+    hasUnsavedChanges: Le projet contient des modifications non enregistrées
+    synchronized: Le contenu du diagramme est synchronisé avec le serveur
+    allChangesSaved: Toutes les modifications ont été enregistrées
+
+  # ========================================
+  # Validation de publication
+  # ========================================
+  publishValidation:
+    parseError: Votre diagramme contient une erreur. Veuillez corriger les erreurs de syntaxe avant de publier.
+    saveFirst: Veuillez d’abord enregistrer votre diagramme
+    ownerPublishFirst: Veuillez demander au propriétaire du diagramme de publier un document de base de données
+    needLogin: Veuillez vous connecter pour publier vos modifications
+    hasErrors: Votre diagramme contient des erreurs
+    noChanges: Aucune modification à publier
+
+  # ========================================
+  # Modales
+  # ========================================
+  modals:
+    discardDraftsTitle: Supprimer tous les brouillons
+    discardDraftsContent: Êtes-vous sûr de vouloir supprimer tous vos brouillons et charger la dernière version du projet ? Cette action est irréversible.
+    discardButton: Supprimer
+    cancelButton: Annuler
+
+  # ========================================
+  # Notifications
+  # ========================================
+  notifications:
+    publishSuccess: Projet publié avec succès et brouillons supprimés
+    publishFailed: Échec de la publication du projet
+    discardSuccess: Tous les brouillons ont été supprimés et la dernière version a été chargée
+    discardFailed: Échec de la suppression des brouillons
+    showPublishFailed: Impossible d’afficher la confirmation de publication
+    renameFailed: Échec du renommage du diagramme. Veuillez réessayer
+
+  # ========================================
+  # Menu compte
+  # ========================================
+  accountDropdown:
+    loggedInWithSSO: Connecté via SSO
+    darkMode: Mode sombre
+    managePersonalPlan: Gérer le plan Personnel
+    manageAccount: Gérer le compte
