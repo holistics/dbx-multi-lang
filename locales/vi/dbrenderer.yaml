@@ -46,10 +46,10 @@ dbrenderer:
     tables: Chỉ tên bảng
     keys: Chỉ các khóa
   relationshipMode:
-    title: Mối quan hệ
+    title: Loại liên kết
     relationships: Mối quan hệ thực thể
     dependencies: Phụ thuộc dữ liệu
-    all: Tất cả
+    all: Tất cả loại
   viewDropdown:
     renameView: Đổi tên chế độ xem
     removeView: Xóa chế độ xem

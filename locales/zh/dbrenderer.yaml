@@ -49,10 +49,10 @@ dbrenderer:
     tables: 隐藏列
     keys: 仅显示主键
   relationshipMode:
-    title: 关系
+    title: 链接类型
     relationships: 实体关系
     dependencies: 数据依赖
-    all: 全部
+    all: 所有类型
   viewDropdown:
     renameView: 重命名视图
     removeView: 删除视图

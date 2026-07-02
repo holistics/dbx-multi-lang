@@ -64,10 +64,10 @@ dbrenderer:
     tables: Table names # Option (only shows table names, hides all fields)
     keys: Keys only # Option (only shows primary and foreign keys, hides other fields)
   relationshipMode:
-    title: Relationship # Dropup prefix + dropup header
-    relationships: Entities Relationships # Option (FK relationship lines)
-    dependencies: Data Dependencies # Option (data-lineage dependency lines)
-    all: All # Option (shows both relationships and dependencies)
+    title: Link type # Dropup prefix + dropup header
+    relationships: Entity relationships # Option (FK relationship lines)
+    dependencies: Data dependencies # Option (data-lineage dependency lines)
+    all: All types # Option (shows both relationships and dependencies)
 
   # ========================================
   # View Dropdown - View selector menu

@@ -49,10 +49,10 @@ dbrenderer:
     tables: カラムを非表示
     keys: 主キーのみ
   relationshipMode:
-    title: リレーションシップ
+    title: リンクの種類
     relationships: エンティティのリレーションシップ
     dependencies: データ依存関係
-    all: すべて
+    all: すべての種類
   viewDropdown:
     renameView: ビューの名前を変更
     removeView: ビューを削除

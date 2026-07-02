@@ -64,10 +64,10 @@ dbrenderer:
     tables: Nomes das tabelas
     keys: Apenas chaves
   relationshipMode:
-    title: Relacionamento
+    title: Tipo de vínculo
     relationships: Relacionamentos de entidades
     dependencies: Dependências de dados
-    all: Todos
+    all: Todos os tipos
 
   # ========================================
   # View Dropdown - View selector menu
