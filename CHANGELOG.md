@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.2.2 (Jul 3, 2026)
+### Misc
+* Add missing fr export in package.json
+
 ## v1.2.1 (Jul 3, 2026)
 ### Misc
 * Add copywriting for the link types control
