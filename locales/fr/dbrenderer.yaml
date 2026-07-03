@@ -94,6 +94,11 @@ dbrenderer:
     panModeHint: Ou maintenez Espace/bouton central + glisser pour déplacer
 
   # ========================================
+  # Commun - Boutons partagés dans le renderer
+  # ========================================
+  common:
+
+  # ========================================
   # État vide
   # ========================================
   emptyStateHint:

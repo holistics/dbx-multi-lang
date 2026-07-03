@@ -23,7 +23,7 @@ modals:
       warning: Veuillez noter que cette action est irréversible !
       embedLinkActive: Vous avez un lien d’intégration actif.
       lastViewed: Dernière consultation
-    removeWorkspace: {}
+    removeWorkspace:
     removeMember:
       title: Retirer un membre
       message: Êtes-vous sûr de vouloir retirer ce membre de l’espace de travail ?
