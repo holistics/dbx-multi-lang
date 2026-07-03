@@ -48,6 +48,11 @@ dbrenderer:
     all: すべてのカラムを表示
     tables: カラムを非表示
     keys: 主キーのみ
+  relationshipMode:
+    title: リンクの種類
+    relationships: エンティティのリレーションシップ
+    dependencies: データ依存関係
+    all: すべての種類
   viewDropdown:
     renameView: ビューの名前を変更
     removeView: ビューを削除

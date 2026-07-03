@@ -63,6 +63,11 @@ dbrenderer:
     all: Todos os campos
     tables: Nomes das tabelas
     keys: Apenas chaves
+  relationshipMode:
+    title: Tipo de vínculo
+    relationships: Relacionamentos de entidades
+    dependencies: Dependências de dados
+    all: Todos os tipos
 
   # ========================================
   # View Dropdown - View selector menu

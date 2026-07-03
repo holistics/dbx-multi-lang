@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.2.1 (Jul 3, 2026)
+### Misc
+* Add copywriting for the link types control
+
 ## v1.2.0 (Jul 3, 2026)
 ### Misc
 * Add support for the Spanish (es) locale

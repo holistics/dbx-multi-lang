@@ -63,6 +63,11 @@ dbrenderer:
     all: Barcha maydonlar # Option (shows all fields)
     tables: Jadval nomlari # Option (only shows table names, hides all fields)
     keys: Faqat kalitlar (Keys) # Option (only shows primary and foreign keys, hides other fields)
+  relationshipMode:
+    title: Bog'lanish turi # Dropup prefix + dropup header
+    relationships: Obyekt munosabatlari # Option (FK relationship lines)
+    dependencies: Ma'lumotlar bog'liqliklari # Option (data-lineage dependency lines)
+    all: Barcha turlar # Option (shows both relationships and dependencies)
 
   # ========================================
   # View Dropdown - View selector menu

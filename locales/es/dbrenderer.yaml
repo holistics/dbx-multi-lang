@@ -63,6 +63,11 @@ dbrenderer:
     all: Todos los campos # Option (shows all fields)
     tables: Nombres de tablas # Option (only shows table names, hides all fields)
     keys: Solo claves # Option (only shows primary and foreign keys, hides other fields)
+  relationshipMode:
+    title: Tipo de enlace # Dropup prefix + dropup header
+    relationships: Relaciones de entidad # Option (FK relationship lines)
+    dependencies: Dependencias de datos # Option (data-lineage dependency lines)
+    all: Todos los tipos # Option (shows both relationships and dependencies)
 
   # ========================================
   # View Dropdown - View selector menu

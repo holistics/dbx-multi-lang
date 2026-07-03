@@ -63,6 +63,11 @@ dbrenderer:
     all: Tous les champs
     tables: Noms des tables
     keys: Uniquement les clés
+  relationshipMode:
+    title: Type de lien
+    relationships: Relations entre entités
+    dependencies: Dépendances de données
+    all: Tous les types
 
   # ========================================
   # Menu des vues

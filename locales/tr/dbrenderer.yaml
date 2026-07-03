@@ -63,6 +63,11 @@ dbrenderer:
     all: Tüm alanlar # Option (shows all fields)
     tables: Tablo adları # Option (only shows table names, hides all fields)
     keys: Sadece anahtarlar # Option (only shows primary and foreign keys, hides other fields)
+  relationshipMode:
+    title: Bağlantı türü # Dropup prefix + dropup header
+    relationships: Varlık ilişkileri # Option (FK relationship lines)
+    dependencies: Veri bağımlılıkları # Option (data-lineage dependency lines)
+    all: Tüm türler # Option (shows both relationships and dependencies)
 
   # ========================================
   # View Dropdown - View selector menu
