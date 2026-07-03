@@ -43,6 +43,8 @@ modals:
       removeDesc: このコラボレーターを削除します。
       noAccess: アクセスなし
       noAccessDesc: このダイアグラムへのアクセス権がありません
+      transferOwnership: 所有権を移転
+      transferOwnershipDesc: このダイアグラムの所有権を移転
     invite:
       placeholder: メールアドレス（カンマまたはスペースで区切り）
       button: 招待
@@ -264,3 +266,19 @@ modals:
     description: ダイアグラムビューの設定をDiagramViewブロックとしてDBMLコードに直接移動しました。これにより、ビューがDBMLコードの一部になります。
     learnMore: ダイアグラムビューについて詳しくはこちら
     confirm: 続行
+  sessionExpired:
+    title: セッションの有効期限が切れました
+    description: セッションの有効期限が切れました。{countdown} 秒後に自動的にログアウトされます…
+
+  transferOwnership:
+    title: 所有権を移転
+    subtitle: "所有権を移転するメンバーを選択してください："
+    searchPlaceholder: 名前またはメールで検索...
+    noMembersFound: メンバーが見つかりません。
+    transferButton: 移転
+    notes:
+      irreversible: この操作は元に戻せません。
+      scopeRemains: "バージョン履歴、ダイアグラムのコラボレーター、ワークスペースのアクセス範囲はそのまま維持されます。"
+    confirmMessage: "このダイアグラムの所有権を<b>{memberLabel}</b>に移転してもよろしいですか？"
+    success: ダイアグラムの所有権を{memberLabel}に移転しました
+    error: ダイアグラムの所有権移転に失敗しました。もう一度お試しください。

@@ -1,6 +1,6 @@
 {
   "name": "@holistics/dbx-multi-lang",
-  "version": "1.1.13",
+  "version": "1.1.17",
   "description": "Multi-language support package for DBDiagram",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -14,7 +14,8 @@
     "./dist/vi.json": "./dist/vi.json",
     "./dist/zh.json": "./dist/zh.json",
     "./dist/ja.json": "./dist/ja.json",
-    "./dist/pt-BR.json": "./dist/pt-BR.json"
+    "./dist/pt-BR.json": "./dist/pt-BR.json",
+    "./dist/uz.json": "./dist/uz.json"
   },
   "files": [
     "dist",

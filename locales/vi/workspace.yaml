@@ -79,6 +79,7 @@ workspace:
     plan: gói
     diagramCount: "Sơ đồ: {count}/{limit}"
     duplicate: Nhân bản
+    transferOwnership: Chuyển quyền sở hữu
     delete: Xóa
     untitledDiagram: Sơ đồ chưa có tên
     columns:

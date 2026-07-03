@@ -103,5 +103,5 @@ portal:
     missingState: 'Faltando parâmetro obrigatório: state'
     invalidAccess: Acesso Inválido
     pageMustBeOpened: Esta página deve ser aberta pelo aplicativo.
-    unsupportedPrompt: Parâmetro prompt não suportado
+    unsupportedParameter: Parâmetro {message} não suportado
     unexpectedError: Erro inesperado

@@ -109,3 +109,7 @@ dbrenderer:
       tooltip: CSVをダウンロード
   viewNoteModal:
     infoTooltip: Markdownによるスタイリングに対応しています
+    editBtn:
+      title: 編集
+    cancelBtn: キャンセル
+    saveBtn: 保存

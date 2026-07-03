@@ -3,10 +3,17 @@
 
 account:
   # ========================================
+  # Account page
+  # ========================================
+  page:
+    title: Manage your dbx account
+    description: "Any changes you make here will be reflected in all three services:"
+    authenticating: Authenticating...
+
+  # ========================================
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: Account # Modal main title
     loadingInfo: Loading account information... # Loading spinner text
     displayName: Display Name # Label for display name field
     email: Email # Label for email field
@@ -14,7 +21,6 @@ account:
     # Connected accounts section
     connectedAccounts:
       title: Connected Accounts # Section title
-      loading: Loading connected accounts... # Loading text for connected accounts
       noAccounts: No connected accounts # Empty state text
       loggedInWith: Logged in with {provider} # Provider badge label (e.g., "Logged in with Google")
 
@@ -26,20 +32,70 @@ account:
 
     # Account removal
     removal:
-      removeAccount: Remove account... # Remove account button label
+      removeAccount: Remove account # Remove account button label
       cancelRequest: Cancel removal request # Cancel removal request button label
-      cannotBeUndone: This action cannot be undone! # Warning text when no removal request
       removedAfter: "Your account will be removed after {time}." # Removal countdown text
       aFewHours: a few hours # Time label when less than 1 day remaining
       aDay: a day # Time label when exactly 1 day remaining
       days: "{count} days" # Time label for multiple days remaining
-      workspaceDeletionWarning: "You have {count} owned workspace(s) that will be deleted:" # Warning about workspaces to be deleted
-      confirmTitle: Remove this account? # Confirmation modal title
       cancelSuccess: Removal request was canceled successfully! # Success toast after canceling
-      submitSuccess: Removal request was created successfully! # Success toast after submitting
+      status:
+        inProgressTitle: Your account removal is in progress.
+        inProgressDescription: This may take a few moments. You can safely close this window — the process will continue in the background.
+        completedTitle: Your account has been successfully removed.
+        completedDescription: "You can safely close this window. Note: You won't be logged out automatically. Please log out from other devices manually."
+        failedTitle: Account removal failed.
+        failedContactSupport: Please contact our support team at
 
+    notifications:
+      profileUpdated: User profile updated successfully.
+      profileImageUpdated: User profile image updated successfully.
+    profileImage:
+      title: User Profile Image
+      switchToGravatar: Switch to Gravatar's profile image
+      switchToGravatarHint: To change your user avatar, please switch to Gravatar's profile image.
+      redirectingToGravatar: Redirecting to Gravatar...
+      changeOnGravatar: Change Profile Image on Gravatar
+      doneUploading: Done uploading your image on Gravatar?
+      gravatarHint: Log in to Gravatar with your email to change your profile picture.
+      refresh: Refresh your profile image
+    userInfo:
+      title: User Information
+    dangerZone:
+      title: Danger Zone
     errors:
-      generic: An error has occurred, please contact our support at dbdiagram@holistics.io # Generic error toast
+      sessionExpired: Session expired, please log in again.
+      updateProfileFailed: Failed to update user profile, please try again.
+      loadProfileFailed: Failed to load user profile, please try to refresh the page.
+      updateProfileImageFailed: Failed to update user profile image, please try again.
+      cancelRemovalFailed: Failed to cancel account removal request, please try again.
+
+  # ========================================
+  # Remove Account modal - 3-step account removal flow
+  # ========================================
+  removeAccountModal:
+    title: Remove Account
+    loadingAccountData: Loading account data…
+    steps:
+      whatWillBeRemoved: What will be removed
+      verifyIdentity: Verify your identity
+      identityVerified: Identity verified
+      deleteAccount: Delete account
+      accountDeleted: Account deleted
+    step1:
+      description: "Removing your account will permanently delete the following data:"
+      warning: This action is permanent and cannot be undone.
+    step2:
+      otpSentTo: Enter the 6-digit code sent to
+      resendCode: Resend code
+      resendCodeCooldown: "Resend code ({seconds}s)"
+    step3:
+      description: You are about to permanently delete your account and all associated data. This cannot be undone.
+      confirmButton: Delete my account
+    errors:
+      generic: Something went wrong. Please try again.
+      ssoAccount: SSO accounts cannot manage personal account settings.
+      removalInProgress: A removal is already in progress.
 
   # ========================================
   # Change Email modal - 4-step email change flow

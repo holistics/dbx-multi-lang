@@ -69,5 +69,5 @@ portal:
     missingState: 'Thiếu tham số bắt buộc: state'
     invalidAccess: Truy cập không hợp lệ
     pageMustBeOpened: Trang này phải được mở từ ứng dụng.
-    unsupportedPrompt: Tham số prompt không được hỗ trợ
+    unsupportedParameter: Tham số {message} không được hỗ trợ
     unexpectedError: Lỗi không mong muốn

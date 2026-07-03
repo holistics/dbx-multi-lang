@@ -1,0 +1,115 @@
+# Header translations - Top header toolbar
+# UI Areas: Header toolbar, Account dropdown, Status indicators, Publish modal
+
+header:
+  # ========================================
+  # Header toolbar buttons - Left side of top header
+  # ========================================
+  buttons:
+    save: Kaydet # Blue button in header toolbar (saves current diagram - Ctrl/Cmd+S)
+    share: Paylaş # Share icon button in header toolbar (opens share modal)
+    editAsNew: Yeni Olarak Düzenle # Option in header dropdown (duplicates diagram to personal workspace)
+    signOut: Çıkış Yap # Last item in account dropdown (top-right user menu)
+    publishToDbdocs: DBDocs'ta Yayımla # Button in header export dropdown
+    publish: Yayımla # Blue button in share modal (publishes current diagram to DBDocs)
+
+  # ========================================
+  # Draft badge - Small indicator next to diagram name
+  # ========================================
+  draftBadge:
+    label: Taslak # Small badge showing "Draft" label (appears next to unsaved diagram name)
+    discardAll: Tüm taslakları iptal et # Button in draft dropdown (discards all draft versions)
+
+  # ========================================
+  # Placeholders - Input field placeholders
+  # ========================================
+  placeholders:
+    untitledDiagram: İsimsiz Diyagram # Placeholder text in header diagram name input (when name is empty)
+
+  # ========================================
+  # Status - Diagram sync status indicators (header toolbar)
+  # ========================================
+  status:
+    readOnly: Salt-okunur # Status label when viewing read-only diagram (gray text)
+    synced: Senkronize Edildi # Status label showing all changes synced (green dot + text)
+    unsynced: Senkronize Edilmedi # Status label when changes pending sync (yellow dot + text)
+    saved: Kaydedildi # Status label when diagram saved (blue text)
+    unsaved: Kaydedilmedi # Status label with unsaved indicator (orange text)
+
+  # ========================================
+  # Sync status - Detailed sync messages (header toolbar tooltip/status)
+  # ========================================
+  syncStatus:
+    reconnecting: Yeniden bağlanılıyor... # Toast message when reconnecting to server
+    saving: Diyagram kaydediliyor... # Toast message during manual save
+    autoSaving: Diyagram otomatik kaydediliyor... # Toast during auto-save
+    disconnected: Bağlantınız koptu. Değişiklikleriniz yerel olarak kaydediliyor ve tekrar çevrimiçi olduğunuzda sunucuyla senkronize edilecek. # Toast when offline
+    readOnly: Bu diyagram salt-okunurdur # Toast explaining read-only state
+    unsaved: Bu diyagram kaydedilmedi # Toast when diagram has unsaved changes
+    unsavedWithLogin: Bu diyagram kaydedilmedi. Diyagramlarınızı kaydetmek için giriş yapmalısınız # Toast prompting login for saving
+
+  # ========================================
+  # Tooltips - Tooltip text for header elements
+  # ========================================
+  tooltips:
+    clickToEdit: Düzenlemek için tıklayın # Tooltip on diagram name (when hovering)
+    openInDbdocs: DBDocs'ta aç # Tooltip on DBDocs link icon
+    noPublishedContent: Bu projede henüz yayımlanmış bir içerik yok # Tooltip on empty DBDocs link
+    editAsNewDisabledWorkspace: <p class="text-center">Aboneliğinizin iptal edilmesi sebebiyle çalışma alanınız devre dışı bırakıldığı için <b>Yeni Olarak Düzenle</b> seçeneği kullanılamıyor.</p> # Tooltip explaining disabled Edit as New
+    editAsNewNormal: Yeni Olarak Düzenle # Tooltip on Edit as New button (normal state)
+
+  # ========================================
+  # Draft status - Draft version status messages
+  # ========================================
+  draftStatus:
+    upToDate: Taslak güncel # Status text when draft matches published version
+    hasUnsavedChanges: Taslakta kaydedilmemiş değişiklikler var # Status text when draft has changes
+
+  # ========================================
+  # Project status - Published project status messages
+  # ========================================
+  projectStatus:
+    upToDate: Proje güncel # Status when published project matches draft
+    hasUnsavedChanges: Projede kaydedilmemiş değişiklikler var # Status when draft not published
+    synchronized: Diyagram içeriğiniz sunucuyla senkronize edildi # Status confirming sync
+    allChangesSaved: Tüm değişiklikler kaydedildi # Toast when everything saved
+
+  # ========================================
+  # Publish validation - Messages in share/publish modal
+  # ========================================
+  publishValidation:
+    parseError: Diyagramınızda hata var. Yayımlamadan önce lütfen tüm sözdizimi hatalarını giderin. # Error in share modal when DBML has errors
+    saveFirst: Lütfen önce diyagramınızı kaydedin # Error when trying to publish unsaved diagram
+    ownerPublishFirst: Lütfen önce diyagram sahibinden bir veritabanı belgesi yayımlamasını isteyin # Error for collaborators without publish rights
+    needLogin: Değişikliklerinizi yayımlamak için lütfen giriş yapın # Error when publishing without authentication
+    hasErrors: Diyagramınızda hatalar var # Error summary in publish modal
+    noChanges: Yayımlanacak değişiklik yok # Info when diagram unchanged
+
+  # ========================================
+  # Modals - Modal dialog texts (discard, overwrite)
+  # ========================================
+  modals:
+    discardDraftsTitle: Tüm Taslakları İptal Et # Modal title (discard drafts confirmation)
+    discardDraftsContent: Tüm taslak sürümlerini iptal edip projenin en son içeriğini getirmek istediğinizden emin misiniz? Bu işlem geri alınamaz. # Modal warning text
+    discardButton: İptal Et # Primary button in discard modal (red)
+    cancelButton: Vazgeç # Secondary button (gray)
+
+  # ========================================
+  # Notifications - Toast notification messages
+  # ========================================
+  notifications:
+    publishSuccess: Proje başarıyla yayımlandı ve taslak sürümler temizlendi # Success toast after publish
+    publishFailed: Proje yayımlanamadı # Error toast when publish fails
+    discardSuccess: Tüm taslaklar iptal edildi ve en son sürüm yüklendi # Success toast after discard
+    discardFailed: Taslaklar iptal edilemedi # Error toast when discard fails
+    showPublishFailed: Yayımlama onayı gösterilemedi # Error toast when publish modal fails to open
+    renameFailed: Diyagram yeniden adlandırılamadı. Lütfen tekrar deneyin # Error toast on rename failure
+
+  # ========================================
+  # Account dropdown - Top-right user menu
+  # ========================================
+  accountDropdown:
+    loggedInWithSSO: SSO ile giriş yapıldı # Label showing SSO login status (top-right menu)
+    darkMode: Karanlık Mod # Toggle switch label for dark mode theme
+    managePersonalPlan: Kişisel Planı Yönet # Link to billing/subscription management
+    manageAccount: Hesabı Yönet # Link to account settings page

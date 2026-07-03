@@ -1,6 +1,26 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+### Misc
+* Add support for the Uzbek (uz) locale
+
+## v1.1.17 (Jun 23, 2026)
+### Misc
+* Add copywriting for transfer diagram modal
+
+## 1.1.16 (Jun 12, 2026)
+### Misc
+* Add markdown translations
+
+## 1.1.15 (May 29, 2026)
+### Misc
+* Add copywriting for session expired modal
+
+## 1.1.14 (May 19, 2026)
+### Misc
+* Add copywriting for portal's user profile
+
 ## 1.1.13 (Apr 21, 2026)
 ### Misc
 * Add copywriting for accepting all incoming changes button in dbdocs publish modal

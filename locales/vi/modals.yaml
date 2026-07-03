@@ -40,6 +40,8 @@ modals:
       removeDesc: Xóa cộng tác viên này.
       noAccess: Không có quyền truy cập
       noAccessDesc: Không có quyền truy cập sơ đồ này
+      transferOwnership: Chuyển quyền sở hữu
+      transferOwnershipDesc: Chuyển quyền sở hữu sơ đồ này
     invite:
       placeholder: Email, phân cách bằng dấu phẩy hoặc khoảng trắng
       button: Mời
@@ -263,3 +265,19 @@ modals:
     description: Chúng tôi đã chuyển cài đặt diagram view trực tiếp vào DBML dưới dạng các khối DiagramView. Điều này giúp diagram view trở thành một phần của DBML cùng với schema.
     learnMore: Tìm hiểu thêm về Diagram Views
     confirm: Tiếp tục
+  sessionExpired:
+    title: Phiên đăng nhập hết hạn
+    description: Phiên đăng nhập của bạn đã hết hạn, bạn sẽ tự động đăng xuất sau {countdown} giây…
+
+  transferOwnership:
+    title: Chuyển quyền sở hữu
+    subtitle: "Chọn thành viên để chuyển quyền sở hữu:"
+    searchPlaceholder: Tìm theo tên hoặc email...
+    noMembersFound: Không tìm thấy thành viên.
+    transferButton: Chuyển
+    notes:
+      irreversible: Hành động này không thể hoàn tác.
+      scopeRemains: "Lịch sử phiên bản, cộng tác viên của sơ đồ và phạm vi truy cập của workspace vẫn giữ nguyên."
+    confirmMessage: "Bạn có muốn chuyển quyền sở hữu sơ đồ này cho <b>{memberLabel}</b> không?"
+    success: Đã chuyển quyền sở hữu sơ đồ cho {memberLabel}
+    error: Chuyển quyền sở hữu sơ đồ thất bại. Vui lòng thử lại.

@@ -160,3 +160,7 @@ dbrenderer:
       tooltip: Baixar CSV
   viewNoteModal:
     infoTooltip: Suporte a formatação com Markdown
+    editBtn:
+      title: Editar
+    cancelBtn: Cancelar
+    saveBtn: Salvar

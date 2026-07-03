@@ -1,0 +1,112 @@
+# AI Assistant translations - AI panel and features
+# UI Areas: Right sidebar AI panel, Welcome modal, Diff viewer
+
+ai:
+  # ========================================
+  # AI Panel - Right sidebar chat interface
+  # ========================================
+
+  panel:
+    inputPlaceholder: Şemanızla ilgili istediğiniz şeyi sorabilirsiniz... # Chat input placeholder (empty state)
+    currentChat: Mevcut Sohbet # Current chat section header
+    previousChats: Önceki Sohbetler # Previous chats section header
+    noOtherChats: Henüz başka sohbet yok # Empty state (no previous chats)
+    sendInstructions: Göndermek için Enter tuşuna basın, yeni satır için Shift+Enter # Input hint (below chat box)
+    sendMessage: Mesaj Gönder # Send button (tooltip)
+    workspaceDisabled: Çalışma alanı devre dışı # Disabled state message (no workspace)
+    editPermissionRequired: Düzenleme izni gerekli # Permission error message
+    usageLimitReached: Bu ay için kullanım limitinizi doldurdunuz. Lütfen tekrar deneyin. # Usage limit message
+    learnMoreAboutUsageLimits: Kullanım limitleri hakkında daha fazla bilgi edinin # Link text (usage limit toast)
+    chat: Sohbet # Chat tab label
+    clickToEdit: Düzenlemek için tıklayın # Editable message label
+    newChat: Yeni Sohbet # New chat button (sidebar header)
+    showChatHistory: Sohbet Geçmişini Göster # Toggle button (shows chat sidebar)
+    hideChatHistory: Sohbet Geçmişini Gizle # Toggle button (hides chat sidebar)
+
+  # ========================================
+  # AI Welcome Modal - First-time user experience
+  # ========================================
+  welcome:
+    title: DBDiagram AI'a Hoş Geldiniz # Welcome modal title
+    subtitle: Veritabanı tasarımı için akıllı asistanınız # Welcome modal subtitle
+
+  # ========================================
+  # AI Loading States - Message states
+  # ========================================
+  messages:
+    thinking: Düşünüyor... # Loading indicator (AI thinking)
+    generating: Oluşturuluyor... # Loading indicator (schema generation)
+    explaining: Açıklanıyor... # Loading indicator (explanation)
+    error: Bir hata oluştu. Lütfen tekrar deneyin. # Error message (retryable)
+    rateLimit: Kullanım limitinize ulaştınız. Devam etmek için yükseltme yapın. # Rate limit message
+
+  # ========================================
+  # Diff Viewer - AI change comparison
+  # ========================================
+  diffViewer:
+    reject: Reddet # Button (reject single change)
+    accept: Kabul Et # Button (accept single change)
+    rejectAll: Tümünü Reddet # Button (reject all changes)
+    acceptAll: Tümünü Kabul Et # Button (accept all changes)
+
+  # ========================================
+  # Token Usage - AI usage tracking
+  # ========================================
+  tokenUsage:
+    used: Kullanılan # Usage counter label (left side)
+    usageText: Kullanım limitinizin %{percentage}'sini kullandınız # Usage progress text
+    tokens: token # Unit label (usage display)
+    learnMore: Kullanım limitleri hakkında daha fazla bilgi edinin # Tooltip (usage indicator)
+    resetOn: Sıfırlanma tarihi # Label (usage reset date)
+
+  # ========================================
+  # AI Response Details - Response metadata
+  # ========================================
+  assistant:
+    dbmlCode: DBML Kodu # Label (code block header)
+    lines: satır # Unit label (code lines count)
+
+  # ========================================
+  # AI Response Messages - Standard responses
+  # ========================================
+  responseMessages:
+    noExplanation: Şema güncellendi. Değişiklikleri incelemek için diff görüntüleyiciyi kontrol edin. # Message after schema update
+    invalidIntent: "dbdiagram AI'a hoş geldiniz.\n\nSize şu konularda yardımcı olabilirim:\n\n• **DBML şema tasarımı** - Tablolar, ilişkiler ve veritabanı yapıları oluşturma ve değiştirme\n• **Veritabanı en iyi uygulamaları** - Optimal veri tipleri, indeksler ve kısıtlamalar önerme\n• **Şema optimizasyonu** - Tabloları TableGroup'larla düzenleme, zaman damgaları ekleme, veri tiplerini eşleme\n• **Hızlı dönüşümler** - Veritabanı sistemleri arasında dönüştürme (PostgreSQL, MySQL, SQL Server vb.)\n\nBana tablo oluşturmayı, ilişkiler eklemeyi sorun veya başlamak için yukarıdaki hızlı eylemleri kullanın!" # Help message (unrecognized command)
+
+  # ========================================
+  # Quick Action Titles - Action card headers
+  # ========================================
+  quickActionTitles:
+    createTableGroups: Tablo Grupları Oluştur # Quick action card 1 title
+    addTimestampColumns: Zaman Damgası Sütunları Ekle # Quick action card 2 title
+    addRelationships: İlişkiler Ekle # Quick action card 3 title
+    addIndexes: İndeksler Ekle # Quick action card 4 title
+    learnDatabaseDesign: Veritabanı Tasarımını Öğren # Quick action card 5 title
+    cloneSlack: Slack'i Klonla # Quick action card 6 title
+    documentDatabase: Doküman Veritabanı Oluştur # Quick action card 7 title
+    todoList: Yapılacaklar Listesi Oluştur # Quick action card 8 title
+    remapDataTypes: Veri Tiplerini Eşle # Quick action card 9 title
+
+  # ========================================
+  # Quick Action Descriptions - Action card subtitles
+  # ========================================
+  quickActionDescriptions:
+    createTableGroups: Tablolarınızı alan ve işlevselliğe göre mantıksal gruplar halinde düzenleyin ve farklı renkler atayın # Card 1 description
+    addTimestampColumns: Denetim takibi gerektiren tablolara created_at ve updated_at sütunları ekleyin # Card 2 description
+    addRelationships: Adlandırma kurallarına göre otomatik olarak yabancı anahtar ilişkileri algılayın ve ekleyin # Card 3 description
+    addIndexes: Yabancı anahtarlar ve sık sorgulanan sütunlar için indeks blokları ekleyin # Card 4 description
+    learnDatabaseDesign: Veritabanı tasarımı hakkında bilgi edinin # Card 5 description
+    cloneSlack: Slack'i klonlayın # Card 6 description
+    documentDatabase: Doküman veritabanı oluşturun # Card 7 description
+    todoList: Yapılacaklar listesi oluşturun # Card 8 description
+    remapDataTypes: Hedef veritabanı sisteminize uyması için veri tiplerini dönüştürün # Card 9 description
+
+  # ========================================
+  # Quick Action Sub-actions - Database type selectors
+  # ========================================
+  quickActionSubActions:
+    postgresql: PostgreSQL # Database selector option
+    mysql: MySQL # Database selector option
+    sqlServer: SQL Server # Database selector option
+    sqlite: SQLite # Database selector option
+    oracle: Oracle # Database selector option

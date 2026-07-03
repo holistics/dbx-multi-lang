@@ -2,18 +2,21 @@
 # UI Areas: Manage Account modal, Change Email modal (stepper flow)
 
 account:
+  page:
+    title: 管理您的dbx账户
+    description: "您在此处所做的任何更改都将反映在以下三个服务中:"
+    authenticating: 正在验证...
+
   # ========================================
   # Manage Account modal - Account settings overview
   # ========================================
   manage:
-    title: 账户
     loadingInfo: 正在加载账户信息...
     displayName: 显示名称
     email: 邮箱
 
     connectedAccounts:
       title: 已关联账户
-      loading: 正在加载已关联账户...
       noAccounts: 没有已关联的账户
       loggedInWith: 已通过 {provider} 登录
 
@@ -23,20 +26,67 @@ account:
     changeEmailFailed: "上次邮箱更改失败，请联系我们的支持团队 dbdiagram@holistics.io"
 
     removal:
-      removeAccount: 删除账户...
+      removeAccount: 删除账户
       cancelRequest: 取消删除请求
-      cannotBeUndone: 此操作无法撤销！
       removedAfter: "您的账户将在{time}后被删除。"
       aFewHours: 几小时
       aDay: 一天
       days: "{count}天"
-      workspaceDeletionWarning: "您拥有 {count} 个工作区将被删除："
-      confirmTitle: 删除此账户？
       cancelSuccess: 删除请求已成功取消！
-      submitSuccess: 删除请求已成功创建！
+      status:
+        inProgressTitle: 您的账户正在删除中。
+        inProgressDescription: 这可能需要几分钟。您可以安全关闭此窗口 — 该过程将在后台继续进行。
+        completedTitle: 您的账户已成功删除。
+        completedDescription: "您可以安全关闭此窗口。注意：您不会自动退出登录。请手动从其他设备退出。"
+        failedTitle: 账户删除失败。
+        failedContactSupport: 请联系我们的支持团队：
 
+    notifications:
+      profileUpdated: 用户资料已成功更新。
+      profileImageUpdated: 用户头像已成功更新。
+    profileImage:
+      title: 用户头像
+      switchToGravatar: 切换到Gravatar头像
+      switchToGravatarHint: 要更改头像，请切换到Gravatar头像。
+      redirectingToGravatar: 正在跳转到Gravatar...
+      changeOnGravatar: 在Gravatar上更改头像
+      doneUploading: 已在Gravatar上传您的图片？
+      gravatarHint: 使用您的邮箱登录Gravatar以更改头像。
+      refresh: 刷新头像
+    userInfo:
+      title: 用户信息
+    dangerZone:
+      title: 危险区域
     errors:
-      generic: 发生错误，请联系我们的支持团队 dbdiagram@holistics.io
+      sessionExpired: 会话已过期，请重新登录。
+      updateProfileFailed: 更新用户资料失败，请重试。
+      loadProfileFailed: 加载用户资料失败，请尝试刷新页面。
+      updateProfileImageFailed: 更新用户头像失败，请重试。
+      cancelRemovalFailed: 取消账户删除请求失败，请重试。
+
+  removeAccountModal:
+    title: 删除账户
+    loadingAccountData: 正在加载账户数据…
+    steps:
+      whatWillBeRemoved: 将被删除的内容
+      verifyIdentity: 验证您的身份
+      identityVerified: 身份已验证
+      deleteAccount: 删除账户
+      accountDeleted: 账户已删除
+    step1:
+      description: "删除您的账户将永久删除以下数据:"
+      warning: 此操作是永久性的，无法撤销。
+    step2:
+      otpSentTo: 请输入发送至以下地址的6位验证码
+      resendCode: 重新发送验证码
+      resendCodeCooldown: "重新发送验证码（{seconds}秒）"
+    step3:
+      description: 您即将永久删除您的账户和所有相关数据，此操作无法撤销。
+      confirmButton: 删除我的账户
+    errors:
+      generic: 出现错误，请重试。
+      ssoAccount: SSO账户无法管理个人账户设置。
+      removalInProgress: 已有删除操作正在进行中。
 
   # ========================================
   # Change Email modal - 4-step email change flow

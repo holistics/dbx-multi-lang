@@ -23,6 +23,7 @@ import viMessages from '../dist/vi.json' with { type: 'json' };
 import zhMessages from '../dist/zh.json' with { type: 'json' };
 import jaMessages from '../dist/ja.json' with { type: 'json' };
 import ptBRMessages from '../dist/pt-BR.json' with { type: 'json' };
+import uzMessages from '../dist/uz.json' with { type: 'json' };
 
 // Build messages with namespaces
 export const messages = {
@@ -31,6 +32,7 @@ export const messages = {
   zh: zhMessages,
   ja: jaMessages,
   'pt-BR': ptBRMessages,
+  uz: uzMessages,
 };
 
 // NOTE: To add a new language:

@@ -1,0 +1,126 @@
+# Billing translations - Pricing, subscriptions, payment
+# UI Areas: Pricing page, Billing settings, Upgrade modals
+
+billing:
+  # ========================================
+  # Billing Buttons - Action buttons
+  # ========================================
+  buttons:
+    upgrade: Yangilash # Generic upgrade button
+    upgradeToPersonalPro: Personal Pro rejasiga o'tish # CTA button (pricing page)
+    collaborateWithTeam: Jamoa (Team) rejasi bilan ishlash # CTA button (team plan)
+
+  # ========================================
+  # Pricing Page - Pricing table
+  # ========================================
+  pricing:
+
+  # ========================================
+  # Plan Details - Individual plan info
+  # ========================================
+  plans:
+    free:
+      features:
+        - 3 tagacha diagrammalar # Feature list item 1
+        - Asosiy tahrirlash vositalari # Feature list item 2
+        - SQL/PNG sifatida eksport qilish # Feature list item 3
+        - Jamiyat tomonidan qo'llab-quvvatlash # Feature list item 4
+
+    pro:
+      features:
+        - Cheksiz diagrammalar # Feature list item 1
+        - Ilg'or tahrirlash vositalari # Feature list item 2
+        - Versiyalar tarixi # Feature list item 3
+        - Ustuvor qo'llab-quvvatlash # Feature list item 4
+        - PDF sifatida eksport qilish # Feature list item 5
+        - Maxsus mavzular (Custom themes) # Feature list item 6
+
+    team:
+      features:
+        - Pro rejasidagi barcha narsalar # Feature list item 1
+        - Jamoaviy hamkorlik # Feature list item 2
+        - Administrator boshqaruvlari # Feature list item 3
+        - SSO orqali kirish # Feature list item 4
+        - Ustuvor qo'llab-quvvatlash # Feature list item 5
+        - Maxsus integratsiyalar # Feature list item 6
+
+  # ========================================
+  # Payment Form - Credit card inputs
+  # ========================================
+  payment:
+    paymentMethod: To'lov usuli # Section label (existing cards)
+
+  # ========================================
+  # Billing History - Invoice section
+  # ========================================
+  billing:
+
+  # ========================================
+  # Subscription Management - Subscription actions
+  # ========================================
+  subscription:
+
+  # ========================================
+  # Personal Pro Plan - Plan features list
+  # ========================================
+  personalPro:
+
+  # ========================================
+  # Team Plan - Plan features list
+  # ========================================
+  team:
+
+  # ========================================
+  # Public Pricing - Public pricing page
+  # ========================================
+  publicPricing:
+
+  # ========================================
+  # Upgrade Button - Contextual upgrade
+  # ========================================
+  upgradeNowBtn:
+    ownerOnly: Faqat ish maydoni (workspace) egasi Team rejasiga o'tishi mumkin # Disabled tooltip
+
+  # ========================================
+  # Manage Plan Modal - Subscription details
+  # ========================================
+  managePlanModal:
+    loadingSubscription: Obuna ma'lumotlari yuklanmoqda... # Loading skeleton text
+    currentPlan: Joriy reja # Section header
+    personalPlanForever: Shaxsiy reja (Personal Plan) - Bir umrlik # Plan name display
+    unknownPlan: Noma'lum reja # Fallback plan name
+    billedMonthly: Har oy to'lanadi # Billing frequency
+    billedAnnually: Har yili to'lanadi # Billing frequency
+    chargeEvery: Har {period} {unit} da to'lov # Charge description
+    cancelledOn: Bekor qilingan sana # Cancellation date label
+    planDetails: Reja tafsilotlari → # Link to plan features
+    upgradeDescription: Batafsil darajalar (Detail Levels), Sarlavha rangi (Header Color) va barcha kelgusi xususiyatlarga ega bo'lish uchun pullik rejalarimizga o'ting # Upgrade prompt
+    nextPayment: Sizning keyingi to'lovingiz # Payment section header
+    chargedOn: olinadigan sana # Payment date suffix
+    editSubscription: Obunani tahrirlash # Button (payment method)
+    switchToMonthly: Oylik to'lovga o'tish # Toggle option
+    switchToYearly: Yillik to'lovga o'tish # Toggle option (savings)
+    noPaymentMethod: To'lov usuli yo'q # Empty state label
+    updatePaymentMethod: To'lov usulini yangilash # Button (add card)
+    invoicing: Hisob-faktura (Invoicing) # Section header
+    lastPayment: Oxirgi to'lov # Section header
+    editBillingInfo: To'lov ma'lumotlarini tahrirlash # Button (billing details)
+    paymentProcessing: To'lovingiz ishlanmoqda, iltimos, bir necha daqiqadan so'ng sahifani yangilang. # Processing toast
+
+  # ========================================
+  # Disabled Card - Disabled workspace state
+  # ========================================
+  disabledCard:
+    personalUpgrade: Premium xususiyatlar uchun shaxsiy ish maydoningizni (workspace) yangilang. # Upgrade prompt
+    teamReadOnly: Obuna bekor qilinganligi sababli ish maydoni faqat o'qish rejimida (read-only). Ish maydoni funksiyalarini faollashtirish uchun obunani yangilang. # Reactivation prompt
+
+  # ========================================
+  # Plan Picking View - Simple pricing view
+  # ========================================
+  planPickingSimpleView:
+    collaborateWithTeamPlan: Team rejasi bilan ishlash # Section header
+    collaborateWithColleagues: Hamkasblaringiz bilan hamkorlik qiling. # Section subtitle
+    manageTeamDiagrams: Jamoa diagrammalarini bir joyda boshqaring. # Benefit text
+    startFreeTrial: 7 kunlik bepul sinov muddatini boshlash # CTA button
+    learnMore: Batafsil ma'lumot # Link (learn more)
+    pricingFrom: Narxlar oyiga {currency}{price} dan boshlanadi # Pricing label

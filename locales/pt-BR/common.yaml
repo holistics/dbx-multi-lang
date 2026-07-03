@@ -13,6 +13,8 @@ common:
     export: Exportar
     ok: OK
     submit: Enviar
+    save: Salvar
+    next: Próximo
 
   # ========================================
   # Help menu - Top-right help icon (?) dropdown in header
@@ -106,6 +108,9 @@ common:
   # ========================================
   states:
     empty: Sem dados
+    loading: Carregando...
+  notes:
+    header: "Por favor, note:"
 
   # ========================================
   # Code editor - Right panel DBML code editor
@@ -121,6 +126,10 @@ common:
   # Toast notifications - Popup messages at bottom-right
   # ========================================
   notifications:
+    titles:
+      error: Ocorreu um erro
+      success: "Sucesso!"
+      warning: Aviso
     noPermissionRemoveView: Você não tem permissão para remover a visualização do diagrama!
     noPermissionRenameView: Você não tem permissão para renomear a visualização do diagrama!
     workspaceDisabled: Este Espaço de Trabalho está atualmente desabilitado
