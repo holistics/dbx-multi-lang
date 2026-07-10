@@ -210,3 +210,71 @@ common:
       failedCheckVersion: Échec de la vérification de version
       pleaseSignInLoadLatest: Veuillez vous connecter pour charger la dernière version
       failedLoadLatest: Échec du chargement de la dernière version
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Forfait actuel
+    editSubscription: Modifier l’abonnement
+    switchToBilling: "Passer à la facturation {unit}"
+    updatePlan: Mettre à jour le forfait
+    nextPayment: "Votre prochain paiement est de USD {amount}"
+    chargedOn: "à facturer le {date}"
+    cancelledOn: "Votre abonnement sera annulé le {date}"
+    paymentMethod: Moyen de paiement
+    noPaymentMethod: Aucun moyen de paiement.
+    editPaymentMethod: Modifier le moyen de paiement
+    invoicing: Facturation
+    lastPayment: "Dernier paiement : {date}"
+    noPaymentMade: Aucun paiement effectué.
+    manageInvoices: Gérer les factures
+    supportText: "Pour toute assistance, contactez-nous à :"
+    resync: Resynchroniser
+    addons: Modules complémentaires
+    updateAddons: Mettre à jour les modules complémentaires
+
+    billingPeriodUnit:
+      annual: annuelle
+      monthly: mensuelle
+
+    planAndAddonInfo:
+      includeAddon: "Inclut {quantity} {name}"
+      addonsLabel: "Modules complémentaires :"
+      additionalAddon: "{name}(s) supplémentaire x {quantity}"
+
+  # ========================================
+  # User info - Shared "current user" indicator (avatar tooltips, member lists)
+  # ========================================
+  userInfo:
+    you: (vous)
+
+  # ========================================
+  # Manage Members - Workspace people/guests management panel
+  # ========================================
+  manageMembers:
+    title: Membres
+    planLabel: forfait
+    docEditorsLabel: Éditeurs de documents
+    docEditorsTooltip: "Inclut :<ul class=\"list-disc list-inside\"><li>Propriétaire : Le propriétaire de l’espace de travail.</li><li>Administrateurs : Utilisateurs pouvant créer, mettre à jour des projets dans l’espace de travail et gérer les rôles des autres membres.</li><li>Éditeurs de documents : Utilisateurs pouvant créer et mettre à jour des projets dans l’espace de travail.</li></ul>"
+    docViewersLabel: Lecteurs de documents
+    docViewersTooltip: Utilisateurs pouvant consulter les projets de l’espace de travail.
+    purchaseSlotsTooltip: Achetez des places pour inviter davantage d’éditeurs de documents dans votre espace de travail
+    purchaseSlots: Acheter des places
+    upgradeInviteLine1: Invitez des personnes dans l’espace de travail et
+    upgradeInviteLine2: "collaborez avec le forfait <b>Team</b>."
+    upgrade: Mettre à niveau
+    addMembers: Ajouter des membres
+    membersTab: Membres
+    guestsTab: Invités
+    noGuests: (Aucun invité dans cet espace de travail)
+
+  # ========================================
+  # Workspace Member - Single row in the members/guests/invitations list
+  # ========================================
+  workspaceMember:
+    owner: Propriétaire
+    project: "{count} projet"
+    projects: "{count} projets"
+    syncErrorTooltip: Échec de la synchronisation, veuillez réessayer de resynchroniser
+    resync: Resynchroniser

@@ -143,3 +143,59 @@ common:
       failedCheckVersion: Kiểm tra trạng thái phiên bản thất bại
       pleaseSignInLoadLatest: Vui lòng đăng nhập để tải phiên bản mới nhất
       failedLoadLatest: Tải phiên bản mới nhất thất bại
+
+  managePlan:
+    currentPlan: Gói hiện tại
+    editSubscription: Chỉnh sửa gói đăng ký
+    switchToBilling: "Chuyển sang thanh toán theo {unit}"
+    updatePlan: Cập nhật gói
+    nextPayment: "Khoản thanh toán tiếp theo của bạn là USD {amount}"
+    chargedOn: "sẽ được tính phí vào {date}"
+    cancelledOn: "Gói đăng ký của bạn sẽ bị hủy vào {date}"
+    paymentMethod: Phương thức thanh toán
+    noPaymentMethod: Chưa có phương thức thanh toán.
+    editPaymentMethod: Chỉnh sửa phương thức thanh toán
+    invoicing: Hóa đơn
+    lastPayment: "Thanh toán gần nhất: {date}"
+    noPaymentMade: Chưa có khoản thanh toán nào.
+    manageInvoices: Quản lý hóa đơn
+    supportText: "Để được hỗ trợ, hãy gửi email đến:"
+    resync: Đồng bộ lại
+    addons: Tiện ích bổ sung
+    updateAddons: Cập nhật tiện ích bổ sung
+
+    billingPeriodUnit:
+      annual: hàng năm
+      monthly: hàng tháng
+
+    planAndAddonInfo:
+      includeAddon: "Bao gồm {quantity} {name}"
+      addonsLabel: "Tiện ích bổ sung:"
+      additionalAddon: "Thêm {name}(s) x {quantity}"
+
+  userInfo:
+    you: (bạn)
+
+  manageMembers:
+    title: Thành viên
+    planLabel: gói
+    docEditorsLabel: Người chỉnh sửa tài liệu
+    docEditorsTooltip: "Bao gồm:<ul class=\"list-disc list-inside\"><li>Chủ sở hữu: Chủ sở hữu của workspace.</li><li>Quản trị viên: Người dùng có thể tạo, cập nhật dự án trong workspace và quản lý vai trò của các thành viên khác.</li><li>Người chỉnh sửa tài liệu: Người dùng có thể tạo và cập nhật dự án trong workspace.</li></ul>"
+    docViewersLabel: Người xem tài liệu
+    docViewersTooltip: Người dùng có thể xem các dự án trong workspace.
+    purchaseSlotsTooltip: Mua thêm chỗ để mời thêm người chỉnh sửa tài liệu vào workspace của bạn
+    purchaseSlots: Mua chỗ
+    upgradeInviteLine1: Mời mọi người vào workspace &
+    upgradeInviteLine2: "cộng tác với gói <b>Team</b>."
+    upgrade: Nâng cấp
+    addMembers: Thêm thành viên
+    membersTab: Thành viên
+    guestsTab: Khách
+    noGuests: (Không có khách trong workspace này)
+
+  workspaceMember:
+    owner: Chủ sở hữu
+    project: "{count} dự án"
+    projects: "{count} dự án"
+    syncErrorTooltip: Đồng bộ thất bại, vui lòng thử đồng bộ lại
+    resync: Đồng bộ lại

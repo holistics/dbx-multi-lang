@@ -146,3 +146,59 @@ common:
       failedCheckVersion: 检查版本状态失败
       pleaseSignInLoadLatest: 请登录以加载最新版本
       failedLoadLatest: 加载最新版本失败
+
+  managePlan:
+    currentPlan: 当前套餐
+    editSubscription: 编辑订阅
+    switchToBilling: "切换为按{unit}计费"
+    updatePlan: 更新套餐
+    nextPayment: "您的下一笔付款为 USD {amount}"
+    chargedOn: "将于 {date} 扣款"
+    cancelledOn: "您的订阅将于 {date} 取消"
+    paymentMethod: 付款方式
+    noPaymentMethod: 暂无付款方式。
+    editPaymentMethod: 编辑付款方式
+    invoicing: 发票
+    lastPayment: "上次付款：{date}"
+    noPaymentMade: 暂无付款记录。
+    manageInvoices: 管理发票
+    supportText: "如需支持，请发送邮件至："
+    resync: 重新同步
+    addons: 附加组件
+    updateAddons: 更新附加组件
+
+    billingPeriodUnit:
+      annual: 年度
+      monthly: 月度
+
+    planAndAddonInfo:
+      includeAddon: "包含 {quantity} 个 {name}"
+      addonsLabel: "附加组件："
+      additionalAddon: "额外的 {name} x {quantity}"
+
+  userInfo:
+    you: （你）
+
+  manageMembers:
+    title: 成员
+    planLabel: 套餐
+    docEditorsLabel: 文档编辑者
+    docEditorsTooltip: "包括：<ul class=\"list-disc list-inside\"><li>所有者：工作区的所有者。</li><li>管理员：可以在工作区中创建、更新项目并管理其他工作区成员角色的用户。</li><li>文档编辑者：可以在工作区中创建和更新项目的用户。</li></ul>"
+    docViewersLabel: 文档查看者
+    docViewersTooltip: 可以查看工作区中项目的用户。
+    purchaseSlotsTooltip: 购买名额以邀请更多文档编辑者加入您的工作区
+    purchaseSlots: 购买名额
+    upgradeInviteLine1: 邀请成员加入工作区并
+    upgradeInviteLine2: "使用<b>团队</b>套餐进行协作。"
+    upgrade: 升级
+    addMembers: 添加成员
+    membersTab: 成员
+    guestsTab: 访客
+    noGuests: （此工作区没有访客）
+
+  workspaceMember:
+    owner: 所有者
+    project: "{count} 个项目"
+    projects: "{count} 个项目"
+    syncErrorTooltip: 同步失败，请尝试重新同步
+    resync: 重新同步

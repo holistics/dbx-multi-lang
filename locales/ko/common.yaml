@@ -214,3 +214,70 @@ common:
       failedCheckVersion: 버전 상태를 확인하지 못했습니다.             # Error toast (version check failed)
       pleaseSignInLoadLatest: 최신 버전을 로드하려면 로그인하세요.                  # Login prompt toast (load version)
       failedLoadLatest: 최신 버전을 로드하지 못했습니다.            # Error toast (load version failed)
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: 현재 플랜
+    editSubscription: 구독 편집
+    switchToBilling: "{unit} 결제로 전환"
+    nextPayment: "다음 결제 금액은 USD {amount}입니다"
+    chargedOn: "{date}에 청구됩니다"
+    cancelledOn: "구독이 {date}에 취소됩니다"
+    paymentMethod: 결제 수단
+    noPaymentMethod: 결제 수단이 없습니다.
+    editPaymentMethod: 결제 수단 편집
+    invoicing: 청구서
+    lastPayment: "마지막 결제: {date}"
+    noPaymentMade: 결제 내역이 없습니다.
+    manageInvoices: 청구서 관리
+    supportText: "지원이 필요하시면 아래 이메일로 문의해 주세요:"
+    resync: 재동기화
+    addons: 애드온
+    updateAddons: 애드온 업데이트
+
+    billingPeriodUnit:
+      annual: 연간
+      monthly: 월간
+
+    planAndAddonInfo:
+      includeAddon: "{quantity}개의 {name} 포함"
+      addonsLabel: "애드온:"
+      additionalAddon: "추가 {name} x {quantity}"
+
+  # ========================================
+  # User info - Shared "current user" indicator (avatar tooltips, member lists)
+  # ========================================
+  userInfo:
+    you: (나) # Label appended after the current user's name, e.g. "Jane Doe (you)"
+
+  # ========================================
+  # Manage Members - Workspace people/guests management panel
+  # ========================================
+  manageMembers:
+    title: 멤버
+    planLabel: 플랜
+    docEditorsLabel: 문서 편집자
+    docEditorsTooltip: "포함 항목:<ul class=\"list-disc list-inside\"><li>소유자: 워크스페이스의 소유자입니다.</li><li>관리자: 워크스페이스에서 프로젝트를 생성, 업데이트하고 다른 워크스페이스 멤버의 역할을 관리할 수 있는 사용자입니다.</li><li>문서 편집자: 워크스페이스에서 프로젝트를 생성 및 업데이트할 수 있는 사용자입니다.</li></ul>"
+    docViewersLabel: 문서 뷰어
+    docViewersTooltip: 워크스페이스의 프로젝트를 볼 수 있는 사용자입니다.
+    purchaseSlotsTooltip: 워크스페이스에 더 많은 문서 편집자를 초대하려면 슬롯을 구매하세요
+    purchaseSlots: 슬롯 구매
+    upgradeInviteLine1: 워크스페이스에 멤버를 초대하고
+    upgradeInviteLine2: "<b>Team</b> 플랜으로 협업하세요."
+    upgrade: 업그레이드
+    addMembers: 멤버 추가
+    membersTab: 멤버
+    guestsTab: 게스트
+    noGuests: (이 워크스페이스에는 게스트가 없습니다)
+
+  # ========================================
+  # Workspace Member - Single row in the members/guests/invitations list
+  # ========================================
+  workspaceMember:
+    owner: 소유자
+    project: "프로젝트 {count}개"
+    projects: "프로젝트 {count}개"
+    syncErrorTooltip: 동기화에 실패했습니다. 다시 동기화해 주세요
+    resync: 재동기화

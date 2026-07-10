@@ -213,3 +213,62 @@ common:
       failedCheckVersion: Error al verificar el estado de la versión # Error toast (version check failed)
       pleaseSignInLoadLatest: Por favor, inicia sesión para cargar la versión más reciente # Login prompt toast (load version)
       failedLoadLatest: Error al cargar la versión más reciente # Error toast (load version failed)
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Plan actual
+    editSubscription: Editar suscripción
+    switchToBilling: "Cambiar a facturación {unit}"
+    updatePlan: Actualizar plan
+    nextPayment: "Tu próximo pago es de USD {amount}"
+    chargedOn: "se cobrará el {date}"
+    cancelledOn: "Tu suscripción se cancelará el {date}"
+    paymentMethod: Método de pago
+    noPaymentMethod: No hay método de pago.
+    editPaymentMethod: Editar método de pago
+    invoicing: Facturación
+    lastPayment: "Último pago: {date}"
+    noPaymentMade: No se ha realizado ningún pago.
+    manageInvoices: Administrar facturas
+    supportText: "Para soporte, escríbenos a:"
+    resync: Resincronizar
+    addons: Complementos
+    updateAddons: Actualizar complementos
+
+    billingPeriodUnit:
+      annual: anual
+      monthly: mensual
+
+    planAndAddonInfo:
+      includeAddon: "Incluye {quantity} {name}"
+      addonsLabel: "Complementos:"
+      additionalAddon: "{name}(s) adicional x {quantity}"
+
+  userInfo:
+    you: (tú)
+
+  manageMembers:
+    title: Personas
+    planLabel: plan
+    docEditorsLabel: Editores de documentos
+    docEditorsTooltip: "Incluye:<ul class=\"list-disc list-inside\"><li>Propietario: El propietario del espacio de trabajo.</li><li>Administradores: Usuarios que pueden crear y actualizar proyectos en el espacio de trabajo y gestionar los roles de otros miembros.</li><li>Editores de documentos: Usuarios que pueden crear y actualizar proyectos en el espacio de trabajo.</li></ul>"
+    docViewersLabel: Lectores de documentos
+    docViewersTooltip: Usuarios que pueden ver los proyectos en el espacio de trabajo.
+    purchaseSlotsTooltip: Compra plazas para invitar a más editores de documentos a tu espacio de trabajo
+    purchaseSlots: Comprar plazas
+    upgradeInviteLine1: Invita a personas al espacio de trabajo y
+    upgradeInviteLine2: "colabora con el plan <b>Team</b>."
+    upgrade: Actualizar
+    addMembers: Añadir miembros
+    membersTab: Miembros
+    guestsTab: Invitados
+    noGuests: (No hay invitados en este espacio de trabajo)
+
+  workspaceMember:
+    owner: Propietario
+    project: "{count} proyecto"
+    projects: "{count} proyectos"
+    syncErrorTooltip: Error de sincronización, intenta resincronizar
+    resync: Resincronizar

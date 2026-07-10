@@ -213,3 +213,62 @@ common:
       failedCheckVersion: Versiya holatini tekshirib bo'lmadi # Error toast (version check failed)
       pleaseSignInLoadLatest: Oxirgi versiyani yuklash uchun tizimga kiring # Login prompt toast (load version)
       failedLoadLatest: Oxirgi versiyani yuklab bo'lmadi # Error toast (load version failed)
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Joriy reja
+    editSubscription: Obunani tahrirlash
+    switchToBilling: "{unit} bo'yicha to'lovga o'tish"
+    updatePlan: Rejani yangilash
+    nextPayment: "Keyingi to'lovingiz USD {amount}"
+    chargedOn: "{date} sanasida yechib olinadi"
+    cancelledOn: "Obunangiz {date} sanasida bekor qilinadi"
+    paymentMethod: To'lov usuli
+    noPaymentMethod: To'lov usuli yo'q.
+    editPaymentMethod: To'lov usulini tahrirlash
+    invoicing: Hisob-fakturalar
+    lastPayment: "Oxirgi to'lov: {date}"
+    noPaymentMade: Hech qanday to'lov amalga oshirilmagan.
+    manageInvoices: Hisob-fakturalarni boshqarish
+    supportText: "Yordam uchun quyidagi manzilga xat yozing:"
+    resync: Qayta sinxronlash
+    addons: Qo'shimchalar
+    updateAddons: Qo'shimchalarni yangilash
+
+    billingPeriodUnit:
+      annual: yillik
+      monthly: oylik
+
+    planAndAddonInfo:
+      includeAddon: "{quantity} {name} kiritilgan"
+      addonsLabel: "Qo'shimchalar:"
+      additionalAddon: "Qo'shimcha {name}(s) x {quantity}"
+
+  userInfo:
+    you: (siz)
+
+  manageMembers:
+    title: Odamlar
+    planLabel: reja
+    docEditorsLabel: Hujjat muharrirlari
+    docEditorsTooltip: "Quyidagilarni o'z ichiga oladi:<ul class=\"list-disc list-inside\"><li>Egasi: Ish makonining egasi.</li><li>Administratorlar: Ish makonida loyihalarni yaratish, yangilash va boshqa ish makoni a'zolarining rollarini boshqarish huquqiga ega foydalanuvchilar.</li><li>Hujjat muharrirlari: Ish makonida loyihalarni yaratish va yangilash huquqiga ega foydalanuvchilar.</li></ul>"
+    docViewersLabel: Hujjat ko'ruvchilari
+    docViewersTooltip: Ish makonidagi loyihalarni ko'rish huquqiga ega foydalanuvchilar.
+    purchaseSlotsTooltip: Ish makoningizga ko'proq hujjat muharrirlarini taklif qilish uchun joy sotib oling
+    purchaseSlots: Joy sotib olish
+    upgradeInviteLine1: Odamlarni ish makoniga taklif qiling va
+    upgradeInviteLine2: "<b>Team</b> reja bilan hamkorlik qiling."
+    upgrade: Yangilash
+    addMembers: A'zo qo'shish
+    membersTab: A'zolar
+    guestsTab: Mehmonlar
+    noGuests: (Bu ish makonida mehmonlar yo'q)
+
+  workspaceMember:
+    owner: Egasi
+    project: "{count} loyiha"
+    projects: "{count} loyiha"
+    syncErrorTooltip: Sinxronlashda xatolik, qayta sinxronlashga urinib ko'ring
+    resync: Qayta sinxronlash

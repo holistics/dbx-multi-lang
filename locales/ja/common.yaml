@@ -146,3 +146,59 @@ common:
       failedCheckVersion: バージョン状態の確認に失敗しました
       pleaseSignInLoadLatest: 最新バージョンを読み込むにはサインインしてください
       failedLoadLatest: 最新バージョンの読み込みに失敗しました
+
+  managePlan:
+    currentPlan: 現在のプラン
+    editSubscription: サブスクリプションを編集
+    switchToBilling: "{unit}課金に切り替える"
+    updatePlan: プランを更新
+    nextPayment: "次回のお支払いは USD {amount} です"
+    chargedOn: "{date} に請求されます"
+    cancelledOn: "サブスクリプションは {date} にキャンセルされます"
+    paymentMethod: 支払い方法
+    noPaymentMethod: 支払い方法がありません。
+    editPaymentMethod: 支払い方法を編集
+    invoicing: 請求
+    lastPayment: "前回の支払い: {date}"
+    noPaymentMade: 支払い履歴がありません。
+    manageInvoices: 請求書を管理
+    supportText: "サポートが必要な場合は、こちらまでメールでご連絡ください:"
+    resync: 再同期
+    addons: アドオン
+    updateAddons: アドオンを更新
+
+    billingPeriodUnit:
+      annual: 年間
+      monthly: 月間
+
+    planAndAddonInfo:
+      includeAddon: "{quantity} 個の {name} を含む"
+      addonsLabel: "アドオン:"
+      additionalAddon: "追加の {name} x {quantity}"
+
+  userInfo:
+    you: （あなた）
+
+  manageMembers:
+    title: メンバー
+    planLabel: プラン
+    docEditorsLabel: ドキュメント編集者
+    docEditorsTooltip: "含まれるもの:<ul class=\"list-disc list-inside\"><li>オーナー: ワークスペースの所有者。</li><li>管理者: ワークスペース内でプロジェクトを作成・更新し、他のメンバーの役割を管理できるユーザー。</li><li>ドキュメント編集者: ワークスペース内でプロジェクトを作成・更新できるユーザー。</li></ul>"
+    docViewersLabel: ドキュメント閲覧者
+    docViewersTooltip: ワークスペース内のプロジェクトを閲覧できるユーザー。
+    purchaseSlotsTooltip: ワークスペースにドキュメント編集者を追加招待するには枠を購入してください
+    purchaseSlots: 枠を購入
+    upgradeInviteLine1: ワークスペースにメンバーを招待して
+    upgradeInviteLine2: "<b>チーム</b>プランで共同作業しましょう。"
+    upgrade: アップグレード
+    addMembers: メンバーを追加
+    membersTab: メンバー
+    guestsTab: ゲスト
+    noGuests: （このワークスペースにはゲストがいません）
+
+  workspaceMember:
+    owner: オーナー
+    project: "{count} 件のプロジェクト"
+    projects: "{count} 件のプロジェクト"
+    syncErrorTooltip: 同期に失敗しました。再同期をお試しください
+    resync: 再同期

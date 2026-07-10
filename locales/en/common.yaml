@@ -213,3 +213,70 @@ common:
       failedCheckVersion: Failed to check version status # Error toast (version check failed)
       pleaseSignInLoadLatest: Please sign in to load latest version # Login prompt toast (load version)
       failedLoadLatest: Failed to load latest version # Error toast (load version failed)
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Current plan
+    editSubscription: Edit subscription
+    switchToBilling: "Switch to {unit} billing"
+    nextPayment: "Your next payment is USD {amount}"
+    chargedOn: "to be charged on {date}"
+    cancelledOn: "Your subscription will be cancelled on {date}"
+    paymentMethod: Payment Method
+    noPaymentMethod: No payment method.
+    editPaymentMethod: Edit payment method
+    invoicing: Invoicing
+    lastPayment: "Last payment: {date}"
+    noPaymentMade: No payment made.
+    manageInvoices: Manage invoices
+    supportText: "For support, email us at:"
+    resync: Resync
+    addons: Add-ons
+    updateAddons: Update add-ons
+
+    billingPeriodUnit:
+      annual: annual
+      monthly: monthly
+
+    planAndAddonInfo:
+      includeAddon: "Include {quantity} {name}"
+      addonsLabel: "Addons:"
+      additionalAddon: "Additional {name}(s) x {quantity}"
+
+  # ========================================
+  # User info - Shared "current user" indicator (avatar tooltips, member lists)
+  # ========================================
+  userInfo:
+    you: (you) # Label appended after the current user's name, e.g. "Jane Doe (you)"
+
+  # ========================================
+  # Manage Members - Workspace people/guests management panel
+  # ========================================
+  manageMembers:
+    title: People
+    planLabel: plan
+    docEditorsLabel: Doc Editors
+    docEditorsTooltip: "Includes:<ul class=\"list-disc list-inside\"><li>Owner: The owner of the workspace.</li><li>Admins: Users who can create, update projects in the workspace and manage other workspace member roles.</li><li>Doc Editors: Users who can create and update projects in the workspace.</li></ul>" # HTML tooltip content
+    docViewersLabel: Doc Viewers
+    docViewersTooltip: Users who can view projects in the workspace.
+    purchaseSlotsTooltip: Purchase slots to invite more doc editors to your workspace
+    purchaseSlots: Purchase slots
+    upgradeInviteLine1: Invite people to workspace &
+    upgradeInviteLine2: "collaborate with <b>Team</b> plan." # {teamPlan} is bolded inline
+    upgrade: Upgrade
+    addMembers: Add members
+    membersTab: Members
+    guestsTab: Guests
+    noGuests: (No guests in this workspace)
+
+  # ========================================
+  # Workspace Member - Single row in the members/guests/invitations list
+  # ========================================
+  workspaceMember:
+    owner: Owner
+    project: "{count} project" # Singular
+    projects: "{count} projects" # Plural
+    syncErrorTooltip: Failed to sync, please try resyncing
+    resync: Resync

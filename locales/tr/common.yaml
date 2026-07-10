@@ -209,3 +209,62 @@ common:
       failedCheckVersion: Sürüm durumu kontrol edilemedi # Error toast (version check failed)
       pleaseSignInLoadLatest: En son sürümü yüklemek için lütfen giriş yapın # Login prompt toast (load version)
       failedLoadLatest: En son sürüm yüklenemedi # Error toast (load version failed)
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Mevcut plan
+    editSubscription: Aboneliği düzenle
+    switchToBilling: "{unit} faturalandırmaya geç"
+    updatePlan: Planı güncelle
+    nextPayment: "Bir sonraki ödemeniz USD {amount}"
+    chargedOn: "{date} tarihinde tahsil edilecek"
+    cancelledOn: "Aboneliğiniz {date} tarihinde iptal edilecek"
+    paymentMethod: Ödeme yöntemi
+    noPaymentMethod: Ödeme yöntemi yok.
+    editPaymentMethod: Ödeme yöntemini düzenle
+    invoicing: Faturalandırma
+    lastPayment: "Son ödeme: {date}"
+    noPaymentMade: Herhangi bir ödeme yapılmadı.
+    manageInvoices: Faturaları yönet
+    supportText: "Destek için bize şu adresten e-posta gönderin:"
+    resync: Yeniden senkronize et
+    addons: Eklentiler
+    updateAddons: Eklentileri güncelle
+
+    billingPeriodUnit:
+      annual: yıllık
+      monthly: aylık
+
+    planAndAddonInfo:
+      includeAddon: "{quantity} {name} içerir"
+      addonsLabel: "Eklentiler:"
+      additionalAddon: "Ek {name}(s) x {quantity}"
+
+  userInfo:
+    you: (siz)
+
+  manageMembers:
+    title: Kişiler
+    planLabel: plan
+    docEditorsLabel: Doküman Editörleri
+    docEditorsTooltip: "Şunları içerir:<ul class=\"list-disc list-inside\"><li>Sahip: Çalışma alanının sahibi.</li><li>Yöneticiler: Çalışma alanında proje oluşturabilen, güncelleyebilen ve diğer çalışma alanı üyelerinin rollerini yönetebilen kullanıcılar.</li><li>Doküman Editörleri: Çalışma alanında proje oluşturabilen ve güncelleyebilen kullanıcılar.</li></ul>"
+    docViewersLabel: Doküman Görüntüleyicileri
+    docViewersTooltip: Çalışma alanındaki projeleri görüntüleyebilen kullanıcılar.
+    purchaseSlotsTooltip: Çalışma alanınıza daha fazla doküman editörü davet etmek için slot satın alın
+    purchaseSlots: Slot satın al
+    upgradeInviteLine1: Çalışma alanına kişileri davet edin ve
+    upgradeInviteLine2: "<b>Team</b> planıyla iş birliği yapın."
+    upgrade: Yükselt
+    addMembers: Üye ekle
+    membersTab: Üyeler
+    guestsTab: Misafirler
+    noGuests: (Bu çalışma alanında misafir yok)
+
+  workspaceMember:
+    owner: Sahip
+    project: "{count} proje"
+    projects: "{count} proje"
+    syncErrorTooltip: Senkronizasyon başarısız oldu, lütfen yeniden senkronize etmeyi deneyin
+    resync: Yeniden senkronize et

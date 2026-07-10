@@ -209,3 +209,62 @@ common:
       failedCheckVersion: Falha ao verificar o status da versão
       pleaseSignInLoadLatest: Por favor, faça login para carregar a versão mais recente
       failedLoadLatest: Falha ao carregar a versão mais recente
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Plano atual
+    editSubscription: Editar assinatura
+    switchToBilling: "Mudar para cobrança {unit}"
+    updatePlan: Atualizar plano
+    nextPayment: "Seu próximo pagamento é de USD {amount}"
+    chargedOn: "a ser cobrado em {date}"
+    cancelledOn: "Sua assinatura será cancelada em {date}"
+    paymentMethod: Método de pagamento
+    noPaymentMethod: Nenhum método de pagamento.
+    editPaymentMethod: Editar método de pagamento
+    invoicing: Faturamento
+    lastPayment: "Último pagamento: {date}"
+    noPaymentMade: Nenhum pagamento realizado.
+    manageInvoices: Gerenciar faturas
+    supportText: "Para suporte, envie um e-mail para:"
+    resync: Ressincronizar
+    addons: Complementos
+    updateAddons: Atualizar complementos
+
+    billingPeriodUnit:
+      annual: anual
+      monthly: mensal
+
+    planAndAddonInfo:
+      includeAddon: "Inclui {quantity} {name}"
+      addonsLabel: "Complementos:"
+      additionalAddon: "{name}(s) adicional x {quantity}"
+
+  userInfo:
+    you: (você)
+
+  manageMembers:
+    title: Pessoas
+    planLabel: plano
+    docEditorsLabel: Editores de documentos
+    docEditorsTooltip: "Inclui:<ul class=\"list-disc list-inside\"><li>Proprietário: O proprietário do workspace.</li><li>Administradores: Usuários que podem criar e atualizar projetos no workspace e gerenciar as funções de outros membros.</li><li>Editores de documentos: Usuários que podem criar e atualizar projetos no workspace.</li></ul>"
+    docViewersLabel: Leitores de documentos
+    docViewersTooltip: Usuários que podem visualizar projetos no workspace.
+    purchaseSlotsTooltip: Compre vagas para convidar mais editores de documentos para o seu workspace
+    purchaseSlots: Comprar vagas
+    upgradeInviteLine1: Convide pessoas para o workspace e
+    upgradeInviteLine2: "colabore com o plano <b>Team</b>."
+    upgrade: Fazer upgrade
+    addMembers: Adicionar membros
+    membersTab: Membros
+    guestsTab: Convidados
+    noGuests: (Não há convidados neste workspace)
+
+  workspaceMember:
+    owner: Proprietário
+    project: "{count} projeto"
+    projects: "{count} projetos"
+    syncErrorTooltip: Falha na sincronização, tente ressincronizar
+    resync: Ressincronizar
