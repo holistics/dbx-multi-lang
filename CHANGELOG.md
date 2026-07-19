@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 ## Unreleased
 ### Added
 * Support for the Korean (ko) locale
+### Fixed
+* Add missing translation for the remove member dialog title
 
 ## v1.2.3 (Jul 3, 2026)
 ### Misc
