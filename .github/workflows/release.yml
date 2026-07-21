@@ -31,7 +31,16 @@ jobs:
       - name: Build
         run: yarn build
 
+      - name: Determine npm dist-tag
+        id: dist-tag
+        run: |
+          if [[ "${GITHUB_REF_NAME}" == *-* ]]; then
+            echo "tag=beta" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=latest" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Publish to GitHub Packages
-        run: npm publish
+        run: npm publish --tag ${{ steps.dist-tag.outputs.tag }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
