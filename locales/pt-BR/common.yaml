@@ -261,10 +261,12 @@ common:
     membersTab: Membros
     guestsTab: Convidados
     noGuests: (Não há convidados neste workspace)
+    syncErrorBanner: "{count} membro(s) falharam ao sincronizar"
+    resyncAll: Ressincronizar tudo
 
   workspaceMember:
     owner: Proprietário
     project: "{count} projeto"
     projects: "{count} projetos"
     syncErrorTooltip: Falha na sincronização, tente ressincronizar
-    resync: Ressincronizar
+    syncErrorBlocksEdit: Resolva o erro de sincronização antes de alterar a função deste membro

@@ -268,6 +268,8 @@ common:
     membersTab: Membres
     guestsTab: Invités
     noGuests: (Aucun invité dans cet espace de travail)
+    syncErrorBanner: "{count} membre(s) n’ont pas pu être synchronisés"
+    resyncAll: Tout resynchroniser
 
   # ========================================
   # Workspace Member - Single row in the members/guests/invitations list
@@ -277,4 +279,4 @@ common:
     project: "{count} projet"
     projects: "{count} projets"
     syncErrorTooltip: Échec de la synchronisation, veuillez réessayer de resynchroniser
-    resync: Resynchroniser
+    syncErrorBlocksEdit: Résolvez l’erreur de synchronisation avant de modifier le rôle de ce membre

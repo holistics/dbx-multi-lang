@@ -261,10 +261,12 @@ common:
     membersTab: Üyeler
     guestsTab: Misafirler
     noGuests: (Bu çalışma alanında misafir yok)
+    syncErrorBanner: "{count} üyenin senkronizasyonu başarısız oldu"
+    resyncAll: Tümünü yeniden senkronize et
 
   workspaceMember:
     owner: Sahip
     project: "{count} proje"
     projects: "{count} proje"
     syncErrorTooltip: Senkronizasyon başarısız oldu, lütfen yeniden senkronize etmeyi deneyin
-    resync: Yeniden senkronize et
+    syncErrorBlocksEdit: Bu üyenin rolünü değiştirmeden önce senkronizasyon hatasını çözün

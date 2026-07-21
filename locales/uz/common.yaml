@@ -265,10 +265,12 @@ common:
     membersTab: A'zolar
     guestsTab: Mehmonlar
     noGuests: (Bu ish makonida mehmonlar yo'q)
+    syncErrorBanner: "{count} a'zoni sinxronlashda xatolik yuz berdi"
+    resyncAll: Barchasini qayta sinxronlash
 
   workspaceMember:
     owner: Egasi
     project: "{count} loyiha"
     projects: "{count} loyiha"
     syncErrorTooltip: Sinxronlashda xatolik, qayta sinxronlashga urinib ko'ring
-    resync: Qayta sinxronlash
+    syncErrorBlocksEdit: Ushbu a'zoning rolini o'zgartirishdan oldin sinxronlash xatosini bartaraf eting

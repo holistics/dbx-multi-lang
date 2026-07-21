@@ -195,10 +195,12 @@ common:
     membersTab: メンバー
     guestsTab: ゲスト
     noGuests: （このワークスペースにはゲストがいません）
+    syncErrorBanner: "{count} 人のメンバーの同期に失敗しました"
+    resyncAll: すべて再同期
 
   workspaceMember:
     owner: オーナー
     project: "{count} 件のプロジェクト"
     projects: "{count} 件のプロジェクト"
     syncErrorTooltip: 同期に失敗しました。再同期をお試しください
-    resync: 再同期
+    syncErrorBlocksEdit: このメンバーの役割を変更する前に同期エラーを解決してください

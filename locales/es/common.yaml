@@ -265,10 +265,12 @@ common:
     membersTab: Miembros
     guestsTab: Invitados
     noGuests: (No hay invitados en este espacio de trabajo)
+    syncErrorBanner: "{count} miembro(s) no se pudieron sincronizar"
+    resyncAll: Resincronizar todo
 
   workspaceMember:
     owner: Propietario
     project: "{count} proyecto"
     projects: "{count} proyectos"
     syncErrorTooltip: Error de sincronización, intenta resincronizar
-    resync: Resincronizar
+    syncErrorBlocksEdit: Resuelve el error de sincronización antes de cambiar el rol de este miembro

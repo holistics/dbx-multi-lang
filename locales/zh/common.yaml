@@ -195,10 +195,12 @@ common:
     membersTab: 成员
     guestsTab: 访客
     noGuests: （此工作区没有访客）
+    syncErrorBanner: "{count} 名成员同步失败"
+    resyncAll: 全部重新同步
 
   workspaceMember:
     owner: 所有者
     project: "{count} 个项目"
     projects: "{count} 个项目"
     syncErrorTooltip: 同步失败，请尝试重新同步
-    resync: 重新同步
+    syncErrorBlocksEdit: 请先解决同步错误，然后再更改此成员的角色

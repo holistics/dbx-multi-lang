@@ -192,10 +192,12 @@ common:
     membersTab: Thành viên
     guestsTab: Khách
     noGuests: (Không có khách trong workspace này)
+    syncErrorBanner: "{count} thành viên đồng bộ thất bại"
+    resyncAll: Đồng bộ lại tất cả
 
   workspaceMember:
     owner: Chủ sở hữu
     project: "{count} dự án"
     projects: "{count} dự án"
     syncErrorTooltip: Đồng bộ thất bại, vui lòng thử đồng bộ lại
-    resync: Đồng bộ lại
+    syncErrorBlocksEdit: Khắc phục lỗi đồng bộ trước khi thay đổi vai trò của thành viên này

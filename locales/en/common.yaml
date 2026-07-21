@@ -270,6 +270,8 @@ common:
     membersTab: Members
     guestsTab: Guests
     noGuests: (No guests in this workspace)
+    syncErrorBanner: "{count} member(s) failed to sync"
+    resyncAll: Resync all
 
   # ========================================
   # Workspace Member - Single row in the members/guests/invitations list
@@ -279,4 +281,4 @@ common:
     project: "{count} project" # Singular
     projects: "{count} projects" # Plural
     syncErrorTooltip: Failed to sync, please try resyncing
-    resync: Resync
+    syncErrorBlocksEdit: Resolve the sync error before changing this member's role

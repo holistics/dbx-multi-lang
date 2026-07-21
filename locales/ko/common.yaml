@@ -271,6 +271,8 @@ common:
     membersTab: 멤버
     guestsTab: 게스트
     noGuests: (이 워크스페이스에는 게스트가 없습니다)
+    syncErrorBanner: "{count}명의 멤버 동기화에 실패했습니다"
+    resyncAll: 모두 재동기화
 
   # ========================================
   # Workspace Member - Single row in the members/guests/invitations list
@@ -280,4 +282,4 @@ common:
     project: "프로젝트 {count}개"
     projects: "프로젝트 {count}개"
     syncErrorTooltip: 동기화에 실패했습니다. 다시 동기화해 주세요
-    resync: 재동기화
+    syncErrorBlocksEdit: 이 멤버의 역할을 변경하기 전에 동기화 오류를 해결하세요
