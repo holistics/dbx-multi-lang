@@ -1,0 +1,126 @@
+# Billing translations - Pricing, subscriptions, payment
+# UI Areas: Pricing page, Billing settings, Upgrade modals
+
+billing:
+  # ========================================
+  # Billing Buttons - Action buttons
+  # ========================================
+  buttons:
+    upgrade: "Passa a Pro" # Generic upgrade button
+    upgradeToPersonalPro: "Passa al piano Personal Pro" # CTA button (pricing page)
+    collaborateWithTeam: "Collabora con il piano Team" # CTA button (team plan)
+
+  # ========================================
+  # Pricing Page - Pricing table
+  # ========================================
+  pricing:
+
+  # ========================================
+  # Plan Details - Individual plan info
+  # ========================================
+  plans:
+    free:
+      features:
+        - "Fino a 3 diagrammi" # Feature list item 1
+        - "Strumenti di modifica base" # Feature list item 2
+        - "Esportazione in SQL/PNG" # Feature list item 3
+        - "Supporto della community" # Feature list item 4
+
+    pro:
+      features:
+        - "Diagrammi illimitati" # Feature list item 1
+        - "Strumenti di modifica avanzati" # Feature list item 2
+        - "Cronologia delle versioni" # Feature list item 3
+        - "Supporto prioritario" # Feature list item 4
+        - "Esportazione in PDF" # Feature list item 5
+        - "Temi personalizzati" # Feature list item 6
+
+    team:
+      features:
+        - "Tutto ciò che è incluso in Pro" # Feature list item 1
+        - "Collaborazione in team" # Feature list item 2
+        - "Controlli di amministrazione" # Feature list item 3
+        - "Autenticazione SSO" # Feature list item 4
+        - "Supporto prioritario" # Feature list item 5
+        - "Integrazioni personalizzate" # Feature list item 6
+
+  # ========================================
+  # Payment Form - Credit card inputs
+  # ========================================
+  payment:
+    paymentMethod: "Metodo di pagamento" # Section label (existing cards)
+
+  # ========================================
+  # Billing History - Invoice section
+  # ========================================
+  billing:
+
+  # ========================================
+  # Subscription Management - Subscription actions
+  # ========================================
+  subscription:
+
+  # ========================================
+  # Personal Pro Plan - Plan features list
+  # ========================================
+  personalPro:
+
+  # ========================================
+  # Team Plan - Plan features list
+  # ========================================
+  team:
+
+  # ========================================
+  # Public Pricing - Public pricing page
+  # ========================================
+  publicPricing:
+
+  # ========================================
+  # Upgrade Button - Contextual upgrade
+  # ========================================
+  upgradeNowBtn:
+    ownerOnly: "Solo il proprietario dello spazio di lavoro può passare al piano Team" # Disabled tooltip
+
+  # ========================================
+  # Manage Plan Modal - Subscription details
+  # ========================================
+  managePlanModal:
+    loadingSubscription: "Caricamento informazioni sull'abbonamento in corso..." # Loading skeleton text
+    currentPlan: "Piano attuale" # Section header
+    personalPlanForever: "Piano Personal - Per sempre" # Plan name display
+    unknownPlan: "Piano sconosciuto" # Fallback plan name
+    billedMonthly: "Fatturato ogni mese" # Billing frequency
+    billedAnnually: "Fatturato ogni anno" # Billing frequency
+    chargeEvery: "Addebito ogni {period} {unit}" # Charge description
+    cancelledOn: "Annullato il" # Cancellation date label
+    planDetails: "Dettagli del piano →" # Link to plan features
+    upgradeDescription: "Passa ai nostri piani a pagamento per sbloccare i Livelli di Dettaglio, i Colori dell'Intestazione e tutte le prossime funzionalità" # Upgrade prompt
+    nextPayment: "Il tuo prossimo pagamento è" # Payment section header
+    chargedOn: "previsto per il" # Payment date suffix
+    editSubscription: "Modifica abbonamento" # Button (payment method)
+    switchToMonthly: "Passa alla fatturazione mensile" # Toggle option
+    switchToYearly: "Passa alla fatturazione annuale" # Toggle option (savings)
+    noPaymentMethod: "Nessun metodo di pagamento" # Empty state label
+    updatePaymentMethod: "Aggiorna metodo di pagamento" # Button (add card)
+    invoicing: "Fatturazione" # Section header
+    lastPayment: "Ultimo pagamento" # Section header
+    editBillingInfo: "Modifica informazioni di fatturazione" # Button (billing details)
+    paymentProcessing: "Il pagamento è in fase di elaborazione, ricarica la pagina tra qualche minuto." # Processing toast
+
+  # ========================================
+  # Disabled Card - Disabled workspace state
+  # ========================================
+  disabledCard:
+    personalUpgrade: "Passa a un piano superiore nel tuo spazio di lavoro personale per sbloccare le funzionalità premium." # Upgrade prompt
+    teamReadOnly: "Lo spazio di lavoro è in modalità sola lettura a causa dell'annullamento dell'abbonamento. Rinnova per riattivare tutte le funzionalità." # Reactivation prompt
+
+  # ========================================
+  # Plan Picking View - Simple pricing view
+  # ========================================
+  planPickingSimpleView:
+    collaborateWithTeamPlan: "Collabora con il piano Team" # Section header
+    collaborateWithColleagues: "Collabora con i tuoi colleghi." # Section subtitle
+    manageTeamDiagrams: "Gestisci tutti i diagrammi del team in un unico posto." # Benefit text
+    startFreeTrial: "Inizia la prova gratuita di 7 giorni" # CTA button
+    learnMore: "Scopri di più" # Link (learn more)
+    pricingFrom: "A partire da {currency}{price}/mese" # Pricing label
