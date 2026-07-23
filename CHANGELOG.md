@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.3.1 (Jul 20, 2026)
+### Misc
+* Update copywriting for the link types control
+
 ## v1.3.0 (Jul 20, 2026)
 ### Added
 * Support for the Korean (ko) locale

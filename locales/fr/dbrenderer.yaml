@@ -65,9 +65,9 @@ dbrenderer:
     keys: Uniquement les clés
   relationshipMode:
     title: Type de lien
-    relationships: Relations entre entités
-    dependencies: Dépendances de données
-    all: Tous les types
+    relationships: ERD
+    dependencies: Dépendances
+    all: ERD + Dépendances
 
   # ========================================
   # Menu des vues

@@ -47,9 +47,9 @@ dbrenderer:
     keys: Chỉ các khóa
   relationshipMode:
     title: Loại liên kết
-    relationships: Mối quan hệ thực thể
-    dependencies: Phụ thuộc dữ liệu
-    all: Tất cả loại
+    relationships: ERD
+    dependencies: Phụ thuộc
+    all: ERD + Phụ thuộc
   viewDropdown:
     renameView: Đổi tên chế độ xem
     removeView: Xóa chế độ xem

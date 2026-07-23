@@ -50,9 +50,9 @@ dbrenderer:
     keys: 仅显示主键
   relationshipMode:
     title: 链接类型
-    relationships: 实体关系
-    dependencies: 数据依赖
-    all: 所有类型
+    relationships: ERD
+    dependencies: 依赖
+    all: ERD + 依赖
   viewDropdown:
     renameView: 重命名视图
     removeView: 删除视图
