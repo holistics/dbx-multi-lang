@@ -43,7 +43,7 @@ header:
     reconnecting: "Riconnessione in corso..." # Toast message when reconnecting to server
     saving: "Salvataggio diagramma in corso..." # Toast message during manual save
     autoSaving: "Salvataggio automatico del diagramma in corso..." # Toast during auto-save
-    disconnected: "Sei disconnesso. Le tue modifiche verranno salvate localmente e sincronizzate con il server non. appena tornerai online" # Toast when offline
+    disconnected: "Sei disconnesso. Le tue modifiche verranno salvate localmente e sincronizzate con il server non appena tornerai online" # Toast when offline
     readOnly: "Questo diagramma è in sola lettura" # Toast explaining read-only state
     unsaved: "Questo diagramma non è salvato" # Toast when diagram has unsaved changes
     unsavedWithLogin: "Questo diagramma non è salvato. È necessario effettuare l'accesso per salvare i diagrammi" # Toast prompting login for saving
