@@ -182,7 +182,7 @@ common:
       fullSession: "La sessione è piena, impossibile connettersi!" # Toast when collaboration session full
       diagramDeleted: "Questo diagramma è stato eliminato!" # Toast when diagram deleted by owner
       overwrittenDiagram: "Qualcuno ha sovrascritto il contenuto del diagramma, per favore ricarica la pagina per visualizzare le ultime modifiche!" # Toast when remote changes
-      diagramMigratedDiagramViewAsCode: "Le viste del diagramma sono state megrate nel nuovo formato \"Vista del Diagramma come codice\". Per favore ricarica per continuare. Contatta dbdiagram{'@'}holistics.io se riscontri problemi." # Toast when DiagramView-as-code migration completes
+      diagramMigratedDiagramViewAsCode: "Le viste del diagramma sono state migrate nel nuovo formato \"Vista del Diagramma come codice\". Per favore ricarica per continuare. Contatta dbdiagram{'@'}holistics.io se riscontri problemi." # Toast when DiagramView-as-code migration completes
       permissionsChanged: "I tuoi permessi sono stati modificati, per favore ricarica per applicare le modifiche!" # Toast when permissions updated
       cannotReconnect: "Impossibile riconnettersi al server" # Toast when reconnection fails
 
