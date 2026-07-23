@@ -1,0 +1,88 @@
+# Database Guidelines translations - Import instructions
+# UI Areas: Import modal, Database connection instructions
+
+databaseGuidelines:
+  # ========================================
+  # MySQL Import - MySQL-specific instructions
+  # ========================================
+  mysql:
+    title: "MySQL" # Database selector option (import modal)
+    install: "Installa" # Install link text
+    tool: "mysqldump" # Tool name
+    terminalCommand: "Esegui il seguente comando nel tuo terminale" # Instruction (command block)
+    linuxPrefix: "Su Linux potrebbe essere necessario aggiungere" # Linux-specific note
+    sudo: "sudo" # Sudo command
+    linuxSuffix: "prima del comando" # Sudo placement hint
+    example: "Esempio" # Command block label
+    step3: "Copia il contenuto del dump SQL e incollalo in questo modale" # Final step instruction
+
+  # ========================================
+  # PostgreSQL Import - PostgreSQL-specific instructions
+  # ========================================
+  postgres:
+    title: "PostgreSQL" # Database selector option (import modal)
+    install: "Installa" # Install link text
+    tool: "pg_dump" # Tool name
+    terminalCommand: "Esegui il seguente comando nel tuo terminale" # Instruction (command block)
+    linuxPrefix: "Su Linux potrebbe essere necessario aggiungere" # Linux-specific note
+    sudo: "sudo" # Sudo command
+    linuxSuffix: "prima del comando" # Sudo placement hint
+    example: "Esempio" # Command block label
+    step3: "Copia il contenuto del dump SQL e incollalo in questo modale" # Final step instruction
+
+  # ========================================
+  # CSV Import - CSV file instructions
+  # ========================================
+  csv:
+    title: "CSV" # Database selector option (import modal)
+    description: "Carica un file CSV per generare automaticamente la struttura di una tabella DBML. La prima riga deve contenere le intestazioni delle colonne" # Import description
+    exampleFormat: "Esempio di formato CSV" # Example section header
+
+  # ========================================
+  # Rails Import - Rails schema.rb instructions
+  # ========================================
+  rails:
+    title: "Rails schema.rb" # Database selector option (import modal)
+    step1: "Apri il file" # Instruction step 1 prefix
+    schemaRb: "schema.rb" # File name (code font)
+    step1Suffix: "del tuo progetto utilizzando un qualsiasi editor di codice" # Instruction step 1 suffix
+    step2: "Copia il contenuto di schema.rb e incollalo in questo modale" # Instruction step 2
+
+  # ========================================
+  # SQL Server Import - SQL Server instructions
+  # ========================================
+  sqlServer:
+    title: "SQL Server" # Database selector option (import modal)
+    step1: "Scarica e installa" # Instruction step 1 prefix
+    tool: "SQL Server Management Studio" # Tool name
+    step1Suffix: "SSMS" # Tool abbreviation
+    step2: "Apri SSMS e connettiti al tuo server SQL" # Instruction step 2
+    step3: "Una volta connesso, fai clic con il tasto destro sul database da esportare e seleziona" # Instruction step 3 prefix
+    scriptDatabaseAs: "Script Database come" # Menu option name
+    createTo: "CREATE in" # Menu option continuation
+    newQueryEditorWindows: "Nuova finestra editor di query" # Sub-menu option
+    step4: "Copia il contenuto del dump SQL e incollalo in questo modale" # Instruction step 4
+
+  # ========================================
+  # Oracle Import - Oracle database instructions
+  # ========================================
+  oracle:
+    title: "Oracle" # Database selector option (import modal)
+    description: "Esegui manualmente i seguenti comandi, quindi carica il file SQL utilizzando il pulsante" # Description intro
+    uploadSql: "Carica .sql" # Upload button label
+    createDirectory: "Crea un oggetto directory in Oracle" # Command 1 description
+    grantPrivileges: "Assegna i privilegi di lettura e scrittura sull'oggetto directory" # Command 2 description
+    exportSchema: "Esporta uno schema specifico in un file di dump" # Command 3 description
+    convertDump: "Converti il file di dump in un file SQL" # Command 4 description
+
+  # ========================================
+  # Snowflake Import - Snowflake database instructions
+  # ========================================
+  snowflake:
+    title: "Snowflake" # Database selector option (import modal)
+    description: "Esegui il comando" # Description intro
+    getDdl: "GET_DDL" # Command name
+    descriptionSuffix: "manualmente, quindi copia e incolla l'output nel campo di testo sullo schermo oppure salvalo in un file e caricalo tramite il pulsante" # Description suffix
+    uploadSql: "Carica .sql" # Upload button label
+    exportAllTables: "Esportazione del DDL di tutte le tabelle per l'intero database" # Feature description
+    selectSchema: "Seleziona tutte le tabelle in un singolo schema" # Feature description
