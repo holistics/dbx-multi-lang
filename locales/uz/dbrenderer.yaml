@@ -65,9 +65,9 @@ dbrenderer:
     keys: Faqat kalitlar (Keys) # Option (only shows primary and foreign keys, hides other fields)
   relationshipMode:
     title: Bog'lanish turi # Dropup prefix + dropup header
-    relationships: Obyekt munosabatlari # Option (FK relationship lines)
-    dependencies: Ma'lumotlar bog'liqliklari # Option (data-lineage dependency lines)
-    all: Barcha turlar # Option (shows both relationships and dependencies)
+    relationships: ERD # Option (FK relationship lines)
+    dependencies: Bog'liqliklar # Option (data-lineage dependency lines)
+    all: ERD + Bog'liqliklar # Option (shows both relationships and dependencies)
 
   # ========================================
   # View Dropdown - View selector menu
