@@ -1,0 +1,179 @@
+# DBRenderer translations - Diagram canvas and panels
+# UI Areas: Left sidebar, Canvas toolbar, Bottom-right zoom, Context menus
+
+dbrenderer:
+  # ========================================
+  # Table Search Panel - Left sidebar (toggle with Ctrl/Cmd+K)
+  # ========================================
+  tableSearchPanel:
+    title: "Tabelle" # Panel title (left sidebar header)
+    diagramViews: "Viste del diagramma" # Dropdown header for views (table search panel)
+    diagramViewsTooltip: "Le viste del diagramma sono raccolte di tabelle che rappresentano domini o flussi di lavoro specifici nel tuo database." # Tooltip for views dropdown
+    viewActions: "Azioni vista" # Dropdown header for view actions
+    cannotRenameOrDelete: "Impossibile rinominare o eliminare la vista {name}" # Error toast (default view protection)
+    rename: "Rinomina" # Menu option (view context menu)
+    delete: "Elimina" # Menu option (view context menu)
+    reset: "Ripristina" # Button (resets view to default)
+    save: "Salva" # Button (saves current view)
+    saveAsNew: "Salva come nuova" # Button (creates new view)
+    searchPlaceholder: "Cerca tabella o schema" # Search input placeholder (no groups)
+    searchPlaceholderWithGroup: "Cerca tabella, schema o gruppo" # Search input placeholder (with groups)
+    groupBy: "Raggruppa per" # Dropdown to group tables
+    showAll: "Mostra tutto" # Button (shows all tables)
+    hideAll: "Nascondi tutto" # Button (hides all tables)
+    schema: "Schema" # Group by option (group by schema)
+    tableGroup: "Gruppo di tabelle" # Group by option (group by custom table group)
+    noGroup: "(nessun gruppo)" # Group label (tables without group)
+    defaultView: "Vista predefinita" # Label (default view indicator)
+    unknownView: "Vista sconosciuta" # Label (unknown view name)
+    newView: "Nuova vista" # Button (creates new diagram view)
+    copyOfName: "Copia di {name}" # Default name for copied view
+
+  # ========================================
+  # Controller Bar - Top canvas toolbar
+  # ========================================
+  controllerBar:
+    highlightRelationships: "Evidenzia relazioni" # Toggle button (highlights related tables)
+    unhighlightRelationships: "Rimuovi evidenziazione relazioni" # Toggle button (removes highlight)
+    enableGrid: "Abilita griglia" # Toggle button (shows grid)
+    disableGrid: "Disabilita griglia" # Toggle button (hides grid)
+    addStickyNote: "Aggiungi nota adesiva" # Button (creates new sticky note on canvas)
+    searchTables: "Cerca tabelle" # Button (opens table search panel)
+    hideTableSearch: "Nascondi ricerca tabelle" # Button (closes table search panel)
+    enterFullscreen: "Schermo intero" # Button (goes fullscreen)
+    exitFullscreen: "Esci da schermo intero" # Button (exits fullscreen)
+
+  # ========================================
+  # Auto Arrange - Modal dialog (Ctrl/Cmd+Shift+A)
+  # ========================================
+  autoArrange:
+    title: "Scegli l'algoritmo di disposizione automatica" # Modal title
+    leftRight: "Da sinistra a destra" # Algorithm option (horizontal layout L→R)
+    snowflake: "A fiocco di neve" # Algorithm option (snowflake schema layout)
+    compact: "Compatto" # Algorithm option (compact layout)
+    confirmMessage: "Il tuo diagramma verrà riordinato automaticamente e non potrai annullare l'operazione. Sei sicuro?" # Warning in modal body
+    confirm: "Conferma (↵)" # Confirm button (with Enter shortcut)
+    cancel: "Annulla (Esc)" # Cancel button (with Escape shortcut)
+
+  # ========================================
+  # Detail Level - Dropdown (eye icon)
+  # ========================================
+  detailLevel:
+    title: "Livello di dettaglio" # Dropdown title
+    all: "Tutti i campi" # Option (shows all fields)
+    tables: "Solo nomi tabelle" # Option (only shows table names, hides all fields)
+    keys: "Solo chiavi" # Option (only shows primary and foreign keys, hides other fields)
+  relationshipMode:
+    title: "Tipo di collegamento" # Dropup prefix + dropup header
+    relationships: "Relazioni tra entità" # Option (FK relationship lines)
+    dependencies: "Dipendenze dai dati" # Option (data-lineage dependency lines)
+    all: "Tutti i tipi" # Option (shows both relationships and dependencies)
+
+  # ========================================
+  # View Dropdown - View selector menu
+  # ========================================
+  viewDropdown:
+    renameView: "Rinomina vista" # Menu option (renames current view)
+    removeView: "Rimuovi vista" # Menu option (deletes current view)
+    newView: "Nuova vista" # Menu option (creates new view)
+    disabled: "(disabilitato)" # Label for restricted views (free users)
+
+  # ========================================
+  # Diff Legend - Shown in compare mode
+  # ========================================
+  diffLegend:
+    added: "Aggiunto" # Green legend item (new tables)
+    modified: "Modificato" # Yellow legend item (changed tables)
+    deleted: "Eliminato" # Red legend item (removed tables)
+
+  # ========================================
+  # Viewport Controller - Bottom-right corner
+  # ========================================
+  viewportController:
+    zoomOut: "Riduci zoom (tieni premuto per accelerare)" # Zoom out button tooltip
+    zoomIn: "Ingrandisci zoom (tieni premuto per accelerare)" # Zoom in button tooltip
+    editZoomLevel: "Clicca per modificare il livello di zoom" # Zoom input tooltip
+    zoomToFit: "Adatta tutti gli elementi alla vista" # Fit to screen button tooltip
+    enablePanMode: "Clicca per abilitare la modalità panoramica" # Pan mode toggle tooltip
+    disablePanMode: "Clicca per disabilitare la modalità panoramica" # Pan mode toggle tooltip
+    panModeHint: "Oppure tieni premuto Spazio/Tasto centrale del mouse e trascina" # Hint text for pan mode
+
+  # ========================================
+  # Common - Shared buttons in renderer
+  # ========================================
+  common:
+
+  # ========================================
+  # Empty State Hint - Canvas empty states
+  # ========================================
+  emptyStateHint:
+    filtered:
+      title: "La tua vista del diagramma è vuota" # Empty state title (all tables hidden)
+      description: "Tutte le tabelle in questa vista sono attualmente nascoste. Usa il pannello di ricerca tabelle per mostrarle nella vista del diagramma." # Empty state description
+      openTableSearchPanel: "Apri il pannello di ricerca tabelle" # Button (opens sidebar)
+    noDbml:
+      title: "Nessuno schema di database trovato" # Empty state title (no tables in DBML)
+      description: "Il tuo codice DBML non contiene ancora tabelle. Aggiungi tabelle e relazioni per vedere il tuo diagramma." # Empty state description
+      startAddingTables: "Inizia ad aggiungere tabelle" # Button (opens add table modal)
+
+  # ========================================
+  # Loading States - Loading indicator messages
+  # ========================================
+  loading:
+    initializingTables: "Inizializzazione tabelle in corso..." # Loading message (table loading)
+    initializingTablesProgress: "Inizializzazione tabelle in corso... ({current}/{total})" # Loading with progress
+    initializingTableGroups: "Inizializzazione gruppi di tabelle in corso..." # Loading message (group loading)
+    initializingTableGroupsProgress: "Inizializzazione gruppi di tabelle in corso... ({current}/{total})" # Loading with progress
+    initializingReferences: "Inizializzazione riferimenti in corso..." # Loading message (relationship loading)
+    initializingReferencesProgress: "Inizializzazione riferimenti in corso... ({current}/{total})" # Loading with progress
+    arrangingDiagram: "Disposizione del diagramma in corso..." # Loading message (layout calculation)
+    finalizingDiagram: "Completamento del diagramma in corso..." # Loading message (render completion)
+
+  # ========================================
+  # Filter Config Tags - Filter chips in canvas
+  # ========================================
+  filterConfigTags:
+    all: "Tutti" # Filter chip (shows all items)
+    allTables: "Tutte le tabelle" # Filter chip (all tables)
+    allNotes: "Tutte le note" # Filter chip (all notes)
+    nothing: "Niente" # Filter chip (nothing shown)
+    moreItems: "{count} altri elementi:" # Overflow indicator (more filters)
+
+  # ========================================
+  # Sticky Notes - Sticky note section
+  # ========================================
+  stickyNotesSection:
+    title: "Note adesive" # Section title (left sidebar)
+  stickyNotes:
+    untitledNote: "Nota senza titolo" # Default name for new notes
+    removeNoteConfirmation: "Rimuovere la nota?" # Delete confirmation dialog title
+    'yes': "Sì" # Confirm button (delete note)
+    'no': "No" # Cancel button
+
+  # ========================================
+  # Table List - Table list in sidebar
+  # ========================================
+  tableList:
+    noTablesFound: "Nessuna tabella trovata" # Empty state (search results)
+
+  # ========================================
+  # Record Preview - Preview data sample modal
+  # ========================================
+  recordPreviewModal:
+    infoTooltip: "Visualizza righe di esempio per comprendere rapidamente i dati della tabella"
+    editBtn:
+      title: "Modifica"
+      tooltip: "Modifica campione dati"
+    downloadBtn:
+      title: "Scarica"
+      tooltip: "Scarica CSV"
+
+  # ========================================
+  # View Note Modal - Preview/edit markdown note
+  # ========================================
+  viewNoteModal:
+    infoTooltip: "La formattazione con Markdown è supportata"
+    editBtn:
+      title: "Modifica"
+    cancelBtn: "Annulla"
+    saveBtn: "Salva"

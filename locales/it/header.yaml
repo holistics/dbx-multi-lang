@@ -1,0 +1,115 @@
+# Header translations - Top header toolbar
+# UI Areas: Header toolbar, Account dropdown, Status indicators, Publish modal
+
+header:
+  # ========================================
+  # Header toolbar buttons - Left side of top header
+  # ========================================
+  buttons:
+    save: "Salva" # Blue button in header toolbar (saves current diagram - Ctrl/Cmd+S)
+    share: "Condividi" # Share icon button in header toolbar (opens share modal)
+    editAsNew: "Modifica come nuovo" # Option in header dropdown (duplicates diagram to personal workspace)
+    signOut: "Disconnettiti" # Last item in account dropdown (top-right user menu)
+    publishToDbdocs: "Pubblica su DBDocs" # Button in header export dropdown
+    publish: "Pubblica" # Blue button in share modal (publishes current diagram to DBDocs)
+
+  # ========================================
+  # Draft badge - Small indicator next to diagram name
+  # ========================================
+  draftBadge:
+    label: "Bozza" # Small badge showing "Draft" label (appears next to unsaved diagram name)
+    discardAll: "Scarta tutte le bozze" # Button in draft dropdown (discards all draft versions)
+
+  # ========================================
+  # Placeholders - Input field placeholders
+  # ========================================
+  placeholders:
+    untitledDiagram: "Diagramma senza titolo" # Placeholder text in header diagram name input (when name is empty)
+
+  # ========================================
+  # Status - Diagram sync status indicators (header toolbar)
+  # ========================================
+  status:
+    readOnly: "Sola lettura" # Status label when viewing read-only diagram (gray text)
+    synced: "Sincronizzato" # Status label showing all changes synced (green dot + text)
+    unsynced: "Non sincronizzato" # Status label when changes pending sync (yellow dot + text)
+    saved: "Salvato" # Status label when diagram saved (blue text)
+    unsaved: "Non salvato" # Status label with unsaved indicator (orange text)
+
+  # ========================================
+  # Sync status - Detailed sync messages (header toolbar tooltip/status)
+  # ========================================
+  syncStatus:
+    reconnecting: "Riconnessione in corso..." # Toast message when reconnecting to server
+    saving: "Salvataggio diagramma in corso..." # Toast message during manual save
+    autoSaving: "Salvataggio automatico del diagramma in corso..." # Toast during auto-save
+    disconnected: "Sei disconnesso. Le tue modifiche verranno salvate localmente e sincronizzate con il server non appena tornerai online." # Toast when offline
+    readOnly: "Questo diagramma è in sola lettura" # Toast explaining read-only state
+    unsaved: "Questo diagramma non è salvato" # Toast when diagram has unsaved changes
+    unsavedWithLogin: "Questo diagramma non è salvato. È necessario effettuare l'accesso per salvare i diagrammi" # Toast prompting login for saving
+
+  # ========================================
+  # Tooltips - Tooltip text for header elements
+  # ========================================
+  tooltips:
+    clickToEdit: "Clicca per modificare" # Tooltip on diagram name (when hovering)
+    openInDbdocs: "Apri in dbdocs" # Tooltip on DBDocs link icon
+    noPublishedContent: "Questo progetto non ha ancora contenuti pubblicati" # Tooltip on empty DBDocs link
+    editAsNewDisabledWorkspace: "<p class=\"text-center\"><b>Modifica come nuovo</b> non è disponibile perché il tuo spazio di lavoro è stato disabilitato a causa dell'annullamento dell'abbonamento.</p>" # Tooltip explaining disabled Edit as New
+    editAsNewNormal: "Modifica come nuovo" # Tooltip on Edit as New button (normal state)
+
+  # ========================================
+  # Draft status - Draft version status messages
+  # ========================================
+  draftStatus:
+    upToDate: "La bozza è aggiornata" # Status text when draft matches published version
+    hasUnsavedChanges: "La bozza contiene modifiche non salvate" # Status text when draft has changes
+
+  # ========================================
+  # Project status - Published project status messages
+  # ========================================
+  projectStatus:
+    upToDate: "Il progetto è aggiornato" # Status when published project matches draft
+    hasUnsavedChanges: "Il progetto contiene modifiche non salvate" # Status when draft not published
+    synchronized: "Il contenuto del tuo diagramma è sincronizzato con il server" # Status confirming sync
+    allChangesSaved: "Tutte le modifiche sono state salvate" # Toast when everything saved
+
+  # ========================================
+  # Publish validation - Messages in share/publish modal
+  # ========================================
+  publishValidation:
+    parseError: "C'è un errore nel tuo diagramma. Per favore correggi tutti gli errori di sintassi prima di pubblicare." # Error in share modal when DBML has errors
+    saveFirst: "Per favore salva prima il tuo diagramma" # Error when trying to publish unsaved diagram
+    ownerPublishFirst: "Chiedi al proprietario del diagramma di pubblicare prima un documento del database" # Error for collaborators without publish rights
+    needLogin: "Effettua l'accesso per pubblicare le tue modifiche" # Error when publishing without authentication
+    hasErrors: "Sono presenti errori nel tuo diagramma" # Error summary in publish modal
+    noChanges: "Nessuna modifica da pubblicare" # Info when diagram unchanged
+
+  # ========================================
+  # Modals - Modal dialog texts (discard, overwrite)
+  # ========================================
+  modals:
+    discardDraftsTitle: "Scarta tutte le bozze" # Modal title (discard drafts confirmation)
+    discardDraftsContent: "Sei sicuro di voler scartare tutte le tue bozze e recuperare il contenuto più recente del progetto? Questa azione non può essere annullata." # Modal warning text
+    discardButton: "Scarta" # Primary button in discard modal (red)
+    cancelButton: "Annulla" # Secondary button (gray)
+
+  # ========================================
+  # Notifications - Toast notification messages
+  # ========================================
+  notifications:
+    publishSuccess: "Progetto pubblicato con successo e bozze rimosse" # Success toast after publish
+    publishFailed: "Impossibile pubblicare il progetto" # Error toast when publish fails
+    discardSuccess: "Tutte le bozze sono state scartate ed è stata caricata l'ultima versione" # Success toast after discard
+    discardFailed: "Impossibile scartare le bozze" # Error toast when discard fails
+    showPublishFailed: "Impossibile mostrare la conferma di pubblicazione" # Error toast when publish modal fails to open
+    renameFailed: "Impossibile rinominare il diagramma. Riprova" # Error toast on rename failure
+
+  # ========================================
+  # Account dropdown - Top-right user menu
+  # ========================================
+  accountDropdown:
+    loggedInWithSSO: "Accesso effettuato tramite SSO" # Label showing SSO login status (top-right menu)
+    darkMode: "Modalità scura" # Toggle switch label for dark mode theme
+    managePersonalPlan: "Gestisci piano Personal" # Link to billing/subscription management
+    manageAccount: "Gestisci account" # Link to account settings page

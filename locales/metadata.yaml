@@ -60,3 +60,9 @@ ko:
   nativeName: 한국어
   flag: 🇰🇷
   hello: 안녕하세요
+
+it:
+  name: Italian
+  nativeName: Italiano
+  flag: 🇮🇹
+  hello: Ciao

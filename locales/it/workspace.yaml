@@ -1,0 +1,182 @@
+# Workspace translations - Sidebar, dropdown, and settings
+# UI Areas: Left sidebar, Workspace dropdown, Settings page
+
+workspace:
+  # ========================================
+  # General workspace labels - Sidebar and dropdown
+  # ========================================
+  personalWorkspace: "Spazio di lavoro personale" # Label for personal workspace (when no team workspace selected in dropdown)
+  personal: "Personale" # Short label for personal workspace type
+  createWorkspace: "Crea nuovo spazio di lavoro" # Button/link to create new team workspace (sidebar)
+  dashboard: "Dashboard" # Sidebar link to workspace dashboard (left sidebar)
+  newDiagram: "Nuovo diagramma" # Button to create new diagram (sidebar)
+  newSampleDiagram: "Nuovo diagramma di esempio" # Dropdown with sample diagram templates (sidebar)
+  basic: "Base" # Label for basic tier/sample (templates dropdown)
+  advanced: "Avanzato" # Label for advanced tier/sample (templates dropdown)
+  myDiagrams: "I miei diagrammi" # Sidebar section for personal diagrams
+  sharedWithMe: "Condivisi con me" # Sidebar section for shared diagrams
+  workspace: "Spazio di lavoro" # Label for team workspace type
+  private: "Privato" # Privacy label for private items
+  readOnlyMode: "Lo spazio di lavoro è in modalità sola lettura a causa dell'annullamento dell'abbonamento. Rinnova l'abbonamento per abilitare le funzionalità dello spazio di lavoro."
+
+  # ========================================
+  # Settings - Workspace settings page
+  # ========================================
+  settings:
+    title: "Impostazioni" # Settings page title
+    workspaceName: "Nome dello spazio di lavoro" # Label for workspace name field
+    update: "Aggiorna" # Save button for settings
+    loadingInfo: "Caricamento delle informazioni dello spazio di lavoro in corso..." # Loading message when fetching settings
+    singleSignOn: "Single Sign-On" # SSO settings section title
+    authenticateWithSSO: "Autenticazione tramite SSO (SAML)" # SSO toggle label
+    enabled: "Abilitato" # Status label for enabled
+    samlConfiguration: "Configurazione SAML" # SAML config section title
+    enforceSSO: "Forza SSO" # Enforce SSO toggle
+    enforceSSODescription: "Una volta forzato, i membri dello spazio di lavoro potranno accedere a questo spazio di lavoro solo tramite SSO" # Help text for enforce SSO
+    identityProviderUrl: "URL Single Sign-On dell'Identity Provider" # IdP URL field label
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
+    identityProviderUrlHelp: "L'URL dell'endpoint del tuo Identity Provider." # Help text for IdP URL
+    certificate: "Certificato" # Certificate field label
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<Certificato X.509>\n-----END CERTIFICATE-----" # Placeholder for certificate
+    samlConfigurationForProvider: "Configurazione SAML per il tuo identity provider" # Provider config section
+    assertionConsumerServiceUrl: "URL dell'Assertion Consumer Service" # ACS URL field label
+    assertionConsumerServiceUrlHelp: "Chiamato anche \"URL del servizio della parte richiedente\" o \"URL di risposta\"" # Help text for ACS URL
+    identifier: "Identificatore" # Identifier field label
+    identifierHelp: "Chiamato anche \"Issuer\" o \"Identificatore attendibilità parte affidataria\"" # Help text for identifier
+    saveSSOSettings: "Salva impostazioni Single Sign-On" # Save SSO settings button
+    manageWorkspace: "Gestisci spazio di lavoro" # Link to workspace management
+    removeWorkspace: "Rimuovi spazio di lavoro..." # Danger button to remove workspace
+    cancelRemovalRequest: "Annulla richiesta di rimozione" # Cancel workspace removal button
+    removalWarning: "Questa azione non può essere annullata!" # Warning about removal
+    removalScheduledHours: "Il tuo spazio di lavoro verrà rimosso tra poche ore." # Removal scheduled message
+    removalScheduledDay: "Il tuo spazio di lavoro verrà rimosso tra un giorno." # Removal scheduled message
+    removalScheduledDays: "Il tuo spazio di lavoro verrà rimosso tra {count} giorni." # Removal scheduled message
+    removeWorkspaceTitle: "Rimuovere questo spazio di lavoro?" # Remove workspace modal title
+    removeWorkspaceContent: "Pianificheremo la rimozione del tuo spazio di lavoro dopo 7 giorni. Puoi annullare la pianificazione di rimozione dello spazio di lavoro in questo menu \"Impostazioni\" se cambi idea." # Remove workspace modal content
+    removeWorkspaceButton: "Rimuovi questo spazio di lavoro" # Confirm remove button
+    removeWorkspaceSuggestion: "Digita <i>elimina definitivamente</i> nel campo di testo per confermare." # Confirmation input prompt
+    removalRequestCanceled: "Richiesta di rimozione annullata con successo!" # Success toast
+    removalRequestCreated: "Richiesta di rimozione creata con successo!" # Success toast
+    contactSupportError: "Si è verificato un errore, contatta il nostro supporto all'indirizzo dbdiagram@holistics.io" # Support contact message
+    workspaceNameUpdated: "Nome dello spazio di lavoro aggiornato con successo" # Success toast
+    workspaceNameUpdateFailed: "Aggiornamento del nome dello spazio di lavoro non riuscito, riprova!" # Error toast
+    ssoConfigFetchFailed: "Impossibile recuperare la configurazione SSO. Prova a ricaricare la pagina." # Error toast
+    ssoConfigUpdated: "Configurazione SSO aggiornata con successo" # Success toast
+    ssoConfigSaveFailed: "Impossibile salvare la configurazione SSO. Riprova." # Error toast
+
+  # ========================================
+  # Members - Member management
+  # ========================================
+  members:
+    invite: "Invita" # Invite button
+    invitePlaceholder: "Inserisci indirizzo email" # Email input placeholder
+    inviteButton: "Invita" # Send invite button
+    members: "Membri" # Members section title
+    role:
+      member: "Membro" # Member role label
+      owner: "Proprietario" # Owner role label
+    actions:
+      remove: "Rimuovi" # Remove action
+      removeInvitation: "Rimuovi questo invito" # Remove invitation action
+      removeMember: "Rimuovi questo membro" # Remove member confirmation
+    dialog:
+      removeTitle: "Rimuovere dallo spazio di lavoro?" # Remove dialog title
+      removeMessage: "Stai per rimuovere <b>{email}</b> dal tuo spazio di lavoro, conferma la tua azione!" # Remove dialog message
+    notifications:
+      removeSuccess: "{email} è stato rimosso dallo spazio di lavoro con successo!" # Success toast
+      removeError: "Impossibile rimuovere {email} dallo spazio di lavoro!" # Error toast
+
+  # ========================================
+  # Diagram List - Diagram list view
+  # ========================================
+  diagramList:
+    searchPlaceholder: "Cerca diagrammi" # Search input placeholder
+    freePlan: "Gratuito" # Label for free plan
+    plan: "piano" # Plan suffix label
+    diagramCount: "Diagrammi: {count}/{limit}" # Diagram count indicator
+    duplicate: "Duplica" # Duplicate button
+    transferOwnership: "Trasferisci proprietà" # Transfer ownership button
+    delete: "Elimina" # Delete button
+    untitledDiagram: "Diagramma senza titolo" # Default name for unnamed diagrams
+    columns:
+      name: "Nome" # Table column header (diagram name)
+      dateCreated: "Data di creazione" # Table column header
+      dateModified: "Data di modifica" # Table column header
+      owner: "Proprietario" # Table column header
+
+  # ========================================
+  # Sidebar - Sidebar sections
+  # ========================================
+  sidebar:
+    apiTokens: "Token API" # API Tokens link (left sidebar)
+    billing: "Fatturazione" # Billing link (left sidebar)
+
+  # ========================================
+  # Empty States - Empty diagrams views
+  # ========================================
+  emptyDiagrams:
+    title: "Nessun diagramma presente" # Empty diagrams title
+    created:
+      description: "Non ci sono diagrammi nel tuo spazio di lavoro. Puoi crearne uno nuovo con il pulsante" # Empty state description (part 1)
+      button: "+ Nuovo diagramma" # Button to create first diagram
+      buttonSuffix: "." # Empty state description (part 2)
+    shared:
+      description: "Non sei ancora stato invitato a nessun diagramma." # Empty state for shared diagrams
+    workspacePublic:
+      description: "Non ci sono diagrammi mostrati al team. Puoi creare nuovi diagrammi con il pulsante" # Empty state for public workspace
+    workspacePrivate:
+      description: "Non ci sono diagrammi privati. Puoi creare un nuovo diagramma e mantenerlo personale." # Empty state for private workspace
+
+  # ========================================
+  # Plan - Plan labels
+  # ========================================
+  plan:
+    pro: "Piano Pro" # Pro plan label
+    free: "Piano Free" # Free plan label
+    team: "Piano Team" # Team plan label
+    disabled: "(disabilitato)" # Disabled plan label
+
+  # ========================================
+  # Welcome - Welcome modal
+  # ========================================
+  welcome:
+    title: "Benvenuto nello Spazio di lavoro del team!" # Welcome modal title
+    description: "Inizia creando nuovi diagrammi e collaborando con i tuoi compagni di squadra." # Welcome modal description
+    learnMore: "Scopri di più →" # Learn more link
+
+  # ========================================
+  # API Tokens - API tokens management
+  # ========================================
+  apiTokens:
+    title: "Token API" # API Tokens page title
+    description: "I token API vengono utilizzati per l'autenticazione all'API di dbdiagram ogni volta che viene effettuata una richiesta API. Come le password, il token API deve rimanere segreto." # Description text
+    seeDocumentation: "Vedi la documentazione." # Link to API docs
+    generateNew: "Genera nuovo token" # Button to generate token
+    columns:
+      name: "Nome" # Token name column header
+      dateCreated: "Data di creazione" # Created date column header
+      lastUsed: "Ultimo utilizzo" # Last used column header
+      owner: "Proprietario" # Owner column header
+    empty: "Nessun token creato" # Empty state message
+    actions:
+      revoke: "Revoca" # Revoke token action
+    modal:
+      newToken: "Nuovo token API" # New token modal title
+      tokenName: "Nome del token" # Token name input label
+      tokenNamePlaceholder: "Inserisci il nome del token" # Token name placeholder
+      generate: "Genera token" # Generate button
+      copyWarning: "Assicurati di copiare il token API adesso, poiché non potrai più visualizzarlo in seguito." # Warning about copying token
+      copied: "Copiato" # Success message after copying
+      copy: "Copia" # Copy button
+      done: "Fatto" # Done button
+      revokeTitle: "Revocare il token API?" # Revoke confirmation title
+      revokeContent: "Vuoi revocare il token API \"{name}\"? Questa azione non può essere annullata." # Revoke confirmation content
+      revokePositive: "Revoca token" # Confirm revoke button
+      revokeSuggestion: "Digita <i>elimina definitivamente</i> nel campo di testo per confermare." # Revoke input prompt
+      generateSuccess: "Token generato con successo" # Success toast
+    errors:
+      nameEmpty: "Il nome del token non può essere vuoto" # Validation error
+      nameInvalid: "Il nome del token può contenere solo lettere, numeri, spazi, \"-\" o \"_\"" # Validation error
+      nameWhitespace: "Il nome del token non può essere vuoto o contenere solo spazi" # Validation error
+      upgradeRequired: "Effettua l'upgrade del tuo piano per creare token e accedere alla nostra API" # Upgrade required error
+      ownerOnly: "Solo il proprietario dello spazio di lavoro può generare nuovi token" # Permission error

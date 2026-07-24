@@ -1,0 +1,87 @@
+# Authentication translations - Login, Signup, Password pages
+# UI Areas: Auth pages (/login, /signup, /forgot-password)
+
+auth:
+  # ========================================
+  # Login Page - Email/password login
+  # ========================================
+  login:
+    email: "Email" # Email input label
+    loginWithGithub: "Accedi con GitHub" # Social login button (GitHub)
+    loginWithMicrosoft: "Accedi con Microsoft" # Social login button (Microsoft)
+
+  # ========================================
+  # OAuth Errors - OAuth flow errors
+  # ========================================
+  oauth:
+    authorizationError: "Autorizzazione non riuscita" # OAuth error title
+    processing: "Elaborazione in corso..." # Loading state (OAuth redirect)
+    justAMomentPleaseWait: "Un momento, attendere prego..." # Loading message (OAuth redirect)
+    signedInAs: "Hai effettuato l'accesso come" # Session label (SSO indicator)
+    failedSignInGitHub: "Impossibile accedere con GitHub" # Error toast (GitHub OAuth)
+    failedSignInMicrosoft: "Impossibile accedere con Microsoft, riprova!" # Error toast (Microsoft OAuth)
+
+  # ========================================
+  # Form Errors - Validation error messages
+  # ========================================
+  errors:
+    invalidEmail: "Indirizzo email non valido, riprova!" # Email validation
+    githubPopupBlocked: "Consenti i popup per accedere con GitHub" # Browser setting error
+
+  # ========================================
+  # OTP Authentication - One-time password
+  # ========================================
+  otp:
+    signInWithEmail: "Accedi con l'email" # OTP tab label
+    otpSentTo: "Codice OTP inviato a" # Label (shows masked email)
+    wrongEmail: "Indirizzo email errato?" # Change email link
+    changeEmail: "Modifica email" # Change email button
+    inputEmail: "Inserisci il tuo indirizzo email" # Email input placeholder
+    inputYourOtp: "Inserisci il tuo codice OTP" # OTP input placeholder
+    inputOtpCode: "Inserisci il codice OTP inviato alla tua email" # OTP help text
+    signInSuccess: "Accesso effettuato con successo" # Success message
+    didntReceiveOtp: "Non hai ricevuto il codice OTP?" # Help text (resend section)
+    resendOtp: "Reinvia OTP" # Resend button
+    resendAfter: "Puoi reinviare l'OTP tra {counter}s" # Timer label (disabled state)
+    submit: "Invia" # OTP submit button
+    sendOtpFailed: "Invio dell'OTP non riuscito, riprova!" # Error toast
+
+  # ========================================
+  # SSO Login - Single Sign-On
+  # ========================================
+  sso:
+    orContinueWith: "o continua con" # SSO divider text
+
+  # ========================================
+  # Embedded Portal - OAuth portal pages
+  # ========================================
+  portal:
+    signIn: "Accedi" # Button (portal embedded login)
+    signInWith: "Accedi con"
+
+  # ========================================
+  # Additional Errors - Extra error messages
+  # ========================================
+  additional:
+    unknownError: "Errore sconosciuto" # Fallback error
+    invalidOtp: "OTP non valido, riprova!" # OTP validation error
+    cannotValidateOtp: "Impossibile verificare l'OTP, riprova!" # OTP validation failure
+    emailNotVerified: "La tua email non è verificata. Verificala nel tuo account Microsoft." # MS email verification
+    cannotSignInMicrosoftSSO: "Impossibile accedere con Microsoft SSO, riprova!" # MS SSO error
+    cannotSignIn: "Impossibile accedere, riprova!" # Generic sign-in error
+    failedReloadProject: "Impossibile ricaricare il progetto dopo il login. Per favore ricarica la pagina." # Reload error
+    loginError: "Errore di accesso" # Generic login error
+    signInCancelled: "Accesso annullato. Riprova." # Cancelled flow
+
+  # ========================================
+  # Logout Callback - Post-logout redirect
+  # ========================================
+  logoutCallback:
+    redirecting: "Reindirizzamento in corso..." # Loading message (logout redirect)
+    redirectDescription: "Verrai reindirizzato all'applicazione tra pochi secondi." # Help text
+
+  popupsWarning:
+    title: "Impossibile aprire la finestra di accesso"
+    description: "La finestra di accesso potrebbe essere stata bloccata dal browser o da un'estensione. Controlla le impostazioni e riprova."
+    needHelp: "Hai bisogno di aiuto?"
+    contactSupport: "Contatta il supporto"
