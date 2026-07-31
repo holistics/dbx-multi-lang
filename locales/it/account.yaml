@@ -1,0 +1,172 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Account page
+  # ========================================
+  page:
+    title: "Gestisci il tuo account dbx"
+    description: "Tutte le modifiche apportate qui si rifletteranno in tutti e tre i servizi:"
+    authenticating: "Autenticazione in corso..."
+
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    loadingInfo: "Caricamento informazioni account in corso..." # Loading spinner text
+    displayName: "Nome visualizzato" # Label for display name field
+    email: "Email" # Label for email field
+
+    # Connected accounts section
+    connectedAccounts:
+      title: "Account collegati" # Section title
+      noAccounts: "Nessun account collegato" # Empty state text
+      loggedInWith: "Accesso effettuato con {provider}" # Provider badge label (e.g., "Logged in with Google")
+
+    # Manage account section
+    manageTitle: "Gestisci account" # Section title
+    changeEmail: "Modifica indirizzo email" # Change email button label
+    changeEmailInProgress: "Hai una modifica dell'email in corso, attendi" # Disabled message when email change is in progress
+    changeEmailFailed: "L'ultima modifica dell'email non è riuscita, contatta il nostro supporto all'indirizzo dbdiagram@holistics.io" # Disabled message when last email change failed
+
+    # Account removal
+    removal:
+      removeAccount: "Rimuovi account" # Remove account button label
+      cancelRequest: "Annulla richiesta di rimozione" # Cancel removal request button label
+      removedAfter: "Il tuo account verrà rimosso tra {time}." # Removal countdown text
+      aFewHours: "poche ore" # Time label when less than 1 day remaining
+      aDay: "un giorno" # Time label when exactly 1 day remaining
+      days: "{count} giorni" # Time label for multiple days remaining
+      cancelSuccess: "Richiesta di rimozione annullata con successo!" # Success toast after canceling
+      status:
+        inProgressTitle: "La rimozione del tuo account è in corso."
+        inProgressDescription: "Potrebbe richiedere un momento. Puoi chiudere questa finestra in sicurezza: il processo continuerà in background."
+        completedTitle: "Il tuo account è stato rimosso con successo."
+        completedDescription: "Puoi chiudere questa finestra in sicurezza. Nota: non verrà effettuato il logout automatico. Esci manualmente dagli altri dispositivi."
+        failedTitle: "Rimozione dell'account non riuscita."
+        failedContactSupport: "Contatta il nostro team di supporto all'indirizzo"
+
+    notifications:
+      profileUpdated: "Profilo utente aggiornato con successo."
+      profileImageUpdated: "Immagine del profilo aggiornata con successo."
+    profileImage:
+      title: "Immagine del profilo"
+      switchToGravatar: "Passa all'immagine del profilo di Gravatar"
+      switchToGravatarHint: "Per modificare il tuo avatar utente, passa all'immagine del profilo di Gravatar."
+      redirectingToGravatar: "Reindirizzamento a Gravatar in corso..."
+      changeOnGravatar: "Modifica l'immagine del profilo su Gravatar"
+      doneUploading: "Hai terminato il caricamento dell'immagine su Gravatar?"
+      gravatarHint: "Accedi a Gravatar con la tua email per modificare l'immagine del profilo."
+      refresh: "Aggiorna l'immagine del profilo"
+    userInfo:
+      title: "Informazioni utente"
+    dangerZone:
+      title: "Zona pericolosa"
+    errors:
+      sessionExpired: "Sessione scaduta, effettua nuovamente l'accesso."
+      updateProfileFailed: "Impossibile aggiornare il profilo utente, riprova."
+      loadProfileFailed: "Impossibile caricare il profilo utente, prova a ricaricare la pagina."
+      updateProfileImageFailed: "Impossibile aggiornare l'immagine del profilo utente, riprova."
+      cancelRemovalFailed: "Impossibile annullare la richiesta di rimozione dell'account, riprova."
+
+  # ========================================
+  # Remove Account modal - 3-step account removal flow
+  # ========================================
+  removeAccountModal:
+    title: "Rimuovi account"
+    loadingAccountData: "Caricamento dati account in corso..."
+    steps:
+      whatWillBeRemoved: "Cosa verrà rimosso"
+      verifyIdentity: "Verifica la tua identità"
+      identityVerified: "Identità verificata"
+      deleteAccount: "Elimina account"
+      accountDeleted: "Account eliminato"
+    step1:
+      description: "La rimozione del tuo account eliminerà permanentemente i seguenti dati:"
+      warning: "Questa azione è permanente e non può essere annullata."
+    step2:
+      otpSentTo: "Inserisci il codice a 6 cifre inviato a"
+      resendCode: "Reinvia codice"
+      resendCodeCooldown: "Reinvia codice ({seconds}s)"
+    step3:
+      description: "Stai per eliminare permanentemente il tuo account e tutti i dati associati. L'azione non può essere annullata."
+      confirmButton: "Elimina il mio account"
+    errors:
+      generic: "Si è verificato un errore. Riprova."
+      ssoAccount: "Gli account SSO non possono gestire le impostazioni dell'account personale."
+      removalInProgress: "Una rimozione è già in corso."
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: "Modifica email" # Modal title
+
+    # Step labels (stepper header)
+    steps:
+      verifyCurrentEmail: "Verifica email attuale" # Step 1 title
+      currentEmailVerified: "Email attuale verificata" # Step 1 completed label
+      enterNewEmail: "Inserisci nuova email" # Step 2 title
+      verifyNewEmail: "Verifica nuova email" # Step 3 title
+      newEmailVerified: "Nuova email verificata" # Step 3 completed label
+      confirmChange: "Conferma modifica" # Step 4 title
+      emailChanged: "Email modificata" # Step 4 completed label
+
+    # Step 1: Verify current email
+    verifyCurrent:
+      description: "Per sicurezza, devi verificare la tua email attuale tramite OTP prima di modificarla." # Step 1 description
+      currentEmailLabel: "Email attuale:" # Label before current email address
+      sendCode: "Invia codice" # Send OTP button
+      otpSentMessage: "Abbiamo inviato un codice a 6 cifre alla tua email. Il codice scade tra 4 minuti." # OTP sent info text
+      verificationCode: "Codice di verifica" # OTP input label
+      resendCode: "Reinvia codice" # Resend button label
+      resendCodeCooldown: "Reinvia codice ({seconds}s)" # Resend button with cooldown timer
+      verify: "Verifica" # Verify OTP button
+
+    # Step 2: Enter new email
+    enterNew:
+      description: "Inserisci il tuo nuovo indirizzo email. Invieremo un codice di verifica per confermare che sia il tuo." # Step 2 description
+      newEmailLabel: "Nuovo indirizzo email" # New email input label
+      placeholder: "Inserisci la nuova email" # New email input placeholder
+      sendCode: "Invia codice" # Send OTP button
+
+    # Step 3: Verify new email
+    verifyNew:
+      otpSentTo: "Abbiamo inviato un codice a 6 cifre a" # Text before new email address
+      codeExpires: "Il codice scade tra 4 minuti." # OTP expiry info
+      verificationCode: "Codice di verifica" # OTP input label
+      resendCode: "Reinvia codice" # Resend button label
+      resendCodeCooldown: "Reinvia codice ({seconds}s)" # Resend button with cooldown timer
+      back: "Indietro" # Back button to return to step 2
+      verify: "Verifica" # Verify OTP button
+
+    # Step 4: Confirm change
+    confirm:
+      description: "Stai per modificare il tuo indirizzo email:" # Step 4 description
+      from: "Da:" # Label for current email in summary
+      to: "A:" # Label for new email in summary
+      pleaseNote: "Nota bene:" # Notes section title
+      noteNotifications: "La nuova email riceverà tutte le notifiche dell'account (fatturazione, inviti, ecc.) in futuro." # Note about notifications
+      noteLogout: "Non verrà effettuato il logout automatico. Esci manualmente dagli altri dispositivi." # Note about logout
+      noteIrreversible: "Questa azione non può essere annullata." # Note about irreversibility
+      confirmButton: "Conferma modifica" # Confirm change button
+
+    # Polling notifications for email change propagation
+    polling:
+      inProgressTitle: "Aggiornamento dell'email in corso in tutti i servizi..." # Notification title while syncing
+      inProgressText: "Potrebbe richiedere alcuni minuti. Puoi continuare a utilizzare l'app." # Notification body while syncing
+      completedText: "Email aggiornata con successo in tutti i servizi!" # Success notification
+      failedTitle: "Alcuni servizi non sono riusciti a sincronizzare la tua nuova email." # Warning notification title
+      failedText: "La tua email è stata modificata, ma alcuni servizi potrebbero mostrare ancora quella vecchia. Contatta il nostro supporto all'indirizzo dbdiagram@holistics.io." # Warning notification body
+
+    # Error messages
+    errors:
+      invalidEmail: "Inserisci un indirizzo email valido" # Invalid email format
+      incorrectCode: "Il codice inserito non è corretto" # Wrong OTP code
+      codeExpired: "Il codice di verifica è scaduto. Richiedine uno nuovo." # OTP expired
+      codeAlreadyUsed: "Questo codice è già stato utilizzato. Richiedine uno nuovo." # OTP already used
+      requestExpired: "La richiesta di verifica è scaduta. Richiedi un nuovo codice." # OTP request token expired
+      emailInUse: "Questa email è già in uso da un altro account" # Duplicate email
+      verificationExpired: "La verifica è scaduta. Ricomincia da capo." # Verification token expired
+      generic: "Si è verificato un errore. Riprova." # Fallback error
