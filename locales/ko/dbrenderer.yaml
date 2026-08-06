@@ -65,9 +65,9 @@ dbrenderer:
     keys: 키만       # Option (only shows primary and foreign keys, hides other fields)
   relationshipMode:
     title: 링크 유형     # Dropup prefix + dropup header
-    relationships: 엔터티 관계               # Option (FK relationship lines)
-    dependencies: 데이터 종속성           # Option (data-lineage dependency lines)
-    all: 모든 유형     # Option (shows both relationships and dependencies)
+    relationships: ERD               # Option (FK relationship lines)
+    dependencies: 종속성           # Option (data-lineage dependency lines)
+    all: ERD + 종속성     # Option (shows both relationships and dependencies)
 
   # ========================================
   # View Dropdown - View selector menu

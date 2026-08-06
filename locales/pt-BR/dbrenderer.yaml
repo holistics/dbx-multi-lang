@@ -65,9 +65,9 @@ dbrenderer:
     keys: Apenas chaves
   relationshipMode:
     title: Tipo de vínculo
-    relationships: Relacionamentos de entidades
-    dependencies: Dependências de dados
-    all: Todos os tipos
+    relationships: ERD
+    dependencies: Dependências
+    all: ERD + Dependências
 
   # ========================================
   # View Dropdown - View selector menu

@@ -50,9 +50,9 @@ dbrenderer:
     keys: 主キーのみ
   relationshipMode:
     title: リンクの種類
-    relationships: エンティティのリレーションシップ
-    dependencies: データ依存関係
-    all: すべての種類
+    relationships: ERD
+    dependencies: 依存関係
+    all: ERD + 依存関係
   viewDropdown:
     renameView: ビューの名前を変更
     removeView: ビューを削除
