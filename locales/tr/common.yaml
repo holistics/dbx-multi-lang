@@ -268,5 +268,9 @@ common:
     owner: Sahip
     project: "{count} proje"
     projects: "{count} proje"
+    diagram: "{count} diyagram"
+    diagrams: "{count} diyagram"
+    projectsGroupLabel: Projeler
+    diagramsGroupLabel: Diyagramlar
     syncErrorTooltip: Senkronizasyon başarısız oldu, lütfen yeniden senkronize etmeyi deneyin
     syncErrorBlocksEdit: Bu üyenin rolünü değiştirmeden önce senkronizasyon hatasını çözün

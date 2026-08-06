@@ -272,5 +272,9 @@ common:
     owner: Egasi
     project: "{count} loyiha"
     projects: "{count} loyiha"
+    diagram: "{count} diagramma"
+    diagrams: "{count} diagramma"
+    projectsGroupLabel: Loyihalar
+    diagramsGroupLabel: Diagrammalar
     syncErrorTooltip: Sinxronlashda xatolik, qayta sinxronlashga urinib ko'ring
     syncErrorBlocksEdit: Ushbu a'zoning rolini o'zgartirishdan oldin sinxronlash xatosini bartaraf eting

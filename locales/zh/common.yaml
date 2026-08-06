@@ -202,5 +202,9 @@ common:
     owner: 所有者
     project: "{count} 个项目"
     projects: "{count} 个项目"
+    diagram: "{count} 个图表"
+    diagrams: "{count} 个图表"
+    projectsGroupLabel: 项目
+    diagramsGroupLabel: 图表
     syncErrorTooltip: 同步失败，请尝试重新同步
     syncErrorBlocksEdit: 请先解决同步错误，然后再更改此成员的角色

@@ -272,5 +272,9 @@ common:
     owner: Propietario
     project: "{count} proyecto"
     projects: "{count} proyectos"
+    diagram: "{count} diagrama"
+    diagrams: "{count} diagramas"
+    projectsGroupLabel: Proyectos
+    diagramsGroupLabel: Diagramas
     syncErrorTooltip: Error de sincronización, intenta resincronizar
     syncErrorBlocksEdit: Resuelve el error de sincronización antes de cambiar el rol de este miembro

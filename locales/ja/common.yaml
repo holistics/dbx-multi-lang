@@ -202,5 +202,9 @@ common:
     owner: オーナー
     project: "{count} 件のプロジェクト"
     projects: "{count} 件のプロジェクト"
+    diagram: "{count} 件のダイアグラム"
+    diagrams: "{count} 件のダイアグラム"
+    projectsGroupLabel: プロジェクト
+    diagramsGroupLabel: ダイアグラム
     syncErrorTooltip: 同期に失敗しました。再同期をお試しください
     syncErrorBlocksEdit: このメンバーの役割を変更する前に同期エラーを解決してください

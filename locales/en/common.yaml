@@ -280,5 +280,9 @@ common:
     owner: Owner
     project: "{count} project" # Singular
     projects: "{count} projects" # Plural
+    diagram: "{count} diagram" # Singular
+    diagrams: "{count} diagrams" # Plural
+    projectsGroupLabel: Projects # Header above the project list in a guest's access dropdown
+    diagramsGroupLabel: Diagrams # Header above the diagram list in a guest's access dropdown
     syncErrorTooltip: Failed to sync, please try resyncing
     syncErrorBlocksEdit: Resolve the sync error before changing this member's role
