@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Unreleased
+## v1.3.3 (Aug 6, 2026)
 ### Added
 * Support for the Italian (it) locale
 * Update copywriting for the link types control
