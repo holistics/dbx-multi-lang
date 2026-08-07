@@ -67,7 +67,7 @@ dbrenderer:
     title: Tipo de vínculo
     relationships: ERD
     dependencies: Dependências
-    all: ERD + Dependências
+    all: ERD + Dep.
 
   # ========================================
   # View Dropdown - View selector menu

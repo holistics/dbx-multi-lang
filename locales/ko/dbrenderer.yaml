@@ -67,7 +67,7 @@ dbrenderer:
     title: 링크 유형     # Dropup prefix + dropup header
     relationships: ERD               # Option (FK relationship lines)
     dependencies: 종속성           # Option (data-lineage dependency lines)
-    all: ERD + 종속성     # Option (shows both relationships and dependencies)
+    all: ERD + 종속     # Option (shows both relationships and dependencies)
 
   # ========================================
   # View Dropdown - View selector menu

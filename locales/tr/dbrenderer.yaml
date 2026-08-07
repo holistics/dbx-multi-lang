@@ -67,7 +67,7 @@ dbrenderer:
     title: Bağlantı türü # Dropup prefix + dropup header
     relationships: ERD # Option (FK relationship lines)
     dependencies: Bağımlılıklar # Option (data-lineage dependency lines)
-    all: ERD + Bağımlılıklar # Option (shows both relationships and dependencies)
+    all: ERD + Bağ. # Option (shows both relationships and dependencies)
 
   # ========================================
   # View Dropdown - View selector menu
