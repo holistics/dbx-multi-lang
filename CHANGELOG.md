@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## v1.3.4 (Aug 7, 2026)
 ### Misc
-* Shorten the combined link type option to "ERD + Dep" across all locales
+* Shorten the combined link type option to "ERD + Deps" across all locales
 
 ## v1.3.3 (Aug 6, 2026)
 ### Added
