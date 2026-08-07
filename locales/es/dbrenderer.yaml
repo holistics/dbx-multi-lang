@@ -67,7 +67,7 @@ dbrenderer:
     title: Tipo de enlace # Dropup prefix + dropup header
     relationships: ERD # Option (FK relationship lines)
     dependencies: Dependencias # Option (data-lineage dependency lines)
-    all: ERD + Dependencias # Option (shows both relationships and dependencies)
+    all: ERD + Dep. # Option (shows both relationships and dependencies)
 
   # ========================================
   # View Dropdown - View selector menu

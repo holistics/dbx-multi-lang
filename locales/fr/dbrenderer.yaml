@@ -67,7 +67,7 @@ dbrenderer:
     title: Type de lien
     relationships: ERD
     dependencies: Dépendances
-    all: ERD + Dépendances
+    all: ERD + Dép.
 
   # ========================================
   # Menu des vues

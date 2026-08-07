@@ -67,7 +67,7 @@ dbrenderer:
     title: "Tipo di collegamento" # Dropup prefix + dropup header
     relationships: ERD # Option (FK relationship lines)
     dependencies: "Dipendenze" # Option (data-lineage dependency lines)
-    all: "ERD + Dipendenze" # Option (shows both relationships and dependencies)
+    all: "ERD + Dip." # Option (shows both relationships and dependencies)
 
   # ========================================
   # View Dropdown - View selector menu
