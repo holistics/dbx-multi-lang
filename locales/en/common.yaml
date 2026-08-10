@@ -221,7 +221,7 @@ common:
     currentPlan: Current plan
     editSubscription: Edit subscription
     switchToBilling: "Switch to {unit} billing"
-    nextPayment: "Your next payment is USD {amount}"
+    nextPayment: "Your next payment is"
     chargedOn: "to be charged on {date}"
     cancelledOn: "Your subscription will be cancelled on {date}"
     paymentMethod: Payment Method

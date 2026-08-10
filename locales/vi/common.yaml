@@ -149,7 +149,7 @@ common:
     editSubscription: Chỉnh sửa gói đăng ký
     switchToBilling: "Chuyển sang thanh toán theo {unit}"
     updatePlan: Cập nhật gói
-    nextPayment: "Khoản thanh toán tiếp theo của bạn là USD {amount}"
+    nextPayment: "Khoản thanh toán tiếp theo của bạn là"
     chargedOn: "sẽ được tính phí vào {date}"
     cancelledOn: "Gói đăng ký của bạn sẽ bị hủy vào {date}"
     paymentMethod: Phương thức thanh toán

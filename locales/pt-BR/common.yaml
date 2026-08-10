@@ -218,7 +218,7 @@ common:
     editSubscription: Editar assinatura
     switchToBilling: "Mudar para cobrança {unit}"
     updatePlan: Atualizar plano
-    nextPayment: "Seu próximo pagamento é de USD {amount}"
+    nextPayment: "Seu próximo pagamento é de"
     chargedOn: "a ser cobrado em {date}"
     cancelledOn: "Sua assinatura será cancelada em {date}"
     paymentMethod: Método de pagamento

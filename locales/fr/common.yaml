@@ -219,7 +219,7 @@ common:
     editSubscription: Modifier l’abonnement
     switchToBilling: "Passer à la facturation {unit}"
     updatePlan: Mettre à jour le forfait
-    nextPayment: "Votre prochain paiement est de USD {amount}"
+    nextPayment: "Votre prochain paiement est de"
     chargedOn: "à facturer le {date}"
     cancelledOn: "Votre abonnement sera annulé le {date}"
     paymentMethod: Moyen de paiement

@@ -222,7 +222,7 @@ common:
     editSubscription: Obunani tahrirlash
     switchToBilling: "{unit} bo'yicha to'lovga o'tish"
     updatePlan: Rejani yangilash
-    nextPayment: "Keyingi to'lovingiz USD {amount}"
+    nextPayment: "Keyingi to'lovingiz"
     chargedOn: "{date} sanasida yechib olinadi"
     cancelledOn: "Obunangiz {date} sanasida bekor qilinadi"
     paymentMethod: To'lov usuli

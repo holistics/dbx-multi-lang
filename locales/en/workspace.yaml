@@ -15,6 +15,8 @@ workspace:
   advanced: Advanced # Label for advanced tier/sample (templates dropdown)
   myDiagrams: My Diagrams # Sidebar section for personal diagrams
   sharedWithMe: Shared with Me # Sidebar section for shared diagrams
+  sharedFromOtherWorkspaces: Shared from Other Workspaces # Always-visible cross-workspace shared diagrams (sidebar/dropdown)
+  personWorkspaceName: "{email}'s workspace" # Label for a guest-switcher entry representing diagrams shared with no workspace, grouped by the sharer's email
   workspace: Workspace # Label for team workspace type
   private: Private # Privacy label for private items
   readOnlyMode: Workspace is in read-only mode due to a subscription cancellation. Please renew to enable workspace functionality.

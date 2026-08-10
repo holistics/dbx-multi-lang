@@ -218,7 +218,7 @@ common:
     editSubscription: Aboneliği düzenle
     switchToBilling: "{unit} faturalandırmaya geç"
     updatePlan: Planı güncelle
-    nextPayment: "Bir sonraki ödemeniz USD {amount}"
+    nextPayment: "Bir sonraki ödemeniz"
     chargedOn: "{date} tarihinde tahsil edilecek"
     cancelledOn: "Aboneliğiniz {date} tarihinde iptal edilecek"
     paymentMethod: Ödeme yöntemi

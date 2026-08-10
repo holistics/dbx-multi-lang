@@ -152,7 +152,7 @@ common:
     editSubscription: サブスクリプションを編集
     switchToBilling: "{unit}課金に切り替える"
     updatePlan: プランを更新
-    nextPayment: "次回のお支払いは USD {amount} です"
+    nextPayment: "次回のお支払いは"
     chargedOn: "{date} に請求されます"
     cancelledOn: "サブスクリプションは {date} にキャンセルされます"
     paymentMethod: 支払い方法

@@ -152,7 +152,7 @@ common:
     editSubscription: 编辑订阅
     switchToBilling: "切换为按{unit}计费"
     updatePlan: 更新套餐
-    nextPayment: "您的下一笔付款为 USD {amount}"
+    nextPayment: "您的下一笔付款为"
     chargedOn: "将于 {date} 扣款"
     cancelledOn: "您的订阅将于 {date} 取消"
     paymentMethod: 付款方式

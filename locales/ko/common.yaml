@@ -222,7 +222,7 @@ common:
     currentPlan: 현재 플랜
     editSubscription: 구독 편집
     switchToBilling: "{unit} 결제로 전환"
-    nextPayment: "다음 결제 금액은 USD {amount}입니다"
+    nextPayment: "다음 결제 금액은"
     chargedOn: "{date}에 청구됩니다"
     cancelledOn: "구독이 {date}에 취소됩니다"
     paymentMethod: 결제 수단
