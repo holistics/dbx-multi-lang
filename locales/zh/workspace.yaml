@@ -72,6 +72,7 @@ workspace:
       removeInvitation: 移除此邀请
       removeMember: 移除此成员
     dialog:
+      removeTitle: 从工作区中移除？
       removeMessage: 你即将从工作区中移除 <b>{email}</b>，请确认你的操作！
     notifications:
       removeSuccess: 已成功从工作区中移除 {email}！

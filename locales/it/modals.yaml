@@ -1,0 +1,337 @@
+# Modals translations - Modal dialogs throughout the app
+# UI Areas: Share modal, Import modal, Export modal, History modal, Upgrade modals
+
+modals:
+  # ========================================
+  # Generic modal titles - Common titles
+  # ========================================
+  titles:
+    confirm: "Conferma" # Generic confirm modal title
+    delete: "Elimina" # Delete confirmation modal title
+    remove: "Rimuovi" # Remove confirmation modal title
+    rename: "Rinomina" # Rename modal title
+
+  # ========================================
+  # Confirmation dialogs - Generic and specific
+  # ========================================
+  confirmation:
+    default:
+      message: "Vuoi davvero proseguire con questa azione?" # Default confirmation message
+      checkbox: "Non mostrare più questo messaggio" # Checkbox to disable future confirmations
+    deleteDiagram:
+      message: "Sei sicuro di voler eliminare questo diagramma? Questa azione non può essere annullata." # Delete diagram warning
+      warning: "Tieni presente che questa azione non può essere annullata!" # Additional warning
+      embedLinkActive: "Hai un link incorporato attivo." # Warning about embed links
+      lastViewed: "Ultima visualizzazione" # Label for last viewed timestamp
+    removeWorkspace:
+    removeMember:
+      title: "Rimuovi membro" # Remove member modal title
+      message: "Confermi di voler rimuovere questo membro dallo spazio di lavoro?" # Remove member confirmation
+      suggestion: "Digita la tua email per confermare." # Input prompt for confirmation
+
+  # ========================================
+  # Share modal - Diagram sharing
+  # ========================================
+  share:
+    tabs:
+      sharing: "Condivisione" # Sharing tab label
+      embedding: "Incorporamento" # Embedding tab label
+    generalAccess:
+      passwordPlaceholder: "Inserisci password" # Password input placeholder
+      createPassword: "Crea" # Create password button
+      updatePassword: "Aggiorna" # Update password button
+      canAccess: "può accedere" # Helper text suffix
+      copyLink: "Copia link" # Copy link button
+      updatePasswordButton: "Aggiorna password" # Update password button
+    permissions:
+      canEditAndInvite: "Può modificare e invitare" # Permission label
+      canEditAndInviteDesc: "Può modificare e invitare altre persone." # Permission description
+      canEdit: "Può modificare" # Permission label
+      canEditDesc: "Può modificare, ma non invitare persone." # Permission description
+      canView: "Può visualizzare" # Permission label
+      canViewDesc: "Può visualizzare, ma non modificare." # Permission description
+      remove: "Rimuovi" # Remove button
+      removeDesc: "Rimuovi questo collaboratore." # Remove description
+      noAccess: "Nessun accesso" # No access label
+      noAccessDesc: "Nessun accesso a questo diagramma" # No access description
+      transferOwnership: "Trasferisci proprietà" # Transfer ownership permission label
+      transferOwnershipDesc: "Trasferisci la proprietà di questo diagramma" # Transfer ownership permission description
+    invite:
+      placeholder: "Email, separate da virgola o spazio" # Email input placeholder
+      button: "Invita" # Invite button
+    members:
+      you: "(tu)" # Label for current user
+    confirmRemoveCollaborator: "Stai per rimuovere <b>{email}</b> dai collaboratori, per favore conferma l'azione!" # Remove confirmation message
+    errors:
+      publicPermissionUpdateFailed: "Aggiornamento dei permessi pubblici del diagramma non riuscito, riprova!" # Error toast
+      publicPermissionUpdated: "Permessi pubblici del diagramma aggiornati!" # Success toast
+      passwordLength: "La password deve essere compresa tra 6 e 128 caratteri" # Validation error
+      cannotUpdateDiagramState: "Impossibile aggiornare lo stato del diagramma" # Error toast
+      createPasswordFailed: "Creazione della password non riuscita" # Error toast
+      updatePasswordFailed: "Aggiornamento della password non riuscito" # Error toast
+    success:
+      createPasswordSuccess: "Password creata con successo" # Success toast for password creation
+      updatePasswordSuccess: "Password aggiornata con successo" # Success toast for password update
+      diagramIsPublic: "Il diagramma è ora pubblico!" # Success toast for making diagram public
+      diagramIsPrivate: "Il diagramma è ora privato!" # Success toast for making diagram private
+      diagramIsProtected: "Il diagramma è ora protetto!" # Success toast for making diagram protected
+    permissionChanged: "I tuoi permessi sono stati modificati, ricarica la pagina per applicare le modifiche!" # Permission change toast
+    reload: "Ricarica" # Reload button
+    cannotGetPermission: "Impossibile ottenere i permessi del diagramma, riprova!" # Error toast
+    embedLink:
+      title: "Link incorporato" # Embed link section title
+      lastView: "Ultima visualizzazione" # Last viewed label
+      customize: "Personalizza il tuo link incorporato con le opzioni" # Customize label
+      darkMode: "Modalità scura" # Dark mode toggle label
+      highlightRelationships: "Evidenzia relazioni" # Highlight toggle label
+      detailLevel: "Livello di dettaglio" # Detail level dropdown label
+      anyoneWithLink: "Chiunque disponga del link può visualizzare il diagramma incorporato." # Help text
+      remove: "Vuoi rimuovere questo link incorporato? Le altre persone non potranno più accedervi." # Remove confirmation
+      generate: "Genera link incorporato" # Generate button
+      errors:
+        cannotGet: "Impossibile ottenere i link incorporati, riprova!" # Error toast
+        cannotCreate: "Impossibile creare il link incorporato, riprova!" # Error toast
+        cannotDelete: "Impossibile eliminare il link incorporato, riprova!" # Error toast
+        cannotUpdate: "Impossibile aggiornare le impostazioni del link incorporato, riprova!" # Error toast
+    tooltip:
+      viewOnly: "I permessi di questo utente sono limitati alla sola visualizzazione." # Permission tooltip
+      upgradePersonal: "Per abilitare la collaborazione in modifica, effettua l'upgrade del tuo spazio di lavoro personale." # Upgrade tooltip
+      freeAccount: "Questo utente ha un account <b>gratuito</b>." # Free account tooltip
+      editAfterUpgrade: "Potrà <b>modificare</b> il diagramma dopo l'upgrade del suo account." # Upgrade tooltip
+      collaborationLimit: "Puoi collaborare solo con" # Collaboration limit text
+      diagramLimit: "Fino a 4 utenti gratuiti per ogni diagramma (attualmente {count} utenti)" # Diagram limit text
+      workspaceLimit: "Fino a 6 utenti gratuiti in tutti i diagrammi (attualmente {count} utenti)" # Workspace limit text
+
+  # ========================================
+  # Private diagram - Password protection
+  # ========================================
+  private:
+    protected: "Diagramma protetto" # Protected badge
+    private: "Questo diagramma è privato" # Private badge
+    passwordRequired: "È necessaria una password per visualizzare questo diagramma." # Password required message
+    noAccess: "Non hai accesso a questo diagramma." # No access message
+    enterPassword: "Inserisci la tua password" # Password input placeholder
+    incorrectPassword: "Password errata" # Incorrect password error
+    tryAgain: "Riprova!" # Try again button
+    viewDiagram: "Visualizza diagramma" # View diagram button
+
+  # ========================================
+  # Publish modal - Publish to DBDocs
+  # ========================================
+  publish:
+    title: "Pubblica su" # Modal title (publish dropdown)
+    reviewAndPublishTitle: "Rivedi e pubblica su" # Modal title for review and publish modal
+    dbdocsLink: "dbdocs" # Link label
+    cancelButton: "Annulla" # Cancel button
+    publishButton: "Pubblica" # Publish button
+    reviewAndPublishButton: "Rivedi e pubblica" # Publish button
+    bullet1: "Pubblica una nuova documentazione web consultabile del tuo diagramma." # Feature bullet point
+    bullet2: "Il documento pubblicato sarà disponibile in un account dbdocs collegato alla tua email." # Feature bullet point
+    bullet3: "Le modifiche al tuo diagramma non aggiorneranno automaticamente il documento dbdocs." # Feature bullet point
+    publishNewOrUpdate: "Pubblica un nuovo documento / Aggiorna uno esistente" # Section title
+    updateExisting: "Aggiorna un documento esistente" # Update option
+    publishNewOption: "Pubblica un nuovo documento" # Publish a new document option
+    projectPublicDefault: "Il tuo progetto dbdocs è impostato su \"pubblico\" per impostazione predefinita. Le persone possono accedervi tramite il link." # Public default info
+    documentProjectName: "Nome del progetto di documentazione" # Project name field label
+    enterProjectName: "Inserisci il nome del progetto" # Project name placeholder
+    options: "Opzioni" # Options section title
+    ownerOnlyUpdatePublishDestination: "Solo il proprietario del diagramma può aggiornare la destinazione del documento" # Non-owner message for selecting publish destination
+    passwordProtection: "Protezione con password (opzionale)" # Password section title
+    passwordPlaceholder: "Inserisci una password" # Password placeholder
+    passwordMinLength: "La password deve contenere almeno 6 caratteri" # Password validation
+    feedback: "Inviaci il tuo" # Feedback label
+    feedbackLink: "feedback" # Feedback link
+    aboutThisFeature: "su questa funzionalità!" # Feedback link suffix
+    errorLoadingProjects: "Si è verificato un errore durante il caricamento dei progetti pubblicati, contatta il supporto all'indirizzo dbdiagram@holistics.io" # Error toast
+    errorPublishing: "Si è verificato un errore durante la pubblicazione del progetto, contatta il supporto all'indirizzo dbdiagram@holistics.io" # Error toast
+    projectNameEmpty: "Il nome del progetto non può essere vuoto" # Validation error
+    projectNameInvalid: "Il nome del progetto può contenere solo lettere, numeri, spazi, \"-\" o \"_\"" # Validation error
+    projectNameExists: "Esiste già un progetto con questo nome/URL. Scegli un nome diverso." # Validation error for duplicate name/url
+    passwordInvalid: "Password non valida, riprova!" # Validation error
+    editFromDbdocsInfo: "Per modificare un progetto pubblicato, puoi farlo direttamente da dbdocs." # Info about editing from dbdocs
+    learnMore: "Scopri di più" # Learn more link text
+    ownerOnlyPublish: "Solo il proprietario del diagramma può pubblicare un nuovo progetto su dbdocs." # Non-owner message
+    publishedProject: "Progetto pubblicato" # Label for published project
+    viewExistingProjects: "Visualizza progetti esistenti" # Link to view existing projects popover
+    projectNameHeader: "Nome" # Header for project name column in popover
+    projectUrlHeader: "URL" # Header for project URL column in popover
+    publishNewQuestion: "Vuoi pubblicare su un altro progetto?" # Prompt to publish to a new project
+    publishNewAction: "Pubblica su un nuovo progetto" # Action link text
+    resolveConflictsAndErrorsBeforePublish: "Risolvi tutti i conflitti e gli errori prima di pubblicare." # Hint to resolve all conflicts and errors before publishing
+    currentChange: "Modifica corrente" # Current change conflict marker text
+    incomingChange: "Modifica in arrivo" # Incoming change conflict marker text
+    bothChanges: "Entrambe le modifiche" # Both change conflict marker text
+    acceptChangeButton: "Accetta {conflictTypeText}" # Accept change button
+    acceptAllIncomingChangesButton: "Accetta tutte le modifiche in arrivo" # Accept all incoming changes button
+    conflictWordSingular: "conflitto" # Word for counting conflicts
+    conflictWordPlural: "conflitti" # Word for counting conflicts
+
+  # ========================================
+  # Import modal - Import diagram
+  # ========================================
+  import:
+    instructions: "Istruzioni" # Instructions section title
+    showInstructions: "Mostra istruzioni" # Show instructions button
+    hideInstructions: "Nascondi istruzioni" # Hide instructions button
+    upload: "Carica {file}" # Upload button label
+    appendMode: "Aggiungi il DBML convertito in coda" # Append mode toggle
+    modal:
+      validating: "Validazione in corso" # Validating modal title
+    dbConnection:
+      title: "Genera DBML da connessione diretta al database" # CLI import modal title
+      intro1: "Questo metodo si connette direttamente al tuo database e legge lo schema (solitamente da INFORMATION_SCHEMA) per generare il codice DBML." # Intro text part 1
+      intro2: "Tutto viene eseguito sulla tua macchina locale e le credenziali del database non vengono tracciate né inviate altrove." # Intro text part 2
+      intro3: "Il codice è open source a partire da" # Intro text part 3
+      intro3Link: "e può essere verificato" # Link text
+      step1: "1. Installa" # Step 1 label
+      step1Note: "potrebbe essere necessario aggiungere" # Note text
+      step1NoteSudo: "prima dei comandi su Linux" # Sudo note
+      step2: "2. Esegui il seguente comando" # Step 2 label
+      exampleFor: "Esempio per" # Example label
+      successMessage: "File DBML generato dalla connessione del database: database.dbml" # Success message
+      successBigquery: "Nota: per BigQuery, il tuo file di credenziali JSON deve contenere le seguenti chiavi" # BigQuery note
+      successSnowflake1: "Tentativo di connessione..." # Snowflake step 1
+      successSnowflake2: "Esecuzione della query..." # Snowflake step 2
+      successSnowflake3: "Query eseguita con successo." # Snowflake step 3
+      successSnowflake4: "Connessione chiusa con successo." # Snowflake step 4
+      step3: "3. Copia e incolla il DBML generato nel pannello del codice per visualizzare il tuo database." # Step 3 label
+      databaseTypes:
+        mysql: "MySQL" # Database type label
+        postgres: "PostgreSQL" # Database type label
+        mssql: "SQL Server" # Database type label
+        oracle: "Oracle" # Database type label
+        snowflake: "Snowflake" # Database type label
+        bigquery: "BigQuery" # Database type label
+
+  # ========================================
+  # Upgrade modals - Feature upgrade prompts
+  # ========================================
+  upgrade:
+    titles:
+      createDiagram: "Hai raggiunto il limite per il numero di diagrammi!" # Diagram limit title
+      detailLevels: "Hai scoperto una funzionalità a pagamento!" # Detail levels title
+      detailLevelsDbdocs: "Hai scoperto una funzionalità dei progetti a pagamento!" # DBDocs detail levels title
+      diagramView: "La creazione di viste aggiuntive è una funzionalità a pagamento" # Diagram view title
+      headerColor: "Hai scoperto una funzionalità a pagamento!" # Header color title
+      headerColorDbdocs: "Hai scoperto una funzionalità dei progetti a pagamento!" # DBDocs header color title
+      privateDiagram: "Hai scoperto una funzionalità a pagamento!" # Private diagram title
+      stickyNotes: "Hai scoperto una funzionalità a pagamento!" # Sticky notes title
+      stickyNotesDbdocs: "Hai scoperto una funzionalità dei progetti a pagamento!" # DBDocs sticky notes title
+      versionHistory: "Hai scoperto una funzionalità a pagamento!" # Version history title
+      aiAssistant: "dbdiagram AI Assistant è una funzionalità a pagamento" # AI assistant title
+      tableGroup: "Hai scoperto una funzionalità a pagamento!" # Table group title
+      tableGroupDbdocs: "Hai scoperto una funzionalità dei progetti a pagamento!" # DBDocs table group title
+      invitePeople: "Hai scoperto una funzionalità a pagamento!" # Invite people title
+    descriptions:
+      createDiagram: "Passa ora ai nostri piani a pagamento per la <b>creazione illimitata<br>di diagrammi</b> e altre funzionalità avanzate!" # Description
+      detailLevels: "Passa ora ai nostri piani a pagamento per sbloccare i Livelli di dettaglio, il Colore dell'intestazione,<br>i Gruppi di tabelle e accedere a tutte le prossime funzionalità!" # Description
+      detailLevelsDbdocs: "Effettua l'upgrade del tuo progetto per sbloccare i Livelli di dettaglio, il Colore dell'intestazione,<br>i Gruppi di tabelle e accedere a tutte le prossime funzionalità!" # DBDocs description
+      diagramView: "Con il piano Gratuito puoi salvare solo la vista predefinita.<br>Passa ora ai nostri piani a pagamento per avere <b>viste del diagramma illimitate</b> e altre funzionalità avanzate!" # Description
+      headerColor: "Passa ora ai nostri piani a pagamento per sbloccare i Livelli di dettaglio, il Colore dell'intestazione,<br>il Colore delle relazioni, i Gruppi di tabelle e accedere a tutte le prossime funzionalità!" # Description
+      headerColorDbdocs: "Effettua l'upgrade del tuo progetto per sbloccare i Livelli di dettaglio, il Colore dell'intestazione,<br>il Colore delle relazioni, i Gruppi di tabelle e accedere a tutte le prossime funzionalità!" # DBDocs description
+      privateDiagram: "Passa ora ai nostri piani a pagamento per proteggere i tuoi diagrammi con la<br><strong>Protezione tramite password, la Modalità privata</strong> e altre funzionalità avanzate!" # Description
+      stickyNotes: "Passa ora ai nostri piani a pagamento per includere le <strong>Note adesive</strong> nel tuo diagramma<br>e sfruttare altre funzionalità avanzate!" # Description
+      stickyNotesDbdocs: "Effettua l'upgrade del tuo progetto per includere le <strong>Note adesive</strong> nel tuo diagramma<br>e sfruttare altre funzionalità avanzate!" # DBDocs description
+      versionHistory: "Sperimenta liberamente le tue idee con diverse <b>versioni dello schema</b>.<br>Ripristina una versione precedente ogni volta che vuoi." # Description
+      aiAssistant: "Passa ora ai nostri piani a pagamento per progettare e ottimizzare i tuoi schemi di database<br>con l'<strong>assistenza del linguaggio naturale basata sull'IA</strong>" # Description
+      tableGroup: "Passa ora ai nostri piani a pagamento per sbloccare i Livelli di dettaglio, il Colore dell'intestazione,<br>i Gruppi di tabelle e accedere a tutte le prossime funzionalità!" # Description
+      tableGroupDbdocs: "Effettua l'upgrade del tuo progetto per sbloccare i Livelli di dettaglio, il Colore dell'intestazione,<br>i Gruppi di tabelle e accedere a tutte le prossime funzionalità!" # DBDocs description
+      invitePeople: "Passa ora ai nostri piani a pagamento per collaborare alla progettazione di diagrammi ER con<br><strong>Invito ai collaboratori, Pubblicazione di diagrammi modificabili</strong> e altre funzionalità avanzate!" # Description
+    buttons:
+      viewPlans: "Visualizza i piani" # View plans button
+      upgradeProject: "Effettua l'upgrade del progetto" # Upgrade project button
+
+  # ========================================
+  # History modal - Version history
+  # ========================================
+  history:
+    title: "Cronologia versioni" # Modal title
+    deletedUser: "Utente eliminato" # Deleted user label
+    restoreVersion: "Ripristina versione" # Restore button
+    makeCopy: "Crea una copia" # Copy button
+    upgradeTitle: "Effettua l'upgrade per visualizzare, ripristinare e duplicare" # Upgrade prompt title
+    errors:
+      cannotView: "Impossibile visualizzare questa versione" # Error toast
+      cannotCopy: "Impossibile copiare questa versione" # Error toast
+    restoreConfirmation:
+      title: "Ripristinare questa versione?" # Restore confirmation title
+      message: "Il tuo diagramma attuale verrà ripristinato a questa versione." # Restore message
+    success:
+      versionCopied: "Copia della versione creata con successo" # Success toast
+    copiedName: "(Ripristinato) {name}" # Copied version name prefix
+    untitled: "Senza titolo" # Untitled diagram label
+
+  # ========================================
+  # Error messages - Generic modal errors
+  # ========================================
+  errors:
+    inviteMaxEmails: "Impossibile invitare più di 50 email" # Validation error
+    inviteFailed: "Impossibile inviare gli inviti, riprova!" # Error toast
+    cannotGetCollaborators: "Impossibile ottenere le informazioni sui collaboratori!" # Error toast
+    permissionUpdateFailed: "Aggiornamento dei permessi non riuscito" # Error toast
+    permissionUpdateSuccess: "Permessi aggiornati con successo" # Success toast
+    inviteSent: "Invito inviato" # Success toast
+    permissionDenied: "Accesso negato" # Permission error
+    cannotGetWorkspaceParticipants: "Impossibile ottenere i partecipanti dello spazio di lavoro, riprova!" # Error toast
+    cannotGetUserWorkspaces: "Impossibile ottenere gli spazi di lavoro dell'utente, riprova!" # Error toast
+    cannotGetWorkspacesSubscription: "Impossibile ottenere l'abbonamento degli spazi di lavoro, riprova!" # Error toast
+    exportSqlFailed: "Esportazione SQL non riuscita, aggiorna lo schema del tuo database e riprova." # Error toast
+    savePdfFailed: "Impossibile salvare il PDF" # Error toast
+    saveSvgFailed: "Impossibile salvare l'SVG" # Error toast
+    savePngFailed: "Impossibile salvare il PNG" # Error toast
+    cannotGetDiagrams: "Impossibile ottenere i diagrammi, prova a ricaricare l'applicazione!" # Error toast
+    cannotRemoveDefaultView: "Non ti è consentito rimuovere la vista predefinita!" # Error toast
+    cannotRemoveView: "Impossibile rimuovere questa vista, ricarica e riprova!" # Error toast
+    removeViewTitle: "Rimuovere la vista del diagramma?" # Remove view modal title
+    removeViewContent: "Vuoi rimuovere la vista \"{name}\"?" # Remove view confirmation
+    cancel: "Annulla" # Cancel button
+    removeView: "Rimuovi vista" # Remove view button
+    close: "Chiudi" # Close button
+    reload: "Ricarica" # Reload button
+
+  # ========================================
+  # Workspace type labels
+  # ========================================
+  workspaceType:
+    personal: "Spazio di lavoro personale" # Personal workspace label
+    team: "Spazio di lavoro del team" # Team workspace label
+
+  # ========================================
+  # Detail levels dropdown
+  # ========================================
+  detailLevelsDropdown:
+    tableNames: "Solo nomi tabelle" # Show table names only
+    keysOnly: "Solo chiavi" # Show keys only
+    allFields: "Tutti i campi" # Show all fields
+
+  # ========================================
+  # Migration preview modal
+  # ========================================
+  migrationPreview:
+    title: "Le viste del diagramma ora sono salvate nel tuo DBML"
+    description: "Abbiamo spostato le impostazioni delle viste del diagramma direttamente nel tuo codice DBML come blocco DiagramView. In questo modo le tue viste fanno parte del codice DBML insieme allo schema."
+    learnMore: "Scopri di più sulle viste del diagramma"
+    confirm: "Continua"
+
+  # ========================================
+  # Session expired modal
+  # ========================================
+  sessionExpired:
+    title: "Sessione scaduta"
+    description: "La tua sessione è scaduta, verrai disconnesso automaticamente tra {countdown} secondo/i…"
+
+  # ========================================
+  # Transfer ownership modal
+  # ========================================
+  transferOwnership:
+    title: "Trasferisci proprietà" # Modal title
+    subtitle: "Seleziona un membro a cui trasferire la proprietà:" # Subtitle below the title
+    searchPlaceholder: "Cerca per nome o email..." # Search input placeholder
+    noMembersFound: "Nessun membro trovato." # Empty state when search has no results
+    transferButton: "Trasferisci" # Confirm transfer button
+    notes:
+      irreversible: "Questa azione non può essere annullata." # Warning note
+      scopeRemains: "La cronologia delle versioni, i collaboratori del diagramma e l'ambito di accesso dello spazio di lavoro rimarranno invariati." # Informational note
+    confirmMessage: "Vuoi trasferire la proprietà di questo diagramma a <b>{memberLabel}</b>?" # Confirmation dialog message
+    success: "Proprietà del diagramma trasferita a {memberLabel}" # Success toast
+    error: "Impossibile trasferire la proprietà del diagramma. Riprova." # Error toast

@@ -81,6 +81,7 @@ workspace:
       removeInvitation: 이 초대 제거                # Remove invitation action
       removeMember: 이 멤버 제거            # Remove member confirmation
     dialog:
+      removeTitle: 워크스페이스에서 제거하시겠습니까?      # Remove dialog title
       removeMessage: 워크스페이스에서 <b> {email} </b>을(를) 제거하려고 합니다. 작업을 확인해 주세요!                                     # Remove dialog message
     notifications:
       removeSuccess: 워크스페이스에서 {email}을(를) 제거했습니다!             # Success toast

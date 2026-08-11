@@ -80,6 +80,7 @@ workspace:
       removeInvitation: Bu daveti sil # Remove invitation action
       removeMember: Bu üyeyi çıkar # Remove member confirmation
     dialog:
+      removeTitle: Çalışma alanından çıkarılsın mı? # Remove dialog title
       removeMessage: <b>{email}</b> adlı kullanıcıyı çalışma alanınızdan çıkarmak üzeresiniz, lütfen işleminizi onaylayın! # Remove dialog message
     notifications:
       removeSuccess: "{email} çalışma alanından başarıyla çıkarıldı!" # Success toast

@@ -80,6 +80,7 @@ workspace:
       removeInvitation: Eliminar esta invitación # Remove invitation action
       removeMember: Eliminar este miembro # Remove member confirmation
     dialog:
+      removeTitle: ¿Eliminar del espacio de trabajo? # Remove dialog title
       removeMessage: Estás a punto de eliminar a <b>{email}</b> de tu espacio de trabajo, ¡por favor confirma tu acción! # Remove dialog message
     notifications:
       removeSuccess: ¡{email} eliminado correctamente del espacio de trabajo! # Success toast

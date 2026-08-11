@@ -82,6 +82,7 @@ workspace:
       removeInvitation: Remove this invitation # Remove invitation action
       removeMember: Remove this member # Remove member confirmation
     dialog:
+      removeTitle: Remove from workspace? # Remove dialog title
       removeMessage: You are about to remove <b>{email}</b> from your workspace, please confirm your action! # Remove dialog message
     notifications:
       removeSuccess: Successfully removed {email} from workspace! # Success toast

@@ -72,6 +72,7 @@ workspace:
       removeInvitation: この招待を削除
       removeMember: このメンバーを削除
     dialog:
+      removeTitle: ワークスペースから削除しますか？
       removeMessage: <b>{email}</b> をワークスペースから削除しようとしています。操作を確認してください！
     notifications:
       removeSuccess: '{email} をワークスペースから正常に削除しました！'

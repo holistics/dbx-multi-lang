@@ -68,6 +68,7 @@ workspace:
       removeInvitation: Xóa lời mời này
       removeMember: Xóa thành viên này
     dialog:
+      removeTitle: Xóa khỏi không gian làm việc?
       removeMessage: Bạn sắp xóa <b>{email}</b> khỏi không gian làm việc, vui lòng xác nhận!
     notifications:
       removeSuccess: Đã xóa {email} khỏi không gian làm việc thành công!

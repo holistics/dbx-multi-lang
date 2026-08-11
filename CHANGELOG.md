@@ -1,9 +1,20 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Unreleased
+## v1.3.4 (Aug 7, 2026)
+### Misc
+* Shorten the combined link type option to "ERD + Deps" across all locales
+
+## v1.3.3 (Aug 6, 2026)
+### Added
+* Support for the Italian (it) locale
+* Update copywriting for the link types control
+
+## v1.3.0 (Jul 20, 2026)
 ### Added
 * Support for the Korean (ko) locale
+### Fixed
+* Add missing translation for the remove member dialog title
 
 ## v1.2.3 (Jul 3, 2026)
 ### Misc

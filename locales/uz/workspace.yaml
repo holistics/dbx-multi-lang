@@ -80,6 +80,7 @@ workspace:
       removeInvitation: Ushbu taklifni bekor qilish # Remove invitation action
       removeMember: Ushbu a'zoni olib tashlash # Remove member confirmation
     dialog:
+      removeTitle: Ish maydonidan olib tashlansinmi? # Remove dialog title
       removeMessage: Siz <b>{email}</b> ni ish maydoningizdan olib tashlamoqchisiz, iltimos amalingizni tasdiqlang! # Remove dialog message
     notifications:
       removeSuccess: "{email} ish maydonidan muvaffaqiyatli olib tashlandi!" # Success toast

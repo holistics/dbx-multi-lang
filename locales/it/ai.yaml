@@ -1,0 +1,112 @@
+# AI Assistant translations - AI panel and features
+# UI Areas: Right sidebar AI panel, Welcome modal, Diff viewer
+
+ai:
+  # ========================================
+  # AI Panel - Right sidebar chat interface
+  # ========================================
+
+  panel:
+    inputPlaceholder: "Chiedimi qualsiasi cosa sul tuo diagramma..." # Chat input placeholder (empty state)
+    currentChat: "Chat corrente" # Current chat section header
+    previousChats: "Chat precedenti" # Previous chats section header
+    noOtherChats: "Nessun'altra chat" # Empty state (no previous chats)
+    sendInstructions: "Premi Invio per inviare, Maiusc+Invio per andare a capo" # Input hint (below chat box)
+    sendMessage: "Invia messaggio" # Send button (tooltip)
+    workspaceDisabled: "Spazio di lavoro disabilitato" # Disabled state message (no workspace)
+    editPermissionRequired: "Permesso di modifica richiesto" # Permission error message
+    usageLimitReached: "Hai raggiunto il tuo limite di utilizzo per questo mese. Riprova il" # Usage limit message
+    learnMoreAboutUsageLimits: "Scopri di più sui limiti di utilizzo" # Link text (usage limit toast)
+    chat: "Chat" # Chat tab label
+    clickToEdit: "Clicca per modificare" # Editable message label
+    newChat: "Nuova chat" # New chat button (sidebar header)
+    showChatHistory: "Mostra cronologia chat" # Toggle button (shows chat sidebar)
+    hideChatHistory: "Nascondi cronologia chat" # Toggle button (hides chat sidebar)
+
+  # ========================================
+  # AI Welcome Modal - First-time user experience
+  # ========================================
+  welcome:
+    title: "Benvenuto in DBDiagram AI" # Welcome modal title
+    subtitle: "Il tuo assistente intelligente per la progettazione di database" # Welcome modal subtitle
+
+  # ========================================
+  # AI Loading States - Message states
+  # ========================================
+  messages:
+    thinking: "Pensando..." # Loading indicator (AI thinking)
+    generating: "Generazione in corso..." # Loading indicator (schema generation)
+    explaining: "Spiegazione in corso..." # Loading indicator (explanation)
+    error: "Si è verificato un errore. Riprova." # Error message (retryable)
+    rateLimit: "Hai raggiunto il limite di utilizzo. Effettua l'upgrade per continuare." # Rate limit message
+
+  # ========================================
+  # Diff Viewer - AI change comparison
+  # ========================================
+  diffViewer:
+    reject: "Rifiuta" # Button (reject single change)
+    accept: "Accetta" # Button (accept single change)
+    rejectAll: "Rifiuta tutte" # Button (reject all changes)
+    acceptAll: "Accetta tutte" # Button (accept all changes)
+
+  # ========================================
+  # Token Usage - AI usage tracking
+  # ========================================
+  tokenUsage:
+    used: "Utilizzato" # Usage counter label (left side)
+    usageText: "Hai utilizzato il {percentage} del tuo limite di utilizzo" # Usage progress text
+    tokens: "token" # Unit label (usage display)
+    learnMore: "Clicca per scoprire di più sui limiti di utilizzo" # Tooltip (usage indicator)
+    resetOn: "Ripristino il" # Label (usage reset date)
+
+  # ========================================
+  # AI Response Details - Response metadata
+  # ========================================
+  assistant:
+    dbmlCode: "Codice DBML" # Label (code block header)
+    lines: "righe" # Unit label (code lines count)
+
+  # ========================================
+  # AI Response Messages - Standard responses
+  # ========================================
+  responseMessages:
+    noExplanation: "Lo schema è stato aggiornato. Controlla il diff viewer per rivedere le modifiche." # Message after schema update
+    invalidIntent: "Benvenuto su dbdiagram AI.\n\nSono qui per aiutarti con:\n\n• **Progettazione dello schema DBML** - Crea e modifica tabelle, relazioni e strutture di database\n• **Best practice per database** - Suggerisci tipi di dati, indici e vincoli ottimali\n• **Ottimizzazione dello schema** - Organizza le tabelle con i TableGroup, aggiungi timestamp, rimappa i tipi di dati\n• **Trasformazioni rapide** - Converti tra diversi sistemi di database (PostgreSQL, MySQL, SQL Server, ecc.)\n\nProva a chiedermi di creare tabelle, aggiungere relazioni o usa le azioni rapide in alto per iniziare!" # Help message (unrecognized command)
+
+  # ========================================
+  # Quick Action Titles - Action card headers
+  # ========================================
+  quickActionTitles:
+    createTableGroups: "Crea gruppi di tabelle" # Quick action card 1 title
+    addTimestampColumns: "Aggiungi colonne timestamp" # Quick action card 2 title
+    addRelationships: "Aggiungi relazioni" # Quick action card 3 title
+    addIndexes: "Aggiungi indici" # Quick action card 4 title
+    learnDatabaseDesign: "Impara la progettazione di database" # Quick action card 5 title
+    cloneSlack: "Clona Slack" # Quick action card 6 title
+    documentDatabase: "Database gestione documenti" # Quick action card 7 title
+    todoList: "Lista di cose da fare" # Quick action card 8 title
+    remapDataTypes: "Rimappa tipi di dati" # Quick action card 9 title
+
+  # ========================================
+  # Quick Action Descriptions - Action card subtitles
+  # ========================================
+  quickActionDescriptions:
+    createTableGroups: "Organizza le tue tabelle in gruppi logici per dominio e funzionalità con colori distinti" # Card 1 description
+    addTimestampColumns: "Aggiungi le colonne created_at e updated_at alle tabelle che richiedono il tracciamento delle modifiche" # Card 2 description
+    addRelationships: "Rileva e aggiungi automaticamente le relazioni di chiave esterna in base alle convenzioni di denominazione" # Card 3 description
+    addIndexes: "Aggiungi blocchi di indici per le chiavi esterne e le colonne interrogate di frequente" # Card 4 description
+    learnDatabaseDesign: "Scopri i concetti fondamentali sulla progettazione dei database" # Card 5 description
+    cloneSlack: "Crea un database per un'applicazione tipo Slack" # Card 6 description
+    documentDatabase: "Crea un database per l'archiviazione e la gestione di documenti" # Card 7 description
+    todoList: "Crea un database per un'applicazione todo list" # Card 8 description
+    remapDataTypes: "Converti i tipi di dati per adattarli al sistema di database di destinazione" # Card 9 description
+
+  # ========================================
+  # Quick Action Sub-actions - Database type selectors
+  # ========================================
+  quickActionSubActions:
+    postgresql: "PostgreSQL" # Database selector option
+    mysql: "MySQL" # Database selector option
+    sqlServer: "SQL Server" # Database selector option
+    sqlite: "SQLite" # Database selector option
+    oracle: "Oracle" # Database selector option
