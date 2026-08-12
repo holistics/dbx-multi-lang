@@ -15,6 +15,8 @@ workspace:
   advanced: "Avanzato" # Label for advanced tier/sample (templates dropdown)
   myDiagrams: "I miei diagrammi" # Sidebar section for personal diagrams
   sharedWithMe: "Condivisi con me" # Sidebar section for shared diagrams
+  guestWorkspace: "Spazio di lavoro ospite"
+  guestLabel: "(ospite)"
   workspace: "Spazio di lavoro" # Label for team workspace type
   private: "Privato" # Privacy label for private items
   readOnlyMode: "Lo spazio di lavoro è in modalità sola lettura a causa dell'annullamento dell'abbonamento. Rinnova l'abbonamento per abilitare le funzionalità dello spazio di lavoro."

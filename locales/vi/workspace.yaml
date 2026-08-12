@@ -9,6 +9,8 @@ workspace:
   advanced: Nâng cao
   myDiagrams: Sơ đồ của tôi
   sharedWithMe: Đã chia sẻ với tôi
+  guestWorkspace: Không gian làm việc khách
+  guestLabel: (khách)
   workspace: Không gian làm việc
   private: Riêng tư
   readOnlyMode: Không gian làm việc đang ở chế độ chỉ đọc do hủy gói đăng ký. Vui lòng gia hạn để bật các tính năng của không gian làm việc.

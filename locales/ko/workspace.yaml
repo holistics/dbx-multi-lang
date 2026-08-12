@@ -15,6 +15,8 @@ workspace:
   advanced: 고급      # Label for advanced tier/sample (templates dropdown)
   myDiagrams: 내 다이어그램     # Sidebar section for personal diagrams
   sharedWithMe: 나와 공유됨         # Sidebar section for shared diagrams
+  guestWorkspace: 게스트 워크스페이스
+  guestLabel: (게스트)
   workspace: 워크스페이스      # Label for team workspace type
   private: 비공개     # Privacy label for private items
   readOnlyMode: 구독 취소로 인해 워크스페이스가 읽기 전용 모드입니다. 워크스페이스 기능을 활성화하려면 갱신하세요.

@@ -12,6 +12,8 @@ workspace:
   advanced: 高级
   myDiagrams: 我的图表
   sharedWithMe: 与我分享
+  guestWorkspace: 访客工作区
+  guestLabel: (访客)
   workspace: 工作区
   private: 私有
   readOnlyMode: 由于订阅已取消，工作区处于只读模式。请续订以启用工作区功能。

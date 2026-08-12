@@ -15,6 +15,8 @@ workspace:
   advanced: Ilg'or (Advanced) # Label for advanced tier/sample (templates dropdown)
   myDiagrams: Mening diagrammalarim # Sidebar section for personal diagrams
   sharedWithMe: Men bilan ulashilgan # Sidebar section for shared diagrams
+  guestWorkspace: Mehmon ish maydoni
+  guestLabel: (mehmon)
   workspace: Ish maydoni # Label for team workspace type
   private: Xususiy # Privacy label for private items
   readOnlyMode: Obuna bekor qilinganligi sababli ish maydoni faqat o'qish rejimida. Ish maydoni funksiyalarini yoqish uchun iltimos, obunani yangilang.
