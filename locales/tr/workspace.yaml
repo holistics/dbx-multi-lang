@@ -59,7 +59,7 @@ workspace:
     removeWorkspaceSuggestion: "İşlemi onaylamak için lütfen metin giriş alanına <i>kalıcı olarak sil</i> (permanently delete) yazın." # Confirmation input prompt
     removalRequestCanceled: Silme isteği başarıyla iptal edildi! # Success toast
     removalRequestCreated: Silme isteği başarıyla oluşturuldu! # Success toast
-    contactSupportError: Bir hata oluştu, lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin # Support contact message
+    contactSupportError: Bir hata oluştu, lütfen dbdiagram{'@'}holistics.io adresinden destek ekibimizle iletişime geçin # Support contact message
     workspaceNameUpdated: Çalışma alanı adı başarıyla güncellendi # Success toast
     workspaceNameUpdateFailed: Çalışma alanı adı güncellenemedi, lütfen tekrar deneyin! # Error toast
     ssoConfigFetchFailed: SSO yapılandırması alınamadı. Lütfen sayfayı yenilemeyi deneyin. # Error toast

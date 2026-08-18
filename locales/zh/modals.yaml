@@ -123,8 +123,8 @@ modals:
     feedback: 请告诉我们你的
     feedbackLink: 反馈
     aboutThisFeature: 关于此功能！
-    errorLoadingProjects: 加载已发布项目时发生错误，请联系我们的支持 dbdiagram@holistics.io
-    errorPublishing: 发布项目时发生错误，请联系我们的支持 dbdiagram@holistics.io
+    errorLoadingProjects: 加载已发布项目时发生错误，请联系我们的支持 dbdiagram{'@'}holistics.io
+    errorPublishing: 发布项目时发生错误，请联系我们的支持 dbdiagram{'@'}holistics.io
     projectNameEmpty: 项目名称不能为空
     projectNameInvalid: 项目名称只能包含字母、数字、空格、"-" 或 "_"
     projectNameExists: 具有此名称/URL 的项目已存在。请选择其他名称。

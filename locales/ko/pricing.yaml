@@ -369,4 +369,4 @@ pricing:
     - question: "보안이 걱정됩니다. dbdocs의 자체 호스팅 버전을 제공하나요?"
       answerHtml: "데이터 보호의 중요성을 잘 알고 있습니다. dbdocs의 자체 호스팅 버전을 찾고 계시다면, 이 <a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">양식</a>을 작성해 주시면, 저희 팀이 구체적인 요구 사항에 대해 연락드리겠습니다."
     - question: 질문이 있습니다. 어떻게 연락할 수 있나요?
-      answerHtml: "<a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a>로 이메일을 보내주세요."
+      answerHtml: "<a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a>로 이메일을 보내주세요."

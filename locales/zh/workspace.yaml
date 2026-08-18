@@ -55,7 +55,7 @@ workspace:
     removeWorkspaceSuggestion: 请在文本输入框中输入 <i>permanently delete</i> 以确认。
     removalRequestCanceled: 移除请求已成功取消！
     removalRequestCreated: 移除请求已成功创建！
-    contactSupportError: 发生错误，请联系我们的支持 dbdiagram@holistics.io
+    contactSupportError: 发生错误，请联系我们的支持 dbdiagram{'@'}holistics.io
     workspaceNameUpdated: 工作区名称更新成功
     workspaceNameUpdateFailed: 工作区名称更新失败，请重试！
     ssoConfigFetchFailed: 获取 SSO 配置失败。请尝试刷新页面。

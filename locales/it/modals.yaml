@@ -142,8 +142,8 @@ modals:
     feedback: "Inviaci il tuo" # Feedback label
     feedbackLink: "feedback" # Feedback link
     aboutThisFeature: "su questa funzionalità!" # Feedback link suffix
-    errorLoadingProjects: "Si è verificato un errore durante il caricamento dei progetti pubblicati, contatta il supporto all'indirizzo dbdiagram@holistics.io" # Error toast
-    errorPublishing: "Si è verificato un errore durante la pubblicazione del progetto, contatta il supporto all'indirizzo dbdiagram@holistics.io" # Error toast
+    errorLoadingProjects: "Si è verificato un errore durante il caricamento dei progetti pubblicati, contatta il supporto all'indirizzo dbdiagram{'@'}holistics.io" # Error toast
+    errorPublishing: "Si è verificato un errore durante la pubblicazione del progetto, contatta il supporto all'indirizzo dbdiagram{'@'}holistics.io" # Error toast
     projectNameEmpty: "Il nome del progetto non può essere vuoto" # Validation error
     projectNameInvalid: "Il nome del progetto può contenere solo lettere, numeri, spazi, \"-\" o \"_\"" # Validation error
     projectNameExists: "Esiste già un progetto con questo nome/URL. Scegli un nome diverso." # Validation error for duplicate name/url

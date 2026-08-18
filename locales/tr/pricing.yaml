@@ -369,4 +369,4 @@ pricing:
     - question: "Güvenlik konusunda endişelerim var. dbdocs'un kendi sunucunuzda barındırılan bir sürümünü sunuyor musunuz?"
       answerHtml: "Verilerinizi korumanın önemini anlıyoruz. dbdocs'un kendi sunucunuzda barındırılan bir sürümünü arıyorsanız, bu <a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">formu</a> doldurmanız yeterlidir; ekibimiz özel gereksinimlerinizi görüşmek için sizinle iletişime geçecektir."
     - question: Sorularım var. Nasıl iletişime geçebilirim?
-      answerHtml: "Bize <a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a> adresinden e-posta gönderin."
+      answerHtml: "Bize <a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a> adresinden e-posta gönderin."

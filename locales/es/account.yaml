@@ -28,7 +28,7 @@ account:
     manageTitle: Gestionar cuenta # Section title
     changeEmail: Cambiar dirección de correo electrónico # Change email button label
     changeEmailInProgress: Tienes un cambio de correo electrónico en progreso, por favor espera # Disabled message when email change is in progress
-    changeEmailFailed: "Tu último cambio de correo electrónico falló, por favor contacta nuestro soporte en dbdiagram@holistics.io" # Disabled message when last email change failed
+    changeEmailFailed: "Tu último cambio de correo electrónico falló, por favor contacta nuestro soporte en dbdiagram{'@'}holistics.io" # Disabled message when last email change failed
 
     # Account removal
     removal:
@@ -158,7 +158,7 @@ account:
       inProgressText: Esto puede tardar unos minutos. Puedes continuar usando la aplicación. # Notification body while syncing
       completedText: ¡Correo electrónico actualizado en todos los servicios correctamente! # Success notification
       failedTitle: Algunos servicios no pudieron sincronizar tu nuevo correo electrónico. # Warning notification title
-      failedText: Tu correo electrónico ha sido cambiado, pero algunos servicios pueden seguir mostrando el anterior. Por favor, contacta nuestro soporte en dbdiagram@holistics.io. # Warning notification body
+      failedText: Tu correo electrónico ha sido cambiado, pero algunos servicios pueden seguir mostrando el anterior. Por favor, contacta nuestro soporte en dbdiagram{'@'}holistics.io. # Warning notification body
 
     # Error messages
     errors:

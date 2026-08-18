@@ -142,8 +142,8 @@ modals:
     feedback: Donnez-nous votre
     feedbackLink: retour
     aboutThisFeature: sur cette fonctionnalité !
-    errorLoadingProjects: Une erreur est survenue lors du chargement des projets publiés, veuillez contacter le support à dbdiagram@holistics.io
-    errorPublishing: Une erreur est survenue lors de la publication, veuillez contacter le support à dbdiagram@holistics.io
+    errorLoadingProjects: Une erreur est survenue lors du chargement des projets publiés, veuillez contacter le support à dbdiagram{'@'}holistics.io
+    errorPublishing: Une erreur est survenue lors de la publication, veuillez contacter le support à dbdiagram{'@'}holistics.io
     projectNameEmpty: Le nom du projet ne peut pas être vide
     projectNameInvalid: Le nom du projet ne peut contenir que des lettres, chiffres, espaces, "-" ou "_"
     projectNameExists: Un projet avec ce nom existe déjà. Veuillez en choisir un autre.

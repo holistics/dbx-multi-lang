@@ -59,7 +59,7 @@ workspace:
     removeWorkspaceSuggestion: 'Please type <i>permanently delete</i> in the text input field to confirm.' # Confirmation input prompt
     removalRequestCanceled: Removal request was canceled successfully! # Success toast
     removalRequestCreated: Removal request was created successfully! # Success toast
-    contactSupportError: An error has occurred, please contact our support at dbdiagram@holistics.io # Support contact message
+    contactSupportError: An error has occurred, please contact our support at dbdiagram{'@'}holistics.io # Support contact message
     workspaceNameUpdated: Workspace name updated successfully # Success toast
     workspaceNameUpdateFailed: Workspace name update failed, please try again! # Error toast
     ssoConfigFetchFailed: Failed to fetch SSO configuration. Please try to refresh the page. # Error toast

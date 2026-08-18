@@ -369,4 +369,4 @@ pricing:
     - question: "我很关注安全问题。你们是否提供 dbdocs 的自托管版本？"
       answerHtml: "我们理解保护你数据的重要性。如果你正在寻找 dbdocs 的自托管版本，只需填写此<a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">表单</a>，我们的团队将与你联系，讨论你的具体需求。"
     - question: 我有问题，如何联系你们？
-      answerHtml: "请发送邮件至 <a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a>。"
+      answerHtml: "请发送邮件至 <a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a>。"

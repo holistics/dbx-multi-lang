@@ -369,4 +369,4 @@ pricing:
     - question: "Estou preocupado com a segurança. Vocês oferecem uma versão auto-hospedada do dbdocs?"
       answerHtml: "Entendemos a importância de proteger seus dados. Se você está procurando uma versão auto-hospedada do dbdocs, basta preencher este <a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">formulário</a>, e nossa equipe entrará em contato para discutir seus requisitos específicos."
     - question: Tenho perguntas. Como posso entrar em contato?
-      answerHtml: "Envie-nos um e-mail para <a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a>."
+      answerHtml: "Envie-nos um e-mail para <a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a>."

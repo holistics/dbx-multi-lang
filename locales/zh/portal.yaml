@@ -35,7 +35,7 @@ portal:
         description: 重定向 URI 与配置不匹配。
       unknown:
         title: 意外错误
-        description: 出了点问题。请联系我们的支持 dbdiagram@holistics.io
+        description: 出了点问题。请联系我们的支持 dbdiagram{'@'}holistics.io
 
   logout:
     validating: 正在验证退出请求...
@@ -63,7 +63,7 @@ portal:
     internalServerError: 服务器发生意外错误。请稍后重试。
     serviceUnavailable: 服务暂时不可用。请稍后重试。
     networkError: 无法连接到服务器。请检查你的网络连接并重试。
-    authenticationError: 身份验证错误。请联系我们的支持 dbdiagram@holistics.io
+    authenticationError: 身份验证错误。请联系我们的支持 dbdiagram{'@'}holistics.io
     windowNotOpened: 此窗口未正确打开。请返回 {clientName} 并重试。
     windowClosed: 原始应用程序窗口已关闭。请返回 {clientName} 并重试。
     communicationFailed: 与 {clientName} 通信失败。请重试

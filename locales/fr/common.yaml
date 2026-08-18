@@ -182,7 +182,7 @@ common:
       fullSession: "Impossible de se connecter : session complète !"
       diagramDeleted: Ce diagramme a été supprimé !
       overwrittenDiagram: Quelqu’un a écrasé le contenu du diagramme, veuillez recharger pour voir les dernières modifications !
-      diagramMigratedDiagramViewAsCode: Vos vues de diagramme ont été migrées vers le nouveau format "Diagram View as Code". Veuillez recharger pour continuer. Contactez dbdiagram@holistics.io en cas de problème.
+      diagramMigratedDiagramViewAsCode: Vos vues de diagramme ont été migrées vers le nouveau format "Diagram View as Code". Veuillez recharger pour continuer. Contactez dbdiagram{'@'}holistics.io en cas de problème.
       permissionsChanged: Vos permissions ont été modifiées, veuillez recharger pour appliquer les changements !
       cannotReconnect: Impossible de se reconnecter au serveur
 

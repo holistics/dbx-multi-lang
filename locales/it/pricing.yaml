@@ -369,4 +369,4 @@ pricing:
     - question: "Sono preoccupato per la sicurezza. Offrite una versione self-hosted di dbdocs?"
       answerHtml: "Comprendiamo l'importanza di proteggere i tuoi dati. Se stai cercando una versione self-hosted di dbdocs, compila semplicemente questo <a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">modulo</a> e il nostro team ti contatterà per discutere le tue esigenze specifiche."
     - question: Ho delle domande. Come posso contattarvi?
-      answerHtml: "Scrivici un'email all'indirizzo <a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a>."
+      answerHtml: "Scrivici un'email all'indirizzo <a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a>."

@@ -59,7 +59,7 @@ workspace:
     removeWorkspaceSuggestion: "Digita <i>elimina definitivamente</i> nel campo di testo per confermare." # Confirmation input prompt
     removalRequestCanceled: "Richiesta di rimozione annullata con successo!" # Success toast
     removalRequestCreated: "Richiesta di rimozione creata con successo!" # Success toast
-    contactSupportError: "Si è verificato un errore, contatta il nostro supporto all'indirizzo dbdiagram@holistics.io" # Support contact message
+    contactSupportError: "Si è verificato un errore, contatta il nostro supporto all'indirizzo dbdiagram{'@'}holistics.io" # Support contact message
     workspaceNameUpdated: "Nome dello spazio di lavoro aggiornato con successo" # Success toast
     workspaceNameUpdateFailed: "Aggiornamento del nome dello spazio di lavoro non riuscito, riprova!" # Error toast
     ssoConfigFetchFailed: "Impossibile recuperare la configurazione SSO. Prova a ricaricare la pagina." # Error toast

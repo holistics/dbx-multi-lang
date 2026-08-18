@@ -41,7 +41,7 @@ portal:
         description: Yönlendirme (redirect) URI, yapılandırmayla eşleşmiyor. # Error description (redirect URI)
       unknown:
         title: Beklenmeyen Hata # Error title (generic)
-        description: Bir şeyler ters gitti. Lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin. # Error description (generic)
+        description: Bir şeyler ters gitti. Lütfen dbdiagram{'@'}holistics.io adresinden destek ekibimizle iletişime geçin. # Error description (generic)
 
   # ========================================
   # Logout - Logout messages
@@ -84,7 +84,7 @@ portal:
     internalServerError: Sunucuda beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin. # 500 error
     serviceUnavailable: Hizmet geçici olarak kullanım dışı. Lütfen birkaç dakika sonra tekrar deneyin. # 503 error
     networkError: Sunucuya bağlanılamıyor. Lütfen internet bağlantınızı kontrol edip tekrar deneyin. # Network error
-    authenticationError: Kimlik doğrulama hatası. Lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin. # Auth error
+    authenticationError: Kimlik doğrulama hatası. Lütfen dbdiagram{'@'}holistics.io adresinden destek ekibimizle iletişime geçin. # Auth error
     windowNotOpened: Bu pencere düzgün açılmadı. Lütfen {clientName} uygulamasına dönerek tekrar deneyin. # Window error
     windowClosed: Orijinal uygulama penceresi kapatıldı. Lütfen {clientName} uygulamasına dönerek tekrar deneyin. # Window closed error
     communicationFailed: "{clientName} ile iletişim kurulamadı. Lütfen tekrar deneyin." # Communication error

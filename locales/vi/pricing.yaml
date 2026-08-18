@@ -369,4 +369,4 @@ pricing:
     - question: "Tôi lo ngại về bảo mật. Bạn có cung cấp phiên bản tự lưu trữ (self-hosted) của dbdocs không?"
       answerHtml: "Chúng tôi hiểu tầm quan trọng của việc bảo vệ dữ liệu của bạn. Nếu bạn đang tìm phiên bản tự lưu trữ của dbdocs, hãy điền vào <a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">biểu mẫu</a> này, và đội ngũ của chúng tôi sẽ liên hệ để thảo luận về yêu cầu cụ thể của bạn."
     - question: Tôi có câu hỏi. Làm thế nào để liên hệ?
-      answerHtml: "Gửi email cho chúng tôi tại <a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a>."
+      answerHtml: "Gửi email cho chúng tôi tại <a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a>."

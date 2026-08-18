@@ -59,7 +59,7 @@ workspace:
     removeWorkspaceSuggestion: 'Por favor, digite <i>permanently delete</i> no campo de texto para confirmar.'
     removalRequestCanceled: Solicitação de remoção cancelada com sucesso!
     removalRequestCreated: Solicitação de remoção criada com sucesso!
-    contactSupportError: Ocorreu um erro, entre em contato com nosso suporte em dbdiagram@holistics.io
+    contactSupportError: Ocorreu um erro, entre em contato com nosso suporte em dbdiagram{'@'}holistics.io
     workspaceNameUpdated: Nome do Espaço de Trabalho atualizado com sucesso
     workspaceNameUpdateFailed: Falha ao atualizar nome do Espaço de Trabalho, por favor, tente novamente!
     ssoConfigFetchFailed: Falha ao buscar configuração de SSO. Por favor, tente atualizar a página.

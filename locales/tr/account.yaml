@@ -25,7 +25,7 @@ account:
     manageTitle: Hesap Yönetimi # Section title
     changeEmail: E-posta adresini değiştir # Change email button label
     changeEmailInProgress: E-posta değişikliği yapılıyor, lütfen bekleyin # Disabled message when email change is in progress
-    changeEmailFailed: "Son e-posta değişikliğiniz başarısız oldu, lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin." # Disabled message when last email change failed
+    changeEmailFailed: "Son e-posta değişikliğiniz başarısız oldu, lütfen dbdiagram{'@'}holistics.io adresinden destek ekibimizle iletişime geçin." # Disabled message when last email change failed
 
     # Account removal
     removal:
@@ -152,7 +152,7 @@ account:
       inProgressText: Bu birkaç dakika sürebilir. Uygulamayı kullanmaya devam edebilirsiniz. # Notification body while syncing
       completedText: E-posta tüm hizmetlerde başarıyla güncellendi! # Success notification
       failedTitle: Bazı hizmetler yeni e-postanızı senkronize edemedi. # Warning notification title
-      failedText: E-postanız değiştirildi, ancak bazı hizmetler hala eski e-postayı gösterebilir. Lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin. # Warning notification body
+      failedText: E-postanız değiştirildi, ancak bazı hizmetler hala eski e-postayı gösterebilir. Lütfen dbdiagram{'@'}holistics.io adresinden destek ekibimizle iletişime geçin. # Warning notification body
 
     # Error messages
     errors:

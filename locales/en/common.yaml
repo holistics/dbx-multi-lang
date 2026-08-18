@@ -27,7 +27,7 @@ common:
     sendFeedback: Send Feedback # Link to feedback form (opens modal)
     askCommunity: Ask Community # Link to Discord/community forum
     suggestFeature: Suggest Feature # Link to feature request board
-    contactUs: Contact Us # Link to support email (dbdiagram@holistics.io)
+    contactUs: Contact Us # Link to support email (dbdiagram{'@'}holistics.io)
     sampleDiagrams: Sample Diagrams # Opens templates gallery modal
     sampleAirbnb: Sample Airbnb # Opens Airbnb database schema template
     sampleEcommerce: Sample E-commerce # Opens e-commerce schema template

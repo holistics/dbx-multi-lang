@@ -25,7 +25,7 @@ account:
     manageTitle: Gérer le compte
     changeEmail: Modifier l'adresse e-mail
     changeEmailInProgress: Une modification de votre adresse e-mail est en cours. Veuillez patienter.
-    changeEmailFailed: "La dernière modification de votre adresse e-mail a échoué. Veuillez contacter notre support à l'adresse dbdiagram@holistics.io."
+    changeEmailFailed: "La dernière modification de votre adresse e-mail a échoué. Veuillez contacter notre support à l'adresse dbdiagram{'@'}holistics.io."
 
     # Suppression du compte
     removal:
@@ -163,7 +163,7 @@ account:
       inProgressText: Cette opération peut prendre quelques minutes. Vous pouvez continuer à utiliser l'application pendant ce temps.
       completedText: L'adresse e-mail a été mise à jour avec succès sur tous les services !
       failedTitle: La synchronisation a échoué sur certains services.
-      failedText: Votre adresse e-mail a bien été modifiée, mais certains services peuvent encore afficher l'ancienne. Veuillez contacter notre support à l'adresse dbdiagram@holistics.io.
+      failedText: Votre adresse e-mail a bien été modifiée, mais certains services peuvent encore afficher l'ancienne. Veuillez contacter notre support à l'adresse dbdiagram{'@'}holistics.io.
 
     # Messages d'erreur
     errors:

@@ -369,4 +369,4 @@ pricing:
     - question: "セキュリティが心配です。dbdocs のセルフホスト版はありますか？"
       answerHtml: "お客様のデータを保護することの重要性を理解しています。dbdocs のセルフホスト版をお探しの場合は、こちらの<a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">フォーム</a>にご記入ください。担当者がお客様のご要件についてご連絡いたします。"
     - question: 質問があります。どのように連絡すればよいですか？
-      answerHtml: "<a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a> までメールをお送りください。"
+      answerHtml: "<a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a> までメールをお送りください。"

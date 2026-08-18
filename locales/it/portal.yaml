@@ -41,7 +41,7 @@ portal:
         description: "L'URI di reindirizzamento non corrisponde alla configurazione." # Error description (redirect URI)
       unknown:
         title: "Errore imprevisto" # Error title (generic)
-        description: "Si è verificato un errore. Per favore contatta il nostro supporto all'indirizzo dbdiagram@holistics.io" # Error description (generic)
+        description: "Si è verificato un errore. Per favore contatta il nostro supporto all'indirizzo dbdiagram{'@'}holistics.io" # Error description (generic)
 
   # ========================================
   # Logout - Logout messages
@@ -84,7 +84,7 @@ portal:
     internalServerError: "Si è verificato un errore imprevisto sul server. Riprova più tardi." # 500 error
     serviceUnavailable: "Il servizio è temporaneamente non disponibile. Riprova tra qualche istante." # 503 error
     networkError: "Impossibile connettersi al server. Verifica la tua connessione Internet e riprova." # Network error
-    authenticationError: "Errore di autenticazione. Per favore contatta il nostro supporto all'indirizzo dbdiagram@holistics.io" # Auth error
+    authenticationError: "Errore di autenticazione. Per favore contatta il nostro supporto all'indirizzo dbdiagram{'@'}holistics.io" # Auth error
     windowNotOpened: "Questa finestra non è stata aperta correttamente. Torna a {clientName} e riprova." # Window error
     windowClosed: "La finestra dell'applicazione originale è stata chiusa. Torna a {clientName} e riprova." # Window closed error
     communicationFailed: "Impossibile comunicare con {clientName}. Riprova" # Communication error

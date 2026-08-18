@@ -27,7 +27,7 @@ common:
     sendFeedback: "Invia un feedback" # Link to feedback form (opens modal)
     askCommunity: "Chiedi alla Community" # Link to Discord/community forum
     suggestFeature: "Suggerisci una funzionalità" # Link to feature request board
-    contactUs: "Contattaci" # Link to support email (dbdiagram@holistics.io)
+    contactUs: "Contattaci" # Link to support email (dbdiagram{'@'}holistics.io)
     sampleDiagrams: "Diagrammi di esempio" # Opens templates gallery modal
     sampleAirbnb: "Esempio Airbnb" # Opens Airbnb database schema template
     sampleEcommerce: "Esempio E-commerce" # Opens e-commerce schema template

@@ -142,8 +142,8 @@ modals:
     feedback: Let us know your # Feedback label
     feedbackLink: feedback # Feedback link
     aboutThisFeature: about this feature! # Feedback link suffix
-    errorLoadingProjects: An error has occurred while loading published projects, please contact our support at dbdiagram@holistics.io # Error toast
-    errorPublishing: An error has occurred while publishing project, please contact our support at dbdiagram@holistics.io # Error toast
+    errorLoadingProjects: An error has occurred while loading published projects, please contact our support at dbdiagram{'@'}holistics.io # Error toast
+    errorPublishing: An error has occurred while publishing project, please contact our support at dbdiagram{'@'}holistics.io # Error toast
     projectNameEmpty: Project name cannot be empty # Validation error
     projectNameInvalid: Project name can only contain only alphabets, numbers, space, "-" or "_" # Validation error
     projectNameExists: A project with this name/url already exists. Please choose a different name. # Validation error for duplicate name/url

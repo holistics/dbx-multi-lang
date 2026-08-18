@@ -50,7 +50,7 @@ workspace:
     removeWorkspaceSuggestion: 'Vui lòng nhập <i>permanently delete</i> vào ô nhập để xác nhận.'
     removalRequestCanceled: Yêu cầu xóa đã được hủy thành công!
     removalRequestCreated: Yêu cầu xóa đã được tạo thành công!
-    contactSupportError: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
+    contactSupportError: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram{'@'}holistics.io
     workspaceNameUpdated: Tên không gian làm việc đã được cập nhật thành công
     workspaceNameUpdateFailed: Cập nhật tên không gian làm việc thất bại, vui lòng thử lại!
     ssoConfigFetchFailed: Không thể tải cấu hình SSO. Vui lòng tải lại trang.

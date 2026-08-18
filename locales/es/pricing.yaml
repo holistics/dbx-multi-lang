@@ -369,4 +369,4 @@ pricing:
     - question: "Me preocupa la seguridad. ¿Ofrecen una versión autoalojada de dbdocs?"
       answerHtml: "Entendemos la importancia de proteger tus datos. Si buscas una versión autoalojada de dbdocs, simplemente completa este <a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">formulario</a>, y nuestro equipo se pondrá en contacto para hablar sobre tus requisitos específicos."
     - question: Tengo preguntas. ¿Cómo puedo comunicarme?
-      answerHtml: "Envíanos un correo electrónico a <a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a>."
+      answerHtml: "Envíanos un correo electrónico a <a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a>."

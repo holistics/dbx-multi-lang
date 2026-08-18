@@ -59,7 +59,7 @@ workspace:
     removeWorkspaceSuggestion: "Tasdiqlash uchun matn kiritish maydoniga <i>permanently delete</i> deb yozing." # Confirmation input prompt
     removalRequestCanceled: O'chirish so'rovi muvaffaqiyatli bekor qilindi! # Success toast
     removalRequestCreated: O'chirish so'rovi muvaffaqiyatli yaratildi! # Success toast
-    contactSupportError: Xatolik yuz berdi, iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Support contact message
+    contactSupportError: Xatolik yuz berdi, iltimos, dbdiagram{'@'}holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Support contact message
     workspaceNameUpdated: Ish maydoni nomi muvaffaqiyatli yangilandi # Success toast
     workspaceNameUpdateFailed: Ish maydoni nomini yangilab bo'lmadi, qayta urinib ko'ring! # Error toast
     ssoConfigFetchFailed: SSO konfiguratsiyasini olib bo'lmadi. Iltimos, sahifani yangilab ko'ring. # Error toast

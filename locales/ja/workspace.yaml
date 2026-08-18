@@ -55,7 +55,7 @@ workspace:
     removeWorkspaceSuggestion: 確認のため、テキスト入力欄に <i>permanently delete</i> と入力してください。
     removalRequestCanceled: 削除リクエストが正常にキャンセルされました！
     removalRequestCreated: 削除リクエストが正常に作成されました！
-    contactSupportError: エラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
+    contactSupportError: エラーが発生しました。サポート dbdiagram{'@'}holistics.io にお問い合わせください
     workspaceNameUpdated: ワークスペース名が正常に更新されました
     workspaceNameUpdateFailed: ワークスペース名の更新に失敗しました。もう一度お試しください！
     ssoConfigFetchFailed: SSO 設定の取得に失敗しました。ページを更新してください。

@@ -369,4 +369,4 @@ pricing:
     - question: "Men xavfsizlik haqida qayg'uraman. dbdocs ning o'z serveringizda joylashtiriladigan versiyasini taklif qilasizmi?"
       answerHtml: "Ma'lumotlaringizni himoya qilish muhimligini tushunamiz. Agar dbdocs ning o'z serveringizda joylashtiriladigan versiyasini izlayotgan bo'lsangiz, ushbu <a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">shaklni</a> to'ldiring va jamoamiz maxsus talablaringizni muhokama qilish uchun siz bilan bog'lanadi."
     - question: Savollarim bor. Qanday bog'lanishim mumkin?
-      answerHtml: "Bizga <a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a> ga elektron pochta yuboring."
+      answerHtml: "Bizga <a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a> ga elektron pochta yuboring."
