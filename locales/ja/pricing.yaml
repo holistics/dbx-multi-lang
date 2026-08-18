@@ -11,6 +11,20 @@ pricing:
     subtitle: すべての有料プランに dbdiagram と dbdocs が含まれています。 # Subtitle
 
   # ========================================
+  # Misc UI labels
+  # ========================================
+  ui:
+    learnMore: "Learn more \u2192"
+    faqTitle: FAQs
+    taxNote: "* Your payment is subject to tax from your country"
+    plansAndFeatures: Plans & Features
+    features: Features
+    whatsInProPlan: "What\u2019s in our Personal Pro plan?"
+    whatsInTeamPlan: "What\u2019s in our Team plan?"
+    dbdocsFreePaidTitle: dbdocs
+    dbdocsFreePaidHeading: Free vs Paid
+
+  # ========================================
   # Billing Toggle - Monthly/Annual switch
   # ========================================
   billingToggle:

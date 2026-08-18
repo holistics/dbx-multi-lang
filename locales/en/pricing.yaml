@@ -11,6 +11,20 @@ pricing:
     subtitle: Every paid plan includes dbdiagram and dbdocs together. # Subtitle
 
   # ========================================
+  # Misc UI labels
+  # ========================================
+  ui:
+    learnMore: "Learn more \u2192" # Learn more link in feature blocks
+    faqTitle: FAQs # FAQ section title
+    taxNote: "* Your payment is subject to tax from your country" # Tax disclaimer under FAQ
+    plansAndFeatures: Plans & Features # Comparison table heading
+    features: Features # Comparison table column header
+    whatsInProPlan: "What\u2019s in our Personal Pro plan?" # Pro feature section title
+    whatsInTeamPlan: "What\u2019s in our Team plan?" # Team feature section title
+    dbdocsFreePaidTitle: dbdocs # Free vs Paid table eyebrow label
+    dbdocsFreePaidHeading: Free vs Paid # Free vs Paid table heading
+
+  # ========================================
   # Billing Toggle - Monthly/Annual switch
   # ========================================
   billingToggle:

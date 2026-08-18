@@ -11,6 +11,20 @@ pricing:
     subtitle: Chaque plan payant inclut dbdiagram et dbdocs ensemble. # Sous-titre
 
   # ========================================
+  # Misc UI labels
+  # ========================================
+  ui:
+    learnMore: "En savoir plus \u2192"
+    faqTitle: FAQs
+    taxNote: "* Votre paiement est soumis aux taxes de votre pays"
+    plansAndFeatures: Plans et fonctionnalités
+    features: Fonctionnalités
+    whatsInProPlan: "Qu\u2019est-ce qui est inclus dans le plan Personal Pro ?"
+    whatsInTeamPlan: "Qu\u2019est-ce qui est inclus dans le plan Team ?"
+    dbdocsFreePaidTitle: dbdocs
+    dbdocsFreePaidHeading: Gratuit vs Payant
+
+  # ========================================
   # Sélecteur de facturation - Mensuel/Annuel
   # ========================================
   billingToggle:
