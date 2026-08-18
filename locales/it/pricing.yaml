@@ -14,15 +14,15 @@ pricing:
   # Misc UI labels
   # ========================================
   ui:
-    learnMore: "Learn more \u2192"
-    faqTitle: FAQs
-    taxNote: "* Your payment is subject to tax from your country"
-    plansAndFeatures: Plans & Features
-    features: Features
-    whatsInProPlan: "What\u2019s in our Personal Pro plan?"
-    whatsInTeamPlan: "What\u2019s in our Team plan?"
+    learnMore: Scopri di più →
+    faqTitle: Domande frequenti
+    taxNote: "* Il pagamento è soggetto alle tasse del tuo paese"
+    plansAndFeatures: Piani e funzionalità
+    features: Funzionalità
+    whatsInProPlan: Cosa include il piano Personal Pro?
+    whatsInTeamPlan: Cosa include il piano Team?
     dbdocsFreePaidTitle: dbdocs
-    dbdocsFreePaidHeading: Free vs Paid
+    dbdocsFreePaidHeading: Gratuito vs A pagamento
 
   # ========================================
   # Billing Toggle - Monthly/Annual switch

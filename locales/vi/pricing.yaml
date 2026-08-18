@@ -14,15 +14,15 @@ pricing:
   # Misc UI labels
   # ========================================
   ui:
-    learnMore: "Learn more \u2192"
-    faqTitle: FAQs
-    taxNote: "* Your payment is subject to tax from your country"
-    plansAndFeatures: Plans & Features
-    features: Features
-    whatsInProPlan: "What\u2019s in our Personal Pro plan?"
-    whatsInTeamPlan: "What\u2019s in our Team plan?"
+    learnMore: Tìm hiểu thêm →
+    faqTitle: Câu hỏi thường gặp
+    taxNote: "* Thanh toán của bạn có thể chịu thuế theo quy định của quốc gia bạn"
+    plansAndFeatures: Gói dịch vụ và tính năng
+    features: Tính năng
+    whatsInProPlan: Gói Personal Pro bao gồm những gì?
+    whatsInTeamPlan: Gói Team bao gồm những gì?
     dbdocsFreePaidTitle: dbdocs
-    dbdocsFreePaidHeading: Free vs Paid
+    dbdocsFreePaidHeading: Miễn phí vs Trả phí
 
   # ========================================
   # Billing Toggle - Monthly/Annual switch

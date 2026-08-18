@@ -14,15 +14,15 @@ pricing:
   # Misc UI labels
   # ========================================
   ui:
-    learnMore: "Learn more \u2192"
-    faqTitle: FAQs
-    taxNote: "* Your payment is subject to tax from your country"
-    plansAndFeatures: Plans & Features
-    features: Features
-    whatsInProPlan: "What\u2019s in our Personal Pro plan?"
-    whatsInTeamPlan: "What\u2019s in our Team plan?"
+    learnMore: "Batafsil ma'lumot →"
+    faqTitle: "Ko'p beriladigan savollar"
+    taxNote: "* To'lovingiz mamlakatingiz soliqlari bo'yicha amalga oshiriladi"
+    plansAndFeatures: Rejalar va imkoniyatlar
+    features: Imkoniyatlar
+    whatsInProPlan: Personal Pro rejasida nimalar bor?
+    whatsInTeamPlan: Team rejasida nimalar bor?
     dbdocsFreePaidTitle: dbdocs
-    dbdocsFreePaidHeading: Free vs Paid
+    dbdocsFreePaidHeading: Bepul vs Pullik
 
   # ========================================
   # Billing Toggle - Monthly/Annual switch

@@ -14,15 +14,15 @@ pricing:
   # Misc UI labels
   # ========================================
   ui:
-    learnMore: "Learn more \u2192"
-    faqTitle: FAQs
-    taxNote: "* Your payment is subject to tax from your country"
-    plansAndFeatures: Plans & Features
-    features: Features
-    whatsInProPlan: "What\u2019s in our Personal Pro plan?"
-    whatsInTeamPlan: "What\u2019s in our Team plan?"
+    learnMore: 자세히 보기 →
+    faqTitle: 자주 묻는 질문
+    taxNote: "* 결제 시 해당 국가의 세금이 적용됩니다"
+    plansAndFeatures: 플랜 및 기능
+    features: 기능
+    whatsInProPlan: Personal Pro 플랜에 포함된 기능
+    whatsInTeamPlan: Team 플랜에 포함된 기능
     dbdocsFreePaidTitle: dbdocs
-    dbdocsFreePaidHeading: Free vs Paid
+    dbdocsFreePaidHeading: 무료 vs 유료
 
   # ========================================
   # Billing Toggle - Monthly/Annual switch
