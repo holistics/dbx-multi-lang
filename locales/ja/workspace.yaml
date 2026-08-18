@@ -61,7 +61,44 @@ workspace:
     ssoConfigFetchFailed: SSO 設定の取得に失敗しました。ページを更新してください。
     ssoConfigUpdated: SSO 設定が正常に更新されました
     ssoConfigSaveFailed: SSO 設定の保存に失敗しました。もう一度お試しください。
+
+  # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: ワークスペースを作成
+    settingUpTitle: ワークスペースをセットアップ中
+    subtitle: 新しいワークスペースは Free プランで開始されます。いつでも Pro または Team にアップグレードできます。
+    nameLabel: ワークスペース名
+    namePlaceholder: "例: Acme チーム"
+    cancel: キャンセル
+    create: 作成
+    provisioning: "dbdiagram と dbdocs にまたがって作成中\u2026"
+    partiallyFailed: "ワークスペース「{name}」は準備できましたが、セットアップの一部が完了しませんでした。"
+    partiallyFailedHint: 今すぐ使用を開始し、後でワークスペース管理ページからセットアップを完了できます。
+    openWorkspace: ワークスペースを開く
+    retry: 再試行
+    fullyFailed: "ワークスペース「{name}」のセットアップ中に問題が発生しました。"
+    contactUs: お問い合わせ
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: 再試行
+    contactUs: お問い合わせ
+    contactUsHint: 再試行しても解決しない場合はこちら。
+    checking:
+      title: "ワークスペースを確認中\u2026"
+      description: すべてが同期されていることを確認しています。しばらくお待ちください。
+    partiallyFailed:
+      title: ワークスペースのセットアップが完了していません。
+      description: セットアップを完了するには再試行してください。
+    fullyFailed:
+      title: ワークスペースのセットアップに失敗しました。
+
   members:
+    unlimited: 無制限
     invite: 招待
     invitePlaceholder: メールアドレスを入力
     inviteButton: 招待

@@ -67,9 +67,45 @@ workspace:
     ssoConfigSaveFailed: Error al guardar la configuración SSO. Por favor, inténtalo de nuevo. # Error toast
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Crear un espacio de trabajo
+    settingUpTitle: Configurando tu espacio de trabajo
+    subtitle: Tu nuevo espacio de trabajo comienza en el plan gratuito. Puedes mejorar a Pro o Team en cualquier momento.
+    nameLabel: Nombre del espacio de trabajo
+    namePlaceholder: "ej. Equipo Acme"
+    cancel: Cancelar
+    create: Crear
+    provisioning: "Creándolo en dbdiagram y dbdocs\u2026"
+    partiallyFailed: "El espacio de trabajo \"{name}\" está listo, pero parte de la configuración no se completó."
+    partiallyFailedHint: Puedes comenzar a usarlo ahora y completar la configuración más tarde desde la página de gestión del espacio de trabajo.
+    openWorkspace: Abrir espacio de trabajo
+    retry: Reintentar
+    fullyFailed: "Algo salió mal al configurar el espacio de trabajo \"{name}\"."
+    contactUs: Contáctanos
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Reintentar
+    contactUs: Contáctanos
+    contactUsHint: si reintentar no ayuda.
+    checking:
+      title: "Verificando tu espacio de trabajo\u2026"
+      description: Un momento mientras confirmamos que todo está sincronizado.
+    partiallyFailed:
+      title: Tu espacio de trabajo no está completamente configurado.
+      description: Por favor, reintenta para completar la configuración.
+    fullyFailed:
+      title: Error al configurar tu espacio de trabajo.
+
+  # ========================================
   # Members - Member management
   # ========================================
   members:
+    unlimited: Ilimitado
     invite: Invitar # Invite button
     invitePlaceholder: Ingresa la dirección de correo electrónico # Email input placeholder
     inviteButton: Invitar # Send invite button

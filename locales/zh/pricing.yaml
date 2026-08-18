@@ -1,0 +1,358 @@
+# Pricing translations - Public pricing page, plan cards, feature comparison, FAQ
+# UI Areas: Pricing landing page, Plan cards, Feature blocks, Comparison table, dbdocs promos
+
+pricing:
+  # ========================================
+  # Pricing Landing Page - Top-level headings
+  # ========================================
+  landing:
+    badge: dbdiagram 和 dbdocs 统一方案 # Badge above title
+    title: 升级你的工作区 # Page title
+    subtitle: 每个付费方案均包含 dbdiagram 和 dbdocs。 # Subtitle
+
+  # ========================================
+  # Billing Toggle - Monthly/Annual switch
+  # ========================================
+  billingToggle:
+    monthly: 月付 # Left toggle label
+    annual: 年付 # Right toggle label
+    saveUpTo: "节省高达 {percent}%" # Save badge text
+
+  # ========================================
+  # Plan Names
+  # ========================================
+  planNames:
+    free: Free # Free plan name
+    personalPro: Personal Pro # Personal Pro plan name
+    team: Team # Team plan name
+    customPlan: Custom Plan # Enterprise/Custom plan name
+
+  # ========================================
+  # Plan Taglines
+  # ========================================
+  taglines:
+    free: 适合设计数据库模式和分享公开文档的个人用户。 # Free plan tagline
+    pro: 适合需要设计和编写文档的自由职业者和顾问。 # Pro plan tagline
+    team: 适合共同设计和编写数据库文档的团队。 # Team plan tagline
+    enterprise: 适合有安全和采购需求的组织。 # Enterprise plan tagline
+
+  # ========================================
+  # Plan Card - Price display
+  # ========================================
+  price:
+    free: 免费 # Free plan price text
+    freeNote: "永久免费" # Free plan price note
+    customPricing: 自定义定价 # Enterprise price text
+    contactForPricing: 联系获取报价 # Enterprise price note
+    perMonth: /月 # Per month unit suffix
+    billedAnnually: "按年计费 - 每年 {currency}{amount}" # Annual billing hint
+    billedMonthly: 按月计费 # Monthly billing hint
+
+  # ========================================
+  # Plan Card - CTA Buttons
+  # ========================================
+  cta:
+    getStartedFree: 免费开始使用 # Free plan CTA
+    upgradeNow: 立即升级 # Pro/Team upgrade CTA
+    startFreeTrial: 开始 7 天免费试用 # Team trial CTA
+    contactSales: 联系销售 # Enterprise CTA
+    downgrade: 降级 # Downgrade button
+    currentPlan: 当前方案 # Current plan label
+
+  # ========================================
+  # Plan Card - Recommended badge
+  # ========================================
+  recommended: 推荐 # Recommended badge on plan card
+
+  # ========================================
+  # Plan Card - Inherits from
+  # ========================================
+  inheritsFrom:
+    prefix: "包含" # "Everything in {plan}, plus"
+    suffix: "的全部功能，以及" # suffix after plan name
+    free: Free # Inherits from Free
+    personalPro: Personal Pro # Inherits from Personal Pro
+    team: Team # Inherits from Team
+
+  # ========================================
+  # Plan Card - Tier limits
+  # ========================================
+  tiers:
+    upTo10Diagrams: 最多 10 个图表和文档项目 # Free tier capacity
+    unlimitedDiagrams: 无限图表和文档项目 # Paid tier capacity
+    singleUser: 单个用户 # Single user tier
+    threeUsers: 3 个用户 # Team tier users
+    tenUsers: 10 个用户 # Enterprise tier users
+    oneDocProject: 1 个 dbdocs 付费文档项目 # Pro tier docs
+    fiveDocProjects: 5 个 dbdocs 付费文档项目 # Team tier docs
+    tenDocProjects: 10 个 dbdocs 付费文档项目 # Enterprise tier docs
+
+  # ========================================
+  # Plan Card - Add-ons
+  # ========================================
+  addons:
+    label: "附加项：" # Add-ons section label
+    extraDocProject: 额外付费文档项目 # Doc project addon name
+    extraUser: 额外用户 # User addon name
+    extraUserTooltip: "用户许可证适用于编辑者——即创建和修改图表及文档的人员。查看者始终免费，无需许可证。" # User addon tooltip
+
+  # ========================================
+  # Plan Card - Features lists
+  # ========================================
+  cardFeatures:
+    free:
+      sqlImportExport: SQL 导入和导出
+      exportFormats: 导出为 PDF/PNG/SVG
+      publicSharing: 公开分享
+      embedDiagrams: 将图表和文档嵌入你的网站
+      dataSample: 数据示例
+      cliIntegration: 通过 dbdiagram CLI 集成 CI/CD 流水线
+    pro:
+      unlimitedViews: 无限图表视图
+      passwordProtected: 密码保护和私有分享
+      limitedCollaboration: 有限协作
+      advancedVisualization: 高级可视化，适用于大型数据库
+    team:
+      collaborativeWorkspace: 协作工作区
+      teamManagement: 团队管理与协作
+      unifiedBilling: 统一管理和计费
+    enterprise:
+      prioritizedFeature: 优先功能请求
+      procurementReview: 采购或法律审查
+      customPayment: 自定义付款条款
+      samlSso: SAML SSO
+      activityLog: 用户活动日志（即将推出）
+      ipAllowList: IP 允许列表（即将推出）
+
+  # ========================================
+  # dbdocs Free vs Paid comparison
+  # ========================================
+  dbdocsFreeVsPaid:
+    groups:
+      sharingCollaboration: 分享与协作
+      workingWithLargeDatabases: 处理大型数据库
+      managingDatabase: 管理数据库
+    features:
+      publicLinkSharing: 公开链接分享
+      passwordProtectedSharing: 密码保护链接分享
+      privateMode: 私有模式
+      shareWithInvitedUsers: 与受邀用户分享
+      embeddedViews: 嵌入视图
+      tableGroups: 表组
+      tableHeaderColors: 表头颜色
+      diagramDetailLevels: 图表详细级别
+      stickyNotes: 便签
+      schemaChangelog: 模式变更日志
+    values:
+      unlimited: 无限
+      fourteenDayHistory: 14 天历史记录
+
+  # ========================================
+  # dbdocs Promo boxes
+  # ========================================
+  promos:
+    whiteLabel:
+      title: 需要白标选项？
+      description: 自定义你的文档项目域名和样式（Logo、外观风格）。类似于此
+      linkText: 在线演示
+      ctaText: 联系我们
+    embeddedAnalytics:
+      title: "想要分享洞察，而不仅仅是模式？"
+      description: 嵌入式分析。将完全自定义的品牌分析仪表板直接集成到你的应用程序中。
+      ctaText: 立即探索
+    soc2:
+      title: SOC 2 Type II 合规
+
+  # ========================================
+  # Feature Blocks - Pro features
+  # ========================================
+  featureBlocks:
+    pro:
+      diagramViews:
+        title: 从图表视图开始
+        description: "志存高远，从小做起。为同一图表创建多个聚焦视图。展示你在特定领域、工作流或团队讨论中所需的表。"
+      passwordProtection:
+        title: 密码保护与私有模式
+        description: 通过密码保护或私有模式限制对图表和数据库文档的访问。非常适合团队内部分享。
+      tableGroups:
+        title: 使用表组更好地组织
+        description: 将多个表分组以便于可视化。在处理包含大量表的数据库时减轻工作负担。
+      headerColors:
+        title: 表头颜色
+        description: 通过更改表头颜色轻松管理你的图表和数据库文档，使其更加丰富多彩！
+      detailLevels:
+        title: 图表详细级别
+        description: "根据需要在显示所有列、仅显示键（PK、FK）列或隐藏所有列之间切换。"
+      stickyNotes:
+        title: 使用便签更好地协作
+        description: "需要记下快速提醒或阐述复杂想法？你可以在图表和文档中直接添加便签，就在你需要的地方。"
+      aiAssistant:
+        title: 使用 AI 助手加速工作流
+        description: 获取智能建议，通过我们的 AI 驱动助手加速你的数据库设计工作流。
+      collaboration:
+        title: 实时协作编辑
+        description: 邀请你的同事与你实时协作编辑同一图表。
+      versionHistory:
+        title: 使用版本历史回溯时间
+        description: 自由地用不同的数据库模式版本进行实验。随时回滚到过去的版本。
+      schemaChangelog:
+        title: 无限模式变更日志历史
+        description: "再也不会丢失数据库模式变更记录。访问所有模式变更，浏览超过 14 天的版本，轻松比较任意两个版本。"
+      embeddedViews:
+        title: 嵌入视图
+        description: "你可以将数据库文档嵌入到 Notion、Confluence、Miro 等平台，甚至你自己的网站中。在你已经喜爱的工具中查看数据库文档。"
+      shareWithInvitedUsers:
+        title: 与受邀用户分享
+        description: "直接邀请和管理项目中的同事——非常适合团队内部分享。"
+    team:
+      collaborativeWorkspace:
+        title: 协作工作区
+        description: "为整个团队提供一个集中存储、访问和分享数据库图表和文档的场所。"
+      teamManagement:
+        title: 团队管理与协作
+        description: "在一个工作区中邀请和管理你的队友，让他们享受 Team 方案的所有权益。"
+      unifiedBilling:
+        title: 统一管理和计费
+        description: 为团队成员购买和管理多个用户许可证。在一个地方管理用户和计费。
+
+  # ========================================
+  # Comparison Table - Category names
+  # ========================================
+  comparison:
+    categories:
+      dataModeling: 数据建模
+      workingWithLargeDatabases: 处理大型数据库
+      sharingCollaboration: 分享与协作
+      apiIntegrations: API 与集成
+      productSupport: 产品支持
+      securityCompliance: 安全与合规
+      businessTerms: 商务条款与付款
+    features:
+      erDiagrams:
+        name: ER Diagrams
+        description: "可视化你的数据库结构，包括表、字段和关系"
+      diagramViews:
+        name: 图表视图
+        description: 为同一图表创建多个视图，聚焦不同方面或受众
+      aiAssistant:
+        name: AI 助手
+        description: "使用提示生成和编辑图表；获取数据库设计的洞察和建议"
+      importSchema:
+        name: 从数据库导入模式
+        description: 逆向工程你的现有数据库，以可视化表、字段和关系
+      exportSchema:
+        name: 导出模式到数据库
+        description: 将模式导出为可在数据库上执行的 SQL 脚本
+      exportVisualization:
+        name: 导出可视化
+        description: "将图表导出为 SVG、PDF 或 PNG 图片，用于文档和分享"
+      versionHistory:
+        name: 版本历史
+        description: 跟踪并恢复到图表的历史版本
+      tableGroup:
+        name: 表组
+        description: 通过分组在视觉上组织相关表
+      headerColor:
+        name: 表头颜色
+        description: 自定义表头颜色以便更好地组织
+      detailLevels:
+        name: 详细级别
+        description: 在不同视图中控制表详情的可见性
+      stickyNotes:
+        name: 便签
+        description: 在图表中添加注释和评论
+      embeddedDiagrams:
+        name: 嵌入图表
+        description: "将图表作为 iframe 嵌入到 Notion、Confluence 或你的网站等工具中"
+      publicDiagram:
+        name: 公开图表
+        description: 创建任何拥有链接的人都可以访问的图表
+      passwordProtectedDiagram:
+        name: 密码保护图表
+        description: 通过密码限制对图表的访问
+      privateDiagram:
+        name: 私有图表
+        description: 保持图表私有，仅你或受邀用户可访问
+      inviteEditors:
+        name: 邀请编辑者和查看者
+        description: 邀请同事协作编辑你的图表
+      collaborativeWorkspace:
+        name: 协作工作区
+        description: 供团队成员协同工作的共享工作区
+      teamManagement:
+        name: 团队管理与协作
+        description: "按席位计费：无限编辑者和查看者"
+      unifiedAdmin:
+        name: 统一管理和计费
+        description: 单一仪表板管理团队成员和计费
+      publicApi:
+        name: Public API
+        description: 构建自定义集成，将你的 dbdiagram 工作区连接到内部工具和工作流
+      communitySupport:
+        name: 社区支持
+        description: 访问社区论坛和文档
+      standardSupport:
+        name: 标准支持
+        description: 标准响应时间的邮件支持
+      prioritizedFeature:
+        name: 优先功能请求
+        description: 你的特定功能请求将获得加速开发和明确的交付时间表
+      procurementLegal:
+        name: 采购或法律审查
+        description: 供应商风险评估支持和采购流程协助
+      samlSso:
+        name: SAML Single Sign-on (SSO)
+        description: 与你的身份提供商进行安全登录集成
+      userActivityLog:
+        name: 用户活动日志
+        description: 跟踪和审查用户操作，用于安全和合规。
+      ipAllowLists:
+        name: IP Allow Lists
+        description: 通过 IP 地址限制对工作区的访问
+      customSla:
+        name: 自定义服务等级协议 (SLA)
+        description: "定制化 SLA，保证正常运行时间、响应时间和服务承诺"
+      creditCardPayment:
+        name: 信用卡支付
+        description: 通过安全处理使用信用卡或借记卡支付
+      bankTransfer:
+        name: 银行转账
+        description: 适用于大额交易的直接银行转账
+      customLegalTerms:
+        name: 自定义法律条款
+        description: "NDA 签署、自定义合同和灵活的法律协议"
+      customPaymentTerms:
+        name: 自定义付款条款
+        description: 灵活的付款计划（NET 30、自定义发票）
+    # Cell values that are translatable strings
+    values:
+      unlimited: 无限
+      unlimitedUsage: 无限使用
+      cappedUsage: 有上限使用
+      inRoadmap: 规划中
+      viewOnly: 仅查看
+      upToFourFreeEditors: 最多 4 个免费编辑者
+      minThreeThousand: "最低 $3,000"
+
+  # ========================================
+  # FAQ Section
+  # ========================================
+  faq:
+    - question: 定价如何运作？
+      answerHtml: "&bull; Free 方案永久可用。Personal Pro 方案可在你的个人工作区中解锁 dbdiagram 和 dbdocs 的专业功能。<br><br>&bull; Team 方案将你的团队聚集在一起，在集中的团队工作区中协作，同时涵盖 dbdiagram 和 dbdocs。"
+    - question: 如何管理我的订阅？
+      answerHtml: "你可以在主页 > 计费中管理工作区的订阅。你可以在右上角的账户下拉菜单中找到工作区的\"主页\"快捷方式。"
+    - question: 你们会存储我的信用卡信息吗？
+      answerHtml: "不会，我们不直接处理你的信用卡信息。我们使用 Stripe 来处理你的付款。"
+    - question: 如果我取消 Personal Pro 或 Team 方案会怎样？
+      answerHtml: 取消 Personal Pro 方案后，你的账户将在当前期限结束时恢复为 Free 方案。
+    - question: 我的方案会自动续费吗？
+      answerHtml: 付费订阅会自动续费，除非你在订阅期结束前取消方案。
+    - question: 一个方案是否同时包含 dbdiagram 和 dbdocs 功能？
+      answerHtml: "是的，你将在同一个方案中获得 dbdiagram 和 dbdocs 的功能。"
+    - question: Custom Plan 如何运作？
+      answerHtml: "Custom Plan 为有特定需求的组织量身定制。联系我们的销售团队讨论定价、自定义付款条款以及 SSO 和优先支持等企业功能。"
+    - question: "我很关注安全问题。你们是否提供 dbdocs 的自托管版本？"
+      answerHtml: "我们理解保护你数据的重要性。如果你正在寻找 dbdocs 的自托管版本，只需填写此<a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">表单</a>，我们的团队将与你联系，讨论你的具体需求。"
+    - question: 我有问题，如何联系你们？
+      answerHtml: "请发送邮件至 <a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a>。"

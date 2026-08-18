@@ -67,9 +67,45 @@ workspace:
     ssoConfigSaveFailed: SSO konfiguratsiyasini saqlab bo'lmadi. Iltimos, qayta urinib ko'ring. # Error toast
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Ish maydoni yaratish # Modal title (form state)
+    settingUpTitle: Ish maydoningiz sozlanmoqda # Modal title (provisioning state)
+    subtitle: Yangi ish maydoningiz bepul rejada boshlanadi. Istalgan vaqtda Pro yoki Team ga yangilashingiz mumkin. # Subtitle
+    nameLabel: Ish maydoni nomi # Input label
+    namePlaceholder: "masalan, Acme Team" # Input placeholder
+    cancel: Bekor qilish # Cancel button
+    create: Yaratish # Create button
+    provisioning: "dbdiagram va dbdocs bo'ylab yaratilmoqda\u2026" # Provisioning spinner text
+    partiallyFailed: "\"{name}\" ish maydoni tayyor, lekin sozlashning bir qismi tugallanmadi." # Partial failure message
+    partiallyFailedHint: Hozir foydalanishni boshlashingiz va sozlashni keyinroq ish maydonini boshqarish sahifasidan tugatishingiz mumkin. # Partial failure hint
+    openWorkspace: Ish maydonini ochish # Open workspace button
+    retry: Qayta urinish # Retry button
+    fullyFailed: "\"{name}\" ish maydonini sozlashda xatolik yuz berdi." # Full failure message
+    contactUs: Biz bilan bog'laning # Contact us button
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Qayta urinish # Retry button
+    contactUs: Biz bilan bog'laning # Contact us link
+    contactUsHint: agar qayta urinish yordam bermasa. # Text after contact us link
+    checking:
+      title: "Ish maydoningiz tekshirilmoqda\u2026" # Checking state title
+      description: Hamma narsa sinxronlanganligini tasdiqlagunimizcha biroz kuting. # Checking state description
+    partiallyFailed:
+      title: Ish maydoningiz to'liq sozlanmagan. # Partial failure title
+      description: Sozlashni yakunlash uchun qayta urinib ko'ring. # Failure description
+    fullyFailed:
+      title: Ish maydoningizni sozlab bo'lmadi. # Full failure title
+
+  # ========================================
   # Members - Member management
   # ========================================
   members:
+    unlimited: Cheksiz # Unlimited viewers count
     invite: Taklif qilish # Invite button
     invitePlaceholder: Elektron pochta manzilini kiriting # Email input placeholder
     inviteButton: Taklif yuborish # Send invite button

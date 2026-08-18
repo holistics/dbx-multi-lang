@@ -67,9 +67,45 @@ workspace:
     ssoConfigSaveFailed: SSO yapılandırması kaydedilemedi. Lütfen tekrar deneyin. # Error toast
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Çalışma alanı oluştur
+    settingUpTitle: Çalışma alanınız kuruluyor
+    subtitle: Yeni çalışma alanınız ücretsiz planda başlar. İstediğiniz zaman Pro veya Team'e yükseltebilirsiniz.
+    nameLabel: Çalışma alanı adı
+    namePlaceholder: "ör. Acme Takımı"
+    cancel: İptal
+    create: Oluştur
+    provisioning: "dbdiagram ve dbdocs genelinde oluşturuluyor\u2026"
+    partiallyFailed: "\"{name}\" çalışma alanı hazır, ancak kurulumun bir kısmı tamamlanamadı."
+    partiallyFailedHint: Şimdi kullanmaya başlayabilir ve kurulumu daha sonra çalışma alanı yönetim sayfasından tamamlayabilirsiniz.
+    openWorkspace: Çalışma alanını aç
+    retry: Tekrar dene
+    fullyFailed: "\"{name}\" çalışma alanı kurulurken bir hata oluştu."
+    contactUs: Bize ulaşın
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Tekrar dene
+    contactUs: Bize ulaşın
+    contactUsHint: tekrar denemek işe yaramazsa.
+    checking:
+      title: "Çalışma alanınız kontrol ediliyor\u2026"
+      description: Her şeyin senkronize olduğunu doğrularken bir an bekleyin.
+    partiallyFailed:
+      title: Çalışma alanınız tam olarak kurulmadı.
+      description: Kurulumu tamamlamak için lütfen tekrar deneyin.
+    fullyFailed:
+      title: Çalışma alanınız kurulamadı.
+
+  # ========================================
   # Members - Member management
   # ========================================
   members:
+    unlimited: Sınırsız
     invite: Davet et # Invite button
     invitePlaceholder: E-posta adresini girin # Email input placeholder
     inviteButton: Davet Gönder # Send invite button

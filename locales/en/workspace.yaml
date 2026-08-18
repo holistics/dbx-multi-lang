@@ -67,9 +67,45 @@ workspace:
     ssoConfigSaveFailed: Failed to save SSO configuration. Please try again. # Error toast
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Create a workspace # Modal title (form state)
+    settingUpTitle: Setting up your workspace # Modal title (provisioning state)
+    subtitle: Your new workspace starts on the free plan. You can upgrade to Pro or Team anytime. # Subtitle
+    nameLabel: Workspace name # Input label
+    namePlaceholder: "e.g. Acme Team" # Input placeholder
+    cancel: Cancel # Cancel button
+    create: Create # Create button
+    provisioning: "Creating it across dbdiagram and dbdocs\u2026" # Provisioning spinner text
+    partiallyFailed: "Workspace \"{name}\" is ready, but part of the setup didn't finish." # Partial failure message
+    partiallyFailedHint: You can start using it now and finish setup later from workspace management page. # Partial failure hint
+    openWorkspace: Open workspace # Open workspace button
+    retry: Retry # Retry button
+    fullyFailed: "Something went wrong while setting up \"{name}\" workspace." # Full failure message
+    contactUs: Contact us # Contact us button
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Retry # Retry button
+    contactUs: Contact us # Contact us link
+    contactUsHint: if retrying does not help. # Text after contact us link
+    checking:
+      title: "Checking your workspace\u2026" # Checking state title
+      description: Just a moment while we confirm everything is synced. # Checking state description
+    partiallyFailed:
+      title: Your workspace is not fully set up. # Partial failure title
+      description: Please retry to complete the setup. # Failure description
+    fullyFailed:
+      title: Failed to set up your workspace. # Full failure title
+
+  # ========================================
   # Members - Member management
   # ========================================
   members:
+    unlimited: Unlimited # Unlimited viewers count
     invite: Invite # Invite button
     invitePlaceholder: Enter email address # Email input placeholder
     inviteButton: Invite # Send invite button

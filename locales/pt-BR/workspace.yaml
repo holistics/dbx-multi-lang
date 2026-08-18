@@ -67,9 +67,45 @@ workspace:
     ssoConfigSaveFailed: Falha ao salvar configuração de SSO. Por favor, tente novamente.
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Criar um espaço de trabalho
+    settingUpTitle: Configurando seu espaço de trabalho
+    subtitle: Seu novo espaço de trabalho começa no plano gratuito. Você pode fazer upgrade para Pro ou Team a qualquer momento.
+    nameLabel: Nome do espaço de trabalho
+    namePlaceholder: "ex. Equipe Acme"
+    cancel: Cancelar
+    create: Criar
+    provisioning: "Criando no dbdiagram e dbdocs\u2026"
+    partiallyFailed: "O espaço de trabalho \"{name}\" está pronto, mas parte da configuração não foi concluída."
+    partiallyFailedHint: Você pode começar a usá-lo agora e finalizar a configuração depois pela página de gerenciamento do espaço de trabalho.
+    openWorkspace: Abrir espaço de trabalho
+    retry: Tentar novamente
+    fullyFailed: "Algo deu errado ao configurar o espaço de trabalho \"{name}\"."
+    contactUs: Fale conosco
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Tentar novamente
+    contactUs: Fale conosco
+    contactUsHint: se tentar novamente não ajudar.
+    checking:
+      title: "Verificando seu espaço de trabalho\u2026"
+      description: Só um momento enquanto confirmamos que tudo está sincronizado.
+    partiallyFailed:
+      title: Seu espaço de trabalho não está totalmente configurado.
+      description: Por favor, tente novamente para concluir a configuração.
+    fullyFailed:
+      title: Falha ao configurar seu espaço de trabalho.
+
+  # ========================================
   # Members - Member management
   # ========================================
   members:
+    unlimited: Ilimitado
     invite: Convidar
     invitePlaceholder: Digite o endereço de e-mail
     inviteButton: Convidar

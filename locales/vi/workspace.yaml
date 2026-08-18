@@ -57,7 +57,43 @@ workspace:
     ssoConfigUpdated: Cấu hình SSO đã được cập nhật thành công
     ssoConfigSaveFailed: Lưu cấu hình SSO thất bại. Vui lòng thử lại.
 
+  # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Tạo không gian làm việc
+    settingUpTitle: Đang thiết lập không gian làm việc của bạn
+    subtitle: Không gian làm việc mới bắt đầu với gói miễn phí. Bạn có thể nâng cấp lên Pro hoặc Team bất cứ lúc nào.
+    nameLabel: Tên không gian làm việc
+    namePlaceholder: "ví dụ: Acme Team"
+    cancel: Hủy
+    create: Tạo
+    provisioning: "Đang tạo trên dbdiagram và dbdocs\u2026"
+    partiallyFailed: "Không gian làm việc \"{name}\" đã sẵn sàng, nhưng một phần thiết lập chưa hoàn tất."
+    partiallyFailedHint: Bạn có thể bắt đầu sử dụng ngay và hoàn tất thiết lập sau từ trang quản lý không gian làm việc.
+    openWorkspace: Mở không gian làm việc
+    retry: Thử lại
+    fullyFailed: "Đã xảy ra lỗi khi thiết lập không gian làm việc \"{name}\"."
+    contactUs: Liên hệ chúng tôi
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Thử lại
+    contactUs: Liên hệ chúng tôi
+    contactUsHint: nếu thử lại không giải quyết được.
+    checking:
+      title: "Đang kiểm tra không gian làm việc của bạn\u2026"
+      description: Vui lòng đợi trong khi chúng tôi xác nhận mọi thứ đã được đồng bộ.
+    partiallyFailed:
+      title: Không gian làm việc của bạn chưa được thiết lập hoàn chỉnh.
+      description: Vui lòng thử lại để hoàn tất thiết lập.
+    fullyFailed:
+      title: Không thể thiết lập không gian làm việc của bạn.
+
   members:
+    unlimited: Không giới hạn
     invite: Mời
     invitePlaceholder: Nhập địa chỉ email
     inviteButton: Mời

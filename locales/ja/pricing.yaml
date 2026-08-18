@@ -1,0 +1,358 @@
+# Pricing translations - Public pricing page, plan cards, feature comparison, FAQ
+# UI Areas: Pricing landing page, Plan cards, Feature blocks, Comparison table, dbdocs promos
+
+pricing:
+  # ========================================
+  # Pricing Landing Page - Top-level headings
+  # ========================================
+  landing:
+    badge: dbdiagram と dbdocs をひとつのプランで # Badge above title
+    title: ワークスペースをアップグレード # Page title
+    subtitle: すべての有料プランに dbdiagram と dbdocs が含まれています。 # Subtitle
+
+  # ========================================
+  # Billing Toggle - Monthly/Annual switch
+  # ========================================
+  billingToggle:
+    monthly: 月額 # Left toggle label
+    annual: 年額 # Right toggle label
+    saveUpTo: "最大 {percent}% お得" # Save badge text
+
+  # ========================================
+  # Plan Names
+  # ========================================
+  planNames:
+    free: Free # Free plan name
+    personalPro: Personal Pro # Personal Pro plan name
+    team: Team # Team plan name
+    customPlan: Custom Plan # Enterprise/Custom plan name
+
+  # ========================================
+  # Plan Taglines
+  # ========================================
+  taglines:
+    free: スキーマを設計し、公開ドキュメントを共有する個人向けです。 # Free plan tagline
+    pro: 設計とドキュメント作成を行うフリーランスやコンサルタント向けです。 # Pro plan tagline
+    team: データベースの設計とドキュメント作成を共同で行うチーム向けです。 # Team plan tagline
+    enterprise: セキュリティや調達に関する要件がある組織向けです。 # Enterprise plan tagline
+
+  # ========================================
+  # Plan Card - Price display
+  # ========================================
+  price:
+    free: Free # Free plan price text
+    freeNote: "ずっと無料です" # Free plan price note
+    customPricing: カスタム料金 # Enterprise price text
+    contactForPricing: 料金についてはお問い合わせください # Enterprise price note
+    perMonth: /月 # Per month unit suffix
+    billedAnnually: "年額請求 - 年間 {currency}{amount}" # Annual billing hint
+    billedMonthly: 月額請求 # Monthly billing hint
+
+  # ========================================
+  # Plan Card - CTA Buttons
+  # ========================================
+  cta:
+    getStartedFree: 無料で始める # Free plan CTA
+    upgradeNow: 今すぐアップグレード # Pro/Team upgrade CTA
+    startFreeTrial: 7日間の無料トライアルを開始 # Team trial CTA
+    contactSales: 営業に問い合わせる # Enterprise CTA
+    downgrade: ダウングレード # Downgrade button
+    currentPlan: 現在のプラン # Current plan label
+
+  # ========================================
+  # Plan Card - Recommended badge
+  # ========================================
+  recommended: おすすめ # Recommended badge on plan card
+
+  # ========================================
+  # Plan Card - Inherits from
+  # ========================================
+  inheritsFrom:
+    prefix: "" # "Everything in {plan}, plus"
+    suffix: "のすべてに加えて" # suffix after plan name
+    free: Free # Inherits from Free
+    personalPro: Personal Pro # Inherits from Personal Pro
+    team: Team # Inherits from Team
+
+  # ========================================
+  # Plan Card - Tier limits
+  # ========================================
+  tiers:
+    upTo10Diagrams: ダイアグラム＆ドキュメントプロジェクト最大10個 # Free tier capacity
+    unlimitedDiagrams: 無制限のダイアグラム＆ドキュメントプロジェクト # Paid tier capacity
+    singleUser: ユーザー1人 # Single user tier
+    threeUsers: ユーザー3人 # Team tier users
+    tenUsers: ユーザー10人 # Enterprise tier users
+    oneDocProject: dbdocs 有料ドキュメントプロジェクト 1個 # Pro tier docs
+    fiveDocProjects: dbdocs 有料ドキュメントプロジェクト 5個 # Team tier docs
+    tenDocProjects: dbdocs 有料ドキュメントプロジェクト 10個 # Enterprise tier docs
+
+  # ========================================
+  # Plan Card - Add-ons
+  # ========================================
+  addons:
+    label: "アドオン:" # Add-ons section label
+    extraDocProject: 追加の有料ドキュメントプロジェクト # Doc project addon name
+    extraUser: 追加ユーザー # User addon name
+    extraUserTooltip: "ユーザーライセンスは編集者（ダイアグラムやドキュメントを作成・変更する人）向けです。閲覧者は常に無料で、ライセンスは不要です。" # User addon tooltip
+
+  # ========================================
+  # Plan Card - Features lists
+  # ========================================
+  cardFeatures:
+    free:
+      sqlImportExport: SQL インポート＆エクスポート
+      exportFormats: PDF/PNG/SVG へエクスポート
+      publicSharing: 公開共有
+      embedDiagrams: ダイアグラムとドキュメントをサイトに埋め込み
+      dataSample: データサンプル
+      cliIntegration: dbdiagram CLI による CI/CD パイプライン連携
+    pro:
+      unlimitedViews: 無制限のダイアグラムビュー
+      passwordProtected: パスワード保護＆プライベート共有
+      limitedCollaboration: 限定的なコラボレーション
+      advancedVisualization: 大規模データベース向けの高度なビジュアライゼーション
+    team:
+      collaborativeWorkspace: コラボレーティブワークスペース
+      teamManagement: チーム管理＆コラボレーション
+      unifiedBilling: 統合された管理と請求
+    enterprise:
+      prioritizedFeature: 優先機能リクエスト
+      procurementReview: 調達または法務レビュー
+      customPayment: カスタム支払い条件
+      samlSso: SAML SSO
+      activityLog: ユーザーアクティビティログ（近日公開）
+      ipAllowList: IP Allow Lists（近日公開）
+
+  # ========================================
+  # dbdocs Free vs Paid comparison
+  # ========================================
+  dbdocsFreeVsPaid:
+    groups:
+      sharingCollaboration: 共有＆コラボレーション
+      workingWithLargeDatabases: 大規模データベースでの作業
+      managingDatabase: データベース管理
+    features:
+      publicLinkSharing: 公開リンク共有
+      passwordProtectedSharing: パスワード保護付きリンク共有
+      privateMode: プライベートモード
+      shareWithInvitedUsers: 招待ユーザーと共有
+      embeddedViews: 埋め込みビュー
+      tableGroups: テーブルグループ
+      tableHeaderColors: テーブルヘッダーカラー
+      diagramDetailLevels: ダイアグラム詳細レベル
+      stickyNotes: 付箋
+      schemaChangelog: スキーマ変更履歴
+    values:
+      unlimited: 無制限
+      fourteenDayHistory: 14日間の履歴
+
+  # ========================================
+  # dbdocs Promo boxes
+  # ========================================
+  promos:
+    whiteLabel:
+      title: ホワイトラベルオプションをお探しですか？
+      description: ドキュメントプロジェクトのドメインやスタイリング（ロゴ、デザイン）をカスタマイズできます。こちらの
+      linkText: ライブデモ
+      ctaText: お問い合わせ
+    embeddedAnalytics:
+      title: "スキーマだけでなく、インサイトも共有しませんか？"
+      description: 埋め込みアナリティクス。フルカスタマイズされたブランド分析ダッシュボードをアプリケーションに直接統合できます。
+      ctaText: 今すぐ見る
+    soc2:
+      title: SOC 2 Type II 準拠
+
+  # ========================================
+  # Feature Blocks - Pro features
+  # ========================================
+  featureBlocks:
+    pro:
+      diagramViews:
+        title: ダイアグラムビューで小さく始める
+        description: "大きく考え、小さく始めましょう。同じダイアグラムの複数のフォーカスされたビューを作成できます。ドメイン、ワークフロー、チームの議論に必要なテーブルだけを表示できます。"
+      passwordProtection:
+        title: パスワード保護＆プライベートモード
+        description: パスワード保護またはプライベートモードで、ダイアグラムやデータベースドキュメントへのアクセスを制限できます。チーム内での共有に最適です。
+      tableGroups:
+        title: テーブルグループでより良く整理
+        description: 複数のテーブルをグループ化して、より見やすくできます。テーブルの多いデータベースでの作業負荷を軽減します。
+      headerColors:
+        title: テーブルヘッダーカラー
+        description: テーブルヘッダーの色を変更して、ダイアグラムやデータベースドキュメントをカラフルに管理しましょう！
+      detailLevels:
+        title: ダイアグラム詳細レベル
+        description: "必要に応じて、すべてのカラムの表示、キー（PK、FK）カラムのみの表示、またはすべてのカラムの非表示を切り替えられます。"
+      stickyNotes:
+        title: 付箋でより良いコラボレーション
+        description: "ちょっとしたメモや複雑なアイデアの補足が必要ですか？ダイアグラムやドキュメントに直接メモを追加できます。"
+      aiAssistant:
+        title: AI アシスタントでワークフローを加速
+        description: AI アシスタントによるインテリジェントな提案で、データベース設計のワークフローを高速化しましょう。
+      collaboration:
+        title: リアルタイム共同編集
+        description: 同僚を招待して、同じダイアグラムをリアルタイムで一緒に作業しましょう。
+      versionHistory:
+        title: バージョン履歴で過去に戻る
+        description: さまざまなスキーマバージョンで自由に実験しましょう。いつでも過去のバージョンにロールバックできます。
+      schemaChangelog:
+        title: 無制限のスキーマ変更履歴
+        description: "データベーススキーマの変更を見失うことはありません。すべてのスキーマ変更にアクセスし、14日以前のバージョンを閲覧し、任意の2つのバージョンを簡単に比較できます。"
+      embeddedViews:
+        title: 埋め込みビュー
+        description: "Notion、Confluence、Miro、または独自のウェブサイトなどのプラットフォームにデータベースドキュメントを埋め込むことができます。お気に入りのツールでデータベースドキュメントをご覧いただけます。"
+      shareWithInvitedUsers:
+        title: 招待ユーザーと共有
+        description: "プロジェクト内で同僚を直接招待・管理できます\u2014チーム内での共有に最適です。"
+    team:
+      collaborativeWorkspace:
+        title: コラボレーティブワークスペース
+        description: "チーム全体がデータベースダイアグラムやドキュメントを保存、アクセス、共有するための一元的な場所を用意しましょう。"
+      teamManagement:
+        title: チーム管理＆コラボレーション
+        description: "チームメンバーをひとつのワークスペースに招待・管理し、Team プランの特典を活用できるようにしましょう。"
+      unifiedBilling:
+        title: 統合された管理と請求
+        description: チームメンバー用の複数のユーザーライセンスを購入・管理できます。ユーザーと請求をまとめて管理できます。
+
+  # ========================================
+  # Comparison Table - Category names
+  # ========================================
+  comparison:
+    categories:
+      dataModeling: データモデリング
+      workingWithLargeDatabases: 大規模データベースでの作業
+      sharingCollaboration: 共有＆コラボレーション
+      apiIntegrations: API ＆インテグレーション
+      productSupport: プロダクトサポート
+      securityCompliance: セキュリティ＆コンプライアンス
+      businessTerms: ビジネス条件＆支払い
+    features:
+      erDiagrams:
+        name: ER Diagrams
+        description: "テーブル、フィールド、リレーションシップを含むデータベース構造を可視化します"
+      diagramViews:
+        name: ダイアグラムビュー
+        description: 同じダイアグラムの複数のビューを作成し、異なる観点や対象者に焦点を当てます
+      aiAssistant:
+        name: AI アシスタント
+        description: "プロンプトを使用してダイアグラムを生成・編集し、データベース設計に関するインサイトと推奨事項を取得します"
+      importSchema:
+        name: データベースからスキーマをインポート
+        description: 既存のデータベースをリバースエンジニアリングして、テーブル、フィールド、リレーションシップを可視化します
+      exportSchema:
+        name: データベースへスキーマをエクスポート
+        description: データベースで実行可能な SQL スクリプトとしてスキーマをエクスポートします
+      exportVisualization:
+        name: ビジュアライゼーションのエクスポート
+        description: "ダイアグラムを SVG、PDF、または PNG 画像としてエクスポートし、ドキュメント作成や共有に使用します"
+      versionHistory:
+        name: バージョン履歴
+        description: ダイアグラムの以前のバージョンを追跡し、元に戻すことができます
+      tableGroup:
+        name: テーブルグループ
+        description: 関連するテーブルをグループ化して視覚的に整理します
+      headerColor:
+        name: ヘッダーカラー
+        description: テーブルヘッダーの色をカスタマイズして整理を改善します
+      detailLevels:
+        name: 詳細レベル
+        description: 異なるビューでのテーブル詳細の表示を制御します
+      stickyNotes:
+        name: 付箋
+        description: ダイアグラムに注釈やコメントを追加します
+      embeddedDiagrams:
+        name: 埋め込みダイアグラム
+        description: "Notion、Confluence、またはお使いのウェブサイトなどのツールに iframe としてダイアグラムを埋め込みます"
+      publicDiagram:
+        name: 公開ダイアグラム
+        description: リンクを持つすべての人がアクセスできるダイアグラムを作成します
+      passwordProtectedDiagram:
+        name: パスワード保護付きダイアグラム
+        description: パスワードでダイアグラムへのアクセスを制限します
+      privateDiagram:
+        name: プライベートダイアグラム
+        description: ダイアグラムをプライベートにし、自分または招待されたユーザーのみがアクセスできるようにします
+      inviteEditors:
+        name: 編集者＆閲覧者を招待
+        description: 同僚を招待してダイアグラムを共同作業します
+      collaborativeWorkspace:
+        name: コラボレーティブワークスペース
+        description: チームメンバーが一緒に作業するための共有ワークスペース
+      teamManagement:
+        name: チーム管理＆コラボレーション
+        description: "シートごと：無制限の編集者と閲覧者"
+      unifiedAdmin:
+        name: 統合された管理と請求
+        description: チームメンバーと請求を管理する単一のダッシュボード
+      publicApi:
+        name: Public API
+        description: dbdiagram ワークスペースを社内ツールやワークフローに接続するカスタムインテグレーションを構築します
+      communitySupport:
+        name: コミュニティサポート
+        description: コミュニティフォーラムとドキュメントへのアクセス
+      standardSupport:
+        name: 標準サポート
+        description: 標準的な応答時間でのメールサポート
+      prioritizedFeature:
+        name: 優先機能リクエスト
+        description: 具体的な提供スケジュールとともに、お客様の機能リクエストの開発を優先的に進めます
+      procurementLegal:
+        name: 調達または法務レビュー
+        description: ベンダーリスク評価のサポートおよび調達プロセスの支援
+      samlSso:
+        name: SAML Single Sign-on (SSO)
+        description: ID プロバイダーとのセキュアなログイン統合
+      userActivityLog:
+        name: ユーザーアクティビティログ
+        description: セキュリティとコンプライアンスのためにユーザー操作を追跡・確認します。
+      ipAllowLists:
+        name: IP Allow Lists
+        description: IP アドレスによるワークスペースへのアクセス制限
+      customSla:
+        name: カスタムサービスレベル契約 (SLA)
+        description: "稼働率、応答時間、サービスコミットメントが保証されたカスタム SLA"
+      creditCardPayment:
+        name: クレジットカード払い
+        description: セキュアな処理によるクレジットカードまたはデビットカードでのお支払い
+      bankTransfer:
+        name: 銀行振込
+        description: 大口取引向けの銀行振込
+      customLegalTerms:
+        name: カスタム法務条件
+        description: "NDA の締結、カスタム契約、柔軟な法的合意"
+      customPaymentTerms:
+        name: カスタム支払い条件
+        description: 柔軟な支払いスケジュール（NET 30、カスタム請求書発行）
+    # Cell values that are translatable strings
+    values:
+      unlimited: 無制限
+      unlimitedUsage: 無制限利用
+      cappedUsage: 制限付き利用
+      inRoadmap: ロードマップに掲載
+      viewOnly: 閲覧のみ
+      upToFourFreeEditors: 最大4人の無料編集者
+      minThreeThousand: "最低 $3,000"
+
+  # ========================================
+  # FAQ Section
+  # ========================================
+  faq:
+    - question: 料金体系はどのようになっていますか？
+      answerHtml: "&bull; Free プランはずっと無料でご利用いただけます。Personal Pro プランは、パーソナルワークスペースで dbdiagram と dbdocs の Pro 機能をすべてご利用いただけます。<br><br>&bull; Team プランは、dbdiagram と dbdocs の両方で、集中管理された Team ワークスペースでチームの共同作業を実現します。"
+    - question: サブスクリプションはどのように管理できますか？
+      answerHtml: "ワークスペースのサブスクリプションは「ホーム」>「請求」から管理できます。ワークスペースの「ホーム」ショートカットは、右上のアカウントドロップダウンメニューにあります。"
+    - question: クレジットカード情報は保存されますか？
+      answerHtml: "いいえ、お客様のクレジットカード情報を直接取り扱うことはありません。お支払いの処理には Stripe を使用しています。"
+    - question: Personal Pro プランや Team プランをキャンセルするとどうなりますか？
+      answerHtml: Personal Pro プランをキャンセルすると、契約期間の終了時にアカウントは Free プランに戻ります。
+    - question: プランは自動更新されますか？
+      answerHtml: 有料サブスクリプションは、契約期間の終了前にプランをキャンセルしない限り、自動的に更新されます。
+    - question: ひとつのプランで dbdiagram と dbdocs の両方の機能を利用できますか？
+      answerHtml: "はい、同じプランで dbdiagram と dbdocs の両方の機能をご利用いただけます。"
+    - question: Custom Plan はどのように機能しますか？
+      answerHtml: "Custom Plan は、特定のニーズを持つ組織向けにカスタマイズされています。料金、カスタム支払い条件、SSO や優先サポートなどのエンタープライズ機能については、営業チームにお問い合わせください。"
+    - question: "セキュリティが心配です。dbdocs のセルフホスト版はありますか？"
+      answerHtml: "お客様のデータを保護することの重要性を理解しています。dbdocs のセルフホスト版をお探しの場合は、こちらの<a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">フォーム</a>にご記入ください。担当者がお客様のご要件についてご連絡いたします。"
+    - question: 質問があります。どのように連絡すればよいですか？
+      answerHtml: "<a href=\"mailto:dbdiagram@holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram@holistics.io</a> までメールをお送りください。"
