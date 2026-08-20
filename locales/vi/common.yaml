@@ -171,7 +171,10 @@ common:
     planAndAddonInfo:
       includeAddon: "Bao gồm {quantity} {name}"
       addonsLabel: "Tiện ích bổ sung:"
-      additionalAddon: "Thêm {name}(s) x {quantity}"
+      additionalAddon: "Thêm {name} x {quantity}"
+      addonName:
+        seat: "người dùng | người dùng"
+        paidProject: "dự án trả phí của dbdocs | dự án trả phí của dbdocs"
 
   userInfo:
     you: (bạn)

@@ -245,6 +245,9 @@ common:
       includeAddon: "Include {quantity} {name}"
       addonsLabel: "Componenti aggiuntivi:"
       additionalAddon: "{name} aggiuntivi x {quantity}"
+      addonName:
+        seat: "utente | utenti"
+        paidProject: "progetto documento a pagamento di dbdocs | progetti documento a pagamento di dbdocs"
 
   # ========================================
   # User info - Shared "current user" indicator (avatar tooltips, member lists)

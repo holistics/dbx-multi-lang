@@ -246,6 +246,9 @@ common:
       includeAddon: "{quantity}개의 {name} 포함"
       addonsLabel: "애드온:"
       additionalAddon: "추가 {name} x {quantity}"
+      addonName:
+        seat: "사용자 | 사용자"
+        paidProject: "dbdocs 유료 문서 프로젝트 | dbdocs 유료 문서 프로젝트"
 
   # ========================================
   # User info - Shared "current user" indicator (avatar tooltips, member lists)

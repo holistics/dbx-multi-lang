@@ -175,6 +175,9 @@ common:
       includeAddon: "包含 {quantity} 个 {name}"
       addonsLabel: "附加组件："
       additionalAddon: "额外的 {name} x {quantity}"
+      addonName:
+        seat: "用户 | 用户"
+        paidProject: "dbdocs 付费文档项目 | dbdocs 付费文档项目"
 
   userInfo:
     you: （你）

@@ -244,7 +244,10 @@ common:
     planAndAddonInfo:
       includeAddon: "Include {quantity} {name}"
       addonsLabel: "Addons:"
-      additionalAddon: "Additional {name}(s) x {quantity}"
+      additionalAddon: "Additional {name} x {quantity}"
+      addonName:
+        seat: "user | users"
+        paidProject: "dbdocs's paid doc project | dbdocs's paid doc projects"
 
   # ========================================
   # User info - Shared "current user" indicator (avatar tooltips, member lists)

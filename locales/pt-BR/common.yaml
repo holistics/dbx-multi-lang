@@ -240,7 +240,10 @@ common:
     planAndAddonInfo:
       includeAddon: "Inclui {quantity} {name}"
       addonsLabel: "Complementos:"
-      additionalAddon: "{name}(s) adicional x {quantity}"
+      additionalAddon: "{name} adicional x {quantity}"
+      addonName:
+        seat: "usuário | usuários"
+        paidProject: "projeto de documento pago do dbdocs | projetos de documento pagos do dbdocs"
 
   userInfo:
     you: (você)

@@ -244,7 +244,10 @@ common:
     planAndAddonInfo:
       includeAddon: "{quantity} {name} kiritilgan"
       addonsLabel: "Qo'shimchalar:"
-      additionalAddon: "Qo'shimcha {name}(s) x {quantity}"
+      additionalAddon: "Qo'shimcha {name} x {quantity}"
+      addonName:
+        seat: "foydalanuvchi | foydalanuvchi"
+        paidProject: "dbdocs-ning pullik hujjat loyihasi | dbdocs-ning pullik hujjat loyihasi"
 
   userInfo:
     you: (siz)

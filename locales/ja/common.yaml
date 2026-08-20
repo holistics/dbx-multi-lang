@@ -175,6 +175,9 @@ common:
       includeAddon: "{quantity} 個の {name} を含む"
       addonsLabel: "アドオン:"
       additionalAddon: "追加の {name} x {quantity}"
+      addonName:
+        seat: "ユーザー | ユーザー"
+        paidProject: "dbdocsの有料プロジェクト | dbdocsの有料プロジェクト"
 
   userInfo:
     you: （あなた）

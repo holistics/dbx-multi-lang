@@ -240,7 +240,10 @@ common:
     planAndAddonInfo:
       includeAddon: "{quantity} {name} içerir"
       addonsLabel: "Eklentiler:"
-      additionalAddon: "Ek {name}(s) x {quantity}"
+      additionalAddon: "Ek {name} x {quantity}"
+      addonName:
+        seat: "kullanıcı | kullanıcı"
+        paidProject: "dbdocs'un ücretli belge projesi | dbdocs'un ücretli belge projesi"
 
   userInfo:
     you: (siz)
