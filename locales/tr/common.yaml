@@ -277,7 +277,7 @@ common:
     diagramsGroupLabel: Diyagramlar
     syncErrorTooltip: Senkronizasyon başarısız oldu, lütfen yeniden senkronize etmeyi deneyin
     syncErrorBlocksEdit: Bu üyenin rolünü değiştirmeden önce senkronizasyon hatasını çözün
-    permission: "İzin: {role}"
+    roleLabel: "Rol: {role}"
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)

@@ -281,7 +281,7 @@ common:
     diagramsGroupLabel: Diagrammalar
     syncErrorTooltip: Sinxronlashda xatolik, qayta sinxronlashga urinib ko'ring
     syncErrorBlocksEdit: Ushbu a'zoning rolini o'zgartirishdan oldin sinxronlash xatosini bartaraf eting
-    permission: "Ruxsat: {role}"
+    roleLabel: "Rol: {role}"
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)

@@ -290,7 +290,7 @@ common:
     diagramsGroupLabel: Diagrammi
     syncErrorTooltip: Sincronizzazione fallita, riprova a sincronizzare
     syncErrorBlocksEdit: Risolvi l'errore di sincronizzazione prima di modificare il ruolo di questo membro
-    permission: "Autorizzazione: {role}"
+    roleLabel: "Ruolo: {role}"
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)

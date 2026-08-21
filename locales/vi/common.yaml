@@ -208,7 +208,7 @@ common:
     diagramsGroupLabel: Sơ đồ
     syncErrorTooltip: Đồng bộ thất bại, vui lòng thử đồng bộ lại
     syncErrorBlocksEdit: Khắc phục lỗi đồng bộ trước khi thay đổi vai trò của thành viên này
-    permission: "Quyền: {role}"
+    roleLabel: "Vai trò: {role}"
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
