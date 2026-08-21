@@ -94,12 +94,8 @@ pricing:
   tiers:
     upTo10Diagrams: Up to 10 diagrams & doc projects # Free tier capacity
     unlimitedDiagrams: Unlimited diagrams & doc projects # Paid tier capacity
-    singleUser: Single user # Single user tier
-    threeUsers: 3 users # Team tier users
-    tenUsers: 10 users # Enterprise tier users
-    oneDocProject: 1 dbdocs paid doc project # Pro tier docs
-    fiveDocProjects: 5 dbdocs paid doc projects # Team tier docs
-    tenDocProjects: 10 dbdocs paid doc projects # Enterprise tier docs
+    users: "Single user | {count} users" # Plan card user-count tier, pluralized by quantity (1/3/10/...)
+    docProjects: "{count} dbdocs paid doc project | {count} dbdocs paid doc projects" # Plan card doc-project tier, pluralized by quantity
 
   # ========================================
   # Plan Card - Add-ons
@@ -137,45 +133,6 @@ pricing:
       samlSso: SAML SSO
       activityLog: User activity log (coming soon)
       ipAllowList: IP allow list (coming soon)
-
-  # ========================================
-  # dbdocs Free vs Paid comparison
-  # ========================================
-  dbdocsFreeVsPaid:
-    groups:
-      sharingCollaboration: Sharing & Collaboration
-      workingWithLargeDatabases: Working with large databases
-      managingDatabase: Managing Database
-    features:
-      publicLinkSharing: Public link sharing
-      passwordProtectedSharing: Password-protected link sharing
-      privateMode: Private mode
-      shareWithInvitedUsers: Share with invited users
-      embeddedViews: Embedded Views
-      tableGroups: Table groups
-      tableHeaderColors: Table header colors
-      diagramDetailLevels: Diagram detail levels
-      stickyNotes: Sticky notes
-      schemaChangelog: Schema Changelog
-    values:
-      unlimited: Unlimited
-      fourteenDayHistory: 14-day history
-
-  # ========================================
-  # dbdocs Promo boxes
-  # ========================================
-  promos:
-    whiteLabel:
-      title: Looking for white-label option?
-      description: Customize your docs project domain and stylings (logo, look & feels). Similar to this
-      linkText: Live Demo
-      ctaText: Contact Us
-    embeddedAnalytics:
-      title: "Want to share insights, not just schemas?"
-      description: Embedded Analytics. Integrate fully customized, branded analytics dashboards directly into your application.
-      ctaText: Explore now
-    soc2:
-      title: SOC 2 Type II Compliance
 
   # ========================================
   # Feature Blocks - Pro features

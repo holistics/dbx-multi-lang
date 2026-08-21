@@ -94,12 +94,8 @@ pricing:
   tiers:
     upTo10Diagrams: Jusqu'à 10 diagrammes et projets de documentation # Capacité du niveau Free
     unlimitedDiagrams: Diagrammes et projets de documentation illimités # Capacité des niveaux payants
-    singleUser: Utilisateur unique # Niveau utilisateur unique
-    threeUsers: 3 utilisateurs # Utilisateurs du niveau Team
-    tenUsers: 10 utilisateurs # Utilisateurs du niveau Enterprise
-    oneDocProject: 1 projet de documentation dbdocs payant # Documents du niveau Pro
-    fiveDocProjects: 5 projets de documentation dbdocs payants # Documents du niveau Team
-    tenDocProjects: 10 projets de documentation dbdocs payants # Documents du niveau Enterprise
+    users: "Utilisateur unique | {count} utilisateurs"
+    docProjects: "{count} projet de documentation dbdocs payant | {count} projets de documentation dbdocs payants"
 
   # ========================================
   # Carte de plan - Modules complémentaires
@@ -137,45 +133,6 @@ pricing:
       samlSso: SAML SSO
       activityLog: Journal d'activité des utilisateurs (bientôt disponible)
       ipAllowList: Liste d'adresses IP autorisées (bientôt disponible)
-
-  # ========================================
-  # Comparaison dbdocs gratuit vs payant
-  # ========================================
-  dbdocsFreeVsPaid:
-    groups:
-      sharingCollaboration: Partage et collaboration
-      workingWithLargeDatabases: Travailler avec de grandes bases de données
-      managingDatabase: Gestion de base de données
-    features:
-      publicLinkSharing: Partage par lien public
-      passwordProtectedSharing: Partage par lien protégé par mot de passe
-      privateMode: Mode privé
-      shareWithInvitedUsers: Partager avec les utilisateurs invités
-      embeddedViews: Vues intégrées
-      tableGroups: Groupes de tables
-      tableHeaderColors: Couleurs d'en-tête de table
-      diagramDetailLevels: Niveaux de détail du diagramme
-      stickyNotes: Notes autocollantes
-      schemaChangelog: Historique des modifications du schéma
-    values:
-      unlimited: Illimité
-      fourteenDayHistory: Historique de 14 jours
-
-  # ========================================
-  # Encarts promotionnels dbdocs
-  # ========================================
-  promos:
-    whiteLabel:
-      title: Vous cherchez une option en marque blanche ?
-      description: Personnalisez le domaine et le style de votre projet de documentation (logo, apparence). Similaire à cette
-      linkText: Démo en ligne
-      ctaText: Contactez-nous
-    embeddedAnalytics:
-      title: "Vous souhaitez partager des analyses, pas seulement des schémas ?"
-      description: Analytique intégrée. Intégrez des tableaux de bord analytiques entièrement personnalisés et à votre marque directement dans votre application.
-      ctaText: Découvrir maintenant
-    soc2:
-      title: Conformité SOC 2 Type II
 
   # ========================================
   # Blocs de fonctionnalités - Fonctionnalités Pro

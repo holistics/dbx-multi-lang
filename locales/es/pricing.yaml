@@ -94,12 +94,8 @@ pricing:
   tiers:
     upTo10Diagrams: Hasta 10 diagramas y proyectos de documentación # Free tier capacity
     unlimitedDiagrams: Diagramas y proyectos de documentación ilimitados # Paid tier capacity
-    singleUser: Un solo usuario # Single user tier
-    threeUsers: 3 usuarios # Team tier users
-    tenUsers: 10 usuarios # Enterprise tier users
-    oneDocProject: 1 proyecto de documentación de pago de dbdocs # Pro tier docs
-    fiveDocProjects: 5 proyectos de documentación de pago de dbdocs # Team tier docs
-    tenDocProjects: 10 proyectos de documentación de pago de dbdocs # Enterprise tier docs
+    users: "Un solo usuario | {count} usuarios"
+    docProjects: "{count} proyecto de documentación de pago de dbdocs | {count} proyectos de documentación de pago de dbdocs"
 
   # ========================================
   # Plan Card - Add-ons
@@ -137,45 +133,6 @@ pricing:
       samlSso: SAML SSO
       activityLog: Registro de actividad de usuario (próximamente)
       ipAllowList: Lista de IPs permitidas (próximamente)
-
-  # ========================================
-  # dbdocs Free vs Paid comparison
-  # ========================================
-  dbdocsFreeVsPaid:
-    groups:
-      sharingCollaboration: Compartir y colaboración
-      workingWithLargeDatabases: Trabajar con bases de datos grandes
-      managingDatabase: Gestión de bases de datos
-    features:
-      publicLinkSharing: Compartir con enlace público
-      passwordProtectedSharing: Compartir con enlace protegido por contraseña
-      privateMode: Modo privado
-      shareWithInvitedUsers: Compartir con usuarios invitados
-      embeddedViews: Vistas incrustadas
-      tableGroups: Grupos de tablas
-      tableHeaderColors: Colores de encabezado de tablas
-      diagramDetailLevels: Niveles de detalle del diagrama
-      stickyNotes: Notas adhesivas
-      schemaChangelog: Historial de cambios del esquema
-    values:
-      unlimited: Ilimitado
-      fourteenDayHistory: Historial de 14 días
-
-  # ========================================
-  # dbdocs Promo boxes
-  # ========================================
-  promos:
-    whiteLabel:
-      title: ¿Buscas la opción de marca blanca?
-      description: Personaliza el dominio y los estilos de tu proyecto de documentación (logo, apariencia). Similar a esta
-      linkText: Demo en vivo
-      ctaText: Contáctanos
-    embeddedAnalytics:
-      title: "¿Quieres compartir información, no solo esquemas?"
-      description: Analíticas integradas. Integra paneles de analíticas completamente personalizados y con tu marca directamente en tu aplicación.
-      ctaText: Explorar ahora
-    soc2:
-      title: Cumplimiento SOC 2 Type II
 
   # ========================================
   # Feature Blocks - Pro features

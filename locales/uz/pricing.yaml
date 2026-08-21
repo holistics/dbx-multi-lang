@@ -94,12 +94,8 @@ pricing:
   tiers:
     upTo10Diagrams: 10 tagacha diagramma va hujjat loyihalari # Free tier capacity
     unlimitedDiagrams: Cheksiz diagramma va hujjat loyihalari # Paid tier capacity
-    singleUser: Bitta foydalanuvchi # Single user tier
-    threeUsers: 3 foydalanuvchi # Team tier users
-    tenUsers: 10 foydalanuvchi # Enterprise tier users
-    oneDocProject: 1 ta dbdocs pullik hujjat loyihasi # Pro tier docs
-    fiveDocProjects: 5 ta dbdocs pullik hujjat loyihalari # Team tier docs
-    tenDocProjects: 10 ta dbdocs pullik hujjat loyihalari # Enterprise tier docs
+    users: "Bitta foydalanuvchi | {count} foydalanuvchi"
+    docProjects: "{count} ta dbdocs pullik hujjat loyihasi | {count} ta dbdocs pullik hujjat loyihalari"
 
   # ========================================
   # Plan Card - Add-ons
@@ -137,45 +133,6 @@ pricing:
       samlSso: SAML SSO
       activityLog: Foydalanuvchi faoliyati jurnali (tez orada)
       ipAllowList: IP ruxsat ro'yxati (tez orada)
-
-  # ========================================
-  # dbdocs Free vs Paid comparison
-  # ========================================
-  dbdocsFreeVsPaid:
-    groups:
-      sharingCollaboration: Ulashish va hamkorlik
-      workingWithLargeDatabases: Katta ma'lumotlar bazalari bilan ishlash
-      managingDatabase: Ma'lumotlar bazasini boshqarish
-    features:
-      publicLinkSharing: Ommaviy havola orqali ulashish
-      passwordProtectedSharing: Parol bilan himoyalangan havola orqali ulashish
-      privateMode: Xususiy rejim
-      shareWithInvitedUsers: Taklif qilingan foydalanuvchilar bilan ulashish
-      embeddedViews: O'rnatilgan ko'rinishlar (Embedded Views)
-      tableGroups: Jadval guruhlari
-      tableHeaderColors: Jadval sarlavha ranglari
-      diagramDetailLevels: Diagramma tafsilotlari darajalari
-      stickyNotes: Eslatmalar (Sticky notes)
-      schemaChangelog: Sxema o'zgarishlar jurnali (Schema Changelog)
-    values:
-      unlimited: Cheksiz
-      fourteenDayHistory: 14 kunlik tarix
-
-  # ========================================
-  # dbdocs Promo boxes
-  # ========================================
-  promos:
-    whiteLabel:
-      title: White-label varianti kerakmi?
-      description: Hujjat loyihangizning domeni va uslublarini (logotip, ko'rinish) moslashtiring. Bunga o'xshash
-      linkText: Jonli demo
-      ctaText: Biz bilan bog'laning
-    embeddedAnalytics:
-      title: "Faqat sxemalar emas, tushunchalarni ham ulashmoqchimisiz?"
-      description: O'rnatilgan analitika. To'liq moslashtirilgan, brendlangan analitika panellarini to'g'ridan-to'g'ri ilovangizga integratsiya qiling.
-      ctaText: Hozir ko'ring
-    soc2:
-      title: SOC 2 Type II muvofiqligi
 
   # ========================================
   # Feature Blocks - Pro features

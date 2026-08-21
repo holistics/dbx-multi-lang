@@ -94,12 +94,8 @@ pricing:
   tiers:
     upTo10Diagrams: Até 10 diagramas e projetos de documentação # Free tier capacity
     unlimitedDiagrams: Diagramas e projetos de documentação ilimitados # Paid tier capacity
-    singleUser: Usuário único # Single user tier
-    threeUsers: 3 usuários # Team tier users
-    tenUsers: 10 usuários # Enterprise tier users
-    oneDocProject: 1 projeto pago de dbdocs # Pro tier docs
-    fiveDocProjects: 5 projetos pagos de dbdocs # Team tier docs
-    tenDocProjects: 10 projetos pagos de dbdocs # Enterprise tier docs
+    users: "Usuário único | {count} usuários"
+    docProjects: "{count} projeto pago de dbdocs | {count} projetos pagos de dbdocs"
 
   # ========================================
   # Plan Card - Add-ons
@@ -137,45 +133,6 @@ pricing:
       samlSso: SAML SSO
       activityLog: Log de atividades do usuário (em breve)
       ipAllowList: Lista de permissão de IP (em breve)
-
-  # ========================================
-  # dbdocs Free vs Paid comparison
-  # ========================================
-  dbdocsFreeVsPaid:
-    groups:
-      sharingCollaboration: Compartilhamento e Colaboração
-      workingWithLargeDatabases: Trabalhando com bancos de dados grandes
-      managingDatabase: Gerenciando Banco de Dados
-    features:
-      publicLinkSharing: Compartilhamento por link público
-      passwordProtectedSharing: Compartilhamento por link protegido por senha
-      privateMode: Modo privado
-      shareWithInvitedUsers: Compartilhar com usuários convidados
-      embeddedViews: Visualizações Incorporadas
-      tableGroups: Grupos de tabelas
-      tableHeaderColors: Cores do cabeçalho de tabelas
-      diagramDetailLevels: Níveis de detalhe do diagrama
-      stickyNotes: Notas adesivas
-      schemaChangelog: Changelog do Schema
-    values:
-      unlimited: Ilimitado
-      fourteenDayHistory: Histórico de 14 dias
-
-  # ========================================
-  # dbdocs Promo boxes
-  # ========================================
-  promos:
-    whiteLabel:
-      title: Procurando a opção de marca branca?
-      description: Personalize o domínio e os estilos do seu projeto de documentação (logo, aparência e design). Similar a este
-      linkText: Demo ao Vivo
-      ctaText: Fale Conosco
-    embeddedAnalytics:
-      title: "Quer compartilhar insights, não apenas esquemas?"
-      description: Análises Incorporadas. Integre painéis de análise totalmente personalizados e com sua marca diretamente no seu aplicativo.
-      ctaText: Explore agora
-    soc2:
-      title: Conformidade SOC 2 Type II
 
   # ========================================
   # Feature Blocks - Pro features

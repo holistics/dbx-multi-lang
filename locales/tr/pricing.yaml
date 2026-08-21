@@ -94,12 +94,8 @@ pricing:
   tiers:
     upTo10Diagrams: 10 diyagram ve doküman projesine kadar # Free tier capacity
     unlimitedDiagrams: Sınırsız diyagram ve doküman projesi # Paid tier capacity
-    singleUser: Tek kullanıcı # Single user tier
-    threeUsers: 3 kullanıcı # Team tier users
-    tenUsers: 10 kullanıcı # Enterprise tier users
-    oneDocProject: 1 dbdocs ücretli doküman projesi # Pro tier docs
-    fiveDocProjects: 5 dbdocs ücretli doküman projesi # Team tier docs
-    tenDocProjects: 10 dbdocs ücretli doküman projesi # Enterprise tier docs
+    users: "Tek kullanıcı | {count} kullanıcı"
+    docProjects: "{count} dbdocs ücretli doküman projesi | {count} dbdocs ücretli doküman projesi"
 
   # ========================================
   # Plan Card - Add-ons
@@ -137,45 +133,6 @@ pricing:
       samlSso: SAML SSO
       activityLog: Kullanıcı etkinlik günlüğü (yakında)
       ipAllowList: IP izin listesi (yakında)
-
-  # ========================================
-  # dbdocs Free vs Paid comparison
-  # ========================================
-  dbdocsFreeVsPaid:
-    groups:
-      sharingCollaboration: Paylaşım ve İşbirliği
-      workingWithLargeDatabases: Büyük veritabanlarıyla çalışma
-      managingDatabase: Veritabanı Yönetimi
-    features:
-      publicLinkSharing: Herkese açık bağlantı paylaşımı
-      passwordProtectedSharing: Parola korumalı bağlantı paylaşımı
-      privateMode: Gizli mod
-      shareWithInvitedUsers: Davet edilen kullanıcılarla paylaş
-      embeddedViews: Gömülü Görünümler
-      tableGroups: Tablo grupları
-      tableHeaderColors: Tablo başlık renkleri
-      diagramDetailLevels: Diyagram detay seviyeleri
-      stickyNotes: Yapışkan notlar
-      schemaChangelog: Şema Değişiklik Günlüğü
-    values:
-      unlimited: Sınırsız
-      fourteenDayHistory: 14 günlük geçmiş
-
-  # ========================================
-  # dbdocs Promo boxes
-  # ========================================
-  promos:
-    whiteLabel:
-      title: White-label seçeneği mi arıyorsunuz?
-      description: Doküman projenizin alan adını ve stillerini (logo, görünüm ve his) özelleştirin. Buna benzer
-      linkText: Canlı Demo
-      ctaText: Bize Ulaşın
-    embeddedAnalytics:
-      title: "Sadece şemaları değil, içgörüleri de paylaşmak mı istiyorsunuz?"
-      description: Gömülü Analitik. Tamamen özelleştirilmiş, markalı analitik panolarını doğrudan uygulamanıza entegre edin.
-      ctaText: Şimdi keşfedin
-    soc2:
-      title: SOC 2 Type II Uyumluluk
 
   # ========================================
   # Feature Blocks - Pro features

@@ -94,12 +94,8 @@ pricing:
   tiers:
     upTo10Diagrams: 최대 10개의 다이어그램 및 문서 프로젝트 # Free tier capacity
     unlimitedDiagrams: 무제한 다이어그램 및 문서 프로젝트 # Paid tier capacity
-    singleUser: 단일 사용자 # Single user tier
-    threeUsers: 3명의 사용자 # Team tier users
-    tenUsers: 10명의 사용자 # Enterprise tier users
-    oneDocProject: 1개의 dbdocs 유료 문서 프로젝트 # Pro tier docs
-    fiveDocProjects: 5개의 dbdocs 유료 문서 프로젝트 # Team tier docs
-    tenDocProjects: 10개의 dbdocs 유료 문서 프로젝트 # Enterprise tier docs
+    users: "단일 사용자 | {count}명의 사용자"
+    docProjects: "{count}개의 dbdocs 유료 문서 프로젝트 | {count}개의 dbdocs 유료 문서 프로젝트"
 
   # ========================================
   # Plan Card - Add-ons
@@ -137,45 +133,6 @@ pricing:
       samlSso: SAML SSO
       activityLog: 사용자 활동 로그 (출시 예정)
       ipAllowList: IP 허용 목록 (출시 예정)
-
-  # ========================================
-  # dbdocs Free vs Paid comparison
-  # ========================================
-  dbdocsFreeVsPaid:
-    groups:
-      sharingCollaboration: 공유 및 협업
-      workingWithLargeDatabases: 대규모 데이터베이스 작업
-      managingDatabase: 데이터베이스 관리
-    features:
-      publicLinkSharing: 공개 링크 공유
-      passwordProtectedSharing: 비밀번호 보호 링크 공유
-      privateMode: 비공개 모드
-      shareWithInvitedUsers: 초대된 사용자와 공유
-      embeddedViews: 임베디드 뷰
-      tableGroups: 테이블 그룹
-      tableHeaderColors: 테이블 헤더 색상
-      diagramDetailLevels: 다이어그램 세부 수준
-      stickyNotes: 스티커 메모
-      schemaChangelog: 스키마 변경 로그
-    values:
-      unlimited: 무제한
-      fourteenDayHistory: 14일 기록
-
-  # ========================================
-  # dbdocs Promo boxes
-  # ========================================
-  promos:
-    whiteLabel:
-      title: 화이트 라벨 옵션을 찾고 계신가요?
-      description: 문서 프로젝트의 도메인과 스타일(로고, 디자인)을 맞춤 설정하세요. 다음과 유사합니다
-      linkText: 라이브 데모
-      ctaText: 문의하기
-    embeddedAnalytics:
-      title: "스키마뿐만 아니라 인사이트도 공유하고 싶으신가요?"
-      description: 임베디드 애널리틱스. 완전히 맞춤화된 브랜드 분석 대시보드를 애플리케이션에 직접 통합하세요.
-      ctaText: 지금 알아보기
-    soc2:
-      title: SOC 2 Type II 준수
 
   # ========================================
   # Feature Blocks - Pro features

@@ -94,12 +94,8 @@ pricing:
   tiers:
     upTo10Diagrams: 最多 10 个图表和文档项目 # Free tier capacity
     unlimitedDiagrams: 无限图表和文档项目 # Paid tier capacity
-    singleUser: 单个用户 # Single user tier
-    threeUsers: 3 个用户 # Team tier users
-    tenUsers: 10 个用户 # Enterprise tier users
-    oneDocProject: 1 个 dbdocs 付费文档项目 # Pro tier docs
-    fiveDocProjects: 5 个 dbdocs 付费文档项目 # Team tier docs
-    tenDocProjects: 10 个 dbdocs 付费文档项目 # Enterprise tier docs
+    users: "单个用户 | {count} 个用户"
+    docProjects: "{count} 个 dbdocs 付费文档项目 | {count} 个 dbdocs 付费文档项目"
 
   # ========================================
   # Plan Card - Add-ons
@@ -137,45 +133,6 @@ pricing:
       samlSso: SAML SSO
       activityLog: 用户活动日志（即将推出）
       ipAllowList: IP 允许列表（即将推出）
-
-  # ========================================
-  # dbdocs Free vs Paid comparison
-  # ========================================
-  dbdocsFreeVsPaid:
-    groups:
-      sharingCollaboration: 分享与协作
-      workingWithLargeDatabases: 处理大型数据库
-      managingDatabase: 管理数据库
-    features:
-      publicLinkSharing: 公开链接分享
-      passwordProtectedSharing: 密码保护链接分享
-      privateMode: 私有模式
-      shareWithInvitedUsers: 与受邀用户分享
-      embeddedViews: 嵌入视图
-      tableGroups: 表组
-      tableHeaderColors: 表头颜色
-      diagramDetailLevels: 图表详细级别
-      stickyNotes: 便签
-      schemaChangelog: 模式变更日志
-    values:
-      unlimited: 无限
-      fourteenDayHistory: 14 天历史记录
-
-  # ========================================
-  # dbdocs Promo boxes
-  # ========================================
-  promos:
-    whiteLabel:
-      title: 需要白标选项？
-      description: 自定义你的文档项目域名和样式（Logo、外观风格）。类似于此
-      linkText: 在线演示
-      ctaText: 联系我们
-    embeddedAnalytics:
-      title: "想要分享洞察，而不仅仅是模式？"
-      description: 嵌入式分析。将完全自定义的品牌分析仪表板直接集成到你的应用程序中。
-      ctaText: 立即探索
-    soc2:
-      title: SOC 2 Type II 合规
 
   # ========================================
   # Feature Blocks - Pro features

@@ -94,12 +94,8 @@ pricing:
   tiers:
     upTo10Diagrams: Fino a 10 diagrammi e progetti doc # Free tier capacity
     unlimitedDiagrams: Diagrammi e progetti doc illimitati # Paid tier capacity
-    singleUser: Utente singolo # Single user tier
-    threeUsers: 3 utenti # Team tier users
-    tenUsers: 10 utenti # Enterprise tier users
-    oneDocProject: 1 progetto doc a pagamento dbdocs # Pro tier docs
-    fiveDocProjects: 5 progetti doc a pagamento dbdocs # Team tier docs
-    tenDocProjects: 10 progetti doc a pagamento dbdocs # Enterprise tier docs
+    users: "Utente singolo | {count} utenti"
+    docProjects: "{count} progetto doc a pagamento dbdocs | {count} progetti doc a pagamento dbdocs"
 
   # ========================================
   # Plan Card - Add-ons
@@ -137,45 +133,6 @@ pricing:
       samlSso: SAML SSO
       activityLog: Registro attività utente (in arrivo)
       ipAllowList: IP allow list (in arrivo)
-
-  # ========================================
-  # dbdocs Free vs Paid comparison
-  # ========================================
-  dbdocsFreeVsPaid:
-    groups:
-      sharingCollaboration: Condivisione e collaborazione
-      workingWithLargeDatabases: Lavorare con database di grandi dimensioni
-      managingDatabase: Gestione del database
-    features:
-      publicLinkSharing: Condivisione tramite link pubblico
-      passwordProtectedSharing: Condivisione tramite link protetto da password
-      privateMode: Modalità privata
-      shareWithInvitedUsers: Condividi con utenti invitati
-      embeddedViews: Viste incorporate
-      tableGroups: Gruppi di tabelle
-      tableHeaderColors: Colori dell'intestazione delle tabelle
-      diagramDetailLevels: Livelli di dettaglio del diagramma
-      stickyNotes: Note adesive
-      schemaChangelog: Registro modifiche dello schema
-    values:
-      unlimited: Illimitato
-      fourteenDayHistory: Cronologia di 14 giorni
-
-  # ========================================
-  # dbdocs Promo boxes
-  # ========================================
-  promos:
-    whiteLabel:
-      title: Cerchi un'opzione white-label?
-      description: Personalizza il dominio e lo stile del tuo progetto doc (logo, aspetto grafico). Simile a questa
-      linkText: Demo live
-      ctaText: Contattaci
-    embeddedAnalytics:
-      title: "Vuoi condividere informazioni, non solo schemi?"
-      description: Embedded Analytics. Integra dashboard di analisi completamente personalizzate e brandizzate direttamente nella tua applicazione.
-      ctaText: Esplora ora
-    soc2:
-      title: Conformità SOC 2 Type II
 
   # ========================================
   # Feature Blocks - Pro features

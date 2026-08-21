@@ -94,12 +94,8 @@ pricing:
   tiers:
     upTo10Diagrams: Tối đa 10 sơ đồ & dự án tài liệu # Free tier capacity
     unlimitedDiagrams: Không giới hạn sơ đồ & dự án tài liệu # Paid tier capacity
-    singleUser: Một người dùng # Single user tier
-    threeUsers: 3 người dùng # Team tier users
-    tenUsers: 10 người dùng # Enterprise tier users
-    oneDocProject: 1 dự án tài liệu dbdocs trả phí # Pro tier docs
-    fiveDocProjects: 5 dự án tài liệu dbdocs trả phí # Team tier docs
-    tenDocProjects: 10 dự án tài liệu dbdocs trả phí # Enterprise tier docs
+    users: "Một người dùng | {count} người dùng"
+    docProjects: "{count} dự án tài liệu dbdocs trả phí | {count} dự án tài liệu dbdocs trả phí"
 
   # ========================================
   # Plan Card - Add-ons
@@ -137,45 +133,6 @@ pricing:
       samlSso: SAML SSO
       activityLog: Nhật ký hoạt động người dùng (sắp ra mắt)
       ipAllowList: IP allow list (sắp ra mắt)
-
-  # ========================================
-  # dbdocs Free vs Paid comparison
-  # ========================================
-  dbdocsFreeVsPaid:
-    groups:
-      sharingCollaboration: Chia sẻ & Cộng tác
-      workingWithLargeDatabases: Làm việc với cơ sở dữ liệu lớn
-      managingDatabase: Quản lý cơ sở dữ liệu
-    features:
-      publicLinkSharing: Chia sẻ liên kết công khai
-      passwordProtectedSharing: Chia sẻ liên kết bảo vệ bằng mật khẩu
-      privateMode: Chế độ riêng tư
-      shareWithInvitedUsers: Chia sẻ với người dùng được mời
-      embeddedViews: Chế độ xem nhúng
-      tableGroups: Nhóm bảng
-      tableHeaderColors: Màu tiêu đề bảng
-      diagramDetailLevels: Mức độ chi tiết sơ đồ
-      stickyNotes: Ghi chú dán
-      schemaChangelog: Lịch sử thay đổi Schema
-    values:
-      unlimited: Không giới hạn
-      fourteenDayHistory: Lịch sử 14 ngày
-
-  # ========================================
-  # dbdocs Promo boxes
-  # ========================================
-  promos:
-    whiteLabel:
-      title: Bạn đang tìm tùy chọn white-label?
-      description: Tùy chỉnh tên miền và giao diện dự án tài liệu (logo, giao diện). Tương tự như
-      linkText: Bản demo trực tuyến
-      ctaText: Liên hệ chúng tôi
-    embeddedAnalytics:
-      title: "Muốn chia sẻ thông tin chi tiết, không chỉ schema?"
-      description: Embedded Analytics. Tích hợp bảng phân tích tùy chỉnh hoàn toàn, mang thương hiệu riêng trực tiếp vào ứng dụng của bạn.
-      ctaText: Khám phá ngay
-    soc2:
-      title: SOC 2 Type II Compliance
 
   # ========================================
   # Feature Blocks - Pro features
