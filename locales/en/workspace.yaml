@@ -77,7 +77,7 @@ workspace:
     namePlaceholder: "e.g. Acme Team" # Input placeholder
     cancel: Cancel # Cancel button
     create: Create # Create button
-    provisioning: "Creating it across dbdiagram and dbdocs\u2026" # Provisioning spinner text
+    provisioning: "Creating it across dbdiagram and dbdocs..." # Provisioning spinner text
     partiallyFailed: "Workspace \"{name}\" is ready, but part of the setup didn't finish." # Partial failure message
     partiallyFailedHint: You can start using it now and finish setup later from workspace management page. # Partial failure hint
     openWorkspace: Open workspace # Open workspace button
@@ -93,7 +93,7 @@ workspace:
     contactUs: Contact us # Contact us link
     contactUsHint: if retrying does not help. # Text after contact us link
     checking:
-      title: "Checking your workspace\u2026" # Checking state title
+      title: "Checking your workspace..." # Checking state title
       description: Just a moment while we confirm everything is synced. # Checking state description
     partiallyFailed:
       title: Your workspace is not fully set up. # Partial failure title

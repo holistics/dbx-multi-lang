@@ -78,7 +78,7 @@ workspace:
     namePlaceholder: "예: Acme Team" # Input placeholder
     cancel: 취소 # Cancel button
     create: 만들기 # Create button
-    provisioning: "dbdiagram과 dbdocs에 걸쳐 생성 중\u2026" # Provisioning spinner text
+    provisioning: "dbdiagram과 dbdocs에 걸쳐 생성 중..." # Provisioning spinner text
     partiallyFailed: "워크스페이스 \"{name}\"이(가) 준비되었지만, 설정의 일부가 완료되지 않았습니다." # Partial failure message
     partiallyFailedHint: 지금 바로 사용을 시작하고 워크스페이스 관리 페이지에서 나중에 설정을 완료할 수 있습니다. # Partial failure hint
     openWorkspace: 워크스페이스 열기 # Open workspace button
@@ -94,7 +94,7 @@ workspace:
     contactUs: 문의하기 # Contact us link
     contactUsHint: 재시도해도 해결되지 않으면 # Text after contact us link
     checking:
-      title: "워크스페이스를 확인하고 있습니다\u2026" # Checking state title
+      title: "워크스페이스를 확인하고 있습니다..." # Checking state title
       description: 모든 것이 동기화되었는지 확인하는 중입니다. 잠시만 기다려 주세요. # Checking state description
     partiallyFailed:
       title: 워크스페이스가 완전히 설정되지 않았습니다. # Partial failure title

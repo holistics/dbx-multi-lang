@@ -73,7 +73,7 @@ workspace:
     namePlaceholder: "例: Acme チーム"
     cancel: キャンセル
     create: 作成
-    provisioning: "dbdiagram と dbdocs にまたがって作成中\u2026"
+    provisioning: "dbdiagram と dbdocs にまたがって作成中..."
     partiallyFailed: "ワークスペース「{name}」は準備できましたが、セットアップの一部が完了しませんでした。"
     partiallyFailedHint: 今すぐ使用を開始し、後でワークスペース管理ページからセットアップを完了できます。
     openWorkspace: ワークスペースを開く
@@ -89,7 +89,7 @@ workspace:
     contactUs: お問い合わせ
     contactUsHint: 再試行しても解決しない場合はこちら。
     checking:
-      title: "ワークスペースを確認中\u2026"
+      title: "ワークスペースを確認中..."
       description: すべてが同期されていることを確認しています。しばらくお待ちください。
     partiallyFailed:
       title: ワークスペースのセットアップが完了していません。

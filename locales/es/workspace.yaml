@@ -77,7 +77,7 @@ workspace:
     namePlaceholder: "ej. Equipo Acme"
     cancel: Cancelar
     create: Crear
-    provisioning: "Creándolo en dbdiagram y dbdocs\u2026"
+    provisioning: "Creándolo en dbdiagram y dbdocs..."
     partiallyFailed: "El espacio de trabajo \"{name}\" está listo, pero parte de la configuración no se completó."
     partiallyFailedHint: Puedes comenzar a usarlo ahora y completar la configuración más tarde desde la página de gestión del espacio de trabajo.
     openWorkspace: Abrir espacio de trabajo
@@ -93,7 +93,7 @@ workspace:
     contactUs: Contáctanos
     contactUsHint: si reintentar no ayuda.
     checking:
-      title: "Verificando tu espacio de trabajo\u2026"
+      title: "Verificando tu espacio de trabajo..."
       description: Un momento mientras confirmamos que todo está sincronizado.
     partiallyFailed:
       title: Tu espacio de trabajo no está completamente configurado.

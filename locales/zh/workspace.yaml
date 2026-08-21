@@ -73,7 +73,7 @@ workspace:
     namePlaceholder: "例如 Acme Team"
     cancel: 取消
     create: 创建
-    provisioning: "正在 dbdiagram 和 dbdocs 中创建\u2026"
+    provisioning: "正在 dbdiagram 和 dbdocs 中创建..."
     partiallyFailed: "工作区\"{name}\"已就绪，但部分设置未完成。"
     partiallyFailedHint: 你可以现在开始使用，稍后从工作区管理页面完成设置。
     openWorkspace: 打开工作区
@@ -89,7 +89,7 @@ workspace:
     contactUs: 联系我们
     contactUsHint: 如果重试无效。
     checking:
-      title: "正在检查你的工作区\u2026"
+      title: "正在检查你的工作区..."
       description: 请稍候，我们正在确认一切已同步。
     partiallyFailed:
       title: 你的工作区尚未完全设置。
