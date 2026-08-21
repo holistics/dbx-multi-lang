@@ -150,13 +150,13 @@ common:
     switchToBilling: "Chuyển sang thanh toán theo {unit}"
     updatePlan: Cập nhật gói
     nextPayment: "Khoản thanh toán tiếp theo của bạn là"
-    chargedOn: "sẽ được tính phí vào {date}"
-    cancelledOn: "Gói đăng ký của bạn sẽ bị hủy vào {date}"
+    chargedOn: "sẽ được tính phí vào <b>{date}</b>"
+    cancelledOn: "Gói đăng ký của bạn sẽ bị hủy vào <b>{date}</b>"
     paymentMethod: Phương thức thanh toán
     noPaymentMethod: Chưa có phương thức thanh toán.
     editPaymentMethod: Chỉnh sửa phương thức thanh toán
     invoicing: Hóa đơn
-    lastPayment: "Thanh toán gần nhất: {date}"
+    lastPayment: "Thanh toán gần nhất: <b>{date}</b>"
     noPaymentMade: Chưa có khoản thanh toán nào.
     manageInvoices: Quản lý hóa đơn
     supportText: "Để được hỗ trợ, hãy gửi email đến:"

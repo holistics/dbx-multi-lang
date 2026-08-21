@@ -219,13 +219,13 @@ common:
     switchToBilling: "{unit} faturalandırmaya geç"
     updatePlan: Planı güncelle
     nextPayment: "Bir sonraki ödemeniz"
-    chargedOn: "{date} tarihinde tahsil edilecek"
-    cancelledOn: "Aboneliğiniz {date} tarihinde iptal edilecek"
+    chargedOn: "<b>{date}</b> tarihinde tahsil edilecek"
+    cancelledOn: "Aboneliğiniz <b>{date}</b> tarihinde iptal edilecek"
     paymentMethod: Ödeme yöntemi
     noPaymentMethod: Ödeme yöntemi yok.
     editPaymentMethod: Ödeme yöntemini düzenle
     invoicing: Faturalandırma
-    lastPayment: "Son ödeme: {date}"
+    lastPayment: "Son ödeme: <b>{date}</b>"
     noPaymentMade: Herhangi bir ödeme yapılmadı.
     manageInvoices: Faturaları yönet
     supportText: "Destek için bize şu adresten e-posta gönderin:"

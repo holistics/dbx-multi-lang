@@ -220,13 +220,13 @@ common:
     switchToBilling: "Passer à la facturation {unit}"
     updatePlan: Mettre à jour le forfait
     nextPayment: "Votre prochain paiement est de"
-    chargedOn: "à facturer le {date}"
-    cancelledOn: "Votre abonnement sera annulé le {date}"
+    chargedOn: "à facturer le <b>{date}</b>"
+    cancelledOn: "Votre abonnement sera annulé le <b>{date}</b>"
     paymentMethod: Moyen de paiement
     noPaymentMethod: Aucun moyen de paiement.
     editPaymentMethod: Modifier le moyen de paiement
     invoicing: Facturation
-    lastPayment: "Dernier paiement : {date}"
+    lastPayment: "Dernier paiement : <b>{date}</b>"
     noPaymentMade: Aucun paiement effectué.
     manageInvoices: Gérer les factures
     supportText: "Pour toute assistance, contactez-nous à :"

@@ -223,13 +223,13 @@ common:
     switchToBilling: "{unit} bo'yicha to'lovga o'tish"
     updatePlan: Rejani yangilash
     nextPayment: "Keyingi to'lovingiz"
-    chargedOn: "{date} sanasida yechib olinadi"
-    cancelledOn: "Obunangiz {date} sanasida bekor qilinadi"
+    chargedOn: "<b>{date}</b> sanasida yechib olinadi"
+    cancelledOn: "Obunangiz <b>{date}</b> sanasida bekor qilinadi"
     paymentMethod: To'lov usuli
     noPaymentMethod: To'lov usuli yo'q.
     editPaymentMethod: To'lov usulini tahrirlash
     invoicing: Hisob-fakturalar
-    lastPayment: "Oxirgi to'lov: {date}"
+    lastPayment: "Oxirgi to'lov: <b>{date}</b>"
     noPaymentMade: Hech qanday to'lov amalga oshirilmagan.
     manageInvoices: Hisob-fakturalarni boshqarish
     supportText: "Yordam uchun quyidagi manzilga xat yozing:"

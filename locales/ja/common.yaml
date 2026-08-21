@@ -153,13 +153,13 @@ common:
     switchToBilling: "{unit}課金に切り替える"
     updatePlan: プランを更新
     nextPayment: "次回のお支払いは"
-    chargedOn: "{date} に請求されます"
-    cancelledOn: "サブスクリプションは {date} にキャンセルされます"
+    chargedOn: "<b>{date}</b> に請求されます"
+    cancelledOn: "サブスクリプションは <b>{date}</b> にキャンセルされます"
     paymentMethod: 支払い方法
     noPaymentMethod: 支払い方法がありません。
     editPaymentMethod: 支払い方法を編集
     invoicing: 請求
-    lastPayment: "前回の支払い: {date}"
+    lastPayment: "前回の支払い: <b>{date}</b>"
     noPaymentMade: 支払い履歴がありません。
     manageInvoices: 請求書を管理
     supportText: "サポートが必要な場合は、こちらまでメールでご連絡ください:"

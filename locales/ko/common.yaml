@@ -224,13 +224,13 @@ common:
     switchToBilling: "{unit} 결제로 전환"
     updatePlan: 플랜 업데이트
     nextPayment: "다음 결제 금액은"
-    chargedOn: "{date}에 청구됩니다"
-    cancelledOn: "구독이 {date}에 취소됩니다"
+    chargedOn: "<b>{date}</b>에 청구됩니다"
+    cancelledOn: "구독이 <b>{date}</b>에 취소됩니다"
     paymentMethod: 결제 수단
     noPaymentMethod: 결제 수단이 없습니다.
     editPaymentMethod: 결제 수단 편집
     invoicing: 청구서
-    lastPayment: "마지막 결제: {date}"
+    lastPayment: "마지막 결제: <b>{date}</b>"
     noPaymentMade: 결제 내역이 없습니다.
     manageInvoices: 청구서 관리
     supportText: "지원이 필요하시면 아래 이메일로 문의해 주세요:"

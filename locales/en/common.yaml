@@ -223,13 +223,13 @@ common:
     switchToBilling: "Switch to {unit} billing"
     updatePlan: Update plan
     nextPayment: "Your next payment is"
-    chargedOn: "to be charged on {date}"
-    cancelledOn: "Your subscription will be cancelled on {date}"
+    chargedOn: "to be charged on <b>{date}</b>"
+    cancelledOn: "Your subscription will be cancelled on <b>{date}</b>"
     paymentMethod: Payment Method
     noPaymentMethod: No payment method.
     editPaymentMethod: Edit payment method
     invoicing: Invoicing
-    lastPayment: "Last payment: {date}"
+    lastPayment: "Last payment: <b>{date}</b>"
     noPaymentMade: No payment made.
     manageInvoices: Manage invoices
     supportText: "For support, email us at:"

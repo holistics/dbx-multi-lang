@@ -153,13 +153,13 @@ common:
     switchToBilling: "切换为按{unit}计费"
     updatePlan: 更新套餐
     nextPayment: "您的下一笔付款为"
-    chargedOn: "将于 {date} 扣款"
-    cancelledOn: "您的订阅将于 {date} 取消"
+    chargedOn: "将于 <b>{date}</b> 扣款"
+    cancelledOn: "您的订阅将于 <b>{date}</b> 取消"
     paymentMethod: 付款方式
     noPaymentMethod: 暂无付款方式。
     editPaymentMethod: 编辑付款方式
     invoicing: 发票
-    lastPayment: "上次付款：{date}"
+    lastPayment: "上次付款：<b>{date}</b>"
     noPaymentMade: 暂无付款记录。
     manageInvoices: 管理发票
     supportText: "如需支持，请发送邮件至："
