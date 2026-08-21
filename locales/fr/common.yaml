@@ -287,3 +287,13 @@ common:
     diagramsGroupLabel: Diagrammes
     syncErrorTooltip: Échec de la synchronisation, veuillez réessayer de resynchroniser
     syncErrorBlocksEdit: Résolvez l’erreur de synchronisation avant de modifier le rôle de ce membre
+    permission: "Autorisation : {role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: Administrateur
+    editor: Éditeur
+    viewer: Lecteur
+    remove: Retirer

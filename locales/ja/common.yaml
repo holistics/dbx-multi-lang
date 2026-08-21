@@ -211,3 +211,13 @@ common:
     diagramsGroupLabel: ダイアグラム
     syncErrorTooltip: 同期に失敗しました。再同期をお試しください
     syncErrorBlocksEdit: このメンバーの役割を変更する前に同期エラーを解決してください
+    permission: "権限: {role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: 管理者
+    editor: 編集者
+    viewer: 閲覧者
+    remove: 削除

@@ -211,3 +211,13 @@ common:
     diagramsGroupLabel: 图表
     syncErrorTooltip: 同步失败，请尝试重新同步
     syncErrorBlocksEdit: 请先解决同步错误，然后再更改此成员的角色
+    permission: "权限：{role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: 管理员
+    editor: 编辑者
+    viewer: 查看者
+    remove: 移除
