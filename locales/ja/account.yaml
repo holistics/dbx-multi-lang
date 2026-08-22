@@ -35,7 +35,7 @@ account:
       cancelSuccess: 削除リクエストが正常にキャンセルされました！
       status:
         inProgressTitle: アカウントの削除が進行中です。
-        inProgressDescription: 数分かかる場合があります。このウィンドウを閉じても安全です — プロセスはバックグラウンドで続行されます。
+        inProgressDescription: 数分かかる場合があります。このウィンドウを閉じても安全です—プロセスはバックグラウンドで続行されます。
         completedTitle: アカウントが正常に削除されました。
         completedDescription: "このウィンドウを閉じても安全です。注意: 自動的にログアウトされません。他のデバイスから手動でログアウトしてください。"
         failedTitle: アカウントの削除に失敗しました。

@@ -41,7 +41,7 @@ account:
       cancelSuccess: "O'chirish so'rovi muvaffaqiyatli bekor qilindi!" # Success toast after canceling
       status:
         inProgressTitle: Hisobingizni o'chirish jarayoni davom etmoqda.
-        inProgressDescription: Bu bir necha daqiqa vaqt olishi mumkin. Ushbu oynani xavfsiz yopishingiz mumkin — jarayon fonda davom etadi.
+        inProgressDescription: Bu bir necha daqiqa vaqt olishi mumkin. Ushbu oynani xavfsiz yopishingiz mumkin—jarayon fonda davom etadi.
         completedTitle: Hisobingiz muvaffaqiyatli o'chirildi.
         completedDescription: "Ushbu oynani xavfsiz yopishingiz mumkin. Eslatma: tizimdan avtomatik chiqarilmaysiz. Iltimos, boshqa qurilmalardan tizimdan o'zingiz chiqing."
         failedTitle: Hisobni o'chirish amalga oshmadi.

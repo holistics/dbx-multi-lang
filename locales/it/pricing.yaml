@@ -10,6 +10,15 @@ pricing:
     title: Aggiorna il tuo spazio di lavoro # Page title
     subtitle: Ogni piano a pagamento include dbdiagram e dbdocs insieme. # Subtitle
 
+  modal:
+    subtitle: Sempre gratuito. Ottieni più potenza con i nostri piani tariffari.
+    alwaysFree:
+      label: Sempre gratuito
+      text: "Ogni piano include anche:"
+      dbmlCaption: Specifica di schema aperta
+      runsqlCaption: Playground SQL basato su browser
+    provisioningTitle: "Configurazione del tuo spazio di lavoro…"
+
   # ========================================
   # Misc UI labels
   # ========================================
@@ -104,7 +113,7 @@ pricing:
     label: "Componenti aggiuntivi:" # Add-ons section label
     extraDocProject: Progetto doc a pagamento aggiuntivo # Doc project addon name
     extraUser: Utente aggiuntivo # User addon name
-    extraUserTooltip: "Una licenza utente è per gli editor, ovvero le persone che creano e modificano diagrammi e documenti. I visualizzatori sono sempre gratuiti e non necessitano di una licenza." # User addon tooltip
+    extraUserTooltip: "Una licenza utente è per gli editor — le persone che creano e modificano diagrammi e documenti. I visualizzatori sono sempre gratuiti e non necessitano di una licenza." # User addon tooltip
 
   # ========================================
   # Plan Card - Features lists
@@ -143,20 +152,20 @@ pricing:
         title: Inizia in piccolo con le Viste del diagramma
         description: "Pensa in grande, inizia in piccolo. Crea molteplici viste focalizzate dello stesso diagramma. Mostra le tabelle necessarie per un dominio, un flusso di lavoro o una conversazione del team."
       passwordProtection:
-        title: Protezione con password e modalità privata
-        description: Limita l'accesso ai tuoi diagrammi e documenti di database con la protezione tramite password o la modalità privata. Perfetto per la condivisione interna nel team.
+        title: Proteggi il diagramma con la Protezione con password
+        description: Proteggi i tuoi diagrammi con la Protezione con password e migliora la privacy. Perfetto per la condivisione interna nel team.
       tableGroups:
-        title: Organizza meglio con i Gruppi di tabelle
+        title: Organizza meglio con Gruppo di tabelle
         description: Raggruppa più tabelle insieme per una visualizzazione più semplice. Riduci il carico di lavoro quando lavori con un database che ha molte tabelle.
       headerColors:
-        title: Colori dell'intestazione delle tabelle
+        title: Gestisci i tuoi diagrammi con il Colore dell'intestazione
         description: Gestisci facilmente i tuoi diagrammi e documenti di database cambiando i colori dell'intestazione delle tabelle e rendili più colorati!
       detailLevels:
-        title: Livelli di dettaglio del diagramma
-        description: "Passa dalla visualizzazione di tutte le colonne, alla visualizzazione delle sole colonne chiave (PK, FK), o persino alla visualizzazione senza colonne, in base alle tue esigenze."
+        title: Semplifica i tuoi diagrammi con i Livelli di dettaglio
+        description: Passa tra diversi livelli di dettaglio per semplificare i tuoi diagrammi. Questa funzione è particolarmente utile quando lavori con progetti di database di grandi dimensioni.
       stickyNotes:
         title: Collabora meglio con le Note adesive
-        description: "Hai bisogno di annotare un rapido promemoria o approfondire un'idea complessa? Puoi aggiungere note direttamente ai tuoi diagrammi e documenti, esattamente dove ti servono."
+        description: "Hai bisogno di annotare un rapido promemoria o approfondire un'idea complessa? Puoi aggiungere note direttamente ai tuoi diagrammi, esattamente dove ti servono."
       aiAssistant:
         title: Accelera il flusso di lavoro con l'Assistente IA
         description: Ottieni suggerimenti intelligenti e velocizza il tuo flusso di lavoro di progettazione database con il nostro assistente basato sull'IA.
@@ -192,11 +201,11 @@ pricing:
   comparison:
     categories:
       dataModeling: Modellazione dati
+      documentation: Documentazione
       workingWithLargeDatabases: Lavorare con database di grandi dimensioni
       sharingCollaboration: Condivisione e collaborazione
       apiIntegrations: API e integrazioni
       productSupport: Supporto prodotto
-      securityCompliance: Sicurezza e conformità
       businessTerms: Termini commerciali e pagamento
     features:
       erDiagrams:
@@ -205,9 +214,9 @@ pricing:
       diagramViews:
         name: Viste del diagramma
         description: Crea molteplici viste dello stesso diagramma per concentrarti su aspetti o destinatari diversi
-      aiAssistant:
-        name: Assistente IA
-        description: "Genera e modifica diagrammi tramite prompt; ottieni informazioni e raccomandazioni per i tuoi progetti di database"
+      dataSample:
+        name: Campione di dati
+        description: Mostra ai lettori i dati reali con righe di esempio e genera INSERT SQL per popolare le tabelle di riferimento
       importSchema:
         name: Importa schema dal database
         description: Esegui il reverse engineering del tuo database esistente per visualizzare tabelle, campi e relazioni
@@ -220,6 +229,19 @@ pricing:
       versionHistory:
         name: Cronologia versioni
         description: Traccia e ripristina le versioni precedenti dei tuoi diagrammi
+      aiAssistant:
+        name: Assistente IA (Beta)
+        description: "Genera e modifica diagrammi tramite prompt; ottieni informazioni e raccomandazioni per i tuoi progetti di database"
+      publishedDocs:
+        name: Documentazione pubblicata
+        description: Pubblica uno schema su dbdocs.io come riferimento consultabile dal tuo team
+      paidDocProjects:
+        name: Progetti doc a pagamento
+        description: Progetti doc con il set completo di funzionalità. I progetti gratuiti restano disponibili su ogni piano
+        tooltip: "Qualsiasi progetto doc può essere condiviso pubblicamente, oppure protetto da una password condivisa. Un progetto a pagamento aggiunge la modalità privata, l'accesso solo per le persone invitate, viste incorporate illimitate e il registro completo delle modifiche dello schema."
+      schemaChangelog:
+        name: Registro modifiche dello schema
+        description: Verifica come è cambiato uno schema pubblicato nel tempo e confronta due versioni qualsiasi
       tableGroup:
         name: Gruppi di tabelle
         description: Organizza visivamente le tabelle correlate con raggruppamenti
@@ -233,20 +255,20 @@ pricing:
         name: Note adesive
         description: Aggiungi annotazioni e commenti ai tuoi diagrammi
       embeddedDiagrams:
-        name: Diagrammi incorporati
-        description: "Incorpora i tuoi diagrammi come iframe in strumenti come Notion, Confluence o il tuo sito web"
+        name: Viste incorporate
+        description: Incorpora un diagramma o una pagina doc come iframe in strumenti come Notion, Confluence o il tuo sito
       publicDiagram:
-        name: Diagramma pubblico
-        description: Crea diagrammi accessibili a chiunque disponga del link
+        name: Condivisione tramite link pubblico
+        description: Condividi un diagramma o un progetto doc con chiunque disponga del link
       passwordProtectedDiagram:
-        name: Diagramma protetto da password
-        description: Limita l'accesso ai tuoi diagrammi con una password
+        name: Condivisione tramite link protetto da password
+        description: Proteggi con una password un diagramma o un link doc condiviso
       privateDiagram:
-        name: Diagramma privato
-        description: Mantieni i tuoi diagrammi privati e accessibili solo a te o agli utenti invitati
+        name: Modalità privata
+        description: Mantieni un diagramma o un progetto doc accessibile solo a te e alle persone che inviti
       inviteEditors:
         name: Invita editor e visualizzatori
-        description: Invita i colleghi a collaborare sui tuoi diagrammi
+        description: Invita i colleghi a collaborare sui tuoi diagrammi e sulla documentazione
       collaborativeWorkspace:
         name: Spazio di lavoro collaborativo
         description: Spazio di lavoro condiviso per i membri del team per lavorare insieme
@@ -256,6 +278,9 @@ pricing:
       unifiedAdmin:
         name: Amministrazione e fatturazione unificate
         description: Un'unica dashboard per gestire i membri del team e la fatturazione
+      cli:
+        name: CLI
+        description: Mantieni i file .dbml nel controllo versione; sincronizza i diagrammi, pubblica la documentazione e automatizza entrambi dalla CI/CD
       publicApi:
         name: API pubblica
         description: Crea integrazioni personalizzate per collegare i tuoi spazi di lavoro dbdiagram a strumenti e flussi di lavoro interni
@@ -265,45 +290,21 @@ pricing:
       standardSupport:
         name: Supporto standard
         description: Supporto via email con tempi di risposta standard
-      prioritizedFeature:
-        name: Richiesta di funzionalità prioritaria
-        description: Ottieni lo sviluppo accelerato delle tue richieste di funzionalità specifiche con tempistiche di consegna concrete
-      procurementLegal:
-        name: Revisione legale o di procurement
-        description: Supporto per la valutazione del rischio fornitore e assistenza con i processi di procurement
-      samlSso:
-        name: SAML Single Sign-on (SSO)
-        description: Integrazione di accesso sicuro con il tuo identity provider
-      userActivityLog:
-        name: Registro attività utente
-        description: Traccia e rivedi le azioni degli utenti per sicurezza e conformità.
-      ipAllowLists:
-        name: IP Allow Lists
-        description: Limita l'accesso al tuo spazio di lavoro tramite indirizzo IP
-      customSla:
-        name: Accordo personalizzato sul livello di servizio (SLA)
-        description: "SLA personalizzati con uptime garantito, tempi di risposta e impegni di servizio"
       creditCardPayment:
         name: Pagamento con carta di credito
         description: Paga con carta di credito o di debito tramite elaborazione sicura
       bankTransfer:
         name: Bonifico bancario
         description: Bonifico bancario diretto per transazioni di importo maggiore
-      customLegalTerms:
-        name: Termini legali personalizzati
-        description: "Esecuzione di NDA, contratti personalizzati e accordi legali flessibili"
-      customPaymentTerms:
-        name: Termini di pagamento personalizzati
-        description: Piani di pagamento flessibili (NET 30, fatturazione personalizzata)
     # Cell values that are translatable strings
     values:
       unlimited: Illimitato
       unlimitedUsage: Utilizzo illimitato
       cappedUsage: Utilizzo limitato
-      inRoadmap: In programma
       viewOnly: Solo visualizzazione
       upToFourFreeEditors: Fino a 4 editor gratuiti
       minThreeThousand: "Min. $3.000"
+      fourteenDayHistory: Cronologia di 14 giorni
 
   # ========================================
   # FAQ Section
@@ -315,8 +316,8 @@ pricing:
       answerHtml: "Puoi gestire l'abbonamento del tuo spazio di lavoro in Home > Fatturazione. Puoi trovare il collegamento \"Home\" del tuo spazio di lavoro nel menu a tendina dell'account in alto a destra."
     - question: Conservate i dati della mia carta di credito?
       answerHtml: "No, non gestiamo direttamente i dati della tua carta di credito. Utilizziamo Stripe per elaborare i tuoi pagamenti."
-    - question: Cosa succede se annullo il mio piano Personal Pro o Team?
-      answerHtml: Dopo l'annullamento del piano Personal Pro, il tuo account verrà ripristinato al piano Free alla fine del periodo.
+    - question: Cosa succede se annullo il mio abbonamento?
+      answerHtml: Quando annulli il tuo abbonamento, il tuo spazio di lavoro verrà riportato al piano Free. I progetti privati verranno convertiti in progetti pubblici e i membri dello spazio di lavoro non potranno più accedervi.
     - question: Il mio piano verrà rinnovato automaticamente?
       answerHtml: L'abbonamento a pagamento viene rinnovato automaticamente a meno che tu non annulli il piano prima della fine del periodo di abbonamento.
     - question: Ottengo le funzionalità sia di dbdiagram che di dbdocs con un unico piano?

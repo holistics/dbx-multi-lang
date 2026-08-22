@@ -10,6 +10,15 @@ pricing:
     title: 워크스페이스를 업그레이드하세요 # Page title
     subtitle: 모든 유료 플랜에는 dbdiagram과 dbdocs가 함께 포함되어 있습니다. # Subtitle
 
+  modal:
+    subtitle: 언제나 무료. 요금제로 더 강력한 기능을 이용하세요.
+    alwaysFree:
+      label: 언제나 무료
+      text: "모든 플랜에는 다음도 포함됩니다:"
+      dbmlCaption: 개방형 스키마 사양
+      runsqlCaption: 브라우저 기반 SQL 플레이그라운드
+    provisioningTitle: "워크스페이스를 준비하고 있습니다…"
+
   # ========================================
   # Misc UI labels
   # ========================================
@@ -104,7 +113,7 @@ pricing:
     label: "추가 옵션:" # Add-ons section label
     extraDocProject: 추가 유료 문서 프로젝트 # Doc project addon name
     extraUser: 추가 사용자 # User addon name
-    extraUserTooltip: "사용자 라이선스는 편집자를 위한 것입니다 - 다이어그램과 문서를 만들고 변경하는 사람들입니다. 뷰어는 항상 무료이며 라이선스가 필요하지 않습니다." # User addon tooltip
+    extraUserTooltip: "사용자 라이선스는 편집자를 위한 것입니다 — 다이어그램과 문서를 만들고 변경하는 사람들입니다. 뷰어는 항상 무료이며 라이선스가 필요하지 않습니다." # User addon tooltip
 
   # ========================================
   # Plan Card - Features lists
@@ -143,20 +152,20 @@ pricing:
         title: 다이어그램 보기로 작게 시작하세요
         description: "크게 생각하고, 작게 시작하세요. 동일한 다이어그램의 여러 집중 보기를 만드세요. 도메인, 워크플로우 또는 팀 대화에 필요한 테이블을 표시하세요."
       passwordProtection:
-        title: 비밀번호 보호 및 비공개 모드
-        description: 비밀번호 보호 또는 비공개 모드로 다이어그램과 데이터베이스 문서에 대한 접근을 제한하세요. 팀 내부 공유에 적합합니다.
+        title: 비밀번호 보호로 다이어그램을 안전하게 보호하세요
+        description: 비밀번호 보호로 다이어그램을 보호하고 개인정보 보호를 강화하세요. 팀 내부 공유에 적합합니다.
       tableGroups:
         title: 테이블 그룹으로 더 잘 정리하세요
         description: 여러 테이블을 그룹으로 묶어 더 쉽게 시각화하세요. 테이블이 많은 데이터베이스 작업 시 업무량을 줄여줍니다.
       headerColors:
-        title: 테이블 헤더 색상
+        title: 헤더 색상으로 다이어그램을 관리하세요
         description: 테이블 헤더 색상을 변경하여 다이어그램과 데이터베이스 문서를 쉽게 관리하고 더 다채롭게 만드세요!
       detailLevels:
-        title: 다이어그램 세부 수준
-        description: "필요에 따라 모든 컬럼 표시, 키(PK, FK) 컬럼만 표시, 또는 모든 컬럼 숨기기 간에 전환하세요."
+        title: 세부 수준으로 다이어그램을 단순화하세요
+        description: "다이어그램을 단순화하기 위해 다양한 세부 수준 간에 전환하세요. 대규모 데이터베이스 설계 작업 시 특히 유용한 기능입니다."
       stickyNotes:
         title: 스티커 메모로 더 나은 협업을 하세요
-        description: "빠른 메모를 남기거나 복잡한 아이디어를 설명해야 하나요? 필요한 곳에 다이어그램과 문서에 직접 메모를 추가할 수 있습니다."
+        description: "빠른 메모를 남기거나 복잡한 아이디어를 설명해야 하나요? 필요한 곳에 다이어그램에 직접 메모를 추가할 수 있습니다."
       aiAssistant:
         title: AI 어시스턴트로 워크플로우를 가속화하세요
         description: 지능적인 제안을 받고 AI 기반 어시스턴트로 데이터베이스 설계 워크플로우를 빠르게 진행하세요.
@@ -174,7 +183,7 @@ pricing:
         description: "Notion, Confluence, Miro 또는 자체 웹사이트와 같은 플랫폼에 데이터베이스 문서를 임베드할 수 있습니다. 이미 사용하고 계신 도구에서 데이터베이스 문서를 확인하세요."
       shareWithInvitedUsers:
         title: 초대된 사용자와 공유
-        description: "프로젝트에서 동료를 직접 초대하고 관리하세요\u2014내부 팀 공유에 적합합니다."
+        description: "프로젝트에서 동료를 직접 초대하고 관리하세요—내부 팀 공유에 적합합니다."
     team:
       collaborativeWorkspace:
         title: 협업 워크스페이스
@@ -192,11 +201,11 @@ pricing:
   comparison:
     categories:
       dataModeling: 데이터 모델링
+      documentation: 문서
       workingWithLargeDatabases: 대규모 데이터베이스 작업
       sharingCollaboration: 공유 및 협업
       apiIntegrations: API 및 통합
       productSupport: 제품 지원
-      securityCompliance: 보안 및 규정 준수
       businessTerms: 비즈니스 조건 및 결제
     features:
       erDiagrams:
@@ -205,9 +214,9 @@ pricing:
       diagramViews:
         name: 다이어그램 보기
         description: 동일한 다이어그램의 여러 보기를 만들어 다양한 측면이나 대상에 집중하세요
-      aiAssistant:
-        name: AI 어시스턴트
-        description: "프롬프트를 사용하여 다이어그램을 생성 및 편집하고, 데이터베이스 설계에 대한 인사이트와 추천을 받으세요"
+      dataSample:
+        name: 데이터 샘플
+        description: 예시 행으로 독자에게 실제 데이터를 보여주고, 조회 테이블을 채우기 위한 SQL INSERT 문을 생성하세요
       importSchema:
         name: 데이터베이스에서 스키마 가져오기
         description: 기존 데이터베이스를 역공학하여 테이블, 필드, 관계를 시각화하세요
@@ -220,6 +229,19 @@ pricing:
       versionHistory:
         name: 버전 기록
         description: 다이어그램의 이전 버전을 추적하고 되돌리세요
+      aiAssistant:
+        name: AI 어시스턴트 (베타)
+        description: "프롬프트를 사용하여 다이어그램을 생성 및 편집하고, 데이터베이스 설계에 대한 인사이트와 추천을 받으세요"
+      publishedDocs:
+        name: 게시된 문서
+        description: 팀이 열람할 수 있는 참조 자료로 스키마를 dbdocs.io에 게시하세요
+      paidDocProjects:
+        name: 유료 문서 프로젝트
+        description: 전체 기능을 갖춘 문서 프로젝트입니다. 무료 프로젝트는 모든 플랜에서 계속 사용할 수 있습니다
+        tooltip: "모든 문서 프로젝트는 공개적으로 공유하거나 공유 비밀번호로 보호하여 공유할 수 있습니다. 유료 프로젝트에는 비공개 모드, 초대된 사람만 접근 가능, 무제한 임베디드 뷰, 전체 스키마 변경 로그가 추가됩니다."
+      schemaChangelog:
+        name: 스키마 변경 로그
+        description: 게시된 스키마가 시간이 지남에 따라 어떻게 변경되었는지 감사하고 임의의 두 버전을 비교하세요
       tableGroup:
         name: 테이블 그룹
         description: 관련 테이블을 그룹으로 시각적으로 정리하세요
@@ -233,20 +255,20 @@ pricing:
         name: 스티커 메모
         description: 다이어그램에 주석과 코멘트를 추가하세요
       embeddedDiagrams:
-        name: 임베디드 다이어그램
-        description: "Notion, Confluence 또는 웹사이트와 같은 도구에 다이어그램을 iframe으로 임베드하세요"
+        name: 임베디드 뷰
+        description: Notion, Confluence 또는 자체 사이트와 같은 도구에 다이어그램이나 문서 페이지를 iframe으로 임베드하세요
       publicDiagram:
-        name: 공개 다이어그램
-        description: 링크가 있는 누구나 접근할 수 있는 다이어그램을 만드세요
+        name: 공개 링크 공유
+        description: 링크를 가진 누구와도 다이어그램이나 문서 프로젝트를 공유하세요
       passwordProtectedDiagram:
-        name: 비밀번호 보호 다이어그램
-        description: 비밀번호로 다이어그램에 대한 접근을 제한하세요
+        name: 비밀번호 보호 링크 공유
+        description: 공유하는 다이어그램이나 문서 링크에 비밀번호를 설정하세요
       privateDiagram:
-        name: 비공개 다이어그램
-        description: 다이어그램을 비공개로 유지하여 본인 또는 초대된 사용자만 접근할 수 있도록 하세요
+        name: 비공개 모드
+        description: 다이어그램이나 문서 프로젝트를 본인과 초대한 사람만 접근할 수 있도록 하세요
       inviteEditors:
         name: 편집자 및 뷰어 초대
-        description: 동료를 초대하여 다이어그램에서 협업하세요
+        description: 동료를 초대하여 다이어그램과 문서에서 협업하세요
       collaborativeWorkspace:
         name: 협업 워크스페이스
         description: 팀원이 함께 작업할 수 있는 공유 워크스페이스
@@ -256,6 +278,9 @@ pricing:
       unifiedAdmin:
         name: 통합 관리 및 결제
         description: 팀원 및 결제를 관리하는 단일 대시보드
+      cli:
+        name: CLI
+        description: .dbml 파일을 버전 관리에 유지하세요. push/pull로 다이어그램을 동기화하고, 문서를 게시하고, CI/CD에서 두 작업을 모두 자동화할 수 있습니다
       publicApi:
         name: Public API
         description: dbdiagram 워크스페이스를 내부 도구 및 워크플로우에 연결하는 맞춤 통합을 구축하세요
@@ -265,45 +290,21 @@ pricing:
       standardSupport:
         name: 표준 지원
         description: 표준 응답 시간의 이메일 지원
-      prioritizedFeature:
-        name: 우선 기능 요청
-        description: 구체적인 제공 일정과 함께 특정 기능 요청의 개발을 가속화하세요
-      procurementLegal:
-        name: 조달 또는 법률 검토
-        description: 벤더 위험 평가 지원 및 조달 프로세스 지원
-      samlSso:
-        name: SAML Single Sign-on (SSO)
-        description: ID 공급자와의 안전한 로그인 통합
-      userActivityLog:
-        name: 사용자 활동 로그
-        description: 보안 및 규정 준수를 위한 사용자 활동 추적 및 검토
-      ipAllowLists:
-        name: IP Allow Lists
-        description: IP 주소별로 워크스페이스 접근을 제한하세요
-      customSla:
-        name: 맞춤 서비스 수준 계약(SLA)
-        description: "보장된 가동 시간, 응답 시간, 서비스 약속이 포함된 맞춤 SLA"
       creditCardPayment:
         name: 신용카드 결제
         description: 안전한 처리를 통해 신용카드 또는 체크카드로 결제하세요
       bankTransfer:
         name: 계좌이체
         description: 대규모 거래를 위한 직접 계좌이체
-      customLegalTerms:
-        name: 맞춤 법률 조건
-        description: "NDA 체결, 맞춤 계약 및 유연한 법률 계약"
-      customPaymentTerms:
-        name: 맞춤 결제 조건
-        description: 유연한 결제 일정 (NET 30, 맞춤 인보이스)
     # Cell values that are translatable strings
     values:
       unlimited: 무제한
       unlimitedUsage: 무제한 사용
       cappedUsage: 제한된 사용
-      inRoadmap: 로드맵 예정
       viewOnly: 보기 전용
       upToFourFreeEditors: 최대 4명의 무료 편집자
       minThreeThousand: "최소 $3,000"
+      fourteenDayHistory: 14일 기록
 
   # ========================================
   # FAQ Section
@@ -315,8 +316,8 @@ pricing:
       answerHtml: "홈 > 결제에서 워크스페이스의 구독을 관리할 수 있습니다. 오른쪽 상단 계정 드롭다운 메뉴에서 워크스페이스의 \"홈\" 바로가기를 찾을 수 있습니다."
     - question: 신용카드 정보를 저장하나요?
       answerHtml: "아니요, 신용카드 정보를 직접 처리하지 않습니다. 결제 처리에 Stripe를 사용하고 있습니다."
-    - question: Personal Pro 또는 Team 플랜을 취소하면 어떻게 되나요?
-      answerHtml: Personal Pro 플랜을 취소하면, 기간 종료 시 계정이 Free 플랜으로 전환됩니다.
+    - question: 구독을 취소하면 어떻게 되나요?
+      answerHtml: 구독을 취소하면 워크스페이스가 Free 플랜으로 전환됩니다. 비공개 프로젝트는 공개 프로젝트로 전환되며, 워크스페이스 멤버는 더 이상 워크스페이스에 접근할 수 없습니다.
     - question: 플랜이 자동으로 갱신되나요?
       answerHtml: 유료 구독은 구독 기간이 끝나기 전에 플랜을 취소하지 않는 한 자동으로 갱신됩니다.
     - question: 하나의 플랜으로 dbdiagram과 dbdocs 기능을 모두 이용할 수 있나요?

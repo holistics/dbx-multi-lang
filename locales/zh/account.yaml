@@ -35,7 +35,7 @@ account:
       cancelSuccess: 删除请求已成功取消！
       status:
         inProgressTitle: 您的账户正在删除中。
-        inProgressDescription: 这可能需要几分钟。您可以安全关闭此窗口 — 该过程将在后台继续进行。
+        inProgressDescription: 这可能需要几分钟。您可以安全关闭此窗口—该过程将在后台继续进行。
         completedTitle: 您的账户已成功删除。
         completedDescription: "您可以安全关闭此窗口。注意：您不会自动退出登录。请手动从其他设备退出。"
         failedTitle: 账户删除失败。

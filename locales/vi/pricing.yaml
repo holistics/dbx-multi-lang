@@ -10,6 +10,15 @@ pricing:
     title: Nâng cấp không gian làm việc của bạn # Page title
     subtitle: Mọi gói trả phí đều bao gồm dbdiagram và dbdocs. # Subtitle
 
+  modal:
+    subtitle: Luôn miễn phí. Nhận thêm sức mạnh với các gói giá của chúng tôi.
+    alwaysFree:
+      label: Luôn miễn phí
+      text: "Mọi gói đều bao gồm:"
+      dbmlCaption: Đặc tả schema mở
+      runsqlCaption: Sân chơi SQL trên trình duyệt
+    provisioningTitle: "Đang thiết lập không gian làm việc của bạn…"
+
   # ========================================
   # Misc UI labels
   # ========================================
@@ -104,7 +113,7 @@ pricing:
     label: "Tiện ích bổ sung:" # Add-ons section label
     extraDocProject: Dự án tài liệu trả phí bổ sung # Doc project addon name
     extraUser: Người dùng bổ sung # User addon name
-    extraUserTooltip: "Giấy phép người dùng dành cho biên tập viên - những người tạo và chỉnh sửa sơ đồ và tài liệu. Người xem luôn miễn phí và không cần giấy phép." # User addon tooltip
+    extraUserTooltip: "Giấy phép người dùng dành cho biên tập viên — những người tạo và chỉnh sửa sơ đồ và tài liệu. Người xem luôn miễn phí và không cần giấy phép." # User addon tooltip
 
   # ========================================
   # Plan Card - Features lists
@@ -143,20 +152,20 @@ pricing:
         title: Bắt đầu nhỏ với Diagram Views
         description: "Nghĩ lớn, bắt đầu nhỏ. Tạo nhiều chế độ xem tập trung của cùng một sơ đồ. Hiển thị các bảng bạn cần cho một lĩnh vực, quy trình làm việc hoặc cuộc thảo luận nhóm."
       passwordProtection:
-        title: Bảo vệ mật khẩu & Chế độ riêng tư
-        description: Hạn chế quyền truy cập sơ đồ và tài liệu cơ sở dữ liệu bằng bảo vệ mật khẩu hoặc chế độ riêng tư. Hoàn hảo cho việc chia sẻ nội bộ trong nhóm.
+        title: Bảo mật sơ đồ với Bảo vệ mật khẩu
+        description: Bảo vệ sơ đồ của bạn bằng Bảo vệ mật khẩu và tăng cường quyền riêng tư. Hoàn hảo cho việc chia sẻ nội bộ trong nhóm.
       tableGroups:
         title: Tổ chức tốt hơn với Nhóm bảng
         description: Nhóm nhiều bảng lại với nhau để dễ trực quan hóa hơn. Giảm khối lượng công việc khi làm việc với cơ sở dữ liệu có nhiều bảng.
       headerColors:
-        title: Màu tiêu đề bảng
+        title: Quản lý sơ đồ với Màu tiêu đề
         description: Dễ dàng quản lý sơ đồ và tài liệu cơ sở dữ liệu bằng cách thay đổi màu tiêu đề bảng và làm cho nó thêm sắc màu!
       detailLevels:
-        title: Mức độ chi tiết sơ đồ
-        description: "Chuyển đổi giữa hiển thị tất cả cột, chỉ hiển thị cột khóa (PK, FK), hoặc ẩn tất cả cột theo nhu cầu của bạn."
+        title: Đơn giản hóa sơ đồ với Mức độ chi tiết
+        description: "Chuyển đổi giữa các mức độ chi tiết khác nhau để đơn giản hóa sơ đồ của bạn. Tính năng này đặc biệt hữu ích khi làm việc với các thiết kế cơ sở dữ liệu lớn."
       stickyNotes:
         title: Cộng tác tốt hơn với Ghi chú dán
-        description: "Cần ghi lại lời nhắc nhanh hoặc giải thích một ý tưởng phức tạp? Bạn có thể thêm ghi chú trực tiếp vào sơ đồ và tài liệu, ngay nơi bạn cần."
+        description: "Cần ghi lại lời nhắc nhanh hoặc giải thích một ý tưởng phức tạp? Bạn có thể thêm ghi chú trực tiếp vào sơ đồ, ngay nơi bạn cần."
       aiAssistant:
         title: Tăng tốc quy trình làm việc với Trợ lý AI
         description: Nhận gợi ý thông minh và tăng tốc quy trình thiết kế cơ sở dữ liệu với trợ lý hỗ trợ bởi AI.
@@ -174,7 +183,7 @@ pricing:
         description: "Bạn có thể nhúng tài liệu cơ sở dữ liệu vào các nền tảng như Notion, Confluence, Miro, hoặc thậm chí trang web của bạn. Xem tài liệu cơ sở dữ liệu trong công cụ bạn yêu thích."
       shareWithInvitedUsers:
         title: Chia sẻ với người dùng được mời
-        description: "Trực tiếp mời và quản lý đồng nghiệp trong dự án\u2014hoàn hảo cho việc chia sẻ nội bộ nhóm."
+        description: "Trực tiếp mời và quản lý đồng nghiệp trong dự án—hoàn hảo cho việc chia sẻ nội bộ nhóm."
     team:
       collaborativeWorkspace:
         title: Không gian làm việc cộng tác
@@ -192,11 +201,11 @@ pricing:
   comparison:
     categories:
       dataModeling: Mô hình dữ liệu
+      documentation: Tài liệu
       workingWithLargeDatabases: Làm việc với cơ sở dữ liệu lớn
       sharingCollaboration: Chia sẻ & Cộng tác
       apiIntegrations: API & Tích hợp
       productSupport: Hỗ trợ sản phẩm
-      securityCompliance: Bảo mật & Tuân thủ
       businessTerms: Điều khoản kinh doanh & Thanh toán
     features:
       erDiagrams:
@@ -205,9 +214,9 @@ pricing:
       diagramViews:
         name: Diagram Views
         description: Tạo nhiều chế độ xem của cùng một sơ đồ để tập trung vào các khía cạnh hoặc đối tượng khác nhau
-      aiAssistant:
-        name: AI Assistant
-        description: "Tạo & chỉnh sửa sơ đồ bằng câu lệnh; nhận thông tin chi tiết và đề xuất cho thiết kế cơ sở dữ liệu"
+      dataSample:
+        name: Dữ liệu mẫu
+        description: Cho người đọc thấy dữ liệu thực với các hàng mẫu, và tạo câu lệnh SQL INSERT để nạp dữ liệu cho các bảng tra cứu
       importSchema:
         name: Nhập Schema từ cơ sở dữ liệu
         description: Kỹ thuật đảo ngược cơ sở dữ liệu hiện có để trực quan hóa bảng, trường và mối quan hệ
@@ -220,6 +229,19 @@ pricing:
       versionHistory:
         name: Lịch sử phiên bản
         description: Theo dõi và khôi phục các phiên bản trước của sơ đồ
+      aiAssistant:
+        name: AI Assistant (Beta)
+        description: "Tạo & chỉnh sửa sơ đồ bằng câu lệnh; nhận thông tin chi tiết và đề xuất cho thiết kế cơ sở dữ liệu"
+      publishedDocs:
+        name: Tài liệu đã xuất bản
+        description: Xuất bản một schema lên dbdocs.io như một tài liệu tham khảo để nhóm của bạn có thể xem
+      paidDocProjects:
+        name: Dự án tài liệu trả phí
+        description: Dự án tài liệu với đầy đủ bộ tính năng. Các dự án miễn phí vẫn khả dụng trên mọi gói
+        tooltip: "Bất kỳ dự án tài liệu nào cũng có thể được chia sẻ công khai, hoặc bảo vệ bằng mật khẩu dùng chung. Một dự án trả phí bổ sung thêm chế độ riêng tư, quyền truy cập chỉ dành cho người được mời, chế độ xem nhúng không giới hạn và lịch sử thay đổi schema đầy đủ."
+      schemaChangelog:
+        name: Lịch sử thay đổi Schema
+        description: Kiểm tra cách một schema đã xuất bản thay đổi theo thời gian và so sánh hai phiên bản bất kỳ
       tableGroup:
         name: Nhóm bảng
         description: Tổ chức các bảng liên quan một cách trực quan bằng nhóm
@@ -233,20 +255,20 @@ pricing:
         name: Ghi chú dán
         description: Thêm chú thích và bình luận vào sơ đồ
       embeddedDiagrams:
-        name: Sơ đồ nhúng
-        description: "Nhúng sơ đồ dưới dạng iframe trong các công cụ như Notion, Confluence hoặc trang web của bạn"
+        name: Chế độ xem nhúng
+        description: Nhúng một sơ đồ hoặc trang tài liệu dưới dạng iframe trong các công cụ như Notion, Confluence hoặc trang web riêng của bạn
       publicDiagram:
-        name: Sơ đồ công khai
-        description: Tạo sơ đồ mà bất kỳ ai có liên kết đều có thể truy cập
+        name: Chia sẻ liên kết công khai
+        description: Chia sẻ một sơ đồ hoặc dự án tài liệu với bất kỳ ai có liên kết
       passwordProtectedDiagram:
-        name: Sơ đồ bảo vệ bằng mật khẩu
-        description: Hạn chế quyền truy cập sơ đồ bằng mật khẩu
+        name: Chia sẻ liên kết bảo vệ bằng mật khẩu
+        description: Đặt mật khẩu cho một liên kết sơ đồ hoặc tài liệu được chia sẻ
       privateDiagram:
-        name: Sơ đồ riêng tư
-        description: Giữ sơ đồ riêng tư và chỉ bạn hoặc người dùng được mời mới truy cập được
+        name: Chế độ riêng tư
+        description: Giữ một sơ đồ hoặc dự án tài liệu chỉ có thể truy cập bởi bạn và những người bạn mời
       inviteEditors:
         name: Mời biên tập viên & người xem
-        description: Mời đồng nghiệp cộng tác trên sơ đồ của bạn
+        description: Mời đồng nghiệp cộng tác trên sơ đồ và tài liệu của bạn
       collaborativeWorkspace:
         name: Không gian làm việc cộng tác
         description: Không gian làm việc chung cho các thành viên nhóm cùng làm việc
@@ -256,6 +278,9 @@ pricing:
       unifiedAdmin:
         name: Quản trị và thanh toán tập trung
         description: Một bảng điều khiển để quản lý thành viên nhóm và thanh toán
+      cli:
+        name: CLI
+        description: Giữ các tệp .dbml trong hệ thống quản lý phiên bản; push và pull để đồng bộ sơ đồ, xuất bản tài liệu, và tự động hóa cả hai từ CI/CD
       publicApi:
         name: Public API
         description: Xây dựng tích hợp tùy chỉnh để kết nối không gian làm việc dbdiagram với các công cụ và quy trình nội bộ
@@ -265,45 +290,21 @@ pricing:
       standardSupport:
         name: Hỗ trợ tiêu chuẩn
         description: Hỗ trợ qua email với thời gian phản hồi tiêu chuẩn
-      prioritizedFeature:
-        name: Yêu cầu tính năng ưu tiên
-        description: Yêu cầu tính năng của bạn được ưu tiên phát triển với thời hạn giao hàng cụ thể
-      procurementLegal:
-        name: Đánh giá mua sắm hoặc pháp lý
-        description: Hỗ trợ đánh giá rủi ro nhà cung cấp và hỗ trợ quy trình mua sắm
-      samlSso:
-        name: SAML Single Sign-on (SSO)
-        description: Tích hợp đăng nhập an toàn với nhà cung cấp định danh của bạn
-      userActivityLog:
-        name: Nhật ký hoạt động người dùng
-        description: Theo dõi và xem lại hành động người dùng để đảm bảo bảo mật và tuân thủ.
-      ipAllowLists:
-        name: IP Allow Lists
-        description: Hạn chế quyền truy cập không gian làm việc theo địa chỉ IP
-      customSla:
-        name: Thỏa thuận mức dịch vụ tùy chỉnh (SLA)
-        description: "SLA tùy chỉnh với cam kết thời gian hoạt động, thời gian phản hồi và các cam kết dịch vụ"
       creditCardPayment:
         name: Thanh toán bằng thẻ tín dụng
         description: Thanh toán bằng thẻ tín dụng hoặc thẻ ghi nợ qua hệ thống xử lý an toàn
       bankTransfer:
         name: Chuyển khoản ngân hàng
         description: Chuyển khoản ngân hàng trực tiếp cho các giao dịch lớn
-      customLegalTerms:
-        name: Điều khoản pháp lý tùy chỉnh
-        description: "Ký kết NDA, hợp đồng tùy chỉnh và các thỏa thuận pháp lý linh hoạt"
-      customPaymentTerms:
-        name: Điều khoản thanh toán tùy chỉnh
-        description: Lịch thanh toán linh hoạt (NET 30, hóa đơn tùy chỉnh)
     # Cell values that are translatable strings
     values:
       unlimited: Không giới hạn
       unlimitedUsage: Sử dụng không giới hạn
       cappedUsage: Sử dụng có giới hạn
-      inRoadmap: Trong lộ trình
       viewOnly: Chỉ xem
       upToFourFreeEditors: Tối đa 4 biên tập viên miễn phí
       minThreeThousand: "Tối thiểu $3,000"
+      fourteenDayHistory: Lịch sử 14 ngày
 
   # ========================================
   # FAQ Section
@@ -315,8 +316,8 @@ pricing:
       answerHtml: "Bạn có thể quản lý gói đăng ký của không gian làm việc tại Trang chủ > Thanh toán. Bạn có thể tìm lối tắt \"Trang chủ\" của không gian làm việc trong menu tài khoản góc trên bên phải."
     - question: Bạn có lưu trữ thông tin thẻ tín dụng của tôi không?
       answerHtml: "Không, chúng tôi không xử lý trực tiếp thông tin thẻ tín dụng của bạn. Chúng tôi sử dụng Stripe để xử lý thanh toán."
-    - question: Điều gì xảy ra nếu tôi hủy gói Personal Pro hoặc Team?
-      answerHtml: Sau khi hủy gói Personal Pro, tài khoản của bạn sẽ được chuyển về gói Free vào cuối kỳ hạn.
+    - question: Điều gì xảy ra nếu tôi hủy gói đăng ký?
+      answerHtml: Khi bạn hủy gói đăng ký, không gian làm việc của bạn sẽ được chuyển về gói Free. Các dự án riêng tư sẽ được chuyển thành dự án công khai và các thành viên trong không gian làm việc sẽ không thể truy cập được nữa.
     - question: Gói của tôi có được tự động gia hạn không?
       answerHtml: Gói đăng ký trả phí được tự động gia hạn trừ khi bạn hủy gói trước khi kết thúc kỳ đăng ký.
     - question: Tôi có được cả tính năng dbdiagram và dbdocs trong một gói không?

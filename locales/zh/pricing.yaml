@@ -10,6 +10,15 @@ pricing:
     title: 升级你的工作区 # Page title
     subtitle: 每个付费方案均包含 dbdiagram 和 dbdocs。 # Subtitle
 
+  modal:
+    subtitle: 始终免费。使用我们的付费方案获得更强大的功能。
+    alwaysFree:
+      label: 始终免费
+      text: "每个方案还包括："
+      dbmlCaption: 开放的模式规范
+      runsqlCaption: 基于浏览器的 SQL 演练场
+    provisioningTitle: "正在设置你的工作区…"
+
   # ========================================
   # Misc UI labels
   # ========================================
@@ -143,20 +152,20 @@ pricing:
         title: 从图表视图开始
         description: "志存高远，从小做起。为同一图表创建多个聚焦视图。展示你在特定领域、工作流或团队讨论中所需的表。"
       passwordProtection:
-        title: 密码保护与私有模式
-        description: 通过密码保护或私有模式限制对图表和数据库文档的访问。非常适合团队内部分享。
+        title: 使用密码保护来保护你的图表
+        description: 使用密码保护来保护你的图表，提升隐私性。非常适合团队内部分享。
       tableGroups:
         title: 使用表组更好地组织
         description: 将多个表分组以便于可视化。在处理包含大量表的数据库时减轻工作负担。
       headerColors:
-        title: 表头颜色
+        title: 使用表头颜色管理图表
         description: 通过更改表头颜色轻松管理你的图表和数据库文档，使其更加丰富多彩！
       detailLevels:
-        title: 图表详细级别
-        description: "根据需要在显示所有列、仅显示键（PK、FK）列或隐藏所有列之间切换。"
+        title: 使用详细级别简化图表
+        description: "在不同详细级别之间切换以简化你的图表。此功能在处理大型数据库设计时特别有用。"
       stickyNotes:
         title: 使用便签更好地协作
-        description: "需要记下快速提醒或阐述复杂想法？你可以在图表和文档中直接添加便签，就在你需要的地方。"
+        description: "需要记下快速提醒或阐述复杂想法？你可以直接在图表中添加便签，就在你需要的地方。"
       aiAssistant:
         title: 使用 AI 助手加速工作流
         description: 获取智能建议，通过我们的 AI 驱动助手加速你的数据库设计工作流。
@@ -192,11 +201,11 @@ pricing:
   comparison:
     categories:
       dataModeling: 数据建模
+      documentation: 文档
       workingWithLargeDatabases: 处理大型数据库
       sharingCollaboration: 分享与协作
       apiIntegrations: API 与集成
       productSupport: 产品支持
-      securityCompliance: 安全与合规
       businessTerms: 商务条款与付款
     features:
       erDiagrams:
@@ -205,9 +214,9 @@ pricing:
       diagramViews:
         name: 图表视图
         description: 为同一图表创建多个视图，聚焦不同方面或受众
-      aiAssistant:
-        name: AI 助手
-        description: "使用提示生成和编辑图表；获取数据库设计的洞察和建议"
+      dataSample:
+        name: 数据样本
+        description: 通过示例行向读者展示真实数据，并生成 SQL INSERT 语句以填充查找表
       importSchema:
         name: 从数据库导入模式
         description: 逆向工程你的现有数据库，以可视化表、字段和关系
@@ -220,6 +229,19 @@ pricing:
       versionHistory:
         name: 版本历史
         description: 跟踪并恢复到图表的历史版本
+      aiAssistant:
+        name: AI 助手（测试版）
+        description: "使用提示生成和编辑图表；获取数据库设计的洞察和建议"
+      publishedDocs:
+        name: 已发布文档
+        description: 将模式发布到 dbdocs.io，作为团队可浏览查阅的参考资料
+      paidDocProjects:
+        name: 付费文档项目
+        description: 具备完整功能集的文档项目。免费项目在所有套餐中都可继续使用
+        tooltip: "任何文档项目都可以公开分享，也可以通过共享密码进行分享。付费项目还提供私有模式、仅限受邀人员访问、无限嵌入视图以及完整的模式变更日志。"
+      schemaChangelog:
+        name: 模式变更日志
+        description: 审计已发布模式随时间的变化，并比较任意两个版本
       tableGroup:
         name: 表组
         description: 通过分组在视觉上组织相关表
@@ -233,20 +255,20 @@ pricing:
         name: 便签
         description: 在图表中添加注释和评论
       embeddedDiagrams:
-        name: 嵌入图表
-        description: "将图表作为 iframe 嵌入到 Notion、Confluence 或你的网站等工具中"
+        name: 嵌入视图
+        description: 将图表或文档页面作为 iframe 嵌入到 Notion、Confluence 或你自己的网站等工具中
       publicDiagram:
-        name: 公开图表
-        description: 创建任何拥有链接的人都可以访问的图表
+        name: 公开链接分享
+        description: 与任何拥有链接的人分享图表或文档项目
       passwordProtectedDiagram:
-        name: 密码保护图表
-        description: 通过密码限制对图表的访问
+        name: 密码保护链接分享
+        description: 为分享的图表或文档链接设置密码
       privateDiagram:
-        name: 私有图表
-        description: 保持图表私有，仅你或受邀用户可访问
+        name: 私有模式
+        description: 使图表或文档项目仅对你和你邀请的人可访问
       inviteEditors:
         name: 邀请编辑者和查看者
-        description: 邀请同事协作编辑你的图表
+        description: 邀请同事协作编辑你的图表和文档
       collaborativeWorkspace:
         name: 协作工作区
         description: 供团队成员协同工作的共享工作区
@@ -256,6 +278,9 @@ pricing:
       unifiedAdmin:
         name: 统一管理和计费
         description: 单一仪表板管理团队成员和计费
+      cli:
+        name: CLI
+        description: 将 .dbml 文件保存在版本控制中；通过 push 和 pull 同步图表、发布文档，并从 CI/CD 中自动化这两项操作
       publicApi:
         name: Public API
         description: 构建自定义集成，将你的 dbdiagram 工作区连接到内部工具和工作流
@@ -265,45 +290,21 @@ pricing:
       standardSupport:
         name: 标准支持
         description: 标准响应时间的邮件支持
-      prioritizedFeature:
-        name: 优先功能请求
-        description: 你的特定功能请求将获得加速开发和明确的交付时间表
-      procurementLegal:
-        name: 采购或法律审查
-        description: 供应商风险评估支持和采购流程协助
-      samlSso:
-        name: SAML Single Sign-on (SSO)
-        description: 与你的身份提供商进行安全登录集成
-      userActivityLog:
-        name: 用户活动日志
-        description: 跟踪和审查用户操作，用于安全和合规。
-      ipAllowLists:
-        name: IP Allow Lists
-        description: 通过 IP 地址限制对工作区的访问
-      customSla:
-        name: 自定义服务等级协议 (SLA)
-        description: "定制化 SLA，保证正常运行时间、响应时间和服务承诺"
       creditCardPayment:
         name: 信用卡支付
         description: 通过安全处理使用信用卡或借记卡支付
       bankTransfer:
         name: 银行转账
         description: 适用于大额交易的直接银行转账
-      customLegalTerms:
-        name: 自定义法律条款
-        description: "NDA 签署、自定义合同和灵活的法律协议"
-      customPaymentTerms:
-        name: 自定义付款条款
-        description: 灵活的付款计划（NET 30、自定义发票）
     # Cell values that are translatable strings
     values:
       unlimited: 无限
       unlimitedUsage: 无限使用
       cappedUsage: 有上限使用
-      inRoadmap: 规划中
       viewOnly: 仅查看
       upToFourFreeEditors: 最多 4 个免费编辑者
       minThreeThousand: "最低 $3,000"
+      fourteenDayHistory: 14 天历史记录
 
   # ========================================
   # FAQ Section
@@ -315,8 +316,8 @@ pricing:
       answerHtml: "你可以在主页 > 计费中管理工作区的订阅。你可以在右上角的账户下拉菜单中找到工作区的\"主页\"快捷方式。"
     - question: 你们会存储我的信用卡信息吗？
       answerHtml: "不会，我们不直接处理你的信用卡信息。我们使用 Stripe 来处理你的付款。"
-    - question: 如果我取消 Personal Pro 或 Team 方案会怎样？
-      answerHtml: 取消 Personal Pro 方案后，你的账户将在当前期限结束时恢复为 Free 方案。
+    - question: 如果我取消订阅会怎样？
+      answerHtml: 取消订阅后，你的工作区将恢复为 Free 方案。私有项目将转为公开项目，工作区成员将无法访问该工作区。
     - question: 我的方案会自动续费吗？
       answerHtml: 付费订阅会自动续费，除非你在订阅期结束前取消方案。
     - question: 一个方案是否同时包含 dbdiagram 和 dbdocs 功能？

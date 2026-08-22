@@ -35,7 +35,7 @@ account:
       cancelSuccess: Yêu cầu xóa đã được hủy thành công!
       status:
         inProgressTitle: Tài khoản của bạn đang được xóa.
-        inProgressDescription: Quá trình này có thể mất vài phút. Bạn có thể đóng cửa sổ này — quá trình sẽ tiếp tục ở nền.
+        inProgressDescription: Quá trình này có thể mất vài phút. Bạn có thể đóng cửa sổ này—quá trình sẽ tiếp tục ở nền.
         completedTitle: Tài khoản của bạn đã được xóa thành công.
         completedDescription: "Bạn có thể đóng cửa sổ này. Lưu ý: Bạn sẽ không bị đăng xuất tự động. Vui lòng đăng xuất thủ công từ các thiết bị khác."
         failedTitle: Xóa tài khoản thất bại.

@@ -38,7 +38,7 @@ account:
       cancelSuccess: Silme isteği başarıyla iptal edildi! # Success toast after canceling
       status:
         inProgressTitle: Hesabınızın kaldırılması devam ediyor.
-        inProgressDescription: Bu birkaç dakika sürebilir. Bu pencereyi güvenle kapatabilirsiniz — işlem arka planda devam edecektir.
+        inProgressDescription: Bu birkaç dakika sürebilir. Bu pencereyi güvenle kapatabilirsiniz—işlem arka planda devam edecektir.
         completedTitle: Hesabınız başarıyla kaldırıldı.
         completedDescription: "Bu pencereyi güvenle kapatabilirsiniz. Not: Otomatik olarak çıkış yapılmayacaktır. Lütfen diğer cihazlardan manuel olarak çıkış yapın."
         failedTitle: Hesap kaldırma başarısız oldu.

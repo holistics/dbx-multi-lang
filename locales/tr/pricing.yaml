@@ -10,6 +10,15 @@ pricing:
     title: Çalışma alanınızı yükseltin # Page title
     subtitle: Tüm ücretli planlar dbdiagram ve dbdocs'u birlikte içerir. # Subtitle
 
+  modal:
+    subtitle: Her zaman ücretsiz. Fiyatlandırma planlarımızla daha fazla güç elde edin.
+    alwaysFree:
+      label: Her zaman ücretsiz
+      text: "Her plan ayrıca şunları içerir:"
+      dbmlCaption: Açık şema spesifikasyonu
+      runsqlCaption: Tarayıcı tabanlı SQL alanı
+    provisioningTitle: "Çalışma alanınız hazırlanıyor…"
+
   # ========================================
   # Misc UI labels
   # ========================================
@@ -104,7 +113,7 @@ pricing:
     label: "Eklentiler:" # Add-ons section label
     extraDocProject: Ek ücretli doküman projesi # Doc project addon name
     extraUser: Ek kullanıcı # User addon name
-    extraUserTooltip: "Kullanıcı lisansı düzenleyiciler içindir - diyagram ve doküman oluşturan ve değiştiren kişiler. Görüntüleyiciler her zaman ücretsizdir ve lisansa ihtiyaç duymazlar." # User addon tooltip
+    extraUserTooltip: "Kullanıcı lisansı düzenleyiciler içindir — diyagram ve doküman oluşturan ve değiştiren kişiler. Görüntüleyiciler her zaman ücretsizdir ve lisansa ihtiyaç duymazlar." # User addon tooltip
 
   # ========================================
   # Plan Card - Features lists
@@ -143,20 +152,20 @@ pricing:
         title: Diyagram Görünümleri ile küçük başlayın
         description: "Büyük düşünün, küçük başlayın. Aynı diyagramın birden fazla, odaklanmış görünümünü oluşturun. Bir alan, iş akışı veya ekip görüşmesi için ihtiyacınız olan tabloları gösterin."
       passwordProtection:
-        title: Parola Koruması ve Gizli Mod
-        description: Diyagramlarınıza ve veritabanı belgelerinize erişimi parola koruması veya gizli mod ile kısıtlayın. Ekip içi paylaşım için idealdir.
+        title: Parola Koruması ile diyagramınızı güvenceye alın
+        description: Diyagramlarınızı Parola Koruması ile koruyun ve gizliliği artırın. Ekip içi paylaşım için idealdir.
       tableGroups:
-        title: Tablo Grupları ile daha iyi düzenleyin
+        title: Tablo Grubu ile daha iyi düzenleyin
         description: Daha kolay görselleştirme için birden fazla tabloyu bir arada gruplayın. Çok sayıda tablo içeren bir veritabanıyla çalışırken iş yükünüzü azaltın.
       headerColors:
-        title: Tablo Başlık Renkleri
+        title: Başlık Rengi ile diyagramlarınızı yönetin
         description: Tablo başlık renklerini değiştirerek diyagramlarınızı ve veritabanı belgelerinizi kolayca yönetin ve daha renkli hale getirin!
       detailLevels:
-        title: Diyagram Detay Seviyeleri
-        description: "İhtiyaçlarınıza göre tüm sütunları gösterme, yalnızca anahtar (PK, FK) sütunlarını gösterme veya tüm sütunları gizleme arasında geçiş yapın."
+        title: Detay Seviyeleri ile diyagramlarınızı basitleştirin
+        description: "Diyagramlarınızı basitleştirmek için farklı detay seviyeleri arasında geçiş yapın. Bu özellik, büyük veritabanı tasarımlarıyla çalışırken özellikle kullanışlıdır."
       stickyNotes:
         title: Yapışkan Notlar ile daha iyi işbirliği yapın
-        description: "Hızlı bir hatırlatma yazmaya veya karmaşık bir fikri açıklamaya mı ihtiyacınız var? Notları doğrudan diyagramlarınıza ve dokümanlarınıza, tam ihtiyaç duyduğunuz yere ekleyebilirsiniz."
+        description: "Hızlı bir hatırlatma yazmaya veya karmaşık bir fikri açıklamaya mı ihtiyacınız var? Notları doğrudan diyagramlarınıza, tam ihtiyaç duyduğunuz yere ekleyebilirsiniz."
       aiAssistant:
         title: AI Asistan ile iş akışınızı hızlandırın
         description: Akıllı öneriler alın ve yapay zeka destekli asistanımızla veritabanı tasarım iş akışınızı hızlandırın.
@@ -174,7 +183,7 @@ pricing:
         description: "Veritabanı belgelerinizi Notion, Confluence, Miro gibi platformlara veya kendi web sitenize gömebilirsiniz. Veritabanı belgelerinizi zaten sevdiğiniz araçta görün."
       shareWithInvitedUsers:
         title: Davet edilen kullanıcılarla paylaş
-        description: "Projenizdeki meslektaşlarınızı doğrudan davet edin ve yönetin\u2014ekip içi paylaşım için idealdir."
+        description: "Projenizdeki meslektaşlarınızı doğrudan davet edin ve yönetin—ekip içi paylaşım için idealdir."
     team:
       collaborativeWorkspace:
         title: İşbirlikçi Çalışma Alanı
@@ -192,11 +201,11 @@ pricing:
   comparison:
     categories:
       dataModeling: Veri Modelleme
+      documentation: Dokümantasyon
       workingWithLargeDatabases: Büyük veritabanlarıyla çalışma
       sharingCollaboration: Paylaşım ve İşbirliği
       apiIntegrations: API ve Entegrasyonlar
       productSupport: Ürün Desteği
-      securityCompliance: Güvenlik ve Uyumluluk
       businessTerms: İş Koşulları ve Ödeme
     features:
       erDiagrams:
@@ -205,9 +214,9 @@ pricing:
       diagramViews:
         name: Diyagram Görünümleri
         description: Farklı yönlere veya kitlelere odaklanmak için aynı diyagramın birden fazla görünümünü oluşturun
-      aiAssistant:
-        name: AI Asistan
-        description: "Komutlarla diyagram oluşturun ve düzenleyin; veritabanı tasarımlarınız için içgörüler ve öneriler alın"
+      dataSample:
+        name: Veri Örneği
+        description: Okuyuculara örnek satırlarla gerçek verileri gösterin ve arama tablolarını doldurmak için SQL INSERT ifadeleri oluşturun
       importSchema:
         name: Veritabanından Şema İçe Aktar
         description: Tabloları, alanları ve ilişkileri görselleştirmek için mevcut veritabanınızı tersine mühendislikle çözümleyin
@@ -220,6 +229,19 @@ pricing:
       versionHistory:
         name: Sürüm Geçmişi
         description: Diyagramlarınızın önceki sürümlerini takip edin ve geri yükleyin
+      aiAssistant:
+        name: AI Asistan (Beta)
+        description: "Komutlarla diyagram oluşturun ve düzenleyin; veritabanı tasarımlarınız için içgörüler ve öneriler alın"
+      publishedDocs:
+        name: Yayınlanmış Dokümantasyon
+        description: Ekibinizin okuyabileceği taranabilir bir referans olarak bir şemayı dbdocs.io'da yayınlayın
+      paidDocProjects:
+        name: Ücretli Doküman Projeleri
+        description: Tam özellik setine sahip doküman projeleri. Ücretsiz projeler her planda kullanılabilir olmaya devam eder
+        tooltip: "Herhangi bir doküman projesi herkese açık olarak veya paylaşılan bir parola arkasında paylaşılabilir. Ücretli bir proje; gizli mod, yalnızca davet edilen kişilere erişim, sınırsız gömülü görünüm ve tam şema değişiklik günlüğü ekler."
+      schemaChangelog:
+        name: Şema Değişiklik Günlüğü
+        description: Yayınlanan bir şemanın zaman içinde nasıl değiştiğini denetleyin ve herhangi iki sürümü karşılaştırın
       tableGroup:
         name: Tablo Grubu
         description: İlişkili tabloları görsel olarak gruplamalarla düzenleyin
@@ -233,20 +255,20 @@ pricing:
         name: Yapışkan Notlar
         description: Diyagramlarınıza açıklamalar ve yorumlar ekleyin
       embeddedDiagrams:
-        name: Gömülü Diyagramlar
-        description: "Diyagramlarınızı Notion, Confluence gibi araçlara veya web sitenize iframe olarak gömün"
+        name: Gömülü Görünümler
+        description: Bir diyagramı veya doküman sayfasını Notion, Confluence gibi araçlara ya da kendi sitenize iframe olarak gömün
       publicDiagram:
-        name: Herkese Açık Diyagram
-        description: Bağlantıya sahip herkesin erişebileceği diyagramlar oluşturun
+        name: Herkese Açık Bağlantı Paylaşımı
+        description: Bir diyagramı veya doküman projesini bağlantıya sahip herkesle paylaşın
       passwordProtectedDiagram:
-        name: Parola Korumalı Diyagram
-        description: Diyagramlarınıza erişimi parola ile kısıtlayın
+        name: Parola Korumalı Bağlantı Paylaşımı
+        description: Paylaşılan bir diyagram veya doküman bağlantısına parola koyun
       privateDiagram:
-        name: Gizli Diyagram
-        description: Diyagramlarınızı gizli tutun ve yalnızca sizin veya davet edilen kullanıcıların erişimine açın
+        name: Gizli Mod
+        description: Bir diyagramı veya doküman projesini yalnızca sizin ve davet ettiğiniz kişilerin erişimine açık tutun
       inviteEditors:
         name: Düzenleyici ve Görüntüleyici Davet Et
-        description: Meslektaşlarınızı diyagramlarınız üzerinde işbirliği yapmaya davet edin
+        description: Meslektaşlarınızı diyagramlarınız ve dokümanlarınız üzerinde işbirliği yapmaya davet edin
       collaborativeWorkspace:
         name: İşbirlikçi Çalışma Alanı
         description: Ekip üyelerinin birlikte çalışması için paylaşımlı çalışma alanı
@@ -256,6 +278,9 @@ pricing:
       unifiedAdmin:
         name: Birleşik Yönetim ve Faturalandırma
         description: Ekip üyelerini ve faturalandırmayı yönetmek için tek panel
+      cli:
+        name: CLI
+        description: .dbml dosyalarınızı sürüm kontrolünde tutun; diyagramları senkronize etmek, dokümanları yayınlamak ve ikisini de CI/CD'den otomatikleştirmek için push/pull yapın
       publicApi:
         name: Public API
         description: dbdiagram çalışma alanlarınızı dahili araçlara ve iş akışlarına bağlamak için özel entegrasyonlar oluşturun
@@ -265,45 +290,21 @@ pricing:
       standardSupport:
         name: Standart Destek
         description: Standart yanıt süreleri ile e-posta desteği
-      prioritizedFeature:
-        name: Öncelikli özellik talebi
-        description: Belirli özellik taleplerinizin somut teslimat zaman çizelgeleriyle hızlandırılmış geliştirmesini alın
-      procurementLegal:
-        name: Tedarik veya hukuki inceleme
-        description: Tedarikçi risk değerlendirme desteği ve tedarik süreçlerinde yardım
-      samlSso:
-        name: SAML Single Sign-on (SSO)
-        description: Kimlik sağlayıcınızla güvenli oturum açma entegrasyonu
-      userActivityLog:
-        name: Kullanıcı Etkinlik Günlüğü
-        description: Güvenlik ve uyumluluk için kullanıcı işlemlerini takip edin ve inceleyin.
-      ipAllowLists:
-        name: IP Allow Lists
-        description: Çalışma alanınıza erişimi IP adresine göre kısıtlayın
-      customSla:
-        name: Özel Hizmet Seviyesi Anlaşması (SLA)
-        description: "Garantili çalışma süresi, yanıt süreleri ve hizmet taahhütleri içeren özelleştirilmiş SLA'lar"
       creditCardPayment:
         name: Kredi Kartı Ödemesi
         description: Güvenli işleme ile kredi veya banka kartıyla ödeme yapın
       bankTransfer:
         name: Banka Havalesi
         description: Büyük işlemler için doğrudan banka havalesi
-      customLegalTerms:
-        name: Özel yasal koşullar
-        description: "NDA yürütme, özel sözleşmeler ve esnek yasal anlaşmalar"
-      customPaymentTerms:
-        name: Özel ödeme koşulları
-        description: Esnek ödeme planları (NET 30, özel faturalama)
     # Cell values that are translatable strings
     values:
       unlimited: Sınırsız
       unlimitedUsage: Sınırsız Kullanım
       cappedUsage: Sınırlı Kullanım
-      inRoadmap: Yol Haritasında
       viewOnly: Yalnızca görüntüleme
       upToFourFreeEditors: 4 ücretsiz düzenleyiciye kadar
       minThreeThousand: "Min. $3.000"
+      fourteenDayHistory: 14 günlük geçmiş
 
   # ========================================
   # FAQ Section
@@ -315,8 +316,8 @@ pricing:
       answerHtml: "Çalışma alanınızın aboneliğini Ana Sayfa > Faturalandırma bölümünden yönetebilirsiniz. Çalışma alanınızın \"Ana Sayfa\" kısayolunu sağ üst köşedeki hesap açılır menüsünde bulabilirsiniz."
     - question: Kredi kartı bilgilerimi saklıyor musunuz?
       answerHtml: "Hayır, kredi kartı bilgilerinizi doğrudan işlemiyoruz. Ödemenizi işlemek için Stripe kullanıyoruz."
-    - question: Personal Pro veya Team planımı iptal edersem ne olur?
-      answerHtml: Personal Pro planı iptal ettikten sonra hesabınız dönem sonunda Free plana geri döndürülür.
+    - question: Aboneliğimi iptal edersem ne olur?
+      answerHtml: Aboneliğinizi iptal ettiğinizde, çalışma alanınız Free plana döndürülür. Özel projeler herkese açık projelere dönüştürülür ve çalışma alanı üyeleri çalışma alanına erişemez hale gelir.
     - question: Planım otomatik olarak yenilenir mi?
       answerHtml: Ücretli abonelik, abonelik döneminin bitiminden önce planınızı iptal etmediğiniz sürece otomatik olarak yenilenir.
     - question: Tek bir planda hem dbdiagram hem dbdocs özelliklerini alıyor muyum?

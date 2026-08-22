@@ -10,6 +10,15 @@ pricing:
     title: ワークスペースをアップグレード # Page title
     subtitle: すべての有料プランに dbdiagram と dbdocs が含まれています。 # Subtitle
 
+  modal:
+    subtitle: 常に無料。料金プランでさらに強力な機能を。
+    alwaysFree:
+      label: 常に無料
+      text: "すべてのプランに以下も含まれます："
+      dbmlCaption: オープンなスキーマ仕様
+      runsqlCaption: ブラウザベースの SQL プレイグラウンド
+    provisioningTitle: "ワークスペースを準備しています…"
+
   # ========================================
   # Misc UI labels
   # ========================================
@@ -104,7 +113,7 @@ pricing:
     label: "アドオン:" # Add-ons section label
     extraDocProject: 追加の有料ドキュメントプロジェクト # Doc project addon name
     extraUser: 追加ユーザー # User addon name
-    extraUserTooltip: "ユーザーライセンスは編集者（ダイアグラムやドキュメントを作成・変更する人）向けです。閲覧者は常に無料で、ライセンスは不要です。" # User addon tooltip
+    extraUserTooltip: "ユーザーライセンスは編集者——ダイアグラムやドキュメントを作成・変更する人——向けです。閲覧者は常に無料で、ライセンスは不要です。" # User addon tooltip
 
   # ========================================
   # Plan Card - Features lists
@@ -143,20 +152,20 @@ pricing:
         title: ダイアグラムビューで小さく始める
         description: "大きく考え、小さく始めましょう。同じダイアグラムの複数のフォーカスされたビューを作成できます。ドメイン、ワークフロー、チームの議論に必要なテーブルだけを表示できます。"
       passwordProtection:
-        title: パスワード保護＆プライベートモード
-        description: パスワード保護またはプライベートモードで、ダイアグラムやデータベースドキュメントへのアクセスを制限できます。チーム内での共有に最適です。
+        title: パスワード保護でダイアグラムを保護
+        description: パスワード保護でダイアグラムを保護し、プライバシーを向上させましょう。チーム内での共有に最適です。
       tableGroups:
         title: テーブルグループでより良く整理
         description: 複数のテーブルをグループ化して、より見やすくできます。テーブルの多いデータベースでの作業負荷を軽減します。
       headerColors:
-        title: テーブルヘッダーカラー
+        title: ヘッダーカラーでダイアグラムを管理
         description: テーブルヘッダーの色を変更して、ダイアグラムやデータベースドキュメントをカラフルに管理しましょう！
       detailLevels:
-        title: ダイアグラム詳細レベル
-        description: "必要に応じて、すべてのカラムの表示、キー（PK、FK）カラムのみの表示、またはすべてのカラムの非表示を切り替えられます。"
+        title: 詳細レベルでダイアグラムをシンプルに
+        description: "さまざまな詳細レベルを切り替えて、ダイアグラムをシンプルにしましょう。大規模なデータベース設計を扱う際に特に便利な機能です。"
       stickyNotes:
         title: 付箋でより良いコラボレーション
-        description: "ちょっとしたメモや複雑なアイデアの補足が必要ですか？ダイアグラムやドキュメントに直接メモを追加できます。"
+        description: "ちょっとしたメモや複雑なアイデアの補足が必要ですか？ダイアグラムに直接メモを追加できます。"
       aiAssistant:
         title: AI アシスタントでワークフローを加速
         description: AI アシスタントによるインテリジェントな提案で、データベース設計のワークフローを高速化しましょう。
@@ -174,7 +183,7 @@ pricing:
         description: "Notion、Confluence、Miro、または独自のウェブサイトなどのプラットフォームにデータベースドキュメントを埋め込むことができます。お気に入りのツールでデータベースドキュメントをご覧いただけます。"
       shareWithInvitedUsers:
         title: 招待ユーザーと共有
-        description: "プロジェクト内で同僚を直接招待・管理できます\u2014チーム内での共有に最適です。"
+        description: "プロジェクト内で同僚を直接招待・管理できます—チーム内での共有に最適です。"
     team:
       collaborativeWorkspace:
         title: コラボレーティブワークスペース
@@ -192,11 +201,11 @@ pricing:
   comparison:
     categories:
       dataModeling: データモデリング
+      documentation: ドキュメント
       workingWithLargeDatabases: 大規模データベースでの作業
       sharingCollaboration: 共有＆コラボレーション
       apiIntegrations: API ＆インテグレーション
       productSupport: プロダクトサポート
-      securityCompliance: セキュリティ＆コンプライアンス
       businessTerms: ビジネス条件＆支払い
     features:
       erDiagrams:
@@ -205,9 +214,9 @@ pricing:
       diagramViews:
         name: ダイアグラムビュー
         description: 同じダイアグラムの複数のビューを作成し、異なる観点や対象者に焦点を当てます
-      aiAssistant:
-        name: AI アシスタント
-        description: "プロンプトを使用してダイアグラムを生成・編集し、データベース設計に関するインサイトと推奨事項を取得します"
+      dataSample:
+        name: データサンプル
+        description: サンプル行で実際のデータを読者に見せ、ルックアップテーブルに投入する SQL INSERT 文を生成します
       importSchema:
         name: データベースからスキーマをインポート
         description: 既存のデータベースをリバースエンジニアリングして、テーブル、フィールド、リレーションシップを可視化します
@@ -220,6 +229,19 @@ pricing:
       versionHistory:
         name: バージョン履歴
         description: ダイアグラムの以前のバージョンを追跡し、元に戻すことができます
+      aiAssistant:
+        name: AI アシスタント（ベータ）
+        description: "プロンプトを使用してダイアグラムを生成・編集し、データベース設計に関するインサイトと推奨事項を取得します"
+      publishedDocs:
+        name: 公開ドキュメント
+        description: チームが閲覧できる参照資料として、スキーマを dbdocs.io に公開します
+      paidDocProjects:
+        name: 有料ドキュメントプロジェクト
+        description: フル機能セットを備えたドキュメントプロジェクト。無料プロジェクトはすべてのプランで引き続き利用できます
+        tooltip: "どのドキュメントプロジェクトも公開、または共有パスワードでの保護が可能です。有料プロジェクトでは、プライベートモード、招待されたユーザーのみのアクセス、無制限の埋め込みビュー、フルスキーマ変更履歴が追加されます。"
+      schemaChangelog:
+        name: スキーマ変更履歴
+        description: 公開されたスキーマが時間の経過とともにどう変化したかを監査し、任意の2つのバージョンを比較します
       tableGroup:
         name: テーブルグループ
         description: 関連するテーブルをグループ化して視覚的に整理します
@@ -233,20 +255,20 @@ pricing:
         name: 付箋
         description: ダイアグラムに注釈やコメントを追加します
       embeddedDiagrams:
-        name: 埋め込みダイアグラム
-        description: "Notion、Confluence、またはお使いのウェブサイトなどのツールに iframe としてダイアグラムを埋め込みます"
+        name: 埋め込みビュー
+        description: ダイアグラムやドキュメントページを Notion、Confluence、または自社サイトなどのツールに iframe として埋め込みます
       publicDiagram:
-        name: 公開ダイアグラム
-        description: リンクを持つすべての人がアクセスできるダイアグラムを作成します
+        name: 公開リンク共有
+        description: リンクを持つ誰とでもダイアグラムやドキュメントプロジェクトを共有します
       passwordProtectedDiagram:
-        name: パスワード保護付きダイアグラム
-        description: パスワードでダイアグラムへのアクセスを制限します
+        name: パスワード保護付きリンク共有
+        description: 共有するダイアグラムやドキュメントのリンクにパスワードを設定します
       privateDiagram:
-        name: プライベートダイアグラム
-        description: ダイアグラムをプライベートにし、自分または招待されたユーザーのみがアクセスできるようにします
+        name: プライベートモード
+        description: ダイアグラムやドキュメントプロジェクトを、自分と招待した人だけがアクセスできるようにします
       inviteEditors:
         name: 編集者＆閲覧者を招待
-        description: 同僚を招待してダイアグラムを共同作業します
+        description: 同僚を招待してダイアグラムやドキュメントを共同作業します
       collaborativeWorkspace:
         name: コラボレーティブワークスペース
         description: チームメンバーが一緒に作業するための共有ワークスペース
@@ -256,6 +278,9 @@ pricing:
       unifiedAdmin:
         name: 統合された管理と請求
         description: チームメンバーと請求を管理する単一のダッシュボード
+      cli:
+        name: CLI
+        description: .dbml ファイルをバージョン管理下に置き、push/pull でダイアグラムを同期し、ドキュメントを公開し、CI/CD から両方を自動化します
       publicApi:
         name: Public API
         description: dbdiagram ワークスペースを社内ツールやワークフローに接続するカスタムインテグレーションを構築します
@@ -265,45 +290,21 @@ pricing:
       standardSupport:
         name: 標準サポート
         description: 標準的な応答時間でのメールサポート
-      prioritizedFeature:
-        name: 優先機能リクエスト
-        description: 具体的な提供スケジュールとともに、お客様の機能リクエストの開発を優先的に進めます
-      procurementLegal:
-        name: 調達または法務レビュー
-        description: ベンダーリスク評価のサポートおよび調達プロセスの支援
-      samlSso:
-        name: SAML Single Sign-on (SSO)
-        description: ID プロバイダーとのセキュアなログイン統合
-      userActivityLog:
-        name: ユーザーアクティビティログ
-        description: セキュリティとコンプライアンスのためにユーザー操作を追跡・確認します。
-      ipAllowLists:
-        name: IP Allow Lists
-        description: IP アドレスによるワークスペースへのアクセス制限
-      customSla:
-        name: カスタムサービスレベル契約 (SLA)
-        description: "稼働率、応答時間、サービスコミットメントが保証されたカスタム SLA"
       creditCardPayment:
         name: クレジットカード払い
         description: セキュアな処理によるクレジットカードまたはデビットカードでのお支払い
       bankTransfer:
         name: 銀行振込
         description: 大口取引向けの銀行振込
-      customLegalTerms:
-        name: カスタム法務条件
-        description: "NDA の締結、カスタム契約、柔軟な法的合意"
-      customPaymentTerms:
-        name: カスタム支払い条件
-        description: 柔軟な支払いスケジュール（NET 30、カスタム請求書発行）
     # Cell values that are translatable strings
     values:
       unlimited: 無制限
       unlimitedUsage: 無制限利用
       cappedUsage: 制限付き利用
-      inRoadmap: ロードマップに掲載
       viewOnly: 閲覧のみ
       upToFourFreeEditors: 最大4人の無料編集者
       minThreeThousand: "最低 $3,000"
+      fourteenDayHistory: 14日間の履歴
 
   # ========================================
   # FAQ Section
@@ -315,8 +316,8 @@ pricing:
       answerHtml: "ワークスペースのサブスクリプションは「ホーム」>「請求」から管理できます。ワークスペースの「ホーム」ショートカットは、右上のアカウントドロップダウンメニューにあります。"
     - question: クレジットカード情報は保存されますか？
       answerHtml: "いいえ、お客様のクレジットカード情報を直接取り扱うことはありません。お支払いの処理には Stripe を使用しています。"
-    - question: Personal Pro プランや Team プランをキャンセルするとどうなりますか？
-      answerHtml: Personal Pro プランをキャンセルすると、契約期間の終了時にアカウントは Free プランに戻ります。
+    - question: サブスクリプションをキャンセルするとどうなりますか？
+      answerHtml: サブスクリプションをキャンセルすると、ワークスペースは Free プランに戻ります。非公開プロジェクトは公開プロジェクトに変換され、ワークスペースメンバーはワークスペースにアクセスできなくなります。
     - question: プランは自動更新されますか？
       answerHtml: 有料サブスクリプションは、契約期間の終了前にプランをキャンセルしない限り、自動的に更新されます。
     - question: ひとつのプランで dbdiagram と dbdocs の両方の機能を利用できますか？

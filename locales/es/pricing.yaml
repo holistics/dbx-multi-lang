@@ -10,6 +10,15 @@ pricing:
     title: Mejora tu espacio de trabajo # Page title
     subtitle: Cada plan de pago incluye dbdiagram y dbdocs juntos. # Subtitle
 
+  modal:
+    subtitle: Siempre gratis. Obtén más potencia con nuestros planes de precios.
+    alwaysFree:
+      label: Siempre gratis
+      text: "Todos los planes también incluyen:"
+      dbmlCaption: Especificación de esquema abierta
+      runsqlCaption: Playground de SQL basado en navegador
+    provisioningTitle: "Configurando tu espacio de trabajo…"
+
   # ========================================
   # Misc UI labels
   # ========================================
@@ -104,7 +113,7 @@ pricing:
     label: "Complementos:" # Add-ons section label
     extraDocProject: Proyecto de documentación de pago adicional # Doc project addon name
     extraUser: Usuario adicional # User addon name
-    extraUserTooltip: "Una licencia de usuario es para editores, las personas que crean y modifican diagramas y documentos. Los lectores siempre son gratuitos y nunca necesitan una licencia." # User addon tooltip
+    extraUserTooltip: "Una licencia de usuario es para editores — las personas que crean y modifican diagramas y documentos. Los lectores siempre son gratuitos y nunca necesitan una licencia." # User addon tooltip
 
   # ========================================
   # Plan Card - Features lists
@@ -143,20 +152,20 @@ pricing:
         title: Comienza con las vistas de diagrama
         description: "Piensa en grande, comienza en pequeño. Crea múltiples vistas enfocadas del mismo diagrama. Muestra las tablas que necesitas para un dominio, flujo de trabajo o conversación de equipo."
       passwordProtection:
-        title: Protección con contraseña y modo privado
-        description: Restringe el acceso a tus diagramas y documentos de base de datos con protección por contraseña o modo privado. Perfecto para compartir internamente en el equipo.
+        title: Protege tu diagrama con Protección por contraseña
+        description: Protege tus diagramas con Protección por contraseña y mejora la privacidad. Perfecto para compartir internamente en el equipo.
       tableGroups:
-        title: Organiza mejor con grupos de tablas
-        description: Agrupa varias tablas para facilitar la visualización. Reduce tu carga de trabajo al trabajar con bases de datos que tienen muchas tablas.
+        title: Mejor organización con Grupo de tablas
+        description: Agrupa varias tablas para facilitar la visualización. Reduce tu carga de trabajo al trabajar con una base de datos que tiene muchas tablas.
       headerColors:
-        title: Colores de encabezado de tablas
+        title: Gestiona tus diagramas con Color de encabezado
         description: Gestiona fácilmente tus diagramas y documentos de base de datos cambiando los colores de los encabezados de las tablas. ¡Hazlo más colorido!
       detailLevels:
-        title: Niveles de detalle del diagrama
-        description: "Alterna entre mostrar todas las columnas, mostrar solo las columnas clave (PK, FK) o incluso ocultar todas las columnas según tus necesidades."
+        title: Simplifica tus diagramas con Niveles de detalle
+        description: Alterna entre diferentes niveles de detalle para simplificar tus diagramas. Esta función es especialmente útil cuando trabajas con diseños de bases de datos grandes.
       stickyNotes:
         title: Colabora mejor con notas adhesivas
-        description: "¿Necesitas anotar un recordatorio rápido o desarrollar una idea compleja? Puedes agregar notas directamente a tus diagramas y documentos, justo donde las necesitas."
+        description: "¿Necesitas anotar un recordatorio rápido o desarrollar una idea compleja? Puedes agregar notas directamente a tus diagramas, justo donde las necesitas."
       aiAssistant:
         title: Acelera tu flujo de trabajo con el asistente de IA
         description: Obtén sugerencias inteligentes y acelera tu flujo de trabajo de diseño de bases de datos con nuestro asistente impulsado por IA.
@@ -192,11 +201,11 @@ pricing:
   comparison:
     categories:
       dataModeling: Modelado de datos
+      documentation: Documentación
       workingWithLargeDatabases: Trabajar con bases de datos grandes
       sharingCollaboration: Compartir y colaboración
       apiIntegrations: API e integraciones
       productSupport: Soporte del producto
-      securityCompliance: Seguridad y cumplimiento
       businessTerms: Términos comerciales y pago
     features:
       erDiagrams:
@@ -205,9 +214,9 @@ pricing:
       diagramViews:
         name: Vistas de diagrama
         description: Crea múltiples vistas del mismo diagrama para enfocarte en diferentes aspectos o audiencias
-      aiAssistant:
-        name: Asistente de IA
-        description: "Genera y edita diagramas usando indicaciones; obtén información y recomendaciones para tus diseños de base de datos"
+      dataSample:
+        name: Muestra de datos
+        description: Muestra a los lectores los datos reales con filas de ejemplo, y genera INSERTs de SQL para poblar tablas de referencia
       importSchema:
         name: Importar esquema desde base de datos
         description: Realiza ingeniería inversa de tu base de datos existente para visualizar tablas, campos y relaciones
@@ -220,6 +229,19 @@ pricing:
       versionHistory:
         name: Historial de versiones
         description: Rastrea y revierte a versiones anteriores de tus diagramas
+      aiAssistant:
+        name: Asistente de IA (Beta)
+        description: "Genera y edita diagramas usando indicaciones; obtén información y recomendaciones para tus diseños de base de datos"
+      publishedDocs:
+        name: Documentación publicada
+        description: Publica un esquema en dbdocs.io como referencia navegable para que tu equipo pueda consultarla
+      paidDocProjects:
+        name: Proyectos de documentación de pago
+        description: Proyectos de documentación con el conjunto completo de funciones. Los proyectos gratuitos siguen disponibles en todos los planes
+        tooltip: "Cualquier proyecto de documentación se puede compartir públicamente, o mediante una contraseña compartida. Un proyecto de pago añade modo privado, acceso solo para personas invitadas, vistas incrustadas ilimitadas y el historial completo de cambios del esquema."
+      schemaChangelog:
+        name: Historial de cambios del esquema
+        description: Audita cómo cambió un esquema publicado a lo largo del tiempo y compara dos versiones cualesquiera
       tableGroup:
         name: Grupo de tablas
         description: Organiza tablas relacionadas visualmente con agrupaciones
@@ -233,20 +255,20 @@ pricing:
         name: Notas adhesivas
         description: Agrega anotaciones y comentarios a tus diagramas
       embeddedDiagrams:
-        name: Diagramas incrustados
-        description: "Incrusta tus diagramas como iframes en herramientas como Notion, Confluence o tu sitio web"
+        name: Vistas incrustadas
+        description: Incrusta un diagrama o una página de documentación como iframe en herramientas como Notion, Confluence o tu propio sitio
       publicDiagram:
-        name: Diagrama público
-        description: Crea diagramas accesibles para cualquier persona con el enlace
+        name: Compartir por enlace público
+        description: Comparte un diagrama o proyecto de documentación con cualquiera que tenga el enlace
       passwordProtectedDiagram:
-        name: Diagrama protegido con contraseña
-        description: Restringe el acceso a tus diagramas con una contraseña
+        name: Compartir por enlace protegido con contraseña
+        description: Protege con contraseña un diagrama o enlace de documentación compartido
       privateDiagram:
-        name: Diagrama privado
-        description: Mantén tus diagramas privados y accesibles solo para ti o usuarios invitados
+        name: Modo privado
+        description: Mantén un diagrama o proyecto de documentación accesible solo para ti y las personas que invites
       inviteEditors:
         name: Invitar editores y lectores
-        description: Invita a colegas a colaborar en tus diagramas
+        description: Invita a colegas a colaborar en tus diagramas y documentación
       collaborativeWorkspace:
         name: Espacio de trabajo colaborativo
         description: Espacio de trabajo compartido para que los miembros del equipo trabajen juntos
@@ -256,6 +278,9 @@ pricing:
       unifiedAdmin:
         name: Administración y facturación unificadas
         description: Un solo panel para gestionar los miembros del equipo y la facturación
+      cli:
+        name: CLI
+        description: Mantén tus archivos .dbml en control de versiones; sincroniza diagramas, publica documentación y automatiza ambos desde CI/CD
       publicApi:
         name: API pública
         description: Crea integraciones personalizadas para conectar tus espacios de trabajo de dbdiagram con herramientas y flujos de trabajo internos
@@ -265,45 +290,21 @@ pricing:
       standardSupport:
         name: Soporte estándar
         description: Soporte por correo electrónico con tiempos de respuesta estándar
-      prioritizedFeature:
-        name: Solicitud de función prioritaria
-        description: Obtén desarrollo acelerado de tus solicitudes de funciones específicas con plazos de entrega concretos
-      procurementLegal:
-        name: Revisión de adquisición o legal
-        description: Soporte en evaluación de riesgos de proveedores y asistencia con procesos de adquisición
-      samlSso:
-        name: SAML Single Sign-on (SSO)
-        description: Integración de inicio de sesión seguro con tu proveedor de identidad
-      userActivityLog:
-        name: Registro de actividad de usuario
-        description: Rastrea y revisa las acciones de los usuarios para seguridad y cumplimiento.
-      ipAllowLists:
-        name: IP Allow Lists
-        description: Restringe el acceso a tu espacio de trabajo por dirección IP
-      customSla:
-        name: Acuerdo de nivel de servicio personalizado (SLA)
-        description: "SLAs personalizados con tiempo de actividad garantizado, tiempos de respuesta y compromisos de servicio"
       creditCardPayment:
         name: Pago con tarjeta de crédito
         description: Paga con tarjeta de crédito o débito a través de un procesamiento seguro
       bankTransfer:
         name: Transferencia bancaria
         description: Transferencia bancaria directa para transacciones de mayor monto
-      customLegalTerms:
-        name: Términos legales personalizados
-        description: "Ejecución de NDA, contratos personalizados y acuerdos legales flexibles"
-      customPaymentTerms:
-        name: Términos de pago personalizados
-        description: Cronogramas de pago flexibles (NET 30, facturación personalizada)
     # Cell values that are translatable strings
     values:
       unlimited: Ilimitado
       unlimitedUsage: Uso ilimitado
       cappedUsage: Uso limitado
-      inRoadmap: En la hoja de ruta
       viewOnly: Solo lectura
       upToFourFreeEditors: Hasta 4 editores gratuitos
       minThreeThousand: "Mín. $3,000"
+      fourteenDayHistory: Historial de 14 días
 
   # ========================================
   # FAQ Section
@@ -315,8 +316,8 @@ pricing:
       answerHtml: "Puedes gestionar la suscripción de tu espacio de trabajo en Inicio > Facturación. Puedes encontrar el acceso directo a \"Inicio\" de tu espacio de trabajo en el menú desplegable de cuenta en la esquina superior derecha."
     - question: ¿Almacenan mi información de tarjeta de crédito?
       answerHtml: "No, no manejamos tu información de tarjeta de crédito directamente. Usamos Stripe para procesar tu pago."
-    - question: ¿Qué sucede si cancelo mi plan Personal Pro o Team?
-      answerHtml: Después de cancelar el plan Personal Pro, tu cuenta volverá al plan Free al final del período.
+    - question: ¿Qué sucede si cancelo mi suscripción?
+      answerHtml: Al cancelar tu suscripción, tu espacio de trabajo volverá al plan Free. Los proyectos privados se convertirán en proyectos públicos y los miembros del espacio de trabajo no podrán acceder a él.
     - question: ¿Mi plan se renovará automáticamente?
       answerHtml: La suscripción de pago se renueva automáticamente a menos que canceles tu plan antes del final del período de suscripción.
     - question: ¿Obtengo las funciones de dbdiagram y dbdocs en un solo plan?

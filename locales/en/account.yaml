@@ -41,7 +41,7 @@ account:
       cancelSuccess: Removal request was canceled successfully! # Success toast after canceling
       status:
         inProgressTitle: Your account removal is in progress.
-        inProgressDescription: This may take a few moments. You can safely close this window — the process will continue in the background.
+        inProgressDescription: This may take a few moments. You can safely close this window—the process will continue in the background.
         completedTitle: Your account has been successfully removed.
         completedDescription: "You can safely close this window. Note: You won't be logged out automatically. Please log out from other devices manually."
         failedTitle: Account removal failed.
