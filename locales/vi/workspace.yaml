@@ -63,12 +63,10 @@ workspace:
   createModal:
     title: Tạo không gian làm việc
     settingUpTitle: Đang thiết lập không gian làm việc của bạn
-    subtitle: Không gian làm việc mới bắt đầu với gói miễn phí. Bạn có thể nâng cấp lên Pro hoặc Team bất cứ lúc nào.
     nameLabel: Tên không gian làm việc
     namePlaceholder: "ví dụ: Acme Team"
     cancel: Hủy
     create: Tạo
-    provisioning: "Đang tạo trên dbdiagram và dbdocs..."
     partiallyFailed: "Không gian làm việc \"{name}\" đã sẵn sàng, nhưng một phần thiết lập chưa hoàn tất."
     partiallyFailedHint: Bạn có thể bắt đầu sử dụng ngay và hoàn tất thiết lập sau từ trang quản lý không gian làm việc.
     openWorkspace: Mở không gian làm việc

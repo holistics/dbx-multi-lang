@@ -72,12 +72,10 @@ workspace:
   createModal:
     title: Ish maydoni yaratish # Modal title (form state)
     settingUpTitle: Ish maydoningiz sozlanmoqda # Modal title (provisioning state)
-    subtitle: Yangi ish maydoningiz bepul rejada boshlanadi. Istalgan vaqtda Pro yoki Team ga yangilashingiz mumkin. # Subtitle
     nameLabel: Ish maydoni nomi # Input label
     namePlaceholder: "masalan, Acme Team" # Input placeholder
     cancel: Bekor qilish # Cancel button
     create: Yaratish # Create button
-    provisioning: "dbdiagram va dbdocs bo'ylab yaratilmoqda..." # Provisioning spinner text
     partiallyFailed: "\"{name}\" ish maydoni tayyor, lekin sozlashning bir qismi tugallanmadi." # Partial failure message
     partiallyFailedHint: Hozir foydalanishni boshlashingiz va sozlashni keyinroq ish maydonini boshqarish sahifasidan tugatishingiz mumkin. # Partial failure hint
     openWorkspace: Ish maydonini ochish # Open workspace button

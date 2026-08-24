@@ -68,12 +68,10 @@ workspace:
   createModal:
     title: 创建工作区
     settingUpTitle: 正在设置你的工作区
-    subtitle: 你的新工作区从免费方案开始。你可以随时升级到 Pro 或 Team。
     nameLabel: 工作区名称
     namePlaceholder: "例如 Acme Team"
     cancel: 取消
     create: 创建
-    provisioning: "正在 dbdiagram 和 dbdocs 中创建..."
     partiallyFailed: "工作区\"{name}\"已就绪，但部分设置未完成。"
     partiallyFailedHint: 你可以现在开始使用，稍后从工作区管理页面完成设置。
     openWorkspace: 打开工作区

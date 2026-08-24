@@ -72,12 +72,10 @@ workspace:
   createModal:
     title: Criar um espaço de trabalho
     settingUpTitle: Configurando seu espaço de trabalho
-    subtitle: Seu novo espaço de trabalho começa no plano gratuito. Você pode fazer upgrade para Pro ou Team a qualquer momento.
     nameLabel: Nome do espaço de trabalho
     namePlaceholder: "ex. Equipe Acme"
     cancel: Cancelar
     create: Criar
-    provisioning: "Criando no dbdiagram e dbdocs..."
     partiallyFailed: "O espaço de trabalho \"{name}\" está pronto, mas parte da configuração não foi concluída."
     partiallyFailedHint: Você pode começar a usá-lo agora e finalizar a configuração depois pela página de gerenciamento do espaço de trabalho.
     openWorkspace: Abrir espaço de trabalho

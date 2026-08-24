@@ -72,12 +72,10 @@ workspace:
   createModal:
     title: Çalışma alanı oluştur
     settingUpTitle: Çalışma alanınız kuruluyor
-    subtitle: Yeni çalışma alanınız ücretsiz planda başlar. İstediğiniz zaman Pro veya Team'e yükseltebilirsiniz.
     nameLabel: Çalışma alanı adı
     namePlaceholder: "ör. Acme Takımı"
     cancel: İptal
     create: Oluştur
-    provisioning: "dbdiagram ve dbdocs genelinde oluşturuluyor..."
     partiallyFailed: "\"{name}\" çalışma alanı hazır, ancak kurulumun bir kısmı tamamlanamadı."
     partiallyFailedHint: Şimdi kullanmaya başlayabilir ve kurulumu daha sonra çalışma alanı yönetim sayfasından tamamlayabilirsiniz.
     openWorkspace: Çalışma alanını aç
