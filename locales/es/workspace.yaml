@@ -173,6 +173,17 @@ workspace:
     disabled: "(deshabilitado)" # Disabled plan label
 
   # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: Este es un espacio de trabajo heredado # Modal title
+    description: Este espacio de trabajo tiene uno de nuestros planes heredados, que no se puede actualizar a los nuevos planes de precios. # Modal description
+    contactPrefix: Por favor, contacta a # Text before the support email link
+    contactSuffix: y te ayudaremos a migrar. # Text after the support email link
+    gotIt: Entendido # Dismiss button
+
+  # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
@@ -216,3 +227,31 @@ workspace:
       nameWhitespace: El nombre del token no puede estar vacío ni contener solo espacios en blanco # Validation error
       upgradeRequired: Por favor, mejora tu plan para crear tokens y acceder a nuestra API # Upgrade required error
       ownerOnly: Solo el propietario del espacio de trabajo puede generar nuevos tokens # Permission error
+
+  # ========================================
+  # Settings Tab - Portal workspace Settings page (rename + url-name + delete)
+  # ========================================
+  settingsTab:
+    generalTitle: General # "General" section heading
+    displayNameLabel: Nombre para mostrar # Display name field label
+    displayNamePlaceholder: Mi espacio de trabajo # Display name input placeholder
+    urlNameLabel: Nombre de URL del espacio de trabajo # URL name field label
+    urlNameTooltip: Cambiar el nombre del espacio de trabajo hará que todos tus enlaces compartidos anteriores queden obsoletos # Info tooltip next to the URL name label
+    urlNamePlaceholder: mi-espacio-de-trabajo # URL name input placeholder
+    checkingUrlName: Verificando si este nombre está disponible… # Live availability check message
+    workspacePreviewPrefix: 'Espacio de trabajo:' # Label before the Portal URL preview
+    dbdocsPreviewPrefix: 'dbdocs:' # Label before the dbdocs URL preview
+    saving: Guardando… # Submit button label while saving
+    updateProfile: Actualizar perfil # Submit button label
+    manageWorkspaceTitle: Administrar espacio de trabajo # "Manage workspace" (danger zone) section heading
+    deleteWorkspaceButton: Eliminar este espacio de trabajo # Delete button label
+    deleteWarning: Esta acción no se puede deshacer. Esto eliminará permanentemente todos tus datos en dbdiagram y dbdocs. # Warning text next to the delete button
+    urlNameInvalid: El nombre de URL debe contener solo letras minúsculas, números y guiones (sin guion al inicio/final). # Validation error
+    urlNameTaken: Este nombre no está disponible. # Validation error
+    checkUrlNameFailed: No se pudo verificar el nombre de URL. Inténtalo de nuevo. # Error toast
+    settingsSaved: Configuración del espacio de trabajo guardada. Sincronizando con dbdiagram y dbdocs… # Success toast
+    settingsSaveFailed: Error al actualizar la configuración del espacio de trabajo. # Error toast
+    deleteModalTitle: "¿Eliminar este espacio de trabajo?" # Delete confirmation modal title
+    deleteModalContent: "¿Eliminar este espacio de trabajo y todos sus datos? Esta acción no se puede deshacer. Te enviaremos un código de confirmación por correo electrónico." # Delete confirmation modal content
+    deleteModalConfirmLabel: Eliminar espacio de trabajo # Delete confirmation modal confirm button
+    deletionStarted: Se inició la eliminación del espacio de trabajo. # Success toast after confirming deletion

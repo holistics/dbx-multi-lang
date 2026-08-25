@@ -287,3 +287,18 @@ common:
     editor: Editör
     viewer: Görüntüleyici
     remove: Çıkar
+
+  # ========================================
+  # Confirm Removal Modal - Generic two-step (confirm, then OTP) destructive-action modal
+  # ========================================
+  confirmRemovalModal:
+    close: Kapat # Close button aria-label
+    otpTitle: OTP kodunuzu girin # Header title shown once on the OTP step
+    otpLabel: E-postaya gönderilen OTP kodunu girin # Body text on the OTP step
+    resendPrefix: OTP kodunu almadınız mı? # Text before the resend button
+    resend: OTP'yi yeniden gönder # Resend button label
+    resendWithCooldown: "{label} ({seconds}s)" # Resend button label while on cooldown
+    errors:
+      requestFailed: Onay kodu gönderilemedi. Lütfen tekrar deneyin. # Error when sending the initial code fails
+      resendFailed: Onay kodu yeniden gönderilemedi. Lütfen tekrar deneyin. # Error when resending the code fails
+      invalidCode: Kod geçersiz, lütfen tekrar deneyin. # Error when the submitted code is rejected

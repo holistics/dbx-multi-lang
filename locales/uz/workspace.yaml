@@ -173,6 +173,17 @@ workspace:
     disabled: "(o'chirilgan)" # Disabled plan label
 
   # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: Bu eskirgan ish maydoni # Modal title
+    description: Ushbu ish maydoni yangi narx rejalariga o'tkazib bo'lmaydigan eski rejalardan birida joylashgan. # Modal description
+    contactPrefix: Iltimos, bog'laning # Text before the support email link
+    contactSuffix: va biz sizga o'tishga yordam beramiz. # Text after the support email link
+    gotIt: Tushunarli # Dismiss button
+
+  # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
@@ -216,3 +227,31 @@ workspace:
       nameWhitespace: Token nomi bo'sh bo'lishi yoki faqat probellardan iborat bo'lishi mumkin emas # Validation error
       upgradeRequired: Token yaratish va API-ga ulanish uchun rejangizni yangilang # Upgrade required error
       ownerOnly: Faqat ish maydoni egasi yangi tokenlar yarata oladi # Permission error
+
+  # ========================================
+  # Settings Tab - Portal workspace Settings page (rename + url-name + delete)
+  # ========================================
+  settingsTab:
+    generalTitle: Umumiy # "General" section heading
+    displayNameLabel: Ko'rinadigan nom # Display name field label
+    displayNamePlaceholder: Mening ish maydonim # Display name input placeholder
+    urlNameLabel: Ish maydoni URL nomi # URL name field label
+    urlNameTooltip: Ish maydoni nomini o'zgartirish barcha oldingi ulashilgan havolalarni eskirgan qiladi # Info tooltip next to the URL name label
+    urlNamePlaceholder: my-workspace-url # URL name input placeholder
+    checkingUrlName: Ushbu nom mavjudligi tekshirilmoqda… # Live availability check message
+    workspacePreviewPrefix: 'Ish maydoni:' # Label before the Portal URL preview
+    dbdocsPreviewPrefix: 'dbdocs:' # Label before the dbdocs URL preview
+    saving: Saqlanmoqda… # Submit button label while saving
+    updateProfile: Profilni yangilash # Submit button label
+    manageWorkspaceTitle: Ish maydonini boshqarish # "Manage workspace" (danger zone) section heading
+    deleteWorkspaceButton: Ushbu ish maydonini o'chirish # Delete button label
+    deleteWarning: Bu amalni bekor qilib bo'lmaydi. Bu dbdiagram va dbdocs'dagi barcha ma'lumotlaringizni butunlay o'chirib tashlaydi! # Warning text next to the delete button
+    urlNameInvalid: URL nomi faqat kichik harflar, raqamlar va chiziqchalardan iborat bo'lishi kerak (boshida/oxirida chiziqcha bo'lmasligi kerak). # Validation error
+    urlNameTaken: Bu nom mavjud emas. # Validation error
+    checkUrlNameFailed: URL nomini tekshirib bo'lmadi. Qaytadan urinib ko'ring. # Error toast
+    settingsSaved: Ish maydoni sozlamalari saqlandi. dbdiagram va dbdocs bilan sinxronlanmoqda… # Success toast
+    settingsSaveFailed: Ish maydoni sozlamalarini yangilab bo'lmadi. # Error toast
+    deleteModalTitle: Ushbu ish maydonini o'chirasizmi? # Delete confirmation modal title
+    deleteModalContent: Ushbu ish maydoni va uning barcha ma'lumotlarini o'chirasizmi? Bu amalni bekor qilib bo'lmaydi. Sizga tasdiqlash kodini elektron pochta orqali yuboramiz. # Delete confirmation modal content
+    deleteModalConfirmLabel: Ish maydonini o'chirish # Delete confirmation modal confirm button
+    deletionStarted: Ish maydonini o'chirish boshlandi. # Success toast after confirming deletion

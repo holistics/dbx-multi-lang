@@ -148,6 +148,13 @@ workspace:
     team: Gói Team
     disabled: "(đã tắt)"
 
+  legacyPlanNotice:
+    title: Đây là không gian làm việc cũ
+    description: Không gian làm việc này đang dùng một trong các gói cũ của chúng tôi, không thể nâng cấp lên các gói giá mới.
+    contactPrefix: Vui lòng liên hệ
+    contactSuffix: và chúng tôi sẽ giúp bạn chuyển đổi.
+    gotIt: Đã hiểu
+
   welcome:
     title: Chào mừng đến với Team Workspace!
     description: Bắt đầu bằng cách tạo sơ đồ mới và cộng tác với đồng đội của bạn.
@@ -186,4 +193,29 @@ workspace:
       nameWhitespace: Tên token không được để trống hoặc chỉ chứa khoảng trắng
       upgradeRequired: Vui lòng nâng cấp gói của bạn để tạo token và truy cập API
       ownerOnly: Chỉ chủ sở hữu workspace mới có thể tạo token mới
+
+  settingsTab:
+    generalTitle: Chung
+    displayNameLabel: Tên hiển thị
+    displayNamePlaceholder: Không gian làm việc của tôi
+    urlNameLabel: Tên URL không gian làm việc
+    urlNameTooltip: Thay đổi tên không gian làm việc sẽ khiến tất cả các liên kết chia sẻ trước đây của bạn không còn hoạt động
+    urlNamePlaceholder: ten-khong-gian-lam-viec
+    checkingUrlName: Đang kiểm tra xem tên này có khả dụng không…
+    workspacePreviewPrefix: 'Không gian làm việc:'
+    dbdocsPreviewPrefix: 'dbdocs:'
+    saving: Đang lưu…
+    updateProfile: Cập nhật hồ sơ
+    manageWorkspaceTitle: Quản lý không gian làm việc
+    deleteWorkspaceButton: Xóa không gian làm việc này
+    deleteWarning: Hành động này không thể hoàn tác. Thao tác này sẽ xóa vĩnh viễn toàn bộ dữ liệu của bạn trên cả dbdiagram và dbdocs!
+    urlNameInvalid: Tên URL chỉ được chứa chữ thường, số và dấu gạch ngang (không có dấu gạch ngang ở đầu/cuối).
+    urlNameTaken: Tên này không khả dụng.
+    checkUrlNameFailed: Không thể kiểm tra tên URL. Vui lòng thử lại.
+    settingsSaved: Đã lưu cài đặt không gian làm việc. Đang đồng bộ với dbdiagram và dbdocs…
+    settingsSaveFailed: Cập nhật cài đặt không gian làm việc thất bại.
+    deleteModalTitle: Xóa không gian làm việc này?
+    deleteModalContent: Xóa không gian làm việc này và toàn bộ dữ liệu? Hành động này không thể hoàn tác. Chúng tôi sẽ gửi email mã xác nhận cho bạn.
+    deleteModalConfirmLabel: Xóa không gian làm việc
+    deletionStarted: Đã bắt đầu xóa không gian làm việc.
 

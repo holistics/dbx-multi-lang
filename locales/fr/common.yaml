@@ -297,3 +297,18 @@ common:
     editor: Éditeur
     viewer: Lecteur
     remove: Retirer
+
+  # ========================================
+  # Fenêtre de confirmation de suppression
+  # ========================================
+  confirmRemovalModal:
+    close: Fermer
+    otpTitle: Saisissez votre code OTP
+    otpLabel: Veuillez saisir le code OTP envoyé par email
+    resendPrefix: "Vous n'avez pas reçu le code ?"
+    resend: Renvoyer le code
+    resendWithCooldown: "{label} ({seconds}s)"
+    errors:
+      requestFailed: Impossible d'envoyer le code de confirmation. Veuillez réessayer.
+      resendFailed: Impossible de renvoyer le code de confirmation. Veuillez réessayer.
+      invalidCode: Code invalide, veuillez réessayer.

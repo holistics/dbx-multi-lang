@@ -173,6 +173,17 @@ workspace:
     disabled: "(disabled)" # Disabled plan label
 
   # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: This is a legacy workspace # Modal title
+    description: This workspace is on one of our legacy plans, which cannot be upgraded to the new pricing plans. # Modal description
+    contactPrefix: Please contact # Text before the support email link
+    contactSuffix: and we will help you move over. # Text after the support email link
+    gotIt: Got it # Dismiss button
+
+  # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
@@ -216,3 +227,31 @@ workspace:
       nameWhitespace: Token name cannot be empty or only contain white space # Validation error
       upgradeRequired: Please upgrade your plan to create tokens and access our API # Upgrade required error
       ownerOnly: Only workspace owner can generate new tokens # Permission error
+
+  # ========================================
+  # Settings Tab - Portal workspace Settings page (rename + url-name + delete)
+  # ========================================
+  settingsTab:
+    generalTitle: General # "General" section heading
+    displayNameLabel: Display name # Display name field label
+    displayNamePlaceholder: My workspace # Display name input placeholder
+    urlNameLabel: Workspace URL name # URL name field label
+    urlNameTooltip: Changing the workspace name will cause all of your previous shared links to become stale # Info tooltip next to the URL name label
+    urlNamePlaceholder: my-workspace-url # URL name input placeholder
+    checkingUrlName: Checking if this name is available… # Live availability check message
+    workspacePreviewPrefix: 'Workspace:' # Label before the Portal URL preview
+    dbdocsPreviewPrefix: 'dbdocs:' # Label before the dbdocs URL preview
+    saving: Saving… # Submit button label while saving
+    updateProfile: Update profile # Submit button label
+    manageWorkspaceTitle: Manage workspace # "Manage workspace" (danger zone) section heading
+    deleteWorkspaceButton: Delete this workspace # Delete button label
+    deleteWarning: This action cannot be undone. This will permanently delete all your data across dbdiagram and dbdocs! # Warning text next to the delete button
+    urlNameInvalid: URL name must be lowercase letters, numbers and hyphens (no leading/trailing hyphen). # Validation error
+    urlNameTaken: This name is not available. # Validation error
+    checkUrlNameFailed: Could not check the URL name. Please try again. # Error toast
+    settingsSaved: Workspace settings saved. Syncing to dbdiagram and dbdocs… # Success toast
+    settingsSaveFailed: Failed to update the workspace settings. # Error toast
+    deleteModalTitle: Delete this workspace? # Delete confirmation modal title
+    deleteModalContent: Delete this workspace and all its data? This cannot be undone. We will email you a confirmation code. # Delete confirmation modal content
+    deleteModalConfirmLabel: Delete workspace # Delete confirmation modal confirm button
+    deletionStarted: Workspace deletion started. # Success toast after confirming deletion

@@ -221,3 +221,15 @@ common:
     editor: 编辑者
     viewer: 查看者
     remove: 移除
+
+  confirmRemovalModal:
+    close: 关闭
+    otpTitle: 输入您的 OTP
+    otpLabel: 请输入发送到邮箱的 OTP 验证码
+    resendPrefix: 没有收到 OTP？
+    resend: 重新发送 OTP
+    resendWithCooldown: "{label}（{seconds}秒）"
+    errors:
+      requestFailed: 无法发送确认码，请重试。
+      resendFailed: 无法重新发送确认码，请重试。
+      invalidCode: 验证码无效，请重试。

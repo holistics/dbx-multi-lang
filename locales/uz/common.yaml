@@ -291,3 +291,18 @@ common:
     editor: Muharrir
     viewer: Ko'ruvchi
     remove: Olib tashlash
+
+  # ========================================
+  # Confirm Removal Modal - Generic two-step (confirm, then OTP) destructive-action modal
+  # ========================================
+  confirmRemovalModal:
+    close: Yopish # Close button aria-label
+    otpTitle: OTP kodini kiriting # Header title shown once on the OTP step
+    otpLabel: Elektron pochtaga yuborilgan OTP kodini kiriting # Body text on the OTP step
+    resendPrefix: OTP kodini olmadingizmi? # Text before the resend button
+    resend: OTP kodini qayta yuborish # Resend button label
+    resendWithCooldown: "{label} ({seconds}s)" # Resend button label while on cooldown
+    errors:
+      requestFailed: Tasdiqlash kodini yuborib bo'lmadi. Qaytadan urinib ko'ring. # Error when sending the initial code fails
+      resendFailed: Tasdiqlash kodini qayta yuborib bo'lmadi. Qaytadan urinib ko'ring. # Error when resending the code fails
+      invalidCode: Kod noto'g'ri, qaytadan urinib ko'ring. # Error when the submitted code is rejected

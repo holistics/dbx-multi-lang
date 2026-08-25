@@ -173,6 +173,17 @@ workspace:
     disabled: (desabilitado)
 
   # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: Este é um workspace legado
+    description: Este workspace está em um de nossos planos legados, que não pode ser atualizado para os novos planos de preços.
+    contactPrefix: Entre em contato com
+    contactSuffix: e ajudaremos você a migrar.
+    gotIt: Entendi
+
+  # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
@@ -216,3 +227,28 @@ workspace:
       nameWhitespace: O nome do token não pode estar vazio ou conter apenas espaços em branco
       upgradeRequired: Por favor, atualize seu plano para criar tokens e acessar nossa API
       ownerOnly: Somente o proprietário do Espaço de Trabalho pode gerar novos tokens
+
+  settingsTab:
+    generalTitle: Geral
+    displayNameLabel: Nome de exibição
+    displayNamePlaceholder: Meu workspace
+    urlNameLabel: Nome de URL do workspace
+    urlNameTooltip: Alterar o nome do workspace fará com que todos os seus links compartilhados anteriores fiquem obsoletos
+    urlNamePlaceholder: meu-workspace-url
+    checkingUrlName: Verificando se este nome está disponível…
+    workspacePreviewPrefix: 'Workspace:'
+    dbdocsPreviewPrefix: 'dbdocs:'
+    saving: Salvando…
+    updateProfile: Atualizar perfil
+    manageWorkspaceTitle: Gerenciar workspace
+    deleteWorkspaceButton: Excluir este workspace
+    deleteWarning: Esta ação não pode ser desfeita. Isso excluirá permanentemente todos os seus dados no dbdiagram e no dbdocs!
+    urlNameInvalid: O nome de URL deve conter apenas letras minúsculas, números e hífens (sem hífen no início/fim).
+    urlNameTaken: Este nome não está disponível.
+    checkUrlNameFailed: Não foi possível verificar o nome de URL. Tente novamente.
+    settingsSaved: Configurações do workspace salvas. Sincronizando com dbdiagram e dbdocs…
+    settingsSaveFailed: Falha ao atualizar as configurações do workspace.
+    deleteModalTitle: Excluir este workspace?
+    deleteModalContent: Excluir este workspace e todos os seus dados? Esta ação não pode ser desfeita. Enviaremos um código de confirmação por e-mail.
+    deleteModalConfirmLabel: Excluir workspace
+    deletionStarted: Exclusão do workspace iniciada.

@@ -300,3 +300,18 @@ common:
     editor: Editor
     viewer: Visualizzatore
     remove: Rimuovi
+
+  # ========================================
+  # Confirm Removal Modal - Generic two-step (confirm, then OTP) destructive-action modal
+  # ========================================
+  confirmRemovalModal:
+    close: "Chiudi" # Close button aria-label
+    otpTitle: "Inserisci il tuo OTP" # Header title shown once on the OTP step
+    otpLabel: "Inserisci il codice OTP inviato all'email" # Body text on the OTP step
+    resendPrefix: "Non hai ricevuto l'OTP?" # Text before the resend button
+    resend: "Reinvia OTP" # Resend button label
+    resendWithCooldown: "{label} ({seconds}s)" # Resend button label while on cooldown
+    errors:
+      requestFailed: "Impossibile inviare il codice di conferma. Riprova." # Error when sending the initial code fails
+      resendFailed: "Impossibile reinviare il codice di conferma. Riprova." # Error when resending the code fails
+      invalidCode: "Codice non valido, riprova." # Error when the submitted code is rejected

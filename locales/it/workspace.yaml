@@ -173,6 +173,17 @@ workspace:
     disabled: "(disabilitato)" # Disabled plan label
 
   # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: "Questo è uno spazio di lavoro legacy" # Modal title
+    description: "Questo spazio di lavoro utilizza uno dei nostri piani legacy, che non può essere aggiornato ai nuovi piani tariffari." # Modal description
+    contactPrefix: "Contatta" # Text before the support email link
+    contactSuffix: "e ti aiuteremo a effettuare la migrazione." # Text after the support email link
+    gotIt: "Ho capito" # Dismiss button
+
+  # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
@@ -216,3 +227,28 @@ workspace:
       nameWhitespace: "Il nome del token non può essere vuoto o contenere solo spazi" # Validation error
       upgradeRequired: "Effettua l'upgrade del tuo piano per creare token e accedere alla nostra API" # Upgrade required error
       ownerOnly: "Solo il proprietario dello spazio di lavoro può generare nuovi token" # Permission error
+
+  settingsTab:
+    generalTitle: "Generale"
+    displayNameLabel: "Nome visualizzato"
+    displayNamePlaceholder: "Il mio spazio di lavoro"
+    urlNameLabel: "Nome URL dello spazio di lavoro"
+    urlNameTooltip: "La modifica del nome dello spazio di lavoro renderà obsoleti tutti i link condivisi in precedenza"
+    urlNamePlaceholder: "il-mio-spazio-di-lavoro"
+    checkingUrlName: "Verifica della disponibilità di questo nome…"
+    workspacePreviewPrefix: "Spazio di lavoro:"
+    dbdocsPreviewPrefix: "dbdocs:"
+    saving: "Salvataggio…"
+    updateProfile: "Aggiorna profilo"
+    manageWorkspaceTitle: "Gestisci spazio di lavoro"
+    deleteWorkspaceButton: "Elimina questo spazio di lavoro"
+    deleteWarning: "Questa azione non può essere annullata. Eliminerà definitivamente tutti i tuoi dati su dbdiagram e dbdocs!"
+    urlNameInvalid: "Il nome URL deve contenere solo lettere minuscole, numeri e trattini (senza trattino iniziale/finale)."
+    urlNameTaken: "Questo nome non è disponibile."
+    checkUrlNameFailed: "Impossibile verificare il nome URL. Riprova."
+    settingsSaved: "Impostazioni dello spazio di lavoro salvate. Sincronizzazione con dbdiagram e dbdocs…"
+    settingsSaveFailed: "Impossibile aggiornare le impostazioni dello spazio di lavoro."
+    deleteModalTitle: "Eliminare questo spazio di lavoro?"
+    deleteModalContent: "Eliminare questo spazio di lavoro e tutti i suoi dati? Questa azione non può essere annullata. Ti invieremo un codice di conferma via email."
+    deleteModalConfirmLabel: "Elimina spazio di lavoro"
+    deletionStarted: "Eliminazione dello spazio di lavoro avviata."

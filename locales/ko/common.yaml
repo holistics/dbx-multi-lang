@@ -301,3 +301,18 @@ common:
     editor: 편집자
     viewer: 뷰어
     remove: 제거
+
+  # ========================================
+  # Confirm Removal Modal - Generic two-step (confirm, then OTP) destructive-action modal
+  # ========================================
+  confirmRemovalModal:
+    close: 닫기 # Close button aria-label
+    otpTitle: OTP를 입력하세요 # Header title shown once on the OTP step
+    otpLabel: 이메일로 전송된 OTP 코드를 입력하세요 # Body text on the OTP step
+    resendPrefix: OTP를 받지 못하셨나요? # Text before the resend button
+    resend: OTP 재전송 # Resend button label
+    resendWithCooldown: "{label} ({seconds}초)" # Resend button label while on cooldown
+    errors:
+      requestFailed: 확인 코드를 보낼 수 없습니다. 다시 시도해 주세요. # Error when sending the initial code fails
+      resendFailed: 확인 코드를 다시 보낼 수 없습니다. 다시 시도해 주세요. # Error when resending the code fails
+      invalidCode: 코드가 올바르지 않습니다. 다시 시도해 주세요. # Error when the submitted code is rejected

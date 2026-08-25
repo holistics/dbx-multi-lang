@@ -173,6 +173,16 @@ workspace:
     disabled: "(désactivé)"
 
   # ========================================
+  # Avis de plan hérité
+  # ========================================
+  legacyPlanNotice:
+    title: Ceci est un espace de travail hérité
+    description: Cet espace de travail utilise l’un de nos anciens plans, qui ne peut pas être mis à niveau vers les nouveaux plans tarifaires.
+    contactPrefix: Veuillez contacter
+    contactSuffix: et nous vous aiderons à migrer.
+    gotIt: Compris
+
+  # ========================================
   # Bienvenue
   # ========================================
   welcome:
@@ -216,3 +226,28 @@ workspace:
       nameWhitespace: Le nom du jeton ne peut pas être vide ou contenir uniquement des espaces
       upgradeRequired: Veuillez passer à un plan supérieur pour utiliser les API
       ownerOnly: Seul le propriétaire peut générer des jetons
+
+  settingsTab:
+    generalTitle: Général
+    displayNameLabel: Nom d'affichage
+    displayNamePlaceholder: Mon espace de travail
+    urlNameLabel: Nom d'URL de l'espace de travail
+    urlNameTooltip: La modification du nom de l'espace de travail rendra obsolètes tous vos liens partagés précédents
+    urlNamePlaceholder: mon-espace-de-travail
+    checkingUrlName: Vérification de la disponibilité de ce nom…
+    workspacePreviewPrefix: 'Espace de travail :'
+    dbdocsPreviewPrefix: 'dbdocs :'
+    saving: Enregistrement…
+    updateProfile: Mettre à jour le profil
+    manageWorkspaceTitle: Gérer l'espace de travail
+    deleteWorkspaceButton: Supprimer cet espace de travail
+    deleteWarning: Cette action est irréversible. Cela supprimera définitivement toutes vos données sur dbdiagram et dbdocs !
+    urlNameInvalid: Le nom d'URL doit être en minuscules, chiffres et tirets (sans tiret en début/fin).
+    urlNameTaken: Ce nom n'est pas disponible.
+    checkUrlNameFailed: Impossible de vérifier le nom d'URL. Veuillez réessayer.
+    settingsSaved: Paramètres de l'espace de travail enregistrés. Synchronisation avec dbdiagram et dbdocs…
+    settingsSaveFailed: Échec de la mise à jour des paramètres de l'espace de travail.
+    deleteModalTitle: Supprimer cet espace de travail ?
+    deleteModalContent: Supprimer cet espace de travail et toutes ses données ? Cette action est irréversible. Nous vous enverrons un code de confirmation par e-mail.
+    deleteModalConfirmLabel: Supprimer l'espace de travail
+    deletionStarted: La suppression de l'espace de travail a commencé.

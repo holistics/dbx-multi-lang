@@ -221,3 +221,15 @@ common:
     editor: 編集者
     viewer: 閲覧者
     remove: 削除
+
+  confirmRemovalModal:
+    close: 閉じる
+    otpTitle: OTPを入力してください
+    otpLabel: メールに送信されたOTPコードを入力してください
+    resendPrefix: OTPが届きませんか？
+    resend: OTPを再送信
+    resendWithCooldown: "{label}（{seconds}秒）"
+    errors:
+      requestFailed: 確認コードを送信できませんでした。もう一度お試しください。
+      resendFailed: 確認コードを再送信できませんでした。もう一度お試しください。
+      invalidCode: コードが無効です。もう一度お試しください。

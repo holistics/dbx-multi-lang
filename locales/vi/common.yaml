@@ -218,3 +218,15 @@ common:
     editor: Người chỉnh sửa
     viewer: Người xem
     remove: Xóa bỏ
+
+  confirmRemovalModal:
+    close: Đóng
+    otpTitle: Nhập mã OTP của bạn
+    otpLabel: Vui lòng nhập mã OTP đã được gửi đến email
+    resendPrefix: Bạn chưa nhận được mã OTP?
+    resend: Gửi lại mã OTP
+    resendWithCooldown: "{label} ({seconds}s)"
+    errors:
+      requestFailed: Không thể gửi mã xác nhận. Vui lòng thử lại.
+      resendFailed: Không thể gửi lại mã xác nhận. Vui lòng thử lại.
+      invalidCode: Mã không hợp lệ, vui lòng thử lại.
