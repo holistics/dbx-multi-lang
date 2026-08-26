@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.3.5 (Aug 26, 2026)
+### Misc
+* Add copywriting for the unite feature
+
 ## v1.3.4 (Aug 7, 2026)
 ### Misc
 * Shorten the combined link type option to "ERD + Deps" across all locales
