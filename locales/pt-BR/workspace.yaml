@@ -15,6 +15,8 @@ workspace:
   advanced: Avançado
   myDiagrams: Meus Diagramas
   sharedWithMe: Compartilhados Comigo
+  guestWorkspace: Espaço de Trabalho de Convidado
+  guestLabel: (convidado)
   workspace: Espaço de Trabalho
   private: Privado
   readOnlyMode: O Espaço de Trabalho está no modo somente leitura devido ao cancelamento de uma assinatura. Por favor, renove para habilitar a funcionalidade do Espaço de Trabalho.
@@ -57,7 +59,7 @@ workspace:
     removeWorkspaceSuggestion: 'Por favor, digite <i>permanently delete</i> no campo de texto para confirmar.'
     removalRequestCanceled: Solicitação de remoção cancelada com sucesso!
     removalRequestCreated: Solicitação de remoção criada com sucesso!
-    contactSupportError: Ocorreu um erro, entre em contato com nosso suporte em dbdiagram@holistics.io
+    contactSupportError: Ocorreu um erro, entre em contato com nosso suporte em dbdiagram{'@'}holistics.io
     workspaceNameUpdated: Nome do Espaço de Trabalho atualizado com sucesso
     workspaceNameUpdateFailed: Falha ao atualizar nome do Espaço de Trabalho, por favor, tente novamente!
     ssoConfigFetchFailed: Falha ao buscar configuração de SSO. Por favor, tente atualizar a página.
@@ -65,9 +67,43 @@ workspace:
     ssoConfigSaveFailed: Falha ao salvar configuração de SSO. Por favor, tente novamente.
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Criar um espaço de trabalho
+    settingUpTitle: Configurando seu espaço de trabalho
+    nameLabel: Nome do espaço de trabalho
+    namePlaceholder: "ex. Equipe Acme"
+    cancel: Cancelar
+    create: Criar
+    partiallyFailed: "O espaço de trabalho \"{name}\" está pronto, mas parte da configuração não foi concluída."
+    partiallyFailedHint: Você pode começar a usá-lo agora e finalizar a configuração depois pela página de gerenciamento do espaço de trabalho.
+    openWorkspace: Abrir espaço de trabalho
+    retry: Tentar novamente
+    fullyFailed: "Algo deu errado ao configurar o espaço de trabalho \"{name}\"."
+    contactUs: Fale conosco
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Tentar novamente
+    contactUs: Fale conosco
+    contactUsHint: se tentar novamente não ajudar.
+    checking:
+      title: "Verificando seu espaço de trabalho..."
+      description: Só um momento enquanto confirmamos que tudo está sincronizado.
+    partiallyFailed:
+      title: Seu espaço de trabalho não está totalmente configurado.
+      description: Por favor, tente novamente para concluir a configuração.
+    fullyFailed:
+      title: Falha ao configurar seu espaço de trabalho.
+
+  # ========================================
   # Members - Member management
   # ========================================
   members:
+    unlimited: Ilimitado
     invite: Convidar
     invitePlaceholder: Digite o endereço de e-mail
     inviteButton: Convidar
@@ -137,6 +173,17 @@ workspace:
     disabled: (desabilitado)
 
   # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: Este é um workspace legado
+    description: Este workspace está em um de nossos planos legados, que não pode ser atualizado para os novos planos de preços.
+    contactPrefix: Entre em contato com
+    contactSuffix: e ajudaremos você a migrar.
+    gotIt: Entendi
+
+  # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
@@ -180,3 +227,28 @@ workspace:
       nameWhitespace: O nome do token não pode estar vazio ou conter apenas espaços em branco
       upgradeRequired: Por favor, atualize seu plano para criar tokens e acessar nossa API
       ownerOnly: Somente o proprietário do Espaço de Trabalho pode gerar novos tokens
+
+  settingsTab:
+    generalTitle: Geral
+    displayNameLabel: Nome de exibição
+    displayNamePlaceholder: Meu workspace
+    urlNameLabel: Nome de URL do workspace
+    urlNameTooltip: Alterar o nome do workspace fará com que todos os seus links compartilhados anteriores fiquem obsoletos
+    urlNamePlaceholder: meu-workspace-url
+    checkingUrlName: Verificando se este nome está disponível…
+    workspacePreviewPrefix: 'Workspace:'
+    dbdocsPreviewPrefix: 'dbdocs:'
+    saving: Salvando…
+    updateProfile: Atualizar perfil
+    manageWorkspaceTitle: Gerenciar workspace
+    deleteWorkspaceButton: Excluir este workspace
+    deleteWarning: Esta ação não pode ser desfeita. Isso excluirá permanentemente todos os seus dados no dbdiagram e no dbdocs!
+    urlNameInvalid: O nome de URL deve conter apenas letras minúsculas, números e hífens (sem hífen no início/fim).
+    urlNameTaken: Este nome não está disponível.
+    checkUrlNameFailed: Não foi possível verificar o nome de URL. Tente novamente.
+    settingsSaved: Configurações do workspace salvas. Sincronizando com dbdiagram e dbdocs…
+    settingsSaveFailed: Falha ao atualizar as configurações do workspace.
+    deleteModalTitle: Excluir este workspace?
+    deleteModalContent: Excluir este workspace e todos os seus dados? Esta ação não pode ser desfeita. Enviaremos um código de confirmação por e-mail.
+    deleteModalConfirmLabel: Excluir workspace
+    deletionStarted: Exclusão do workspace iniciada.

@@ -123,8 +123,8 @@ modals:
     feedback: ご意見をお聞かせください
     feedbackLink: フィードバック
     aboutThisFeature: この機能について！
-    errorLoadingProjects: 公開済みプロジェクトの読み込み中にエラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
-    errorPublishing: プロジェクトの公開中にエラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
+    errorLoadingProjects: 公開済みプロジェクトの読み込み中にエラーが発生しました。サポート dbdiagram{'@'}holistics.io にお問い合わせください
+    errorPublishing: プロジェクトの公開中にエラーが発生しました。サポート dbdiagram{'@'}holistics.io にお問い合わせください
     projectNameEmpty: プロジェクト名を入力してください
     projectNameInvalid: プロジェクト名にはアルファベット、数字、スペース、"-" または "_" のみ使用できます
     projectNameExists: この名前/URLのプロジェクトは既に存在します。別の名前を選択してください。

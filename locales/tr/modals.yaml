@@ -142,8 +142,8 @@ modals:
     feedback: Bu özellik hakkındaki # Feedback label
     feedbackLink: geri bildirimleriniz # Feedback link
     aboutThisFeature: için bize ulaşın! # Feedback link suffix
-    errorLoadingProjects: Yayımlanmış projeler yüklenirken bir hata oluştu, lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin # Error toast
-    errorPublishing: Proje yayımlanırken bir hata oluştu, lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin # Error toast
+    errorLoadingProjects: Yayımlanmış projeler yüklenirken bir hata oluştu, lütfen dbdiagram{'@'}holistics.io adresinden destek ekibimizle iletişime geçin # Error toast
+    errorPublishing: Proje yayımlanırken bir hata oluştu, lütfen dbdiagram{'@'}holistics.io adresinden destek ekibimizle iletişime geçin # Error toast
     projectNameEmpty: Proje adı boş olamaz # Validation error
     projectNameInvalid: Proje adı yalnızca harf, sayı, boşluk, "-" veya "_" içerebilir # Validation error
     projectNameExists: Bu isme/adrese (url) sahip bir proje zaten var. Lütfen farklı bir isim seçin. # Validation error for duplicate name/url

@@ -41,7 +41,7 @@ portal:
         description: Yo'naltirish URI (Redirect URI) konfiguratsiyaga mos kelmaydi. # Error description (redirect URI)
       unknown:
         title: Kutilmagan xatolik # Error title (generic)
-        description: Nimadir xato ketdi. Iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Error description (generic)
+        description: Nimadir xato ketdi. Iltimos, dbdiagram{'@'}holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Error description (generic)
 
   # ========================================
   # Logout - Logout messages
@@ -84,7 +84,7 @@ portal:
     internalServerError: Serverda kutilmagan xatolik yuz berdi. Iltimos, keyinroq qayta urinib ko'ring. # 500 error
     serviceUnavailable: Xizmat vaqtincha mavjud emas. Iltimos, bir ozdan keyin qayta urinib ko'ring. # 503 error
     networkError: Serverga ulanib bo'lmadi. Iltimos, internet ulanishingizni tekshiring va qayta urinib ko'ring. # Network error
-    authenticationError: Autentifikatsiya xatosi. Iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Auth error
+    authenticationError: Autentifikatsiya xatosi. Iltimos, dbdiagram{'@'}holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Auth error
     windowNotOpened: Bu oyna to'g'ri ochilmadi. Iltimos, {clientName}-ga qayting va qayta urinib ko'ring. # Window error
     windowClosed: Dastlabki dastur oynasi yopildi. Iltimos, {clientName}-ga qayting va qayta urinib ko'ring. # Window closed error
     communicationFailed: "{clientName} bilan bog'lanib bo'lmadi. Iltimos, qayta urinib ko'ring" # Communication error

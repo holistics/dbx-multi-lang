@@ -27,7 +27,7 @@ common:
     sendFeedback: "Invia un feedback" # Link to feedback form (opens modal)
     askCommunity: "Chiedi alla Community" # Link to Discord/community forum
     suggestFeature: "Suggerisci una funzionalità" # Link to feature request board
-    contactUs: "Contattaci" # Link to support email (dbdiagram@holistics.io)
+    contactUs: "Contattaci" # Link to support email (dbdiagram{'@'}holistics.io)
     sampleDiagrams: "Diagrammi di esempio" # Opens templates gallery modal
     sampleAirbnb: "Esempio Airbnb" # Opens Airbnb database schema template
     sampleEcommerce: "Esempio E-commerce" # Opens e-commerce schema template
@@ -213,3 +213,105 @@ common:
       failedCheckVersion: "Impossibile verificare lo stato della versione" # Error toast (version check failed)
       pleaseSignInLoadLatest: "Effettua l'accesso per caricare l'ultima versione" # Login prompt toast (load version)
       failedLoadLatest: "Impossibile caricare l'ultima versione" # Error toast (load version failed)
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Piano attuale
+    editSubscription: Modifica abbonamento
+    switchToBilling: "Passa alla fatturazione {unit}"
+    updatePlan: Aggiorna piano
+    nextPayment: "Il tuo prossimo pagamento è"
+    chargedOn: "da addebitare il <b>{date}</b>"
+    cancelledOn: "Il tuo abbonamento verrà cancellato il <b>{date}</b>"
+    paymentMethod: Metodo di pagamento
+    noPaymentMethod: Nessun metodo di pagamento.
+    editPaymentMethod: Modifica metodo di pagamento
+    invoicing: Fatturazione
+    lastPayment: "Ultimo pagamento: <b>{date}</b>"
+    noPaymentMade: Nessun pagamento effettuato.
+    manageInvoices: Gestisci fatture
+    supportText: "Per assistenza, scrivici a:"
+    resync: Risincronizza
+    addons: Componenti aggiuntivi
+    updateAddons: Aggiorna componenti aggiuntivi
+
+    billingPeriodUnit:
+      annual: annuale
+      monthly: mensile
+
+    planAndAddonInfo:
+      includeAddon: "Include {quantity} {name}"
+      addonsLabel: "Componenti aggiuntivi:"
+      additionalAddon: "{name} aggiuntivi x {quantity}"
+      addonName:
+        seat: "utente | utenti"
+        paidProject: "progetto documento a pagamento di dbdocs | progetti documento a pagamento di dbdocs"
+
+  # ========================================
+  # User info - Shared "current user" indicator (avatar tooltips, member lists)
+  # ========================================
+  userInfo:
+    you: (tu) # Label appended after the current user's name, e.g. "Jane Doe (you)"
+
+  # ========================================
+  # Manage Members - Workspace people/guests management panel
+  # ========================================
+  manageMembers:
+    title: Persone
+    planLabel: piano
+    docEditorsLabel: Editor di documenti
+    docEditorsTooltip: "Include:<ul class=\"list-disc list-inside\"><li>Proprietario: Il proprietario del workspace.</li><li>Amministratori: Utenti che possono creare, aggiornare progetti nel workspace e gestire i ruoli degli altri membri.</li><li>Editor di documenti: Utenti che possono creare e aggiornare progetti nel workspace.</li></ul>"
+    docViewersLabel: Visualizzatori di documenti
+    docViewersTooltip: Utenti che possono visualizzare i progetti nel workspace.
+    purchaseSlotsTooltip: Acquista slot per invitare più editor di documenti nel tuo workspace
+    purchaseSlots: Acquista slot
+    upgradeInviteLine1: Invita persone nel workspace e
+    upgradeInviteLine2: "collabora con il piano <b>Team</b>."
+    upgrade: Aggiorna
+    addMembers: Aggiungi membri
+    membersTab: Membri
+    guestsTab: Ospiti
+    noGuests: (Nessun ospite in questo workspace)
+    syncErrorBanner: "{count} membro/i non sincronizzato/i"
+    resyncAll: Risincronizza tutto
+
+  # ========================================
+  # Workspace Member - Single row in the members/guests/invitations list
+  # ========================================
+  workspaceMember:
+    owner: Proprietario
+    project: "{count} progetto"
+    projects: "{count} progetti"
+    diagram: "{count} diagramma"
+    diagrams: "{count} diagrammi"
+    projectsGroupLabel: Progetti
+    diagramsGroupLabel: Diagrammi
+    syncErrorTooltip: Sincronizzazione fallita, riprova a sincronizzare
+    syncErrorBlocksEdit: Risolvi l'errore di sincronizzazione prima di modificare il ruolo di questo membro
+    roleLabel: "Ruolo: {role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: Amministratore
+    editor: Editor
+    viewer: Visualizzatore
+    remove: Rimuovi
+
+  # ========================================
+  # Confirm Removal Modal - Generic two-step (confirm, then OTP) destructive-action modal
+  # ========================================
+  confirmRemovalModal:
+    close: "Chiudi" # Close button aria-label
+    otpTitle: "Inserisci il tuo OTP" # Header title shown once on the OTP step
+    otpLabel: "Inserisci il codice OTP inviato all'email" # Body text on the OTP step
+    resendPrefix: "Non hai ricevuto l'OTP?" # Text before the resend button
+    resend: "Reinvia OTP" # Resend button label
+    resendWithCooldown: "{label} ({seconds}s)" # Resend button label while on cooldown
+    errors:
+      requestFailed: "Impossibile inviare il codice di conferma. Riprova." # Error when sending the initial code fails
+      resendFailed: "Impossibile reinviare il codice di conferma. Riprova." # Error when resending the code fails
+      invalidCode: "Codice non valido, riprova." # Error when the submitted code is rejected

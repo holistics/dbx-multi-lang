@@ -41,7 +41,7 @@ portal:
         description: El URI de redirección no coincide con la configuración. # Error description (redirect URI)
       unknown:
         title: Error inesperado # Error title (generic)
-        description: Algo salió mal. Por favor, contacta nuestro soporte en dbdiagram@holistics.io # Error description (generic)
+        description: Algo salió mal. Por favor, contacta nuestro soporte en dbdiagram{'@'}holistics.io # Error description (generic)
 
   # ========================================
   # Logout - Logout messages
@@ -84,7 +84,7 @@ portal:
     internalServerError: Ocurrió un error inesperado en el servidor. Por favor, inténtalo más tarde. # 500 error
     serviceUnavailable: El servicio no está disponible temporalmente. Por favor, inténtalo de nuevo en unos momentos. # 503 error
     networkError: No se puede conectar al servidor. Por favor, verifica tu conexión a internet e inténtalo de nuevo. # Network error
-    authenticationError: Error de autenticación. Por favor, contacta nuestro soporte en dbdiagram@holistics.io # Auth error
+    authenticationError: Error de autenticación. Por favor, contacta nuestro soporte en dbdiagram{'@'}holistics.io # Auth error
     windowNotOpened: Esta ventana no se abrió correctamente. Por favor, regresa a {clientName} e inténtalo de nuevo. # Window error
     windowClosed: La ventana de la aplicación original fue cerrada. Por favor, regresa a {clientName} e inténtalo de nuevo. # Window closed error
     communicationFailed: Error de comunicación con {clientName}. Por favor, inténtalo de nuevo # Communication error

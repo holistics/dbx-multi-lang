@@ -15,6 +15,8 @@ workspace:
   advanced: Avancé
   myDiagrams: Mes diagrammes
   sharedWithMe: Partagés avec moi
+  guestWorkspace: Espace de travail invité
+  guestLabel: (invité)
   workspace: Espace de travail
   private: Privé
   readOnlyMode: L’espace de travail est en mode lecture seule en raison de l’annulation de l’abonnement. Veuillez renouveler pour réactiver les fonctionnalités.
@@ -57,7 +59,7 @@ workspace:
     removeWorkspaceSuggestion: 'Veuillez saisir <i>permanently delete</i> dans le champ pour confirmer.'
     removalRequestCanceled: Demande de suppression annulée avec succès !
     removalRequestCreated: Demande de suppression créée avec succès !
-    contactSupportError: Une erreur est survenue, veuillez contacter notre support à dbdiagram@holistics.io
+    contactSupportError: Une erreur est survenue, veuillez contacter notre support à dbdiagram{'@'}holistics.io
     workspaceNameUpdated: Nom de l’espace de travail mis à jour avec succès
     workspaceNameUpdateFailed: Échec de la mise à jour du nom de l’espace de travail, veuillez réessayer !
     ssoConfigFetchFailed: Échec de récupération de la configuration SSO. Veuillez actualiser la page.
@@ -65,9 +67,43 @@ workspace:
     ssoConfigSaveFailed: Échec de l’enregistrement de la configuration SSO. Veuillez réessayer.
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Créer un espace de travail
+    settingUpTitle: Configuration de votre espace de travail
+    nameLabel: Nom de l'espace de travail
+    namePlaceholder: "ex. Équipe Acme"
+    cancel: Annuler
+    create: Créer
+    partiallyFailed: "L'espace de travail \"{name}\" est prêt, mais une partie de la configuration n'a pas abouti."
+    partiallyFailedHint: Vous pouvez commencer à l'utiliser maintenant et terminer la configuration plus tard depuis la page de gestion de l'espace de travail.
+    openWorkspace: Ouvrir l'espace de travail
+    retry: Réessayer
+    fullyFailed: "Une erreur est survenue lors de la configuration de l'espace de travail \"{name}\"."
+    contactUs: Contactez-nous
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Réessayer
+    contactUs: Contactez-nous
+    contactUsHint: si une nouvelle tentative ne résout pas le problème.
+    checking:
+      title: "Vérification de votre espace de travail..."
+      description: Un instant, nous vérifions que tout est synchronisé.
+    partiallyFailed:
+      title: Votre espace de travail n'est pas entièrement configuré.
+      description: Veuillez réessayer pour terminer la configuration.
+    fullyFailed:
+      title: Échec de la configuration de votre espace de travail.
+
+  # ========================================
   # Membres
   # ========================================
   members:
+    unlimited: Illimité
     invite: Inviter
     invitePlaceholder: Saisir une adresse e-mail
     inviteButton: Inviter
@@ -137,6 +173,16 @@ workspace:
     disabled: "(désactivé)"
 
   # ========================================
+  # Avis de plan hérité
+  # ========================================
+  legacyPlanNotice:
+    title: Ceci est un espace de travail hérité
+    description: Cet espace de travail utilise l’un de nos anciens plans, qui ne peut pas être mis à niveau vers les nouveaux plans tarifaires.
+    contactPrefix: Veuillez contacter
+    contactSuffix: et nous vous aiderons à migrer.
+    gotIt: Compris
+
+  # ========================================
   # Bienvenue
   # ========================================
   welcome:
@@ -180,3 +226,28 @@ workspace:
       nameWhitespace: Le nom du jeton ne peut pas être vide ou contenir uniquement des espaces
       upgradeRequired: Veuillez passer à un plan supérieur pour utiliser les API
       ownerOnly: Seul le propriétaire peut générer des jetons
+
+  settingsTab:
+    generalTitle: Général
+    displayNameLabel: Nom d'affichage
+    displayNamePlaceholder: Mon espace de travail
+    urlNameLabel: Nom d'URL de l'espace de travail
+    urlNameTooltip: La modification du nom de l'espace de travail rendra obsolètes tous vos liens partagés précédents
+    urlNamePlaceholder: mon-espace-de-travail
+    checkingUrlName: Vérification de la disponibilité de ce nom…
+    workspacePreviewPrefix: 'Espace de travail :'
+    dbdocsPreviewPrefix: 'dbdocs :'
+    saving: Enregistrement…
+    updateProfile: Mettre à jour le profil
+    manageWorkspaceTitle: Gérer l'espace de travail
+    deleteWorkspaceButton: Supprimer cet espace de travail
+    deleteWarning: Cette action est irréversible. Cela supprimera définitivement toutes vos données sur dbdiagram et dbdocs !
+    urlNameInvalid: Le nom d'URL doit être en minuscules, chiffres et tirets (sans tiret en début/fin).
+    urlNameTaken: Ce nom n'est pas disponible.
+    checkUrlNameFailed: Impossible de vérifier le nom d'URL. Veuillez réessayer.
+    settingsSaved: Paramètres de l'espace de travail enregistrés. Synchronisation avec dbdiagram et dbdocs…
+    settingsSaveFailed: Échec de la mise à jour des paramètres de l'espace de travail.
+    deleteModalTitle: Supprimer cet espace de travail ?
+    deleteModalContent: Supprimer cet espace de travail et toutes ses données ? Cette action est irréversible. Nous vous enverrons un code de confirmation par e-mail.
+    deleteModalConfirmLabel: Supprimer l'espace de travail
+    deletionStarted: La suppression de l'espace de travail a commencé.

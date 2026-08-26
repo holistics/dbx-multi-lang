@@ -120,8 +120,8 @@ modals:
     feedback: Hãy cho chúng tôi biết
     feedbackLink: phản hồi của bạn
     aboutThisFeature: về tính năng này!
-    errorLoadingProjects: Đã xảy ra lỗi khi tải các dự án đã xuất bản, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
-    errorPublishing: Đã xảy ra lỗi khi xuất bản dự án, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
+    errorLoadingProjects: Đã xảy ra lỗi khi tải các dự án đã xuất bản, vui lòng liên hệ hỗ trợ tại dbdiagram{'@'}holistics.io
+    errorPublishing: Đã xảy ra lỗi khi xuất bản dự án, vui lòng liên hệ hỗ trợ tại dbdiagram{'@'}holistics.io
     projectNameEmpty: Tên dự án không được để trống
     projectNameInvalid: Tên dự án chỉ được chứa chữ cái, số, khoảng trắng, "-" hoặc "_"
     projectNameExists: Đã tồn tại dự án với tên/URL này. Vui lòng chọn tên khác.

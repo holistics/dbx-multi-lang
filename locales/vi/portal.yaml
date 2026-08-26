@@ -31,7 +31,7 @@ portal:
         description: URI chuyển hướng không khớp với cấu hình.
       unknown:
         title: Lỗi không mong muốn
-        description: Đã xảy ra lỗi. Vui lòng liên hệ hỗ trợ của chúng tôi tại dbdiagram@holistics.io
+        description: Đã xảy ra lỗi. Vui lòng liên hệ hỗ trợ của chúng tôi tại dbdiagram{'@'}holistics.io
   logout:
     validating: Đang xác thực yêu cầu đăng xuất...
     loggingOut: Đang đăng xuất...
@@ -54,7 +54,7 @@ portal:
     internalServerError: Đã xảy ra lỗi không mong muốn trên máy chủ. Vui lòng thử lại sau.
     serviceUnavailable: Dịch vụ tạm thời không khả dụng. Vui lòng thử lại trong giây lát.
     networkError: Không thể kết nối đến máy chủ. Vui lòng kiểm tra kết nối internet của bạn và thử lại.
-    authenticationError: Lỗi xác thực. Vui lòng liên hệ hỗ trợ của chúng tôi tại dbdiagram@holistics.io
+    authenticationError: Lỗi xác thực. Vui lòng liên hệ hỗ trợ của chúng tôi tại dbdiagram{'@'}holistics.io
     windowNotOpened: Cửa sổ này không được mở đúng cách. Vui lòng quay lại {clientName} và thử lại.
     windowClosed: Cửa sổ ứng dụng gốc đã bị đóng. Vui lòng quay lại {clientName} và thử lại.
     communicationFailed: Không thể giao tiếp với {clientName}. Vui lòng thử lại

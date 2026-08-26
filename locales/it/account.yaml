@@ -28,7 +28,7 @@ account:
     manageTitle: "Gestisci account" # Section title
     changeEmail: "Modifica indirizzo email" # Change email button label
     changeEmailInProgress: "Hai una modifica dell'email in corso, attendi" # Disabled message when email change is in progress
-    changeEmailFailed: "L'ultima modifica dell'email non è riuscita, contatta il nostro supporto all'indirizzo dbdiagram@holistics.io" # Disabled message when last email change failed
+    changeEmailFailed: "L'ultima modifica dell'email non è riuscita, contatta il nostro supporto all'indirizzo dbdiagram{'@'}holistics.io" # Disabled message when last email change failed
 
     # Account removal
     removal:
@@ -158,7 +158,7 @@ account:
       inProgressText: "Potrebbe richiedere alcuni minuti. Puoi continuare a utilizzare l'app." # Notification body while syncing
       completedText: "Email aggiornata con successo in tutti i servizi!" # Success notification
       failedTitle: "Alcuni servizi non sono riusciti a sincronizzare la tua nuova email." # Warning notification title
-      failedText: "La tua email è stata modificata, ma alcuni servizi potrebbero mostrare ancora quella vecchia. Contatta il nostro supporto all'indirizzo dbdiagram@holistics.io." # Warning notification body
+      failedText: "La tua email è stata modificata, ma alcuni servizi potrebbero mostrare ancora quella vecchia. Contatta il nostro supporto all'indirizzo dbdiagram{'@'}holistics.io." # Warning notification body
 
     # Error messages
     errors:

@@ -209,3 +209,96 @@ common:
       failedCheckVersion: Falha ao verificar o status da versão
       pleaseSignInLoadLatest: Por favor, faça login para carregar a versão mais recente
       failedLoadLatest: Falha ao carregar a versão mais recente
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Plano atual
+    editSubscription: Editar assinatura
+    switchToBilling: "Mudar para cobrança {unit}"
+    updatePlan: Atualizar plano
+    nextPayment: "Seu próximo pagamento é de"
+    chargedOn: "a ser cobrado em <b>{date}</b>"
+    cancelledOn: "Sua assinatura será cancelada em <b>{date}</b>"
+    paymentMethod: Método de pagamento
+    noPaymentMethod: Nenhum método de pagamento.
+    editPaymentMethod: Editar método de pagamento
+    invoicing: Faturamento
+    lastPayment: "Último pagamento: <b>{date}</b>"
+    noPaymentMade: Nenhum pagamento realizado.
+    manageInvoices: Gerenciar faturas
+    supportText: "Para suporte, envie um e-mail para:"
+    resync: Ressincronizar
+    addons: Complementos
+    updateAddons: Atualizar complementos
+
+    billingPeriodUnit:
+      annual: anual
+      monthly: mensal
+
+    planAndAddonInfo:
+      includeAddon: "Inclui {quantity} {name}"
+      addonsLabel: "Complementos:"
+      additionalAddon: "{name} adicional x {quantity}"
+      addonName:
+        seat: "usuário | usuários"
+        paidProject: "projeto de documento pago do dbdocs | projetos de documento pagos do dbdocs"
+
+  userInfo:
+    you: (você)
+
+  manageMembers:
+    title: Pessoas
+    planLabel: plano
+    docEditorsLabel: Editores de documentos
+    docEditorsTooltip: "Inclui:<ul class=\"list-disc list-inside\"><li>Proprietário: O proprietário do workspace.</li><li>Administradores: Usuários que podem criar e atualizar projetos no workspace e gerenciar as funções de outros membros.</li><li>Editores de documentos: Usuários que podem criar e atualizar projetos no workspace.</li></ul>"
+    docViewersLabel: Leitores de documentos
+    docViewersTooltip: Usuários que podem visualizar projetos no workspace.
+    purchaseSlotsTooltip: Compre vagas para convidar mais editores de documentos para o seu workspace
+    purchaseSlots: Comprar vagas
+    upgradeInviteLine1: Convide pessoas para o workspace e
+    upgradeInviteLine2: "colabore com o plano <b>Team</b>."
+    upgrade: Fazer upgrade
+    addMembers: Adicionar membros
+    membersTab: Membros
+    guestsTab: Convidados
+    noGuests: (Não há convidados neste workspace)
+    syncErrorBanner: "{count} membro(s) falharam ao sincronizar"
+    resyncAll: Ressincronizar tudo
+
+  workspaceMember:
+    owner: Proprietário
+    project: "{count} projeto"
+    projects: "{count} projetos"
+    diagram: "{count} diagrama"
+    diagrams: "{count} diagramas"
+    projectsGroupLabel: Projetos
+    diagramsGroupLabel: Diagramas
+    syncErrorTooltip: Falha na sincronização, tente ressincronizar
+    syncErrorBlocksEdit: Resolva o erro de sincronização antes de alterar a função deste membro
+    roleLabel: "Função: {role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: Administrador
+    editor: Editor
+    viewer: Visualizador
+    remove: Remover
+
+  # ========================================
+  # Confirm Removal Modal - Generic two-step (confirm, then OTP) destructive-action modal
+  # ========================================
+  confirmRemovalModal:
+    close: Fechar # Close button aria-label
+    otpTitle: Digite seu OTP # Header title shown once on the OTP step
+    otpLabel: Digite o código OTP enviado para o e-mail # Body text on the OTP step
+    resendPrefix: Não recebeu o OTP? # Text before the resend button
+    resend: Reenviar OTP # Resend button label
+    resendWithCooldown: "{label} ({seconds}s)" # Resend button label while on cooldown
+    errors:
+      requestFailed: Não foi possível enviar o código de confirmação. Tente novamente. # Error when sending the initial code fails
+      resendFailed: Não foi possível reenviar o código de confirmação. Tente novamente. # Error when resending the code fails
+      invalidCode: Código inválido, tente novamente. # Error when the submitted code is rejected

@@ -27,7 +27,7 @@ common:
     sendFeedback: Enviar comentarios # Link to feedback form (opens modal)
     askCommunity: Preguntar a la comunidad # Link to Discord/community forum
     suggestFeature: Sugerir función # Link to feature request board
-    contactUs: Contáctanos # Link to support email (dbdiagram@holistics.io)
+    contactUs: Contáctanos # Link to support email (dbdiagram{'@'}holistics.io)
     sampleDiagrams: Diagramas de ejemplo # Opens templates gallery modal
     sampleAirbnb: Ejemplo Airbnb # Opens Airbnb database schema template
     sampleEcommerce: Ejemplo de comercio electrónico # Opens e-commerce schema template
@@ -213,3 +213,96 @@ common:
       failedCheckVersion: Error al verificar el estado de la versión # Error toast (version check failed)
       pleaseSignInLoadLatest: Por favor, inicia sesión para cargar la versión más reciente # Login prompt toast (load version)
       failedLoadLatest: Error al cargar la versión más reciente # Error toast (load version failed)
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Plan actual
+    editSubscription: Editar suscripción
+    switchToBilling: "Cambiar a facturación {unit}"
+    updatePlan: Actualizar plan
+    nextPayment: "Tu próximo pago es de"
+    chargedOn: "se cobrará el <b>{date}</b>"
+    cancelledOn: "Tu suscripción se cancelará el <b>{date}</b>"
+    paymentMethod: Método de pago
+    noPaymentMethod: No hay método de pago.
+    editPaymentMethod: Editar método de pago
+    invoicing: Facturación
+    lastPayment: "Último pago: <b>{date}</b>"
+    noPaymentMade: No se ha realizado ningún pago.
+    manageInvoices: Administrar facturas
+    supportText: "Para soporte, escríbenos a:"
+    resync: Resincronizar
+    addons: Complementos
+    updateAddons: Actualizar complementos
+
+    billingPeriodUnit:
+      annual: anual
+      monthly: mensual
+
+    planAndAddonInfo:
+      includeAddon: "Incluye {quantity} {name}"
+      addonsLabel: "Complementos:"
+      additionalAddon: "{name} adicional x {quantity}"
+      addonName:
+        seat: "usuario | usuarios"
+        paidProject: "proyecto de documento de pago de dbdocs | proyectos de documento de pago de dbdocs"
+
+  userInfo:
+    you: (tú)
+
+  manageMembers:
+    title: Personas
+    planLabel: plan
+    docEditorsLabel: Editores de documentos
+    docEditorsTooltip: "Incluye:<ul class=\"list-disc list-inside\"><li>Propietario: El propietario del espacio de trabajo.</li><li>Administradores: Usuarios que pueden crear y actualizar proyectos en el espacio de trabajo y gestionar los roles de otros miembros.</li><li>Editores de documentos: Usuarios que pueden crear y actualizar proyectos en el espacio de trabajo.</li></ul>"
+    docViewersLabel: Lectores de documentos
+    docViewersTooltip: Usuarios que pueden ver los proyectos en el espacio de trabajo.
+    purchaseSlotsTooltip: Compra plazas para invitar a más editores de documentos a tu espacio de trabajo
+    purchaseSlots: Comprar plazas
+    upgradeInviteLine1: Invita a personas al espacio de trabajo y
+    upgradeInviteLine2: "colabora con el plan <b>Team</b>."
+    upgrade: Actualizar
+    addMembers: Añadir miembros
+    membersTab: Miembros
+    guestsTab: Invitados
+    noGuests: (No hay invitados en este espacio de trabajo)
+    syncErrorBanner: "{count} miembro(s) no se pudieron sincronizar"
+    resyncAll: Resincronizar todo
+
+  workspaceMember:
+    owner: Propietario
+    project: "{count} proyecto"
+    projects: "{count} proyectos"
+    diagram: "{count} diagrama"
+    diagrams: "{count} diagramas"
+    projectsGroupLabel: Proyectos
+    diagramsGroupLabel: Diagramas
+    syncErrorTooltip: Error de sincronización, intenta resincronizar
+    syncErrorBlocksEdit: Resuelve el error de sincronización antes de cambiar el rol de este miembro
+    roleLabel: "Rol: {role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: Administrador
+    editor: Editor
+    viewer: Visor
+    remove: Eliminar
+
+  # ========================================
+  # Confirm Removal Modal - Generic two-step (confirm, then OTP) destructive-action modal
+  # ========================================
+  confirmRemovalModal:
+    close: Cerrar # Close button aria-label
+    otpTitle: Ingresa tu OTP # Header title shown once on the OTP step
+    otpLabel: Ingresa el código OTP enviado al correo electrónico # Body text on the OTP step
+    resendPrefix: "¿No recibiste el OTP?" # Text before the resend button
+    resend: Reenviar OTP # Resend button label
+    resendWithCooldown: "{label} ({seconds}s)" # Resend button label while on cooldown
+    errors:
+      requestFailed: No se pudo enviar el código de confirmación. Inténtalo de nuevo. # Error when sending the initial code fails
+      resendFailed: No se pudo reenviar el código de confirmación. Inténtalo de nuevo. # Error when resending the code fails
+      invalidCode: Código inválido, inténtalo de nuevo. # Error when the submitted code is rejected

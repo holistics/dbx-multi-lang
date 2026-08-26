@@ -23,7 +23,7 @@ account:
     manageTitle: Quản lý tài khoản
     changeEmail: Thay đổi địa chỉ email
     changeEmailInProgress: Bạn đang có một thay đổi email đang được xử lý, vui lòng đợi
-    changeEmailFailed: "Thay đổi email lần trước đã thất bại, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io"
+    changeEmailFailed: "Thay đổi email lần trước đã thất bại, vui lòng liên hệ hỗ trợ tại dbdiagram{'@'}holistics.io"
 
     removal:
       removeAccount: Xóa tài khoản
@@ -35,7 +35,7 @@ account:
       cancelSuccess: Yêu cầu xóa đã được hủy thành công!
       status:
         inProgressTitle: Tài khoản của bạn đang được xóa.
-        inProgressDescription: Quá trình này có thể mất vài phút. Bạn có thể đóng cửa sổ này — quá trình sẽ tiếp tục ở nền.
+        inProgressDescription: Quá trình này có thể mất vài phút. Bạn có thể đóng cửa sổ này—quá trình sẽ tiếp tục ở nền.
         completedTitle: Tài khoản của bạn đã được xóa thành công.
         completedDescription: "Bạn có thể đóng cửa sổ này. Lưu ý: Bạn sẽ không bị đăng xuất tự động. Vui lòng đăng xuất thủ công từ các thiết bị khác."
         failedTitle: Xóa tài khoản thất bại.
@@ -143,7 +143,7 @@ account:
       inProgressText: Quá trình này có thể mất vài phút. Bạn vẫn có thể tiếp tục sử dụng ứng dụng.
       completedText: Email đã được cập nhật thành công trên tất cả các dịch vụ!
       failedTitle: Một số dịch vụ không thể đồng bộ email mới của bạn.
-      failedText: Email của bạn đã được thay đổi, nhưng một số dịch vụ có thể vẫn hiển thị email cũ. Vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io.
+      failedText: Email của bạn đã được thay đổi, nhưng một số dịch vụ có thể vẫn hiển thị email cũ. Vui lòng liên hệ hỗ trợ tại dbdiagram{'@'}holistics.io.
 
     errors:
       invalidEmail: Vui lòng nhập địa chỉ email hợp lệ

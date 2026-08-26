@@ -15,6 +15,8 @@ workspace:
   advanced: "Avanzato" # Label for advanced tier/sample (templates dropdown)
   myDiagrams: "I miei diagrammi" # Sidebar section for personal diagrams
   sharedWithMe: "Condivisi con me" # Sidebar section for shared diagrams
+  guestWorkspace: "Spazio di lavoro ospite"
+  guestLabel: "(ospite)"
   workspace: "Spazio di lavoro" # Label for team workspace type
   private: "Privato" # Privacy label for private items
   readOnlyMode: "Lo spazio di lavoro è in modalità sola lettura a causa dell'annullamento dell'abbonamento. Rinnova l'abbonamento per abilitare le funzionalità dello spazio di lavoro."
@@ -57,7 +59,7 @@ workspace:
     removeWorkspaceSuggestion: "Digita <i>elimina definitivamente</i> nel campo di testo per confermare." # Confirmation input prompt
     removalRequestCanceled: "Richiesta di rimozione annullata con successo!" # Success toast
     removalRequestCreated: "Richiesta di rimozione creata con successo!" # Success toast
-    contactSupportError: "Si è verificato un errore, contatta il nostro supporto all'indirizzo dbdiagram@holistics.io" # Support contact message
+    contactSupportError: "Si è verificato un errore, contatta il nostro supporto all'indirizzo dbdiagram{'@'}holistics.io" # Support contact message
     workspaceNameUpdated: "Nome dello spazio di lavoro aggiornato con successo" # Success toast
     workspaceNameUpdateFailed: "Aggiornamento del nome dello spazio di lavoro non riuscito, riprova!" # Error toast
     ssoConfigFetchFailed: "Impossibile recuperare la configurazione SSO. Prova a ricaricare la pagina." # Error toast
@@ -65,9 +67,43 @@ workspace:
     ssoConfigSaveFailed: "Impossibile salvare la configurazione SSO. Riprova." # Error toast
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Crea uno spazio di lavoro
+    settingUpTitle: Configurazione del tuo spazio di lavoro
+    nameLabel: Nome dello spazio di lavoro
+    namePlaceholder: "es. Team Acme"
+    cancel: Annulla
+    create: Crea
+    partiallyFailed: "Lo spazio di lavoro \"{name}\" è pronto, ma parte della configurazione non è stata completata."
+    partiallyFailedHint: Puoi iniziare a usarlo ora e completare la configurazione in seguito dalla pagina di gestione dello spazio di lavoro.
+    openWorkspace: Apri spazio di lavoro
+    retry: Riprova
+    fullyFailed: "Si è verificato un errore durante la configurazione dello spazio di lavoro \"{name}\"."
+    contactUs: Contattaci
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Riprova
+    contactUs: Contattaci
+    contactUsHint: se riprovare non risolve il problema.
+    checking:
+      title: "Verifica del tuo spazio di lavoro..."
+      description: Un momento mentre confermiamo che tutto sia sincronizzato.
+    partiallyFailed:
+      title: Il tuo spazio di lavoro non è completamente configurato.
+      description: Riprova per completare la configurazione.
+    fullyFailed:
+      title: Impossibile configurare il tuo spazio di lavoro.
+
+  # ========================================
   # Members - Member management
   # ========================================
   members:
+    unlimited: Illimitato
     invite: "Invita" # Invite button
     invitePlaceholder: "Inserisci indirizzo email" # Email input placeholder
     inviteButton: "Invita" # Send invite button
@@ -137,6 +173,17 @@ workspace:
     disabled: "(disabilitato)" # Disabled plan label
 
   # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: "Questo è uno spazio di lavoro legacy" # Modal title
+    description: "Questo spazio di lavoro utilizza uno dei nostri piani legacy, che non può essere aggiornato ai nuovi piani tariffari." # Modal description
+    contactPrefix: "Contatta" # Text before the support email link
+    contactSuffix: "e ti aiuteremo a effettuare la migrazione." # Text after the support email link
+    gotIt: "Ho capito" # Dismiss button
+
+  # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
@@ -180,3 +227,28 @@ workspace:
       nameWhitespace: "Il nome del token non può essere vuoto o contenere solo spazi" # Validation error
       upgradeRequired: "Effettua l'upgrade del tuo piano per creare token e accedere alla nostra API" # Upgrade required error
       ownerOnly: "Solo il proprietario dello spazio di lavoro può generare nuovi token" # Permission error
+
+  settingsTab:
+    generalTitle: "Generale"
+    displayNameLabel: "Nome visualizzato"
+    displayNamePlaceholder: "Il mio spazio di lavoro"
+    urlNameLabel: "Nome URL dello spazio di lavoro"
+    urlNameTooltip: "La modifica del nome dello spazio di lavoro renderà obsoleti tutti i link condivisi in precedenza"
+    urlNamePlaceholder: "il-mio-spazio-di-lavoro"
+    checkingUrlName: "Verifica della disponibilità di questo nome…"
+    workspacePreviewPrefix: "Spazio di lavoro:"
+    dbdocsPreviewPrefix: "dbdocs:"
+    saving: "Salvataggio…"
+    updateProfile: "Aggiorna profilo"
+    manageWorkspaceTitle: "Gestisci spazio di lavoro"
+    deleteWorkspaceButton: "Elimina questo spazio di lavoro"
+    deleteWarning: "Questa azione non può essere annullata. Eliminerà definitivamente tutti i tuoi dati su dbdiagram e dbdocs!"
+    urlNameInvalid: "Il nome URL deve contenere solo lettere minuscole, numeri e trattini (senza trattino iniziale/finale)."
+    urlNameTaken: "Questo nome non è disponibile."
+    checkUrlNameFailed: "Impossibile verificare il nome URL. Riprova."
+    settingsSaved: "Impostazioni dello spazio di lavoro salvate. Sincronizzazione con dbdiagram e dbdocs…"
+    settingsSaveFailed: "Impossibile aggiornare le impostazioni dello spazio di lavoro."
+    deleteModalTitle: "Eliminare questo spazio di lavoro?"
+    deleteModalContent: "Eliminare questo spazio di lavoro e tutti i suoi dati? Questa azione non può essere annullata. Ti invieremo un codice di conferma via email."
+    deleteModalConfirmLabel: "Elimina spazio di lavoro"
+    deletionStarted: "Eliminazione dello spazio di lavoro avviata."

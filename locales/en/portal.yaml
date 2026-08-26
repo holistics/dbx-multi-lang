@@ -41,7 +41,7 @@ portal:
         description: The redirect URI does not match the configuration. # Error description (redirect URI)
       unknown:
         title: Unexpected Error # Error title (generic)
-        description: Something went wrong. Please contact our support at dbdiagram@holistics.io # Error description (generic)
+        description: Something went wrong. Please contact our support at dbdiagram{'@'}holistics.io # Error description (generic)
 
   # ========================================
   # Logout - Logout messages
@@ -84,7 +84,7 @@ portal:
     internalServerError: An unexpected error occurred on the server. Please try again later. # 500 error
     serviceUnavailable: The service is temporarily unavailable. Please try again in a few moments. # 503 error
     networkError: Unable to connect to the server. Please check your internet connection and try again. # Network error
-    authenticationError: Authentication error. Please contact our support at dbdiagram@holistics.io # Auth error
+    authenticationError: Authentication error. Please contact our support at dbdiagram{'@'}holistics.io # Auth error
     windowNotOpened: This window was not opened properly. Please return to {clientName} and try again. # Window error
     windowClosed: The original application window was closed. Please return to {clientName} and try again. # Window closed error
     communicationFailed: Failed to communicate with {clientName}. Please try again # Communication error

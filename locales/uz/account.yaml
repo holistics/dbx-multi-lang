@@ -28,7 +28,7 @@ account:
     manageTitle: Hisobni boshqarish # Section title
     changeEmail: "Elektron pochta manzilini o'zgartirish" # Change email button label
     changeEmailInProgress: "Sizda elektron pochtani o'zgartirish jarayoni davom etmoqda, iltimos kuting" # Disabled message when email change is in progress
-    changeEmailFailed: "Oxirgi marta elektron pochtani o'zgartirish amalga oshmadi, iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning" # Disabled message when last email change failed
+    changeEmailFailed: "Oxirgi marta elektron pochtani o'zgartirish amalga oshmadi, iltimos, dbdiagram{'@'}holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning" # Disabled message when last email change failed
 
     # Account removal
     removal:
@@ -41,7 +41,7 @@ account:
       cancelSuccess: "O'chirish so'rovi muvaffaqiyatli bekor qilindi!" # Success toast after canceling
       status:
         inProgressTitle: Hisobingizni o'chirish jarayoni davom etmoqda.
-        inProgressDescription: Bu bir necha daqiqa vaqt olishi mumkin. Ushbu oynani xavfsiz yopishingiz mumkin — jarayon fonda davom etadi.
+        inProgressDescription: Bu bir necha daqiqa vaqt olishi mumkin. Ushbu oynani xavfsiz yopishingiz mumkin—jarayon fonda davom etadi.
         completedTitle: Hisobingiz muvaffaqiyatli o'chirildi.
         completedDescription: "Ushbu oynani xavfsiz yopishingiz mumkin. Eslatma: tizimdan avtomatik chiqarilmaysiz. Iltimos, boshqa qurilmalardan tizimdan o'zingiz chiqing."
         failedTitle: Hisobni o'chirish amalga oshmadi.
@@ -158,7 +158,7 @@ account:
       inProgressText: Bu bir necha daqiqa vaqt olishi mumkin. Siz hali ham dasturdan foydalanishda davom etishingiz mumkin. # Notification body while syncing
       completedText: "Elektron pochta barcha xizmatlar bo'ylab muvaffaqiyatli yangilandi!" # Success notification
       failedTitle: "Ba'zi xizmatlar yangi elektron pochtangizni sinxronlashtira olmadi." # Warning notification title
-      failedText: "Elektron pochtangiz o'zgartirildi, lekin ba'zi xizmatlar hali ham eskisini ko'rsatishi mumkin. Iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmatiga murojaat qiling." # Warning notification body
+      failedText: "Elektron pochtangiz o'zgartirildi, lekin ba'zi xizmatlar hali ham eskisini ko'rsatishi mumkin. Iltimos, dbdiagram{'@'}holistics.io orqali qo'llab-quvvatlash xizmatiga murojaat qiling." # Warning notification body
 
     # Error messages
     errors:

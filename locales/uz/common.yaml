@@ -27,7 +27,7 @@ common:
     sendFeedback: Fikr-mulohaza yuborish # Link to feedback form (opens modal)
     askCommunity: Jamiyatdan so'rash # Link to Discord/community forum
     suggestFeature: Yangi funksiya taklif qilish # Link to feature request board
-    contactUs: "Biz bilan bog'lanish" # Link to support email (dbdiagram@holistics.io)
+    contactUs: "Biz bilan bog'lanish" # Link to support email (dbdiagram{'@'}holistics.io)
     sampleDiagrams: Namunaviy diagrammalar # Opens templates gallery modal
     sampleAirbnb: Airbnb namunasi # Opens Airbnb database schema template
     sampleEcommerce: E-commerce namunasi # Opens e-commerce schema template
@@ -182,7 +182,7 @@ common:
       fullSession: Sessiya to'lganligi sababli ulanib bo'lmadi! # Toast when collaboration session full
       diagramDeleted: Ushbu diagramma o'chirilgan! # Toast when diagram deleted by owner
       overwrittenDiagram: Kimdir diagramma tarkibini ustidan yozdi, oxirgi o'zgarishlarni ko'rish uchun sahifani yangilang! # Toast when remote changes
-      diagramMigratedDiagramViewAsCode: Sizning diagramma ko'rinishlaringiz (views) yangi "Diagram View as Code" formatiga o'tkazildi. Davom etish uchun sahifani yangilang. Agar muammoga duch kelsangiz, dbdiagram@holistics.io ga murojaat qiling. # Toast when DiagramView-as-code migration completes
+      diagramMigratedDiagramViewAsCode: Sizning diagramma ko'rinishlaringiz (views) yangi "Diagram View as Code" formatiga o'tkazildi. Davom etish uchun sahifani yangilang. Agar muammoga duch kelsangiz, dbdiagram{'@'}holistics.io ga murojaat qiling. # Toast when DiagramView-as-code migration completes
       permissionsChanged: Ruxsatlaringiz o'zgartirildi, o'zgarishlarni qo'llash uchun sahifani yangilang! # Toast when permissions updated
       cannotReconnect: Serverga qayta ulanib bo'lmadi # Toast when reconnection fails
 
@@ -213,3 +213,96 @@ common:
       failedCheckVersion: Versiya holatini tekshirib bo'lmadi # Error toast (version check failed)
       pleaseSignInLoadLatest: Oxirgi versiyani yuklash uchun tizimga kiring # Login prompt toast (load version)
       failedLoadLatest: Oxirgi versiyani yuklab bo'lmadi # Error toast (load version failed)
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Joriy reja
+    editSubscription: Obunani tahrirlash
+    switchToBilling: "{unit} bo'yicha to'lovga o'tish"
+    updatePlan: Rejani yangilash
+    nextPayment: "Keyingi to'lovingiz"
+    chargedOn: "<b>{date}</b> sanasida yechib olinadi"
+    cancelledOn: "Obunangiz <b>{date}</b> sanasida bekor qilinadi"
+    paymentMethod: To'lov usuli
+    noPaymentMethod: To'lov usuli yo'q.
+    editPaymentMethod: To'lov usulini tahrirlash
+    invoicing: Hisob-fakturalar
+    lastPayment: "Oxirgi to'lov: <b>{date}</b>"
+    noPaymentMade: Hech qanday to'lov amalga oshirilmagan.
+    manageInvoices: Hisob-fakturalarni boshqarish
+    supportText: "Yordam uchun quyidagi manzilga xat yozing:"
+    resync: Qayta sinxronlash
+    addons: Qo'shimchalar
+    updateAddons: Qo'shimchalarni yangilash
+
+    billingPeriodUnit:
+      annual: yillik
+      monthly: oylik
+
+    planAndAddonInfo:
+      includeAddon: "{quantity} {name} kiritilgan"
+      addonsLabel: "Qo'shimchalar:"
+      additionalAddon: "Qo'shimcha {name} x {quantity}"
+      addonName:
+        seat: "foydalanuvchi | foydalanuvchi"
+        paidProject: "dbdocs-ning pullik hujjat loyihasi | dbdocs-ning pullik hujjat loyihasi"
+
+  userInfo:
+    you: (siz)
+
+  manageMembers:
+    title: Odamlar
+    planLabel: reja
+    docEditorsLabel: Hujjat muharrirlari
+    docEditorsTooltip: "Quyidagilarni o'z ichiga oladi:<ul class=\"list-disc list-inside\"><li>Egasi: Ish makonining egasi.</li><li>Administratorlar: Ish makonida loyihalarni yaratish, yangilash va boshqa ish makoni a'zolarining rollarini boshqarish huquqiga ega foydalanuvchilar.</li><li>Hujjat muharrirlari: Ish makonida loyihalarni yaratish va yangilash huquqiga ega foydalanuvchilar.</li></ul>"
+    docViewersLabel: Hujjat ko'ruvchilari
+    docViewersTooltip: Ish makonidagi loyihalarni ko'rish huquqiga ega foydalanuvchilar.
+    purchaseSlotsTooltip: Ish makoningizga ko'proq hujjat muharrirlarini taklif qilish uchun joy sotib oling
+    purchaseSlots: Joy sotib olish
+    upgradeInviteLine1: Odamlarni ish makoniga taklif qiling va
+    upgradeInviteLine2: "<b>Team</b> reja bilan hamkorlik qiling."
+    upgrade: Yangilash
+    addMembers: A'zo qo'shish
+    membersTab: A'zolar
+    guestsTab: Mehmonlar
+    noGuests: (Bu ish makonida mehmonlar yo'q)
+    syncErrorBanner: "{count} a'zoni sinxronlashda xatolik yuz berdi"
+    resyncAll: Barchasini qayta sinxronlash
+
+  workspaceMember:
+    owner: Egasi
+    project: "{count} loyiha"
+    projects: "{count} loyiha"
+    diagram: "{count} diagramma"
+    diagrams: "{count} diagramma"
+    projectsGroupLabel: Loyihalar
+    diagramsGroupLabel: Diagrammalar
+    syncErrorTooltip: Sinxronlashda xatolik, qayta sinxronlashga urinib ko'ring
+    syncErrorBlocksEdit: Ushbu a'zoning rolini o'zgartirishdan oldin sinxronlash xatosini bartaraf eting
+    roleLabel: "Rol: {role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: Administrator
+    editor: Muharrir
+    viewer: Ko'ruvchi
+    remove: Olib tashlash
+
+  # ========================================
+  # Confirm Removal Modal - Generic two-step (confirm, then OTP) destructive-action modal
+  # ========================================
+  confirmRemovalModal:
+    close: Yopish # Close button aria-label
+    otpTitle: OTP kodini kiriting # Header title shown once on the OTP step
+    otpLabel: Elektron pochtaga yuborilgan OTP kodini kiriting # Body text on the OTP step
+    resendPrefix: OTP kodini olmadingizmi? # Text before the resend button
+    resend: OTP kodini qayta yuborish # Resend button label
+    resendWithCooldown: "{label} ({seconds}s)" # Resend button label while on cooldown
+    errors:
+      requestFailed: Tasdiqlash kodini yuborib bo'lmadi. Qaytadan urinib ko'ring. # Error when sending the initial code fails
+      resendFailed: Tasdiqlash kodini qayta yuborib bo'lmadi. Qaytadan urinib ko'ring. # Error when resending the code fails
+      invalidCode: Kod noto'g'ri, qaytadan urinib ko'ring. # Error when the submitted code is rejected

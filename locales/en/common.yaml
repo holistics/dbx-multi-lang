@@ -27,7 +27,7 @@ common:
     sendFeedback: Send Feedback # Link to feedback form (opens modal)
     askCommunity: Ask Community # Link to Discord/community forum
     suggestFeature: Suggest Feature # Link to feature request board
-    contactUs: Contact Us # Link to support email (dbdiagram@holistics.io)
+    contactUs: Contact Us # Link to support email (dbdiagram{'@'}holistics.io)
     sampleDiagrams: Sample Diagrams # Opens templates gallery modal
     sampleAirbnb: Sample Airbnb # Opens Airbnb database schema template
     sampleEcommerce: Sample E-commerce # Opens e-commerce schema template
@@ -213,3 +213,105 @@ common:
       failedCheckVersion: Failed to check version status # Error toast (version check failed)
       pleaseSignInLoadLatest: Please sign in to load latest version # Login prompt toast (load version)
       failedLoadLatest: Failed to load latest version # Error toast (load version failed)
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Current plan
+    editSubscription: Edit subscription
+    switchToBilling: "Switch to {unit} billing"
+    updatePlan: Update plan
+    nextPayment: "Your next payment is"
+    chargedOn: "to be charged on <b>{date}</b>"
+    cancelledOn: "Your subscription will be cancelled on <b>{date}</b>"
+    paymentMethod: Payment Method
+    noPaymentMethod: No payment method.
+    editPaymentMethod: Edit payment method
+    invoicing: Invoicing
+    lastPayment: "Last payment: <b>{date}</b>"
+    noPaymentMade: No payment made.
+    manageInvoices: Manage invoices
+    supportText: "For support, email us at:"
+    resync: Resync
+    addons: Add-ons
+    updateAddons: Update add-ons
+
+    billingPeriodUnit:
+      annual: annual
+      monthly: monthly
+
+    planAndAddonInfo:
+      includeAddon: "Include {quantity} {name}"
+      addonsLabel: "Addons:"
+      additionalAddon: "Additional {name} x {quantity}"
+      addonName:
+        seat: "user | users"
+        paidProject: "dbdocs's paid doc project | dbdocs's paid doc projects"
+
+  # ========================================
+  # User info - Shared "current user" indicator (avatar tooltips, member lists)
+  # ========================================
+  userInfo:
+    you: (you) # Label appended after the current user's name, e.g. "Jane Doe (you)"
+
+  # ========================================
+  # Manage Members - Workspace people/guests management panel
+  # ========================================
+  manageMembers:
+    title: People
+    planLabel: plan
+    docEditorsLabel: Doc Editors
+    docEditorsTooltip: "Includes:<ul class=\"list-disc list-inside\"><li>Owner: The owner of the workspace.</li><li>Admins: Users who can create, update projects in the workspace and manage other workspace member roles.</li><li>Doc Editors: Users who can create and update projects in the workspace.</li></ul>" # HTML tooltip content
+    docViewersLabel: Doc Viewers
+    docViewersTooltip: Users who can view projects in the workspace.
+    purchaseSlotsTooltip: Purchase slots to invite more doc editors to your workspace
+    purchaseSlots: Purchase slots
+    upgradeInviteLine1: Invite people to workspace &
+    upgradeInviteLine2: "collaborate with <b>Team</b> plan." # {teamPlan} is bolded inline
+    upgrade: Upgrade
+    addMembers: Add members
+    membersTab: Members
+    guestsTab: Guests
+    noGuests: (No guests in this workspace)
+    syncErrorBanner: "{count} member(s) failed to sync"
+    resyncAll: Resync all
+
+  # ========================================
+  # Workspace Member - Single row in the members/guests/invitations list
+  # ========================================
+  workspaceMember:
+    owner: Owner
+    project: "{count} project" # Singular
+    projects: "{count} projects" # Plural
+    diagram: "{count} diagram" # Singular
+    diagrams: "{count} diagrams" # Plural
+    projectsGroupLabel: Projects # Header above the project list in a guest's access dropdown
+    diagramsGroupLabel: Diagrams # Header above the diagram list in a guest's access dropdown
+    syncErrorTooltip: Failed to sync, please try resyncing
+    syncErrorBlocksEdit: Resolve the sync error before changing this member's role
+    roleLabel: "Role: {role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: Admin
+    editor: Editor
+    viewer: Viewer
+    remove: Remove
+
+  # ========================================
+  # Confirm Removal Modal - Generic two-step (confirm, then OTP) destructive-action modal
+  # ========================================
+  confirmRemovalModal:
+    close: Close # Close button aria-label
+    otpTitle: Input your OTP # Header title shown once on the OTP step
+    otpLabel: Please input the OTP code sent to the email # Body text on the OTP step
+    resendPrefix: "Didn't receive the OTP?" # Text before the resend button
+    resend: Resend OTP # Resend button label
+    resendWithCooldown: "{label} ({seconds}s)" # Resend button label while on cooldown
+    errors:
+      requestFailed: Could not send the confirmation code. Please try again. # Error when sending the initial code fails
+      resendFailed: Could not resend the confirmation code. Please try again. # Error when resending the code fails
+      invalidCode: Invalid code, please try again. # Error when the submitted code is rejected

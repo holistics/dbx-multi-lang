@@ -15,6 +15,8 @@ workspace:
   advanced: 고급      # Label for advanced tier/sample (templates dropdown)
   myDiagrams: 내 다이어그램     # Sidebar section for personal diagrams
   sharedWithMe: 나와 공유됨         # Sidebar section for shared diagrams
+  guestWorkspace: 게스트 워크스페이스
+  guestLabel: (게스트)
   workspace: 워크스페이스      # Label for team workspace type
   private: 비공개     # Privacy label for private items
   readOnlyMode: 구독 취소로 인해 워크스페이스가 읽기 전용 모드입니다. 워크스페이스 기능을 활성화하려면 갱신하세요.
@@ -66,9 +68,43 @@ workspace:
     ssoConfigSaveFailed: SSO 구성을 저장하지 못했습니다. 다시 시도해 주세요.                     # Error toast
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: 워크스페이스 만들기 # Modal title (form state)
+    settingUpTitle: 워크스페이스를 설정하고 있습니다 # Modal title (provisioning state)
+    nameLabel: 워크스페이스 이름 # Input label
+    namePlaceholder: "예: Acme Team" # Input placeholder
+    cancel: 취소 # Cancel button
+    create: 만들기 # Create button
+    partiallyFailed: "워크스페이스 \"{name}\"이(가) 준비되었지만, 설정의 일부가 완료되지 않았습니다." # Partial failure message
+    partiallyFailedHint: 지금 바로 사용을 시작하고 워크스페이스 관리 페이지에서 나중에 설정을 완료할 수 있습니다. # Partial failure hint
+    openWorkspace: 워크스페이스 열기 # Open workspace button
+    retry: 재시도 # Retry button
+    fullyFailed: "\"{name}\" 워크스페이스를 설정하는 중에 문제가 발생했습니다." # Full failure message
+    contactUs: 문의하기 # Contact us button
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: 재시도 # Retry button
+    contactUs: 문의하기 # Contact us link
+    contactUsHint: 재시도해도 해결되지 않으면 # Text after contact us link
+    checking:
+      title: "워크스페이스를 확인하고 있습니다..." # Checking state title
+      description: 모든 것이 동기화되었는지 확인하는 중입니다. 잠시만 기다려 주세요. # Checking state description
+    partiallyFailed:
+      title: 워크스페이스가 완전히 설정되지 않았습니다. # Partial failure title
+      description: 설정을 완료하려면 재시도해 주세요. # Failure description
+    fullyFailed:
+      title: 워크스페이스 설정에 실패했습니다. # Full failure title
+
+  # ========================================
   # Members - Member management
   # ========================================
   members:
+    unlimited: 무제한
     invite: 초대   # Invite button
     invitePlaceholder: 이메일 주소를 입력하세요       # Email input placeholder
     inviteButton: 초대   # Send invite button
@@ -138,6 +174,17 @@ workspace:
     disabled: "(비활성화됨)"   # Disabled plan label
 
   # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: 이 워크스페이스는 레거시 워크스페이스입니다 # Modal title
+    description: 이 워크스페이스는 새로운 요금제로 업그레이드할 수 없는 레거시 요금제를 사용 중입니다. # Modal description
+    contactPrefix: 다음 주소로 문의해 주세요 # Text before the support email link
+    contactSuffix: 이전을 도와드리겠습니다. # Text after the support email link
+    gotIt: 확인했습니다 # Dismiss button
+
+  # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
@@ -182,3 +229,28 @@ workspace:
       nameWhitespace: 토큰 이름은 비어 있거나 공백만 포함할 수 없습니다.                          # Validation error
       upgradeRequired: 토큰을 생성하고 API에 접근하려면 플랜을 업그레이드하세요.                           # Upgrade required error
       ownerOnly: 워크스페이스 소유자만 새 토큰을 생성할 수 있습니다.                # Permission error
+
+  settingsTab:
+    generalTitle: 일반
+    displayNameLabel: 표시 이름
+    displayNamePlaceholder: 내 워크스페이스
+    urlNameLabel: 워크스페이스 URL 이름
+    urlNameTooltip: 워크스페이스 이름을 변경하면 기존에 공유된 모든 링크가 더 이상 작동하지 않습니다
+    urlNamePlaceholder: my-workspace-url
+    checkingUrlName: 이 이름을 사용할 수 있는지 확인 중입니다…
+    workspacePreviewPrefix: '워크스페이스:'
+    dbdocsPreviewPrefix: 'dbdocs:'
+    saving: 저장 중…
+    updateProfile: 프로필 업데이트
+    manageWorkspaceTitle: 워크스페이스 관리
+    deleteWorkspaceButton: 이 워크스페이스 삭제
+    deleteWarning: 이 작업은 되돌릴 수 없습니다. dbdiagram과 dbdocs에 있는 모든 데이터가 영구적으로 삭제됩니다!
+    urlNameInvalid: URL 이름은 소문자, 숫자, 하이픈만 사용할 수 있습니다(처음/끝에 하이픈 불가).
+    urlNameTaken: 이 이름은 사용할 수 없습니다.
+    checkUrlNameFailed: URL 이름을 확인할 수 없습니다. 다시 시도해 주세요.
+    settingsSaved: 워크스페이스 설정이 저장되었습니다. dbdiagram과 dbdocs에 동기화 중입니다…
+    settingsSaveFailed: 워크스페이스 설정 업데이트에 실패했습니다.
+    deleteModalTitle: 이 워크스페이스를 삭제하시겠습니까?
+    deleteModalContent: 이 워크스페이스와 모든 데이터를 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다. 확인 코드를 이메일로 보내드립니다.
+    deleteModalConfirmLabel: 워크스페이스 삭제
+    deletionStarted: 워크스페이스 삭제가 시작되었습니다.

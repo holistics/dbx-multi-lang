@@ -15,6 +15,8 @@ workspace:
   advanced: Gelişmiş # Label for advanced tier/sample (templates dropdown)
   myDiagrams: Diyagramlarım # Sidebar section for personal diagrams
   sharedWithMe: Benimle Paylaşılanlar # Sidebar section for shared diagrams
+  guestWorkspace: Misafir Çalışma Alanı
+  guestLabel: (misafir)
   workspace: Çalışma Alanı # Label for team workspace type
   private: Gizli # Privacy label for private items
   readOnlyMode: Abonelik iptali sebebiyle çalışma alanı salt okunur modda. Çalışma alanı özelliklerini kullanmak için aboneliğinizi yenileyin.
@@ -57,7 +59,7 @@ workspace:
     removeWorkspaceSuggestion: "İşlemi onaylamak için lütfen metin giriş alanına <i>kalıcı olarak sil</i> (permanently delete) yazın." # Confirmation input prompt
     removalRequestCanceled: Silme isteği başarıyla iptal edildi! # Success toast
     removalRequestCreated: Silme isteği başarıyla oluşturuldu! # Success toast
-    contactSupportError: Bir hata oluştu, lütfen dbdiagram@holistics.io adresinden destek ekibimizle iletişime geçin # Support contact message
+    contactSupportError: Bir hata oluştu, lütfen dbdiagram{'@'}holistics.io adresinden destek ekibimizle iletişime geçin # Support contact message
     workspaceNameUpdated: Çalışma alanı adı başarıyla güncellendi # Success toast
     workspaceNameUpdateFailed: Çalışma alanı adı güncellenemedi, lütfen tekrar deneyin! # Error toast
     ssoConfigFetchFailed: SSO yapılandırması alınamadı. Lütfen sayfayı yenilemeyi deneyin. # Error toast
@@ -65,9 +67,43 @@ workspace:
     ssoConfigSaveFailed: SSO yapılandırması kaydedilemedi. Lütfen tekrar deneyin. # Error toast
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Çalışma alanı oluştur
+    settingUpTitle: Çalışma alanınız kuruluyor
+    nameLabel: Çalışma alanı adı
+    namePlaceholder: "ör. Acme Takımı"
+    cancel: İptal
+    create: Oluştur
+    partiallyFailed: "\"{name}\" çalışma alanı hazır, ancak kurulumun bir kısmı tamamlanamadı."
+    partiallyFailedHint: Şimdi kullanmaya başlayabilir ve kurulumu daha sonra çalışma alanı yönetim sayfasından tamamlayabilirsiniz.
+    openWorkspace: Çalışma alanını aç
+    retry: Tekrar dene
+    fullyFailed: "\"{name}\" çalışma alanı kurulurken bir hata oluştu."
+    contactUs: Bize ulaşın
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Tekrar dene
+    contactUs: Bize ulaşın
+    contactUsHint: tekrar denemek işe yaramazsa.
+    checking:
+      title: "Çalışma alanınız kontrol ediliyor..."
+      description: Her şeyin senkronize olduğunu doğrularken bir an bekleyin.
+    partiallyFailed:
+      title: Çalışma alanınız tam olarak kurulmadı.
+      description: Kurulumu tamamlamak için lütfen tekrar deneyin.
+    fullyFailed:
+      title: Çalışma alanınız kurulamadı.
+
+  # ========================================
   # Members - Member management
   # ========================================
   members:
+    unlimited: Sınırsız
     invite: Davet et # Invite button
     invitePlaceholder: E-posta adresini girin # Email input placeholder
     inviteButton: Davet Gönder # Send invite button
@@ -137,6 +173,17 @@ workspace:
     disabled: "(devre dışı)" # Disabled plan label
 
   # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: Bu, eski (legacy) bir çalışma alanı # Modal title
+    description: Bu çalışma alanı, yeni fiyatlandırma planlarına yükseltilemeyen eski planlarımızdan birinde. # Modal description
+    contactPrefix: Lütfen # Text before the support email link
+    contactSuffix: ile iletişime geçin, taşınmanız için size yardımcı olalım. # Text after the support email link
+    gotIt: Anladım # Dismiss button
+
+  # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
@@ -180,3 +227,31 @@ workspace:
       nameWhitespace: Token adı boş olamaz veya yalnızca boşluklardan oluşamaz # Validation error
       upgradeRequired: Token oluşturmak ve API'lerimize erişmek için lütfen planınızı yükseltin # Upgrade required error
       ownerOnly: Yalnızca çalışma alanı sahibi yeni token oluşturabilir # Permission error
+
+  # ========================================
+  # Settings Tab - Portal workspace Settings page (rename + url-name + delete)
+  # ========================================
+  settingsTab:
+    generalTitle: Genel # "General" section heading
+    displayNameLabel: Görünen ad # Display name field label
+    displayNamePlaceholder: Çalışma alanım # Display name input placeholder
+    urlNameLabel: Çalışma alanı URL adı # URL name field label
+    urlNameTooltip: Çalışma alanı adını değiştirmek, önceki tüm paylaşılan bağlantılarınızın geçersiz olmasına neden olur # Info tooltip next to the URL name label
+    urlNamePlaceholder: my-workspace-url # URL name input placeholder
+    checkingUrlName: Bu adın uygun olup olmadığı kontrol ediliyor… # Live availability check message
+    workspacePreviewPrefix: 'Çalışma alanı:' # Label before the Portal URL preview
+    dbdocsPreviewPrefix: 'dbdocs:' # Label before the dbdocs URL preview
+    saving: Kaydediliyor… # Submit button label while saving
+    updateProfile: Profili güncelle # Submit button label
+    manageWorkspaceTitle: Çalışma alanını yönet # "Manage workspace" (danger zone) section heading
+    deleteWorkspaceButton: Bu çalışma alanını sil # Delete button label
+    deleteWarning: Bu işlem geri alınamaz. dbdiagram ve dbdocs'taki tüm verileriniz kalıcı olarak silinecektir! # Warning text next to the delete button
+    urlNameInvalid: URL adı yalnızca küçük harf, rakam ve tire içermelidir (başında/sonunda tire olamaz). # Validation error
+    urlNameTaken: Bu ad kullanılamıyor. # Validation error
+    checkUrlNameFailed: URL adı kontrol edilemedi. Lütfen tekrar deneyin. # Error toast
+    settingsSaved: Çalışma alanı ayarları kaydedildi. dbdiagram ve dbdocs ile senkronize ediliyor… # Success toast
+    settingsSaveFailed: Çalışma alanı ayarları güncellenemedi. # Error toast
+    deleteModalTitle: Bu çalışma alanı silinsin mi? # Delete confirmation modal title
+    deleteModalContent: Bu çalışma alanı ve tüm verileri silinsin mi? Bu işlem geri alınamaz. Size bir onay kodu e-posta ile göndereceğiz. # Delete confirmation modal content
+    deleteModalConfirmLabel: Çalışma alanını sil # Delete confirmation modal confirm button
+    deletionStarted: Çalışma alanı silme işlemi başlatıldı. # Success toast after confirming deletion

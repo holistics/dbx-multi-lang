@@ -1,0 +1,330 @@
+# Pricing translations - Public pricing page, plan cards, feature comparison, FAQ
+# UI Areas: Pricing landing page, Plan cards, Feature blocks, Comparison table, dbdocs promos
+
+pricing:
+  # ========================================
+  # Pricing Landing Page - Top-level headings
+  # ========================================
+  landing:
+    badge: Un unico piano per dbdiagram e dbdocs # Badge above title
+    title: Aggiorna il tuo spazio di lavoro # Page title
+    subtitle: Ogni piano a pagamento include dbdiagram e dbdocs insieme. # Subtitle
+
+  modal:
+    subtitle: Sempre gratuito. Ottieni più potenza con i nostri piani tariffari.
+    alwaysFree:
+      label: Sempre gratuito
+      text: "Ogni piano include anche:"
+      dbmlCaption: Specifica di schema aperta
+      runsqlCaption: Playground SQL basato su browser
+    provisioningTitle: "Configurazione del tuo spazio di lavoro…"
+
+  # ========================================
+  # Misc UI labels
+  # ========================================
+  ui:
+    learnMore: Scopri di più →
+    faqTitle: Domande frequenti
+    taxNote: "* Il pagamento è soggetto alle tasse del tuo paese"
+    plansAndFeatures: Piani e funzionalità
+    features: Funzionalità
+    whatsInProPlan: Cosa include il piano Personal Pro?
+    whatsInTeamPlan: Cosa include il piano Team?
+    dbdocsFreePaidTitle: dbdocs
+    dbdocsFreePaidHeading: Gratuito vs A pagamento
+
+  # ========================================
+  # Billing Toggle - Monthly/Annual switch
+  # ========================================
+  billingToggle:
+    monthly: Mensile # Left toggle label
+    annual: Annuale # Right toggle label
+    saveUpTo: "Risparmia fino al {percent}%" # Save badge text
+
+  # ========================================
+  # Plan Names
+  # ========================================
+  planNames:
+    free: Free # Free plan name
+    personalPro: Personal Pro # Personal Pro plan name
+    team: Team # Team plan name
+    customPlan: Custom Plan # Enterprise/Custom plan name
+
+  # ========================================
+  # Plan Taglines
+  # ========================================
+  taglines:
+    free: Per singoli utenti che progettano schemi e condividono documenti pubblici. # Free plan tagline
+    pro: Per freelancer e consulenti che progettano e documentano. # Pro plan tagline
+    team: Per team che progettano e documentano database insieme. # Team plan tagline
+    enterprise: Per organizzazioni con esigenze di sicurezza e procurement. # Enterprise plan tagline
+
+  # ========================================
+  # Plan Card - Price display
+  # ========================================
+  price:
+    free: Gratuito # Free plan price text
+    freeNote: "e lo è per sempre" # Free plan price note
+    customPricing: Prezzo personalizzato # Enterprise price text
+    contactForPricing: Contattaci per i prezzi # Enterprise price note
+    perMonth: /mese # Per month unit suffix
+    billedAnnually: "Fatturato annualmente - {currency}{amount} all'anno" # Annual billing hint
+    billedMonthly: Fatturato mensilmente # Monthly billing hint
+
+  # ========================================
+  # Plan Card - CTA Buttons
+  # ========================================
+  cta:
+    getStartedFree: Inizia gratis # Free plan CTA
+    upgradeNow: Aggiorna ora # Pro/Team upgrade CTA
+    startFreeTrial: Inizia la prova gratuita di 7 giorni # Team trial CTA
+    contactSales: Contatta il team vendite # Enterprise CTA
+    downgrade: Downgrade # Downgrade button
+    currentPlan: Piano attuale # Current plan label
+
+  # ========================================
+  # Plan Card - Recommended badge
+  # ========================================
+  recommended: Consigliato # Recommended badge on plan card
+
+  # ========================================
+  # Plan Card - Inherits from
+  # ========================================
+  inheritsFrom:
+    prefix: "Tutto ciò che è incluso in" # "Everything in {plan}, plus"
+    suffix: ", più" # suffix after plan name
+    free: Free # Inherits from Free
+    personalPro: Personal Pro # Inherits from Personal Pro
+    team: Team # Inherits from Team
+
+  # ========================================
+  # Plan Card - Tier limits
+  # ========================================
+  tiers:
+    upTo10Diagrams: Fino a 10 diagrammi e progetti doc # Free tier capacity
+    unlimitedDiagrams: Diagrammi e progetti doc illimitati # Paid tier capacity
+    users: "Utente singolo | {count} utenti"
+    docProjects: "{count} progetto doc a pagamento dbdocs | {count} progetti doc a pagamento dbdocs"
+
+  # ========================================
+  # Plan Card - Add-ons
+  # ========================================
+  addons:
+    label: "Componenti aggiuntivi:" # Add-ons section label
+    extraDocProject: Progetto doc a pagamento aggiuntivo # Doc project addon name
+    extraUser: Utente aggiuntivo # User addon name
+    extraUserTooltip: "Una licenza utente è per gli editor — le persone che creano e modificano diagrammi e documenti. I visualizzatori sono sempre gratuiti e non necessitano di una licenza." # User addon tooltip
+
+  # ========================================
+  # Plan Card - Features lists
+  # ========================================
+  cardFeatures:
+    free:
+      sqlImportExport: Importazione ed esportazione SQL
+      exportFormats: Esportazione in PDF/PNG/SVG
+      publicSharing: Condivisione pubblica
+      embedDiagrams: Incorpora diagrammi e documenti nel tuo sito
+      dataSample: Dati di esempio
+      cliIntegration: Integrazione pipeline CI/CD con dbdiagram CLI
+    pro:
+      unlimitedViews: Viste del diagramma illimitate
+      passwordProtected: Condivisione protetta da password e privata
+      limitedCollaboration: Collaborazione limitata
+      advancedVisualization: Visualizzazione avanzata per lavorare con database di grandi dimensioni
+    team:
+      collaborativeWorkspace: Spazio di lavoro collaborativo
+      teamManagement: Gestione del team e collaborazione
+      unifiedBilling: Amministrazione e fatturazione unificate
+    enterprise:
+      prioritizedFeature: Richiesta di funzionalità prioritaria
+      procurementReview: Revisione legale o di procurement
+      customPayment: Termini di pagamento personalizzati
+      samlSso: SAML SSO
+      activityLog: Registro attività utente (in arrivo)
+      ipAllowList: IP allow list (in arrivo)
+
+  # ========================================
+  # Feature Blocks - Pro features
+  # ========================================
+  featureBlocks:
+    pro:
+      diagramViews:
+        title: Inizia in piccolo con le Viste del diagramma
+        description: "Pensa in grande, inizia in piccolo. Crea molteplici viste focalizzate dello stesso diagramma. Mostra le tabelle necessarie per un dominio, un flusso di lavoro o una conversazione del team."
+      passwordProtection:
+        title: Proteggi il diagramma con la Protezione con password
+        description: Proteggi i tuoi diagrammi con la Protezione con password e migliora la privacy. Perfetto per la condivisione interna nel team.
+      tableGroups:
+        title: Organizza meglio con Gruppo di tabelle
+        description: Raggruppa più tabelle insieme per una visualizzazione più semplice. Riduci il carico di lavoro quando lavori con un database che ha molte tabelle.
+      headerColors:
+        title: Gestisci i tuoi diagrammi con il Colore dell'intestazione
+        description: Gestisci facilmente i tuoi diagrammi e documenti di database cambiando i colori dell'intestazione delle tabelle e rendili più colorati!
+      detailLevels:
+        title: Semplifica i tuoi diagrammi con i Livelli di dettaglio
+        description: Passa tra diversi livelli di dettaglio per semplificare i tuoi diagrammi. Questa funzione è particolarmente utile quando lavori con progetti di database di grandi dimensioni.
+      stickyNotes:
+        title: Collabora meglio con le Note adesive
+        description: "Hai bisogno di annotare un rapido promemoria o approfondire un'idea complessa? Puoi aggiungere note direttamente ai tuoi diagrammi, esattamente dove ti servono."
+      aiAssistant:
+        title: Accelera il flusso di lavoro con l'Assistente IA
+        description: Ottieni suggerimenti intelligenti e velocizza il tuo flusso di lavoro di progettazione database con il nostro assistente basato sull'IA.
+      collaboration:
+        title: Modifica collaborativa in tempo reale
+        description: Invita i tuoi colleghi a lavorare sullo stesso diagramma insieme a te in tempo reale.
+      versionHistory:
+        title: Torna indietro nel tempo con la Cronologia versioni
+        description: Sperimenta liberamente le tue idee con diverse versioni dello schema. Ripristina una versione precedente ogni volta che vuoi.
+      schemaChangelog:
+        title: Cronologia illimitata del Registro modifiche dello schema
+        description: "Non perdere mai più traccia delle modifiche allo schema del tuo database. Accedi a tutte le modifiche dello schema, sfoglia versioni precedenti ai 14 giorni e confronta facilmente due versioni qualsiasi."
+      embeddedViews:
+        title: Viste incorporate
+        description: "Puoi incorporare la documentazione del tuo database in piattaforme come Notion, Confluence, Miro o persino nel tuo sito web. Visualizza la documentazione del tuo database nello strumento che già utilizzi."
+      shareWithInvitedUsers:
+        title: Condividi con utenti invitati
+        description: "Invita e gestisci direttamente i colleghi nel tuo progetto: perfetto per la condivisione interna nel team."
+    team:
+      collaborativeWorkspace:
+        title: Spazio di lavoro collaborativo
+        description: "Disponi di un luogo centrale in cui tutto il team può archiviare, accedere e condividere diagrammi e documenti di database."
+      teamManagement:
+        title: Gestione del team e collaborazione
+        description: "Invita e gestisci i tuoi compagni di squadra in un unico spazio di lavoro e consenti loro di sfruttare i vantaggi del piano Team."
+      unifiedBilling:
+        title: Amministrazione e fatturazione unificate
+        description: Acquista e gestisci più licenze utente per i membri del team. Gestisci utenti e fatturazione in un unico posto.
+
+  # ========================================
+  # Comparison Table - Category names
+  # ========================================
+  comparison:
+    categories:
+      dataModeling: Modellazione dati
+      documentation: Documentazione
+      workingWithLargeDatabases: Lavorare con database di grandi dimensioni
+      sharingCollaboration: Condivisione e collaborazione
+      apiIntegrations: API e integrazioni
+      productSupport: Supporto prodotto
+      businessTerms: Termini commerciali e pagamento
+    features:
+      erDiagrams:
+        name: ER Diagrams
+        description: "Visualizza la struttura del tuo database, incluse tabelle, campi e relazioni"
+      diagramViews:
+        name: Viste del diagramma
+        description: Crea molteplici viste dello stesso diagramma per concentrarti su aspetti o destinatari diversi
+      dataSample:
+        name: Campione di dati
+        description: Mostra ai lettori i dati reali con righe di esempio e genera INSERT SQL per popolare le tabelle di riferimento
+      importSchema:
+        name: Importa schema dal database
+        description: Esegui il reverse engineering del tuo database esistente per visualizzare tabelle, campi e relazioni
+      exportSchema:
+        name: Esporta schema nel database
+        description: Esporta lo schema come script SQL pronti per essere eseguiti sul tuo database
+      exportVisualization:
+        name: Esporta visualizzazione
+        description: "Esporta i tuoi diagrammi come immagini SVG, PDF o PNG per la documentazione e la condivisione"
+      versionHistory:
+        name: Cronologia versioni
+        description: Traccia e ripristina le versioni precedenti dei tuoi diagrammi
+      aiAssistant:
+        name: Assistente IA (Beta)
+        description: "Genera e modifica diagrammi tramite prompt; ottieni informazioni e raccomandazioni per i tuoi progetti di database"
+      publishedDocs:
+        name: Documentazione pubblicata
+        description: Pubblica uno schema su dbdocs.io come riferimento consultabile dal tuo team
+      paidDocProjects:
+        name: Progetti doc a pagamento
+        description: Progetti doc con il set completo di funzionalità. I progetti gratuiti restano disponibili su ogni piano
+        tooltip: "Qualsiasi progetto doc può essere condiviso pubblicamente, oppure protetto da una password condivisa. Un progetto a pagamento aggiunge la modalità privata, l'accesso solo per le persone invitate, viste incorporate illimitate e il registro completo delle modifiche dello schema."
+      schemaChangelog:
+        name: Registro modifiche dello schema
+        description: Verifica come è cambiato uno schema pubblicato nel tempo e confronta due versioni qualsiasi
+      tableGroup:
+        name: Gruppi di tabelle
+        description: Organizza visivamente le tabelle correlate con raggruppamenti
+      headerColor:
+        name: Colore dell'intestazione
+        description: Personalizza i colori dell'intestazione delle tabelle per una migliore organizzazione
+      detailLevels:
+        name: Livelli di dettaglio
+        description: Controlla la visibilità dei dettagli delle tabelle nelle diverse viste
+      stickyNotes:
+        name: Note adesive
+        description: Aggiungi annotazioni e commenti ai tuoi diagrammi
+      embeddedDiagrams:
+        name: Viste incorporate
+        description: Incorpora un diagramma o una pagina doc come iframe in strumenti come Notion, Confluence o il tuo sito
+      publicDiagram:
+        name: Condivisione tramite link pubblico
+        description: Condividi un diagramma o un progetto doc con chiunque disponga del link
+      passwordProtectedDiagram:
+        name: Condivisione tramite link protetto da password
+        description: Proteggi con una password un diagramma o un link doc condiviso
+      privateDiagram:
+        name: Modalità privata
+        description: Mantieni un diagramma o un progetto doc accessibile solo a te e alle persone che inviti
+      inviteEditors:
+        name: Invita editor e visualizzatori
+        description: Invita i colleghi a collaborare sui tuoi diagrammi e sulla documentazione
+      collaborativeWorkspace:
+        name: Spazio di lavoro collaborativo
+        description: Spazio di lavoro condiviso per i membri del team per lavorare insieme
+      teamManagement:
+        name: Gestione del team e collaborazione
+        description: "Per postazione: editor e visualizzatori illimitati"
+      unifiedAdmin:
+        name: Amministrazione e fatturazione unificate
+        description: Un'unica dashboard per gestire i membri del team e la fatturazione
+      cli:
+        name: CLI
+        description: Mantieni i file .dbml nel controllo versione; sincronizza i diagrammi, pubblica la documentazione e automatizza entrambi dalla CI/CD
+      publicApi:
+        name: API pubblica
+        description: Crea integrazioni personalizzate per collegare i tuoi spazi di lavoro dbdiagram a strumenti e flussi di lavoro interni
+      communitySupport:
+        name: Supporto della community
+        description: Accesso ai forum della community e alla documentazione
+      standardSupport:
+        name: Supporto standard
+        description: Supporto via email con tempi di risposta standard
+      creditCardPayment:
+        name: Pagamento con carta di credito
+        description: Paga con carta di credito o di debito tramite elaborazione sicura
+      bankTransfer:
+        name: Bonifico bancario
+        description: Bonifico bancario diretto per transazioni di importo maggiore
+    # Cell values that are translatable strings
+    values:
+      unlimited: Illimitato
+      unlimitedUsage: Utilizzo illimitato
+      cappedUsage: Utilizzo limitato
+      viewOnly: Solo visualizzazione
+      upToFourFreeEditors: Fino a 4 editor gratuiti
+      minThreeThousand: "Min. $3.000"
+      fourteenDayHistory: Cronologia di 14 giorni
+
+  # ========================================
+  # FAQ Section
+  # ========================================
+  faq:
+    - question: Come funzionano i prezzi?
+      answerHtml: "&bull; Il piano Free è disponibile per sempre. Il piano Personal Pro sblocca le funzionalità Pro su dbdiagram e dbdocs nel tuo spazio di lavoro personale.<br><br>&bull; Il piano Team riunisce il tuo team per collaborare in uno spazio di lavoro Team centralizzato, sia su dbdiagram che su dbdocs."
+    - question: Come posso gestire il mio abbonamento?
+      answerHtml: "Puoi gestire l'abbonamento del tuo spazio di lavoro in Home > Fatturazione. Puoi trovare il collegamento \"Home\" del tuo spazio di lavoro nel menu a tendina dell'account in alto a destra."
+    - question: Conservate i dati della mia carta di credito?
+      answerHtml: "No, non gestiamo direttamente i dati della tua carta di credito. Utilizziamo Stripe per elaborare i tuoi pagamenti."
+    - question: Cosa succede se annullo il mio abbonamento?
+      answerHtml: Quando annulli il tuo abbonamento, il tuo spazio di lavoro verrà riportato al piano Free. I progetti privati verranno convertiti in progetti pubblici e i membri dello spazio di lavoro non potranno più accedervi.
+    - question: Il mio piano verrà rinnovato automaticamente?
+      answerHtml: L'abbonamento a pagamento viene rinnovato automaticamente a meno che tu non annulli il piano prima della fine del periodo di abbonamento.
+    - question: Ottengo le funzionalità sia di dbdiagram che di dbdocs con un unico piano?
+      answerHtml: "Sì, otterrai le funzionalità sia di dbdiagram che di dbdocs con lo stesso piano."
+    - question: Come funziona il Custom Plan?
+      answerHtml: "I Custom Plan sono personalizzati per organizzazioni con esigenze specifiche. Contatta il nostro team vendite per discutere prezzi, termini di pagamento personalizzati e funzionalità enterprise come SSO e supporto prioritario."
+    - question: "Sono preoccupato per la sicurezza. Offrite una versione self-hosted di dbdocs?"
+      answerHtml: "Comprendiamo l'importanza di proteggere i tuoi dati. Se stai cercando una versione self-hosted di dbdocs, compila semplicemente questo <a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">modulo</a> e il nostro team ti contatterà per discutere le tue esigenze specifiche."
+    - question: Ho delle domande. Come posso contattarvi?
+      answerHtml: "Scrivici un'email all'indirizzo <a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a>."

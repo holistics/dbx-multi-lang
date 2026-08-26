@@ -35,7 +35,7 @@ portal:
         description: リダイレクト URI が設定と一致しません。
       unknown:
         title: 予期しないエラー
-        description: エラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
+        description: エラーが発生しました。サポート dbdiagram{'@'}holistics.io にお問い合わせください
 
   logout:
     validating: ログアウトリクエストを検証中...
@@ -63,7 +63,7 @@ portal:
     internalServerError: サーバーで予期しないエラーが発生しました。後でもう一度お試しください。
     serviceUnavailable: サービスが一時的に利用できません。しばらくしてからもう一度お試しください。
     networkError: サーバーに接続できません。インターネット接続を確認してもう一度お試しください。
-    authenticationError: 認証エラーです。サポート dbdiagram@holistics.io にお問い合わせください
+    authenticationError: 認証エラーです。サポート dbdiagram{'@'}holistics.io にお問い合わせください
     windowNotOpened: このウィンドウは正しく開かれませんでした。{clientName} に戻ってもう一度お試しください。
     windowClosed: 元のアプリケーションウィンドウが閉じられました。{clientName} に戻ってもう一度お試しください。
     communicationFailed: "{clientName} との通信に失敗しました。もう一度お試しください"

@@ -15,6 +15,8 @@ workspace:
   advanced: Ilg'or (Advanced) # Label for advanced tier/sample (templates dropdown)
   myDiagrams: Mening diagrammalarim # Sidebar section for personal diagrams
   sharedWithMe: Men bilan ulashilgan # Sidebar section for shared diagrams
+  guestWorkspace: Mehmon ish maydoni
+  guestLabel: (mehmon)
   workspace: Ish maydoni # Label for team workspace type
   private: Xususiy # Privacy label for private items
   readOnlyMode: Obuna bekor qilinganligi sababli ish maydoni faqat o'qish rejimida. Ish maydoni funksiyalarini yoqish uchun iltimos, obunani yangilang.
@@ -57,7 +59,7 @@ workspace:
     removeWorkspaceSuggestion: "Tasdiqlash uchun matn kiritish maydoniga <i>permanently delete</i> deb yozing." # Confirmation input prompt
     removalRequestCanceled: O'chirish so'rovi muvaffaqiyatli bekor qilindi! # Success toast
     removalRequestCreated: O'chirish so'rovi muvaffaqiyatli yaratildi! # Success toast
-    contactSupportError: Xatolik yuz berdi, iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Support contact message
+    contactSupportError: Xatolik yuz berdi, iltimos, dbdiagram{'@'}holistics.io orqali qo'llab-quvvatlash xizmati bilan bog'laning # Support contact message
     workspaceNameUpdated: Ish maydoni nomi muvaffaqiyatli yangilandi # Success toast
     workspaceNameUpdateFailed: Ish maydoni nomini yangilab bo'lmadi, qayta urinib ko'ring! # Error toast
     ssoConfigFetchFailed: SSO konfiguratsiyasini olib bo'lmadi. Iltimos, sahifani yangilab ko'ring. # Error toast
@@ -65,9 +67,43 @@ workspace:
     ssoConfigSaveFailed: SSO konfiguratsiyasini saqlab bo'lmadi. Iltimos, qayta urinib ko'ring. # Error toast
 
   # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Ish maydoni yaratish # Modal title (form state)
+    settingUpTitle: Ish maydoningiz sozlanmoqda # Modal title (provisioning state)
+    nameLabel: Ish maydoni nomi # Input label
+    namePlaceholder: "masalan, Acme Team" # Input placeholder
+    cancel: Bekor qilish # Cancel button
+    create: Yaratish # Create button
+    partiallyFailed: "\"{name}\" ish maydoni tayyor, lekin sozlashning bir qismi tugallanmadi." # Partial failure message
+    partiallyFailedHint: Hozir foydalanishni boshlashingiz va sozlashni keyinroq ish maydonini boshqarish sahifasidan tugatishingiz mumkin. # Partial failure hint
+    openWorkspace: Ish maydonini ochish # Open workspace button
+    retry: Qayta urinish # Retry button
+    fullyFailed: "\"{name}\" ish maydonini sozlashda xatolik yuz berdi." # Full failure message
+    contactUs: Biz bilan bog'laning # Contact us button
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Qayta urinish # Retry button
+    contactUs: Biz bilan bog'laning # Contact us link
+    contactUsHint: agar qayta urinish yordam bermasa. # Text after contact us link
+    checking:
+      title: "Ish maydoningiz tekshirilmoqda..." # Checking state title
+      description: Hamma narsa sinxronlanganligini tasdiqlagunimizcha biroz kuting. # Checking state description
+    partiallyFailed:
+      title: Ish maydoningiz to'liq sozlanmagan. # Partial failure title
+      description: Sozlashni yakunlash uchun qayta urinib ko'ring. # Failure description
+    fullyFailed:
+      title: Ish maydoningizni sozlab bo'lmadi. # Full failure title
+
+  # ========================================
   # Members - Member management
   # ========================================
   members:
+    unlimited: Cheksiz # Unlimited viewers count
     invite: Taklif qilish # Invite button
     invitePlaceholder: Elektron pochta manzilini kiriting # Email input placeholder
     inviteButton: Taklif yuborish # Send invite button
@@ -137,6 +173,17 @@ workspace:
     disabled: "(o'chirilgan)" # Disabled plan label
 
   # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: Bu eskirgan ish maydoni # Modal title
+    description: Ushbu ish maydoni yangi narx rejalariga o'tkazib bo'lmaydigan eski rejalardan birida joylashgan. # Modal description
+    contactPrefix: Iltimos, bog'laning # Text before the support email link
+    contactSuffix: va biz sizga o'tishga yordam beramiz. # Text after the support email link
+    gotIt: Tushunarli # Dismiss button
+
+  # ========================================
   # Welcome - Welcome modal
   # ========================================
   welcome:
@@ -180,3 +227,31 @@ workspace:
       nameWhitespace: Token nomi bo'sh bo'lishi yoki faqat probellardan iborat bo'lishi mumkin emas # Validation error
       upgradeRequired: Token yaratish va API-ga ulanish uchun rejangizni yangilang # Upgrade required error
       ownerOnly: Faqat ish maydoni egasi yangi tokenlar yarata oladi # Permission error
+
+  # ========================================
+  # Settings Tab - Portal workspace Settings page (rename + url-name + delete)
+  # ========================================
+  settingsTab:
+    generalTitle: Umumiy # "General" section heading
+    displayNameLabel: Ko'rinadigan nom # Display name field label
+    displayNamePlaceholder: Mening ish maydonim # Display name input placeholder
+    urlNameLabel: Ish maydoni URL nomi # URL name field label
+    urlNameTooltip: Ish maydoni nomini o'zgartirish barcha oldingi ulashilgan havolalarni eskirgan qiladi # Info tooltip next to the URL name label
+    urlNamePlaceholder: my-workspace-url # URL name input placeholder
+    checkingUrlName: Ushbu nom mavjudligi tekshirilmoqda… # Live availability check message
+    workspacePreviewPrefix: 'Ish maydoni:' # Label before the Portal URL preview
+    dbdocsPreviewPrefix: 'dbdocs:' # Label before the dbdocs URL preview
+    saving: Saqlanmoqda… # Submit button label while saving
+    updateProfile: Profilni yangilash # Submit button label
+    manageWorkspaceTitle: Ish maydonini boshqarish # "Manage workspace" (danger zone) section heading
+    deleteWorkspaceButton: Ushbu ish maydonini o'chirish # Delete button label
+    deleteWarning: Bu amalni bekor qilib bo'lmaydi. Bu dbdiagram va dbdocs'dagi barcha ma'lumotlaringizni butunlay o'chirib tashlaydi! # Warning text next to the delete button
+    urlNameInvalid: URL nomi faqat kichik harflar, raqamlar va chiziqchalardan iborat bo'lishi kerak (boshida/oxirida chiziqcha bo'lmasligi kerak). # Validation error
+    urlNameTaken: Bu nom mavjud emas. # Validation error
+    checkUrlNameFailed: URL nomini tekshirib bo'lmadi. Qaytadan urinib ko'ring. # Error toast
+    settingsSaved: Ish maydoni sozlamalari saqlandi. dbdiagram va dbdocs bilan sinxronlanmoqda… # Success toast
+    settingsSaveFailed: Ish maydoni sozlamalarini yangilab bo'lmadi. # Error toast
+    deleteModalTitle: Ushbu ish maydonini o'chirasizmi? # Delete confirmation modal title
+    deleteModalContent: Ushbu ish maydoni va uning barcha ma'lumotlarini o'chirasizmi? Bu amalni bekor qilib bo'lmaydi. Sizga tasdiqlash kodini elektron pochta orqali yuboramiz. # Delete confirmation modal content
+    deleteModalConfirmLabel: Ish maydonini o'chirish # Delete confirmation modal confirm button
+    deletionStarted: Ish maydonini o'chirish boshlandi. # Success toast after confirming deletion

@@ -41,7 +41,7 @@ portal:
         description: L’URI de redirection ne correspond pas à la configuration.
       unknown:
         title: Erreur inattendue
-        description: Une erreur est survenue. Veuillez contacter notre support à dbdiagram@holistics.io
+        description: Une erreur est survenue. Veuillez contacter notre support à dbdiagram{'@'}holistics.io
 
   # ========================================
   # Déconnexion
@@ -84,7 +84,7 @@ portal:
     internalServerError: Une erreur inattendue est survenue sur le serveur. Veuillez réessayer plus tard.
     serviceUnavailable: Le service est temporairement indisponible. Veuillez réessayer dans quelques instants.
     networkError: Impossible de se connecter au serveur. Vérifiez votre connexion internet et réessayez.
-    authenticationError: Erreur d’authentification. Veuillez contacter notre support à dbdiagram@holistics.io
+    authenticationError: Erreur d’authentification. Veuillez contacter notre support à dbdiagram{'@'}holistics.io
     windowNotOpened: Cette fenêtre n’a pas été ouverte correctement. Veuillez retourner à {clientName} et réessayer.
     windowClosed: La fenêtre principale de l’application a été fermée. Veuillez retourner à {clientName} et réessayer.
     communicationFailed: Échec de la communication avec {clientName}. Veuillez réessayer.

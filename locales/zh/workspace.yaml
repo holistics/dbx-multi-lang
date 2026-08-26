@@ -12,6 +12,8 @@ workspace:
   advanced: 高级
   myDiagrams: 我的图表
   sharedWithMe: 与我分享
+  guestWorkspace: 访客工作区
+  guestLabel: (访客)
   workspace: 工作区
   private: 私有
   readOnlyMode: 由于订阅已取消，工作区处于只读模式。请续订以启用工作区功能。
@@ -53,13 +55,48 @@ workspace:
     removeWorkspaceSuggestion: 请在文本输入框中输入 <i>permanently delete</i> 以确认。
     removalRequestCanceled: 移除请求已成功取消！
     removalRequestCreated: 移除请求已成功创建！
-    contactSupportError: 发生错误，请联系我们的支持 dbdiagram@holistics.io
+    contactSupportError: 发生错误，请联系我们的支持 dbdiagram{'@'}holistics.io
     workspaceNameUpdated: 工作区名称更新成功
     workspaceNameUpdateFailed: 工作区名称更新失败，请重试！
     ssoConfigFetchFailed: 获取 SSO 配置失败。请尝试刷新页面。
     ssoConfigUpdated: SSO 配置更新成功
     ssoConfigSaveFailed: 保存 SSO 配置失败。请重试。
+
+  # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: 创建工作区
+    settingUpTitle: 正在设置你的工作区
+    nameLabel: 工作区名称
+    namePlaceholder: "例如 Acme Team"
+    cancel: 取消
+    create: 创建
+    partiallyFailed: "工作区\"{name}\"已就绪，但部分设置未完成。"
+    partiallyFailedHint: 你可以现在开始使用，稍后从工作区管理页面完成设置。
+    openWorkspace: 打开工作区
+    retry: 重试
+    fullyFailed: "设置\"{name}\"工作区时出现问题。"
+    contactUs: 联系我们
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: 重试
+    contactUs: 联系我们
+    contactUsHint: 如果重试无效。
+    checking:
+      title: "正在检查你的工作区..."
+      description: 请稍候，我们正在确认一切已同步。
+    partiallyFailed:
+      title: 你的工作区尚未完全设置。
+      description: 请重试以完成设置。
+    fullyFailed:
+      title: 工作区设置失败。
+
   members:
+    unlimited: 无限
     invite: 邀请
     invitePlaceholder: 输入邮箱地址
     inviteButton: 邀请
@@ -111,6 +148,12 @@ workspace:
     free: 免费版方案
     team: 团队版方案
     disabled: （已禁用）
+  legacyPlanNotice:
+    title: 这是一个旧版工作区
+    description: 此工作区使用的是我们的旧版方案之一，无法升级到新的定价方案。
+    contactPrefix: 请联系
+    contactSuffix: 我们将协助您迁移。
+    gotIt: 知道了
   welcome:
     title: 欢迎来到团队工作区！
     description: 开始创建新图表并与你的队友协作。
@@ -148,3 +191,28 @@ workspace:
       nameWhitespace: 令牌名称不能为空或仅包含空格
       upgradeRequired: 请升级你的方案以创建令牌并访问我们的 API
       ownerOnly: 只有工作区所有者才能生成新令牌
+
+  settingsTab:
+    generalTitle: 通用
+    displayNameLabel: 显示名称
+    displayNamePlaceholder: 我的工作区
+    urlNameLabel: 工作区 URL 名称
+    urlNameTooltip: 更改工作区名称将导致您之前的所有共享链接失效
+    urlNamePlaceholder: my-workspace-url
+    checkingUrlName: 正在检查该名称是否可用…
+    workspacePreviewPrefix: '工作区：'
+    dbdocsPreviewPrefix: 'dbdocs：'
+    saving: 保存中…
+    updateProfile: 更新资料
+    manageWorkspaceTitle: 管理工作区
+    deleteWorkspaceButton: 删除此工作区
+    deleteWarning: 此操作无法撤销，将永久删除您在 dbdiagram 和 dbdocs 中的所有数据！
+    urlNameInvalid: URL 名称只能包含小写字母、数字和连字符（不能以连字符开头或结尾）。
+    urlNameTaken: 该名称不可用。
+    checkUrlNameFailed: 无法检查该 URL 名称，请重试。
+    settingsSaved: 工作区设置已保存，正在同步到 dbdiagram 和 dbdocs…
+    settingsSaveFailed: 更新工作区设置失败。
+    deleteModalTitle: 删除此工作区？
+    deleteModalContent: 删除此工作区及其所有数据？此操作无法撤销。我们将向您发送一封含确认码的邮件。
+    deleteModalConfirmLabel: 删除工作区
+    deletionStarted: 工作区删除已开始。

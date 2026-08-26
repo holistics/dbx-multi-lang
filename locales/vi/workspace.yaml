@@ -9,6 +9,8 @@ workspace:
   advanced: Nâng cao
   myDiagrams: Sơ đồ của tôi
   sharedWithMe: Đã chia sẻ với tôi
+  guestWorkspace: Không gian làm việc khách
+  guestLabel: (khách)
   workspace: Không gian làm việc
   private: Riêng tư
   readOnlyMode: Không gian làm việc đang ở chế độ chỉ đọc do hủy gói đăng ký. Vui lòng gia hạn để bật các tính năng của không gian làm việc.
@@ -48,14 +50,48 @@ workspace:
     removeWorkspaceSuggestion: 'Vui lòng nhập <i>permanently delete</i> vào ô nhập để xác nhận.'
     removalRequestCanceled: Yêu cầu xóa đã được hủy thành công!
     removalRequestCreated: Yêu cầu xóa đã được tạo thành công!
-    contactSupportError: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io
+    contactSupportError: Đã xảy ra lỗi, vui lòng liên hệ hỗ trợ tại dbdiagram{'@'}holistics.io
     workspaceNameUpdated: Tên không gian làm việc đã được cập nhật thành công
     workspaceNameUpdateFailed: Cập nhật tên không gian làm việc thất bại, vui lòng thử lại!
     ssoConfigFetchFailed: Không thể tải cấu hình SSO. Vui lòng tải lại trang.
     ssoConfigUpdated: Cấu hình SSO đã được cập nhật thành công
     ssoConfigSaveFailed: Lưu cấu hình SSO thất bại. Vui lòng thử lại.
 
+  # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Tạo không gian làm việc
+    settingUpTitle: Đang thiết lập không gian làm việc của bạn
+    nameLabel: Tên không gian làm việc
+    namePlaceholder: "ví dụ: Acme Team"
+    cancel: Hủy
+    create: Tạo
+    partiallyFailed: "Không gian làm việc \"{name}\" đã sẵn sàng, nhưng một phần thiết lập chưa hoàn tất."
+    partiallyFailedHint: Bạn có thể bắt đầu sử dụng ngay và hoàn tất thiết lập sau từ trang quản lý không gian làm việc.
+    openWorkspace: Mở không gian làm việc
+    retry: Thử lại
+    fullyFailed: "Đã xảy ra lỗi khi thiết lập không gian làm việc \"{name}\"."
+    contactUs: Liên hệ chúng tôi
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Thử lại
+    contactUs: Liên hệ chúng tôi
+    contactUsHint: nếu thử lại không giải quyết được.
+    checking:
+      title: "Đang kiểm tra không gian làm việc của bạn..."
+      description: Vui lòng đợi trong khi chúng tôi xác nhận mọi thứ đã được đồng bộ.
+    partiallyFailed:
+      title: Không gian làm việc của bạn chưa được thiết lập hoàn chỉnh.
+      description: Vui lòng thử lại để hoàn tất thiết lập.
+    fullyFailed:
+      title: Không thể thiết lập không gian làm việc của bạn.
+
   members:
+    unlimited: Không giới hạn
     invite: Mời
     invitePlaceholder: Nhập địa chỉ email
     inviteButton: Mời
@@ -112,6 +148,13 @@ workspace:
     team: Gói Team
     disabled: "(đã tắt)"
 
+  legacyPlanNotice:
+    title: Đây là không gian làm việc cũ
+    description: Không gian làm việc này đang dùng một trong các gói cũ của chúng tôi, không thể nâng cấp lên các gói giá mới.
+    contactPrefix: Vui lòng liên hệ
+    contactSuffix: và chúng tôi sẽ giúp bạn chuyển đổi.
+    gotIt: Đã hiểu
+
   welcome:
     title: Chào mừng đến với Team Workspace!
     description: Bắt đầu bằng cách tạo sơ đồ mới và cộng tác với đồng đội của bạn.
@@ -150,4 +193,29 @@ workspace:
       nameWhitespace: Tên token không được để trống hoặc chỉ chứa khoảng trắng
       upgradeRequired: Vui lòng nâng cấp gói của bạn để tạo token và truy cập API
       ownerOnly: Chỉ chủ sở hữu workspace mới có thể tạo token mới
+
+  settingsTab:
+    generalTitle: Chung
+    displayNameLabel: Tên hiển thị
+    displayNamePlaceholder: Không gian làm việc của tôi
+    urlNameLabel: Tên URL không gian làm việc
+    urlNameTooltip: Thay đổi tên không gian làm việc sẽ khiến tất cả các liên kết chia sẻ trước đây của bạn không còn hoạt động
+    urlNamePlaceholder: ten-khong-gian-lam-viec
+    checkingUrlName: Đang kiểm tra xem tên này có khả dụng không…
+    workspacePreviewPrefix: 'Không gian làm việc:'
+    dbdocsPreviewPrefix: 'dbdocs:'
+    saving: Đang lưu…
+    updateProfile: Cập nhật hồ sơ
+    manageWorkspaceTitle: Quản lý không gian làm việc
+    deleteWorkspaceButton: Xóa không gian làm việc này
+    deleteWarning: Hành động này không thể hoàn tác. Thao tác này sẽ xóa vĩnh viễn toàn bộ dữ liệu của bạn trên cả dbdiagram và dbdocs!
+    urlNameInvalid: Tên URL chỉ được chứa chữ thường, số và dấu gạch ngang (không có dấu gạch ngang ở đầu/cuối).
+    urlNameTaken: Tên này không khả dụng.
+    checkUrlNameFailed: Không thể kiểm tra tên URL. Vui lòng thử lại.
+    settingsSaved: Đã lưu cài đặt không gian làm việc. Đang đồng bộ với dbdiagram và dbdocs…
+    settingsSaveFailed: Cập nhật cài đặt không gian làm việc thất bại.
+    deleteModalTitle: Xóa không gian làm việc này?
+    deleteModalContent: Xóa không gian làm việc này và toàn bộ dữ liệu? Hành động này không thể hoàn tác. Chúng tôi sẽ gửi email mã xác nhận cho bạn.
+    deleteModalConfirmLabel: Xóa không gian làm việc
+    deletionStarted: Đã bắt đầu xóa không gian làm việc.
 

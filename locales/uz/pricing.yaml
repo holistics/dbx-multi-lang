@@ -1,0 +1,330 @@
+# Pricing translations - Public pricing page, plan cards, feature comparison, FAQ
+# UI Areas: Pricing landing page, Plan cards, Feature blocks, Comparison table, dbdocs promos
+
+pricing:
+  # ========================================
+  # Pricing Landing Page - Top-level headings
+  # ========================================
+  landing:
+    badge: dbdiagram va dbdocs uchun yagona reja # Badge above title
+    title: Ish maydoningizni yangilang # Page title
+    subtitle: Har bir pullik reja dbdiagram va dbdocs ni birga o'z ichiga oladi. # Subtitle
+
+  modal:
+    subtitle: Har doim bepul. Narxlash rejalarimiz bilan ko'proq imkoniyatlarga ega bo'ling.
+    alwaysFree:
+      label: Har doim bepul
+      text: "Har bir reja shuningdek quyidagilarni o'z ichiga oladi:"
+      dbmlCaption: Ochiq sxema spetsifikatsiyasi
+      runsqlCaption: Brauzer asosidagi SQL o'yin maydonchasi
+    provisioningTitle: "Ish maydoningiz tayyorlanmoqda…"
+
+  # ========================================
+  # Misc UI labels
+  # ========================================
+  ui:
+    learnMore: "Batafsil ma'lumot →"
+    faqTitle: "Ko'p beriladigan savollar"
+    taxNote: "* To'lovingiz mamlakatingiz soliqlari bo'yicha amalga oshiriladi"
+    plansAndFeatures: Rejalar va imkoniyatlar
+    features: Imkoniyatlar
+    whatsInProPlan: Personal Pro rejasida nimalar bor?
+    whatsInTeamPlan: Team rejasida nimalar bor?
+    dbdocsFreePaidTitle: dbdocs
+    dbdocsFreePaidHeading: Bepul vs Pullik
+
+  # ========================================
+  # Billing Toggle - Monthly/Annual switch
+  # ========================================
+  billingToggle:
+    monthly: Oylik # Left toggle label
+    annual: Yillik # Right toggle label
+    saveUpTo: "{percent}% gacha tejang" # Save badge text
+
+  # ========================================
+  # Plan Names
+  # ========================================
+  planNames:
+    free: Free # Free plan name
+    personalPro: Personal Pro # Personal Pro plan name
+    team: Team # Team plan name
+    customPlan: Custom Plan # Enterprise/Custom plan name
+
+  # ========================================
+  # Plan Taglines
+  # ========================================
+  taglines:
+    free: Sxemalarni loyihalash va ommaviy hujjatlarni ulashish uchun shaxslar uchun. # Free plan tagline
+    pro: Loyihalash va hujjatlashtirish bilan shug'ullanadigan frilanserlar va maslahatchilar uchun. # Pro plan tagline
+    team: Ma'lumotlar bazalarini birgalikda loyihalash va hujjatlashtirish uchun jamoalar uchun. # Team plan tagline
+    enterprise: Xavfsizlik va xarid ehtiyojlari bo'lgan tashkilotlar uchun. # Enterprise plan tagline
+
+  # ========================================
+  # Plan Card - Price display
+  # ========================================
+  price:
+    free: Bepul # Free plan price text
+    freeNote: "va bu abadiy" # Free plan price note
+    customPricing: Maxsus narxlash # Enterprise price text
+    contactForPricing: Narx uchun bog'laning # Enterprise price note
+    perMonth: /oy # Per month unit suffix
+    billedAnnually: "Yillik to'lov - yiliga {currency}{amount}" # Annual billing hint
+    billedMonthly: Oylik to'lov # Monthly billing hint
+
+  # ========================================
+  # Plan Card - CTA Buttons
+  # ========================================
+  cta:
+    getStartedFree: Bepul boshlash # Free plan CTA
+    upgradeNow: Hozir yangilash # Pro/Team upgrade CTA
+    startFreeTrial: 7 kunlik bepul sinovni boshlash # Team trial CTA
+    contactSales: Savdo bo'limi bilan bog'lanish # Enterprise CTA
+    downgrade: Pastroq rejaga o'tish # Downgrade button
+    currentPlan: Joriy reja # Current plan label
+
+  # ========================================
+  # Plan Card - Recommended badge
+  # ========================================
+  recommended: Tavsiya etiladi # Recommended badge on plan card
+
+  # ========================================
+  # Plan Card - Inherits from
+  # ========================================
+  inheritsFrom:
+    prefix: "Dagi barcha narsalar" # "Everything in {plan}, plus"
+    suffix: ", shuningdek" # suffix after plan name
+    free: Free # Inherits from Free
+    personalPro: Personal Pro # Inherits from Personal Pro
+    team: Team # Inherits from Team
+
+  # ========================================
+  # Plan Card - Tier limits
+  # ========================================
+  tiers:
+    upTo10Diagrams: 10 tagacha diagramma va hujjat loyihalari # Free tier capacity
+    unlimitedDiagrams: Cheksiz diagramma va hujjat loyihalari # Paid tier capacity
+    users: "Bitta foydalanuvchi | {count} foydalanuvchi"
+    docProjects: "{count} ta dbdocs pullik hujjat loyihasi | {count} ta dbdocs pullik hujjat loyihalari"
+
+  # ========================================
+  # Plan Card - Add-ons
+  # ========================================
+  addons:
+    label: "Qo'shimchalar:" # Add-ons section label
+    extraDocProject: Qo'shimcha pullik hujjat loyihasi # Doc project addon name
+    extraUser: Qo'shimcha foydalanuvchi # User addon name
+    extraUserTooltip: "Foydalanuvchi litsenziyasi tahrirlovchilar uchun — diagramma va hujjatlarni yaratadigan va o'zgartiradiganlar uchun. Ko'ruvchilar har doim bepul va litsenziyaga muhtoj emas." # User addon tooltip
+
+  # ========================================
+  # Plan Card - Features lists
+  # ========================================
+  cardFeatures:
+    free:
+      sqlImportExport: SQL import va eksport
+      exportFormats: PDF/PNG/SVG ga eksport qilish
+      publicSharing: Ommaviy ulashish
+      embedDiagrams: Diagramma va hujjatlarni saytingizga joylashtirish
+      dataSample: Ma'lumotlar namunasi
+      cliIntegration: dbdiagram CLI bilan CI/CD quvur liniyasi integratsiyasi
+    pro:
+      unlimitedViews: Cheksiz diagramma ko'rinishlari
+      passwordProtected: Parol bilan himoyalangan va xususiy ulashish
+      limitedCollaboration: Cheklangan hamkorlik
+      advancedVisualization: Katta ma'lumotlar bazalari bilan ishlash uchun ilg'or vizualizatsiya
+    team:
+      collaborativeWorkspace: Hamkorlik ish maydoni
+      teamManagement: Jamoa boshqaruvi va hamkorlik
+      unifiedBilling: Yagona boshqaruv va to'lov
+    enterprise:
+      prioritizedFeature: Ustuvor xususiyat so'rovi
+      procurementReview: Xarid yoki huquqiy ko'rib chiqish
+      customPayment: Maxsus to'lov shartlari
+      samlSso: SAML SSO
+      activityLog: Foydalanuvchi faoliyati jurnali (tez orada)
+      ipAllowList: IP ruxsat ro'yxati (tez orada)
+
+  # ========================================
+  # Feature Blocks - Pro features
+  # ========================================
+  featureBlocks:
+    pro:
+      diagramViews:
+        title: Diagramma ko'rinishlari bilan kichikdan boshlang
+        description: "Katta o'ylang, kichikdan boshlang. Bitta diagrammaning bir nechta maqsadli ko'rinishlarini yarating. Domen, ish jarayoni yoki jamoa suhbati uchun kerakli jadvallarni ko'rsating."
+      passwordProtection:
+        title: Parol himoyasi bilan diagrammangizni himoyalang
+        description: Diagrammalaringizni Parol himoyasi bilan himoyalang va maxfiylikni oshiring. Jamoa ichida ichki ulashish uchun mukammal.
+      tableGroups:
+        title: Jadval guruhi bilan yaxshiroq tartibga soling
+        description: Oson vizualizatsiya uchun bir nechta jadvallarni birga guruhlang. Ko'p jadvalli ma'lumotlar bazasi bilan ishlashda ish yukingizni kamaytiring.
+      headerColors:
+        title: Sarlavha rangi bilan diagrammalaringizni boshqaring
+        description: Jadval sarlavha ranglarini o'zgartirish orqali diagramma va ma'lumotlar bazasi hujjatlaringizni oson boshqaring va rangli qiling!
+      detailLevels:
+        title: Tafsilotlar darajalari bilan diagrammalaringizni soddalashtiring
+        description: "Diagrammalaringizni soddalashtirish uchun turli tafsilot darajalari o'rtasida almashing. Bu funksiya katta ma'lumotlar bazasi dizaynlari bilan ishlashda ayniqsa foydalidir."
+      stickyNotes:
+        title: Eslatmalar bilan yaxshiroq hamkorlik qiling
+        description: "Tezkor eslatma yoki murakkab g'oyani tushuntirish kerakmi? Eslatmalarni to'g'ridan-to'g'ri diagrammalaringizga, kerakli joyga qo'shishingiz mumkin."
+      aiAssistant:
+        title: AI yordamchisi bilan ish jarayonini tezlashtiring
+        description: Aqlli takliflar oling va AI yordamchimiz bilan ma'lumotlar bazasi loyihalash jarayonini tezlashtiring.
+      collaboration:
+        title: Real vaqtda hamkorlikda tahrirlash
+        description: Hamkasblaringizni bitta diagrammada siz bilan real vaqtda ishlashga taklif qiling.
+      versionHistory:
+        title: Versiyalar tarixi bilan vaqtni qaytaring
+        description: Turli sxema versiyalari bilan g'oyalaringizni erkin sinab ko'ring. Istalgan vaqtda oldingi versiyaga qayting.
+      schemaChangelog:
+        title: Cheksiz sxema o'zgarishlar jurnali tarixi
+        description: "Ma'lumotlar bazasi sxemasidagi o'zgarishlarni boshqa hech qachon yo'qotmang. Barcha sxema o'zgarishlariga kiring, 14 kundan eski versiyalarni ko'ring va istalgan ikki versiyani oson solishtiring."
+      embeddedViews:
+        title: O'rnatilgan ko'rinishlar (Embedded Views)
+        description: "Ma'lumotlar bazasi hujjatlaringizni Notion, Confluence, Miro yoki hatto o'z veb-saytingiz kabi platformalarga joylashtirishingiz mumkin. Ma'lumotlar bazasi hujjatlaringizni siz sevgan vositada ko'ring."
+      shareWithInvitedUsers:
+        title: Taklif qilingan foydalanuvchilar bilan ulashish
+        description: "Hamkasblarni loyihangizga to'g'ridan-to'g'ri taklif qiling va boshqaring — ichki jamoa ulashishi uchun mukammal."
+    team:
+      collaborativeWorkspace:
+        title: Hamkorlik ish maydoni
+        description: "Butun jamoa uchun ma'lumotlar bazasi diagrammalari va hujjatlarini saqlash, kirish va ulashish uchun markaziy joy yarating."
+      teamManagement:
+        title: Jamoa boshqaruvi va hamkorlik
+        description: "Jamoadoshlaringizni bitta ish maydonida taklif qiling va boshqaring, hamda ularga Team reja imtiyozlaridan foydalanish imkonini bering."
+      unifiedBilling:
+        title: Yagona boshqaruv va to'lov
+        description: Jamoa a'zolari uchun bir nechta foydalanuvchi litsenziyalarini sotib oling va boshqaring. Foydalanuvchilar va to'lovlarni bir joyda boshqaring.
+
+  # ========================================
+  # Comparison Table - Category names
+  # ========================================
+  comparison:
+    categories:
+      dataModeling: Ma'lumotlarni modellashtirish
+      documentation: Hujjatlar
+      workingWithLargeDatabases: Katta ma'lumotlar bazalari bilan ishlash
+      sharingCollaboration: Ulashish va hamkorlik
+      apiIntegrations: API va integratsiyalar
+      productSupport: Mahsulot qo'llab-quvvatlashi
+      businessTerms: Biznes shartlari va to'lov
+    features:
+      erDiagrams:
+        name: ER Diagrams
+        description: "Ma'lumotlar bazasi tuzilishini, jumladan jadvallar, maydonlar va munosabatlarni vizuallashtiring"
+      diagramViews:
+        name: Diagramma ko'rinishlari
+        description: Turli jihatlar yoki auditoriyalarga e'tibor qaratish uchun bitta diagrammaning bir nechta ko'rinishlarini yarating
+      dataSample:
+        name: Ma'lumotlar namunasi
+        description: O'quvchilarga namunaviy qatorlar bilan haqiqiy ma'lumotlarni ko'rsating va qidiruv jadvallarini to'ldirish uchun SQL INSERT operatorlarini yarating
+      importSchema:
+        name: Ma'lumotlar bazasidan sxema import qilish
+        description: Jadvallar, maydonlar va munosabatlarni vizuallashtirish uchun mavjud ma'lumotlar bazangizni teskari muhandislik qiling
+      exportSchema:
+        name: Ma'lumotlar bazasiga sxema eksport qilish
+        description: Sxemani ma'lumotlar bazangizda bajarishga tayyor SQL skriptlari sifatida eksport qiling
+      exportVisualization:
+        name: Vizualizatsiyani eksport qilish
+        description: "Hujjatlashtirish va ulashish uchun diagrammalaringizni SVG, PDF yoki PNG tasvirlar sifatida eksport qiling"
+      versionHistory:
+        name: Versiyalar tarixi
+        description: Diagrammalaringizning oldingi versiyalarini kuzating va ularga qayting
+      aiAssistant:
+        name: AI yordamchisi (Beta)
+        description: "So'rovlar yordamida diagrammalarni yarating va tahrirlang; ma'lumotlar bazasi loyihalaringiz uchun tushunchalar va tavsiyalar oling"
+      publishedDocs:
+        name: Nashr etilgan hujjat
+        description: Jamoangiz o'qiy oladigan ko'rib chiqiladigan havola sifatida sxemani dbdocs.io'da nashr eting
+      paidDocProjects:
+        name: Pullik hujjat loyihalari
+        description: To'liq funksiyalar to'plamiga ega hujjat loyihalari. Bepul loyihalar har bir rejada mavjud bo'lib qoladi
+        tooltip: "Har qanday hujjat loyihasi ommaviy ravishda yoki umumiy parol bilan himoyalangan holda ulashilishi mumkin. Pullik loyiha xususiy rejim, faqat taklif qilingan odamlar uchun kirish, cheksiz o'rnatilgan ko'rinishlar va to'liq sxema o'zgarishlar jurnalini qo'shadi."
+      schemaChangelog:
+        name: Sxema o'zgarishlar jurnali
+        description: Nashr etilgan sxema vaqt o'tishi bilan qanday o'zgarganini tekshiring va istalgan ikki versiyani solishtiring
+      tableGroup:
+        name: Jadval guruhi
+        description: Tegishli jadvallarni vizual guruhlash bilan tartibga soling
+      headerColor:
+        name: Sarlavha rangi
+        description: Yaxshiroq tartibga solish uchun jadval sarlavha ranglarini moslashtiring
+      detailLevels:
+        name: Tafsilotlar darajalari
+        description: Turli ko'rinishlarda jadval tafsilotlarining ko'rinishini boshqaring
+      stickyNotes:
+        name: Eslatmalar (Sticky Notes)
+        description: Diagrammalaringizga izohlar va sharhlar qo'shing
+      embeddedDiagrams:
+        name: O'rnatilgan ko'rinishlar
+        description: Diagramma yoki hujjat sahifasini Notion, Confluence yoki o'z saytingiz kabi vositalarga iframe sifatida joylashtiring
+      publicDiagram:
+        name: Ommaviy havola orqali ulashish
+        description: Havolaga ega bo'lgan har kim bilan diagramma yoki hujjat loyihasini ulashing
+      passwordProtectedDiagram:
+        name: Parol bilan himoyalangan havola orqali ulashish
+        description: Ulashilgan diagramma yoki hujjat havolasiga parol qo'ying
+      privateDiagram:
+        name: Xususiy rejim
+        description: Diagramma yoki hujjat loyihasini faqat siz va siz taklif qilgan odamlar kira oladigan qilib saqlang
+      inviteEditors:
+        name: Tahrirlovchi va ko'ruvchilarni taklif qilish
+        description: Hamkasblaringizni diagrammalaringiz va hujjatlaringizda hamkorlik qilishga taklif qiling
+      collaborativeWorkspace:
+        name: Hamkorlik ish maydoni
+        description: Jamoa a'zolari birgalikda ishlashi uchun umumiy ish maydoni
+      teamManagement:
+        name: Jamoa boshqaruvi va hamkorlik
+        description: "Har bir o'rin uchun: cheksiz tahrirlovchilar va ko'ruvchilar"
+      unifiedAdmin:
+        name: Yagona boshqaruv va to'lov
+        description: Jamoa a'zolari va to'lovlarni boshqarish uchun yagona boshqaruv paneli
+      cli:
+        name: CLI
+        description: .dbml fayllaringizni versiya nazoratida saqlang; diagrammalarni sinxronlash, hujjatlarni nashr etish uchun push/pull qiling va ikkalasini ham CI/CD orqali avtomatlashtiring
+      publicApi:
+        name: Ommaviy API
+        description: dbdiagram ish maydonlaringizni ichki vositalar va ish jarayonlariga ulash uchun maxsus integratsiyalar yarating
+      communitySupport:
+        name: Jamiyat qo'llab-quvvatlashi
+        description: Jamiyat forumlari va hujjatlarga kirish
+      standardSupport:
+        name: Standart qo'llab-quvvatlash
+        description: Standart javob vaqtlari bilan elektron pochta orqali qo'llab-quvvatlash
+      creditCardPayment:
+        name: Kredit karta orqali to'lov
+        description: Xavfsiz qayta ishlash orqali kredit yoki debet karta bilan to'lang
+      bankTransfer:
+        name: Bank o'tkazmasi
+        description: Katta tranzaksiyalar uchun to'g'ridan-to'g'ri bank o'tkazmasi
+    # Cell values that are translatable strings
+    values:
+      unlimited: Cheksiz
+      unlimitedUsage: Cheksiz foydalanish
+      cappedUsage: Cheklangan foydalanish
+      viewOnly: Faqat ko'rish
+      upToFourFreeEditors: 4 tagacha bepul tahrirlovchi
+      minThreeThousand: "Min. $3,000"
+      fourteenDayHistory: 14 kunlik tarix
+
+  # ========================================
+  # FAQ Section
+  # ========================================
+  faq:
+    - question: Narxlash qanday ishlaydi?
+      answerHtml: "&bull; Free reja abadiy mavjud. Personal Pro reja shaxsiy ish maydoningizda dbdiagram va dbdocs bo'ylab Pro xususiyatlarni ochadi.<br><br>&bull; Team reja jamoangizni markazlashtirilgan jamoa ish maydonida dbdiagram va dbdocs bo'ylab hamkorlik qilish uchun birlashtiradi."
+    - question: Obunani qanday boshqaraman?
+      answerHtml: "Ish maydoningiz obunasini Bosh sahifa > To'lovlar (Billing) bo'limida boshqarishingiz mumkin. Ish maydoningizning \"Bosh sahifa\" yorliqini yuqori o'ng burchakdagi hisob ochiladigan menyusida topishingiz mumkin."
+    - question: Kredit karta ma'lumotlarimni saqlaysizmi?
+      answerHtml: "Yo'q, biz kredit karta ma'lumotlaringizni to'g'ridan-to'g'ri ko'rib chiqmaymiz. To'lovingizni qayta ishlash uchun Stripe dan foydalanamiz."
+    - question: Obunamni bekor qilsam nima bo'ladi?
+      answerHtml: Obunangizni bekor qilganingizda, ish maydoningiz Free rejaga qaytariladi. Xususiy loyihalar ommaviy loyihalarga aylantiriladi va ish maydoni a'zolari unga kira olmay qoladi.
+    - question: Rejam avtomatik yangilanadimi?
+      answerHtml: Pullik obuna, agar siz obuna muddati tugashidan oldin rejangizni bekor qilmasangiz, avtomatik ravishda yangilanadi.
+    - question: Bitta rejada dbdiagram va dbdocs xususiyatlarini olamanmi?
+      answerHtml: "Ha, bitta rejada dbdiagram va dbdocs xususiyatlarini olasiz."
+    - question: Custom Plan qanday ishlaydi?
+      answerHtml: "Custom Plan maxsus ehtiyojlarga ega tashkilotlar uchun moslashtiriladi. Narxlash, maxsus to'lov shartlari va SSO hamda ustuvor qo'llab-quvvatlash kabi korporativ xususiyatlarni muhokama qilish uchun savdo jamoamiz bilan bog'laning."
+    - question: "Men xavfsizlik haqida qayg'uraman. dbdocs ning o'z serveringizda joylashtiriladigan versiyasini taklif qilasizmi?"
+      answerHtml: "Ma'lumotlaringizni himoya qilish muhimligini tushunamiz. Agar dbdocs ning o'z serveringizda joylashtiriladigan versiyasini izlayotgan bo'lsangiz, ushbu <a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">shaklni</a> to'ldiring va jamoamiz maxsus talablaringizni muhokama qilish uchun siz bilan bog'lanadi."
+    - question: Savollarim bor. Qanday bog'lanishim mumkin?
+      answerHtml: "Bizga <a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a> ga elektron pochta yuboring."

@@ -41,7 +41,7 @@ portal:
         description: O URI de redirecionamento não corresponde à configuração.
       unknown:
         title: Erro inesperado
-        description: Algo deu errado. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io
+        description: Algo deu errado. Por favor, entre em contato com nosso suporte em dbdiagram{'@'}holistics.io
 
   # ========================================
   # Logout - Logout messages
@@ -84,7 +84,7 @@ portal:
     internalServerError: Ocorreu um erro inesperado no servidor. Por favor, tente novamente mais tarde.
     serviceUnavailable: O serviço está temporariamente indisponível. Por favor, tente novamente em alguns instantes.
     networkError: Não foi possível conectar ao servidor. Por favor, verifique sua conexão com a internet e tente novamente.
-    authenticationError: Erro de autenticação. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io
+    authenticationError: Erro de autenticação. Por favor, entre em contato com nosso suporte em dbdiagram{'@'}holistics.io
     windowNotOpened: Esta janela não foi aberta corretamente. Por favor, retorne ao {clientName} e tente novamente.
     windowClosed: A janela original do aplicativo foi fechada. Por favor, retorne ao {clientName} e tente novamente.
     communicationFailed: Falha ao se comunicar com {clientName}. Por favor, tente novamente

@@ -25,7 +25,7 @@ account:
     manageTitle: Gerenciar conta
     changeEmail: Alterar endereço de e-mail
     changeEmailInProgress: Você tem uma alteração de e-mail em andamento, por favor, aguarde
-    changeEmailFailed: "Sua última alteração de e-mail falhou, entre em contato com nosso suporte em dbdiagram@holistics.io"
+    changeEmailFailed: "Sua última alteração de e-mail falhou, entre em contato com nosso suporte em dbdiagram{'@'}holistics.io"
 
     # Account removal
     removal:
@@ -38,7 +38,7 @@ account:
       cancelSuccess: Solicitação de remoção cancelada com sucesso!
       status:
         inProgressTitle: A remoção da sua conta está em andamento.
-        inProgressDescription: Isso pode levar alguns minutos. Você pode fechar esta janela com segurança — o processo continuará em segundo plano.
+        inProgressDescription: Isso pode levar alguns minutos. Você pode fechar esta janela com segurança—o processo continuará em segundo plano.
         completedTitle: Sua conta foi removida com sucesso.
         completedDescription: "Você pode fechar esta janela com segurança. Nota: Você não será desconectado automaticamente. Por favor, saia manualmente de outros dispositivos."
         failedTitle: Falha na remoção da conta.
@@ -152,7 +152,7 @@ account:
       inProgressText: Isso pode levar alguns minutos. Você ainda pode continuar usando o aplicativo.
       completedText: E-mail atualizado em todos os serviços com sucesso!
       failedTitle: Alguns serviços falharam ao sincronizar seu novo e-mail.
-      failedText: Seu e-mail foi alterado, mas alguns serviços ainda podem mostrar o antigo. Por favor, entre em contato com nosso suporte em dbdiagram@holistics.io.
+      failedText: Seu e-mail foi alterado, mas alguns serviços ainda podem mostrar o antigo. Por favor, entre em contato com nosso suporte em dbdiagram{'@'}holistics.io.
 
     # Error messages
     errors:

@@ -23,7 +23,7 @@ account:
     manageTitle: アカウント管理
     changeEmail: メールアドレスを変更
     changeEmailInProgress: メールアドレスの変更が進行中です。しばらくお待ちください
-    changeEmailFailed: 前回のメール変更に失敗しました。dbdiagram@holistics.io までお問い合わせください
+    changeEmailFailed: 前回のメール変更に失敗しました。dbdiagram{'@'}holistics.io までお問い合わせください
 
     removal:
       removeAccount: アカウントを削除
@@ -35,7 +35,7 @@ account:
       cancelSuccess: 削除リクエストが正常にキャンセルされました！
       status:
         inProgressTitle: アカウントの削除が進行中です。
-        inProgressDescription: 数分かかる場合があります。このウィンドウを閉じても安全です — プロセスはバックグラウンドで続行されます。
+        inProgressDescription: 数分かかる場合があります。このウィンドウを閉じても安全です—プロセスはバックグラウンドで続行されます。
         completedTitle: アカウントが正常に削除されました。
         completedDescription: "このウィンドウを閉じても安全です。注意: 自動的にログアウトされません。他のデバイスから手動でログアウトしてください。"
         failedTitle: アカウントの削除に失敗しました。
@@ -143,7 +143,7 @@ account:
       inProgressText: 数分かかる場合があります。引き続きアプリをご利用いただけます。
       completedText: すべてのサービスでメールが正常に更新されました！
       failedTitle: 一部のサービスで新しいメールの同期に失敗しました。
-      failedText: メールは変更されましたが、一部のサービスでは古いメールが表示される場合があります。dbdiagram@holistics.io までお問い合わせください。
+      failedText: メールは変更されましたが、一部のサービスでは古いメールが表示される場合があります。dbdiagram{'@'}holistics.io までお問い合わせください。
 
     errors:
       invalidEmail: 有効なメールアドレスを入力してください

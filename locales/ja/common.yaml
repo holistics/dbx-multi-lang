@@ -146,3 +146,90 @@ common:
       failedCheckVersion: バージョン状態の確認に失敗しました
       pleaseSignInLoadLatest: 最新バージョンを読み込むにはサインインしてください
       failedLoadLatest: 最新バージョンの読み込みに失敗しました
+
+  managePlan:
+    currentPlan: 現在のプラン
+    editSubscription: サブスクリプションを編集
+    switchToBilling: "{unit}課金に切り替える"
+    updatePlan: プランを更新
+    nextPayment: "次回のお支払いは"
+    chargedOn: "<b>{date}</b> に請求されます"
+    cancelledOn: "サブスクリプションは <b>{date}</b> にキャンセルされます"
+    paymentMethod: 支払い方法
+    noPaymentMethod: 支払い方法がありません。
+    editPaymentMethod: 支払い方法を編集
+    invoicing: 請求
+    lastPayment: "前回の支払い: <b>{date}</b>"
+    noPaymentMade: 支払い履歴がありません。
+    manageInvoices: 請求書を管理
+    supportText: "サポートが必要な場合は、こちらまでメールでご連絡ください:"
+    resync: 再同期
+    addons: アドオン
+    updateAddons: アドオンを更新
+
+    billingPeriodUnit:
+      annual: 年間
+      monthly: 月間
+
+    planAndAddonInfo:
+      includeAddon: "{quantity} 個の {name} を含む"
+      addonsLabel: "アドオン:"
+      additionalAddon: "追加の {name} x {quantity}"
+      addonName:
+        seat: "ユーザー | ユーザー"
+        paidProject: "dbdocsの有料プロジェクト | dbdocsの有料プロジェクト"
+
+  userInfo:
+    you: （あなた）
+
+  manageMembers:
+    title: メンバー
+    planLabel: プラン
+    docEditorsLabel: ドキュメント編集者
+    docEditorsTooltip: "含まれるもの:<ul class=\"list-disc list-inside\"><li>オーナー: ワークスペースの所有者。</li><li>管理者: ワークスペース内でプロジェクトを作成・更新し、他のメンバーの役割を管理できるユーザー。</li><li>ドキュメント編集者: ワークスペース内でプロジェクトを作成・更新できるユーザー。</li></ul>"
+    docViewersLabel: ドキュメント閲覧者
+    docViewersTooltip: ワークスペース内のプロジェクトを閲覧できるユーザー。
+    purchaseSlotsTooltip: ワークスペースにドキュメント編集者を追加招待するには枠を購入してください
+    purchaseSlots: 枠を購入
+    upgradeInviteLine1: ワークスペースにメンバーを招待して
+    upgradeInviteLine2: "<b>チーム</b>プランで共同作業しましょう。"
+    upgrade: アップグレード
+    addMembers: メンバーを追加
+    membersTab: メンバー
+    guestsTab: ゲスト
+    noGuests: （このワークスペースにはゲストがいません）
+    syncErrorBanner: "{count} 人のメンバーの同期に失敗しました"
+    resyncAll: すべて再同期
+
+  workspaceMember:
+    owner: オーナー
+    project: "{count} 件のプロジェクト"
+    projects: "{count} 件のプロジェクト"
+    diagram: "{count} 件のダイアグラム"
+    diagrams: "{count} 件のダイアグラム"
+    projectsGroupLabel: プロジェクト
+    diagramsGroupLabel: ダイアグラム
+    syncErrorTooltip: 同期に失敗しました。再同期をお試しください
+    syncErrorBlocksEdit: このメンバーの役割を変更する前に同期エラーを解決してください
+    roleLabel: "役割: {role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: 管理者
+    editor: 編集者
+    viewer: 閲覧者
+    remove: 削除
+
+  confirmRemovalModal:
+    close: 閉じる
+    otpTitle: OTPを入力してください
+    otpLabel: メールに送信されたOTPコードを入力してください
+    resendPrefix: OTPが届きませんか？
+    resend: OTPを再送信
+    resendWithCooldown: "{label}（{seconds}秒）"
+    errors:
+      requestFailed: 確認コードを送信できませんでした。もう一度お試しください。
+      resendFailed: 確認コードを再送信できませんでした。もう一度お試しください。
+      invalidCode: コードが無効です。もう一度お試しください。

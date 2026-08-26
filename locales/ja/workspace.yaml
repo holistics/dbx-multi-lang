@@ -12,6 +12,8 @@ workspace:
   advanced: アドバンスド
   myDiagrams: マイダイアグラム
   sharedWithMe: 共有されたダイアグラム
+  guestWorkspace: ゲストワークスペース
+  guestLabel: (ゲスト)
   workspace: ワークスペース
   private: プライベート
   readOnlyMode: サブスクリプションのキャンセルにより、ワークスペースは読み取り専用モードです。機能を有効にするにはサブスクリプションを更新してください。
@@ -53,13 +55,48 @@ workspace:
     removeWorkspaceSuggestion: 確認のため、テキスト入力欄に <i>permanently delete</i> と入力してください。
     removalRequestCanceled: 削除リクエストが正常にキャンセルされました！
     removalRequestCreated: 削除リクエストが正常に作成されました！
-    contactSupportError: エラーが発生しました。サポート dbdiagram@holistics.io にお問い合わせください
+    contactSupportError: エラーが発生しました。サポート dbdiagram{'@'}holistics.io にお問い合わせください
     workspaceNameUpdated: ワークスペース名が正常に更新されました
     workspaceNameUpdateFailed: ワークスペース名の更新に失敗しました。もう一度お試しください！
     ssoConfigFetchFailed: SSO 設定の取得に失敗しました。ページを更新してください。
     ssoConfigUpdated: SSO 設定が正常に更新されました
     ssoConfigSaveFailed: SSO 設定の保存に失敗しました。もう一度お試しください。
+
+  # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: ワークスペースを作成
+    settingUpTitle: ワークスペースをセットアップ中
+    nameLabel: ワークスペース名
+    namePlaceholder: "例: Acme チーム"
+    cancel: キャンセル
+    create: 作成
+    partiallyFailed: "ワークスペース「{name}」は準備できましたが、セットアップの一部が完了しませんでした。"
+    partiallyFailedHint: 今すぐ使用を開始し、後でワークスペース管理ページからセットアップを完了できます。
+    openWorkspace: ワークスペースを開く
+    retry: 再試行
+    fullyFailed: "ワークスペース「{name}」のセットアップ中に問題が発生しました。"
+    contactUs: お問い合わせ
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: 再試行
+    contactUs: お問い合わせ
+    contactUsHint: 再試行しても解決しない場合はこちら。
+    checking:
+      title: "ワークスペースを確認中..."
+      description: すべてが同期されていることを確認しています。しばらくお待ちください。
+    partiallyFailed:
+      title: ワークスペースのセットアップが完了していません。
+      description: セットアップを完了するには再試行してください。
+    fullyFailed:
+      title: ワークスペースのセットアップに失敗しました。
+
   members:
+    unlimited: 無制限
     invite: 招待
     invitePlaceholder: メールアドレスを入力
     inviteButton: 招待
@@ -111,6 +148,12 @@ workspace:
     free: Free プラン
     team: Team プラン
     disabled: （無効）
+  legacyPlanNotice:
+    title: これはレガシーワークスペースです
+    description: このワークスペースは、新しい料金プランにアップグレードできないレガシープランをご利用中です。
+    contactPrefix: お問い合わせ先：
+    contactSuffix: 移行のお手伝いをいたします。
+    gotIt: 了解しました
   welcome:
     title: チームワークスペースへようこそ！
     description: 新しいダイアグラムを作成し、チームメンバーとのコラボレーションを始めましょう。
@@ -148,3 +191,28 @@ workspace:
       nameWhitespace: トークン名は空またはスペースのみにすることはできません
       upgradeRequired: トークンの作成と API へのアクセスには、プランをアップグレードしてください
       ownerOnly: 新しいトークンを生成できるのはワークスペースのオーナーのみです
+
+  settingsTab:
+    generalTitle: 一般
+    displayNameLabel: 表示名
+    displayNamePlaceholder: 自分のワークスペース
+    urlNameLabel: ワークスペースURL名
+    urlNameTooltip: ワークスペース名を変更すると、これまでの共有リンクがすべて無効になります
+    urlNamePlaceholder: my-workspace-url
+    checkingUrlName: この名前が使用可能か確認しています…
+    workspacePreviewPrefix: 'ワークスペース:'
+    dbdocsPreviewPrefix: 'dbdocs:'
+    saving: 保存中…
+    updateProfile: プロフィールを更新
+    manageWorkspaceTitle: ワークスペースの管理
+    deleteWorkspaceButton: このワークスペースを削除
+    deleteWarning: この操作は取り消せません。dbdiagramとdbdocsのすべてのデータが完全に削除されます！
+    urlNameInvalid: URL名は小文字、数字、ハイフンのみ使用できます（先頭・末尾にハイフンは使用不可）。
+    urlNameTaken: この名前は使用できません。
+    checkUrlNameFailed: URL名を確認できませんでした。もう一度お試しください。
+    settingsSaved: ワークスペース設定を保存しました。dbdiagramとdbdocsに同期しています…
+    settingsSaveFailed: ワークスペース設定の更新に失敗しました。
+    deleteModalTitle: このワークスペースを削除しますか？
+    deleteModalContent: このワークスペースとすべてのデータを削除しますか？この操作は取り消せません。確認コードをメールでお送りします。
+    deleteModalConfirmLabel: ワークスペースを削除
+    deletionStarted: ワークスペースの削除を開始しました。

@@ -182,7 +182,7 @@ common:
       fullSession: "Impossible de se connecter : session complète !"
       diagramDeleted: Ce diagramme a été supprimé !
       overwrittenDiagram: Quelqu’un a écrasé le contenu du diagramme, veuillez recharger pour voir les dernières modifications !
-      diagramMigratedDiagramViewAsCode: Vos vues de diagramme ont été migrées vers le nouveau format "Diagram View as Code". Veuillez recharger pour continuer. Contactez dbdiagram@holistics.io en cas de problème.
+      diagramMigratedDiagramViewAsCode: Vos vues de diagramme ont été migrées vers le nouveau format "Diagram View as Code". Veuillez recharger pour continuer. Contactez dbdiagram{'@'}holistics.io en cas de problème.
       permissionsChanged: Vos permissions ont été modifiées, veuillez recharger pour appliquer les changements !
       cannotReconnect: Impossible de se reconnecter au serveur
 
@@ -210,3 +210,105 @@ common:
       failedCheckVersion: Échec de la vérification de version
       pleaseSignInLoadLatest: Veuillez vous connecter pour charger la dernière version
       failedLoadLatest: Échec du chargement de la dernière version
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Forfait actuel
+    editSubscription: Modifier l’abonnement
+    switchToBilling: "Passer à la facturation {unit}"
+    updatePlan: Mettre à jour le forfait
+    nextPayment: "Votre prochain paiement est de"
+    chargedOn: "à facturer le <b>{date}</b>"
+    cancelledOn: "Votre abonnement sera annulé le <b>{date}</b>"
+    paymentMethod: Moyen de paiement
+    noPaymentMethod: Aucun moyen de paiement.
+    editPaymentMethod: Modifier le moyen de paiement
+    invoicing: Facturation
+    lastPayment: "Dernier paiement : <b>{date}</b>"
+    noPaymentMade: Aucun paiement effectué.
+    manageInvoices: Gérer les factures
+    supportText: "Pour toute assistance, contactez-nous à :"
+    resync: Resynchroniser
+    addons: Modules complémentaires
+    updateAddons: Mettre à jour les modules complémentaires
+
+    billingPeriodUnit:
+      annual: annuelle
+      monthly: mensuelle
+
+    planAndAddonInfo:
+      includeAddon: "Inclut {quantity} {name}"
+      addonsLabel: "Modules complémentaires :"
+      additionalAddon: "{name} supplémentaire x {quantity}"
+      addonName:
+        seat: "utilisateur | utilisateurs"
+        paidProject: "projet de documentation payant dbdocs | projets de documentation payants dbdocs"
+
+  # ========================================
+  # User info - Shared "current user" indicator (avatar tooltips, member lists)
+  # ========================================
+  userInfo:
+    you: (vous)
+
+  # ========================================
+  # Manage Members - Workspace people/guests management panel
+  # ========================================
+  manageMembers:
+    title: Membres
+    planLabel: forfait
+    docEditorsLabel: Éditeurs de documents
+    docEditorsTooltip: "Inclut :<ul class=\"list-disc list-inside\"><li>Propriétaire : Le propriétaire de l’espace de travail.</li><li>Administrateurs : Utilisateurs pouvant créer, mettre à jour des projets dans l’espace de travail et gérer les rôles des autres membres.</li><li>Éditeurs de documents : Utilisateurs pouvant créer et mettre à jour des projets dans l’espace de travail.</li></ul>"
+    docViewersLabel: Lecteurs de documents
+    docViewersTooltip: Utilisateurs pouvant consulter les projets de l’espace de travail.
+    purchaseSlotsTooltip: Achetez des places pour inviter davantage d’éditeurs de documents dans votre espace de travail
+    purchaseSlots: Acheter des places
+    upgradeInviteLine1: Invitez des personnes dans l’espace de travail et
+    upgradeInviteLine2: "collaborez avec le forfait <b>Team</b>."
+    upgrade: Mettre à niveau
+    addMembers: Ajouter des membres
+    membersTab: Membres
+    guestsTab: Invités
+    noGuests: (Aucun invité dans cet espace de travail)
+    syncErrorBanner: "{count} membre(s) n’ont pas pu être synchronisés"
+    resyncAll: Tout resynchroniser
+
+  # ========================================
+  # Workspace Member - Single row in the members/guests/invitations list
+  # ========================================
+  workspaceMember:
+    owner: Propriétaire
+    project: "{count} projet"
+    projects: "{count} projets"
+    diagram: "{count} diagramme"
+    diagrams: "{count} diagrammes"
+    projectsGroupLabel: Projets
+    diagramsGroupLabel: Diagrammes
+    syncErrorTooltip: Échec de la synchronisation, veuillez réessayer de resynchroniser
+    syncErrorBlocksEdit: Résolvez l’erreur de synchronisation avant de modifier le rôle de ce membre
+    roleLabel: "Rôle : {role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: Administrateur
+    editor: Éditeur
+    viewer: Lecteur
+    remove: Retirer
+
+  # ========================================
+  # Fenêtre de confirmation de suppression
+  # ========================================
+  confirmRemovalModal:
+    close: Fermer
+    otpTitle: Saisissez votre code OTP
+    otpLabel: Veuillez saisir le code OTP envoyé par email
+    resendPrefix: "Vous n'avez pas reçu le code ?"
+    resend: Renvoyer le code
+    resendWithCooldown: "{label} ({seconds}s)"
+    errors:
+      requestFailed: Impossible d'envoyer le code de confirmation. Veuillez réessayer.
+      resendFailed: Impossible de renvoyer le code de confirmation. Veuillez réessayer.
+      invalidCode: Code invalide, veuillez réessayer.

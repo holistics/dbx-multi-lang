@@ -142,8 +142,8 @@ modals:
     feedback: Bu xususiyat haqida # Feedback label
     feedbackLink: fikringizni # Feedback link
     aboutThisFeature: bizga bildiring! # Feedback link suffix
-    errorLoadingProjects: Nashr qilingan loyihalarni yuklashda xatolik yuz berdi, iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmatiga murojaat qiling # Error toast
-    errorPublishing: Loyihani nashr qilishda xatolik yuz berdi, iltimos, dbdiagram@holistics.io orqali qo'llab-quvvatlash xizmatiga murojaat qiling # Error toast
+    errorLoadingProjects: Nashr qilingan loyihalarni yuklashda xatolik yuz berdi, iltimos, dbdiagram{'@'}holistics.io orqali qo'llab-quvvatlash xizmatiga murojaat qiling # Error toast
+    errorPublishing: Loyihani nashr qilishda xatolik yuz berdi, iltimos, dbdiagram{'@'}holistics.io orqali qo'llab-quvvatlash xizmatiga murojaat qiling # Error toast
     projectNameEmpty: Loyiha nomi bo'sh bo'lishi mumkin emas # Validation error
     projectNameInvalid: Loyiha nomi faqat harflar, raqamlar, probel, "-" yoki "_" ni o'z ichiga olishi mumkin # Validation error
     projectNameExists: Bunday nom/url ga ega loyiha allaqachon mavjud. Iltimos, boshqa nom tanlang. # Validation error for duplicate name/url
