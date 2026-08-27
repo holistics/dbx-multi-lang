@@ -28,6 +28,22 @@ dbrenderer:
     unknownView: Невідоме подання # Label (unknown view name)
     newView: Нове подання # Button (creates new diagram view)
     copyOfName: Копія {name} # Default name for copied view
+    customPropertyFilters: Фільтрувати за властивостями # Section heading above the custom property filter rows
+    customPropertyFilterTooltip: Фільтрувати за власними властивостями # Tooltip for the funnel button next to search
+    customPropertyFilterKeyPlaceholder: Виберіть ключ # Placeholder for the custom property key dropdown
+    customPropertyFilterContains: містить # Operator option (substring match) in the custom property filter row
+    customPropertyFilterMatches: дорівнює # Operator option (exact match) in the custom property filter row
+    customPropertyFilterExists: існує # Operator option (key is present, any value) in the custom property filter row
+    customPropertyFilterHelp: Фільтруйте таблиці та нотатки за власними властивостями # Help tooltip beside the filter panel heading
+    customPropertyFilterEmpty: На цій діаграмі не знайдено власних властивостей # Shown when the diagram has no custom property keys at all
+    customPropertyFilterValuePlaceholder: Значення # Placeholder for the custom property value input
+    customPropertyFilterAdd: Додати фільтр # Button (appends a new custom property filter row)
+    customPropertyFilterClearAll: Очистити все # Button (removes all custom property filter rows)
+    customPropertyFilterNoKeys: На цій діаграмі немає ключів власних властивостей # Empty state for the key dropdown
+    customPropertyFilterSearchKeys: Шукати ключі # Placeholder for the key search input in the custom property filter popover
+    customPropertyFilterNoMatchingKeys: Немає відповідних ключів. # Empty state when the key search matches nothing
+    customPropertyFilterSubmitAdd: Додати # Button that commits a newly built custom property filter
+    customPropertyFilterSubmitUpdate: Оновити # Button that commits changes to an existing custom property filter
 
   # ========================================
   # Controller Bar - Top canvas toolbar
