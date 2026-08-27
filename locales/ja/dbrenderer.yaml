@@ -25,6 +25,22 @@ dbrenderer:
     unknownView: 不明なビュー
     newView: 新しいビュー
     copyOfName: '{name} のコピー'
+    customPropertyFilters: プロパティで絞り込む
+    customPropertyFilterTooltip: カスタムプロパティで絞り込む
+    customPropertyFilterKeyPlaceholder: キーを選択
+    customPropertyFilterContains: 含む
+    customPropertyFilterMatches: 一致する
+    customPropertyFilterExists: 存在する
+    customPropertyFilterHelp: カスタムプロパティでテーブルとノートを絞り込む
+    customPropertyFilterEmpty: この図にカスタムプロパティはありません
+    customPropertyFilterValuePlaceholder: 値
+    customPropertyFilterAdd: フィルターを追加
+    customPropertyFilterClearAll: すべてクリア
+    customPropertyFilterNoKeys: このダイアグラムにはカスタムプロパティのキーがありません
+    customPropertyFilterSearchKeys: キーを検索
+    customPropertyFilterNoMatchingKeys: 一致するキーがありません。
+    customPropertyFilterSubmitAdd: 追加
+    customPropertyFilterSubmitUpdate: 更新
   controllerBar:
     highlightRelationships: リレーションシップをハイライト
     unhighlightRelationships: リレーションシップのハイライトを解除

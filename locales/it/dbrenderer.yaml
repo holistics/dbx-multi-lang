@@ -28,6 +28,22 @@ dbrenderer:
     unknownView: "Vista sconosciuta" # Label (unknown view name)
     newView: "Nuova vista" # Button (creates new diagram view)
     copyOfName: "Copia di {name}" # Default name for copied view
+    customPropertyFilters: "Filtra per proprietà" # Section heading above the custom property filter rows
+    customPropertyFilterTooltip: "Filtra per proprietà personalizzate" # Tooltip for the funnel button next to search
+    customPropertyFilterKeyPlaceholder: "Seleziona chiave" # Placeholder for the custom property key dropdown
+    customPropertyFilterContains: "contiene" # Operator option (substring match) in the custom property filter row
+    customPropertyFilterMatches: "è uguale a" # Operator option (exact match) in the custom property filter row
+    customPropertyFilterExists: "esiste" # Operator option (key is present, any value) in the custom property filter row
+    customPropertyFilterHelp: "Filtra tabelle e note con le proprietà personalizzate" # Help tooltip beside the filter panel heading
+    customPropertyFilterEmpty: "Nessuna proprietà personalizzata in questo diagramma" # Shown when the diagram has no custom property keys at all
+    customPropertyFilterValuePlaceholder: "Valore" # Placeholder for the custom property value input
+    customPropertyFilterAdd: "Aggiungi filtro" # Button (appends a new custom property filter row)
+    customPropertyFilterClearAll: "Cancella tutto" # Button (removes all custom property filter rows)
+    customPropertyFilterNoKeys: "Nessuna chiave di proprietà personalizzata in questo diagramma" # Empty state for the key dropdown
+    customPropertyFilterSearchKeys: "Cerca chiavi" # Placeholder for the key search input in the custom property filter popover
+    customPropertyFilterNoMatchingKeys: "Nessuna chiave corrispondente." # Empty state when the key search matches nothing
+    customPropertyFilterSubmitAdd: "Aggiungi" # Button that commits a newly built custom property filter
+    customPropertyFilterSubmitUpdate: "Aggiorna" # Button that commits changes to an existing custom property filter
 
   # ========================================
   # Controller Bar - Top canvas toolbar

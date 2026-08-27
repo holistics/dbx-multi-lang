@@ -28,6 +28,22 @@ dbrenderer:
     unknownView: "Noma'lum ko'rinish" # Label (unknown view name)
     newView: Yangi ko'rinish # Button (creates new diagram view)
     copyOfName: "{name} nusxasi" # Default name for copied view
+    customPropertyFilters: "Xususiyat bo'yicha filtrlash" # Section heading above the custom property filter rows
+    customPropertyFilterTooltip: Maxsus xususiyatlar bo'yicha filtrlash # Tooltip for the funnel button next to search
+    customPropertyFilterKeyPlaceholder: Kalitni tanlang # Placeholder for the custom property key dropdown
+    customPropertyFilterContains: "o'z ichiga oladi" # Operator option (substring match) in the custom property filter row
+    customPropertyFilterMatches: teng # Operator option (exact match) in the custom property filter row
+    customPropertyFilterExists: mavjud # Operator option (key is present, any value) in the custom property filter row
+    customPropertyFilterHelp: "Jadval va eslatmalarni maxsus xususiyatlar bo'yicha filtrlash" # Help tooltip beside the filter panel heading
+    customPropertyFilterEmpty: "Bu diagrammada maxsus xususiyatlar topilmadi" # Shown when the diagram has no custom property keys at all
+    customPropertyFilterValuePlaceholder: Qiymat # Placeholder for the custom property value input
+    customPropertyFilterAdd: Filtr qo'shish # Button (appends a new custom property filter row)
+    customPropertyFilterClearAll: Barchasini tozalash # Button (removes all custom property filter rows)
+    customPropertyFilterNoKeys: Bu diagrammada maxsus xususiyat kalitlari yo'q # Empty state for the key dropdown
+    customPropertyFilterSearchKeys: Kalitlarni qidirish # Placeholder for the key search input in the custom property filter popover
+    customPropertyFilterNoMatchingKeys: Mos keluvchi kalitlar yo'q. # Empty state when the key search matches nothing
+    customPropertyFilterSubmitAdd: Qo'shish # Button that commits a newly built custom property filter
+    customPropertyFilterSubmitUpdate: Yangilash # Button that commits changes to an existing custom property filter
 
   # ========================================
   # Controller Bar - Top canvas toolbar
