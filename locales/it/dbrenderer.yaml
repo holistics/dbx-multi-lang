@@ -28,6 +28,20 @@ dbrenderer:
     unknownView: "Vista sconosciuta" # Label (unknown view name)
     newView: "Nuova vista" # Button (creates new diagram view)
     copyOfName: "Copia di {name}" # Default name for copied view
+    metadataFilters: "Filtra per metadati" # Section heading above the metadata filter rows
+    metadataFilterTooltip: "Filtra per metadati personalizzati" # Tooltip for the funnel button next to search
+    metadataFilterKeyPlaceholder: "Seleziona chiave" # Placeholder for the metadata key dropdown
+    metadataFilterContains: "contiene" # Operator option (substring match) in the metadata filter row
+    metadataFilterMatches: "è uguale a" # Operator option (exact match) in the metadata filter row
+    metadataFilterExists: "esiste" # Operator option (key is present, any value) in the metadata filter row
+    metadataFilterHelp: "Filtra tabelle e note con i metadati" # Help tooltip beside the filter panel heading
+    metadataFilterEmpty: "Nessun metadato in questo diagramma" # Shown when the diagram has no metadata keys at all
+    metadataFilterValueApply: "Applica" # Confirms the value typed in the metadata filter value modal
+    metadataFilterValueCancel: "Annulla" # Dismisses the metadata filter value modal without saving
+    metadataFilterValuePlaceholder: "Valore" # Placeholder for the metadata value input
+    metadataFilterAdd: "Aggiungi filtro" # Button (appends a new metadata filter row)
+    metadataFilterClearAll: "Cancella tutto" # Button (removes all metadata filter rows)
+    metadataFilterNoKeys: "Nessuna chiave di metadati in questo diagramma" # Empty state for the key dropdown
 
   # ========================================
   # Controller Bar - Top canvas toolbar

@@ -28,6 +28,20 @@ dbrenderer:
     unknownView: 알 수 없는 보기    # Label (unknown view name)
     newView: 새 다이어그램 보기   # Button (creates new diagram view)
     copyOfName: '{name} 사본'    # Default name for copied view
+    metadataFilters: 메타데이터로 필터링 # Section heading above the metadata filter rows
+    metadataFilterTooltip: 사용자 지정 메타데이터로 필터링 # Tooltip for the funnel button next to search
+    metadataFilterKeyPlaceholder: 키 선택 # Placeholder for the metadata key dropdown
+    metadataFilterContains: 포함 # Operator option (substring match) in the metadata filter row
+    metadataFilterMatches: 일치 # Operator option (exact match) in the metadata filter row
+    metadataFilterExists: 존재 # Operator option (key is present, any value) in the metadata filter row
+    metadataFilterHelp: 메타데이터로 테이블과 노트 필터링 # Help tooltip beside the filter panel heading
+    metadataFilterEmpty: 이 다이어그램에 메타데이터가 없습니다 # Shown when the diagram has no metadata keys at all
+    metadataFilterValueApply: 적용 # Confirms the value typed in the metadata filter value modal
+    metadataFilterValueCancel: 취소 # Dismisses the metadata filter value modal without saving
+    metadataFilterValuePlaceholder: 값 # Placeholder for the metadata value input
+    metadataFilterAdd: 필터 추가 # Button (appends a new metadata filter row)
+    metadataFilterClearAll: 모두 지우기 # Button (removes all metadata filter rows)
+    metadataFilterNoKeys: 이 다이어그램에 메타데이터 키가 없습니다 # Empty state for the key dropdown
 
   # ========================================
   # Controller Bar - Top canvas toolbar

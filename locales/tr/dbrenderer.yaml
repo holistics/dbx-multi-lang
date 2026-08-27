@@ -28,6 +28,20 @@ dbrenderer:
     unknownView: Bilinmeyen Görünüm # Label (unknown view name)
     newView: Yeni Görünüm # Button (creates new diagram view)
     copyOfName: "{name} (Kopya)" # Default name for copied view
+    metadataFilters: Meta veriye göre filtrele # Section heading above the metadata filter rows
+    metadataFilterTooltip: Özel meta verilere göre filtrele # Tooltip for the funnel button next to search
+    metadataFilterKeyPlaceholder: Anahtar seçin # Placeholder for the metadata key dropdown
+    metadataFilterContains: içeriyor # Operator option (substring match) in the metadata filter row
+    metadataFilterMatches: eşit # Operator option (exact match) in the metadata filter row
+    metadataFilterExists: mevcut # Operator option (key is present, any value) in the metadata filter row
+    metadataFilterHelp: Tabloları ve notları meta veriyle filtrele # Help tooltip beside the filter panel heading
+    metadataFilterEmpty: Bu diyagramda meta veri yok # Shown when the diagram has no metadata keys at all
+    metadataFilterValueApply: Uygula # Confirms the value typed in the metadata filter value modal
+    metadataFilterValueCancel: İptal # Dismisses the metadata filter value modal without saving
+    metadataFilterValuePlaceholder: Değer # Placeholder for the metadata value input
+    metadataFilterAdd: Filtre ekle # Button (appends a new metadata filter row)
+    metadataFilterClearAll: Tümünü temizle # Button (removes all metadata filter rows)
+    metadataFilterNoKeys: Bu diyagramda meta veri anahtarı yok # Empty state for the key dropdown
 
   # ========================================
   # Controller Bar - Top canvas toolbar

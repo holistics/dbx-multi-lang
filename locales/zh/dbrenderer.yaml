@@ -25,6 +25,20 @@ dbrenderer:
     unknownView: 未知视图
     newView: 新视图
     copyOfName: '{name} 的副本'
+    metadataFilters: 按元数据筛选
+    metadataFilterTooltip: 按自定义元数据筛选
+    metadataFilterKeyPlaceholder: 选择键
+    metadataFilterContains: 包含
+    metadataFilterMatches: 等于
+    metadataFilterExists: 存在
+    metadataFilterHelp: 按元数据筛选表和便签
+    metadataFilterEmpty: 此图中没有元数据
+    metadataFilterValueApply: 应用
+    metadataFilterValueCancel: 取消
+    metadataFilterValuePlaceholder: 值
+    metadataFilterAdd: 添加筛选条件
+    metadataFilterClearAll: 全部清除
+    metadataFilterNoKeys: 此图表中没有元数据键
   controllerBar:
     highlightRelationships: 高亮关系
     unhighlightRelationships: 取消高亮关系

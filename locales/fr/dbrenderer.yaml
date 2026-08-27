@@ -28,6 +28,20 @@ dbrenderer:
     unknownView: Vue inconnue
     newView: Nouvelle vue
     copyOfName: Copie de {name}
+    metadataFilters: Filtrer par métadonnées
+    metadataFilterTooltip: Filtrer par métadonnées personnalisées
+    metadataFilterKeyPlaceholder: Sélectionner une clé
+    metadataFilterContains: contient
+    metadataFilterMatches: est égal à
+    metadataFilterExists: existe
+    metadataFilterHelp: Filtrer les tables et les notes par métadonnées
+    metadataFilterEmpty: Aucune métadonnée dans ce diagramme
+    metadataFilterValueApply: Appliquer
+    metadataFilterValueCancel: Annuler
+    metadataFilterValuePlaceholder: Valeur
+    metadataFilterAdd: Ajouter un filtre
+    metadataFilterClearAll: Tout effacer
+    metadataFilterNoKeys: Aucune clé de métadonnées dans ce diagramme
 
   # ========================================
   # Barre de contrôle du canevas

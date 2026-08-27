@@ -25,6 +25,20 @@ dbrenderer:
     unknownView: 不明なビュー
     newView: 新しいビュー
     copyOfName: '{name} のコピー'
+    metadataFilters: メタデータで絞り込む
+    metadataFilterTooltip: カスタムメタデータで絞り込む
+    metadataFilterKeyPlaceholder: キーを選択
+    metadataFilterContains: 含む
+    metadataFilterMatches: 一致する
+    metadataFilterExists: 存在する
+    metadataFilterHelp: メタデータでテーブルとノートを絞り込む
+    metadataFilterEmpty: この図にメタデータはありません
+    metadataFilterValueApply: 適用
+    metadataFilterValueCancel: キャンセル
+    metadataFilterValuePlaceholder: 値
+    metadataFilterAdd: フィルターを追加
+    metadataFilterClearAll: すべてクリア
+    metadataFilterNoKeys: このダイアグラムにはメタデータキーがありません
   controllerBar:
     highlightRelationships: リレーションシップをハイライト
     unhighlightRelationships: リレーションシップのハイライトを解除

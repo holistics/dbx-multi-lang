@@ -28,6 +28,20 @@ dbrenderer:
     unknownView: "Noma'lum ko'rinish" # Label (unknown view name)
     newView: Yangi ko'rinish # Button (creates new diagram view)
     copyOfName: "{name} nusxasi" # Default name for copied view
+    metadataFilters: "Metama'lumot bo'yicha filtrlash" # Section heading above the metadata filter rows
+    metadataFilterTooltip: Maxsus metama'lumotlar bo'yicha filtrlash # Tooltip for the funnel button next to search
+    metadataFilterKeyPlaceholder: Kalitni tanlang # Placeholder for the metadata key dropdown
+    metadataFilterContains: "o'z ichiga oladi" # Operator option (substring match) in the metadata filter row
+    metadataFilterMatches: teng # Operator option (exact match) in the metadata filter row
+    metadataFilterExists: mavjud # Operator option (key is present, any value) in the metadata filter row
+    metadataFilterHelp: "Jadval va eslatmalarni metama'lumot bo'yicha filtrlash" # Help tooltip beside the filter panel heading
+    metadataFilterEmpty: "Bu diagrammada metama'lumot topilmadi" # Shown when the diagram has no metadata keys at all
+    metadataFilterValueApply: Qo'llash # Confirms the value typed in the metadata filter value modal
+    metadataFilterValueCancel: Bekor qilish # Dismisses the metadata filter value modal without saving
+    metadataFilterValuePlaceholder: Qiymat # Placeholder for the metadata value input
+    metadataFilterAdd: Filtr qo'shish # Button (appends a new metadata filter row)
+    metadataFilterClearAll: Barchasini tozalash # Button (removes all metadata filter rows)
+    metadataFilterNoKeys: Bu diagrammada metama'lumot kalitlari yo'q # Empty state for the key dropdown
 
   # ========================================
   # Controller Bar - Top canvas toolbar

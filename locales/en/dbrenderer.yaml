@@ -28,6 +28,20 @@ dbrenderer:
     unknownView: Unknown View # Label (unknown view name)
     newView: New View # Button (creates new diagram view)
     copyOfName: Copy of {name} # Default name for copied view
+    metadataFilters: Filter # Section heading above the metadata filter rows
+    metadataFilterTooltip: Filter # Tooltip for the funnel button next to search
+    metadataFilterKeyPlaceholder: Select key # Placeholder for the metadata key dropdown
+    metadataFilterContains: contains # Operator option (substring match) in the metadata filter row
+    metadataFilterMatches: matches # Operator option (exact match) in the metadata filter row
+    metadataFilterExists: exists # Operator option (key is present, any value) in the metadata filter row
+    metadataFilterHelp: Filter tables and notes with metadata # Help tooltip beside the filter panel heading
+    metadataFilterEmpty: No metadata found in this diagram # Shown when the diagram has no metadata keys at all
+    metadataFilterValueApply: Apply # Confirms the value typed in the metadata filter value modal
+    metadataFilterValueCancel: Cancel # Dismisses the metadata filter value modal without saving
+    metadataFilterValuePlaceholder: Value # Placeholder for the metadata value input
+    metadataFilterAdd: Add filter # Button (appends a new metadata filter row)
+    metadataFilterClearAll: Clear all # Button (removes all metadata filter rows)
+    metadataFilterNoKeys: No metadata keys in this diagram # Empty state for the key dropdown
 
   # ========================================
   # Controller Bar - Top canvas toolbar
@@ -137,7 +151,7 @@ dbrenderer:
     allTables: All Tables # Filter chip (all tables)
     allNotes: All Notes # Filter chip (all notes)
     nothing: Nothing # Filter chip (nothing shown)
-    moreItems: '{count} more items:' # Overflow indicator (more filters)
+    moreItems: "{count} more items:" # Overflow indicator (more filters)
 
   # ========================================
   # Sticky Notes - Sticky note section
@@ -147,8 +161,8 @@ dbrenderer:
   stickyNotes:
     untitledNote: Untitled Note # Default name for new notes
     removeNoteConfirmation: Remove your note? # Delete confirmation dialog title
-    'yes': 'Yes' # Confirm button (delete note)
-    'no': 'No' # Cancel button
+    "yes": "Yes" # Confirm button (delete note)
+    "no": "No" # Cancel button
 
   # ========================================
   # Table List - Table list in sidebar

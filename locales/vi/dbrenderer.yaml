@@ -22,6 +22,20 @@ dbrenderer:
     unknownView: Chế độ xem không xác định
     newView: Chế độ xem mới
     copyOfName: Bản sao của {name}
+    metadataFilters: Lọc theo metadata
+    metadataFilterTooltip: Lọc theo metadata tùy chỉnh
+    metadataFilterKeyPlaceholder: Chọn khóa
+    metadataFilterContains: chứa
+    metadataFilterMatches: bằng
+    metadataFilterExists: tồn tại
+    metadataFilterHelp: Lọc bảng và ghi chú theo metadata
+    metadataFilterEmpty: Không tìm thấy metadata trong sơ đồ này
+    metadataFilterValueApply: Áp dụng
+    metadataFilterValueCancel: Hủy
+    metadataFilterValuePlaceholder: Giá trị
+    metadataFilterAdd: Thêm bộ lọc
+    metadataFilterClearAll: Xóa tất cả
+    metadataFilterNoKeys: Sơ đồ này không có khóa metadata nào
   controllerBar:
     highlightRelationships: Làm nổi bật các mối quan hệ
     unhighlightRelationships: Bỏ làm nổi bật các mối quan hệ

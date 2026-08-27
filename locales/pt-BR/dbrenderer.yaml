@@ -28,6 +28,20 @@ dbrenderer:
     unknownView: Visualização Desconhecida
     newView: Nova Visualização
     copyOfName: Cópia de {name}
+    metadataFilters: Filtrar por metadados
+    metadataFilterTooltip: Filtrar por metadados personalizados
+    metadataFilterKeyPlaceholder: Selecionar chave
+    metadataFilterContains: contém
+    metadataFilterMatches: é igual a
+    metadataFilterExists: existe
+    metadataFilterHelp: Filtrar tabelas e notas por metadados
+    metadataFilterEmpty: Nenhum metadado neste diagrama
+    metadataFilterValueApply: Aplicar
+    metadataFilterValueCancel: Cancelar
+    metadataFilterValuePlaceholder: Valor
+    metadataFilterAdd: Adicionar filtro
+    metadataFilterClearAll: Limpar tudo
+    metadataFilterNoKeys: Nenhuma chave de metadados neste diagrama
 
   # ========================================
   # Controller Bar - Top canvas toolbar
