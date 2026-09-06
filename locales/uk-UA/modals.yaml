@@ -156,7 +156,7 @@ modals:
     projectNameHeader: Назва # Header for project name column in popover
     projectUrlHeader: URL # Header for project URL column in popover
     publishNewQuestion: Хочете зробити публікацію в іншому проєкті? # Prompt to publish to a new project
-    publishNewAction: Опублікувати в новому проєкті# Action link text
+    publishNewAction: Опублікувати в новому проєкті # Action link text
     resolveConflictsAndErrorsBeforePublish: Усуньте всі конфлікти та помилки перед публікацією. # Hint to resolve all conflicts and errors before publishing
     currentChange: Поточна зміна # Current change conflict marker text
     incomingChange: Вхідна зміна # Incoming change conflict marker text
@@ -283,7 +283,7 @@ modals:
     cannotRemoveDefaultView: Вам не дозволено видаляти подання за замовчуванням! # Error toast
     cannotRemoveView: Неможливо видалити це подання, перезавантажте сторінку та спробуйте ще раз! # Error toast
     removeViewTitle: Видалити подання діаграми? # Remove view modal title
-    removeViewContent: "Ви хочете видалити подання \"{name}\"?)" # Remove view confirmation
+    removeViewContent: "Ви хочете видалити подання \"{name}\"?" # Remove view confirmation
     cancel: Скасувати # Cancel button
     removeView: Видалити подання # Remove view button
     close: Закрити # Close button

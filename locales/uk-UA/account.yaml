@@ -74,7 +74,7 @@ account:
   # Remove Account modal - 3-step account removal flow
   # ========================================
   removeAccountModal:
-    title: Видалити облікови запис
+    title: Видалити обліковий запис
     loadingAccountData: Завантаження даних облікового запису…
     steps:
       whatWillBeRemoved: Що буде видалено

@@ -14,7 +14,7 @@ workspace:
   basic: Базовий # Label for basic tier/sample (templates dropdown)
   advanced: Розширений # Label for advanced tier/sample (templates dropdown)
   myDiagrams: Мої діаграми # Sidebar section for personal diagrams
-  sharedWithMe: Відкритідля мене # Sidebar section for shared diagrams
+  sharedWithMe: Відкриті для мене # Sidebar section for shared diagrams
   guestWorkspace: Гостьовий робочий простір # Label for a guest workspace entry (workspace switcher/dropdown)
   guestLabel: (гість) # Short suffix label marking a guest workspace entry (workspace switcher dropdown)
   workspace: Робочий простір # Label for team workspace type
