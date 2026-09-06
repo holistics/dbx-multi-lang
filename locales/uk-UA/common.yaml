@@ -1,0 +1,317 @@
+# Common UI translations used across the application
+# UI Areas: Header toolbar, Help menu, Export/Import dropdowns, SSO login, Editor panel
+
+common:
+  # ========================================
+  # Buttons - Generic buttons in modals, toolbars, forms throughout the app
+  # ========================================
+  buttons:
+    cancel: Скасувати # Gray button in modal dialogs (bottom-right)
+    confirm: Підтвердити # Green button in confirmation dialogs
+    delete: Видалити # Red button in item context menus (with trash icon)
+    history: Історія # Clock icon in header toolbar (opens Version History modal)
+    export: Експорт # Export icon in header dropdown (opens export options)
+    ok: Гаразд # Simple acknowledgment button in alerts
+    submit: Надіслати # Form submission button (submits form data)
+    save: Зберегти # Save button in forms
+    next: Далі # Next button in multi-step flows
+
+  # ========================================
+  # Help menu - Top-right help icon (?) dropdown in header
+  # ========================================
+  help:
+    title: Довідка # Dropdown label (question mark icon in header toolbar)
+    documentation: Документація # External link to docs.dbdiagram.io
+    releaseNotes: Примітки до випуску # Link to changelog page
+    roadmap: План розвитку продукту # Link to feature roadmap (publicly visible)
+    sendFeedback: Надіслати відгук # Link to feedback form (opens modal)
+    askCommunity: Запитати спільноту # Link to Discord/community forum
+    suggestFeature: Запропонувати функцію # Link to feature request board
+    contactUs: Зв'язатися з нами # Link to support email (dbdiagram{'@'}holistics.io)
+    sampleDiagrams: Приклади діаграм # Opens templates gallery modal
+    sampleAirbnb: Приклад Airbnb # Opens Airbnb database schema template
+    sampleEcommerce: Приклад електронної комерції # Opens e-commerce schema template
+    whatsNew: Що нового # Opens what's new modal (highlights recent features)
+    language: Мова # Submenu for selecting app language
+    contribute: Допоможіть перекласти цей застосунок # Link to Crowdin/translation project
+
+  # ========================================
+  # Export menu - Header export dropdown (blue download icon)
+  # ========================================
+  export:
+    title: Експорт # Dropdown header in header toolbar (download icon)
+    publishToDbdocs: Опублікувати документ (у dbdocs) # First option in export dropdown
+    toPdf: У PDF # Export diagram as PDF format
+    toPng: У PNG # Export diagram as PNG image
+    toSvg: У SVG # Export diagram as SVG vector file
+    toPostgreSQL: У PostgreSQL # Export schema as PostgreSQL DDL
+    toMySQL: У MySQL # Export schema as MySQL DDL
+    toSQLServer: У SQL Server # Export schema as SQL Server DDL
+    toOracleSQL: У Oracle SQL # Export schema as Oracle DDL
+
+  # ========================================
+  # Import menu - Header import dropdown (blue upload icon)
+  # ========================================
+  import:
+    title: Імпорт # Dropdown header in header toolbar (upload icon)
+    importFrom: Імпортувати з # Label above import options
+    fromDatabaseConnection: Із підключення до бази даних (через CLI) # CLI import option (opens documentation)
+    fromMySQL: Із MySQL # MySQL database import (opens connection form)
+    fromPostgreSQL: Із PostgreSQL # PostgreSQL database import
+    fromSQLServer: Із SQL Server # SQL Server database import
+    fromSnowflake: Із Snowflake # Snowflake database import
+    fromOracleSQL: Із Oracle SQL # Oracle database import
+    fromRails: Із Rails (schema.rb) # Rails schema.rb file import
+    fromCSV: Із CSV # CSV file import (opens file picker)
+
+  # ========================================
+  # Upgrade prompts - Feature upgrade dialogs (shown when free users hit limits)
+  # ========================================
+  upgrade:
+    title: Покращити тарифний план # Modal title (gold star icon badge)
+
+  # ========================================
+  # Quick actions - Keyboard shortcuts dialog (Ctrl/Cmd+K)
+  # ========================================
+  quickActions:
+    title: Швидкі дії # Dialog title showing command palette
+
+  # ========================================
+  # SSO authentication - Login page (enterprise SSO login)
+  # ========================================
+  sso:
+    signInWithSSO: Увійти за допомогою SSO # Large SSO button on login page
+    signInWithEmail: Увійти за допомогою електронної пошти # Email login option button
+    useWorkEmail: Використовуйте робочу електронну пошту для доступу до dbdiagram через SSO # Helper text below SSO button
+    signInUnsuccessful: Не вдалося ввійти. Підтвердьте робочу електронну пошту або скористайтеся іншим способом. # Error message on SSO failure
+    selectWorkspace: Виберіть робочий простір для входу # Dropdown on SSO login (for users with multiple workspaces)
+
+  # ========================================
+  # AI Assistant - Chat panel (right sidebar with AI chat)
+  # ========================================
+  ai:
+    title: ШІ # Panel title (robot icon in right sidebar)
+    scrollToBottom: Прокрутити вниз # Floating button when new chat messages arrive
+
+  # ========================================
+  # Common actions - Confirmation dialogs and action confirmations
+  # ========================================
+  actions:
+    confirmUnsaved:
+      title: Підтвердьте, будь ласка # Modal title for unsaved work dialog
+      content: Внесені вами зміни можуть не зберегтися. Бажаєте продовжити? # Warning text in dialog body
+      negativeText: 'Ні' # Cancel action button (gray, says "No")
+      positiveText: 'Так' # Continue anyway button (blue, says "Yes")
+
+  # ========================================
+  # States - Empty, loading, error state displays
+  # ========================================
+  states:
+    empty: Немає даних # Empty table/list message (centered)
+    loading: Завантаження... # Generic loading spinner message
+
+  # ========================================
+  # Notes - Warning/note section header
+  # ========================================
+  notes:
+    header: "Зверніть увагу:" # Header label for note/warning sections in modals
+
+  # ========================================
+  # Code editor - Right panel DBML code editor
+  # ========================================
+  editor:
+    keyboardShortcuts: Комбінації клавіш # Dialog title for keyboard shortcuts reference
+    openInDbdiagram: Відкрити в dbdiagram.io # Link in embedded DBDocs views (top-right)
+    hide: Приховати редактор # Button to hide code editor
+    expand: Розгорнути редактор # Button to expand code editor
+    loadingContent: Завантаження вмісту із сервера, зачекайте, будь ласка... # Loading message in editor
+
+  # ========================================
+  # Toast notifications - Popup messages at bottom-right
+  # ========================================
+  notifications:
+    titles:
+      error: Сталася помилка # Default title for error toast notifications
+      success: "Успішно!" # Default title for success toast notifications
+      warning: Попередження # Default title for warning toast notifications
+    noPermissionRemoveView: Ви не маєте дозволу видаляти подання діаграми! # Toast error (shown when user can't remove view)
+    noPermissionRenameView: Ви не маєте дозволу перейменовувати подання діаграми! # Toast error (shown when user can't rename view)
+    workspaceDisabled: Цей робочий простір наразі вимкнено # Warning toast (workspace subscription issue)
+    noEditPermissionAi: Для використання dbdiagram AI потрібен дозвіл на редагування. Попросіть власника діаграми розширити ваш доступ. # Toast (AI feature requires edit rights)
+
+  # ========================================
+  # Login prompts - Gray banner for unauthenticated users
+  # ========================================
+  needLogin:
+    hiThere: Вітаємо, # Banner greeting (first line, bold)
+    saveQuery: Увійдіть, щоб зберегти діаграму # Banner text (when saving requires auth)
+    shareQuery: Увійдіть, щоб поділитися діаграмою # Banner text (share modal when not logged in)
+    newQuery: Увійдіть, щоб створити нову діаграму # Banner text (new diagram page)
+    export: Увійдіть, щоб експортувати діаграму # Banner text (export modal)
+    dbdocsAccess: Увійдіть, щоб редагувати проєкт dbdocs # Banner text (DBDocs editor)
+    aiAssistant: Увійдіть, щоб користуватися помічником dbdiagram AI # Banner text (AI panel)
+    newDiagram: Увійдіть, щоб створити нову діаграму # Banner text (creation page)
+    upgradePersonal: Увійдіть, щоб перейти на тарифний план Personal Pro # Banner text (upgrade page)
+    upgradeTeam: Увійдіть, щоб розпочати пробний період тарифного плану Team # Banner text (team trial page)
+    joinTeam: Увійдіть, щоб приєднатися до цього робочого простору команди # Banner text (team invite page)
+    chartUpdateVisibleEntities: Увійдіть, щоб зберегти видимість таблиць/стікерів # Banner text (visibility change)
+    diagramViewCreateView: Увійдіть, щоб створити нове подання діаграми # Banner text (view creation)
+    default: Увійдіть, щоб продовжити роботу # Default banner text (fallback)
+
+  # ========================================
+  # DBDocs authentication - Embedded DBDocs login screen
+  # ========================================
+  dbdocsAuth:
+    pleaseLoginWith: Увійдіть за допомогою # Login prompt label (above login buttons)
+    youAreLoggedInAs: Ви ввійшли в систему # Logged in status (shows user email)
+    viaSSO: за допомогою SSO # SSO badge (next to email)
+    youNeedToLoginWith: Вам потрібно увійти за допомогою # Login required text (precedes login buttons)
+    pleaseLoginToAccess: Увійдіть, щоб отримати доступ до цього проєкту. # Access denied message (DBDocs embed)
+    contactProjectOwner: Зверніться до власника проєкту, щоб запросити доступ. # Guidance text (who to contact)
+    weWillNeedNonSSO: Для автентифікації потрібно використати обліковий запис без SSO. # Auth guidance message
+    weWillNeedSameEmail: Для автентифікації потрібно використати ту саму адресу електронної пошти, що й у dbdocs. # Email match guidance
+    noEditPermission: Ви не маєте дозволу на редагування цього проєкту. # Error message (DBDocs edit permission denied)
+
+  # ========================================
+  # Real-time collaboration - Connection and sync messages
+  # ========================================
+  additional:
+    collab:
+      noLongerViewPermission: Ви більше не маєте дозволу на перегляд! # Toast when view access revoked
+      doNotHaveViewPermission: Ви не маєте дозволу на перегляд! # Toast when no access at all
+      fullSession: Неможливо підключитися: сеанс заповнений! # Toast when collaboration session full
+      diagramDeleted: Цю діаграму видалено! # Toast when diagram deleted by owner
+      overwrittenDiagram: Хтось перезаписав вміст діаграми, перезавантажте сторінку, щоб побачити останні зміни! # Toast when remote changes
+      diagramMigratedDiagramViewAsCode: "Подання ваших діаграм перенесено в новий формат \"Diagram View as Code\". Перезавантажте сторінку, щоб продовжити. Якщо виникнуть проблеми, зверніться за адресою dbdiagram{'@'}holistics.io." # Toast when DiagramView-as-code migration completes
+      permissionsChanged: Ваші дозволи змінено, перезавантажте сторінку, щоб застосувати зміни! # Toast when permissions updated
+      cannotReconnect: Не вдалося повторно підключитися до сервера # Toast when reconnection fails
+
+    # ========================================
+    # Save, share, publish - Diagram operation messages
+    # ========================================
+    query:
+      noPermissionShare: Ви не маєте дозволу ділитися цією діаграмою # Error toast (share action)
+      cantCreateDiagram: Не вдалося створити нову діаграму. Зробіть резервну копію файлу, потім вийдіть із системи та увійдіть знову # Error toast (create failed)
+      cantSaveDiagram: Не вдалося зберегти діаграму. Зробіть резервну копію файлу, потім вийдіть із системи та увійдіть знову # Error toast (save failed)
+      noPermissionSave: Ви не маєте дозволу зберігати цю діаграму # Error toast (save permission)
+      diagramDeleted: Вашу діаграму видалено # Toast (diagram deleted notification)
+      cantDeleteDiagram: Не вдалося видалити діаграму. Зробіть резервну копію файлу, потім вийдіть із системи та увійдіть знову # Error toast (delete failed)
+      noPermissionGetInfo: Ви не маєте дозволу отримувати інформацію про діаграму! # Error toast (info load permission)
+      cantGetDiagramInfo: Не вдалося отримати інформацію про діаграму, спробуйте ще раз! # Error toast (info load failed)
+      noPermissionAccessProject: Ви не маєте доступу до цього проєкту # Error toast (project access)
+      failedLoadProjectDbdocs: Не вдалося завантажити проєкт із DBDocs # Error toast (DBDocs load)
+      failedPublishDbdocs: Не вдалося опублікувати проєкт у DBDocs # Error toast (DBDocs publish)
+      pleaseSignInSaveDraft: Увійдіть, щоб зберігати версії чернеток # Login prompt toast (save draft)
+      noPermissionSaveDraft: Ви не маєте дозволу зберігати версії чернеток # Error toast (draft permission)
+      autoSaveDraftFailed: Не вдалося автоматично зберегти чернетку! # Error toast (auto-save draft)
+      failedSaveDraft: Не вдалося зберегти версію чернетки # Error toast (draft save failed)
+      pleaseSignInDeleteDraft: Увійдіть, щоб видаляти версії чернеток # Login prompt toast (delete draft)
+      noPermissionDeleteDraft: Ви не маєте дозволу видаляти версії чернеток # Error toast (delete draft permission)
+      failedDeleteDrafts: Не вдалося видалити версії чернеток # Error toast (delete draft failed)
+      pleaseSignInCheckVersion: Увійдіть, щоб перевірити статус версії # Login prompt toast (version check)
+      noPermissionCheckVersion: Ви не маєте дозволу перевіряти статус версії # Error toast (version check permission)
+      failedCheckVersion: Не вдалося перевірити статус версії # Error toast (version check failed)
+      pleaseSignInLoadLatest: Увійдіть, щоб завантажити останню версію # Login prompt toast (load version)
+      failedLoadLatest: Не вдалося завантажити останню версію # Error toast (load version failed)
+
+  # ========================================
+  # Manage Plan - Workspace billing/subscription management panel
+  # ========================================
+  managePlan:
+    currentPlan: Поточний тарифний план
+    editSubscription: Редагувати тарифний план
+    switchToBilling: "Перейти на {unit} оплату"
+    updatePlan: Оновити тарифний план
+    nextPayment: "Наступний платіж"
+    chargedOn: "буде стягнуто <b>{date}</b>"
+    cancelledOn: "Вашу підписку буде скасовано <b>{date}</b>"
+    paymentMethod: Спосіб оплати
+    noPaymentMethod: Немає способу оплати
+    editPaymentMethod: Редагувати спосіб оплати
+    invoicing: Виставлення рахунків
+    lastPayment: "Останній платіж: <b>{date}</b>"
+    noPaymentMade: Платежів не знайдено
+    manageInvoices: Керувати рахунками
+    supportText: "Для отримання підтримки напишіть нам на адресу:"
+    resync: Синхронізувати повторно
+    addons: Розширення
+    updateAddons: Оновити розширення
+
+    billingPeriodUnit:
+      annual: щорічна
+      monthly: щомісячна
+
+    planAndAddonInfo:
+      includeAddon: "Додати {quantity} {name}"
+      addonsLabel: "Розширення:"
+      additionalAddon: "Додаткові {name} x {quantity}"
+      addonName:
+        seat: "користувач | користувачі"
+        paidProject: "платний документний проєкт dbdocs | платні документні проєкти dbdocs"
+
+  # ========================================
+  # User info - Shared "current user" indicator (avatar tooltips, member lists)
+  # ========================================
+  userInfo:
+    you: (ви) # Label appended after the current user's name, e.g. "Jane Doe (you)"
+
+  # ========================================
+  # Manage Members - Workspace people/guests management panel
+  # ========================================
+  manageMembers:
+    title: Люди
+    planLabel: тарифний план
+    docEditorsLabel: Редактори
+    docEditorsTooltip: "Містить:<ul class=\"list-disc list-inside\"><li>Власник: власник робочого простору.</li><li>Адміністратори: користувачі, які можуть створювати й оновлювати проєкти в робочому просторі та керувати ролями інших учасників.</li><li>Редактори документів: користувачі, які можуть створювати й оновлювати проєкти в робочому просторі.</li></ul>" # HTML tooltip content
+    docViewersLabel: Глядачі
+    docViewersTooltip: Користувачі, які можуть переглядати проєкти в робочому просторі.
+    purchaseSlotsTooltip: Придбайте місця, щоб запросити до робочого простору більше редакторів документів
+    purchaseSlots: Придбати місця
+    upgradeInviteLine1: Запросіть людей до робочого простору та
+    upgradeInviteLine2: "співпрацюйте за тарифним планом <b>Team</b>." # {teamPlan} is bolded inline
+    upgrade: Покращити тарифний план
+    addMembers: Додати учасників
+    membersTab: Учасники
+    guestsTab: Гості
+    noGuests: (У цьому робочому просторі немає гостей)
+    syncErrorBanner: "Не вдалося синхронізувати учасників: {count}"
+    resyncAll: Синхронізувати всіх повторно
+
+  # ========================================
+  # Workspace Member - Single row in the members/guests/invitations list
+  # ========================================
+  workspaceMember:
+    owner: Власник
+    project: "{count} проєкт" # Singular
+    projects: "{count} проєктів" # Plural
+    diagram: "{count} діаграма" # Singular
+    diagrams: "{count} діаграм" # Plural
+    projectsGroupLabel: Проєкти # Header above the project list in a guest's access dropdown
+    diagramsGroupLabel: Діаграми # Header above the diagram list in a guest's access dropdown
+    syncErrorTooltip: Не вдалося синхронізувати, спробуйте повторити синхронізацію
+    syncErrorBlocksEdit: Усуньте помилку синхронізації, перш ніж змінювати роль цього учасника
+    roleLabel: "Роль: {role}"
+
+  # ========================================
+  # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
+  # ========================================
+  role:
+    admin: Адміністратор
+    editor: Редактор
+    viewer: Глядач
+    remove: Видалити
+
+  # ========================================
+  # Confirm Removal Modal - Generic two-step (confirm, then OTP) destructive-action modal
+  # ========================================
+  confirmRemovalModal:
+    close: Закрити # Close button aria-label
+    otpTitle: Введіть свій одноразовий пароль # Header title shown once on the OTP step
+    otpLabel: Введіть одноразовий пароль, надісланий на електронну пошту # Body text on the OTP step
+    resendPrefix: "Не отримали одноразовий пароль?" # Text before the resend button
+    resend: Надіслати одноразовий пароль повторно # Resend button label
+    resendWithCooldown: "{label} ({seconds} с)" # Resend button label while on cooldown
+    errors:
+      requestFailed: Не вдалося надіслати код підтвердження. Спробуйте ще раз. # Error when sending the initial code fails
+      resendFailed: Не вдалося повторно надіслати код підтвердження. Спробуйте ще раз. # Error when resending the code fails
+      invalidCode: Недійсний код, спробуйте ще раз. # Error when the submitted code is rejected

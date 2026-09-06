@@ -1,0 +1,112 @@
+# AI Assistant translations - AI panel and features
+# UI Areas: Right sidebar AI panel, Welcome modal, Diff viewer
+
+ai:
+  # ========================================
+  # AI Panel - Right sidebar chat interface
+  # ========================================
+
+  panel:
+    inputPlaceholder: Запитайте мене про свою діаграму... # Chat input placeholder (empty state)
+    currentChat: Поточний чат # Current chat section header
+    previousChats: Попередні чати # Previous chats section header
+    noOtherChats: Поки що немає інших чатів # Empty state (no previous chats)
+    sendInstructions: Натисніть Enter, щоб надіслати, Shift+Enter - для нового рядка # Input hint (below chat box)
+    sendMessage: Надіслати повідомлення # Send button (tooltip)
+    workspaceDisabled: Робочий простір вимкнено # Disabled state message (no workspace)
+    editPermissionRequired: Потрібен дозвіл на редагування # Permission error message
+    usageLimitReached: Ви використали весь ліміт використання за цей місяць. Повторіть спробу # Usage limit message
+    learnMoreAboutUsageLimits: Докладніше про ліміти використання # Link text (usage limit toast)
+    chat: Чат # Chat tab label
+    clickToEdit: Натисніть, щоб редагувати # Editable message label
+    newChat: Новий чат # New chat button (sidebar header)
+    showChatHistory: Показати історію чатів # Toggle button (shows chat sidebar)
+    hideChatHistory: Приховати історію чатів # Toggle button (hides chat sidebar)
+
+  # ========================================
+  # AI Welcome Modal - First-time user experience
+  # ========================================
+  welcome:
+    title: Ласкаво просимо до DBDiagram AI # Welcome modal title
+    subtitle: Ваш інтелектуальний помічник для проєктування баз даних # Welcome modal subtitle
+
+  # ========================================
+  # AI Loading States - Message states
+  # ========================================
+  messages:
+    thinking: Думаю... # Loading indicator (AI thinking)
+    generating: Генерую... # Loading indicator (schema generation)
+    explaining: Пояснюю... # Loading indicator (explanation)
+    error: Щось пішло не так. Спробуйте ще раз. # Error message (retryable)
+    rateLimit: Ви досягли ліміту використання. Покращіть тарифний план, щоб продовжити. # Rate limit message
+
+  # ========================================
+  # Diff Viewer - AI change comparison
+  # ========================================
+  diffViewer:
+    reject: Відхилити # Button (reject single change)
+    accept: Підтвердити # Button (accept single change)
+    rejectAll: Відхилити все # Button (reject all changes)
+    acceptAll: Підтвердити все # Button (accept all changes)
+
+  # ========================================
+  # Token Usage - AI usage tracking
+  # ========================================
+  tokenUsage:
+    used: Використано # Usage counter label (left side)
+    usageText: Ви використали {percentage} свого ліміту використання # Usage progress text
+    tokens: токенів # Unit label (usage display)
+    learnMore: Натисніть, щоб дізнатися більше про ліміти використання # Tooltip (usage indicator)
+    resetOn: Скидання # Label (usage reset date)
+
+  # ========================================
+  # AI Response Details - Response metadata
+  # ========================================
+  assistant:
+    dbmlCode: Код DBML # Label (code block header)
+    lines: рядків # Unit label (code lines count)
+
+  # ========================================
+  # AI Response Messages - Standard responses
+  # ========================================
+  responseMessages:
+    noExplanation: Схему оновлено. Перегляньте зміни у вікні порівняння. # Message after schema update
+    invalidIntent: "Ласкаво просимо до dbdiagram AI.\n\nЯ можу допомогти вам із таким:\n\n• **Проєктування схем DBML** - створення та редагування таблиць, зв'язків і структур баз даних\n• **Найкращі практики роботи з базами даних** - рекомендації щодо оптимальних типів даних, індексів і обмежень\n• **Оптимізація схем** - упорядкування таблиць за допомогою TableGroups, додавання часових міток, перетворення типів даних\n• **Швидкі перетворення** - конвертація між системами баз даних (PostgreSQL, MySQL, SQL Server тощо)\n\nПопросіть мене створити таблиці, додати зв'язки або скористайтеся наведеними вище швидкими діями, щоб почати!" # Help message (unrecognized command)
+
+  # ========================================
+  # Quick Action Titles - Action card headers
+  # ========================================
+  quickActionTitles:
+    createTableGroups: Створити групи таблиць # Quick action card 1 title
+    addTimestampColumns: Додати часові мітки # Quick action card 2 title
+    addRelationships: Додати зв'язки # Quick action card 3 title
+    addIndexes: Додати індекси # Quick action card 4 title
+    learnDatabaseDesign: Вивчити проєктування баз даних # Quick action card 5 title
+    cloneSlack: Створити копію Slack # Quick action card 6 title
+    documentDatabase: Створити базу даних для документів # Quick action card 7 title
+    todoList: Список завдань # Quick action card 8 title
+    remapDataTypes: Перетворити типи даних # Quick action card 9 title
+
+  # ========================================
+  # Quick Action Descriptions - Action card subtitles
+  # ========================================
+  quickActionDescriptions:
+    createTableGroups: Упорядкуйте таблиці в логічні групи за предметною областю та функціональністю, використовуючи різні кольори # Card 1 description
+    addTimestampColumns: Додайте стовпці created_at і updated_at до таблиць, для яких потрібно вести аудит змін # Card 2 description
+    addRelationships: Автоматично виявляйте та додавайте зв'язки зовнішніх ключів на основі правил іменування # Card 3 description
+    addIndexes: Додайте блоки індексів для зовнішніх ключів і стовпців, до яких часто виконуються запити # Card 4 description
+    learnDatabaseDesign: Дізнайтеся більше про проєктування баз даних # Card 5 description
+    cloneSlack: Створіть копію Slack # Card 6 description
+    documentDatabase: Створіть базу даних для зберігання документів # Card 7 description
+    todoList: Створіть застосунок зі списком завдань # Card 8 description
+    remapDataTypes: Перетворіть типи даних відповідно до цільової системи баз даних # Card 9 description
+
+  # ========================================
+  # Quick Action Sub-actions - Database type selectors
+  # ========================================
+  quickActionSubActions:
+    postgresql: PostgreSQL # Database selector option
+    mysql: MySQL # Database selector option
+    sqlServer: SQL Server # Database selector option
+    sqlite: SQLite # Database selector option
+    oracle: Oracle # Database selector option

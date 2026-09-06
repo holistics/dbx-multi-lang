@@ -1,0 +1,87 @@
+# Authentication translations - Login, Signup, Password pages
+# UI Areas: Auth pages (/login, /signup, /forgot-password)
+
+auth:
+  # ========================================
+  # Login Page - Email/password login
+  # ========================================
+  login:
+    email: Електронна пошта # Email input label
+    loginWithGithub: Увійти через GitHub # Social login button (GitHub)
+    loginWithMicrosoft: Увійти через Microsoft # Social login button (Microsoft)
+
+  # ========================================
+  # OAuth Errors - OAuth flow errors
+  # ========================================
+  oauth:
+    authorizationError: Не вдалося авторизуватися # OAuth error title
+    processing: Обробка... # Loading state (OAuth redirect)
+    justAMomentPleaseWait: Зачекайте, будь ласка... # Loading message (OAuth redirect)
+    signedInAs: Ви ввійшли як # Session label (SSO indicator)
+    failedSignInGitHub: Не вдалося увійти через GitHub # Error toast (GitHub OAuth)
+    failedSignInMicrosoft: Не вдалося увійти через Microsoft # Error toast (Microsoft OAuth)
+
+  # ========================================
+  # Form Errors - Validation error messages
+  # ========================================
+  errors:
+    invalidEmail: Недійсна адреса електронної пошти, спробуйте ще раз! # Email validation
+    githubPopupBlocked: Дозвольте спливаючі вікна, щоб увійти через GitHub # Browser setting error
+
+  # ========================================
+  # OTP Authentication - One-time password
+  # ========================================
+  otp:
+    signInWithEmail: Увійти за допомогою електронної пошти # OTP tab label
+    otpSentTo: Одноразовий пароль надіслано на # Label (shows masked email)
+    wrongEmail: Неправильна адреса електронної пошти? # Change email link
+    changeEmail: Змінити адресу електронної пошти # Change email button
+    inputEmail: Введіть свою адресу електронної пошти # Email input placeholder
+    inputYourOtp: Введіть свій одноразовий пароль # OTP input placeholder
+    inputOtpCode: Введіть одноразовий пароль, надісланий на електронну пошту # OTP help text
+    signInSuccess: Ви успішно ввійшли # Success message
+    didntReceiveOtp: Не отримали одноразовий пароль? # Help text (resend section)
+    resendOtp: Надіслати одноразовий пароль повторно # Resend button
+    resendAfter: Ви зможете повторно отримати одноразовий пароль через {counter} с # Timer label (disabled state)
+    submit: Надіслати # OTP submit button
+    sendOtpFailed: Не вдалося надіслати одноразовий пароль, спробуйте ще раз! # Error toast
+
+  # ========================================
+  # SSO Login - Single Sign-On
+  # ========================================
+  sso:
+    orContinueWith: або продовжити за допомогою # SSO divider text
+
+  # ========================================
+  # Embedded Portal - OAuth portal pages
+  # ========================================
+  portal:
+    signIn: Увійти # Button (portal embedded login)
+    signInWith: Увійти за допомогою # Button (portal embedded login)
+
+  # ========================================
+  # Additional Errors - Extra error messages
+  # ========================================
+  additional:
+    unknownError: Невідома помилка # Fallback error
+    invalidOtp: Недійсний одноразовий пароль, спробуйте ще раз! # OTP validation error
+    cannotValidateOtp: Не вдалося перевірити одноразовий пароль, спробуйте ще раз! # OTP validation failure
+    emailNotVerified: Вашу електронну пошту не підтверджено. Підтвердьте її в обліковому записі Microsoft. # MS email verification
+    cannotSignInMicrosoftSSO: Не вдалося увійти через Microsoft SSO, спробуйте ще раз! # MS SSO error
+    cannotSignIn: Не вдалося увійти, спробуйте ще раз! # Generic sign-in error
+    failedReloadProject: Не вдалося перезавантажити проєкт після входу. Оновіть сторінку. # Reload error
+    loginError: Помилка входу # Generic login error
+    signInCancelled: Вхід скасовано. Спробуйте ще раз. # Cancelled flow
+
+  # ========================================
+  # Logout Callback - Post-logout redirect
+  # ========================================
+  logoutCallback:
+    redirecting: Перенаправлення... # Loading message (logout redirect)
+    redirectDescription: За кілька секунд вас буде перенаправлено до застосунку. # Help text
+
+  popupsWarning:
+    title: Не вдалося відкрити вікно входу
+    description: Вікно входу могло бути заблоковане браузером або розширенням. Перевірте налаштування та спробуйте ще раз.
+    needHelp: Потрібна допомога?
+    contactSupport: Звернутися до служби підтримки  

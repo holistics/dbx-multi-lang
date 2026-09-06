@@ -66,3 +66,9 @@ it:
   nativeName: Italiano
   flag: 🇮🇹
   hello: Ciao
+
+uk-UA:
+  name: Ukrainian
+  nativeName: Українська
+  flag: 🇺🇦
+  hello: Привіт
