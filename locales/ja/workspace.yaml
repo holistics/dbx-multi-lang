@@ -29,7 +29,6 @@ workspace:
     enforceSSO: SSO を強制
     enforceSSODescription: 強制すると、ワークスペースメンバーは SSO 経由でのみこのワークスペースにアクセスできます
     identityProviderUrl: ID プロバイダーシングルサインオン URL
-    identityProviderUrlPlaceholder: https://login.microsoftonline.com/{tenant}/saml2
     identityProviderUrlHelp: ID プロバイダーのエンドポイント URL です。
     certificate: 証明書
     certificatePlaceholder: |-
@@ -147,6 +146,7 @@ workspace:
     pro: Pro プラン
     free: Free プラン
     team: Team プラン
+    org: Org プラン
     disabled: （無効）
   legacyPlanNotice:
     title: これはレガシーワークスペースです

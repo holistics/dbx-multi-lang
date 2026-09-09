@@ -29,7 +29,6 @@ workspace:
     enforceSSO: 强制 SSO
     enforceSSODescription: 一旦强制执行，工作区成员只能通过 SSO 访问此工作区
     identityProviderUrl: 身份提供商单点登录 URL
-    identityProviderUrlPlaceholder: https://login.microsoftonline.com/{tenant}/saml2
     identityProviderUrlHelp: 你的身份提供商端点的 URL。
     certificate: 证书
     certificatePlaceholder: |-
@@ -147,6 +146,7 @@ workspace:
     pro: 专业版方案
     free: 免费版方案
     team: 团队版方案
+    org: 组织版方案
     disabled: （已禁用）
   legacyPlanNotice:
     title: 这是一个旧版工作区
