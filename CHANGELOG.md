@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.3.6 (Sep 10, 2026)
+### Misc
+* Add key for workspace's org plan
+
 ## v1.3.5 (Aug 26, 2026)
 ### Misc
 * Add copywriting for the unite feature
