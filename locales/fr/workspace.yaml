@@ -36,7 +36,6 @@ workspace:
     enforceSSO: Imposer le SSO
     enforceSSODescription: Une fois activé, les membres de l’espace de travail ne pourront accéder qu’avec le SSO
     identityProviderUrl: URL de l’Identity Provider
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
     identityProviderUrlHelp: URL du point de terminaison de votre fournisseur d’identité.
     certificate: Certificat
     certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificat>\n-----END CERTIFICATE-----"
@@ -170,6 +169,7 @@ workspace:
     pro: Plan Pro
     free: Plan Gratuit
     team: Plan Équipe
+    org: Plan Organisation
     disabled: "(désactivé)"
 
   # ========================================

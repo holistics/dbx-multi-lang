@@ -36,7 +36,6 @@ workspace:
     enforceSSO: SSO 강제 적용      # Enforce SSO toggle
     enforceSSODescription: 강제 적용하면 워크스페이스 멤버는 SSO를 통해서만 이 워크스페이스에 접근할 수 있습니다.                     # Help text for enforce SSO
     identityProviderUrl: ID 공급자 Single Sign-On URL            # IdP URL field label
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"                                        # Placeholder for IdP URL
     identityProviderUrlHelp: ID 공급자 엔드포인트의 URL입니다.                       # Help text for IdP URL
     certificate: 인증서         # Certificate field label
     certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----"                               # Placeholder for certificate
@@ -171,6 +170,7 @@ workspace:
     pro: 프로 플랜    # Pro plan label
     free: 무료 플랜     # Free plan label
     team: 팀 플랜      # Team plan label
+    org: 조직 플랜      # Org plan label
     disabled: "(비활성화됨)"   # Disabled plan label
 
   # ========================================
