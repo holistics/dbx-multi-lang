@@ -28,6 +28,22 @@ dbrenderer:
     unknownView: Vue inconnue
     newView: Nouvelle vue
     copyOfName: Copie de {name}
+    customPropertyFilters: Filtrer par propriétés
+    customPropertyFilterTooltip: Filtrer par propriétés personnalisées
+    customPropertyFilterKeyPlaceholder: Sélectionner une clé
+    customPropertyFilterContains: contient
+    customPropertyFilterMatches: est égal à
+    customPropertyFilterExists: existe
+    customPropertyFilterHelp: Filtrer les tables et les notes par propriétés personnalisées
+    customPropertyFilterEmpty: Aucune propriété personnalisée dans ce diagramme
+    customPropertyFilterValuePlaceholder: Valeur
+    customPropertyFilterAdd: Ajouter un filtre
+    customPropertyFilterClearAll: Tout effacer
+    customPropertyFilterNoKeys: Aucune clé de propriété personnalisée dans ce diagramme
+    customPropertyFilterSearchKeys: Rechercher des clés
+    customPropertyFilterNoMatchingKeys: Aucune clé correspondante.
+    customPropertyFilterSubmitAdd: Ajouter
+    customPropertyFilterSubmitUpdate: Mettre à jour
 
   # ========================================
   # Barre de contrôle du canevas

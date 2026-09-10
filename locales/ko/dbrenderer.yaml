@@ -28,6 +28,22 @@ dbrenderer:
     unknownView: 알 수 없는 보기    # Label (unknown view name)
     newView: 새 다이어그램 보기   # Button (creates new diagram view)
     copyOfName: '{name} 사본'    # Default name for copied view
+    customPropertyFilters: 속성으로 필터링 # Section heading above the custom property filter rows
+    customPropertyFilterTooltip: 사용자 지정 속성으로 필터링 # Tooltip for the funnel button next to search
+    customPropertyFilterKeyPlaceholder: 키 선택 # Placeholder for the custom property key dropdown
+    customPropertyFilterContains: 포함 # Operator option (substring match) in the custom property filter row
+    customPropertyFilterMatches: 일치 # Operator option (exact match) in the custom property filter row
+    customPropertyFilterExists: 존재 # Operator option (key is present, any value) in the custom property filter row
+    customPropertyFilterHelp: 사용자 지정 속성으로 테이블과 노트 필터링 # Help tooltip beside the filter panel heading
+    customPropertyFilterEmpty: 이 다이어그램에 사용자 지정 속성이 없습니다 # Shown when the diagram has no custom property keys at all
+    customPropertyFilterValuePlaceholder: 값 # Placeholder for the custom property value input
+    customPropertyFilterAdd: 필터 추가 # Button (appends a new custom property filter row)
+    customPropertyFilterClearAll: 모두 지우기 # Button (removes all custom property filter rows)
+    customPropertyFilterNoKeys: 이 다이어그램에 사용자 지정 속성 키가 없습니다 # Empty state for the key dropdown
+    customPropertyFilterSearchKeys: 키 검색 # Placeholder for the key search input in the custom property filter popover
+    customPropertyFilterNoMatchingKeys: 일치하는 키가 없습니다. # Empty state when the key search matches nothing
+    customPropertyFilterSubmitAdd: 추가 # Button that commits a newly built custom property filter
+    customPropertyFilterSubmitUpdate: 업데이트 # Button that commits changes to an existing custom property filter
 
   # ========================================
   # Controller Bar - Top canvas toolbar

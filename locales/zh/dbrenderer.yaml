@@ -25,6 +25,22 @@ dbrenderer:
     unknownView: 未知视图
     newView: 新视图
     copyOfName: '{name} 的副本'
+    customPropertyFilters: 按属性筛选
+    customPropertyFilterTooltip: 按自定义属性筛选
+    customPropertyFilterKeyPlaceholder: 选择键
+    customPropertyFilterContains: 包含
+    customPropertyFilterMatches: 等于
+    customPropertyFilterExists: 存在
+    customPropertyFilterHelp: 按自定义属性筛选表和便签
+    customPropertyFilterEmpty: 此图中没有自定义属性
+    customPropertyFilterValuePlaceholder: 值
+    customPropertyFilterAdd: 添加筛选条件
+    customPropertyFilterClearAll: 全部清除
+    customPropertyFilterNoKeys: 此图表中没有自定义属性键
+    customPropertyFilterSearchKeys: 搜索键
+    customPropertyFilterNoMatchingKeys: 没有匹配的键。
+    customPropertyFilterSubmitAdd: 添加
+    customPropertyFilterSubmitUpdate: 更新
   controllerBar:
     highlightRelationships: 高亮关系
     unhighlightRelationships: 取消高亮关系

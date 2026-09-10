@@ -28,6 +28,22 @@ dbrenderer:
     unknownView: Visualização Desconhecida
     newView: Nova Visualização
     copyOfName: Cópia de {name}
+    customPropertyFilters: Filtrar por propriedades
+    customPropertyFilterTooltip: Filtrar por propriedades personalizadas
+    customPropertyFilterKeyPlaceholder: Selecionar chave
+    customPropertyFilterContains: contém
+    customPropertyFilterMatches: é igual a
+    customPropertyFilterExists: existe
+    customPropertyFilterHelp: Filtrar tabelas e notas por propriedades personalizadas
+    customPropertyFilterEmpty: Nenhuma propriedade personalizada neste diagrama
+    customPropertyFilterValuePlaceholder: Valor
+    customPropertyFilterAdd: Adicionar filtro
+    customPropertyFilterClearAll: Limpar tudo
+    customPropertyFilterNoKeys: Nenhuma chave de propriedade personalizada neste diagrama
+    customPropertyFilterSearchKeys: Buscar chaves
+    customPropertyFilterNoMatchingKeys: Nenhuma chave correspondente.
+    customPropertyFilterSubmitAdd: Adicionar
+    customPropertyFilterSubmitUpdate: Atualizar
 
   # ========================================
   # Controller Bar - Top canvas toolbar
