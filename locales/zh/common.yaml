@@ -55,7 +55,7 @@ common:
   sso:
     signInWithSSO: 使用 SSO 登录
     signInWithEmail: 使用邮箱登录
-    useWorkEmail: 使用你的工作邮箱通过 SSO 访问 dbdiagram
+    useWorkEmail: 使用你的工作邮箱通过 SSO 访问 {product}
     signInUnsuccessful: 登录失败。请验证你的工作邮箱或使用其他方式。
     selectWorkspace: 选择要登录的工作区
   ai:

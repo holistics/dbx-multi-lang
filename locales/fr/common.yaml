@@ -82,7 +82,7 @@ common:
   sso:
     signInWithSSO: Se connecter avec SSO
     signInWithEmail: Se connecter avec e-mail
-    useWorkEmail: Utilisez votre e-mail professionnel pour accéder à dbdiagram via SSO
+    useWorkEmail: Utilisez votre e-mail professionnel pour accéder à {product} via SSO
     signInUnsuccessful: Connexion échouée. Vérifiez votre e-mail professionnel ou essayez une autre méthode.
     selectWorkspace: Sélectionnez un espace de travail pour vous connecter
 

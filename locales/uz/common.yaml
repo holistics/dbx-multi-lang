@@ -82,7 +82,7 @@ common:
   sso:
     signInWithSSO: SSO orqali kirish # Large SSO button on login page
     signInWithEmail: Elektron pochta orqali kirish # Email login option button
-    useWorkEmail: dbdiagramga SSO orqali kirish uchun ish pochtangizdan foydalaning # Helper text below SSO button
+    useWorkEmail: "{product}ga SSO orqali kirish uchun ish pochtangizdan foydalaning" # Helper text below SSO button
     signInUnsuccessful: Tizimga kirish amalga oshmadi. Ish pochtangizni tekshiring yoki boshqa usuldan foydalaning. # Error message on SSO failure
     selectWorkspace: Tizimga kirish uchun ish maydonini (workspace) tanlang # Dropdown on SSO login (for users with multiple workspaces)
 

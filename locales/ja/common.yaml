@@ -55,7 +55,7 @@ common:
   sso:
     signInWithSSO: SSO でサインイン
     signInWithEmail: メールでサインイン
-    useWorkEmail: 仕事用のメールアドレスで SSO を使って dbdiagram にアクセスしてください
+    useWorkEmail: 仕事用のメールアドレスで SSO を使って {product} にアクセスしてください
     signInUnsuccessful: サインインに失敗しました。仕事用のメールアドレスを確認するか、別の方法をお試しください。
     selectWorkspace: サインインするワークスペースを選択してください
   ai:

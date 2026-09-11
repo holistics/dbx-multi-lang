@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.3.7 (Sep 11, 2026)
+### Misc
+* Update SSO copywriting
+
 ## v1.3.6 (Sep 10, 2026)
 ### Misc
 * Add key for workspace's org plan
