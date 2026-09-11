@@ -82,7 +82,7 @@ common:
   sso:
     signInWithSSO: SSO ile Giriş Yap # Large SSO button on login page
     signInWithEmail: E-posta ile Giriş Yap # Email login option button
-    useWorkEmail: SSO ile dbdiagram'a erişmek için iş e-postanızı kullanın # Helper text below SSO button
+    useWorkEmail: SSO ile {product}'a erişmek için iş e-postanızı kullanın # Helper text below SSO button
     signInUnsuccessful: Giriş yapılamadı. İş e-postanızı doğrulayın veya başka bir yöntem deneyin. # Error message on SSO failure
     selectWorkspace: Giriş yapmak için bir çalışma alanı seçin # Dropdown on SSO login (for users with multiple workspaces)
 

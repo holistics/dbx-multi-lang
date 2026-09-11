@@ -82,7 +82,7 @@ common:
   sso:
     signInWithSSO: Sign in with SSO # Large SSO button on login page
     signInWithEmail: Sign in with Email # Email login option button
-    useWorkEmail: Use your work email to access dbdiagram via SSO # Helper text below SSO button
+    useWorkEmail: Use your work email to access {product} via SSO # Helper text below SSO button
     signInUnsuccessful: Sign‑in unsuccessful. Verify your work email or use another method. # Error message on SSO failure
     selectWorkspace: Select a workspace to sign in # Dropdown on SSO login (for users with multiple workspaces)
 
