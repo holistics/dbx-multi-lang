@@ -1,0 +1,126 @@
+# Billing translations - Pricing, subscriptions, payment
+# UI Areas: Pricing page, Billing settings, Upgrade modals
+
+billing:
+  # ========================================
+  # Billing Buttons - Action buttons
+  # ========================================
+  buttons:
+    upgrade: Покращити тарифний план # Generic upgrade button
+    upgradeToPersonalPro: Перейти на тариф Personal Pro # CTA button (pricing page)
+    collaborateWithTeam: Співпрацювати за тарифом Team # CTA button (team plan)
+
+  # ========================================
+  # Pricing Page - Pricing table
+  # ========================================
+  pricing:
+
+  # ========================================
+  # Plan Details - Individual plan info
+  # ========================================
+  plans:
+    free:
+      features:
+        - До 3 діаграм # Feature list item 1
+        - Базові інструменти редагування # Feature list item 2
+        - Експорт у форматах SQL/PNG # Feature list item 3
+        - Підтримка спільноти # Feature list item 4
+
+    pro:
+      features:
+        - Необмежена кількість діаграм # Feature list item 1
+        - Розширені інструменти редагування # Feature list item 2
+        - Історія версій # Feature list item 3
+        - Пріоритетна підтримка # Feature list item 4
+        - Експорт у форматі PDF # Feature list item 5
+        - Власні теми # Feature list item 6
+
+    team:
+      features:
+        - Усе з тарифу Pro # Feature list item 1
+        - Командна співпраця # Feature list item 2
+        - Адміністративні елементи керування # Feature list item 3
+        - Автентифікація SSO # Feature list item 4
+        - Пріоритетна підтримка # Feature list item 5
+        - Власні інтеграції # Feature list item 6
+
+  # ========================================
+  # Payment Form - Credit card inputs
+  # ========================================
+  payment:
+    paymentMethod: Спосіб оплати # Section label (existing cards)
+
+  # ========================================
+  # Billing History - Invoice section
+  # ========================================
+  billing:
+
+  # ========================================
+  # Subscription Management - Subscription actions
+  # ========================================
+  subscription:
+
+  # ========================================
+  # Personal Pro Plan - Plan features list
+  # ========================================
+  personalPro:
+
+  # ========================================
+  # Team Plan - Plan features list
+  # ========================================
+  team:
+
+  # ========================================
+  # Public Pricing - Public pricing page
+  # ========================================
+  publicPricing:
+
+  # ========================================
+  # Upgrade Button - Contextual upgrade
+  # ========================================
+  upgradeNowBtn:
+    ownerOnly: Лише власник робочого простору може перейти на тариф Team # Disabled tooltip
+
+  # ========================================
+  # Manage Plan Modal - Subscription details
+  # ========================================
+  managePlanModal:
+    loadingSubscription: Завантаження інформації про тарифний план... # Loading skeleton text
+    currentPlan: Поточний тарифний план # Section header
+    personalPlanForever: Персональний тарифний план - назавжди # Plan name display
+    unknownPlan: Невідомий тарифний план # Fallback plan name
+    billedMonthly: Оплата щомісяця # Billing frequency
+    billedAnnually: Оплата щороку # Billing frequency
+    chargeEvery: Стягувати оплату кожні {period} {unit} # Charge description
+    cancelledOn: Скасовано # Cancellation date label
+    planDetails: Докладно про тарифний план → # Link to plan features
+    upgradeDescription: Перейдіть на платний тарифний план, щоб отримати Detail Levels, Header Color та всі майбутні функції # Upgrade prompt
+    nextPayment: Наступний платіж # Payment section header
+    chargedOn: буде стягнуто # Payment date suffix
+    editSubscription: Редагувати тарифний план # Button (payment method)
+    switchToMonthly: Перейти на щомісячну оплату # Toggle option
+    switchToYearly: Перейти на щорічну оплату # Toggle option (savings)
+    noPaymentMethod: Немає способу оплати # Empty state label
+    updatePaymentMethod: Оновити спосіб оплати # Button (add card)
+    invoicing: Виставлення рахунків # Section header
+    lastPayment: Останній платіж # Section header
+    editBillingInfo: Редагувати платіжну інформацію # Button (billing details)
+    paymentProcessing: Ваш платіж обробляється, оновіть сторінку через кілька хвилин. # Processing toast
+
+  # ========================================
+  # Disabled Card - Disabled workspace state
+  # ========================================
+  disabledCard:
+    personalUpgrade: Оновіть тарифний план свого особистого робочого простору, щоб отримати преміум-функції. # Upgrade prompt
+    teamReadOnly: Робочий простір працює в режимі лише читання через скасування підписки. Відновіть підписку, щоб увімкнути функціональність робочого простору. # Reactivation prompt
+
+  # ========================================
+  # Plan Picking View - Simple pricing view
+  # ========================================
+  planPickingSimpleView:
+    collaborateWithTeamPlan: Співпрацюйте за тарифним планом Team # Section header
+    collaborateWithColleagues: Співпрацюйте зі своїми колегами. # Section subtitle
+    manageTeamDiagrams: Керуйте діаграмами команди в одному місці. # Benefit text
+    startFreeTrial: Почати 7-денний безкоштовний пробний період # CTA button
+    learnMore: Докладніше # Link (learn more)
+    pricingFrom: Вартість від {currency}{price}/місяць # Pricing label

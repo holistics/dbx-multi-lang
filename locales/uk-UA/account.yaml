@@ -1,0 +1,172 @@
+# Account translations - Manage Account modal and Change Email flow
+# UI Areas: Manage Account modal, Change Email modal (stepper flow)
+
+account:
+  # ========================================
+  # Account page
+  # ========================================
+  page:
+    title: Керувати вашим обліковим записом dbx
+    description: "Будь-які зміни, внесені сюди, будуть застосовані в усіх трьох сервісах:"
+    authenticating: Автентифікація...
+
+  # ========================================
+  # Manage Account modal - Account settings overview
+  # ========================================
+  manage:
+    loadingInfo: Завантаження інформації про обліковий запис... # Loading spinner text
+    displayName: Відображуване ім'я # Label for display name field
+    email: Електронна пошта # Label for email field
+
+    # Connected accounts section
+    connectedAccounts:
+      title: Підключені облікові записи # Section title
+      noAccounts: Немає підключених облікових записів # Empty state text
+      loggedInWith: "Ви ввійшли через {provider}" # Provider badge label (e.g., "Logged in with Google")
+
+    # Manage account section
+    manageTitle: Керування обліковим записом # Section title
+    changeEmail: Змінити адресу електронної пошти # Change email button label
+    changeEmailInProgress: Ви вже змінюєте адресу електронної пошти, зачекайте # Disabled message when email change is in progress
+    changeEmailFailed: "Остання спроба змінити адресу електронної пошти завершилася невдало, зверніться до нашої служби підтримки за адресою dbdiagram{'@'}holistics.io" # Disabled message when last email change failed
+
+    # Account removal
+    removal:
+      removeAccount: Видалити обліковий запис # Remove account button label
+      cancelRequest: Скасувати запит на видалення # Cancel removal request button label
+      removedAfter: "Ваш обліковий запис буде видалено через {time}" # Removal countdown text
+      aFewHours: кілька годин # Time label when less than 1 day remaining
+      aDay: один день # Time label when exactly 1 day remaining
+      days: "{count} днів" # Time label for multiple days remaining
+      cancelSuccess: Запит на видалення успішно скасовано! # Success toast after canceling
+      status:
+        inProgressTitle: Видалення вашого облікового запису триває.
+        inProgressDescription: "Це може тривати кілька хвилин. Ви можете безпечно закрити це вікно - процес продовжиться у фоновому режимі."
+        completedTitle: Ваш обліковий запис успішно видалено.
+        completedDescription: "Ви можете безпечно закрити це вікно. Примітка: автоматичний вихід із системи не виконуватиметься. Будь ласка, вручну вийдіть із системи на інших пристроях."
+        failedTitle: Не вдалося видалити обліковий запис.
+        failedContactSupport: Зверніться до нашої служби підтримки за адресою
+
+    notifications:
+      profileUpdated: Профіль користувача успішно оновлено.
+      profileImageUpdated: Зображення профілю користувача успішно оновлено.
+    profileImage:
+      title: Зображення профілю користувача
+      switchToGravatar: Перейти на зображення профілю Gravatar
+      switchToGravatarHint: Щоб змінити аватар користувача, перейдіть на зображення профілю Gravatar.
+      redirectingToGravatar: Перенаправлення до Gravatar...
+      changeOnGravatar: Змінити зображення профілю в Gravatar
+      doneUploading: Завершили завантаження зображення в Gravatar?
+      gravatarHint: Увійдіть у Gravatar за допомогою своєї електронної пошти, щоб змінити зображення профілю.
+      refresh: Оновити зображення профілю
+    userInfo:
+      title: Інформація про користувача
+    dangerZone:
+      title: Небезпечна зона
+    errors:
+      sessionExpired: Сеанс завершено, увійдіть знову.
+      updateProfileFailed: Не вдалося оновити профіль користувача, спробуйте ще раз.
+      loadProfileFailed: Не вдалося завантажити профіль користувача, спробуйте оновити сторінку.
+      updateProfileImageFailed: Не вдалося оновити зображення профілю користувача, спробуйте ще раз.
+      cancelRemovalFailed: Не вдалося скасувати запит на видалення облікового запису, спробуйте ще раз.
+
+  # ========================================
+  # Remove Account modal - 3-step account removal flow
+  # ========================================
+  removeAccountModal:
+    title: Видалити обліковий запис
+    loadingAccountData: Завантаження даних облікового запису…
+    steps:
+      whatWillBeRemoved: Що буде видалено
+      verifyIdentity: Підтвердіть вашу особу
+      identityVerified: Особу підтверджено
+      deleteAccount: Видалити обліковий запис
+      accountDeleted: Обліковий запис видалено
+    step1:
+      description: "Після видалення облікового запису ці дані буде видалено назавжди:"
+      warning: Цю дію неможливо скасувати.
+    step2:
+      otpSentTo: Введіть 6-значний код, надісланий на адресу
+      resendCode: Надіслати код повторно
+      resendCodeCooldown: "Надіслати код повторно ({seconds} с)"
+    step3:
+      description: Ви збираєтеся назавжди видалити свій обліковий запис і всі пов'язані з ним дані. Цю дію неможливо скасувати.
+      confirmButton: Видалити мій обліковий запис
+    errors:
+      generic: Щось пішло не так. Спробуйте ще раз.
+      ssoAccount: Облікові записи SSO не можуть керувати особистими налаштуваннями облікового запису.
+      removalInProgress: Видалення вже триває.
+
+  # ========================================
+  # Change Email modal - 4-step email change flow
+  # ========================================
+  changeEmail:
+    title: Змінити адресу електронної пошти # Modal title
+
+    # Step labels (stepper header)
+    steps:
+      verifyCurrentEmail: Підтвердити поточну електронну пошту # Step 1 title
+      currentEmailVerified: Поточну електронну пошту підтверджено # Step 1 completed label
+      enterNewEmail: Ввести нову електронну пошту # Step 2 title
+      verifyNewEmail: Підтвердити нову електронну пошту # Step 3 title
+      newEmailVerified: Нову електронну пошту підтверджено # Step 3 completed label
+      confirmChange: Підтвердити зміну # Step 4 title
+      emailChanged: Електронну пошту змінено # Step 4 completed label
+
+    # Step 1: Verify current email
+    verifyCurrent:
+      description: З міркувань безпеки для зміни поточної електронної пошти потрібно підтвердити її за допомогою одноразового коду. # Step 1 description
+      currentEmailLabel: "Поточна електронна пошта:" # Label before current email address
+      sendCode: Надіслати код # Send OTP button
+      otpSentMessage: Ми надіслали 6-значний код на вашу електронну пошту. Термін дії коду - 4 хвилини. # OTP sent info text
+      verificationCode: Код підтвердження # OTP input label
+      resendCode: Надіслати код повторно # Resend button label
+      resendCodeCooldown: "Надіслати код повторно ({seconds} с)" # Resend button with cooldown timer
+      verify: Підтвердити # Verify OTP button
+
+    # Step 2: Enter new email
+    enterNew:
+      description: "Введіть нову адресу електронної пошти. Ми надішлемо код підтвердження, щоб перевірити, що вона належить вам." # Step 2 description
+      newEmailLabel: Нова адреса електронної пошти # New email input label
+      placeholder: Введіть нову адресу електронної пошти # New email input placeholder
+      sendCode: Надіслати код # Send OTP button
+
+    # Step 3: Verify new email
+    verifyNew:
+      otpSentTo: Ми надіслали 6-значний код на # Text before new email address
+      codeExpires: Термін дії коду - 4 хвилини. # OTP expiry info
+      verificationCode: Код підтвердження # OTP input label
+      resendCode: Надіслати код повторно # Resend button label
+      resendCodeCooldown: "Надіслати код повторно ({seconds} с)" # Resend button with cooldown timer
+      back: Назад # Back button to return to step 2
+      verify: Підтвердити # Verify OTP button
+
+    # Step 4: Confirm change
+    confirm:
+      description: "Ви збираєтеся змінити адресу електронної пошти:" # Step 4 description
+      from: "Від:" # Label for current email in summary
+      to: "Кому:" # Label for new email in summary
+      pleaseNote: "Зверніть увагу:" # Notes section title
+      noteNotifications: У майбутньому нова електронна пошта отримуватиме всі сповіщення облікового запису (рахунки, запрошення тощо). # Note about notifications
+      noteLogout: "Автоматичний вихід із системи не виконуватиметься. Будь ласка, вручну вийдіть із системи на інших пристроях." # Note about logout
+      noteIrreversible: Цю дію неможливо скасувати. # Note about irreversibility
+      confirmButton: Підтвердити зміну # Confirm change button
+
+    # Polling notifications for email change propagation
+    polling:
+      inProgressTitle: Оновлення вашої електронної пошти в усіх сервісах... # Notification title while syncing
+      inProgressText: Це може тривати кілька хвилин. Ви можете продовжувати користуватися застосунком. # Notification body while syncing
+      completedText: Електронну пошту успішно оновлено в усіх сервісах! # Success notification
+      failedTitle: Не вдалося синхронізувати нову електронну пошту з деякими сервісами. # Warning notification title
+      failedText: Вашу електронну пошту змінено, але деякі сервіси можуть і далі показувати стару адресу. Зверніться до нашої служби підтримки за адресою dbdiagram{'@'}holistics.io. # Warning notification body
+
+    # Error messages
+    errors:
+      invalidEmail: Введіть дійсну адресу електронної пошти # Invalid email format
+      incorrectCode: Введено неправильний код підтвердження # Wrong OTP code
+      codeExpired: Термін дії коду підтвердження минув. Надішліть запит на новий код. # OTP expired
+      codeAlreadyUsed: Цей код уже використано. Надішліть запит на новий код. # OTP already used
+      requestExpired: Термін дії вашого запиту на підтвердження минув. Надішліть запит на новий код. # OTP request token expired
+      emailInUse: Ця адреса електронної пошти вже використовується іншим обліковим записом # Duplicate email
+      verificationExpired: Термін дії вашого підтвердження минув. Почніть спочатку. # Verification token expired
+      generic: Щось пішло не так. Спробуйте ще раз. # Fallback error

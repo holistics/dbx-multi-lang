@@ -1,0 +1,257 @@
+# Workspace translations - Sidebar, dropdown, and settings
+# UI Areas: Left sidebar, Workspace dropdown, Settings page
+
+workspace:
+  # ========================================
+  # General workspace labels - Sidebar and dropdown
+  # ========================================
+  personalWorkspace: Особистий робочий простір # Label for personal workspace (when no team workspace selected in dropdown)
+  personal: Особистий # Short label for personal workspace type
+  createWorkspace: Створити новий робочий простір # Button/link to create new team workspace (sidebar)
+  dashboard: Панель керування # Sidebar link to workspace dashboard (left sidebar)
+  newDiagram: Нова діаграма # Button to create new diagram (sidebar)
+  newSampleDiagram: Нова пробна діаграма # Dropdown with sample diagram templates (sidebar)
+  basic: Базовий # Label for basic tier/sample (templates dropdown)
+  advanced: Розширений # Label for advanced tier/sample (templates dropdown)
+  myDiagrams: Мої діаграми # Sidebar section for personal diagrams
+  sharedWithMe: Відкриті для мене # Sidebar section for shared diagrams
+  guestWorkspace: Гостьовий робочий простір # Label for a guest workspace entry (workspace switcher/dropdown)
+  guestLabel: (гість) # Short suffix label marking a guest workspace entry (workspace switcher dropdown)
+  workspace: Робочий простір # Label for team workspace type
+  private: Приватний # Privacy label for private items
+  readOnlyMode: Робочий простір працює в режимі лише читання через скасування підписки. Поновіть підписку, щоб увімкнути функціональність робочого простору.
+
+  # ========================================
+  # Settings - Workspace settings page
+  # ========================================
+  settings:
+    title: Налаштування # Settings page title
+    workspaceName: Назва робочого простору # Label for workspace name field
+    update: Оновити # Save button for settings
+    loadingInfo: Завантаження інформації про робочий простір... # Loading message when fetching settings
+    singleSignOn: Єдиний вхід # SSO settings section title
+    authenticateWithSSO: Автентифікація через SSO (SAML) # SSO toggle label
+    enabled: Увімкнено # Status label for enabled
+    samlConfiguration: Конфігурація SAML # SAML config section title
+    enforceSSO: Примусово використовувати SSO # Enforce SSO toggle
+    enforceSSODescription: Після ввімкнення учасники робочого простору зможуть отримувати доступ до нього лише через SSO # Help text for enforce SSO
+    identityProviderUrl: URL єдиного входу постачальника ідентифікації # IdP URL field label
+    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
+    identityProviderUrlHelp: URL кінцевої точки вашого постачальника ідентифікації. # Help text for IdP URL
+    certificate: Сертифікат # Certificate field label
+    certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----" # Placeholder for certificate
+    samlConfigurationForProvider: Конфігурація SAML для вашого постачальника ідентифікації # Provider config section
+    assertionConsumerServiceUrl: URL служби споживання тверджень # ACS URL field label
+    assertionConsumerServiceUrlHelp: Також називається "URL служби сторони-відповідача" або "URL відповіді" # Help text for ACS URL
+    identifier: Ідентифікатор # Identifier field label
+    identifierHelp: Також називається "Видавець" або "ідентифікатор довіреної сторони" # Help text for identifier
+    saveSSOSettings: Зберегти налаштування єдиного входу # Save SSO settings button
+    manageWorkspace: Керувати робочим простором # Link to workspace management
+    removeWorkspace: Видалити робочий простір... # Danger button to remove workspace
+    cancelRemovalRequest: Скасувати запит на видалення # Cancel workspace removal button
+    removalWarning: Цю дію неможливо скасувати! # Warning about removal
+    removalScheduledHours: Ваш робочий простір буде видалено через кілька годин. # Removal scheduled message
+    removalScheduledDay: Ваш робочий простір буде видалено через день. # Removal scheduled message
+    removalScheduledDays: "Ваш робочий простір буде видалено через {count} днів." # Removal scheduled message
+    removeWorkspaceTitle: Видалити цей робочий простір? # Remove workspace modal title
+    removeWorkspaceContent: "Ми заплануємо видалення вашого робочого простору через 7 днів. Якщо ви передумаєте, скасувати заплановане видалення можна в меню \"Налаштування\"." # Remove workspace modal content
+    removeWorkspaceButton: Видалити цей робочий простір # Confirm remove button
+    removeWorkspaceSuggestion: 'Для підтвердження введіть у текстове поле <i>permanently delete</i>.' # Confirmation input prompt
+    removalRequestCanceled: Запит на видалення успішно скасовано! # Success toast
+    removalRequestCreated: Запит на видалення успішно створено! # Success toast
+    contactSupportError: Сталася помилка, зверніться до нашої служби підтримки за адресою dbdiagram{'@'}holistics.io # Support contact message
+    workspaceNameUpdated: Назву робочого простору успішно оновлено # Success toast
+    workspaceNameUpdateFailed: Не вдалося оновити назву робочого простору, спробуйте ще раз! # Error toast
+    ssoConfigFetchFailed: Не вдалося отримати конфігурацію SSO. Спробуйте оновити сторінку. # Error toast
+    ssoConfigUpdated: Конфігурацію SSO успішно оновлено # Success toast
+    ssoConfigSaveFailed: Не вдалося зберегти конфігурацію SSO. Спробуйте ще раз. # Error toast
+
+  # ========================================
+  # Create Workspace Modal
+  # ========================================
+  createModal:
+    title: Створити робочий простір # Modal title (form state)
+    settingUpTitle: Налаштування робочого простору # Modal title (provisioning state)
+    nameLabel: Назва робочого простору # Input label
+    namePlaceholder: "наприклад, команда Acme" # Input placeholder
+    cancel: Скасувати # Cancel button
+    create: Створити # Create button
+    partiallyFailed: "Робочий простір \"{name}\" готовий, але частину налаштування не завершено." # Partial failure message
+    partiallyFailedHint: Ви можете почати користуватися ним зараз, а завершити налаштування пізніше зі сторінки керування робочим простором. # Partial failure hint
+    openWorkspace: Відкрити робочий простір # Open workspace button
+    retry: Повторити # Retry button
+    fullyFailed: "Під час налаштування робочого простору \"{name}\" щось пішло не так." # Full failure message
+    contactUs: Зв'язатися з нами # Contact us button
+
+  # ========================================
+  # Provisioning Gate Modal
+  # ========================================
+  provisioningGate:
+    retry: Повторити # Retry button
+    contactUs: Зв'язатися з нами # Contact us link
+    contactUsHint: якщо повторна спроба не допоможе. # Text after contact us link
+    checking:
+      title: "Перевірка робочого простору..." # Checking state title
+      description: Зачекайте, будь ласка, поки ми перевіримо, чи все синхронізовано. # Checking state description
+    partiallyFailed:
+      title: Ваш робочий простір налаштовано не повністю. # Partial failure title
+      description: Повторіть спробу, щоб завершити налаштування. # Failure description
+    fullyFailed:
+      title: Не вдалося налаштувати робочий простір. # Full failure title
+
+  # ========================================
+  # Members - Member management
+  # ========================================
+  members:
+    unlimited: Необмежено # Unlimited viewers count
+    invite: Запросити # Invite button
+    invitePlaceholder: Введіть адресу електронної пошти # Email input placeholder
+    inviteButton: Запросити # Send invite button
+    members: Учасники # Members section title
+    role:
+      member: Учасник # Member role label
+      owner: Власник # Owner role label
+    actions:
+      remove: Вилучити # Remove action
+      removeInvitation: Вилучити це запрошення # Remove invitation action
+      removeMember: Вилучити цього учасника # Remove member confirmation
+    dialog:
+      removeTitle: Вилучити з робочого простору? # Remove dialog title
+      removeMessage: "Ви збираєтеся вилучити <b>{email}</b> зі свого робочого простору, підтвердьте цю дію!" # Remove dialog message
+    notifications:
+      removeSuccess: {email} успішно вилучено з робочого простору!
+      removeError: Не вдалося вилучити {email} з робочого простору!
+
+  # ========================================
+  # Diagram List - Diagram list view
+  # ========================================
+  diagramList:
+    searchPlaceholder: Шукати діаграми # Search input placeholder
+    freePlan: Безкоштовний # Label for free plan
+    plan: тарифний план # Plan suffix label
+    diagramCount: "Діаграми: {count}/{limit}" # Diagram count indicator
+    duplicate: Дублювати # Duplicate button
+    transferOwnership: Передати право власності # Transfer ownership button
+    delete: Видалити # Delete button
+    untitledDiagram: Діаграма без назви # Default name for unnamed diagrams
+    columns:
+      name: Назва # Table column header (diagram name)
+      dateCreated: Дата створення # Table column header
+      dateModified: Дата зміни # Table column header
+      owner: Власник # Table column header
+
+  # ========================================
+  # Sidebar - Sidebar sections
+  # ========================================
+  sidebar:
+    apiTokens: Токени API # API Tokens link (left sidebar)
+    billing: Оплата # Billing link (left sidebar)
+
+  # ========================================
+  # Empty States - Empty diagrams views
+  # ========================================
+  emptyDiagrams:
+    title: Діаграм ще немає # Empty diagrams title
+    created:
+      description: У вашому робочому просторі немає діаграм. Ви можете створити нову за допомогою # Empty state description (part 1)
+      button: + Нова діаграма # Button to create first diagram
+      buttonSuffix: кнопки. # Empty state description (part 2)
+    shared:
+      description: Вас ще не запрошували до жодної діаграми. # Empty state for shared diagrams
+    workspacePublic:
+      description: Команді не показано жодної діаграми. Ви можете створити нові діаграми за допомогою # Empty state for public workspace
+    workspacePrivate:
+      description: Приватних діаграм немає. Ви можете створити нову діаграму та залишити її особистою. # Empty state for private workspace
+
+  # ========================================
+  # Plan - Plan labels
+  # ========================================
+  plan:
+    pro: Тарифний план Pro # Pro plan label
+    free: Безкоштовний тарифний план # Free plan label
+    team: Тарифний план Team # Team plan label
+    disabled: "(вимкнено)" # Disabled plan label
+
+  # ========================================
+  # Legacy plan notice - Shown instead of pricing plans when a workspace's
+  # active subscription is on a legacy plan that cannot self-upgrade
+  # ========================================
+  legacyPlanNotice:
+    title: Це робочий простір зі застарілим тарифом # Modal title
+    description: Цей робочий простір використовує один із наших застарілих тарифів, які неможливо оновити до нових тарифів. # Modal description
+    contactPrefix: Зверніться до # Text before the support email link
+    contactSuffix: і ми допоможемо вам перейти на новий тариф. # Text after the support email link
+    gotIt: Зрозуміло # Dismiss button
+
+  # ========================================
+  # Welcome - Welcome modal
+  # ========================================
+  welcome:
+    title: Ласкаво просимо до командного робочого простору! # Welcome modal title
+    description: Почніть зі створення нових діаграм і спільної роботи з колегами. # Welcome modal description
+    learnMore: Докладніше → # Learn more link
+
+  # ========================================
+  # API Tokens - API tokens management
+  # ========================================
+  apiTokens:
+    title: Токени API # API Tokens page title
+    description: Токени API використовуються для автентифікації в API dbdiagram під час кожного API-запиту. Як і паролі, токени API мають залишатися конфіденційними. # Description text
+    seeDocumentation: Переглянути документацію. # Link to API docs
+    generateNew: Створити новий токен # Button to generate token
+    columns:
+      name: Назва # Token name column header
+      dateCreated: Дата створення # Created date column header
+      lastUsed: Востаннє використано # Last used column header
+      owner: Власник # Owner column header
+    empty: Створених токенів немає # Empty state message
+    actions:
+      revoke: Відкликати # Revoke token action
+    modal:
+      newToken: Новий токен API # New token modal title
+      tokenName: Назва токена # Token name input label
+      tokenNamePlaceholder: Введіть назву токена # Token name placeholder
+      generate: Створити токен # Generate button
+      copyWarning: Обов'язково скопіюйте токен API зараз, оскільки більше не зможете його переглянути. # Warning about copying token
+      copied: Скопійовано # Success message after copying
+      copy: Копіювати # Copy button
+      done: Готово # Done button
+      revokeTitle: Відкликати токен API? # Revoke confirmation title
+      revokeContent: "Ви хочете відкликати токен API \"{name}\"? Цю дію неможливо скасувати." # Revoke confirmation content
+      revokePositive: Відкликати токен # Confirm revoke button
+      revokeSuggestion: 'Для підтвердження введіть у текстове поле <i>permanently delete</i>.' # Revoke input prompt
+      generateSuccess: Токен успішно створено # Success toast
+    errors:
+      nameEmpty: Назва токена не може бути порожньою # Validation error
+      nameInvalid: Назва токена може містити лише літери, цифри, пробіл, "-" або "_" # Validation error
+      nameWhitespace: Назва токена не може бути порожньою або містити лише пробіли # Validation error
+      upgradeRequired: Оновіть тариф, щоб створювати токени й отримувати доступ до нашого API # Upgrade required error
+      ownerOnly: Лише власник робочого простору може створювати нові токени # Permission error
+
+  # ========================================
+  # Settings Tab - Portal workspace Settings page (rename + url-name + delete)
+  # ========================================
+  settingsTab:
+    generalTitle: Загальні # "General" section heading
+    displayNameLabel: Відображуване ім'я # Display name field label
+    displayNamePlaceholder: Мій робочий простір # Display name input placeholder
+    urlNameLabel: URL-ім'я робочого простору # URL name field label
+    urlNameTooltip: Зміна назви робочого простору зробить усі попередні спільні посилання недійсними # Info tooltip next to the URL name label
+    urlNamePlaceholder: my-workspace-url # URL name input placeholder
+    checkingUrlName: Перевірка доступності цієї назви… # Live availability check message
+    workspacePreviewPrefix: 'Workspace:' # Label before the Portal URL preview
+    dbdocsPreviewPrefix: 'dbdocs:' # Label before the dbdocs URL preview
+    saving: Збереження… # Submit button label while saving
+    updateProfile: Оновити профіль # Submit button label
+    manageWorkspaceTitle: Керувати робочим простором # "Manage workspace" (danger zone) section heading
+    deleteWorkspaceButton: Видалити цей робочий простір # Delete button label
+    deleteWarning: Цю дію неможливо скасувати. Усі ваші дані в dbdiagram і dbdocs буде видалено назавжди! # Warning text next to the delete button
+    urlNameInvalid: URL-ім'я має містити лише малі літери, цифри та дефіси (без дефіса на початку або в кінці). # Validation error
+    urlNameTaken: Ця назва недоступна. # Validation error
+    checkUrlNameFailed: Не вдалося перевірити URL-ім'я. Спробуйте ще раз. # Error toast
+    settingsSaved: Налаштування робочого простору збережено. Синхронізація з dbdiagram і dbdocs… # Success toast
+    settingsSaveFailed: Не вдалося оновити налаштування робочого простору. # Error toast
+    deleteModalTitle: Видалити цей робочий простір? # Delete confirmation modal title
+    deleteModalContent: Видалити цей робочий простір і всі його дані? Цю дію неможливо скасувати. Ми надішлемо вам код підтвердження електронною поштою. # Delete confirmation modal content
+    deleteModalConfirmLabel: Видалити робочий простір # Delete confirmation modal confirm button
+    deletionStarted: Видалення робочого простору розпочато. # Success toast after confirming deletion

@@ -1,0 +1,333 @@
+# Pricing translations - Public pricing page, plan cards, feature comparison, FAQ
+# UI Areas: Pricing landing page, Plan cards, Feature blocks, Comparison table, dbdocs promos
+
+pricing:
+  # ========================================
+  # Pricing Landing Page - Top-level headings
+  # ========================================
+  landing:
+    badge: Один тарифний план для dbdiagram і dbdocs # Badge above title
+    title: Оновіть свій робочий простір # Page title
+    subtitle: Кожен платний тарифний план містить dbdiagram і dbdocs разом. # Subtitle
+
+  # ========================================
+  # Unified Plan Modal (PricingPlanModal) - header copy not shared with the landing page above
+  # ========================================
+  modal:
+    subtitle: Завжди безкоштовно. Отримайте більше можливостей із нашими платними тарифними планами. # Modal subtitle
+    alwaysFree:
+      label: Завжди безкоштовно # Green pill label
+      text: "Кожен тарифний план також містить:" # Strip intro text
+      dbmlCaption: Відкрита специфікація схеми # DBML lozenge caption
+      runsqlCaption: SQL-середовище в браузері # RunSQL lozenge caption
+    provisioningTitle: "Налаштування робочого простору…" # Blocking state title while a workspace is being provisioned
+
+  # ========================================
+  # Misc UI labels
+  # ========================================
+  ui:
+    learnMore: "Докладніше →" # Learn more link in feature blocks
+    faqTitle: Часті запитання # FAQ section title
+    taxNote: "* Ваш платіж оподатковується відповідно до законодавства вашої країни" # Tax disclaimer under FAQ
+    plansAndFeatures: Тарифні плани та функції # Comparison table heading
+    features: Функції # Comparison table column header
+    whatsInProPlan: "Що входить до нашого тарифного плану Personal Pro?" # Pro feature section title
+    whatsInTeamPlan: "Що входить до нашого тарифного плану Team?" # Team feature section title
+    dbdocsFreePaidTitle: dbdocs # Free vs Paid table eyebrow label
+    dbdocsFreePaidHeading: Безкоштовний vs платний # Free vs Paid table heading
+
+  # ========================================
+  # Billing Toggle - Monthly/Annual switch
+  # ========================================
+  billingToggle:
+    monthly: Щомісячно # Left toggle label
+    annual: Щорічно # Right toggle label
+    saveUpTo: "Заощаджуйте до {percent}%" # Save badge text
+
+  # ========================================
+  # Plan Names
+  # ========================================
+  planNames:
+    free: Безкоштовний # Free plan name
+    personalPro: Personal Pro # Personal Pro plan name
+    team: Team # Team plan name
+    customPlan: Власний тариф # Enterprise/Custom plan name
+
+  # ========================================
+  # Plan Taglines
+  # ========================================
+  taglines:
+    free: Для окремих користувачів, які проєктують схеми та діляться публічною документацією. # Free plan tagline
+    pro: Для фрилансерів і консультантів, які проєктують і документують. # Pro plan tagline
+    team: Для команд, які спільно проєктують і документують бази даних. # Team plan tagline
+    enterprise: Для організацій із потребами у сфері безпеки та закупівель. # Enterprise plan tagline
+
+  # ========================================
+  # Plan Card - Price display
+  # ========================================
+  price:
+    free: Безкоштовно # Free plan price text
+    freeNote: "і це назавжди" # Free plan price note
+    customPricing: Власна ціна # Enterprise price text
+    contactForPricing: Дізнатися ціну # Enterprise price note
+    perMonth: /міс. # Per month unit suffix
+    billedAnnually: "Оплата щороку — {currency}{amount} на рік" # Annual billing hint
+    billedMonthly: Оплата щомісяця # Monthly billing hint
+
+  # ========================================
+  # Plan Card - CTA Buttons
+  # ========================================
+  cta:
+    getStartedFree: Почати безкоштовно # Free plan CTA
+    upgradeNow: Оновити зараз # Pro/Team upgrade CTA
+    startFreeTrial: Почати 7-денний безкоштовний пробний період # Team trial CTA
+    contactSales: Зв'язатися з відділом продажів # Enterprise CTA
+    downgrade: Знизити тарифний план # Downgrade button
+    currentPlan: Поточний тарифний план # Current plan label
+
+  # ========================================
+  # Plan Card - Recommended badge
+  # ========================================
+  recommended: Рекомендовано # Recommended badge on plan card
+
+  # ========================================
+  # Plan Card - Inherits from
+  # ========================================
+  inheritsFrom:
+    prefix: "Усе з тарифу" # "Everything in {plan}, plus"
+    suffix: ", а також" # suffix after plan name
+    free: Безкоштовний # Inherits from Free
+    personalPro: Personal Pro # Inherits from Personal Pro
+    team: Team # Inherits from Team
+
+  # ========================================
+  # Plan Card - Tier limits
+  # ========================================
+  tiers:
+    upTo10Diagrams: До 10 діаграм і документних проєктів # Free tier capacity
+    unlimitedDiagrams: Необмежена кількість діаграм і документних проєктів # Paid tier capacity
+    users: "Один користувач | {count} користувачів" # Plan card user-count tier, pluralized by quantity (1/3/10/...)
+    docProjects: "{count} платний документний проєкт dbdocs | {count} платних документних проєктів dbdocs" # Plan card doc-project tier, pluralized by quantity
+
+  # ========================================
+  # Plan Card - Add-ons
+  # ========================================
+  addons:
+    label: "Розширення:" # Add-ons section label
+    extraDocProject: Додатковий платний документний проєкт # Doc project addon name
+    extraUser: Додатковий користувач # User addon name
+    extraUserTooltip: "Ліцензія користувача призначена для редакторів - людей, які створюють і змінюють діаграми та документацію. Глядачі завжди безкоштовні й ніколи не потребують ліцензії." # User addon tooltip
+
+  # ========================================
+  # Plan Card - Features lists
+  # ========================================
+  cardFeatures:
+    free:
+      sqlImportExport: Імпорт і експорт SQL
+      exportFormats: Експорт у PDF/PNG/SVG
+      publicSharing: Публічний доступ
+      embedDiagrams: Вбудовування діаграм і документації на ваш сайт
+      dataSample: Зразок даних
+      cliIntegration: Інтеграція з конвеєром CI/CD через dbdiagram CLI
+    pro:
+      unlimitedViews: Необмежена кількість подань діаграм
+      passwordProtected: Спільний доступ із захистом паролем і приватний доступ
+      limitedCollaboration: Обмежена спільна робота
+      advancedVisualization: Розширена візуалізація для роботи з великими базами даних
+    team:
+      collaborativeWorkspace: Спільний робочий простір
+      teamManagement: Керування командою та спільна робота
+      unifiedBilling: Єдине адміністрування та виставлення рахунків
+    enterprise:
+      prioritizedFeature: Пріоритетний запит на функцію
+      procurementReview: Перевірка закупівель або юридична перевірка
+      customPayment: Індивідуальні умови оплати
+      samlSso: SAML SSO
+      activityLog: Журнал активності користувачів (незабаром)
+      ipAllowList: Список дозволених IP-адрес (незабаром)
+
+  # ========================================
+  # Feature Blocks - Pro features
+  # ========================================
+  featureBlocks:
+    pro:
+      diagramViews:
+        title: Почніть із малого з поданнями діаграми
+        description: "Думайте масштабно, починайте з малого. Створюйте кілька сфокусованих подань однієї діаграми. Показуйте таблиці, потрібні для предметної області, робочого процесу або командного обговорення."
+      passwordProtection:
+        title: Захистіть діаграму за допомогою захисту паролем
+        description: Захищайте свої діаграми паролем і підвищуйте конфіденційність. Ідеально для внутрішнього доступу в команді.
+      tableGroups:
+        title: Краще впорядковуйте за допомогою груп таблиць
+        description: Об'єднуйте кілька таблиць для зручнішої візуалізації. Зменшуйте обсяг роботи з базами даних, що містять багато таблиць.
+      headerColors:
+        title: Керуйте діаграмами за допомогою кольору заголовків
+        description: Легко керуйте діаграмами та документами баз даних, змінюючи кольори заголовків таблиць і роблячи їх яскравішими!
+      detailLevels:
+        title: Спрощуйте діаграми за допомогою рівнів деталізації
+        description: Перемикайтеся між різними рівнями деталізації, щоб спростити діаграми. Ця функція особливо корисна під час роботи з великими проєктами баз даних.
+      stickyNotes:
+        title: Працюйте разом ефективніше за допомогою стікерів
+        description: "Потрібно швидко занотувати нагадування або розгорнути складну ідею? Додавайте нотатки безпосередньо до діаграм саме там, де вони потрібні."
+      aiAssistant:
+        title: Прискорюйте робочий процес за допомогою AI Assistant
+        description: Отримуйте інтелектуальні пропозиції та пришвидшуйте процес проєктування баз даних за допомогою нашого помічника на основі ШІ.
+      collaboration:
+        title: Спільне редагування в реальному часі
+        description: Запрошуйте колег працювати разом із вами над однією діаграмою в реальному часі.
+      versionHistory:
+        title: Повертайтеся в минуле за допомогою історії версій
+        description: Вільно експериментуйте з ідеями, використовуючи різні версії схеми. Повертайтеся до попередньої версії в будь-який момент.
+      schemaChangelog:
+        title: Необмежена історія журналу змін схеми
+        description: "Більше ніколи не втрачайте інформацію про зміни схеми бази даних. Отримуйте доступ до всіх змін схеми, переглядайте версії, старші за 14 днів, і легко порівнюйте будь-які дві версії."
+      embeddedViews:
+        title: Вбудовані подання
+        description: "Ви можете вбудувати документацію бази даних у такі платформи, як Notion, Confluence, Miro або навіть на власний сайт. Переглядайте документацію бази даних у звичному для вас інструменті."
+      shareWithInvitedUsers:
+        title: Діліться із запрошеними користувачами
+        description: "Безпосередньо запрошуйте колег до свого проєкту та керуйте ними - ідеально для внутрішньої командної роботи."
+    team:
+      collaborativeWorkspace:
+        title: Спільний робочий простір
+        description: "Майте єдине місце, де вся команда може зберігати, переглядати та поширювати діаграми й документи баз даних."
+      teamManagement:
+        title: Керування командою та спільна робота
+        description: "Запрошуйте колег і керуйте ними в одному робочому просторі, щоб вони могли користуватися перевагами тарифу Team."
+      unifiedBilling:
+        title: Єдине адміністрування та виставлення рахунків
+        description: Купуйте та керуйте кількома ліцензіями користувачів для членів команди. Керуйте користувачами й оплатою в одному місці.
+
+  # ========================================
+  # Comparison Table - Category names
+  # ========================================
+  comparison:
+    categories:
+      dataModeling: Моделювання даних
+      documentation: Документація
+      workingWithLargeDatabases: Робота з великими базами даних
+      sharingCollaboration: Спільний доступ і співпраця
+      apiIntegrations: API та інтеграції
+      productSupport: Підтримка продукту
+      businessTerms: Умови використання та оплата
+    features:
+      erDiagrams:
+        name: ER-діаграми
+        description: "Візуалізуйте структуру бази даних, включно з таблицями, полями та зв'язками"
+      diagramViews:
+        name: Подання діаграми
+        description: Створюйте кілька подань однієї діаграми, щоб зосередитися на різних аспектах або аудиторіях
+      dataSample:
+        name: Зразок даних
+        description: Показуйте читачам реальні дані на прикладах рядків і створюйте SQL INSERT для заповнення довідникових таблиць
+      importSchema:
+        name: Імпорт схеми з бази даних
+        description: Виконуйте зворотне проєктування наявної бази даних для візуалізації таблиць, полів і зв'язків
+      exportSchema:
+        name: Експорт схеми до бази даних
+        description: Експортуйте схему як SQL-скрипти, готові до виконання у вашій базі даних
+      exportVisualization:
+        name: Експорт візуалізації
+        description: "Експортуйте діаграми як зображення SVG, PDF або PNG для документації та поширення"
+      versionHistory:
+        name: Історія версій
+        description: Відстежуйте версії діаграм і повертайтеся до попередніх версій
+      aiAssistant:
+        name: AI Assistant (бета-версія)
+        description: "Створюйте та редагуйте діаграми за допомогою запитів, отримуйте аналітику й рекомендації для проєктів баз даних"
+      publishedDocs:
+        name: Опублікована документація
+        description: Публікуйте схему в dbdocs.io як довідник, який може переглядати ваша команда
+      paidDocProjects:
+        name: Платні документні проєкти
+        description: Документні проєкти з повним набором функцій. Безкоштовні проєкти доступні на кожному тарифі
+        tooltip: "Будь-яким документним проєктом можна поділитися публічно або захистити спільним паролем. Платний проєкт додає приватний режим, доступ лише для запрошених, необмежену кількість вбудованих подань і повний журнал змін схеми."
+      schemaChangelog:
+        name: Журнал змін схеми
+        description: Відстежуйте, як опублікована схема змінювалася з часом, і порівнюйте будь-які дві версії
+      tableGroup:
+        name: Група таблиць
+        description: Візуально впорядковуйте пов'язані таблиці за допомогою груп
+      headerColor:
+        name: Колір заголовка
+        description: Налаштовуйте кольори заголовків таблиць для кращого впорядкування
+      detailLevels:
+        name: Рівні деталізації
+        description: Керуйте видимістю деталей таблиць у різних поданнях
+      stickyNotes:
+        name: Стікери
+        description: Додавайте анотації та коментарі до діаграм
+      embeddedDiagrams:
+        name: Вбудовані подання
+        description: Вбудовуйте діаграму або сторінку документації як iframe в інструменти на кшталт Notion, Confluence або на власний сайт
+      publicDiagram:
+        name: Поширення за публічним посиланням
+        description: Діліться діаграмою або документним проєктом з усіма, хто має посилання
+      passwordProtectedDiagram:
+        name: Поширення посилання із захистом паролем
+        description: Захищайте спільну діаграму або посилання на документацію паролем
+      privateDiagram:
+        name: Приватний режим
+        description: Залишайте діаграму або документний проєкт доступними лише вам і запрошеним людям
+      inviteEditors:
+        name: Запрошення редакторів і переглядачів
+        description: Запрошуйте колег до спільної роботи над діаграмами та документацією
+      collaborativeWorkspace:
+        name: Спільний робочий простір
+        description: Спільний робочий простір для командної роботи
+      teamManagement:
+        name: Керування командою та спільна робота
+        description: "На одне місце: необмежена кількість редакторів і переглядачів"
+      unifiedAdmin:
+        name: Єдине адміністрування та виставлення рахунків
+        description: Єдина панель для керування учасниками команди та оплатою
+      cli:
+        name: CLI
+        description: Зберігайте файли .dbml у системі контролю версій; синхронізуйте діаграми, публікуйте документи та автоматизуйте обидва процеси з CI/CD за допомогою функцій push-and-pull.
+      publicApi:
+        name: Публічний API
+        description: Створюйте власні інтеграції для підключення робочих просторів dbdiagram до внутрішніх інструментів і робочих процесів
+      communitySupport:
+        name: Підтримка спільноти
+        description: Доступ до форумів спільноти та документації
+      standardSupport:
+        name: Стандартна підтримка
+        description: Підтримка електронною поштою зі стандартним часом відповіді
+      creditCardPayment:
+        name: Оплата кредитною карткою
+        description: Оплачуйте кредитною або дебетовою карткою через захищену систему обробки платежів
+      bankTransfer:
+        name: Банківський переказ
+        description: Прямий банківський переказ для великих операцій
+    # Cell values that are translatable strings
+    values:
+      unlimited: Необмежено
+      unlimitedUsage: Необмежене використання
+      cappedUsage: Використання з обмеженням
+      viewOnly: Лише перегляд
+      upToFourFreeEditors: До 4 безкоштовних редакторів
+      minThreeThousand: "Мін. $3,000"
+      fourteenDayHistory: Історія за 14 днів
+
+  # ========================================
+  # FAQ Section
+  # ========================================
+  faq:
+    - question: Як працює ціноутворення?
+      answerHtml: "&bull; Безкоштовний тарифний план доступний назавжди. Тарифний план Personal Pro відкриває Pro-функції в dbdiagram і dbdocs у вашому особистому робочому просторі.<br><br>&bull; Тарифний план Team об'єднує вашу команду для спільної роботи в централізованому командному робочому просторі в dbdiagram і dbdocs."
+    - question: Як керувати підпискою?
+      answerHtml: "Керувати підпискою робочого простору можна в розділі Home > Billing. Ярлик \"Home\" робочого простору розташований у меню облікового запису у верхньому правому куті."
+    - question: Чи зберігаєте ви дані моєї кредитної картки?
+      answerHtml: "Ні, ми не обробляємо дані вашої кредитної картки безпосередньо. Для обробки платежу ми використовуємо Stripe."
+    - question: Що станеться, якщо я скасую підписку?
+      answerHtml: Після скасування підписки ваш робочий простір повернеться до безкоштовного тарифного плану. Приватні проєкти буде перетворено на публічні, а учасники робочого простору не зможуть отримати до нього доступ.
+    - question: Чи буде мій тарифний план поновлено автоматично?
+      answerHtml: Платна підписка поновлюється автоматично, якщо ви не скасуєте тарифний план до завершення періоду підписки.
+    - question: Чи отримую я функції dbdiagram і dbdocs в одному тарифному плані?
+      answerHtml: "Так, ви отримаєте функції dbdiagram і dbdocs в одному тарифному плані."
+    - question: Як працює власний тарифний план?
+      answerHtml: "Власні тарифні плани налаштовуються для організацій із конкретними потребами. Зверніться до нашої команди продажів, щоб обговорити ціни, індивідуальні умови оплати та корпоративні функції, як-от SSO і пріоритетна підтримка."
+    - question: "Я турбуюся про безпеку. Чи пропонуєте ви версію dbdocs для самостійного розгортання?"
+      answerHtml: "Ми розуміємо важливість захисту ваших даних. Якщо вас цікавить версія dbdocs для самостійного розгортання, заповніть цю <a href=\"https://form.jotform.com/240041567989466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">форму</a>, і наша команда зв'яжеться з вами, щоб обговорити ваші конкретні вимоги."
+    - question: У мене є запитання. Як зв'язатися з вами?
+      answerHtml: "Напишіть нам на адресу <a href=\"mailto:dbdiagram{'@'}holistics.io\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"dui-pricing-faq__link underline\">dbdiagram{'@'}holistics.io</a>."
