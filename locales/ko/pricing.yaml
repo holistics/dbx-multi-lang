@@ -125,6 +125,7 @@ pricing:
       publicSharing: 공개 공유
       embedDiagrams: 사이트에 다이어그램 및 문서 임베드
       dataSample: 데이터 샘플
+      dataLineage: 데이터 계보
       cliIntegration: dbdiagram CLI를 통한 CI/CD 파이프라인 통합
     pro:
       unlimitedViews: 무제한 다이어그램 보기
@@ -201,6 +202,7 @@ pricing:
   comparison:
     categories:
       dataModeling: 데이터 모델링
+      dataLineage: 데이터 계보
       documentation: 문서
       workingWithLargeDatabases: 대규모 데이터베이스 작업
       sharingCollaboration: 공유 및 협업
@@ -232,6 +234,12 @@ pricing:
       aiAssistant:
         name: AI 어시스턴트 (베타)
         description: "프롬프트를 사용하여 다이어그램을 생성 및 편집하고, 데이터베이스 설계에 대한 인사이트와 추천을 받으세요"
+      tableLevelLineage:
+        name: 테이블 수준 데이터 계보
+        description: 한 테이블이 다른 테이블을 기반으로 생성되었음을 정의하고 파이프라인을 시각화합니다
+      columnLevelLineage:
+        name: 컬럼 수준 데이터 계보
+        description: 필드별 종속성을 매핑하고 컬럼을 원본까지 추적합니다
       publishedDocs:
         name: 게시된 문서
         description: 팀이 열람할 수 있는 참조 자료로 스키마를 dbdocs.io에 게시하세요
