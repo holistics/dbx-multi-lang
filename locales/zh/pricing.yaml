@@ -125,6 +125,7 @@ pricing:
       publicSharing: 公开分享
       embedDiagrams: 将图表和文档嵌入你的网站
       dataSample: 数据示例
+      dataLineage: 数据血缘
       cliIntegration: 通过 dbdiagram CLI 集成 CI/CD 流水线
     pro:
       unlimitedViews: 无限图表视图
@@ -201,6 +202,7 @@ pricing:
   comparison:
     categories:
       dataModeling: 数据建模
+      dataLineage: 数据血缘
       documentation: 文档
       workingWithLargeDatabases: 处理大型数据库
       sharingCollaboration: 分享与协作
@@ -232,6 +234,12 @@ pricing:
       aiAssistant:
         name: AI 助手（测试版）
         description: "使用提示生成和编辑图表；获取数据库设计的洞察和建议"
+      tableLevelLineage:
+        name: 表级数据血缘
+        description: 声明一个表由另一个表构建，并查看绘制出的数据管道
+      columnLevelLineage:
+        name: 列级数据血缘
+        description: 逐字段映射依赖关系，并将列追溯到其数据源
       publishedDocs:
         name: 已发布文档
         description: 将模式发布到 dbdocs.io，作为团队可浏览查阅的参考资料

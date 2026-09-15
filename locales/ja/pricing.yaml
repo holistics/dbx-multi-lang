@@ -125,6 +125,7 @@ pricing:
       publicSharing: 公開共有
       embedDiagrams: ダイアグラムとドキュメントをサイトに埋め込み
       dataSample: データサンプル
+      dataLineage: データリネージ
       cliIntegration: dbdiagram CLI による CI/CD パイプライン連携
     pro:
       unlimitedViews: 無制限のダイアグラムビュー
@@ -201,6 +202,7 @@ pricing:
   comparison:
     categories:
       dataModeling: データモデリング
+      dataLineage: データリネージ
       documentation: ドキュメント
       workingWithLargeDatabases: 大規模データベースでの作業
       sharingCollaboration: 共有＆コラボレーション
@@ -232,6 +234,12 @@ pricing:
       aiAssistant:
         name: AI アシスタント（ベータ）
         description: "プロンプトを使用してダイアグラムを生成・編集し、データベース設計に関するインサイトと推奨事項を取得します"
+      tableLevelLineage:
+        name: テーブルレベルのリネージ
+        description: あるテーブルが別のテーブルから作成されていることを定義し、パイプラインを可視化します
+      columnLevelLineage:
+        name: カラムレベルのリネージ
+        description: フィールド単位で依存関係をマッピングし、カラムをソースまで追跡します
       publishedDocs:
         name: 公開ドキュメント
         description: チームが閲覧できる参照資料として、スキーマを dbdocs.io に公開します

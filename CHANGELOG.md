@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.3.8 (Sep 15, 2026)
+### Misc
+* Add copywriting for data lineage
+
 ## v1.3.7 (Sep 11, 2026)
 ### Misc
 * Update SSO copywriting

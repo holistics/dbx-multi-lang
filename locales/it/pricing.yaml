@@ -125,6 +125,7 @@ pricing:
       publicSharing: Condivisione pubblica
       embedDiagrams: Incorpora diagrammi e documenti nel tuo sito
       dataSample: Dati di esempio
+      dataLineage: Tracciabilità dei dati
       cliIntegration: Integrazione pipeline CI/CD con dbdiagram CLI
     pro:
       unlimitedViews: Viste del diagramma illimitate
@@ -201,6 +202,7 @@ pricing:
   comparison:
     categories:
       dataModeling: Modellazione dati
+      dataLineage: Tracciabilità dei dati
       documentation: Documentazione
       workingWithLargeDatabases: Lavorare con database di grandi dimensioni
       sharingCollaboration: Condivisione e collaborazione
@@ -232,6 +234,12 @@ pricing:
       aiAssistant:
         name: Assistente IA (Beta)
         description: "Genera e modifica diagrammi tramite prompt; ottieni informazioni e raccomandazioni per i tuoi progetti di database"
+      tableLevelLineage:
+        name: Tracciabilità a livello di tabella
+        description: Indica che una tabella è costruita a partire da un’altra e visualizza la pipeline
+      columnLevelLineage:
+        name: Tracciabilità a livello di colonna
+        description: Mappa le dipendenze campo per campo e risali da una colonna alla sua origine
       publishedDocs:
         name: Documentazione pubblicata
         description: Pubblica uno schema su dbdocs.io come riferimento consultabile dal tuo team

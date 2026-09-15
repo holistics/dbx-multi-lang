@@ -125,6 +125,7 @@ pricing:
       publicSharing: Ommaviy ulashish
       embedDiagrams: Diagramma va hujjatlarni saytingizga joylashtirish
       dataSample: Ma'lumotlar namunasi
+      dataLineage: Ma’lumotlar kelib chiqishi
       cliIntegration: dbdiagram CLI bilan CI/CD quvur liniyasi integratsiyasi
     pro:
       unlimitedViews: Cheksiz diagramma ko'rinishlari
@@ -201,6 +202,7 @@ pricing:
   comparison:
     categories:
       dataModeling: Ma'lumotlarni modellashtirish
+      dataLineage: Ma’lumotlar kelib chiqishi
       documentation: Hujjatlar
       workingWithLargeDatabases: Katta ma'lumotlar bazalari bilan ishlash
       sharingCollaboration: Ulashish va hamkorlik
@@ -232,6 +234,12 @@ pricing:
       aiAssistant:
         name: AI yordamchisi (Beta)
         description: "So'rovlar yordamida diagrammalarni yarating va tahrirlang; ma'lumotlar bazasi loyihalaringiz uchun tushunchalar va tavsiyalar oling"
+      tableLevelLineage:
+        name: Jadval darajasidagi ma’lumotlar kelib chiqishi
+        description: Bir jadval boshqasidan yaratilganini belgilang va ma’lumotlar quvurini ko‘ring
+      columnLevelLineage:
+        name: Ustun darajasidagi ma’lumotlar kelib chiqishi
+        description: Bog‘liqliklarni maydonma-maydon xaritalang va ustunni manbasigacha kuzating
       publishedDocs:
         name: Nashr etilgan hujjat
         description: Jamoangiz o'qiy oladigan ko'rib chiqiladigan havola sifatida sxemani dbdocs.io'da nashr eting
