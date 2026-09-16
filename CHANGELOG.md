@@ -1,8 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Unreleased
+## v1.3.9 (Sep 16, 2026)
 ### Misc
+* Bump vite from 5.0.0 to 8.3.0
 * Bump js-yaml from 4.1.1 to 4.3.2
 
 ## v1.3.8 (Sep 15, 2026)
