@@ -36,7 +36,6 @@ workspace:
     enforceSSO: Enforce SSO # Enforce SSO toggle
     enforceSSODescription: Once enforced, workspace members can only access this workspace via SSO # Help text for enforce SSO
     identityProviderUrl: Identity Provider Single Sign-On URL # IdP URL field label
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
     identityProviderUrlHelp: The URL of your Identity Provider endpoint. # Help text for IdP URL
     certificate: Certificate # Certificate field label
     certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----" # Placeholder for certificate
@@ -170,6 +169,7 @@ workspace:
     pro: Pro Plan # Pro plan label
     free: Free Plan # Free plan label
     team: Team Plan # Team plan label
+    org: Org Plan # Org plan label
     disabled: "(disabled)" # Disabled plan label
 
   # ========================================

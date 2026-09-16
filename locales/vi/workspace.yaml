@@ -27,7 +27,6 @@ workspace:
     enforceSSO: Bắt buộc SSO
     enforceSSODescription: Khi bật, thành viên chỉ có thể truy cập không gian làm việc qua SSO
     identityProviderUrl: URL nhà cung cấp định danh SSO
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
     identityProviderUrlHelp: URL của endpoint nhà cung cấp định danh của bạn.
     certificate: Chứng chỉ
     certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----"
@@ -146,6 +145,7 @@ workspace:
     pro: Gói Pro
     free: Gói Miễn phí
     team: Gói Team
+    org: Gói Org
     disabled: "(đã tắt)"
 
   legacyPlanNotice:

@@ -36,7 +36,6 @@ workspace:
     enforceSSO: SSO Zorunlu Kıl # Enforce SSO toggle
     enforceSSODescription: Etkinleştirildiğinde, çalışma alanı üyeleri buraya yalnızca SSO aracılığıyla erişebilir # Help text for enforce SSO
     identityProviderUrl: Kimlik Sağlayıcısı (IdP) SSO URL Seçeneği # IdP URL field label
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
     identityProviderUrlHelp: Kimlik Sağlayıcınızın (Identity Provider) URL uç noktası. # Help text for IdP URL
     certificate: Sertifika # Certificate field label
     certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----" # Placeholder for certificate
@@ -170,6 +169,7 @@ workspace:
     pro: Pro Plan # Pro plan label
     free: Ücretsiz Plan # Free plan label
     team: Team Plan # Team plan label
+    org: Org Plan # Org plan label
     disabled: "(devre dışı)" # Disabled plan label
 
   # ========================================

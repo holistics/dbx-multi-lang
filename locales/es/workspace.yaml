@@ -36,7 +36,6 @@ workspace:
     enforceSSO: Aplicar SSO # Enforce SSO toggle
     enforceSSODescription: Una vez aplicado, los miembros del espacio de trabajo solo podrán acceder mediante SSO # Help text for enforce SSO
     identityProviderUrl: URL de inicio de sesión único del proveedor de identidad # IdP URL field label
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
     identityProviderUrlHelp: La URL del endpoint de tu proveedor de identidad. # Help text for IdP URL
     certificate: Certificado # Certificate field label
     certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<Certificado X.509>\n-----END CERTIFICATE-----" # Placeholder for certificate
@@ -170,6 +169,7 @@ workspace:
     pro: Plan Pro # Pro plan label
     free: Plan gratuito # Free plan label
     team: Plan de equipo # Team plan label
+    org: Plan de organización # Org plan label
     disabled: "(deshabilitado)" # Disabled plan label
 
   # ========================================

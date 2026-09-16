@@ -125,6 +125,7 @@ pricing:
       publicSharing: Herkese açık paylaşım
       embedDiagrams: Diyagramları ve dokümanları sitenize gömün
       dataSample: Veri örneği
+      dataLineage: Veri soy ağacı
       cliIntegration: dbdiagram CLI ile CI/CD pipeline entegrasyonu
     pro:
       unlimitedViews: Sınırsız diyagram görünümü
@@ -201,6 +202,7 @@ pricing:
   comparison:
     categories:
       dataModeling: Veri Modelleme
+      dataLineage: Veri soy ağacı
       documentation: Dokümantasyon
       workingWithLargeDatabases: Büyük veritabanlarıyla çalışma
       sharingCollaboration: Paylaşım ve İşbirliği
@@ -232,6 +234,12 @@ pricing:
       aiAssistant:
         name: AI Asistan (Beta)
         description: "Komutlarla diyagram oluşturun ve düzenleyin; veritabanı tasarımlarınız için içgörüler ve öneriler alın"
+      tableLevelLineage:
+        name: Tablo düzeyinde veri soy ağacı
+        description: Bir tablonun başka bir tablodan oluşturulduğunu belirtin ve veri hattını görselleştirin
+      columnLevelLineage:
+        name: Sütun düzeyinde veri soy ağacı
+        description: Bağımlılıkları alan alan eşleyin ve bir sütunu kaynağına kadar takip edin
       publishedDocs:
         name: Yayınlanmış Dokümantasyon
         description: Ekibinizin okuyabileceği taranabilir bir referans olarak bir şemayı dbdocs.io'da yayınlayın

@@ -36,7 +36,6 @@ workspace:
     enforceSSO: Forçar SSO
     enforceSSODescription: Uma vez ativado, os membros do Espaço de Trabalho só poderão acessar este Espaço de Trabalho via SSO
     identityProviderUrl: URL de Login Único (SSO) do Provedor de Identidade
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2"
     identityProviderUrlHelp: A URL do endpoint do seu Provedor de Identidade.
     certificate: Certificado
     certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificado>\n-----END CERTIFICATE-----"
@@ -170,6 +169,7 @@ workspace:
     pro: Plano Pro
     free: Plano Gratuito
     team: Plano Equipe
+    org: Plano Organização
     disabled: (desabilitado)
 
   # ========================================

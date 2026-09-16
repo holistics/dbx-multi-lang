@@ -52,7 +52,7 @@ common:
   sso:
     signInWithSSO: Đăng nhập với SSO
     signInWithEmail: Đăng nhập với Email
-    useWorkEmail: Sử dụng email công việc để truy cập dbdiagram qua SSO
+    useWorkEmail: Sử dụng email công việc để truy cập {product} qua SSO
     signInUnsuccessful: Đăng nhập không thành công. Vui lòng kiểm tra email công việc hoặc sử dụng phương thức khác.
     selectWorkspace: Chọn không gian làm việc để đăng nhập
   ai:

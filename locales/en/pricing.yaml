@@ -128,6 +128,7 @@ pricing:
       publicSharing: Public sharing
       embedDiagrams: Embed diagrams and docs in your site
       dataSample: Data sample
+      dataLineage: Data lineage
       cliIntegration: CI/CD pipeline integration with dbdiagram CLI
     pro:
       unlimitedViews: Unlimited diagram views
@@ -204,6 +205,7 @@ pricing:
   comparison:
     categories:
       dataModeling: Data Modeling
+      dataLineage: Data Lineage
       documentation: Documentation
       workingWithLargeDatabases: Working with large databases
       sharingCollaboration: Sharing & Collaboration
@@ -235,6 +237,12 @@ pricing:
       aiAssistant:
         name: AI Assistant (Beta)
         description: "Generate & edit diagrams using prompts; get insights and recommendations for your database designs"
+      tableLevelLineage:
+        name: Table-level Lineage
+        description: Declare that one table is built from another and see the pipeline drawn
+      columnLevelLineage:
+        name: Column-level Lineage
+        description: Map dependencies field by field and trace a column back to its source
       publishedDocs:
         name: Published Documentation
         description: Publish a schema to dbdocs.io as a browsable reference your team can read

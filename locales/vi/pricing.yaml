@@ -125,6 +125,7 @@ pricing:
       publicSharing: Chia sẻ công khai
       embedDiagrams: Nhúng sơ đồ và tài liệu vào trang web của bạn
       dataSample: Dữ liệu mẫu
+      dataLineage: Dòng dữ liệu
       cliIntegration: Tích hợp CI/CD pipeline với dbdiagram CLI
     pro:
       unlimitedViews: Không giới hạn chế độ xem sơ đồ
@@ -201,6 +202,7 @@ pricing:
   comparison:
     categories:
       dataModeling: Mô hình dữ liệu
+      dataLineage: Dòng dữ liệu
       documentation: Tài liệu
       workingWithLargeDatabases: Làm việc với cơ sở dữ liệu lớn
       sharingCollaboration: Chia sẻ & Cộng tác
@@ -232,6 +234,12 @@ pricing:
       aiAssistant:
         name: AI Assistant (Beta)
         description: "Tạo & chỉnh sửa sơ đồ bằng câu lệnh; nhận thông tin chi tiết và đề xuất cho thiết kế cơ sở dữ liệu"
+      tableLevelLineage:
+        name: Dòng dữ liệu cấp bảng
+        description: Khai báo rằng một bảng được xây dựng từ một bảng khác và xem pipeline được hiển thị
+      columnLevelLineage:
+        name: Dòng dữ liệu cấp cột
+        description: Ánh xạ các phụ thuộc theo từng trường và truy vết một cột về nguồn của nó
       publishedDocs:
         name: Tài liệu đã xuất bản
         description: Xuất bản một schema lên dbdocs.io như một tài liệu tham khảo để nhóm của bạn có thể xem

@@ -36,7 +36,6 @@ workspace:
     enforceSSO: "Forza SSO" # Enforce SSO toggle
     enforceSSODescription: "Una volta forzato, i membri dello spazio di lavoro potranno accedere a questo spazio di lavoro solo tramite SSO" # Help text for enforce SSO
     identityProviderUrl: "URL Single Sign-On dell'Identity Provider" # IdP URL field label
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
     identityProviderUrlHelp: "L'URL dell'endpoint del tuo Identity Provider." # Help text for IdP URL
     certificate: "Certificato" # Certificate field label
     certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<Certificato X.509>\n-----END CERTIFICATE-----" # Placeholder for certificate
@@ -170,6 +169,7 @@ workspace:
     pro: "Piano Pro" # Pro plan label
     free: "Piano Free" # Free plan label
     team: "Piano Team" # Team plan label
+    org: "Piano Org" # Org plan label
     disabled: "(disabilitato)" # Disabled plan label
 
   # ========================================

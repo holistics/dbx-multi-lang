@@ -36,7 +36,6 @@ workspace:
     enforceSSO: SSO ni majburiy qilish # Enforce SSO toggle
     enforceSSODescription: Majburiy qilingandan so'ng, ish maydoni a'zolari ushbu ish maydoniga faqat SSO orqali kirishlari mumkin # Help text for enforce SSO
     identityProviderUrl: Identity Provider Single Sign-On URL (IdP SSO URL) # IdP URL field label
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
     identityProviderUrlHelp: Identity Provider oxirgi nuqtasining URL manzili. # Help text for IdP URL
     certificate: Sertifikat # Certificate field label
     certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----" # Placeholder for certificate
@@ -170,6 +169,7 @@ workspace:
     pro: Pro Reja # Pro plan label
     free: Bepul Reja # Free plan label
     team: Jamoa Rejasi # Team plan label
+    org: Tashkilot Rejasi # Org plan label
     disabled: "(o'chirilgan)" # Disabled plan label
 
   # ========================================
