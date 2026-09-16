@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+### Misc
+* Bump js-yaml from 4.1.1 to 4.3.2
+
 ## v1.3.8 (Sep 15, 2026)
 ### Misc
 * Add copywriting for data lineage
