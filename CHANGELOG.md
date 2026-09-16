@@ -1,7 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## v1.3.9 (Sep 16, 2026)
+## v1.4.0 (Sep 16, 2026)
+### Added
+* Support for the Ukrainian (uk-UA) locale
 ### Misc
 * Bump vite from 5.0.0 to 8.3.0
 * Bump js-yaml from 4.1.1 to 4.3.2

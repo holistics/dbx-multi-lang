@@ -1,0 +1,107 @@
+# Portal translations - Embedded documentation portal
+# UI Areas: OAuth callback pages, SSO portal, Error pages
+
+portal:
+  # ========================================
+  # OAuth Welcome - OAuth success messages
+  # ========================================
+  oauth:
+    welcomeTo: Ласкаво просимо до {clientName} # Welcome message (OAuth success)
+    signingInTo: Вхід до {clientName} # Loading message (OAuth)
+    successfullySignedInTo: Ви успішно ввійшли до {clientName} # Success message (OAuth)
+    welcome: Ласкаво просимо # Simple welcome label
+    signingIn: Вхід # Loading label
+    successfullySignedIn: Успішний вхід # Success label
+    powering: Працює на основі # Portal attribution prefix
+    signOutFrom: Вийти з {clientName} # Sign out link
+    signOutFromAccount: Вийти з облікового запису # Sign out button
+
+  # ========================================
+  # GitHub Callback - OAuth callback messages
+  # ========================================
+  githubCallback:
+    authenticating: Автентифікація триває, зачекайте, будь ласка... # Loading message (GitHub OAuth)
+    authSuccess: Автентифікацію успішно пройдено! Ви можете безпечно закрити це вікно # Success message (GitHub OAuth)
+    title: Автентифікація GitHub # Page title (browser tab)
+    errors:
+      noOpener:
+        title: Недійсний доступ # Error title (no opener)
+        description: Цю сторінку неможливо відкрити безпосередньо. Поверніться до застосунку та почніть процес входу. # Error description (no opener)
+      openerClosed:
+        title: Батьківське вікно закрито # Error title (window closed)
+        description: Початкове вікно застосунку було закрито під час автентифікації. Поверніться до застосунку та почніть процес входу знову. # Error description (window closed)
+      accessDenied:
+        title: Доступ заборонено # Error title (user denied)
+        description: Ви скасували автентифікацію GitHub. # Error description (access denied)
+      appSuspended:
+        title: Застосунок призупинено # Error title (app suspended)
+        description: Застосунок GitHub призупинено. # Error description (app suspended)
+      redirectUriMismatch:
+        title: Невідповідність URI перенаправлення # Error title (redirect URI)
+        description: URI перенаправлення не відповідає конфігурації. # Error description (redirect URI)
+      unknown:
+        title: Непередбачена помилка # Error title (generic)
+        description: Щось пішло не так. Зверніться до нашої служби підтримки за адресою dbdiagram{'@'}holistics.io # Error description (generic)
+
+  # ========================================
+  # Logout - Logout messages
+  # ========================================
+  logout:
+    validating: Перевірка запиту на вихід... # Loading message (logout)
+    loggingOut: Виконується вихід із системи... # Loading message (logging out)
+    authorizationError: Помилка авторизації # Error title
+    logoutFailed: Не вдалося вийти # Error title
+
+  # ========================================
+  # SSO - Single Sign-On messages
+  # ========================================
+  sso:
+    continue: Продовжити # Button (SSO continue)
+    multipleWorkspaces: Для {email} знайдено кілька робочих просторів SSO # Multiple workspaces warning
+    failedInitiate: Не вдалося розпочати вхід через SSO. Спробуйте ще раз. # Error message (SSO)
+    somethingWrong: Щось пішло не так, спробуйте ще раз! # Generic error
+    loginCancelled: Вхід скасовано, спробуйте ще раз! # Cancelled message
+
+  # ========================================
+  # Account Selection - Email selection
+  # ========================================
+  accountSelection:
+    continue: Продовжити # Button (account selection)
+    or: або # Divider text
+    differentAccount: Використати інший обліковий запис # Link (different account)
+
+  # ========================================
+  # Email Input - Email form
+  # ========================================
+  emailInput:
+    placeholder: Електронна пошта # Input placeholder
+    send: Надіслати # Submit button
+
+  # ========================================
+  # Error Pages - Generic error messages
+  # ========================================
+  errors:
+    internalServerError: На сервері сталася непередбачена помилка. Спробуйте ще раз пізніше. # 500 error
+    serviceUnavailable: Сервіс тимчасово недоступний. Спробуйте ще раз за кілька хвилин. # 503 error
+    networkError: Не вдалося підключитися до сервера. Перевірте підключення до інтернету та спробуйте ще раз. # Network error
+    authenticationError: Помилка автентифікації. Зверніться до нашої служби підтримки за адресою dbdiagram{'@'}holistics.io # Auth error
+    windowNotOpened: Це вікно відкрито неправильно. Поверніться до {clientName} та спробуйте ще раз. # Window error
+    windowClosed: Початкове вікно застосунку було закрито. Поверніться до {clientName} та спробуйте ще раз. # Window closed error
+    communicationFailed: Не вдалося обмінятися даними з {clientName}. Спробуйте ще раз # Communication error
+    transferFailed: Не вдалося передати дані автентифікації. Спробуйте ще раз. # Transfer error
+    canCloseWindow: Тепер ви можете закрити це вікно. # Success message (close window)
+
+  # ========================================
+  # OAuth Errors - OAuth-specific errors
+  # ========================================
+  oauthErrors:
+    invalidAuthRequest: Недійсний запит автентифікації # OAuth error
+    unsupportedResponseType: Непідтримуваний параметр response_type # OAuth error
+    invalidClient: Недійсний клієнт # OAuth error
+    missingClientIdOrRedirectUri: Відсутній client_id або redirect_uri # OAuth error
+    missingCodeChallenge: 'Відсутній обов’язковий параметр: code_challenge' # OAuth error
+    missingState: 'Відсутній обов’язковий параметр: state' # OAuth error
+    invalidAccess: Недійсний доступ # OAuth error
+    pageMustBeOpened: Цю сторінку потрібно відкрити із застосунку. # OAuth error
+    unsupportedParameter: Непідтримуваний параметр {message} # OAuth error
+    unexpectedError: Непередбачена помилка # OAuth error

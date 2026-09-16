@@ -1,0 +1,115 @@
+# Header translations - Top header toolbar
+# UI Areas: Header toolbar, Account dropdown, Status indicators, Publish modal
+
+header:
+  # ========================================
+  # Header toolbar buttons - Left side of top header
+  # ========================================
+  buttons:
+    save: Зберегти # Blue button in header toolbar (saves current diagram - Ctrl/Cmd+S)
+    share: Поділитися # Share icon button in header toolbar (opens share modal)
+    editAsNew: Редагувати як нову # Option in header dropdown (duplicates diagram to personal workspace)
+    signOut: Вийти # Last item in account dropdown (top-right user menu)
+    publishToDbdocs: Опублікувати в DBDocs # Button in header export dropdown
+    publish: Опублікувати # Blue button in share modal (publishes current diagram to DBDocs)
+
+  # ========================================
+  # Draft badge - Small indicator next to diagram name
+  # ========================================
+  draftBadge:
+    label: Чернетка # Small badge showing "Draft" label (appears next to unsaved diagram name)
+    discardAll: Видалити всі чернетки # Button in draft dropdown (discards all draft versions)
+
+  # ========================================
+  # Placeholders - Input field placeholders
+  # ========================================
+  placeholders:
+    untitledDiagram: Діаграма без назви # Placeholder text in header diagram name input (when name is empty)
+
+  # ========================================
+  # Status - Diagram sync status indicators (header toolbar)
+  # ========================================
+  status:
+    readOnly: Лише читання # Status label when viewing read-only diagram (gray text)
+    synced: Синхронізовано # Status label showing all changes synced (green dot + text)
+    unsynced: Не синхронізовано # Status label when changes pending sync (yellow dot + text)
+    saved: Збережено # Status label when diagram saved (blue text)
+    unsaved: Не збережено # Status label with unsaved indicator (orange text)
+
+  # ========================================
+  # Sync status - Detailed sync messages (header toolbar tooltip/status)
+  # ========================================
+  syncStatus:
+    reconnecting: Повторне підключення... # Toast message when reconnecting to server
+    saving: Збереження діаграми... # Toast message during manual save
+    autoSaving: Автоматичне збереження діаграми... # Toast during auto-save
+    disconnected: Ви від'єднані. Ваші зміни зберігаються локально та синхронізуються із сервером, щойно ви знову будете онлайн. # Toast when offline
+    readOnly: Ця діаграма доступна лише для читання # Toast explaining read-only state
+    unsaved: Цю діаграму не збережено # Toast when diagram has unsaved changes
+    unsavedWithLogin: Цю діаграму не збережено. Для збереження діаграм потрібно ввійти в систему # Toast prompting login for saving
+
+  # ========================================
+  # Tooltips - Tooltip text for header elements
+  # ========================================
+  tooltips:
+    clickToEdit: Натисніть, щоб редагувати # Tooltip on diagram name (when hovering)
+    openInDbdocs: Відкрити в dbdocs # Tooltip on DBDocs link icon
+    noPublishedContent: У цьому проєкті ще немає опублікованого вмісту # Tooltip on empty DBDocs link
+    editAsNewDisabledWorkspace: '<p class="text-center">Опція <b>Редагувати як нову</b> недоступна, оскільки ваш робочий простір вимкнено через скасування підписки. </p>' # Tooltip explaining disabled Edit as New
+    editAsNewNormal: Редагувати як нову # Tooltip on Edit as New button (normal state)
+
+  # ========================================
+  # Draft status - Draft version status messages
+  # ========================================
+  draftStatus:
+    upToDate: Чернетка актуальна # Status text when draft matches published version
+    hasUnsavedChanges: У чернетці є незбережені зміни # Status text when draft has changes
+
+  # ========================================
+  # Project status - Published project status messages
+  # ========================================
+  projectStatus:
+    upToDate: Проєкт актуальний # Status when published project matches draft
+    hasUnsavedChanges: У проєкті є незбережені зміни # Status when draft not published
+    synchronized: Вміст вашої діаграми синхронізовано із сервером # Status confirming sync
+    allChangesSaved: Усі зміни збережено # Toast when everything saved
+
+  # ========================================
+  # Publish validation - Messages in share/publish modal
+  # ========================================
+  publishValidation:
+    parseError: У вашій діаграмі є помилка. Спочатку виправте всі синтаксичні помилки, перш ніж публікувати. # Error in share modal when DBML has errors
+    saveFirst: Спочатку збережіть діаграму # Error when trying to publish unsaved diagram
+    ownerPublishFirst: Попросіть власника діаграми спочатку опублікувати документ бази даних # Error for collaborators without publish rights
+    needLogin: Увійдіть, щоб опублікувати зміни # Error when publishing without authentication
+    hasErrors: У вашій діаграмі є помилки # Error summary in publish modal
+    noChanges: Немає змін для публікації # Info when diagram unchanged
+
+  # ========================================
+  # Modals - Modal dialog texts (discard, overwrite)
+  # ========================================
+  modals:
+    discardDraftsTitle: Видалити всі чернетки # Modal title (discard drafts confirmation)
+    discardDraftsContent: Ви впевнені, що хочете видалити всі версії чернеток і завантажити найновіший вміст проєкту? Цю дію неможливо скасувати. # Modal warning text
+    discardButton: Видалити # Primary button in discard modal (red)
+    cancelButton: Скасувати # Secondary button (gray)
+
+  # ========================================
+  # Notifications - Toast notification messages
+  # ========================================
+  notifications:
+    publishSuccess: Проєкт успішно опубліковано, а версії чернеток очищено # Success toast after publish
+    publishFailed: Не вдалося опублікувати проєкт # Error toast when publish fails
+    discardSuccess: Усі чернетки видалено, найновішу версію завантажено # Success toast after discard
+    discardFailed: Не вдалося видалити чернетки # Error toast when discard fails
+    showPublishFailed: Не вдалося показати підтвердження публікації # Error toast when publish modal fails to open
+    renameFailed: Не вдалося перейменувати діаграму. Спробуйте ще раз # Error toast on rename failure
+
+  # ========================================
+  # Account dropdown - Top-right user menu
+  # ========================================
+  accountDropdown:
+    loggedInWithSSO: Ви ввійшли через SSO # Label showing SSO login status (top-right menu)
+    darkMode: Темний режим # Toggle switch label for dark mode theme
+    managePersonalPlan: Керувати тарифним планом # Link to billing/subscription management
+    manageAccount: Керувати обліковим записом # Link to account settings page

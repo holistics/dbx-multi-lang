@@ -1,0 +1,178 @@
+# DBRenderer translations - Diagram canvas and panels
+# UI Areas: Left sidebar, Canvas toolbar, Bottom-right zoom, Context menus
+
+dbrenderer:
+  # ========================================
+  # Table Search Panel - Left sidebar (toggle with Ctrl/Cmd+K)
+  # ========================================
+  tableSearchPanel:
+    title: Таблиці # Panel title (left sidebar header)
+    diagramViews: Подання діаграми # Dropdown header for views (table search panel)
+    diagramViewsTooltip: Подання діаграми - це набори таблиць, які представляють певні предметні області або робочі процеси у вашій базі даних. # Tooltip for views dropdown
+    viewActions: Дії з поданням # Dropdown header for view actions
+    cannotRenameOrDelete: Неможливо перейменувати або видалити {name} # Error toast (default view protection)
+    rename: Перейменувати # Menu option (view context menu)
+    delete: Видалити # Menu option (view context menu)
+    reset: Скинути # Button (resets view to default)
+    save: Зберегти # Button (saves current view)
+    saveAsNew: Зберегти як нове # Button (creates new view)
+    searchPlaceholder: Шукати таблицю або схему # Search input placeholder (no groups)
+    searchPlaceholderWithGroup: Шукати таблицю, схему або групу # Search input placeholder (with groups)
+    groupBy: Групувати за # Dropdown to group tables
+    showAll: Показати все # Button (shows all tables)
+    hideAll: Приховати все # Button (hides all tables)
+    schema: Схема # Group by option (group by schema)
+    tableGroup: Група таблиць # Group by option (group by custom table group)
+    noGroup: (без групи) # Group label (tables without group)
+    defaultView: Подання за замовчуванням # Label (default view indicator)
+    unknownView: Невідоме подання # Label (unknown view name)
+    newView: Нове подання # Button (creates new diagram view)
+    copyOfName: Копія {name} # Default name for copied view
+
+  # ========================================
+  # Controller Bar - Top canvas toolbar
+  # ========================================
+  controllerBar:
+    highlightRelationships: Підсвітити зв'язки # Toggle button (highlights related tables)
+    unhighlightRelationships: Прибрати підсвічування зв'язків # Toggle button (removes highlight)
+    enableGrid: Увімкнути сітку # Toggle button (shows grid)
+    disableGrid: Вимкнути сітку # Toggle button (hides grid)
+    addStickyNote: Додати стікер # Button (creates new sticky note on canvas)
+    searchTables: Шукати таблиці # Button (opens table search panel)
+    hideTableSearch: Приховати пошук таблиць # Button (closes table search panel)
+    enterFullscreen: Увійти в повноекранний режим # Button (goes fullscreen)
+    exitFullscreen: Вийти з повноекранного режиму # Button (exits fullscreen)
+
+  # ========================================
+  # Auto Arrange - Modal dialog (Ctrl/Cmd+Shift+A)
+  # ========================================
+  autoArrange:
+    title: Виберіть алгоритм автоматичного впорядкування # Modal title
+    leftRight: Зліва направо # Algorithm option (horizontal layout L→R)
+    snowflake: Snowflake # Algorithm option (snowflake schema layout)
+    compact: Компактний # Algorithm option (compact layout)
+    confirmMessage: Вашу діаграму буде автоматично впорядковано, і ви не зможете скасувати цю дію. Ви впевнені? # Warning in modal body
+    confirm: Підтвердити (↵) # Confirm button (with Enter shortcut)
+    cancel: Скасувати (Esc) # Cancel button (with Escape shortcut)
+
+  # ========================================
+  # Detail Level - Dropdown (eye icon)
+  # ========================================
+  detailLevel:
+    title: Рівень деталізації # Dropdown title
+    all: Усі поля # Option (shows all fields)
+    tables: Назви таблиць # Option (only shows table names, hides all fields)
+    keys: Лише ключі # Option (only shows primary and foreign keys, hides other fields)
+  relationshipMode:
+    title: Тип зв'язку # Dropup prefix + dropup header
+    relationships: ERD # Option (FK relationship lines)
+    dependencies: Залежності # Option (data-lineage dependency lines)
+    all: ERD + залежності # Option (shows both relationships and dependencies)
+
+  # ========================================
+  # View Dropdown - View selector menu
+  # ========================================
+  viewDropdown:
+    renameView: Перейменувати подання # Menu option (renames current view)
+    removeView: Видалити подання # Menu option (deletes current view)
+    newView: Нове подання # Menu option (creates new view)
+    disabled: (вимкнено) # Label for restricted views (free users)
+
+  # ========================================
+  # Diff Legend - Shown in compare mode
+  # ========================================
+  diffLegend:
+    added: Додано # Green legend item (new tables)
+    modified: Змінено # Yellow legend item (changed tables)
+    deleted: Видалено # Red legend item (removed tables)
+
+  # ========================================
+  # Viewport Controller - Bottom-right corner
+  # ========================================
+  viewportController:
+    zoomOut: Зменшити масштаб (утримуйте, щоб пришвидшити) # Zoom out button tooltip
+    zoomIn: Збільшити масштаб (утримуйте, щоб пришвидшити) # Zoom in button tooltip
+    editZoomLevel: Натисніть, щоб змінити рівень масштабу # Zoom input tooltip
+    zoomToFit: Масштабувати, щоб умістити всі елементи в поданні # Fit to screen button tooltip
+    enablePanMode: Натисніть, щоб увімкнути режим панорамування # Pan mode toggle tooltip
+    disablePanMode: Натисніть, щоб вимкнути режим панорамування # Pan mode toggle tooltip
+    panModeHint: Або утримуйте Space/середню кнопку миші й перетягуйте для панорамування # Hint text for pan mode
+
+  # ========================================
+  # Common - Shared buttons in renderer
+  # ========================================
+  common:
+
+  # ========================================
+  # Empty State Hint - Canvas empty states
+  # ========================================
+  emptyStateHint:
+    filtered:
+      title: Подання вашої діаграми порожнє # Empty state title (all tables hidden)
+      description: Усі таблиці в цьому поданні наразі приховано. Скористайтеся панеллю пошуку таблиць, щоб показати таблиці в поданні діаграми. # Empty state description
+      openTableSearchPanel: Відкрити панель пошуку таблиць # Button (opens sidebar)
+    noDbml:
+      title: Схему бази даних не знайдено # Empty state title (no tables in DBML)
+      description: Ваш код DBML ще не містить таблиць. Додайте таблиці та зв'язки, щоб побачити діаграму. # Empty state description
+      startAddingTables: Почати додавати таблиці # Button (opens add table modal)
+
+  # ========================================
+  # Loading States - Loading indicator messages
+  # ========================================
+  loading:
+    initializingTables: Ініціалізація таблиць... # Loading message (table loading)
+    initializingTablesProgress: Ініціалізація таблиць... ({current}/{total}) # Loading with progress
+    initializingTableGroups: Ініціалізація груп таблиць... # Loading message (group loading)
+    initializingTableGroupsProgress: Ініціалізація груп таблиць... ({current}/{total}) # Loading with progress
+    initializingReferences: Ініціалізація зв'язків... # Loading message (relationship loading)
+    initializingReferencesProgress: Ініціалізація зв'язків... ({current}/{total}) # Loading with progress
+    arrangingDiagram: Впорядкування вашої діаграми... # Loading message (layout calculation)
+    finalizingDiagram: Завершення підготовки діаграми... # Loading message (render completion)
+
+  # ========================================
+  # Filter Config Tags - Filter chips in canvas
+  # ========================================
+  filterConfigTags:
+    all: Усе # Filter chip (shows all items)
+    allTables: Усі таблиці # Filter chip (all tables)
+    allNotes: Усі нотатки # Filter chip (all notes)
+    nothing: Нічого # Filter chip (nothing shown)
+    moreItems: '{count} додаткових елементів:' # Overflow indicator (more filters)
+
+  # ========================================
+  # Sticky Notes - Sticky note section
+  # ========================================
+  stickyNotesSection:
+    title: Стікери # Section title (left sidebar)
+  stickyNotes:
+    untitledNote: Нотатка без назви # Default name for new notes
+    removeNoteConfirmation: Видалити вашу нотатку? # Delete confirmation dialog title
+    'yes': 'Так' # Confirm button (delete note)
+    'no': 'Ні' # Cancel button
+
+  # ========================================
+  # Table List - Table list in sidebar
+  # ========================================
+  tableList:
+    noTablesFound: Таблиць не знайдено # Empty state (search results)
+
+  # ========================================
+  # Record Preview - Preview data sample modal
+  # ========================================
+  recordPreviewModal:
+    infoTooltip: Перегляньте приклади рядків, щоб швидко зрозуміти дані таблиці
+    editBtn:
+      title: Редагувати
+      tooltip: Редагувати зразок даних
+    downloadBtn:
+      title: Завантажити
+      tooltip: Завантажити CSV
+  # ========================================
+  # View Note Modal - Preview/edit markdown note
+  # ========================================
+  viewNoteModal:
+    infoTooltip: Підтримується стилізація за допомогою Markdown
+    editBtn:
+      title: Редагувати
+    cancelBtn: Скасувати
+    saveBtn: Зберегти
