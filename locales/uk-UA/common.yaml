@@ -179,7 +179,7 @@ common:
     collab:
       noLongerViewPermission: Ви більше не маєте дозволу на перегляд! # Toast when view access revoked
       doNotHaveViewPermission: Ви не маєте дозволу на перегляд! # Toast when no access at all
-      fullSession: Неможливо підключитися: сеанс заповнений! # Toast when collaboration session full
+      fullSession: "Неможливо підключитися: сеанс заповнений!" # Toast when collaboration session full
       diagramDeleted: Цю діаграму видалено! # Toast when diagram deleted by owner
       overwrittenDiagram: Хтось перезаписав вміст діаграми, перезавантажте сторінку, щоб побачити останні зміни! # Toast when remote changes
       diagramMigratedDiagramViewAsCode: "Подання ваших діаграм перенесено в новий формат \"Diagram View as Code\". Перезавантажте сторінку, щоб продовжити. Якщо виникнуть проблеми, зверніться за адресою dbdiagram{'@'}holistics.io." # Toast when DiagramView-as-code migration completes

@@ -20,7 +20,7 @@ modals:
       checkbox: Більше не показувати це повідомлення # Checkbox to disable future confirmations
     deleteDiagram:
       message: Ви впевнені, що хочете видалити цю діаграму? Цю дію неможливо скасувати. # Delete diagram warning
-      warning: Зверніть увагу: цю дію неможливо скасувати! # Additional warning
+      warning: "Зверніть увагу: цю дію неможливо скасувати!" # Additional warning
       embedLinkActive: У вас є активне вбудоване посилання. # Warning about embed links
       lastViewed: Останній перегляд # Label for last viewed timestamp
     removeWorkspace:

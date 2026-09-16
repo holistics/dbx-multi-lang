@@ -36,7 +36,6 @@ workspace:
     enforceSSO: Примусово використовувати SSO # Enforce SSO toggle
     enforceSSODescription: Після ввімкнення учасники робочого простору зможуть отримувати доступ до нього лише через SSO # Help text for enforce SSO
     identityProviderUrl: URL єдиного входу постачальника ідентифікації # IdP URL field label
-    identityProviderUrlPlaceholder: "https://login.microsoftonline.com/{tenant}/saml2" # Placeholder for IdP URL
     identityProviderUrlHelp: URL кінцевої точки вашого постачальника ідентифікації. # Help text for IdP URL
     certificate: Сертифікат # Certificate field label
     certificatePlaceholder: "-----BEGIN CERTIFICATE-----\n<X.509 certificate>\n-----END CERTIFICATE-----" # Placeholder for certificate
@@ -119,7 +118,7 @@ workspace:
       removeTitle: Вилучити з робочого простору? # Remove dialog title
       removeMessage: "Ви збираєтеся вилучити <b>{email}</b> зі свого робочого простору, підтвердьте цю дію!" # Remove dialog message
     notifications:
-      removeSuccess: {email} успішно вилучено з робочого простору!
+      removeSuccess: "{email} успішно вилучено з робочого простору!"
       removeError: Не вдалося вилучити {email} з робочого простору!
 
   # ========================================
@@ -170,6 +169,7 @@ workspace:
     pro: Тарифний план Pro # Pro plan label
     free: Безкоштовний тарифний план # Free plan label
     team: Тарифний план Team # Team plan label
+    org: Тарифний план Org # Org plan label
     disabled: "(вимкнено)" # Disabled plan label
 
   # ========================================

@@ -128,6 +128,7 @@ pricing:
       publicSharing: Публічний доступ
       embedDiagrams: Вбудовування діаграм і документації на ваш сайт
       dataSample: Зразок даних
+      dataLineage: Походження даних
       cliIntegration: Інтеграція з конвеєром CI/CD через dbdiagram CLI
     pro:
       unlimitedViews: Необмежена кількість подань діаграм
@@ -204,6 +205,7 @@ pricing:
   comparison:
     categories:
       dataModeling: Моделювання даних
+      dataLineage: Походження даних
       documentation: Документація
       workingWithLargeDatabases: Робота з великими базами даних
       sharingCollaboration: Спільний доступ і співпраця
@@ -235,6 +237,12 @@ pricing:
       aiAssistant:
         name: AI Assistant (бета-версія)
         description: "Створюйте та редагуйте діаграми за допомогою запитів, отримуйте аналітику й рекомендації для проєктів баз даних"
+      tableLevelLineage:
+        name: Походження на рівні таблиць
+        description: Укажіть, що одна таблиця побудована на основі іншої, і перегляньте намальований конвеєр залежностей
+      columnLevelLineage:
+        name: Походження на рівні стовпців
+        description: Відстежуйте залежності поле за полем і простежуйте стовпець до його джерела
       publishedDocs:
         name: Опублікована документація
         description: Публікуйте схему в dbdocs.io як довідник, який може переглядати ваша команда
