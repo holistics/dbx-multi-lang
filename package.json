@@ -20,7 +20,8 @@
     "./dist/tr.json": "./dist/tr.json",
     "./dist/fr.json": "./dist/fr.json",
     "./dist/ko.json": "./dist/ko.json",
-    "./dist/it.json": "./dist/it.json"
+    "./dist/it.json": "./dist/it.json",
+    "./dist/uk-UA.json": "./dist/uk-UA.json"
   },
   "files": [
     "dist",
