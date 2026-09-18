@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.4.1 (Sep 18, 2026)
+### Misc
+* Add copywriting for metadata filter panel section in diagram sidebar
+
 ## v1.4.0 (Sep 16, 2026)
 ### Added
 * Support for the Ukrainian (uk-UA) locale

@@ -22,6 +22,22 @@ dbrenderer:
     unknownView: Chế độ xem không xác định
     newView: Chế độ xem mới
     copyOfName: Bản sao của {name}
+    customPropertyFilters: Lọc theo thuộc tính
+    customPropertyFilterTooltip: Lọc theo thuộc tính tùy chỉnh
+    customPropertyFilterKeyPlaceholder: Chọn khóa
+    customPropertyFilterContains: chứa
+    customPropertyFilterMatches: bằng
+    customPropertyFilterExists: tồn tại
+    customPropertyFilterHelp: Lọc bảng và ghi chú theo thuộc tính tùy chỉnh
+    customPropertyFilterEmpty: Không tìm thấy thuộc tính tùy chỉnh trong sơ đồ này
+    customPropertyFilterValuePlaceholder: Giá trị
+    customPropertyFilterAdd: Thêm bộ lọc
+    customPropertyFilterClearAll: Xóa tất cả
+    customPropertyFilterNoKeys: Sơ đồ này không có khóa thuộc tính tùy chỉnh nào
+    customPropertyFilterSearchKeys: Tìm khóa
+    customPropertyFilterNoMatchingKeys: Không có khóa nào khớp.
+    customPropertyFilterSubmitAdd: Thêm
+    customPropertyFilterSubmitUpdate: Cập nhật
   controllerBar:
     highlightRelationships: Làm nổi bật các mối quan hệ
     unhighlightRelationships: Bỏ làm nổi bật các mối quan hệ
