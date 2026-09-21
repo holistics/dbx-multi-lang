@@ -10,6 +10,7 @@ workspace:
   newSampleDiagram: 新しいサンプルダイアグラム
   basic: ベーシック ERD
   advanced: アドバンスド ERD
+  lineage: データリネージ
   myDiagrams: マイダイアグラム
   sharedWithMe: 共有されたダイアグラム
   guestWorkspace: ゲストワークスペース

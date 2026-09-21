@@ -13,6 +13,7 @@ workspace:
   newSampleDiagram: Yeni Örnek Diyagram # Dropdown with sample diagram templates (sidebar)
   basic: Temel ERD # Label for basic tier/sample (templates dropdown)
   advanced: Gelişmiş ERD # Label for advanced tier/sample (templates dropdown)
+  lineage: Veri Soy Ağacı # Label for data lineage sample (templates dropdown)
   myDiagrams: Diyagramlarım # Sidebar section for personal diagrams
   sharedWithMe: Benimle Paylaşılanlar # Sidebar section for shared diagrams
   guestWorkspace: Misafir Çalışma Alanı

@@ -13,6 +13,7 @@ workspace:
   newSampleDiagram: New Sample Diagram # Dropdown with sample diagram templates (sidebar)
   basic: Basic ERD # Label for basic tier/sample (templates dropdown)
   advanced: Advanced ERD # Label for advanced tier/sample (templates dropdown)
+  lineage: Data Lineage # Label for data lineage sample (templates dropdown)
   myDiagrams: My Diagrams # Sidebar section for personal diagrams
   sharedWithMe: Shared with Me # Sidebar section for shared diagrams
   guestWorkspace: Guest Workspace # Label for a guest workspace entry (workspace switcher/dropdown)

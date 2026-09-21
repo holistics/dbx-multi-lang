@@ -13,6 +13,7 @@ workspace:
   newSampleDiagram: Nouveau diagramme exemple
   basic: Basique ERD
   advanced: Avancé ERD
+  lineage: Lignage de données
   myDiagrams: Mes diagrammes
   sharedWithMe: Partagés avec moi
   guestWorkspace: Espace de travail invité
