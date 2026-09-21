@@ -11,8 +11,8 @@ workspace:
   dashboard: Dashboard
   newDiagram: Novo Diagrama
   newSampleDiagram: Novo Diagrama de Exemplo
-  basic: Básico
-  advanced: Avançado
+  basic: Básico ERD
+  advanced: Avançado ERD
   myDiagrams: Meus Diagramas
   sharedWithMe: Compartilhados Comigo
   guestWorkspace: Espaço de Trabalho de Convidado

@@ -8,8 +8,8 @@ workspace:
   dashboard: ダッシュボード
   newDiagram: 新しいダイアグラム
   newSampleDiagram: 新しいサンプルダイアグラム
-  basic: ベーシック
-  advanced: アドバンスド
+  basic: ベーシック ERD
+  advanced: アドバンスド ERD
   myDiagrams: マイダイアグラム
   sharedWithMe: 共有されたダイアグラム
   guestWorkspace: ゲストワークスペース
