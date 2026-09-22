@@ -236,6 +236,7 @@ common:
     resync: Risincronizza
     addons: Componenti aggiuntivi
     updateAddons: Aggiorna componenti aggiuntivi
+    disabledTooltip: "Contatta l'assistenza all'indirizzo {email} per aggiornare la tua fatturazione"
 
     billingPeriodUnit:
       annual: annuale

@@ -237,6 +237,7 @@ common:
     resync: 재동기화
     addons: 애드온
     updateAddons: 애드온 업데이트
+    disabledTooltip: "결제 정보를 업데이트하려면 {email}로 지원팀에 문의해 주세요"
 
     billingPeriodUnit:
       annual: 연간

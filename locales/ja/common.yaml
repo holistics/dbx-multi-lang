@@ -166,6 +166,7 @@ common:
     resync: 再同期
     addons: アドオン
     updateAddons: アドオンを更新
+    disabledTooltip: "請求情報を更新するには、{email} までサポートにご連絡ください"
 
     billingPeriodUnit:
       annual: 年間

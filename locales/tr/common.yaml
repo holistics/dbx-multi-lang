@@ -232,6 +232,7 @@ common:
     resync: Yeniden senkronize et
     addons: Eklentiler
     updateAddons: Eklentileri güncelle
+    disabledTooltip: "Faturalandırmanızı güncellemek için lütfen {email} adresinden destek ekibiyle iletişime geçin"
 
     billingPeriodUnit:
       annual: yıllık

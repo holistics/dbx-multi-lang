@@ -166,6 +166,7 @@ common:
     resync: 重新同步
     addons: 附加组件
     updateAddons: 更新附加组件
+    disabledTooltip: "请联系支持团队 {email} 以更新您的账单信息"
 
     billingPeriodUnit:
       annual: 年度

@@ -236,6 +236,7 @@ common:
     resync: Qayta sinxronlash
     addons: Qo'shimchalar
     updateAddons: Qo'shimchalarni yangilash
+    disabledTooltip: "To'lov ma'lumotlaringizni yangilash uchun {email} orqali qo'llab-quvvatlash xizmatiga murojaat qiling"
 
     billingPeriodUnit:
       annual: yillik

@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+### Misc
+* Add copywriting for legacy workspace link modal and manage plan's disabled tooltip
+
 ## v1.4.1 (Sep 18, 2026)
 ### Misc
 * Add copywriting for metadata filter panel section in diagram sidebar
