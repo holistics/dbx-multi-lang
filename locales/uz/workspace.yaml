@@ -68,6 +68,25 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    chooseTitle: Birlashtirish uchun ish maydonini tanlang
+    chooseDescription: "Yangilashda bu ish maydoni mavjud ish maydoniga qo'shiladi, shunda hujjatlar va diagrammalar birga turadi."
+    projectCount: "{count} ta loyiha"
+    diagramCount: "{count} ta diagramma"
+    memberCount: "{count} ta a'zo"
+    confirmTitle: "\"{name}\" ga birlashtirilmoqda"
+    peopleTitle: "Hamma bitta ish maydonida bo'ladi"
+    fromDbdiagram: Hozircha faqat diagrammalar
+    fromDbdocs: Hozircha faqat hujjatlar
+    fromBoth: Hozir ikkalasi ham
+    gainsDocs: Hujjatlarga kirish huquqini oladi
+    gainsDiagrams: Diagrammalarga kirish huquqini oladi
+    remove: "O'chirish"
+    removeHint: "Kimnidir o'chirish uning hozirgi kirish huquqini olib qo'yadi."
+    renameNotice: "\"{from}\" nomi \"{to}\" ga o'zgartiriladi."
+    cancel: Bekor qilish
+    confirm: Ish maydonlarini birlashtirish
+
   createModal:
     title: Ish maydoni yaratish # Modal title (form state)
     settingUpTitle: Ish maydoningiz sozlanmoqda # Modal title (provisioning state)

@@ -68,6 +68,25 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    chooseTitle: Escolha um espaço de trabalho para unir
+    chooseDescription: Ao fazer upgrade, este será unido a um espaço de trabalho existente, para que documentos e diagramas fiquem juntos.
+    projectCount: "{count} projetos"
+    diagramCount: "{count} diagramas"
+    memberCount: "{count} membros"
+    confirmTitle: "Unindo a \"{name}\""
+    peopleTitle: Todos ficarão em um único espaço de trabalho
+    fromDbdiagram: Hoje, apenas diagramas
+    fromDbdocs: Hoje, apenas documentos
+    fromBoth: Hoje, ambos
+    gainsDocs: Ganha acesso aos documentos
+    gainsDiagrams: Ganha acesso aos diagramas
+    remove: Remover
+    removeHint: Remover alguém retira o acesso que essa pessoa já tem hoje.
+    renameNotice: "\"{from}\" será renomeado para \"{to}\"."
+    cancel: Cancelar
+    confirm: Unir espaços de trabalho
+
   createModal:
     title: Criar um espaço de trabalho
     settingUpTitle: Configurando seu espaço de trabalho

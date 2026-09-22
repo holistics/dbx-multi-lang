@@ -64,6 +64,25 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    chooseTitle: 統合するワークスペースを選択
+    chooseDescription: アップグレード時に既存のワークスペースと統合し、ドキュメントとダイアグラムをまとめます。
+    projectCount: "{count} 件のプロジェクト"
+    diagramCount: "{count} 件のダイアグラム"
+    memberCount: "{count} 人のメンバー"
+    confirmTitle: "「{name}」に統合します"
+    peopleTitle: 全員が 1 つのワークスペースに入ります
+    fromDbdiagram: 現在はダイアグラムのみ
+    fromDbdocs: 現在はドキュメントのみ
+    fromBoth: 現在は両方
+    gainsDocs: ドキュメントへのアクセス権を取得します
+    gainsDiagrams: ダイアグラムへのアクセス権を取得します
+    remove: 削除
+    removeHint: 削除すると、その人が現在持っているアクセス権がなくなります。
+    renameNotice: "「{from}」は「{to}」に名前が変更されます。"
+    cancel: キャンセル
+    confirm: ワークスペースを統合
+
   createModal:
     title: ワークスペースを作成
     settingUpTitle: ワークスペースをセットアップ中
