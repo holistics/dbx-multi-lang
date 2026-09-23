@@ -89,6 +89,7 @@ header:
   # Modals - Modal dialog texts (discard, overwrite)
   # ========================================
   modals:
+    publishConfirmation: Ushbu qoralamani dbdocs loyihangizga chop etmoqchimisiz? # Confirmation message when publishing draft to dbdocs
     discardDraftsTitle: Barcha qoralamalarni bekor qilish # Modal title (discard drafts confirmation)
     discardDraftsContent: Barcha qoralama versiyalarni bekor qilib, loyihaning oxirgi tarkibini yuklab olmoqchimisiz? Bu amalni ortga qaytarib bo'lmaydi. # Modal warning text
     discardButton: O'chirish # Primary button in discard modal (red)

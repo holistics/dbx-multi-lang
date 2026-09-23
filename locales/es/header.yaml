@@ -89,6 +89,7 @@ header:
   # Modals - Modal dialog texts (discard, overwrite)
   # ========================================
   modals:
+    publishConfirmation: ¿Deseas publicar este borrador en tu proyecto de dbdocs? # Confirmation message when publishing draft to dbdocs
     discardDraftsTitle: Descartar todos los borradores # Modal title (discard drafts confirmation)
     discardDraftsContent: ¿Estás seguro de que deseas descartar todas tus versiones de borrador y obtener el contenido más reciente del proyecto? Esta acción no se puede deshacer. # Modal warning text
     discardButton: Descartar # Primary button in discard modal (red)

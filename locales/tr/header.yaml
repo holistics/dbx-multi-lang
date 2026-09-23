@@ -89,6 +89,7 @@ header:
   # Modals - Modal dialog texts (discard, overwrite)
   # ========================================
   modals:
+    publishConfirmation: Bu taslağı dbdocs projenize yayınlamak istiyor musunuz? # Confirmation message when publishing draft to dbdocs
     discardDraftsTitle: Tüm Taslakları İptal Et # Modal title (discard drafts confirmation)
     discardDraftsContent: Tüm taslak sürümlerini iptal edip projenin en son içeriğini getirmek istediğinizden emin misiniz? Bu işlem geri alınamaz. # Modal warning text
     discardButton: İptal Et # Primary button in discard modal (red)
