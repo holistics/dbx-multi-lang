@@ -11,8 +11,9 @@ workspace:
   dashboard: Panel principal # Sidebar link to workspace dashboard (left sidebar)
   newDiagram: Nuevo diagrama # Button to create new diagram (sidebar)
   newSampleDiagram: Nuevo diagrama de ejemplo # Dropdown with sample diagram templates (sidebar)
-  basic: Básico # Label for basic tier/sample (templates dropdown)
-  advanced: Avanzado # Label for advanced tier/sample (templates dropdown)
+  basic: Básico ERD # Label for basic tier/sample (templates dropdown)
+  advanced: Avanzado ERD # Label for advanced tier/sample (templates dropdown)
+  lineage: Linaje de datos # Label for data lineage sample (templates dropdown)
   myDiagrams: Mis diagramas # Sidebar section for personal diagrams
   sharedWithMe: Compartidos conmigo # Sidebar section for shared diagrams
   guestWorkspace: Espacio de trabajo de invitado

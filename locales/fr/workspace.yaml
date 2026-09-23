@@ -11,8 +11,9 @@ workspace:
   dashboard: Tableau de bord
   newDiagram: Nouveau diagramme
   newSampleDiagram: Nouveau diagramme exemple
-  basic: Basique
-  advanced: Avancé
+  basic: Basique ERD
+  advanced: Avancé ERD
+  lineage: Lignage de données
   myDiagrams: Mes diagrammes
   sharedWithMe: Partagés avec moi
   guestWorkspace: Espace de travail invité

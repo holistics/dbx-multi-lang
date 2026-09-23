@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 ### Misc
 * Add copywriting for legacy workspace link modal, manage plan's disabled tooltip and publish confirmation text
 
+## v1.5.0 (Sep 23, 2026)
+### Misc
+* Add copywriting for sample lineage diagram name #DBX-7162
+* Suffix copywriting for sample ERD diagram names #DBX-7162
+
 ## v1.4.1 (Sep 18, 2026)
 ### Misc
 * Add copywriting for metadata filter panel section in diagram sidebar
