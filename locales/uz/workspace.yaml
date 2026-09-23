@@ -11,8 +11,9 @@ workspace:
   dashboard: Boshqaruv paneli # Sidebar link to workspace dashboard (left sidebar)
   newDiagram: Yangi diagramma # Button to create new diagram (sidebar)
   newSampleDiagram: Yangi namunaviy diagramma # Dropdown with sample diagram templates (sidebar)
-  basic: Asosiy # Label for basic tier/sample (templates dropdown)
-  advanced: Ilg'or (Advanced) # Label for advanced tier/sample (templates dropdown)
+  basic: Asosiy ERD # Label for basic tier/sample (templates dropdown)
+  advanced: Ilg'or (Advanced) ERD # Label for advanced tier/sample (templates dropdown)
+  lineage: Ma'lumotlar kelib chiqishi # Label for data lineage sample (templates dropdown)
   myDiagrams: Mening diagrammalarim # Sidebar section for personal diagrams
   sharedWithMe: Men bilan ulashilgan # Sidebar section for shared diagrams
   guestWorkspace: Mehmon ish maydoni

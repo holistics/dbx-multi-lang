@@ -11,8 +11,9 @@ workspace:
   dashboard: 대시보드       # Sidebar link to workspace dashboard (left sidebar)
   newDiagram: 새 다이어그램     # Button to create new diagram (sidebar)
   newSampleDiagram: 새 샘플 다이어그램       # Dropdown with sample diagram templates (sidebar)
-  basic: 기본  # Label for basic tier/sample (templates dropdown)
-  advanced: 고급      # Label for advanced tier/sample (templates dropdown)
+  basic: 기본 ERD  # Label for basic tier/sample (templates dropdown)
+  advanced: 고급 ERD      # Label for advanced tier/sample (templates dropdown)
+  lineage: 데이터 계보 # Label for data lineage sample (templates dropdown)
   myDiagrams: 내 다이어그램     # Sidebar section for personal diagrams
   sharedWithMe: 나와 공유됨         # Sidebar section for shared diagrams
   guestWorkspace: 게스트 워크스페이스

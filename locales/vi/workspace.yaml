@@ -5,8 +5,9 @@ workspace:
   dashboard: Bảng điều khiển
   newDiagram: Sơ đồ mới
   newSampleDiagram: Sơ đồ mẫu mới
-  basic: Cơ bản
-  advanced: Nâng cao
+  basic: ERD Cơ Bản
+  advanced: ERD Nâng Cao
+  lineage: Dòng dữ liệu
   myDiagrams: Sơ đồ của tôi
   sharedWithMe: Đã chia sẻ với tôi
   guestWorkspace: Không gian làm việc khách
