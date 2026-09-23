@@ -67,6 +67,28 @@ workspace:
     ssoConfigSaveFailed: Failed to save SSO configuration. Please try again. # Error toast
 
   # ========================================
+  # Link Workspace Modal
+  # ========================================
+  linkModal:
+    chooseTitle: Choose a workspace to join # Modal title while picking one
+    chooseDescription: Upgrading joins this one to an existing workspace, so your docs and diagrams live together. # Explanation under the title
+    projectCount: "{count} projects" # Candidate row, project count
+    diagramCount: "{count} diagrams" # Candidate row, diagram count
+    memberCount: "{count} members" # Candidate row, member count
+    confirmTitle: Joining "{name}" # Modal title while confirming
+    peopleTitle: Everyone will be in one workspace # Section heading above the people list
+    fromDbdiagram: Diagrams only today # Label on someone who is only on the dbdiagram side
+    fromDbdocs: Docs only today # Label on someone who is only on the dbdocs side
+    fromBoth: Both today # Label on someone already on both sides
+    gainsDocs: Gains access to the docs # What changes for a diagrams-only person
+    gainsDiagrams: Gains access to the diagrams # What changes for a docs-only person
+    remove: Remove # Drops someone from the joined workspace
+    removeHint: Removing someone takes away access they already have today. # Warning under the people list
+    renameNotice: '"{from}" will be renamed to "{to}".' # Told before confirming
+    cancel: Cancel # Cancel button
+    confirm: Join workspaces # Confirm button
+
+  # ========================================
   # Create Workspace Modal
   # ========================================
   createModal:

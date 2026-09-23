@@ -89,6 +89,7 @@ header:
   # Modals - Modal dialog texts (discard, overwrite)
   # ========================================
   modals:
+    publishConfirmation: Ви хочете опублікувати цю чернетку у своєму проєкті dbdocs? # Confirmation message when publishing draft to dbdocs
     discardDraftsTitle: Видалити всі чернетки # Modal title (discard drafts confirmation)
     discardDraftsContent: Ви впевнені, що хочете видалити всі версії чернеток і завантажити найновіший вміст проєкту? Цю дію неможливо скасувати. # Modal warning text
     discardButton: Видалити # Primary button in discard modal (red)

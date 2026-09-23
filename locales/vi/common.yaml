@@ -163,6 +163,7 @@ common:
     resync: Đồng bộ lại
     addons: Tiện ích bổ sung
     updateAddons: Cập nhật tiện ích bổ sung
+    disabledTooltip: "Vui lòng liên hệ hỗ trợ qua {email} để cập nhật thông tin thanh toán của bạn"
 
     billingPeriodUnit:
       annual: hàng năm

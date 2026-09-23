@@ -69,6 +69,25 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    chooseTitle: Choisissez un espace de travail à fusionner
+    chooseDescription: Lors de la mise à niveau, celui-ci sera fusionné avec un espace de travail existant, pour que les documents et les diagrammes soient au même endroit.
+    projectCount: "{count} projets"
+    diagramCount: "{count} diagrammes"
+    memberCount: "{count} membres"
+    confirmTitle: "Fusion avec \"{name}\""
+    peopleTitle: Tout le monde sera dans un seul espace de travail
+    fromDbdiagram: "Aujourd'hui, diagrammes uniquement"
+    fromDbdocs: "Aujourd'hui, documents uniquement"
+    fromBoth: "Aujourd'hui, les deux"
+    gainsDocs: "Obtient l'accès aux documents"
+    gainsDiagrams: "Obtient l'accès aux diagrammes"
+    remove: Retirer
+    removeHint: "Retirer quelqu'un lui enlève l'accès qu'il a aujourd'hui."
+    renameNotice: "\"{from}\" sera renommé en \"{to}\"."
+    cancel: Annuler
+    confirm: Fusionner les espaces de travail
+
   createModal:
     title: Créer un espace de travail
     settingUpTitle: Configuration de votre espace de travail

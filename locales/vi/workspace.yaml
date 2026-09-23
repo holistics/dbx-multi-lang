@@ -60,6 +60,25 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    chooseTitle: Chọn không gian làm việc để gộp
+    chooseDescription: Khi nâng cấp, không gian làm việc này sẽ được gộp với một không gian làm việc sẵn có, để tài liệu và sơ đồ nằm cùng một chỗ.
+    projectCount: "{count} dự án"
+    diagramCount: "{count} sơ đồ"
+    memberCount: "{count} thành viên"
+    confirmTitle: "Đang gộp với \"{name}\""
+    peopleTitle: Tất cả mọi người sẽ ở trong cùng một không gian làm việc
+    fromDbdiagram: Hiện chỉ có sơ đồ
+    fromDbdocs: Hiện chỉ có tài liệu
+    fromBoth: Hiện có cả hai
+    gainsDocs: Được thêm quyền truy cập tài liệu
+    gainsDiagrams: Được thêm quyền truy cập sơ đồ
+    remove: Xóa
+    removeHint: Xóa một người sẽ lấy đi quyền truy cập mà họ đang có.
+    renameNotice: "\"{from}\" sẽ được đổi tên thành \"{to}\"."
+    cancel: Hủy
+    confirm: Gộp không gian làm việc
+
   createModal:
     title: Tạo không gian làm việc
     settingUpTitle: Đang thiết lập không gian làm việc của bạn

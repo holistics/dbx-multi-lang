@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+### Misc
+* Add copywriting for legacy workspace link modal, manage plan's disabled tooltip and publish confirmation text
+
 ## v1.5.0 (Sep 23, 2026)
 ### Misc
 * Add copywriting for sample lineage diagram name #DBX-7162

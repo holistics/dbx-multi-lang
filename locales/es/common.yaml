@@ -236,6 +236,7 @@ common:
     resync: Resincronizar
     addons: Complementos
     updateAddons: Actualizar complementos
+    disabledTooltip: "Por favor, contacta con soporte en {email} para actualizar tu facturación"
 
     billingPeriodUnit:
       annual: anual

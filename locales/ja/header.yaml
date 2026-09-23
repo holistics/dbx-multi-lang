@@ -50,6 +50,7 @@ header:
     hasErrors: ダイアグラムにエラーがあります
     noChanges: 公開する変更はありません
   modals:
+    publishConfirmation: このドラフトを dbdocs プロジェクトに公開しますか？
     discardDraftsTitle: すべてのドラフトを破棄
     discardDraftsContent: すべてのドラフトバージョンを破棄して、プロジェクトの最新コンテンツを取得してもよろしいですか？この操作は元に戻せません。
     discardButton: 破棄

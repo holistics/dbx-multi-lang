@@ -89,6 +89,7 @@ header:
   # Modales
   # ========================================
   modals:
+    publishConfirmation: Voulez-vous publier ce brouillon dans votre projet dbdocs ?
     discardDraftsTitle: Supprimer tous les brouillons
     discardDraftsContent: Êtes-vous sûr de vouloir supprimer tous vos brouillons et charger la dernière version du projet ? Cette action est irréversible.
     discardButton: Supprimer

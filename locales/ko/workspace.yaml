@@ -70,6 +70,25 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    chooseTitle: 통합할 워크스페이스 선택
+    chooseDescription: 업그레이드하면 기존 워크스페이스와 통합되어 문서와 다이어그램이 함께 놓입니다.
+    projectCount: "프로젝트 {count}개"
+    diagramCount: "다이어그램 {count}개"
+    memberCount: "멤버 {count}명"
+    confirmTitle: "\"{name}\"에 통합"
+    peopleTitle: 모두가 하나의 워크스페이스에 속하게 됩니다
+    fromDbdiagram: 현재 다이어그램만
+    fromDbdocs: 현재 문서만
+    fromBoth: 현재 둘 다
+    gainsDocs: 문서 접근 권한을 얻습니다
+    gainsDiagrams: 다이어그램 접근 권한을 얻습니다
+    remove: 제거
+    removeHint: 제거하면 그 사람이 현재 가진 접근 권한이 사라집니다.
+    renameNotice: "\"{from}\"의 이름이 \"{to}\"(으)로 변경됩니다."
+    cancel: 취소
+    confirm: 워크스페이스 통합
+
   createModal:
     title: 워크스페이스 만들기 # Modal title (form state)
     settingUpTitle: 워크스페이스를 설정하고 있습니다 # Modal title (provisioning state)

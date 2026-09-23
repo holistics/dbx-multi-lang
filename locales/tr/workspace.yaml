@@ -69,6 +69,25 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    chooseTitle: Birleştirilecek çalışma alanını seçin
+    chooseDescription: Yükseltme sırasında bu alan mevcut bir çalışma alanıyla birleştirilir, böylece belgeler ve diyagramlar bir arada durur.
+    projectCount: "{count} proje"
+    diagramCount: "{count} diyagram"
+    memberCount: "{count} üye"
+    confirmTitle: "\"{name}\" ile birleştiriliyor"
+    peopleTitle: Herkes tek bir çalışma alanında olacak
+    fromDbdiagram: Şu anda yalnızca diyagramlar
+    fromDbdocs: Şu anda yalnızca belgeler
+    fromBoth: Şu anda her ikisi
+    gainsDocs: Belgelere erişim kazanır
+    gainsDiagrams: Diyagramlara erişim kazanır
+    remove: Kaldır
+    removeHint: Birini kaldırmak, bugün sahip olduğu erişimi geri alır.
+    renameNotice: "\"{from}\" adı \"{to}\" olarak değiştirilecek."
+    cancel: İptal
+    confirm: Çalışma alanlarını birleştir
+
   createModal:
     title: Çalışma alanı oluştur
     settingUpTitle: Çalışma alanınız kuruluyor

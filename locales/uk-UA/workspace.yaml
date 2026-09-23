@@ -69,6 +69,25 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    chooseTitle: "Виберіть робочий простір для об'єднання"
+    chooseDescription: "Під час оновлення цей простір буде об'єднано з наявним, щоб документи та діаграми були разом."
+    projectCount: "{count} проєктів"
+    diagramCount: "{count} діаграм"
+    memberCount: "{count} учасників"
+    confirmTitle: "Об'єднання з «{name}»"
+    peopleTitle: Усі будуть в одному робочому просторі
+    fromDbdiagram: Наразі лише діаграми
+    fromDbdocs: Наразі лише документи
+    fromBoth: Наразі обидва
+    gainsDocs: Отримує доступ до документів
+    gainsDiagrams: Отримує доступ до діаграм
+    remove: Видалити
+    removeHint: Видалення людини забирає доступ, який вона має сьогодні.
+    renameNotice: "«{from}» буде перейменовано на «{to}»."
+    cancel: Скасувати
+    confirm: "Об'єднати робочі простори"
+
   createModal:
     title: Створити робочий простір # Modal title (form state)
     settingUpTitle: Налаштування робочого простору # Modal title (provisioning state)

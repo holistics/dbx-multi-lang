@@ -236,6 +236,7 @@ common:
     resync: Синхронізувати повторно
     addons: Розширення
     updateAddons: Оновити розширення
+    disabledTooltip: "Щоб оновити дані оплати, зв'яжіться зі службою підтримки за адресою {email}"
 
     billingPeriodUnit:
       annual: щорічна
