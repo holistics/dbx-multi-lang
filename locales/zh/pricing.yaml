@@ -104,14 +104,12 @@ pricing:
     upTo10Diagrams: 最多 10 个图表和文档项目 # Free tier capacity
     unlimitedDiagrams: 无限图表和文档项目 # Paid tier capacity
     users: "单个用户 | {count} 个用户"
-    docProjects: "{count} 个 dbdocs 付费文档项目 | {count} 个 dbdocs 付费文档项目"
 
   # ========================================
   # Plan Card - Add-ons
   # ========================================
   addons:
     label: "附加项：" # Add-ons section label
-    extraDocProject: 额外付费文档项目 # Doc project addon name
     extraUser: 额外用户 # User addon name
     extraUserTooltip: "用户许可证适用于编辑者——即创建和修改图表及文档的人员。查看者始终免费，无需许可证。" # User addon tooltip
 
@@ -243,10 +241,6 @@ pricing:
       publishedDocs:
         name: 已发布文档
         description: 将模式发布到 dbdocs.io，作为团队可浏览查阅的参考资料
-      paidDocProjects:
-        name: 付费文档项目
-        description: 具备完整功能集的文档项目。免费项目在所有套餐中都可继续使用
-        tooltip: "任何文档项目都可以公开分享，也可以通过共享密码进行分享。付费项目还提供私有模式、仅限受邀人员访问、无限嵌入视图以及完整的模式变更日志。"
       schemaChangelog:
         name: 模式变更日志
         description: 审计已发布模式随时间的变化，并比较任意两个版本

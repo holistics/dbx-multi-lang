@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.5.1 (Sep 28, 2026)
+### Misc
+* Clean up paid doc projects copywriting
+
 ## v1.5.0 (Sep 23, 2026)
 ### Misc
 * Add copywriting for sample lineage diagram name #DBX-7162

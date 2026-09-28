@@ -104,14 +104,12 @@ pricing:
     upTo10Diagrams: ダイアグラム＆ドキュメントプロジェクト最大10個 # Free tier capacity
     unlimitedDiagrams: 無制限のダイアグラム＆ドキュメントプロジェクト # Paid tier capacity
     users: "ユーザー1人 | ユーザー{count}人"
-    docProjects: "dbdocs 有料ドキュメントプロジェクト {count}個 | dbdocs 有料ドキュメントプロジェクト {count}個"
 
   # ========================================
   # Plan Card - Add-ons
   # ========================================
   addons:
     label: "アドオン:" # Add-ons section label
-    extraDocProject: 追加の有料ドキュメントプロジェクト # Doc project addon name
     extraUser: 追加ユーザー # User addon name
     extraUserTooltip: "ユーザーライセンスは編集者——ダイアグラムやドキュメントを作成・変更する人——向けです。閲覧者は常に無料で、ライセンスは不要です。" # User addon tooltip
 
@@ -243,10 +241,6 @@ pricing:
       publishedDocs:
         name: 公開ドキュメント
         description: チームが閲覧できる参照資料として、スキーマを dbdocs.io に公開します
-      paidDocProjects:
-        name: 有料ドキュメントプロジェクト
-        description: フル機能セットを備えたドキュメントプロジェクト。無料プロジェクトはすべてのプランで引き続き利用できます
-        tooltip: "どのドキュメントプロジェクトも公開、または共有パスワードでの保護が可能です。有料プロジェクトでは、プライベートモード、招待されたユーザーのみのアクセス、無制限の埋め込みビュー、フルスキーマ変更履歴が追加されます。"
       schemaChangelog:
         name: スキーマ変更履歴
         description: 公開されたスキーマが時間の経過とともにどう変化したかを監査し、任意の2つのバージョンを比較します

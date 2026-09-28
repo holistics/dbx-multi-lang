@@ -104,14 +104,12 @@ pricing:
     upTo10Diagrams: Fino a 10 diagrammi e progetti doc # Free tier capacity
     unlimitedDiagrams: Diagrammi e progetti doc illimitati # Paid tier capacity
     users: "Utente singolo | {count} utenti"
-    docProjects: "{count} progetto doc a pagamento dbdocs | {count} progetti doc a pagamento dbdocs"
 
   # ========================================
   # Plan Card - Add-ons
   # ========================================
   addons:
     label: "Componenti aggiuntivi:" # Add-ons section label
-    extraDocProject: Progetto doc a pagamento aggiuntivo # Doc project addon name
     extraUser: Utente aggiuntivo # User addon name
     extraUserTooltip: "Una licenza utente è per gli editor — le persone che creano e modificano diagrammi e documenti. I visualizzatori sono sempre gratuiti e non necessitano di una licenza." # User addon tooltip
 
@@ -243,10 +241,6 @@ pricing:
       publishedDocs:
         name: Documentazione pubblicata
         description: Pubblica uno schema su dbdocs.io come riferimento consultabile dal tuo team
-      paidDocProjects:
-        name: Progetti doc a pagamento
-        description: Progetti doc con il set completo di funzionalità. I progetti gratuiti restano disponibili su ogni piano
-        tooltip: "Qualsiasi progetto doc può essere condiviso pubblicamente, oppure protetto da una password condivisa. Un progetto a pagamento aggiunge la modalità privata, l'accesso solo per le persone invitate, viste incorporate illimitate e il registro completo delle modifiche dello schema."
       schemaChangelog:
         name: Registro modifiche dello schema
         description: Verifica come è cambiato uno schema pubblicato nel tempo e confronta due versioni qualsiasi
