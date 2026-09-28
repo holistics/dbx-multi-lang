@@ -104,14 +104,12 @@ pricing:
     upTo10Diagrams: Jusqu'à 10 diagrammes et projets de documentation # Capacité du niveau Free
     unlimitedDiagrams: Diagrammes et projets de documentation illimités # Capacité des niveaux payants
     users: "Utilisateur unique | {count} utilisateurs"
-    docProjects: "{count} projet de documentation dbdocs payant | {count} projets de documentation dbdocs payants"
 
   # ========================================
   # Carte de plan - Modules complémentaires
   # ========================================
   addons:
     label: "Modules complémentaires :" # Libellé de la section
-    extraDocProject: Projet de documentation payant supplémentaire # Nom du module complémentaire
     extraUser: Utilisateur supplémentaire # Nom du module complémentaire
     extraUserTooltip: "Une licence utilisateur est destinée aux éditeurs — les personnes qui créent et modifient les diagrammes et documents. Les lecteurs sont toujours gratuits et n'ont jamais besoin de licence." # Infobulle du module complémentaire
 
@@ -243,10 +241,6 @@ pricing:
       publishedDocs:
         name: Documentation publiée
         description: Publiez un schéma sur dbdocs.io comme référence consultable par votre équipe
-      paidDocProjects:
-        name: Projets de documentation payants
-        description: Projets de documentation avec l'ensemble complet des fonctionnalités. Les projets gratuits restent disponibles sur tous les plans
-        tooltip: "Tout projet de documentation peut être partagé publiquement, ou protégé par un mot de passe partagé. Un projet payant ajoute le mode privé, l'accès réservé aux personnes invitées, des vues intégrées illimitées et l'historique complet des modifications du schéma."
       schemaChangelog:
         name: Historique des modifications du schéma
         description: Auditez l'évolution d'un schéma publié dans le temps et comparez deux versions quelconques
