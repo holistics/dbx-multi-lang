@@ -319,7 +319,7 @@ pricing:
     - question: ¿Almacenan mi información de tarjeta de crédito?
       answerHtml: "No, no manejamos tu información de tarjeta de crédito directamente. Usamos Stripe para procesar tu pago."
     - question: ¿Qué sucede si cancelo mi suscripción?
-      answerHtml: Al cancelar tu suscripción, tu espacio de trabajo volverá al plan Free. Los proyectos privados se convertirán en proyectos públicos y los miembros del espacio de trabajo no podrán acceder a él.
+      answerHtml: Al cancelar tu suscripción, tu espacio de trabajo volverá al plan Free y los miembros del espacio de trabajo serán deshabilitados hasta que vuelvas a actualizar tu plan.
     - question: ¿Mi plan se renovará automáticamente?
       answerHtml: La suscripción de pago se renueva automáticamente a menos que canceles tu plan antes del final del período de suscripción.
     - question: ¿Obtengo las funciones de dbdiagram y dbdocs en un solo plan?

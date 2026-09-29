@@ -319,7 +319,7 @@ pricing:
     - question: Kredit karta ma'lumotlarimni saqlaysizmi?
       answerHtml: "Yo'q, biz kredit karta ma'lumotlaringizni to'g'ridan-to'g'ri ko'rib chiqmaymiz. To'lovingizni qayta ishlash uchun Stripe dan foydalanamiz."
     - question: Obunamni bekor qilsam nima bo'ladi?
-      answerHtml: Obunangizni bekor qilganingizda, ish maydoningiz Free rejaga qaytariladi. Xususiy loyihalar ommaviy loyihalarga aylantiriladi va ish maydoni a'zolari unga kira olmay qoladi.
+      answerHtml: Obunangizni bekor qilganingizda, ish maydoningiz Free rejaga qaytadi va siz qayta yangilamaguningizcha ish maydoni a'zolari faolsizlantiriladi.
     - question: Rejam avtomatik yangilanadimi?
       answerHtml: Pullik obuna, agar siz obuna muddati tugashidan oldin rejangizni bekor qilmasangiz, avtomatik ravishda yangilanadi.
     - question: Bitta rejada dbdiagram va dbdocs xususiyatlarini olamanmi?
