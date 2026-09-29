@@ -319,7 +319,7 @@ pricing:
     - question: Bạn có lưu trữ thông tin thẻ tín dụng của tôi không?
       answerHtml: "Không, chúng tôi không xử lý trực tiếp thông tin thẻ tín dụng của bạn. Chúng tôi sử dụng Stripe để xử lý thanh toán."
     - question: Điều gì xảy ra nếu tôi hủy gói đăng ký?
-      answerHtml: Khi bạn hủy gói đăng ký, không gian làm việc của bạn sẽ được chuyển về gói Free. Các dự án riêng tư sẽ được chuyển thành dự án công khai và các thành viên trong không gian làm việc sẽ không thể truy cập được nữa.
+      answerHtml: Khi bạn hủy gói đăng ký, không gian làm việc của bạn sẽ trở về gói Free và các thành viên trong không gian làm việc sẽ bị vô hiệu hóa cho đến khi bạn nâng cấp lại.
     - question: Gói của tôi có được tự động gia hạn không?
       answerHtml: Gói đăng ký trả phí được tự động gia hạn trừ khi bạn hủy gói trước khi kết thúc kỳ đăng ký.
     - question: Tôi có được cả tính năng dbdiagram và dbdocs trong một gói không?

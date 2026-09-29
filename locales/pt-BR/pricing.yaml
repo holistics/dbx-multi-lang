@@ -319,7 +319,7 @@ pricing:
     - question: Vocês armazenam as informações do meu cartão de crédito?
       answerHtml: "Não, nós não manipulamos as informações do seu cartão de crédito diretamente. Usamos o Stripe para processar seu pagamento."
     - question: O que acontece se eu cancelar minha assinatura?
-      answerHtml: Ao cancelar sua assinatura, seu workspace será revertido para o plano Free. Os projetos privados serão convertidos em projetos públicos e os membros do workspace não poderão mais acessá-lo.
+      answerHtml: Ao cancelar sua assinatura, seu workspace será revertido para o plano Free e os membros do workspace serão desativados até que você atualize novamente.
     - question: Meu plano será renovado automaticamente?
       answerHtml: A assinatura paga é renovada automaticamente, a menos que você cancele seu plano antes do final do período da assinatura.
     - question: Eu recebo os recursos do dbdiagram e do dbdocs em um único plano?
