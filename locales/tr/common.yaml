@@ -109,6 +109,7 @@ common:
   states:
     empty: Veri Yok # Empty table/list message (centered)
     loading: Yükleniyor...
+    noResults: Sonuc bulunamadi
   notes:
     header: "Lütfen dikkat:" # Header label for note/warning sections in modals
 

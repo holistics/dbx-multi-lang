@@ -70,6 +70,7 @@ common:
   states:
     empty: 无数据
     loading: 加载中...
+    noResults: 没有匹配结果
   notes:
     header: "请注意："
   editor:
