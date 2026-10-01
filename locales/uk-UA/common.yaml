@@ -109,6 +109,7 @@ common:
   states:
     empty: Немає даних # Empty table/list message (centered)
     loading: Завантаження... # Generic loading spinner message
+    noResults: Немає результатів
 
   # ========================================
   # Notes - Warning/note section header

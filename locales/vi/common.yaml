@@ -67,6 +67,7 @@ common:
   states:
     empty: Không có dữ liệu
     loading: Đang tải...
+    noResults: Không tìm thấy kết quả
   notes:
     header: "Lưu ý:"
   editor:

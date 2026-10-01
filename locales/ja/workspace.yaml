@@ -131,6 +131,8 @@ workspace:
   sidebar:
     apiTokens: API トークン
     billing: 請求
+    showSidebar: サイドバーを表示
+    hideSidebar: サイドバーを非表示
   emptyDiagrams:
     title: ダイアグラムがまだありません
     created:

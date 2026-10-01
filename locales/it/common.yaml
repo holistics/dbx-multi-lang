@@ -109,6 +109,7 @@ common:
   states:
     empty: "Nessun dato" # Empty table/list message (centered)
     loading: "Caricamento in corso..." # Generic loading spinner message
+    noResults: Nessun risultato
 
   # ========================================
   # Notes - Warning/note section header
