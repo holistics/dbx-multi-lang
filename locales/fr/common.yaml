@@ -109,7 +109,7 @@ common:
   states:
     empty: Aucune donnée
     loading: Chargement...
-    noResults: Aucun resultat
+    noResults: Aucun résultat
 
   # ========================================
   # Notes

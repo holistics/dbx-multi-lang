@@ -128,8 +128,8 @@ workspace:
   sidebar:
     apiTokens: API Token
     billing: Thanh toán
-    showSidebar: Hien thanh ben
-    hideSidebar: An thanh ben
+    showSidebar: Hiện thanh bên
+    hideSidebar: Ẩn thanh bên
 
   emptyDiagrams:
     title: Chưa có sơ đồ nào
