@@ -319,7 +319,7 @@ pricing:
     - question: Conservez-vous mes informations de carte bancaire ?
       answerHtml: "Non, nous ne traitons pas directement vos informations de carte bancaire. Nous utilisons Stripe pour traiter vos paiements."
     - question: Que se passe-t-il si j'annule mon abonnement ?
-      answerHtml: Lorsque vous annulez votre abonnement, votre espace de travail sera rétrogradé au plan Free. Les projets privés seront convertis en projets publics et les membres de l'espace de travail ne pourront plus y accéder.
+      answerHtml: Lorsque vous annulez votre abonnement, votre espace de travail repassera au plan Free et les membres de l'espace de travail seront désactivés jusqu'à ce que vous passiez de nouveau à un plan payant.
     - question: Mon plan sera-t-il automatiquement renouvelé ?
       answerHtml: L'abonnement payant est automatiquement renouvelé sauf si vous annulez votre plan avant la fin de la période d'abonnement.
     - question: Est-ce que j'obtiens les fonctionnalités dbdiagram et dbdocs avec un seul plan ?

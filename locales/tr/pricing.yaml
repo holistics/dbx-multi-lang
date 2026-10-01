@@ -319,7 +319,7 @@ pricing:
     - question: Kredi kartı bilgilerimi saklıyor musunuz?
       answerHtml: "Hayır, kredi kartı bilgilerinizi doğrudan işlemiyoruz. Ödemenizi işlemek için Stripe kullanıyoruz."
     - question: Aboneliğimi iptal edersem ne olur?
-      answerHtml: Aboneliğinizi iptal ettiğinizde, çalışma alanınız Free plana döndürülür. Özel projeler herkese açık projelere dönüştürülür ve çalışma alanı üyeleri çalışma alanına erişemez hale gelir.
+      answerHtml: Aboneliğinizi iptal ettiğinizde, çalışma alanınız Free plana döner ve tekrar yükseltme yapana kadar çalışma alanı üyeleri devre dışı bırakılır.
     - question: Planım otomatik olarak yenilenir mi?
       answerHtml: Ücretli abonelik, abonelik döneminin bitiminden önce planınızı iptal etmediğiniz sürece otomatik olarak yenilenir.
     - question: Tek bir planda hem dbdiagram hem dbdocs özelliklerini alıyor muyum?

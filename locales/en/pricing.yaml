@@ -322,7 +322,7 @@ pricing:
     - question: Do you store my credit card information?
       answerHtml: "No, we do not handle your credit card information directly. We're using Stripe to process your payment."
     - question: What happens if I cancel my subscription?
-      answerHtml: When cancel your subscription, your workspace will be reverted to the Free plan. Private projects will be converted to public projects and workspace members will be unable to access the workspace.
+      answerHtml: When you cancel your subscription, your workspace will revert to the Free plan and workspace members will be disabled until you upgrade again.
     - question: Will my plan be automatically renewed?
       answerHtml: Paid subscription is automatically renewed unless you cancel your plan before the end of the subscription period.
     - question: Do I get both dbdiagram and dbdocs features on one plan?
