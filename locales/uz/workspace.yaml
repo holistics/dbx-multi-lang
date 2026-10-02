@@ -71,21 +71,25 @@ workspace:
   # ========================================
   linkModal:
     chooseTitle: Birlashtirish uchun ish maydonini tanlang
-    chooseDescription: "Yangilashda bu ish maydoni mavjud ish maydoniga qo'shiladi, shunda hujjatlar va diagrammalar birga turadi."
+    chooseDescription: "Yangilashda \"{name}\" mavjud ish maydonlaringizdan biriga qo'shiladi, shunda loyihalar va diagrammalar bir joyda bo'ladi."
+    productDbdiagram: "dbdiagram ish maydoni"
+    productDbdocs: "dbdocs ish maydoni"
     projectCount: "{count} ta loyiha"
     diagramCount: "{count} ta diagramma"
     memberCount: "{count} ta a'zo"
     confirmTitle: "\"{name}\" ga birlashtirilmoqda"
-    peopleTitle: "Hamma bitta ish maydonida bo'ladi"
-    fromDbdiagram: Hozircha faqat diagrammalar
-    fromDbdocs: Hozircha faqat hujjatlar
-    fromBoth: Hozir ikkalasi ham
-    gainsDocs: Hujjatlarga kirish huquqini oladi
-    gainsDiagrams: Diagrammalarga kirish huquqini oladi
+    loadFailedTitle: "Odamlarni yuklab bo'lmadi"
+    loadFailedDescription: "Nimadir xato ketdi. Qayta urinib ko'ring."
+    peopleTitle: "Birlashtirilgan ish maydonidagi odamlar"
+    roleAfterJoining: "Birlashgandan keyingi rol: {role}"
+    fromDbdiagram: "dbdiagram'dan keladi"
+    fromDbdocs: "dbdocs'dan keladi"
+    fromBoth: "dbdiagram va dbdocs ish maydonlarining a'zosi"
+    gainsDocs: "Loyihalarga kirish huquqini oladi"
+    gainsDiagrams: "Diagrammalarga kirish huquqini oladi"
     remove: "O'chirish"
-    removeHint: "Kimnidir o'chirish uning hozirgi kirish huquqini olib qo'yadi."
+    removeHint: "O'chirilgan odamlar birlashtirilgan ish maydoniga kirmaydi."
     renameNotice: "\"{from}\" nomi \"{to}\" ga o'zgartiriladi."
-    cancel: Bekor qilish
     confirm: Ish maydonlarini birlashtirish
 
   createModal:

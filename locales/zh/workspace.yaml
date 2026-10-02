@@ -67,21 +67,25 @@ workspace:
   # ========================================
   linkModal:
     chooseTitle: 选择要合并的工作区
-    chooseDescription: 升级时会将此工作区与现有工作区合并，让文档和图表放在一起。
+    chooseDescription: "升级时会将“{name}”与你现有的某个工作区合并，让项目和图表集中在一处。"
+    productDbdiagram: "dbdiagram 工作区"
+    productDbdocs: "dbdocs 工作区"
     projectCount: "{count} 个项目"
     diagramCount: "{count} 个图表"
     memberCount: "{count} 位成员"
     confirmTitle: "正在合并到“{name}”"
-    peopleTitle: 所有人将在同一个工作区
-    fromDbdiagram: 目前仅有图表
-    fromDbdocs: 目前仅有文档
-    fromBoth: 目前两者都有
-    gainsDocs: 将获得文档的访问权限
-    gainsDiagrams: 将获得图表的访问权限
+    loadFailedTitle: "无法加载人员"
+    loadFailedDescription: "出了点问题，请重试。"
+    peopleTitle: "合并后工作区中的人员"
+    roleAfterJoining: "合并后的角色：{role}"
+    fromDbdiagram: "来自 dbdiagram"
+    fromDbdocs: "来自 dbdocs"
+    fromBoth: "同时是 dbdiagram 和 dbdocs 工作区的成员"
+    gainsDocs: "将获得项目的访问权限"
+    gainsDiagrams: "将获得图表的访问权限"
     remove: 移除
-    removeHint: 移除某人会收回他们目前已有的访问权限。
+    removeHint: "你移除的人员将不会加入合并后的工作区。"
     renameNotice: "“{from}”将被重命名为“{to}”。"
-    cancel: 取消
     confirm: 合并工作区
 
   createModal:

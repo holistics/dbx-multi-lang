@@ -4,6 +4,8 @@
 common:
   buttons:
     cancel: キャンセル
+    back: 戻る
+    retry: "再試行"
     confirm: 確認
     delete: 削除
     history: 履歴

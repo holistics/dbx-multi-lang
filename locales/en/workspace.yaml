@@ -71,21 +71,25 @@ workspace:
   # ========================================
   linkModal:
     chooseTitle: Choose a workspace to join # Modal title while picking one
-    chooseDescription: Upgrading joins this one to an existing workspace, so your docs and diagrams live together. # Explanation under the title
+    chooseDescription: "Upgrading joins \"{name}\" with one of your existing workspaces, so your projects and diagrams are in one place." # Explanation under the title
+    productDbdiagram: dbdiagram workspace # Candidate row, tells the candidate lives in dbdiagram
+    productDbdocs: dbdocs workspace # Candidate row, tells the candidate lives in dbdocs
     projectCount: "{count} projects" # Candidate row, project count
     diagramCount: "{count} diagrams" # Candidate row, diagram count
     memberCount: "{count} members" # Candidate row, member count
     confirmTitle: Joining "{name}" # Modal title while confirming
-    peopleTitle: Everyone will be in one workspace # Section heading above the people list
-    fromDbdiagram: Diagrams only today # Label on someone who is only on the dbdiagram side
-    fromDbdocs: Docs only today # Label on someone who is only on the dbdocs side
-    fromBoth: Both today # Label on someone already on both sides
-    gainsDocs: Gains access to the docs # What changes for a diagrams-only person
-    gainsDiagrams: Gains access to the diagrams # What changes for a docs-only person
+    loadFailedTitle: Couldn't load people # Inline error title when the people list fails to load
+    loadFailedDescription: Something went wrong. Please try again. # Inline error description
+    peopleTitle: People in the joined workspace # Section heading above the people list
+    roleAfterJoining: "Role after joining: {role}" # Under each person, the role they will have once joined
+    fromDbdiagram: Comes from dbdiagram # Label on someone who is only on the dbdiagram side
+    fromDbdocs: Comes from dbdocs # Label on someone who is only on the dbdocs side
+    fromBoth: Member of both dbdiagram and dbdocs workspaces # Label on someone already on both sides
+    gainsDocs: "Will get access to projects" # What changes for a diagrams-only person
+    gainsDiagrams: Will get access to diagrams # What changes for a docs-only person
     remove: Remove # Drops someone from the joined workspace
-    removeHint: Removing someone takes away access they already have today. # Warning under the people list
+    removeHint: "People you remove won't be part of the joined workspace." # Warning under the people list
     renameNotice: '"{from}" will be renamed to "{to}".' # Told before confirming
-    cancel: Cancel # Cancel button
     confirm: Join workspaces # Confirm button
 
   # ========================================

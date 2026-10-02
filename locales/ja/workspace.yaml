@@ -67,21 +67,25 @@ workspace:
   # ========================================
   linkModal:
     chooseTitle: 統合するワークスペースを選択
-    chooseDescription: アップグレード時に既存のワークスペースと統合し、ドキュメントとダイアグラムをまとめます。
+    chooseDescription: "アップグレード時に「{name}」を既存のワークスペースの 1 つと統合し、プロジェクトとダイアグラムを 1 か所にまとめます。"
+    productDbdiagram: "dbdiagram ワークスペース"
+    productDbdocs: "dbdocs ワークスペース"
     projectCount: "{count} 件のプロジェクト"
     diagramCount: "{count} 件のダイアグラム"
     memberCount: "{count} 人のメンバー"
     confirmTitle: "「{name}」に統合します"
-    peopleTitle: 全員が 1 つのワークスペースに入ります
-    fromDbdiagram: 現在はダイアグラムのみ
-    fromDbdocs: 現在はドキュメントのみ
-    fromBoth: 現在は両方
-    gainsDocs: ドキュメントへのアクセス権を取得します
-    gainsDiagrams: ダイアグラムへのアクセス権を取得します
+    loadFailedTitle: "ユーザーを読み込めませんでした"
+    loadFailedDescription: "問題が発生しました。もう一度お試しください。"
+    peopleTitle: "統合後のワークスペースのユーザー"
+    roleAfterJoining: "統合後のロール: {role}"
+    fromDbdiagram: "dbdiagram から参加"
+    fromDbdocs: "dbdocs から参加"
+    fromBoth: "dbdiagram と dbdocs の両方のワークスペースのメンバー"
+    gainsDocs: "プロジェクトにアクセスできるようになります"
+    gainsDiagrams: "ダイアグラムにアクセスできるようになります"
     remove: 削除
-    removeHint: 削除すると、その人が現在持っているアクセス権がなくなります。
+    removeHint: "削除したユーザーは、統合後のワークスペースに含まれません。"
     renameNotice: "「{from}」は「{to}」に名前が変更されます。"
-    cancel: キャンセル
     confirm: ワークスペースを統合
 
   createModal:

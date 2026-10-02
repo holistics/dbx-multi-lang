@@ -7,6 +7,8 @@ common:
   # ========================================
   buttons:
     cancel: Cancelar
+    back: Voltar
+    retry: "Tentar novamente"
     confirm: Confirmar
     delete: Excluir
     history: Histórico

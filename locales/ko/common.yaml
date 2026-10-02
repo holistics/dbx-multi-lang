@@ -7,6 +7,8 @@ common:
   # ========================================
   buttons:
     cancel: 취소     # Gray button in modal dialogs (bottom-right)
+    back: 뒤로
+    retry: "다시 시도"
     confirm: 확인    # Green button in confirmation dialogs
     delete: 삭제     # Red button in item context menus (with trash icon)
     history: 기록      # Clock icon in header toolbar (opens Version History modal)

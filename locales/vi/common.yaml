@@ -1,6 +1,8 @@
 common:
   buttons:
     cancel: Hủy
+    back: Quay lại
+    retry: "Thử lại"
     confirm: Xác nhận
     delete: Xóa
     history: Lịch sử

@@ -71,21 +71,25 @@ workspace:
   # ========================================
   linkModal:
     chooseTitle: Scegli uno spazio di lavoro da unire
-    chooseDescription: "Con l'aggiornamento questo verrà unito a uno spazio di lavoro esistente, così documenti e diagrammi restano insieme."
+    chooseDescription: "Con l'aggiornamento, \"{name}\" verrà unito a uno dei tuoi spazi di lavoro esistenti, così progetti e diagrammi restano in un unico posto."
+    productDbdiagram: "Spazio di lavoro dbdiagram"
+    productDbdocs: "Spazio di lavoro dbdocs"
     projectCount: "{count} progetti"
     diagramCount: "{count} diagrammi"
     memberCount: "{count} membri"
     confirmTitle: "Unione a \"{name}\""
-    peopleTitle: Tutti saranno in un unico spazio di lavoro
-    fromDbdiagram: Oggi solo diagrammi
-    fromDbdocs: Oggi solo documenti
-    fromBoth: Oggi entrambi
-    gainsDocs: "Ottiene l'accesso ai documenti"
-    gainsDiagrams: "Ottiene l'accesso ai diagrammi"
+    loadFailedTitle: "Impossibile caricare le persone"
+    loadFailedDescription: "Qualcosa è andato storto. Riprova."
+    peopleTitle: "Persone nello spazio di lavoro unito"
+    roleAfterJoining: "Ruolo dopo l'unione: {role}"
+    fromDbdiagram: "Proviene da dbdiagram"
+    fromDbdocs: "Proviene da dbdocs"
+    fromBoth: "Membro degli spazi di lavoro dbdiagram e dbdocs"
+    gainsDocs: "Avrà accesso ai progetti"
+    gainsDiagrams: "Avrà accesso ai diagrammi"
     remove: Rimuovi
-    removeHint: "Rimuovere una persona le toglie l'accesso che ha oggi."
+    removeHint: "Le persone che rimuovi non faranno parte dello spazio di lavoro unito."
     renameNotice: "\"{from}\" verrà rinominato in \"{to}\"."
-    cancel: Annulla
     confirm: Unisci spazi di lavoro
 
   createModal:

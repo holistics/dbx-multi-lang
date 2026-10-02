@@ -71,21 +71,25 @@ workspace:
   # ========================================
   linkModal:
     chooseTitle: Choisissez un espace de travail à fusionner
-    chooseDescription: Lors de la mise à niveau, celui-ci sera fusionné avec un espace de travail existant, pour que les documents et les diagrammes soient au même endroit.
+    chooseDescription: "Lors de la mise à niveau, \"{name}\" sera fusionné avec l'un de vos espaces de travail existants, pour que vos projets et vos diagrammes soient au même endroit."
+    productDbdiagram: "Espace de travail dbdiagram"
+    productDbdocs: "Espace de travail dbdocs"
     projectCount: "{count} projets"
     diagramCount: "{count} diagrammes"
     memberCount: "{count} membres"
     confirmTitle: "Fusion avec \"{name}\""
-    peopleTitle: Tout le monde sera dans un seul espace de travail
-    fromDbdiagram: "Aujourd'hui, diagrammes uniquement"
-    fromDbdocs: "Aujourd'hui, documents uniquement"
-    fromBoth: "Aujourd'hui, les deux"
-    gainsDocs: "Obtient l'accès aux documents"
-    gainsDiagrams: "Obtient l'accès aux diagrammes"
+    loadFailedTitle: "Impossible de charger les personnes"
+    loadFailedDescription: "Une erreur s'est produite. Veuillez réessayer."
+    peopleTitle: "Personnes dans l'espace de travail fusionné"
+    roleAfterJoining: "Rôle après la fusion : {role}"
+    fromDbdiagram: "Vient de dbdiagram"
+    fromDbdocs: "Vient de dbdocs"
+    fromBoth: "Membre des espaces de travail dbdiagram et dbdocs"
+    gainsDocs: "Aura accès aux projets"
+    gainsDiagrams: "Aura accès aux diagrammes"
     remove: Retirer
-    removeHint: "Retirer quelqu'un lui enlève l'accès qu'il a aujourd'hui."
+    removeHint: "Les personnes que vous retirez ne feront pas partie de l'espace de travail fusionné."
     renameNotice: "\"{from}\" sera renommé en \"{to}\"."
-    cancel: Annuler
     confirm: Fusionner les espaces de travail
 
   createModal:

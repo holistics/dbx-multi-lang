@@ -71,21 +71,25 @@ workspace:
   # ========================================
   linkModal:
     chooseTitle: Birleştirilecek çalışma alanını seçin
-    chooseDescription: Yükseltme sırasında bu alan mevcut bir çalışma alanıyla birleştirilir, böylece belgeler ve diyagramlar bir arada durur.
+    chooseDescription: "Yükseltme sırasında \"{name}\" mevcut çalışma alanlarınızdan biriyle birleştirilir, böylece projeleriniz ve diyagramlarınız tek bir yerde olur."
+    productDbdiagram: "dbdiagram çalışma alanı"
+    productDbdocs: "dbdocs çalışma alanı"
     projectCount: "{count} proje"
     diagramCount: "{count} diyagram"
     memberCount: "{count} üye"
     confirmTitle: "\"{name}\" ile birleştiriliyor"
-    peopleTitle: Herkes tek bir çalışma alanında olacak
-    fromDbdiagram: Şu anda yalnızca diyagramlar
-    fromDbdocs: Şu anda yalnızca belgeler
-    fromBoth: Şu anda her ikisi
-    gainsDocs: Belgelere erişim kazanır
-    gainsDiagrams: Diyagramlara erişim kazanır
+    loadFailedTitle: "Kişiler yüklenemedi"
+    loadFailedDescription: "Bir sorun oluştu. Lütfen tekrar deneyin."
+    peopleTitle: "Birleştirilmiş çalışma alanındaki kişiler"
+    roleAfterJoining: "Birleştirme sonrası rol: {role}"
+    fromDbdiagram: "dbdiagram'dan geliyor"
+    fromDbdocs: "dbdocs'tan geliyor"
+    fromBoth: "Hem dbdiagram hem dbdocs çalışma alanlarının üyesi"
+    gainsDocs: "Projelere erişim kazanacak"
+    gainsDiagrams: "Diyagramlara erişim kazanacak"
     remove: Kaldır
-    removeHint: Birini kaldırmak, bugün sahip olduğu erişimi geri alır.
+    removeHint: "Kaldırdığınız kişiler birleştirilmiş çalışma alanının parçası olmayacak."
     renameNotice: "\"{from}\" adı \"{to}\" olarak değiştirilecek."
-    cancel: İptal
     confirm: Çalışma alanlarını birleştir
 
   createModal:
