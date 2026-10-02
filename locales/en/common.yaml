@@ -7,6 +7,8 @@ common:
   # ========================================
   buttons:
     cancel: Cancel # Gray button in modal dialogs (bottom-right)
+    back: Back # Back button in multi-step modals, returns to the previous step
+    retry: "Retry" # Retry button after a failed load
     confirm: Confirm # Green button in confirmation dialogs
     delete: Delete # Red button in item context menus (with trash icon)
     history: History # Clock icon in header toolbar (opens Version History modal)
@@ -236,6 +238,7 @@ common:
     resync: Resync
     addons: Add-ons
     updateAddons: Update add-ons
+    disabledTooltip: "Please contact support at {email} to update your billing"
 
     billingPeriodUnit:
       annual: annual

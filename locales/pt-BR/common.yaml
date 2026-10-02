@@ -7,6 +7,8 @@ common:
   # ========================================
   buttons:
     cancel: Cancelar
+    back: Voltar
+    retry: "Tentar novamente"
     confirm: Confirmar
     delete: Excluir
     history: Histórico
@@ -232,6 +234,7 @@ common:
     resync: Ressincronizar
     addons: Complementos
     updateAddons: Atualizar complementos
+    disabledTooltip: "Entre em contato com o suporte em {email} para atualizar seu faturamento"
 
     billingPeriodUnit:
       annual: anual

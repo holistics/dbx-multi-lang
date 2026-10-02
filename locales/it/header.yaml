@@ -89,6 +89,7 @@ header:
   # Modals - Modal dialog texts (discard, overwrite)
   # ========================================
   modals:
+    publishConfirmation: "Vuoi pubblicare questa bozza nel tuo progetto dbdocs?" # Confirmation message when publishing draft to dbdocs
     discardDraftsTitle: "Scarta tutte le bozze" # Modal title (discard drafts confirmation)
     discardDraftsContent: "Sei sicuro di voler scartare tutte le tue bozze e recuperare il contenuto più recente del progetto? Questa azione non può essere annullata." # Modal warning text
     discardButton: "Scarta" # Primary button in discard modal (red)

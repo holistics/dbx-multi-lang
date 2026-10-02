@@ -69,6 +69,29 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    chooseTitle: Birleştirilecek çalışma alanını seçin
+    chooseDescription: "Yükseltme sırasında \"{name}\" mevcut çalışma alanlarınızdan biriyle birleştirilir, böylece projeleriniz ve diyagramlarınız tek bir yerde olur."
+    productDbdiagram: "dbdiagram çalışma alanı"
+    productDbdocs: "dbdocs çalışma alanı"
+    projectCount: "{count} proje"
+    diagramCount: "{count} diyagram"
+    memberCount: "{count} üye"
+    confirmTitle: "\"{name}\" ile birleştiriliyor"
+    loadFailedTitle: "Kişiler yüklenemedi"
+    loadFailedDescription: "Bir sorun oluştu. Lütfen tekrar deneyin."
+    peopleTitle: "Birleştirilmiş çalışma alanındaki kişiler"
+    roleAfterJoining: "Birleştirme sonrası rol: {role}"
+    fromDbdiagram: "dbdiagram'dan geliyor"
+    fromDbdocs: "dbdocs'tan geliyor"
+    fromBoth: "Hem dbdiagram hem dbdocs çalışma alanlarının üyesi"
+    gainsDocs: "Projelere erişim kazanacak"
+    gainsDiagrams: "Diyagramlara erişim kazanacak"
+    remove: Kaldır
+    removeHint: "Kaldırdığınız kişiler birleştirilmiş çalışma alanının parçası olmayacak."
+    renameNotice: "\"{from}\" adı \"{to}\" olarak değiştirilecek."
+    confirm: Çalışma alanlarını birleştir
+
   createModal:
     title: Çalışma alanı oluştur
     settingUpTitle: Çalışma alanınız kuruluyor

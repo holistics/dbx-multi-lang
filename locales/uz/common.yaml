@@ -7,6 +7,8 @@ common:
   # ========================================
   buttons:
     cancel: Bekor qilish # Gray button in modal dialogs (bottom-right)
+    back: Orqaga
+    retry: "Qayta urinib ko'ring"
     confirm: Tasdiqlash # Green button in confirmation dialogs
     delete: "O'chirish" # Red button in item context menus (with trash icon)
     history: Tarix # Clock icon in header toolbar (opens Version History modal)
@@ -236,6 +238,7 @@ common:
     resync: Qayta sinxronlash
     addons: Qo'shimchalar
     updateAddons: Qo'shimchalarni yangilash
+    disabledTooltip: "To'lov ma'lumotlaringizni yangilash uchun {email} orqali qo'llab-quvvatlash xizmatiga murojaat qiling"
 
     billingPeriodUnit:
       annual: yillik

@@ -4,6 +4,8 @@
 common:
   buttons:
     cancel: キャンセル
+    back: 戻る
+    retry: "再試行"
     confirm: 確認
     delete: 削除
     history: 履歴
@@ -166,6 +168,7 @@ common:
     resync: 再同期
     addons: アドオン
     updateAddons: アドオンを更新
+    disabledTooltip: "請求情報を更新するには、{email} までサポートにご連絡ください"
 
     billingPeriodUnit:
       annual: 年間
