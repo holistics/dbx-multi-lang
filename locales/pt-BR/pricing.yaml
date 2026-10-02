@@ -104,14 +104,12 @@ pricing:
     upTo10Diagrams: Até 10 diagramas e projetos de documentação # Free tier capacity
     unlimitedDiagrams: Diagramas e projetos de documentação ilimitados # Paid tier capacity
     users: "Usuário único | {count} usuários"
-    docProjects: "{count} projeto pago de dbdocs | {count} projetos pagos de dbdocs"
 
   # ========================================
   # Plan Card - Add-ons
   # ========================================
   addons:
     label: "Complementos:" # Add-ons section label
-    extraDocProject: Projeto pago de documentação extra # Doc project addon name
     extraUser: Usuário extra # User addon name
     extraUserTooltip: "Uma licença de usuário é para editores — as pessoas que criam e alteram diagramas e documentos. Visualizadores são sempre gratuitos e nunca precisam de uma licença." # User addon tooltip
 
@@ -243,10 +241,6 @@ pricing:
       publishedDocs:
         name: Documentação Publicada
         description: Publique um schema no dbdocs.io como referência navegável para sua equipe consultar
-      paidDocProjects:
-        name: Projetos de Documentação Pagos
-        description: Projetos de documentação com o conjunto completo de recursos. Projetos gratuitos continuam disponíveis em todos os planos
-        tooltip: "Qualquer projeto de documentação pode ser compartilhado publicamente, ou protegido por uma senha compartilhada. Um projeto pago adiciona modo privado, acesso apenas para pessoas convidadas, visualizações incorporadas ilimitadas e o changelog completo do schema."
       schemaChangelog:
         name: Changelog do Schema
         description: Audite como um schema publicado mudou ao longo do tempo e compare quaisquer duas versões
@@ -325,7 +319,7 @@ pricing:
     - question: Vocês armazenam as informações do meu cartão de crédito?
       answerHtml: "Não, nós não manipulamos as informações do seu cartão de crédito diretamente. Usamos o Stripe para processar seu pagamento."
     - question: O que acontece se eu cancelar minha assinatura?
-      answerHtml: Ao cancelar sua assinatura, seu workspace será revertido para o plano Free. Os projetos privados serão convertidos em projetos públicos e os membros do workspace não poderão mais acessá-lo.
+      answerHtml: Ao cancelar sua assinatura, seu workspace será revertido para o plano Free e os membros do workspace serão desativados até que você atualize novamente.
     - question: Meu plano será renovado automaticamente?
       answerHtml: A assinatura paga é renovada automaticamente, a menos que você cancele seu plano antes do final do período da assinatura.
     - question: Eu recebo os recursos do dbdiagram e do dbdocs em um único plano?

@@ -104,14 +104,12 @@ pricing:
     upTo10Diagrams: 10 tagacha diagramma va hujjat loyihalari # Free tier capacity
     unlimitedDiagrams: Cheksiz diagramma va hujjat loyihalari # Paid tier capacity
     users: "Bitta foydalanuvchi | {count} foydalanuvchi"
-    docProjects: "{count} ta dbdocs pullik hujjat loyihasi | {count} ta dbdocs pullik hujjat loyihalari"
 
   # ========================================
   # Plan Card - Add-ons
   # ========================================
   addons:
     label: "Qo'shimchalar:" # Add-ons section label
-    extraDocProject: Qo'shimcha pullik hujjat loyihasi # Doc project addon name
     extraUser: Qo'shimcha foydalanuvchi # User addon name
     extraUserTooltip: "Foydalanuvchi litsenziyasi tahrirlovchilar uchun — diagramma va hujjatlarni yaratadigan va o'zgartiradiganlar uchun. Ko'ruvchilar har doim bepul va litsenziyaga muhtoj emas." # User addon tooltip
 
@@ -243,10 +241,6 @@ pricing:
       publishedDocs:
         name: Nashr etilgan hujjat
         description: Jamoangiz o'qiy oladigan ko'rib chiqiladigan havola sifatida sxemani dbdocs.io'da nashr eting
-      paidDocProjects:
-        name: Pullik hujjat loyihalari
-        description: To'liq funksiyalar to'plamiga ega hujjat loyihalari. Bepul loyihalar har bir rejada mavjud bo'lib qoladi
-        tooltip: "Har qanday hujjat loyihasi ommaviy ravishda yoki umumiy parol bilan himoyalangan holda ulashilishi mumkin. Pullik loyiha xususiy rejim, faqat taklif qilingan odamlar uchun kirish, cheksiz o'rnatilgan ko'rinishlar va to'liq sxema o'zgarishlar jurnalini qo'shadi."
       schemaChangelog:
         name: Sxema o'zgarishlar jurnali
         description: Nashr etilgan sxema vaqt o'tishi bilan qanday o'zgarganini tekshiring va istalgan ikki versiyani solishtiring
@@ -325,7 +319,7 @@ pricing:
     - question: Kredit karta ma'lumotlarimni saqlaysizmi?
       answerHtml: "Yo'q, biz kredit karta ma'lumotlaringizni to'g'ridan-to'g'ri ko'rib chiqmaymiz. To'lovingizni qayta ishlash uchun Stripe dan foydalanamiz."
     - question: Obunamni bekor qilsam nima bo'ladi?
-      answerHtml: Obunangizni bekor qilganingizda, ish maydoningiz Free rejaga qaytariladi. Xususiy loyihalar ommaviy loyihalarga aylantiriladi va ish maydoni a'zolari unga kira olmay qoladi.
+      answerHtml: Obunangizni bekor qilganingizda, ish maydoningiz Free rejaga qaytadi va siz qayta yangilamaguningizcha ish maydoni a'zolari faolsizlantiriladi.
     - question: Rejam avtomatik yangilanadimi?
       answerHtml: Pullik obuna, agar siz obuna muddati tugashidan oldin rejangizni bekor qilmasangiz, avtomatik ravishda yangilanadi.
     - question: Bitta rejada dbdiagram va dbdocs xususiyatlarini olamanmi?

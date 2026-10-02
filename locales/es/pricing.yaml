@@ -104,14 +104,12 @@ pricing:
     upTo10Diagrams: Hasta 10 diagramas y proyectos de documentación # Free tier capacity
     unlimitedDiagrams: Diagramas y proyectos de documentación ilimitados # Paid tier capacity
     users: "Un solo usuario | {count} usuarios"
-    docProjects: "{count} proyecto de documentación de pago de dbdocs | {count} proyectos de documentación de pago de dbdocs"
 
   # ========================================
   # Plan Card - Add-ons
   # ========================================
   addons:
     label: "Complementos:" # Add-ons section label
-    extraDocProject: Proyecto de documentación de pago adicional # Doc project addon name
     extraUser: Usuario adicional # User addon name
     extraUserTooltip: "Una licencia de usuario es para editores — las personas que crean y modifican diagramas y documentos. Los lectores siempre son gratuitos y nunca necesitan una licencia." # User addon tooltip
 
@@ -243,10 +241,6 @@ pricing:
       publishedDocs:
         name: Documentación publicada
         description: Publica un esquema en dbdocs.io como referencia navegable para que tu equipo pueda consultarla
-      paidDocProjects:
-        name: Proyectos de documentación de pago
-        description: Proyectos de documentación con el conjunto completo de funciones. Los proyectos gratuitos siguen disponibles en todos los planes
-        tooltip: "Cualquier proyecto de documentación se puede compartir públicamente, o mediante una contraseña compartida. Un proyecto de pago añade modo privado, acceso solo para personas invitadas, vistas incrustadas ilimitadas y el historial completo de cambios del esquema."
       schemaChangelog:
         name: Historial de cambios del esquema
         description: Audita cómo cambió un esquema publicado a lo largo del tiempo y compara dos versiones cualesquiera
@@ -325,7 +319,7 @@ pricing:
     - question: ¿Almacenan mi información de tarjeta de crédito?
       answerHtml: "No, no manejamos tu información de tarjeta de crédito directamente. Usamos Stripe para procesar tu pago."
     - question: ¿Qué sucede si cancelo mi suscripción?
-      answerHtml: Al cancelar tu suscripción, tu espacio de trabajo volverá al plan Free. Los proyectos privados se convertirán en proyectos públicos y los miembros del espacio de trabajo no podrán acceder a él.
+      answerHtml: Al cancelar tu suscripción, tu espacio de trabajo volverá al plan Free y los miembros del espacio de trabajo serán deshabilitados hasta que vuelvas a actualizar tu plan.
     - question: ¿Mi plan se renovará automáticamente?
       answerHtml: La suscripción de pago se renueva automáticamente a menos que canceles tu plan antes del final del período de suscripción.
     - question: ¿Obtengo las funciones de dbdiagram y dbdocs en un solo plan?

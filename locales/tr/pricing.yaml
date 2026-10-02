@@ -104,14 +104,12 @@ pricing:
     upTo10Diagrams: 10 diyagram ve doküman projesine kadar # Free tier capacity
     unlimitedDiagrams: Sınırsız diyagram ve doküman projesi # Paid tier capacity
     users: "Tek kullanıcı | {count} kullanıcı"
-    docProjects: "{count} dbdocs ücretli doküman projesi | {count} dbdocs ücretli doküman projesi"
 
   # ========================================
   # Plan Card - Add-ons
   # ========================================
   addons:
     label: "Eklentiler:" # Add-ons section label
-    extraDocProject: Ek ücretli doküman projesi # Doc project addon name
     extraUser: Ek kullanıcı # User addon name
     extraUserTooltip: "Kullanıcı lisansı düzenleyiciler içindir — diyagram ve doküman oluşturan ve değiştiren kişiler. Görüntüleyiciler her zaman ücretsizdir ve lisansa ihtiyaç duymazlar." # User addon tooltip
 
@@ -243,10 +241,6 @@ pricing:
       publishedDocs:
         name: Yayınlanmış Dokümantasyon
         description: Ekibinizin okuyabileceği taranabilir bir referans olarak bir şemayı dbdocs.io'da yayınlayın
-      paidDocProjects:
-        name: Ücretli Doküman Projeleri
-        description: Tam özellik setine sahip doküman projeleri. Ücretsiz projeler her planda kullanılabilir olmaya devam eder
-        tooltip: "Herhangi bir doküman projesi herkese açık olarak veya paylaşılan bir parola arkasında paylaşılabilir. Ücretli bir proje; gizli mod, yalnızca davet edilen kişilere erişim, sınırsız gömülü görünüm ve tam şema değişiklik günlüğü ekler."
       schemaChangelog:
         name: Şema Değişiklik Günlüğü
         description: Yayınlanan bir şemanın zaman içinde nasıl değiştiğini denetleyin ve herhangi iki sürümü karşılaştırın
@@ -325,7 +319,7 @@ pricing:
     - question: Kredi kartı bilgilerimi saklıyor musunuz?
       answerHtml: "Hayır, kredi kartı bilgilerinizi doğrudan işlemiyoruz. Ödemenizi işlemek için Stripe kullanıyoruz."
     - question: Aboneliğimi iptal edersem ne olur?
-      answerHtml: Aboneliğinizi iptal ettiğinizde, çalışma alanınız Free plana döndürülür. Özel projeler herkese açık projelere dönüştürülür ve çalışma alanı üyeleri çalışma alanına erişemez hale gelir.
+      answerHtml: Aboneliğinizi iptal ettiğinizde, çalışma alanınız Free plana döner ve tekrar yükseltme yapana kadar çalışma alanı üyeleri devre dışı bırakılır.
     - question: Planım otomatik olarak yenilenir mi?
       answerHtml: Ücretli abonelik, abonelik döneminin bitiminden önce planınızı iptal etmediğiniz sürece otomatik olarak yenilenir.
     - question: Tek bir planda hem dbdiagram hem dbdocs özelliklerini alıyor muyum?

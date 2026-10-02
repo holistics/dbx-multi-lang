@@ -1,9 +1,17 @@
-# Changelog
+2# Changelog
 All notable changes to this project will be documented in this file.
 
 ## Unreleased
 ### Misc
 * Add copywriting for legacy workspace link modal, manage plan's disabled tooltip and publish confirmation text
+
+## v1.5.2 (Sep 29, 2026)
+### Misc
+* Update pricing faq
+
+## v1.5.1 (Sep 28, 2026)
+### Misc
+* Clean up paid doc projects copywriting
 
 ## v1.5.0 (Sep 23, 2026)
 ### Misc
