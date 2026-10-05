@@ -72,6 +72,7 @@ common:
   states:
     empty: データがありません
     loading: 読み込み中...
+    noResults: 一致する結果はありません
   notes:
     header: "ご注意："
   editor:

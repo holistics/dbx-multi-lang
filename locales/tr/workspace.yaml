@@ -169,6 +169,8 @@ workspace:
   sidebar:
     apiTokens: API Token'ları # API Tokens link (left sidebar)
     billing: Faturalandırma # Billing link (left sidebar)
+    showSidebar: Kenar çubuğunu göster
+    hideSidebar: Kenar çubuğunu gizle
 
   # ========================================
   # Empty States - Empty diagrams views

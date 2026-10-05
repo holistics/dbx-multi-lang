@@ -169,6 +169,8 @@ workspace:
   sidebar:
     apiTokens: API Tokenlar # API Tokens link (left sidebar)
     billing: To'lovlar (Billing) # Billing link (left sidebar)
+    showSidebar: Yon panelni ko'rsatish
+    hideSidebar: Yon panelni yashirish
 
   # ========================================
   # Empty States - Empty diagrams views

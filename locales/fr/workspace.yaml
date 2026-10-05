@@ -169,6 +169,8 @@ workspace:
   sidebar:
     apiTokens: Jetons API
     billing: Facturation
+    showSidebar: Afficher la barre latérale
+    hideSidebar: Masquer la barre latérale
 
   # ========================================
   # États vides

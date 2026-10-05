@@ -169,6 +169,8 @@ workspace:
   sidebar:
     apiTokens: Токени API # API Tokens link (left sidebar)
     billing: Оплата # Billing link (left sidebar)
+    showSidebar: Показати бічну панель
+    hideSidebar: Сховати бічну панель
 
   # ========================================
   # Empty States - Empty diagrams views
