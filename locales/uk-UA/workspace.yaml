@@ -70,27 +70,19 @@ workspace:
   # Create Workspace Modal
   # ========================================
   linkModal:
-    chooseTitle: "Виберіть робочий простір для об'єднання"
-    chooseDescription: "Під час оновлення «{name}» буде об'єднано з одним із ваших наявних робочих просторів, щоб ваші проєкти та діаграми були в одному місці."
-    productDbdiagram: "Робочий простір dbdiagram"
-    productDbdocs: "Робочий простір dbdocs"
-    projectCount: "{count} проєктів"
-    diagramCount: "{count} діаграм"
-    memberCount: "{count} учасників"
-    confirmTitle: "Об'єднання з «{name}»"
-    loadFailedTitle: "Не вдалося завантажити людей"
-    loadFailedDescription: "Щось пішло не так. Спробуйте ще раз."
-    peopleTitle: "Люди в об'єднаному робочому просторі"
-    roleAfterJoining: "Роль після об'єднання: {role}"
-    fromDbdiagram: "Приходить із dbdiagram"
-    fromDbdocs: "Приходить із dbdocs"
-    fromBoth: "Учасник робочих просторів dbdiagram і dbdocs"
-    gainsDocs: "Отримає доступ до проєктів"
-    gainsDiagrams: "Отримає доступ до діаграм"
-    remove: Видалити
-    removeHint: "Люди, яких ви видалите, не будуть частиною об'єднаного робочого простору."
-    renameNotice: "«{from}» буде перейменовано на «{to}»."
-    confirm: "Об'єднати робочі простори"
+    title: "Оновлення із застарілого робочого простору"
+    introLegacy: "Ви оновлюєте застарілий робочий простір {product}. Нові тарифні плани об'єднують dbdiagram і dbdocs в єдиний робочий простір, щоб ваші проєкти та діаграми були в одному місці."
+    introMembers: "Учасники робочого простору об'єднуються автоматично. Пізніше ви можете змінити їх на вкладці «Люди» робочого простору."
+    introSlug: "Слаг вашого робочого простору буде «{slug}», успадкований від dbdocs."
+    chooseLabelProjects: "Перенести проєкти з наявного робочого простору dbdocs?"
+    chooseLabelDiagrams: "Перенести діаграми з наявного робочого простору dbdiagram?"
+    migrateProjectsFrom: "Перенести проєкти з «{name}»"
+    migrateDiagramsFrom: "Перенести діаграми з «{name}»"
+    skipProjects: "Не переносити проєкти"
+    skipDiagrams: "Не переносити діаграми"
+    skipHint: "Натомість буде створено новий робочий простір {product}."
+    projectCount: "Буде перенесено {count} проєкт | Буде перенесено {count} проєктів"
+    diagramCount: "Буде перенесено {count} діаграму | Буде перенесено {count} діаграм"
 
   createModal:
     title: Створити робочий простір # Modal title (form state)

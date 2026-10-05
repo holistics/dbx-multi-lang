@@ -66,27 +66,19 @@ workspace:
   # Create Workspace Modal
   # ========================================
   linkModal:
-    chooseTitle: 选择要合并的工作区
-    chooseDescription: "升级时会将“{name}”与你现有的某个工作区合并，让项目和图表集中在一处。"
-    productDbdiagram: "dbdiagram 工作区"
-    productDbdocs: "dbdocs 工作区"
-    projectCount: "{count} 个项目"
-    diagramCount: "{count} 个图表"
-    memberCount: "{count} 位成员"
-    confirmTitle: "正在合并到“{name}”"
-    loadFailedTitle: "无法加载人员"
-    loadFailedDescription: "出了点问题，请重试。"
-    peopleTitle: "合并后工作区中的人员"
-    roleAfterJoining: "合并后的角色：{role}"
-    fromDbdiagram: "来自 dbdiagram"
-    fromDbdocs: "来自 dbdocs"
-    fromBoth: "同时是 dbdiagram 和 dbdocs 工作区的成员"
-    gainsDocs: "将获得项目的访问权限"
-    gainsDiagrams: "将获得图表的访问权限"
-    remove: 移除
-    removeHint: "你移除的人员将不会加入合并后的工作区。"
-    renameNotice: "“{from}”将被重命名为“{to}”。"
-    confirm: 合并工作区
+    title: "从旧版工作区升级"
+    introLegacy: "你正在从旧版 {product} 工作区升级。新的定价方案会将 dbdiagram 和 dbdocs 合并为同一个工作区，让项目和图表集中在一处。"
+    introMembers: "工作区成员会自动合并。你之后可以在工作区的“成员”标签页中更新成员。"
+    introSlug: "你的工作区 slug 将沿用 dbdocs 的“{slug}”。"
+    chooseLabelProjects: "从现有的 dbdocs 工作区迁移项目？"
+    chooseLabelDiagrams: "从现有的 dbdiagram 工作区迁移图表？"
+    migrateProjectsFrom: "从“{name}”迁移项目"
+    migrateDiagramsFrom: "从“{name}”迁移图表"
+    skipProjects: "不迁移项目"
+    skipDiagrams: "不迁移图表"
+    skipHint: "将改为创建一个全新的 {product} 工作区。"
+    projectCount: "将迁移 {count} 个项目"
+    diagramCount: "将迁移 {count} 个图表"
 
   createModal:
     title: 创建工作区

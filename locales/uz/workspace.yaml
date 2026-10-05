@@ -70,27 +70,19 @@ workspace:
   # Create Workspace Modal
   # ========================================
   linkModal:
-    chooseTitle: Birlashtirish uchun ish maydonini tanlang
-    chooseDescription: "Yangilashda \"{name}\" mavjud ish maydonlaringizdan biriga qo'shiladi, shunda loyihalar va diagrammalar bir joyda bo'ladi."
-    productDbdiagram: "dbdiagram ish maydoni"
-    productDbdocs: "dbdocs ish maydoni"
-    projectCount: "{count} ta loyiha"
-    diagramCount: "{count} ta diagramma"
-    memberCount: "{count} ta a'zo"
-    confirmTitle: "\"{name}\" ga birlashtirilmoqda"
-    loadFailedTitle: "Odamlarni yuklab bo'lmadi"
-    loadFailedDescription: "Nimadir xato ketdi. Qayta urinib ko'ring."
-    peopleTitle: "Birlashtirilgan ish maydonidagi odamlar"
-    roleAfterJoining: "Birlashgandan keyingi rol: {role}"
-    fromDbdiagram: "dbdiagram'dan keladi"
-    fromDbdocs: "dbdocs'dan keladi"
-    fromBoth: "dbdiagram va dbdocs ish maydonlarining a'zosi"
-    gainsDocs: "Loyihalarga kirish huquqini oladi"
-    gainsDiagrams: "Diagrammalarga kirish huquqini oladi"
-    remove: "O'chirish"
-    removeHint: "O'chirilgan odamlar birlashtirilgan ish maydoniga kirmaydi."
-    renameNotice: "\"{from}\" nomi \"{to}\" ga o'zgartiriladi."
-    confirm: Ish maydonlarini birlashtirish
+    title: "Eski ish maydonidan yangilash"
+    introLegacy: "Siz eski {product} ish maydonidan yangilayapsiz. Yangi tarif rejalari dbdiagram va dbdocs'ni bitta ish maydoniga birlashtiradi, shunda loyihalar va diagrammalar bir joyda bo'ladi."
+    introMembers: "Ish maydoni a'zolari avtomatik birlashtiriladi. Keyinroq ularni ish maydonining Odamlar yorlig'ida o'zgartirishingiz mumkin."
+    introSlug: "Ish maydoningiz slugi dbdocs'dan meros bo'lib, \"{slug}\" bo'ladi."
+    chooseLabelProjects: "Loyihalar mavjud dbdocs ish maydonidan ko'chirilsinmi?"
+    chooseLabelDiagrams: "Diagrammalar mavjud dbdiagram ish maydonidan ko'chirilsinmi?"
+    migrateProjectsFrom: "\"{name}\" ish maydonidan loyihalarni ko'chirish"
+    migrateDiagramsFrom: "\"{name}\" ish maydonidan diagrammalarni ko'chirish"
+    skipProjects: "Loyihalarni ko'chirmaslik"
+    skipDiagrams: "Diagrammalarni ko'chirmaslik"
+    skipHint: "Buning o'rniga yangi {product} ish maydoni yaratiladi."
+    projectCount: "{count} ta loyiha ko'chiriladi"
+    diagramCount: "{count} ta diagramma ko'chiriladi"
 
   createModal:
     title: Ish maydoni yaratish # Modal title (form state)

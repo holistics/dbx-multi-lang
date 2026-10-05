@@ -61,27 +61,19 @@ workspace:
   # Create Workspace Modal
   # ========================================
   linkModal:
-    chooseTitle: Chọn không gian làm việc để gộp
-    chooseDescription: "Khi nâng cấp, \"{name}\" sẽ được gộp với một trong các không gian làm việc sẵn có của bạn, để dự án và sơ đồ nằm ở cùng một nơi."
-    productDbdiagram: Không gian làm việc dbdiagram
-    productDbdocs: Không gian làm việc dbdocs
-    projectCount: "{count} dự án"
-    diagramCount: "{count} sơ đồ"
-    memberCount: "{count} thành viên"
-    confirmTitle: "Đang gộp với \"{name}\""
-    loadFailedTitle: "Không thể tải danh sách mọi người"
-    loadFailedDescription: "Đã xảy ra lỗi. Vui lòng thử lại."
-    peopleTitle: "Mọi người trong không gian làm việc đã gộp"
-    roleAfterJoining: "Vai trò sau khi gộp: {role}"
-    fromDbdiagram: "Đến từ dbdiagram"
-    fromDbdocs: "Đến từ dbdocs"
-    fromBoth: "Thành viên của cả không gian làm việc dbdiagram và dbdocs"
-    gainsDocs: "Sẽ được truy cập dự án"
-    gainsDiagrams: "Sẽ được truy cập sơ đồ"
-    remove: Xóa
-    removeHint: "Những người bạn xóa sẽ không thuộc không gian làm việc đã gộp."
-    renameNotice: "\"{from}\" sẽ được đổi tên thành \"{to}\"."
-    confirm: Gộp không gian làm việc
+    title: "Nâng cấp từ không gian làm việc cũ"
+    introLegacy: "Bạn đang nâng cấp từ một không gian làm việc {product} cũ. Các gói giá mới gộp dbdiagram và dbdocs thành một không gian làm việc duy nhất, để dự án và sơ đồ nằm ở cùng một nơi."
+    introMembers: "Thành viên của không gian làm việc được gộp tự động. Bạn có thể cập nhật sau trong tab Mọi người của không gian làm việc."
+    introSlug: "Slug của không gian làm việc sẽ là \"{slug}\", kế thừa từ dbdocs."
+    chooseLabelProjects: "Di chuyển dự án từ một không gian làm việc dbdocs hiện có?"
+    chooseLabelDiagrams: "Di chuyển sơ đồ từ một không gian làm việc dbdiagram hiện có?"
+    migrateProjectsFrom: "Di chuyển dự án từ \"{name}\""
+    migrateDiagramsFrom: "Di chuyển sơ đồ từ \"{name}\""
+    skipProjects: "Không di chuyển dự án"
+    skipDiagrams: "Không di chuyển sơ đồ"
+    skipHint: "Thay vào đó, một không gian làm việc {product} mới sẽ được tạo."
+    projectCount: "{count} dự án sẽ được di chuyển"
+    diagramCount: "{count} sơ đồ sẽ được di chuyển"
 
   createModal:
     title: Tạo không gian làm việc
