@@ -70,27 +70,19 @@ workspace:
   # Create Workspace Modal
   # ========================================
   linkModal:
-    chooseTitle: Escolha um espaço de trabalho para unir
-    chooseDescription: "Ao fazer upgrade, \"{name}\" será unido a um dos seus espaços de trabalho existentes, para que seus projetos e diagramas fiquem em um só lugar."
-    productDbdiagram: "Espaço de trabalho do dbdiagram"
-    productDbdocs: "Espaço de trabalho do dbdocs"
-    projectCount: "{count} projetos"
-    diagramCount: "{count} diagramas"
-    memberCount: "{count} membros"
-    confirmTitle: "Unindo a \"{name}\""
-    loadFailedTitle: "Não foi possível carregar as pessoas"
-    loadFailedDescription: "Algo deu errado. Tente novamente."
-    peopleTitle: "Pessoas no espaço de trabalho unido"
-    roleAfterJoining: "Função após a união: {role}"
-    fromDbdiagram: "Vem do dbdiagram"
-    fromDbdocs: "Vem do dbdocs"
-    fromBoth: "Membro dos espaços de trabalho do dbdiagram e do dbdocs"
-    gainsDocs: "Terá acesso aos projetos"
-    gainsDiagrams: "Terá acesso aos diagramas"
-    remove: Remover
-    removeHint: "As pessoas que você remover não farão parte do espaço de trabalho unido."
-    renameNotice: "\"{from}\" será renomeado para \"{to}\"."
-    confirm: Unir espaços de trabalho
+    title: "Fazer upgrade de um espaço de trabalho legado"
+    introLegacy: "Você está fazendo upgrade de um espaço de trabalho {product} legado. Os novos planos de preços unem o dbdiagram e o dbdocs em um único espaço de trabalho, para que seus projetos e diagramas fiquem em um só lugar."
+    introMembers: "Os membros do espaço de trabalho são unidos automaticamente. Você pode atualizá-los depois na aba Pessoas do espaço de trabalho."
+    introSlug: "O slug do seu espaço de trabalho será \"{slug}\", herdado do dbdocs."
+    chooseLabelProjects: "Migrar projetos de um espaço de trabalho dbdocs existente?"
+    chooseLabelDiagrams: "Migrar diagramas de um espaço de trabalho dbdiagram existente?"
+    migrateProjectsFrom: "Migrar projetos de \"{name}\""
+    migrateDiagramsFrom: "Migrar diagramas de \"{name}\""
+    skipProjects: "Não migrar projetos"
+    skipDiagrams: "Não migrar diagramas"
+    skipHint: "Um novo espaço de trabalho {product} será criado no lugar."
+    projectCount: "{count} projeto será movido | {count} projetos serão movidos"
+    diagramCount: "{count} diagrama será movido | {count} diagramas serão movidos"
 
   createModal:
     title: Criar um espaço de trabalho

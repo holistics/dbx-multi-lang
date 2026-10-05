@@ -70,27 +70,19 @@ workspace:
   # Link Workspace Modal
   # ========================================
   linkModal:
-    chooseTitle: Choose a workspace to join # Modal title while picking one
-    chooseDescription: "Upgrading joins \"{name}\" with one of your existing workspaces, so your projects and diagrams are in one place." # Explanation under the title
-    productDbdiagram: dbdiagram workspace # Candidate row, tells the candidate lives in dbdiagram
-    productDbdocs: dbdocs workspace # Candidate row, tells the candidate lives in dbdocs
-    projectCount: "{count} projects" # Candidate row, project count
-    diagramCount: "{count} diagrams" # Candidate row, diagram count
-    memberCount: "{count} members" # Candidate row, member count
-    confirmTitle: Joining "{name}" # Modal title while confirming
-    loadFailedTitle: Couldn't load people # Inline error title when the people list fails to load
-    loadFailedDescription: Something went wrong. Please try again. # Inline error description
-    peopleTitle: People in the joined workspace # Section heading above the people list
-    roleAfterJoining: "Role after joining: {role}" # Under each person, the role they will have once joined
-    fromDbdiagram: Comes from dbdiagram # Label on someone who is only on the dbdiagram side
-    fromDbdocs: Comes from dbdocs # Label on someone who is only on the dbdocs side
-    fromBoth: Member of both dbdiagram and dbdocs workspaces # Label on someone already on both sides
-    gainsDocs: "Will get access to projects" # What changes for a diagrams-only person
-    gainsDiagrams: Will get access to diagrams # What changes for a docs-only person
-    remove: Remove # Drops someone from the joined workspace
-    removeHint: "People you remove won't be part of the joined workspace." # Warning under the people list
-    renameNotice: '"{from}" will be renamed to "{to}".' # Told before confirming
-    confirm: Join workspaces # Confirm button
+    title: "Upgrade from a legacy workspace" # Modal title
+    introLegacy: "You are upgrading from a legacy {product} workspace. The new pricing plans merge dbdiagram and dbdocs into a single workspace, so your projects and diagrams are in one place." # Bullet 1, what the upgrade does. {product} is dbdiagram or dbdocs
+    introMembers: "Workspace members are merged automatically. You can update members later in the workspace's People tab." # Bullet 2, members merge on their own
+    introSlug: "Your workspace slug will be \"{slug}\", inherited from dbdocs." # Bullet 3, only shown when the slug is known. {slug} is shown as /<dbdocs org url name>/<project-url>
+    chooseLabelProjects: "Migrate projects from an existing dbdocs workspace?" # Label above the candidate list when the candidates are dbdocs orgs
+    chooseLabelDiagrams: "Migrate diagrams from an existing dbdiagram workspace?" # Label above the candidate list when the candidates are dbdiagram workspaces
+    migrateProjectsFrom: "Migrate projects from \"{name}\"" # Candidate row when the candidate is a dbdocs org
+    migrateDiagramsFrom: "Migrate diagrams from \"{name}\"" # Candidate row when the candidate is a dbdiagram workspace
+    skipProjects: "Don't migrate projects" # Option that links nothing, candidates are dbdocs orgs
+    skipDiagrams: "Don't migrate diagrams" # Option that links nothing, candidates are dbdiagram workspaces
+    skipHint: "A fresh {product} workspace will be created instead." # Under the skip option, the product of the workspace that gets created
+    projectCount: "{count} project will be moved | {count} projects will be moved" # Candidate row, project count
+    diagramCount: "{count} diagram will be moved | {count} diagrams will be moved" # Candidate row, diagram count
 
   # ========================================
   # Create Workspace Modal

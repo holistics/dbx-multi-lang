@@ -70,27 +70,19 @@ workspace:
   # Create Workspace Modal
   # ========================================
   linkModal:
-    chooseTitle: Birleştirilecek çalışma alanını seçin
-    chooseDescription: "Yükseltme sırasında \"{name}\" mevcut çalışma alanlarınızdan biriyle birleştirilir, böylece projeleriniz ve diyagramlarınız tek bir yerde olur."
-    productDbdiagram: "dbdiagram çalışma alanı"
-    productDbdocs: "dbdocs çalışma alanı"
-    projectCount: "{count} proje"
-    diagramCount: "{count} diyagram"
-    memberCount: "{count} üye"
-    confirmTitle: "\"{name}\" ile birleştiriliyor"
-    loadFailedTitle: "Kişiler yüklenemedi"
-    loadFailedDescription: "Bir sorun oluştu. Lütfen tekrar deneyin."
-    peopleTitle: "Birleştirilmiş çalışma alanındaki kişiler"
-    roleAfterJoining: "Birleştirme sonrası rol: {role}"
-    fromDbdiagram: "dbdiagram'dan geliyor"
-    fromDbdocs: "dbdocs'tan geliyor"
-    fromBoth: "Hem dbdiagram hem dbdocs çalışma alanlarının üyesi"
-    gainsDocs: "Projelere erişim kazanacak"
-    gainsDiagrams: "Diyagramlara erişim kazanacak"
-    remove: Kaldır
-    removeHint: "Kaldırdığınız kişiler birleştirilmiş çalışma alanının parçası olmayacak."
-    renameNotice: "\"{from}\" adı \"{to}\" olarak değiştirilecek."
-    confirm: Çalışma alanlarını birleştir
+    title: "Eski bir çalışma alanından yükseltme"
+    introLegacy: "Eski bir {product} çalışma alanından yükseltme yapıyorsunuz. Yeni fiyatlandırma planları dbdiagram ve dbdocs'u tek bir çalışma alanında birleştirir, böylece projeleriniz ve diyagramlarınız tek bir yerde olur."
+    introMembers: "Çalışma alanı üyeleri otomatik olarak birleştirilir. Üyeleri daha sonra çalışma alanının Kişiler sekmesinden güncelleyebilirsiniz."
+    introSlug: "Çalışma alanınızın slug'ı dbdocs'tan devralınarak \"{slug}\" olacak."
+    chooseLabelProjects: "Mevcut bir dbdocs çalışma alanından projeler taşınsın mı?"
+    chooseLabelDiagrams: "Mevcut bir dbdiagram çalışma alanından diyagramlar taşınsın mı?"
+    migrateProjectsFrom: "\"{name}\" çalışma alanındaki projeleri taşı"
+    migrateDiagramsFrom: "\"{name}\" çalışma alanındaki diyagramları taşı"
+    skipProjects: "Projeleri taşıma"
+    skipDiagrams: "Diyagramları taşıma"
+    skipHint: "Bunun yerine yeni bir {product} çalışma alanı oluşturulacak."
+    projectCount: "{count} proje taşınacak"
+    diagramCount: "{count} diyagram taşınacak"
 
   createModal:
     title: Çalışma alanı oluştur
