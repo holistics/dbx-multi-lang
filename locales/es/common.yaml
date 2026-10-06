@@ -109,6 +109,7 @@ common:
   states:
     empty: Sin datos # Empty table/list message (centered)
     loading: Cargando... # Generic loading spinner message
+    noResults: Sin resultados
 
   # ========================================
   # Notes - Warning/note section header

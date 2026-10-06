@@ -146,6 +146,8 @@ workspace:
   sidebar:
     apiTokens: API Tokens # API Tokens link (left sidebar)
     billing: Billing # Billing link (left sidebar)
+    showSidebar: Show sidebar # Tooltip when sidebar is hidden
+    hideSidebar: Hide sidebar # Tooltip when sidebar is visible
 
   # ========================================
   # Empty States - Empty diagrams views

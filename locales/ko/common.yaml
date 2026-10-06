@@ -109,6 +109,7 @@ common:
   states:
     empty: 데이터 없음  # Empty table/list message (centered)
     loading: 로드 중...    # Generic loading spinner message
+    noResults: 일치하는 결과 없음
 
   # ========================================
   # Notes - Warning/note section header
