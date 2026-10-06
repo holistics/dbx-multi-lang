@@ -1,6 +1,10 @@
 2# Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.5.3 (Oct 6, 2026)
+### Misc
+* Add workspace sidebar trasnlation
+
 ## v1.5.2 (Sep 29, 2026)
 ### Misc
 * Update pricing faq
