@@ -161,6 +161,8 @@ workspace:
   sidebar:
     apiTokens: "Token API" # API Tokens link (left sidebar)
     billing: "Fatturazione" # Billing link (left sidebar)
+    showSidebar: Mostra barra laterale
+    hideSidebar: Nascondi barra laterale
 
   # ========================================
   # Empty States - Empty diagrams views

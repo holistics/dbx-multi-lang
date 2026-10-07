@@ -111,6 +111,7 @@ common:
   states:
     empty: Sem dados
     loading: Carregando...
+    noResults: Nenhum resultado
   notes:
     header: "Por favor, note:"
 

@@ -111,6 +111,7 @@ common:
   states:
     empty: Ma'lumot yo'q # Empty table/list message (centered)
     loading: Yuklanmoqda... # Generic loading spinner message
+    noResults: Natija topilmadi
 
   # ========================================
   # Notes - Warning/note section header

@@ -111,6 +111,7 @@ common:
   states:
     empty: No data # Empty table/list message (centered)
     loading: Loading... # Generic loading spinner message
+    noResults: No matches # Search filter returned no results
 
   # ========================================
   # Notes - Warning/note section header

@@ -146,6 +146,8 @@ workspace:
   sidebar:
     apiTokens: API 令牌
     billing: 计费
+    showSidebar: 显示侧边栏
+    hideSidebar: 隐藏侧边栏
   emptyDiagrams:
     title: 还没有图表
     created:

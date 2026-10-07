@@ -162,6 +162,8 @@ workspace:
   sidebar:
     apiTokens: API 토큰     # API Tokens link (left sidebar)
     billing: 결제      # Billing link (left sidebar)
+    showSidebar: 사이드바 표시
+    hideSidebar: 사이드바 숨기기
 
   # ========================================
   # Empty States - Empty diagrams views
