@@ -1,7 +1,7 @@
 2# Changelog
 All notable changes to this project will be documented in this file.
 
-## Unreleased
+## v1.5.4 (Oct 7, 2026)
 ### Misc
 * Add copywriting for legacy workspace link modal, manage plan's disabled tooltip and publish confirmation text
 
