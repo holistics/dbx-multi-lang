@@ -69,6 +69,21 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    title: "Eski ish maydonidan yangilash"
+    introLegacy: "Siz eski {product} ish maydonidan yangilayapsiz. Yangi tarif rejalari dbdiagram va dbdocs'ni bitta ish maydoniga birlashtiradi, shunda loyihalar va diagrammalar bir joyda bo'ladi."
+    introMembers: "Ish maydoni a'zolari avtomatik birlashtiriladi. Keyinroq ularni ish maydonining Odamlar yorlig'ida o'zgartirishingiz mumkin."
+    introSlug: "Ish maydoningiz slugi dbdocs'dan meros bo'lib, \"{slug}\" bo'ladi."
+    chooseLabelProjects: "Loyihalar mavjud dbdocs ish maydonidan ko'chirilsinmi?"
+    chooseLabelDiagrams: "Diagrammalar mavjud dbdiagram ish maydonidan ko'chirilsinmi?"
+    migrateProjectsFrom: "\"{name}\" ish maydonidan loyihalarni ko'chirish"
+    migrateDiagramsFrom: "\"{name}\" ish maydonidan diagrammalarni ko'chirish"
+    skipProjects: "Loyihalarni ko'chirmaslik"
+    skipDiagrams: "Diagrammalarni ko'chirmaslik"
+    skipHint: "Buning o'rniga yangi {product} ish maydoni yaratiladi."
+    projectCount: "{count} ta loyiha ko'chiriladi"
+    diagramCount: "{count} ta diagramma ko'chiriladi"
+
   createModal:
     title: Ish maydoni yaratish # Modal title (form state)
     settingUpTitle: Ish maydoningiz sozlanmoqda # Modal title (provisioning state)

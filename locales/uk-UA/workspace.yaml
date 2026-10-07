@@ -69,6 +69,21 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    title: "Оновлення із застарілого робочого простору"
+    introLegacy: "Ви оновлюєте застарілий робочий простір {product}. Нові тарифні плани об'єднують dbdiagram і dbdocs в єдиний робочий простір, щоб ваші проєкти та діаграми були в одному місці."
+    introMembers: "Учасники робочого простору об'єднуються автоматично. Пізніше ви можете змінити їх на вкладці «Люди» робочого простору."
+    introSlug: "Слаг вашого робочого простору буде «{slug}», успадкований від dbdocs."
+    chooseLabelProjects: "Перенести проєкти з наявного робочого простору dbdocs?"
+    chooseLabelDiagrams: "Перенести діаграми з наявного робочого простору dbdiagram?"
+    migrateProjectsFrom: "Перенести проєкти з «{name}»"
+    migrateDiagramsFrom: "Перенести діаграми з «{name}»"
+    skipProjects: "Не переносити проєкти"
+    skipDiagrams: "Не переносити діаграми"
+    skipHint: "Натомість буде створено новий робочий простір {product}."
+    projectCount: "Буде перенесено {count} проєкт | Буде перенесено {count} проєктів"
+    diagramCount: "Буде перенесено {count} діаграму | Буде перенесено {count} діаграм"
+
   createModal:
     title: Створити робочий простір # Modal title (form state)
     settingUpTitle: Налаштування робочого простору # Modal title (provisioning state)

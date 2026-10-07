@@ -69,6 +69,21 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    title: "Mise à niveau depuis un ancien espace de travail"
+    introLegacy: "Vous passez d'un ancien espace de travail {product}. Les nouveaux plans tarifaires fusionnent dbdiagram et dbdocs en un seul espace de travail, pour que vos projets et vos diagrammes soient au même endroit."
+    introMembers: "Les membres de l'espace de travail sont fusionnés automatiquement. Vous pourrez les modifier plus tard dans l'onglet Personnes de l'espace de travail."
+    introSlug: "Le slug de votre espace de travail sera « {slug} », hérité de dbdocs."
+    chooseLabelProjects: "Migrer les projets depuis un espace de travail dbdocs existant ?"
+    chooseLabelDiagrams: "Migrer les diagrammes depuis un espace de travail dbdiagram existant ?"
+    migrateProjectsFrom: "Migrer les projets depuis « {name} »"
+    migrateDiagramsFrom: "Migrer les diagrammes depuis « {name} »"
+    skipProjects: "Ne pas migrer les projets"
+    skipDiagrams: "Ne pas migrer les diagrammes"
+    skipHint: "Un nouvel espace de travail {product} sera créé à la place."
+    projectCount: "{count} projet sera déplacé | {count} projets seront déplacés"
+    diagramCount: "{count} diagramme sera déplacé | {count} diagrammes seront déplacés"
+
   createModal:
     title: Créer un espace de travail
     settingUpTitle: Configuration de votre espace de travail

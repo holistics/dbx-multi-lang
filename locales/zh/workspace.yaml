@@ -65,6 +65,21 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    title: "从旧版工作区升级"
+    introLegacy: "你正在从旧版 {product} 工作区升级。新的定价方案会将 dbdiagram 和 dbdocs 合并为同一个工作区，让项目和图表集中在一处。"
+    introMembers: "工作区成员会自动合并。你之后可以在工作区的“成员”标签页中更新成员。"
+    introSlug: "你的工作区 slug 将沿用 dbdocs 的“{slug}”。"
+    chooseLabelProjects: "从现有的 dbdocs 工作区迁移项目？"
+    chooseLabelDiagrams: "从现有的 dbdiagram 工作区迁移图表？"
+    migrateProjectsFrom: "从“{name}”迁移项目"
+    migrateDiagramsFrom: "从“{name}”迁移图表"
+    skipProjects: "不迁移项目"
+    skipDiagrams: "不迁移图表"
+    skipHint: "将改为创建一个全新的 {product} 工作区。"
+    projectCount: "将迁移 {count} 个项目"
+    diagramCount: "将迁移 {count} 个图表"
+
   createModal:
     title: 创建工作区
     settingUpTitle: 正在设置你的工作区

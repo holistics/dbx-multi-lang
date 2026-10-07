@@ -7,6 +7,8 @@ common:
   # ========================================
   buttons:
     cancel: İptal # Gray button in modal dialogs (bottom-right)
+    back: Geri
+    retry: "Yeniden dene"
     confirm: Onayla # Green button in confirmation dialogs
     delete: Sil # Red button in item context menus (with trash icon)
     history: Geçmiş # Clock icon in header toolbar (opens Version History modal)
@@ -233,6 +235,7 @@ common:
     resync: Yeniden senkronize et
     addons: Eklentiler
     updateAddons: Eklentileri güncelle
+    disabledTooltip: "Faturalandırmanızı güncellemek için lütfen {email} adresinden destek ekibiyle iletişime geçin"
 
     billingPeriodUnit:
       annual: yıllık

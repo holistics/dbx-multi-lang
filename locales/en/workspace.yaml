@@ -67,6 +67,24 @@ workspace:
     ssoConfigSaveFailed: Failed to save SSO configuration. Please try again. # Error toast
 
   # ========================================
+  # Link Workspace Modal
+  # ========================================
+  linkModal:
+    title: "Upgrade from a legacy workspace" # Modal title
+    introLegacy: "You are upgrading from a legacy {product} workspace. The new pricing plans merge dbdiagram and dbdocs into a single workspace, so your projects and diagrams are in one place." # Bullet 1, what the upgrade does. {product} is dbdiagram or dbdocs
+    introMembers: "Workspace members are merged automatically. You can update members later in the workspace's People tab." # Bullet 2, members merge on their own
+    introSlug: "Your workspace slug will be \"{slug}\", inherited from dbdocs." # Bullet 3, only shown when the slug is known. {slug} is shown as /<dbdocs org url name>/<project-url>
+    chooseLabelProjects: "Migrate projects from an existing dbdocs workspace?" # Label above the candidate list when the candidates are dbdocs orgs
+    chooseLabelDiagrams: "Migrate diagrams from an existing dbdiagram workspace?" # Label above the candidate list when the candidates are dbdiagram workspaces
+    migrateProjectsFrom: "Migrate projects from \"{name}\"" # Candidate row when the candidate is a dbdocs org
+    migrateDiagramsFrom: "Migrate diagrams from \"{name}\"" # Candidate row when the candidate is a dbdiagram workspace
+    skipProjects: "Don't migrate projects" # Option that links nothing, candidates are dbdocs orgs
+    skipDiagrams: "Don't migrate diagrams" # Option that links nothing, candidates are dbdiagram workspaces
+    skipHint: "A fresh {product} workspace will be created instead." # Under the skip option, the product of the workspace that gets created
+    projectCount: "{count} project will be moved | {count} projects will be moved" # Candidate row, project count
+    diagramCount: "{count} diagram will be moved | {count} diagrams will be moved" # Candidate row, diagram count
+
+  # ========================================
   # Create Workspace Modal
   # ========================================
   createModal:

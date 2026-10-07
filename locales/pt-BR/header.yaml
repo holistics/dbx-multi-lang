@@ -89,6 +89,7 @@ header:
   # Modals - Modal dialog texts (discard, overwrite)
   # ========================================
   modals:
+    publishConfirmation: Deseja publicar este rascunho no seu projeto dbdocs?
     discardDraftsTitle: Descartar todos os rascunhos
     discardDraftsContent: Tem certeza de que deseja descartar todas as suas versões de rascunho e buscar o conteúdo mais recente do projeto? Esta ação não pode ser desfeita.
     discardButton: Descartar

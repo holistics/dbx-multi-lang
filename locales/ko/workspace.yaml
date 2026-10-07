@@ -70,6 +70,21 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    title: "기존 워크스페이스에서 업그레이드"
+    introLegacy: "기존 {product} 워크스페이스에서 업그레이드합니다. 새 요금제에서는 dbdiagram과 dbdocs가 하나의 워크스페이스로 통합되어 프로젝트와 다이어그램이 한곳에 모입니다."
+    introMembers: "워크스페이스 멤버는 자동으로 통합됩니다. 나중에 워크스페이스의 멤버 탭에서 수정할 수 있습니다."
+    introSlug: "워크스페이스 슬러그는 dbdocs에서 그대로 가져와 \"{slug}\"가 됩니다."
+    chooseLabelProjects: "기존 dbdocs 워크스페이스에서 프로젝트를 이전하시겠습니까?"
+    chooseLabelDiagrams: "기존 dbdiagram 워크스페이스에서 다이어그램을 이전하시겠습니까?"
+    migrateProjectsFrom: "\"{name}\"에서 프로젝트 이전"
+    migrateDiagramsFrom: "\"{name}\"에서 다이어그램 이전"
+    skipProjects: "프로젝트 이전 안 함"
+    skipDiagrams: "다이어그램 이전 안 함"
+    skipHint: "대신 새 {product} 워크스페이스가 생성됩니다."
+    projectCount: "프로젝트 {count}개가 이전됩니다"
+    diagramCount: "다이어그램 {count}개가 이전됩니다"
+
   createModal:
     title: 워크스페이스 만들기 # Modal title (form state)
     settingUpTitle: 워크스페이스를 설정하고 있습니다 # Modal title (provisioning state)

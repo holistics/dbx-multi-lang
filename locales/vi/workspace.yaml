@@ -60,6 +60,21 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    title: "Nâng cấp từ không gian làm việc cũ"
+    introLegacy: "Bạn đang nâng cấp từ một không gian làm việc {product} cũ. Các gói giá mới gộp dbdiagram và dbdocs thành một không gian làm việc duy nhất, để dự án và sơ đồ nằm ở cùng một nơi."
+    introMembers: "Thành viên của không gian làm việc được gộp tự động. Bạn có thể cập nhật sau trong tab Mọi người của không gian làm việc."
+    introSlug: "Slug của không gian làm việc sẽ là \"{slug}\", kế thừa từ dbdocs."
+    chooseLabelProjects: "Di chuyển dự án từ một không gian làm việc dbdocs hiện có?"
+    chooseLabelDiagrams: "Di chuyển sơ đồ từ một không gian làm việc dbdiagram hiện có?"
+    migrateProjectsFrom: "Di chuyển dự án từ \"{name}\""
+    migrateDiagramsFrom: "Di chuyển sơ đồ từ \"{name}\""
+    skipProjects: "Không di chuyển dự án"
+    skipDiagrams: "Không di chuyển sơ đồ"
+    skipHint: "Thay vào đó, một không gian làm việc {product} mới sẽ được tạo."
+    projectCount: "{count} dự án sẽ được di chuyển"
+    diagramCount: "{count} sơ đồ sẽ được di chuyển"
+
   createModal:
     title: Tạo không gian làm việc
     settingUpTitle: Đang thiết lập không gian làm việc của bạn

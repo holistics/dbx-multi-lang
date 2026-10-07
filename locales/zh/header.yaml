@@ -50,6 +50,7 @@ header:
     hasErrors: 你的图表中有错误
     noChanges: 没有需要发布的更改
   modals:
+    publishConfirmation: 你想将此草稿发布到你的 dbdocs 项目吗？
     discardDraftsTitle: 丢弃所有草稿
     discardDraftsContent: 你确定要丢弃所有草稿版本并获取项目的最新内容吗？此操作无法撤销。
     discardButton: 丢弃

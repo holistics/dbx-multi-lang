@@ -65,6 +65,21 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    title: "従来のワークスペースからアップグレード"
+    introLegacy: "従来の {product} ワークスペースからアップグレードします。新しい料金プランでは dbdiagram と dbdocs が 1 つのワークスペースに統合され、プロジェクトとダイアグラムを 1 か所にまとめられます。"
+    introMembers: "ワークスペースのメンバーは自動的に統合されます。メンバーは後でワークスペースの「メンバー」タブから変更できます。"
+    introSlug: "ワークスペースのスラッグは dbdocs から引き継がれ、「{slug}」になります。"
+    chooseLabelProjects: "既存の dbdocs ワークスペースからプロジェクトを移行しますか？"
+    chooseLabelDiagrams: "既存の dbdiagram ワークスペースからダイアグラムを移行しますか？"
+    migrateProjectsFrom: "「{name}」からプロジェクトを移行"
+    migrateDiagramsFrom: "「{name}」からダイアグラムを移行"
+    skipProjects: "プロジェクトを移行しない"
+    skipDiagrams: "ダイアグラムを移行しない"
+    skipHint: "代わりに新しい {product} ワークスペースが作成されます。"
+    projectCount: "{count} 件のプロジェクトが移行されます"
+    diagramCount: "{count} 件のダイアグラムが移行されます"
+
   createModal:
     title: ワークスペースを作成
     settingUpTitle: ワークスペースをセットアップ中

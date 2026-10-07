@@ -89,6 +89,7 @@ header:
   # Modals - Modal dialog texts (discard, overwrite)
   # ========================================
   modals:
+    publishConfirmation: 이 초안을 dbdocs 프로젝트에 게시하시겠습니까? # Confirmation message when publishing draft to dbdocs
     discardDraftsTitle: 모든 초안 삭제           # Modal title (discard drafts confirmation)
     discardDraftsContent: 모든 초안 버전을 삭제하고 프로젝트의 최신 콘텐츠를 가져오시겠습니까? 이 작업은 취소할 수 
       없습니다.                                                                                                                                                   # Modal warning text

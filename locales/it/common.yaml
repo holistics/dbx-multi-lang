@@ -7,6 +7,8 @@ common:
   # ========================================
   buttons:
     cancel: "Annulla" # Gray button in modal dialogs (bottom-right)
+    back: Indietro
+    retry: "Riprova"
     confirm: "Conferma" # Green button in confirmation dialogs
     delete: "Elimina" # Red button in item context menus (with trash icon)
     history: "Cronologia" # Clock icon in header toolbar (opens Version History modal)
@@ -237,6 +239,7 @@ common:
     resync: Risincronizza
     addons: Componenti aggiuntivi
     updateAddons: Aggiorna componenti aggiuntivi
+    disabledTooltip: "Contatta l'assistenza all'indirizzo {email} per aggiornare la tua fatturazione"
 
     billingPeriodUnit:
       annual: annuale

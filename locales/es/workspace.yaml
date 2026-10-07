@@ -69,6 +69,21 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    title: "Mejorar desde un espacio de trabajo heredado"
+    introLegacy: "Estás mejorando desde un espacio de trabajo {product} heredado. Los nuevos planes de precios unen dbdiagram y dbdocs en un único espacio de trabajo, para que tus proyectos y diagramas estén en un solo lugar."
+    introMembers: "Los miembros del espacio de trabajo se unen automáticamente. Puedes actualizarlos más adelante en la pestaña Personas del espacio de trabajo."
+    introSlug: "El slug de tu espacio de trabajo será \"{slug}\", heredado de dbdocs."
+    chooseLabelProjects: "¿Migrar proyectos desde un espacio de trabajo dbdocs existente?"
+    chooseLabelDiagrams: "¿Migrar diagramas desde un espacio de trabajo dbdiagram existente?"
+    migrateProjectsFrom: "Migrar proyectos desde \"{name}\""
+    migrateDiagramsFrom: "Migrar diagramas desde \"{name}\""
+    skipProjects: "No migrar proyectos"
+    skipDiagrams: "No migrar diagramas"
+    skipHint: "En su lugar, se creará un espacio de trabajo {product} nuevo."
+    projectCount: "Se moverá {count} proyecto | Se moverán {count} proyectos"
+    diagramCount: "Se moverá {count} diagrama | Se moverán {count} diagramas"
+
   createModal:
     title: Crear un espacio de trabajo
     settingUpTitle: Configurando tu espacio de trabajo

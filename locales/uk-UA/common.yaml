@@ -7,6 +7,8 @@ common:
   # ========================================
   buttons:
     cancel: Скасувати # Gray button in modal dialogs (bottom-right)
+    back: Назад
+    retry: "Повторити"
     confirm: Підтвердити # Green button in confirmation dialogs
     delete: Видалити # Red button in item context menus (with trash icon)
     history: Історія # Clock icon in header toolbar (opens Version History modal)
@@ -237,6 +239,7 @@ common:
     resync: Синхронізувати повторно
     addons: Розширення
     updateAddons: Оновити розширення
+    disabledTooltip: "Щоб оновити дані оплати, зв'яжіться зі службою підтримки за адресою {email}"
 
     billingPeriodUnit:
       annual: щорічна

@@ -69,6 +69,21 @@ workspace:
   # ========================================
   # Create Workspace Modal
   # ========================================
+  linkModal:
+    title: "Aggiorna da uno spazio di lavoro legacy"
+    introLegacy: "Stai passando da uno spazio di lavoro {product} legacy. I nuovi piani tariffari uniscono dbdiagram e dbdocs in un unico spazio di lavoro, così progetti e diagrammi restano in un unico posto."
+    introMembers: "I membri dello spazio di lavoro vengono uniti automaticamente. Potrai modificarli in seguito nella scheda Persone dello spazio di lavoro."
+    introSlug: "Lo slug del tuo spazio di lavoro sarà \"{slug}\", ereditato da dbdocs."
+    chooseLabelProjects: "Migrare i progetti da uno spazio di lavoro dbdocs esistente?"
+    chooseLabelDiagrams: "Migrare i diagrammi da uno spazio di lavoro dbdiagram esistente?"
+    migrateProjectsFrom: "Migra i progetti da \"{name}\""
+    migrateDiagramsFrom: "Migra i diagrammi da \"{name}\""
+    skipProjects: "Non migrare i progetti"
+    skipDiagrams: "Non migrare i diagrammi"
+    skipHint: "Verrà invece creato un nuovo spazio di lavoro {product}."
+    projectCount: "{count} progetto verrà spostato | {count} progetti verranno spostati"
+    diagramCount: "{count} diagramma verrà spostato | {count} diagrammi verranno spostati"
+
   createModal:
     title: Crea uno spazio di lavoro
     settingUpTitle: Configurazione del tuo spazio di lavoro
