@@ -121,6 +121,7 @@ pricing:
       sqlImportExport: SQL içe ve dışa aktarma
       exportFormats: PDF/PNG/SVG olarak dışa aktar
       publicSharing: Herkese açık paylaşım
+      privateMode: Gizli mod
       embedDiagrams: Diyagramları ve dokümanları sitenize gömün
       dataSample: Veri örneği
       dataLineage: Veri soy ağacı

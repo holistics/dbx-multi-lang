@@ -121,6 +121,7 @@ pricing:
       sqlImportExport: SQL 导入和导出
       exportFormats: 导出为 PDF/PNG/SVG
       publicSharing: 公开分享
+      privateMode: 私有模式
       embedDiagrams: 将图表和文档嵌入你的网站
       dataSample: 数据示例
       dataLineage: 数据血缘

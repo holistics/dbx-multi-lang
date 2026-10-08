@@ -121,6 +121,7 @@ pricing:
       sqlImportExport: SQL 가져오기 및 내보내기
       exportFormats: PDF/PNG/SVG로 내보내기
       publicSharing: 공개 공유
+      privateMode: 비공개 모드
       embedDiagrams: 사이트에 다이어그램 및 문서 임베드
       dataSample: 데이터 샘플
       dataLineage: 데이터 계보
