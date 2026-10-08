@@ -121,6 +121,7 @@ pricing:
       sqlImportExport: Importação e exportação de SQL
       exportFormats: Exportar para PDF/PNG/SVG
       publicSharing: Compartilhamento público
+      privateMode: Modo privado
       embedDiagrams: Incorporar diagramas e documentos no seu site
       dataSample: Amostra de dados
       dataLineage: Linhagem de dados

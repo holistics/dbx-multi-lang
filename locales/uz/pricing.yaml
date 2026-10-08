@@ -121,6 +121,7 @@ pricing:
       sqlImportExport: SQL import va eksport
       exportFormats: PDF/PNG/SVG ga eksport qilish
       publicSharing: Ommaviy ulashish
+      privateMode: Xususiy rejim
       embedDiagrams: Diagramma va hujjatlarni saytingizga joylashtirish
       dataSample: Ma'lumotlar namunasi
       dataLineage: Ma’lumotlar kelib chiqishi

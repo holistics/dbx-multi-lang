@@ -121,6 +121,7 @@ pricing:
       sqlImportExport: SQL インポート＆エクスポート
       exportFormats: PDF/PNG/SVG へエクスポート
       publicSharing: 公開共有
+      privateMode: プライベートモード
       embedDiagrams: ダイアグラムとドキュメントをサイトに埋め込み
       dataSample: データサンプル
       dataLineage: データリネージ

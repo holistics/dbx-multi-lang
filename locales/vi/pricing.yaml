@@ -121,6 +121,7 @@ pricing:
       sqlImportExport: Nhập & xuất SQL
       exportFormats: Xuất ra PDF/PNG/SVG
       publicSharing: Chia sẻ công khai
+      privateMode: Chế độ riêng tư
       embedDiagrams: Nhúng sơ đồ và tài liệu vào trang web của bạn
       dataSample: Dữ liệu mẫu
       dataLineage: Dòng dữ liệu
