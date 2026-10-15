@@ -1,7 +1,7 @@
 2# Changelog
 All notable changes to this project will be documented in this file.
 
-## v1.5.6 (Unreleased)
+## v1.5.6 (Oct 15, 2026)
 ### Misc
 * Add copywriting for AI large diagram warnings
 
