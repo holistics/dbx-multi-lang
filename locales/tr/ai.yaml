@@ -22,6 +22,7 @@ ai:
     newChat: Yeni Sohbet # New chat button (sidebar header)
     showChatHistory: Sohbet Geçmişini Göster # Toggle button (shows chat sidebar)
     hideChatHistory: Sohbet Geçmişini Gizle # Toggle button (hides chat sidebar)
+    largeDiagramWarning: AI özellikleri büyük diyagramlarda (1.000+ satır) düzgün çalışmayabilir. Daha iyi sonuçlar için yerel AI kullanmayı düşünün. # Warning banner (large diagram)
 
   # ========================================
   # AI Welcome Modal - First-time user experience

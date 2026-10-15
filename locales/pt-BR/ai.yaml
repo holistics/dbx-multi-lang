@@ -22,6 +22,7 @@ ai:
     newChat: Novo Bate-papo
     showChatHistory: Mostrar Histórico de Bate-papo
     hideChatHistory: Ocultar Histórico de Bate-papo
+    largeDiagramWarning: Os recursos de IA podem não funcionar bem em diagramas grandes (mais de 1.000 linhas). Para melhores resultados, considere usar IA local.
 
   # ========================================
   # AI Welcome Modal - First-time user experience

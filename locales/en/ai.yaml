@@ -22,6 +22,7 @@ ai:
     newChat: New Chat # New chat button (sidebar header)
     showChatHistory: Show Chat History # Toggle button (shows chat sidebar)
     hideChatHistory: Hide Chat History # Toggle button (hides chat sidebar)
+    largeDiagramWarning: AI features may not work well on large diagrams (1,000+ lines). For better results, consider using local AI. # Warning banner (large diagram)
 
   # ========================================
   # AI Welcome Modal - First-time user experience
