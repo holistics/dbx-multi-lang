@@ -22,6 +22,7 @@ ai:
     newChat: Nouvelle discussion
     showChatHistory: Afficher l'historique des discussions
     hideChatHistory: Masquer l'historique des discussions
+    largeDiagramWarning: 'Les fonctionnalités IA peuvent ne pas bien fonctionner sur les grands diagrammes (plus de 1 000 lignes). Pour de meilleurs résultats, envisagez d''utiliser une IA locale et synchroniser avec le {cliLink}.'
 
   # ========================================
   # Fenêtre de bienvenue IA - Première utilisation

@@ -15,6 +15,7 @@ ai:
     newChat: Trò chuyện mới
     showChatHistory: Hiện lịch sử chat
     hideChatHistory: Ẩn lịch sử chat
+    largeDiagramWarning: 'Tính năng AI có thể không hoạt động tốt trên sơ đồ lớn (từ 1.000 dòng trở lên). Để có kết quả tốt hơn, hãy cân nhắc sử dụng AI cục bộ và đồng bộ qua {cliLink}.'
   welcome:
     title: Chào mừng đến với DBDiagram AI
     subtitle: Trợ lý thông minh cho thiết kế cơ sở dữ liệu của bạn

@@ -18,6 +18,7 @@ ai:
     newChat: 新しいチャット
     showChatHistory: チャット履歴を表示
     hideChatHistory: チャット履歴を非表示
+    largeDiagramWarning: 'AI機能は大規模なダイアグラム（1,000行以上）では正常に動作しない場合があります。より良い結果を得るには、ローカルAIを使用し、{cliLink}で同期することを検討してください。'
   welcome:
     title: DBDiagram AI へようこそ
     subtitle: データベース設計のためのインテリジェントアシスタント
