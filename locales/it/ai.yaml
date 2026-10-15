@@ -22,7 +22,7 @@ ai:
     newChat: "Nuova chat" # New chat button (sidebar header)
     showChatHistory: "Mostra cronologia chat" # Toggle button (shows chat sidebar)
     hideChatHistory: "Nascondi cronologia chat" # Toggle button (hides chat sidebar)
-    largeDiagramWarning: "Le funzionalità AI potrebbero non funzionare bene su diagrammi grandi (oltre 1.000 righe). Per risultati migliori, considera l'uso di un'IA locale." # Warning banner (large diagram)
+    largeDiagramWarning: "Le funzionalità AI potrebbero non funzionare bene su diagrammi grandi (oltre 1.000 righe). Per risultati migliori, considera l'uso di un'IA locale e sincronizza con il nostro <a href=\"https://docs.dbdiagram.io/cli/\" target=\"_blank\" rel=\"noopener noreferrer\">CLI</a>." # Warning banner (large diagram)
 
   # ========================================
   # AI Welcome Modal - First-time user experience

@@ -22,7 +22,7 @@ ai:
     newChat: Новий чат # New chat button (sidebar header)
     showChatHistory: Показати історію чатів # Toggle button (shows chat sidebar)
     hideChatHistory: Приховати історію чатів # Toggle button (hides chat sidebar)
-    largeDiagramWarning: Функції ШІ можуть не працювати належним чином у великих діаграмах (понад 1 000 рядків). Для кращих результатів розгляньте можливість використання локального ШІ. # Warning banner (large diagram)
+    largeDiagramWarning: 'Функції ШІ можуть не працювати належним чином у великих діаграмах (понад 1 000 рядків). Для кращих результатів розгляньте можливість використання локального ШІ та синхронізації через наш <a href="https://docs.dbdiagram.io/cli/" target="_blank" rel="noopener noreferrer">CLI</a>.' # Warning banner (large diagram)
 
   # ========================================
   # AI Welcome Modal - First-time user experience
