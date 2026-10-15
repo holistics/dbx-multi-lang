@@ -18,7 +18,7 @@ ai:
     newChat: 新对话
     showChatHistory: 显示对话历史
     hideChatHistory: 隐藏对话历史
-    largeDiagramWarning: 'AI功能在大型图表（1,000行以上）上可能无法正常工作。为获得更好的结果，请考虑使用本地AI并通过<a href="https://docs.dbdiagram.io/cli/" target="_blank" rel="noopener noreferrer">dbdiagram CLI</a>进行同步。'
+    largeDiagramWarning: 'AI功能在大型图表（1,000行以上）上可能无法正常工作。为获得更好的结果，请考虑使用本地AI并通过{cliLink}进行同步。'
   welcome:
     title: 欢迎使用 DBDiagram AI
     subtitle: 你的智能数据库设计助手

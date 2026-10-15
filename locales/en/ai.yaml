@@ -22,7 +22,7 @@ ai:
     newChat: New Chat # New chat button (sidebar header)
     showChatHistory: Show Chat History # Toggle button (shows chat sidebar)
     hideChatHistory: Hide Chat History # Toggle button (hides chat sidebar)
-    largeDiagramWarning: 'AI features may not work well on large diagrams (1,000+ lines). For better results, consider using local AI and sync with the <a href="https://docs.dbdiagram.io/cli/" target="_blank" rel="noopener noreferrer">dbdiagram CLI</a>.' # Warning banner (large diagram)
+    largeDiagramWarning: 'AI features may not work well on large diagrams (1,000+ lines). For better results, consider using local AI and sync with the {cliLink}.' # Warning banner (large diagram)
 
   # ========================================
   # AI Welcome Modal - First-time user experience

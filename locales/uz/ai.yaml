@@ -22,7 +22,7 @@ ai:
     newChat: Yangi suhbat # New chat button (sidebar header)
     showChatHistory: Suhbatlar tarixini ko'rsatish # Toggle button (shows chat sidebar)
     hideChatHistory: Suhbatlar tarixini yashirish # Toggle button (hides chat sidebar)
-    largeDiagramWarning: 'AI funksiyalari katta diagrammalarda (1 000+ qator) yaxshi ishlamasligi mumkin. Yaxshiroq natijalar uchun mahalliy AI dan foydalaning va <a href="https://docs.dbdiagram.io/cli/" target="_blank" rel="noopener noreferrer">dbdiagram CLI</a> orqali sinxronlang.' # Warning banner (large diagram)
+    largeDiagramWarning: 'AI funksiyalari katta diagrammalarda (1 000+ qator) yaxshi ishlamasligi mumkin. Yaxshiroq natijalar uchun mahalliy AI dan foydalaning va {cliLink} orqali sinxronlang.' # Warning banner (large diagram)
 
   # ========================================
   # AI Welcome Modal - First-time user experience
