@@ -81,3 +81,76 @@ portal:
     pageMustBeOpened: 此页面必须从应用程序打开。
     unsupportedParameter: 不支持的 {message} 参数
     unexpectedError: 意外错误
+  education:
+    pageTitle: "dbdiagram 教育版"
+    intro: "为使用 dbdiagram 和 dbdocs 学习或教学的任何人提供一年免费的 Personal Pro。"
+    benefits:
+      renew: "一年后仍在学校或大学就读？请再次申请以续期。"
+      features: "无限图表和文档、高级可视化以及协作功能。"
+      featuresLink: "查看 Pro 包含的全部功能"
+      reminder: "我们会在一年期满前两周提醒您。期满后，您可以再次申请。"
+    signIn:
+      note: "请使用学校或大学邮箱登录以申请。"
+      cta: "立即申请"
+    share:
+      heading: "认识正在学习或教学的人吗？"
+      body: "将免费的 Education 方案分享给同学、老师或讲师。"
+      cta: "在 Twitter 上分享"
+      tweetText: "学生和教师可免费使用一年 {'@'}dbdiagram 的 Personal Pro。我刚刚领到了。请使用您的学校邮箱申请："
+    form:
+      heading: "申请许可"
+      applyingAs: "申请身份"
+      wrongAccount: "我们会核对您的账号邮箱，因此请使用学校或大学账号申请。"
+      nameLabel: "姓名"
+      roleLabel: "您是"
+      institutionLabel: "学校或大学"
+      thoughtsLabel: "您想告诉我们什么吗？"
+      thoughtsHint: "选填。您在做什么、课程是什么、dbdiagram 还缺少什么？"
+      thoughtsPlaceholder: "为大二数据库课程设计图书馆系统模型。"
+      submit: "立即申请"
+      submitting: "提交中"
+      roles:
+        student: "学生"
+        teacher: "教师或讲师"
+        researcher: "研究人员"
+      target:
+        heading: "要升级的工作区"
+        loading: "正在加载您的工作区"
+        placeholder: "选择工作区"
+        retry: "重试"
+        single: "Personal Pro 将应用到 {name}。"
+        singleLegacyPersonal: "Personal Pro 将应用到您的个人工作区。"
+        legacyPersonalLabel: "个人工作区"
+        createsNew: "我们将为您创建一个新的免费工作区，并将 Personal Pro 应用到该工作区。"
+    status:
+      statusLabel: "状态"
+      expiresOn: "到期日期：{date}"
+      reviewNoteLabel: "给出的原因"
+      pending:
+        label: "审核中"
+        point1: "我们已收到您的 Education 方案申请。不过，我们无法自动将您的邮箱域名与学校匹配，因此团队成员正在人工审核。"
+        point2: "我们会在几个工作日内通过邮件联系您。目前您无需进行其他操作。"
+      approved:
+        label: "已批准"
+        point1: "好消息，您的 Education 方案申请已获批准。我们正在将您的工作区切换到 Personal Pro，通常不到一小时即可完成。"
+        point2: "生效后我们会立即给您发送邮件。"
+      active:
+        label: "已生效"
+        point1: "您的工作区正通过 Education 方案使用 Personal Pro。"
+        point2: "我们会在到期前两周提醒您。到期后，您可以再次申请。"
+      expired:
+        label: "已结束"
+        point1: "您的 Education 方案已结束，工作区已恢复为免费方案。您创建的所有内容仍然保留。"
+        point2: "仍在学习或教学？您可以在下方再次申请。"
+      rejected:
+        label: "未获批准"
+        point1: "感谢您的申请。很遗憾，我们无法确认您与学校或大学的关联。"
+        point2: "如果您认为我们判断有误，请回复我们发送的邮件并附上能证明您身份关联的材料，我们会重新审核。"
+      revoked:
+        label: "已撤销"
+        point1: "我们已撤销您的 Education 方案，您的工作区不再通过该方案使用 Personal Pro。"
+        point2: "如果您认为这是个错误，请联系我们，我们会重新审核。"
+    errors:
+      loadFailed: "无法加载您的教育许可状态。请刷新页面重试。"
+      targetsFailed: "无法加载您的工作区。请重试。"
+      submitFailed: "无法提交您的申请。请重试。"

@@ -105,3 +105,76 @@ portal:
     pageMustBeOpened: This page must be opened from the application. # OAuth error
     unsupportedParameter: Unsupported {message} parameter # OAuth error
     unexpectedError: Unexpected error # OAuth error
+  education:
+    pageTitle: "dbdiagram for Education"
+    intro: "Free Personal Pro for a year, for anyone studying or teaching with dbdiagram and dbdocs."
+    benefits:
+      renew: "Still at a school or university after a year? Apply again to renew."
+      features: "Unlimited diagrams and docs, advanced visualization, and collaboration."
+      featuresLink: "See everything Pro includes"
+      reminder: "We will remind you two weeks before your year is up. Once it ends, you can apply again."
+    signIn:
+      note: "Sign in with your school or university email to apply."
+      cta: "Apply now"
+    share:
+      heading: "Know someone who studies or teaches?"
+      body: "Share the free Education plan with classmates, teachers or lecturers."
+      cta: "Share on Twitter"
+      tweetText: "Students and teachers get {'@'}dbdiagram Personal Pro free for a year. I just got mine. Apply with your school email:"
+    form:
+      heading: "Apply for a license"
+      applyingAs: "Applying as"
+      wrongAccount: "Your account email is what we check, so apply on your school or university account."
+      nameLabel: "Full name"
+      roleLabel: "You are a"
+      institutionLabel: "School or university"
+      thoughtsLabel: "Anything you would like to tell us"
+      thoughtsHint: "Optional. What are you building, what is the course, what is missing from dbdiagram?"
+      thoughtsPlaceholder: "Modeling a library system for a second-year databases course."
+      submit: "Apply now"
+      submitting: "Submitting"
+      roles:
+        student: "Student"
+        teacher: "Teacher or lecturer"
+        researcher: "Researcher"
+      target:
+        heading: "Workspace to upgrade"
+        loading: "Loading your workspaces"
+        placeholder: "Select a workspace"
+        retry: "Try again"
+        single: "Personal Pro will be applied to {name}."
+        singleLegacyPersonal: "Personal Pro will be applied to your Personal Workspace."
+        legacyPersonalLabel: "Personal Workspace"
+        createsNew: "We will create a new free workspace for you and apply Personal Pro to it."
+    status:
+      statusLabel: "Status"
+      expiresOn: "Expires on {date}"
+      reviewNoteLabel: "Reason given"
+      pending:
+        label: "Under review"
+        point1: "We have received your application for the Education plan. However, we could not match your email domain to a school automatically, so a teammate is checking it by hand."
+        point2: "We will email you within a few working days. There is nothing else you need to do for now."
+      approved:
+        label: "Approved"
+        point1: "Good news, your application for the Education plan is approved. We are switching your workspace to Personal Pro, which usually takes less than an hour."
+        point2: "We will email you the moment it is live."
+      active:
+        label: "Active"
+        point1: "Your workspace is on Personal Pro through the Education plan."
+        point2: "We will remind you two weeks before it ends. Once it ends, you can apply again."
+      expired:
+        label: "Ended"
+        point1: "Your Education plan has ended, so your workspace is back on the free plan. Everything you built is still there."
+        point2: "Still studying or teaching? You can apply again below."
+      rejected:
+        label: "Not approved"
+        point1: "Thanks for applying. Unfortunately, we could not confirm your connection to a school or university."
+        point2: "If you think we got this wrong, reply to the email we sent with something that shows your connection, and we will take another look."
+      revoked:
+        label: "Revoked"
+        point1: "We have revoked your Education plan, so your workspace is no longer on Personal Pro through it."
+        point2: "If you think this is a mistake, please contact us and we will take another look."
+    errors:
+      loadFailed: "Could not load your education license status. Refresh to try again."
+      targetsFailed: "Could not load your workspaces. Try again."
+      submitFailed: "Could not submit your request. Please try again."

@@ -105,3 +105,76 @@ portal:
     pageMustBeOpened: Ushbu sahifa dasturdan ochilishi kerak. # OAuth error
     unsupportedParameter: "Qo'llab-quvvatlanmaydigan {message} parametri" # OAuth error
     unexpectedError: Kutilmagan xatolik # OAuth error
+  education:
+    pageTitle: "Ta’lim uchun dbdiagram"
+    intro: "dbdiagram va dbdocs bilan o‘qiydigan yoki o‘qitadigan har bir kishi uchun bir yil davomida bepul Personal Pro."
+    benefits:
+      renew: "Bir yildan keyin ham maktab yoki universitetda o‘qiyapsizmi? Yangilash uchun qayta ariza bering."
+      features: "Cheksiz diagrammalar va hujjatlar, ilg‘or vizualizatsiya va hamkorlik."
+      featuresLink: "Pro tarkibidagi hamma narsani ko‘ring"
+      reminder: "Yilingiz tugashiga ikki hafta qolganda sizga eslatamiz. U tugagach, qayta ariza berishingiz mumkin."
+    signIn:
+      note: "Ariza berish uchun maktab yoki universitet elektron pochtangiz bilan tizimga kiring."
+      cta: "Hozir ariza berish"
+    share:
+      heading: "O‘qiydigan yoki o‘qitadigan tanishingiz bormi?"
+      body: "Bepul Education rejasini sinfdoshlar, o‘qituvchilar yoki ustozlar bilan ulashing."
+      cta: "Twitter’da ulashish"
+      tweetText: "Talabalar va o‘qituvchilar {'@'}dbdiagram’ning Personal Pro’sini bir yil bepul oladi. Men ham hozirgina oldim. Maktab pochtangiz bilan ariza bering:"
+    form:
+      heading: "Litsenziya uchun ariza berish"
+      applyingAs: "Ariza beruvchi"
+      wrongAccount: "Biz hisobingiz elektron pochtasini tekshiramiz, shuning uchun maktab yoki universitet hisobingiz bilan ariza bering."
+      nameLabel: "To‘liq ism"
+      roleLabel: "Siz"
+      institutionLabel: "Maktab yoki universitet"
+      thoughtsLabel: "Bizga aytmoqchi bo‘lgan narsangiz bormi?"
+      thoughtsHint: "Ixtiyoriy. Nima yaratyapsiz, bu qanday kurs, dbdiagram’da nima yetishmaydi?"
+      thoughtsPlaceholder: "Ikkinchi kurs ma’lumotlar bazalari kursi uchun kutubxona tizimini modellashtirish."
+      submit: "Hozir ariza berish"
+      submitting: "Yuborilmoqda"
+      roles:
+        student: "Talaba"
+        teacher: "O‘qituvchi yoki ustoz"
+        researcher: "Tadqiqotchi"
+      target:
+        heading: "Yangilanadigan ish maydoni"
+        loading: "Ish maydonlaringiz yuklanmoqda"
+        placeholder: "Ish maydonini tanlang"
+        retry: "Qayta urinish"
+        single: "Personal Pro {name} ish maydoniga qo‘llaniladi."
+        singleLegacyPersonal: "Personal Pro shaxsiy ish maydoningizga qo‘llaniladi."
+        legacyPersonalLabel: "Shaxsiy ish maydoni"
+        createsNew: "Biz siz uchun yangi bepul ish maydoni yaratamiz va unga Personal Pro’ni qo‘llaymiz."
+    status:
+      statusLabel: "Holat"
+      expiresOn: "{date} sanasida tugaydi"
+      reviewNoteLabel: "Ko‘rsatilgan sabab"
+      pending:
+        label: "Ko‘rib chiqilmoqda"
+        point1: "Education rejasi uchun arizangizni qabul qildik. Biroq elektron pochta domeningizni avtomatik tarzda maktabga moslashtira olmadik, shuning uchun jamoa a’zosi uni qo‘lda tekshirmoqda."
+        point2: "Bir necha ish kuni ichida sizga xat yuboramiz. Hozircha boshqa hech narsa qilishingiz shart emas."
+      approved:
+        label: "Tasdiqlandi"
+        point1: "Xushxabar, Education rejasi uchun arizangiz tasdiqlandi. Ish maydoningizni Personal Pro’ga o‘tkazmoqdamiz, bu odatda bir soatdan kam vaqt oladi."
+        point2: "Faollashishi bilan sizga xat yuboramiz."
+      active:
+        label: "Faol"
+        point1: "Ish maydoningiz Education rejasi orqali Personal Pro’da."
+        point2: "Tugashiga ikki hafta qolganda sizga eslatamiz. Tugagach, qayta ariza berishingiz mumkin."
+      expired:
+        label: "Tugadi"
+        point1: "Education rejangiz tugadi, shuning uchun ish maydoningiz bepul rejaga qaytdi. Yaratgan hamma narsangiz joyida."
+        point2: "Hali ham o‘qiyapsizmi yoki o‘qityapsizmi? Quyida qayta ariza berishingiz mumkin."
+      rejected:
+        label: "Tasdiqlanmadi"
+        point1: "Ariza berganingiz uchun rahmat. Afsuski, maktab yoki universitet bilan aloqangizni tasdiqlay olmadik."
+        point2: "Agar xato qildik deb o‘ylasangiz, yuborgan xatimizga aloqangizni ko‘rsatadigan hujjat bilan javob bering, biz yana ko‘rib chiqamiz."
+      revoked:
+        label: "Bekor qilindi"
+        point1: "Education rejangizni bekor qildik, shuning uchun ish maydoningiz endi u orqali Personal Pro’da emas."
+        point2: "Agar bu xato deb o‘ylasangiz, biz bilan bog‘laning, biz yana ko‘rib chiqamiz."
+    errors:
+      loadFailed: "Education litsenziyangiz holatini yuklab bo‘lmadi. Qayta urinish uchun sahifani yangilang."
+      targetsFailed: "Ish maydonlaringizni yuklab bo‘lmadi. Qayta urinib ko‘ring."
+      submitFailed: "So‘rovingizni yuborib bo‘lmadi. Iltimos, qayta urinib ko‘ring."

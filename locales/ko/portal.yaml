@@ -105,3 +105,76 @@ portal:
     pageMustBeOpened: 이 페이지는 애플리케이션에서 열어야 합니다.                       # OAuth error
     unsupportedParameter: 지원되지 않는 {message} 매개변수          # OAuth error
     unexpectedError: 예상치 못한 오류        # OAuth error
+  education:
+    pageTitle: "교육용 dbdiagram"
+    intro: "dbdiagram과 dbdocs로 공부하거나 가르치는 모든 분께 Personal Pro를 1년 동안 무료로 제공합니다."
+    benefits:
+      renew: "1년 후에도 학교나 대학에 재학 중이신가요? 갱신하려면 다시 신청하세요."
+      features: "무제한 다이어그램과 문서, 고급 시각화, 협업 기능."
+      featuresLink: "Pro에 포함된 모든 기능 보기"
+      reminder: "1년이 끝나기 2주 전에 알려 드립니다. 종료되면 다시 신청할 수 있습니다."
+    signIn:
+      note: "신청하려면 학교 또는 대학 이메일로 로그인하세요."
+      cta: "지금 신청"
+    share:
+      heading: "공부하거나 가르치는 지인이 있나요?"
+      body: "무료 Education 플랜을 반 친구, 선생님 또는 강사와 공유하세요."
+      cta: "Twitter에 공유"
+      tweetText: "학생과 교사는 {'@'}dbdiagram의 Personal Pro를 1년 동안 무료로 이용할 수 있어요. 저도 방금 받았어요. 학교 이메일로 신청해 보세요:"
+    form:
+      heading: "라이선스 신청"
+      applyingAs: "신청 계정"
+      wrongAccount: "계정 이메일을 확인하므로 학교 또는 대학 계정으로 신청하세요."
+      nameLabel: "이름"
+      roleLabel: "귀하는"
+      institutionLabel: "학교 또는 대학"
+      thoughtsLabel: "전하고 싶은 말씀이 있나요?"
+      thoughtsHint: "선택 사항. 무엇을 만들고 있나요? 어떤 수업인가요? dbdiagram에 부족한 점은 무엇인가요?"
+      thoughtsPlaceholder: "2학년 데이터베이스 수업을 위한 도서관 시스템 모델링."
+      submit: "지금 신청"
+      submitting: "제출 중"
+      roles:
+        student: "학생"
+        teacher: "교사 또는 강사"
+        researcher: "연구자"
+      target:
+        heading: "업그레이드할 워크스페이스"
+        loading: "워크스페이스를 불러오는 중"
+        placeholder: "워크스페이스를 선택하세요"
+        retry: "다시 시도"
+        single: "Personal Pro가 {name}에 적용됩니다."
+        singleLegacyPersonal: "Personal Pro가 개인 워크스페이스에 적용됩니다."
+        legacyPersonalLabel: "개인 워크스페이스"
+        createsNew: "새 무료 워크스페이스를 만들어 Personal Pro를 적용합니다."
+    status:
+      statusLabel: "상태"
+      expiresOn: "{date}에 만료"
+      reviewNoteLabel: "제시된 사유"
+      pending:
+        label: "검토 중"
+        point1: "Education 플랜 신청서를 받았습니다. 다만 이메일 도메인을 학교와 자동으로 대조하지 못해 담당자가 직접 확인하고 있습니다."
+        point2: "영업일 기준 며칠 내에 이메일로 안내해 드립니다. 지금은 따로 하실 일이 없습니다."
+      approved:
+        label: "승인됨"
+        point1: "좋은 소식입니다. Education 플랜 신청이 승인되었습니다. 워크스페이스를 Personal Pro로 전환하고 있으며, 보통 1시간 이내에 완료됩니다."
+        point2: "활성화되는 즉시 이메일로 알려 드립니다."
+      active:
+        label: "활성"
+        point1: "워크스페이스가 Education 플랜을 통해 Personal Pro를 사용 중입니다."
+        point2: "종료 2주 전에 알려 드립니다. 종료되면 다시 신청할 수 있습니다."
+      expired:
+        label: "종료됨"
+        point1: "Education 플랜이 종료되어 워크스페이스가 무료 플랜으로 돌아갔습니다. 만든 모든 것은 그대로 남아 있습니다."
+        point2: "아직 공부하거나 가르치고 계신가요? 아래에서 다시 신청할 수 있습니다."
+      rejected:
+        label: "승인되지 않음"
+        point1: "신청해 주셔서 감사합니다. 안타깝게도 학교 또는 대학과의 관계를 확인할 수 없었습니다."
+        point2: "저희가 잘못 판단했다고 생각하시면, 보내 드린 이메일에 관계를 증명할 자료를 첨부해 회신해 주세요. 다시 검토하겠습니다."
+      revoked:
+        label: "취소됨"
+        point1: "Education 플랜이 취소되어 워크스페이스는 더 이상 이 플랜을 통한 Personal Pro가 아닙니다."
+        point2: "실수라고 생각되시면 문의해 주세요. 다시 검토하겠습니다."
+    errors:
+      loadFailed: "교육 라이선스 상태를 불러오지 못했습니다. 새로고침하여 다시 시도하세요."
+      targetsFailed: "워크스페이스를 불러오지 못했습니다. 다시 시도하세요."
+      submitFailed: "요청을 제출하지 못했습니다. 다시 시도해 주세요."
