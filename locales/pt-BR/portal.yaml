@@ -105,3 +105,76 @@ portal:
     pageMustBeOpened: Esta página deve ser aberta pelo aplicativo.
     unsupportedParameter: Parâmetro {message} não suportado
     unexpectedError: Erro inesperado
+  education:
+    pageTitle: "dbdiagram para Educação"
+    intro: "Personal Pro grátis por um ano, para qualquer pessoa que estude ou ensine com o dbdiagram e o dbdocs."
+    benefits:
+      renew: "Ainda está em uma escola ou universidade após um ano? Solicite novamente para renovar."
+      features: "Diagramas e documentos ilimitados, visualização avançada e colaboração."
+      featuresLink: "Veja tudo o que o Pro inclui"
+      reminder: "Vamos avisar você duas semanas antes de o seu ano terminar. Depois que terminar, você poderá solicitar novamente."
+    signIn:
+      note: "Entre com o e-mail da sua escola ou universidade para solicitar."
+      cta: "Solicitar agora"
+    share:
+      heading: "Conhece alguém que estuda ou ensina?"
+      body: "Compartilhe o plano Education gratuito com colegas, professores ou docentes."
+      cta: "Compartilhar no Twitter"
+      tweetText: "Estudantes e professores ganham o Personal Pro do {'@'}dbdiagram grátis por um ano. Acabei de pegar o meu. Solicite com o e-mail da sua escola:"
+    form:
+      heading: "Solicitar uma licença"
+      applyingAs: "Solicitando como"
+      wrongAccount: "Verificamos o e-mail da sua conta, então solicite com a conta da sua escola ou universidade."
+      nameLabel: "Nome completo"
+      roleLabel: "Você é"
+      institutionLabel: "Escola ou universidade"
+      thoughtsLabel: "Algo que você gostaria de nos contar?"
+      thoughtsHint: "Opcional. O que você está criando, qual é o curso, o que falta no dbdiagram?"
+      thoughtsPlaceholder: "Modelagem de um sistema de biblioteca para um curso de bancos de dados do segundo ano."
+      submit: "Solicitar agora"
+      submitting: "Enviando"
+      roles:
+        student: "Estudante"
+        teacher: "Professor ou docente"
+        researcher: "Pesquisador"
+      target:
+        heading: "Espaço de Trabalho a atualizar"
+        loading: "Carregando seus Espaços de Trabalho"
+        placeholder: "Selecione um Espaço de Trabalho"
+        retry: "Tentar novamente"
+        single: "O Personal Pro será aplicado a {name}."
+        singleLegacyPersonal: "O Personal Pro será aplicado ao seu Espaço de Trabalho pessoal."
+        legacyPersonalLabel: "Espaço de Trabalho pessoal"
+        createsNew: "Vamos criar um novo Espaço de Trabalho gratuito para você e aplicar o Personal Pro nele."
+    status:
+      statusLabel: "Status"
+      expiresOn: "Expira em {date}"
+      reviewNoteLabel: "Motivo informado"
+      pending:
+        label: "Em análise"
+        point1: "Recebemos sua solicitação para o plano Education. No entanto, não conseguimos associar automaticamente o domínio do seu e-mail a uma escola, então um membro da equipe está verificando manualmente."
+        point2: "Enviaremos um e-mail em alguns dias úteis. Por enquanto, você não precisa fazer mais nada."
+      approved:
+        label: "Aprovada"
+        point1: "Boas notícias, sua solicitação para o plano Education foi aprovada. Estamos mudando seu Espaço de Trabalho para o Personal Pro, o que costuma levar menos de uma hora."
+        point2: "Enviaremos um e-mail assim que estiver ativo."
+      active:
+        label: "Ativo"
+        point1: "Seu Espaço de Trabalho está no Personal Pro por meio do plano Education."
+        point2: "Vamos avisar você duas semanas antes de terminar. Depois que terminar, você poderá solicitar novamente."
+      expired:
+        label: "Encerrado"
+        point1: "Seu plano Education foi encerrado, então seu Espaço de Trabalho voltou ao plano gratuito. Tudo o que você criou continua lá."
+        point2: "Ainda estuda ou ensina? Você pode solicitar novamente abaixo."
+      rejected:
+        label: "Não aprovada"
+        point1: "Obrigado por solicitar. Infelizmente, não conseguimos confirmar seu vínculo com uma escola ou universidade."
+        point2: "Se você acha que erramos, responda ao e-mail que enviamos com algo que comprove seu vínculo e vamos analisar novamente."
+      revoked:
+        label: "Revogado"
+        point1: "Revogamos seu plano Education, então seu Espaço de Trabalho não está mais no Personal Pro por meio dele."
+        point2: "Se você acha que é um engano, entre em contato e vamos analisar novamente."
+    errors:
+      loadFailed: "Não foi possível carregar o status da sua licença Education. Atualize a página para tentar novamente."
+      targetsFailed: "Não foi possível carregar seus Espaços de Trabalho. Tente novamente."
+      submitFailed: "Não foi possível enviar sua solicitação. Tente novamente."

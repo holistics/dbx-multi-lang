@@ -105,3 +105,76 @@ portal:
     pageMustBeOpened: Bu sayfa uygulama içinden açılmalıdır. # OAuth error
     unsupportedParameter: Desteklenmeyen {message} parametresi # OAuth error
     unexpectedError: Beklenmeyen hata # OAuth error
+  education:
+    pageTitle: "Eğitim için dbdiagram"
+    intro: "dbdiagram ve dbdocs ile okuyan veya öğreten herkes için bir yıl boyunca ücretsiz Personal Pro."
+    benefits:
+      renew: "Bir yıl sonra hâlâ bir okulda veya üniversitede misiniz? Yenilemek için tekrar başvurun."
+      features: "Sınırsız diyagram ve doküman, gelişmiş görselleştirme ve iş birliği."
+      featuresLink: "Pro’nun içerdiği her şeyi görün"
+      reminder: "Yılınız dolmadan iki hafta önce size hatırlatacağız. Sona erdiğinde tekrar başvurabilirsiniz."
+    signIn:
+      note: "Başvurmak için okul veya üniversite e-postanızla giriş yapın."
+      cta: "Şimdi başvur"
+    share:
+      heading: "Okuyan veya öğreten birini tanıyor musunuz?"
+      body: "Ücretsiz Education planını sınıf arkadaşlarınız, öğretmenleriniz veya öğretim görevlilerinizle paylaşın."
+      cta: "Twitter’da paylaş"
+      tweetText: "Öğrenciler ve öğretmenler {'@'}dbdiagram Personal Pro’yu bir yıl boyunca ücretsiz alıyor. Ben de yeni aldım. Okul e-postanızla başvurun:"
+    form:
+      heading: "Lisans için başvur"
+      applyingAs: "Şu kişi olarak başvuruluyor"
+      wrongAccount: "Hesap e-postanızı kontrol ediyoruz, bu yüzden okul veya üniversite hesabınızla başvurun."
+      nameLabel: "Ad soyad"
+      roleLabel: "Siz bir"
+      institutionLabel: "Okul veya üniversite"
+      thoughtsLabel: "Bize söylemek istediğiniz bir şey var mı?"
+      thoughtsHint: "İsteğe bağlı. Ne geliştiriyorsunuz, ders nedir, dbdiagram’da neler eksik?"
+      thoughtsPlaceholder: "İkinci sınıf veri tabanları dersi için bir kütüphane sistemi modelleme."
+      submit: "Şimdi başvur"
+      submitting: "Gönderiliyor"
+      roles:
+        student: "Öğrenci"
+        teacher: "Öğretmen veya öğretim görevlisi"
+        researcher: "Araştırmacı"
+      target:
+        heading: "Yükseltilecek çalışma alanı"
+        loading: "Çalışma alanlarınız yükleniyor"
+        placeholder: "Bir çalışma alanı seçin"
+        retry: "Tekrar dene"
+        single: "Personal Pro, {name} çalışma alanına uygulanacak."
+        singleLegacyPersonal: "Personal Pro, kişisel çalışma alanınıza uygulanacak."
+        legacyPersonalLabel: "Kişisel çalışma alanı"
+        createsNew: "Sizin için yeni bir ücretsiz çalışma alanı oluşturacağız ve Personal Pro’yu ona uygulayacağız."
+    status:
+      statusLabel: "Durum"
+      expiresOn: "{date} tarihinde sona erer"
+      reviewNoteLabel: "Belirtilen neden"
+      pending:
+        label: "İnceleniyor"
+        point1: "Education planı başvurunuzu aldık. Ancak e-posta alan adınızı otomatik olarak bir okulla eşleştiremedik, bu yüzden ekip arkadaşımız başvurunuzu elle kontrol ediyor."
+        point2: "Birkaç iş günü içinde size e-posta göndereceğiz. Şimdilik yapmanız gereken başka bir şey yok."
+      approved:
+        label: "Onaylandı"
+        point1: "Güzel haber, Education planı başvurunuz onaylandı. Çalışma alanınızı Personal Pro’ya geçiriyoruz, bu genellikle bir saatten kısa sürer."
+        point2: "Etkinleştiği anda size e-posta göndereceğiz."
+      active:
+        label: "Etkin"
+        point1: "Çalışma alanınız Education planı sayesinde Personal Pro’da."
+        point2: "Sona ermeden iki hafta önce size hatırlatacağız. Sona erdiğinde tekrar başvurabilirsiniz."
+      expired:
+        label: "Sona erdi"
+        point1: "Education planınız sona erdi, bu nedenle çalışma alanınız ücretsiz plana döndü. Oluşturduğunuz her şey hâlâ duruyor."
+        point2: "Hâlâ okuyor veya öğretiyor musunuz? Aşağıdan tekrar başvurabilirsiniz."
+      rejected:
+        label: "Onaylanmadı"
+        point1: "Başvurduğunuz için teşekkürler. Maalesef bir okul veya üniversiteyle bağlantınızı doğrulayamadık."
+        point2: "Yanıldığımızı düşünüyorsanız, size gönderdiğimiz e-postayı bağlantınızı gösteren bir belgeyle yanıtlayın, tekrar inceleyelim."
+      revoked:
+        label: "İptal edildi"
+        point1: "Education planınızı iptal ettik, bu nedenle çalışma alanınız artık onun sayesinde Personal Pro’da değil."
+        point2: "Bunun bir hata olduğunu düşünüyorsanız lütfen bizimle iletişime geçin, tekrar inceleyelim."
+    errors:
+      loadFailed: "Education lisans durumunuz yüklenemedi. Tekrar denemek için sayfayı yenileyin."
+      targetsFailed: "Çalışma alanlarınız yüklenemedi. Tekrar deneyin."
+      submitFailed: "Talebiniz gönderilemedi. Lütfen tekrar deneyin."

@@ -81,3 +81,76 @@ portal:
     pageMustBeOpened: このページはアプリケーションから開く必要があります。
     unsupportedParameter: サポートされていない {message} パラメーター
     unexpectedError: 予期しないエラー
+  education:
+    pageTitle: "教育機関向け dbdiagram"
+    intro: "dbdiagram と dbdocs で学ぶ方・教える方なら誰でも、Personal Pro を1年間無料でご利用いただけます。"
+    benefits:
+      renew: "1年後も学校や大学に在籍していますか？更新するには再度お申し込みください。"
+      features: "無制限の図とドキュメント、高度な可視化、コラボレーション。"
+      featuresLink: "Pro に含まれるすべての機能を見る"
+      reminder: "1年の期限が切れる2週間前にお知らせします。期限が切れたら、再度お申し込みいただけます。"
+    signIn:
+      note: "お申し込みには、学校または大学のメールアドレスでサインインしてください。"
+      cta: "今すぐ申し込む"
+    share:
+      heading: "学んでいる人や教えている人を知っていますか？"
+      body: "無料の Education プランを、クラスメイトや先生、講師と共有しましょう。"
+      cta: "Twitter で共有"
+      tweetText: "学生と教員は {'@'}dbdiagram の Personal Pro を1年間無料で利用できます。私も受け取りました。学校のメールアドレスで申し込みましょう："
+    form:
+      heading: "ライセンスを申し込む"
+      applyingAs: "申し込みアカウント"
+      wrongAccount: "アカウントのメールアドレスを確認するため、学校または大学のアカウントで申し込んでください。"
+      nameLabel: "氏名"
+      roleLabel: "あなたは"
+      institutionLabel: "学校または大学"
+      thoughtsLabel: "お伝えいただけることがあればご記入ください"
+      thoughtsHint: "任意。何を作っていますか？どんな授業ですか？dbdiagram に足りないものは何ですか？"
+      thoughtsPlaceholder: "2年次のデータベース講義向けに、図書館システムをモデリングしています。"
+      submit: "今すぐ申し込む"
+      submitting: "送信中"
+      roles:
+        student: "学生"
+        teacher: "教員または講師"
+        researcher: "研究者"
+      target:
+        heading: "アップグレードするワークスペース"
+        loading: "ワークスペースを読み込み中"
+        placeholder: "ワークスペースを選択"
+        retry: "再試行"
+        single: "Personal Pro は {name} に適用されます。"
+        singleLegacyPersonal: "Personal Pro は個人用ワークスペースに適用されます。"
+        legacyPersonalLabel: "個人用ワークスペース"
+        createsNew: "新しい無料ワークスペースを作成し、そこに Personal Pro を適用します。"
+    status:
+      statusLabel: "ステータス"
+      expiresOn: "有効期限：{date}"
+      reviewNoteLabel: "理由"
+      pending:
+        label: "審査中"
+        point1: "Education プランのお申し込みを受け付けました。ただし、メールのドメインを学校と自動的に照合できなかったため、担当者が手動で確認しています。"
+        point2: "数営業日以内にメールでご連絡します。今のところ、ほかに必要な操作はありません。"
+      approved:
+        label: "承認済み"
+        point1: "朗報です。Education プランのお申し込みが承認されました。ワークスペースを Personal Pro に切り替えています。通常は1時間以内に完了します。"
+        point2: "有効になり次第、メールでお知らせします。"
+      active:
+        label: "有効"
+        point1: "ワークスペースは Education プランにより Personal Pro をご利用中です。"
+        point2: "終了の2週間前にお知らせします。終了後は、再度お申し込みいただけます。"
+      expired:
+        label: "終了"
+        point1: "Education プランが終了したため、ワークスペースは無料プランに戻りました。作成したものはすべてそのまま残っています。"
+        point2: "まだ学んでいる、または教えていますか？下から再度お申し込みいただけます。"
+      rejected:
+        label: "承認されませんでした"
+        point1: "お申し込みありがとうございます。残念ながら、学校または大学との関係を確認できませんでした。"
+        point2: "誤りだと思われる場合は、送信したメールに関係を示す資料を添えて返信してください。再度確認いたします。"
+      revoked:
+        label: "取り消し済み"
+        point1: "Education プランを取り消したため、ワークスペースはこのプランによる Personal Pro ではなくなりました。"
+        point2: "誤りだと思われる場合は、ご連絡ください。再度確認いたします。"
+    errors:
+      loadFailed: "教育ライセンスのステータスを読み込めませんでした。ページを更新して再試行してください。"
+      targetsFailed: "ワークスペースを読み込めませんでした。もう一度お試しください。"
+      submitFailed: "リクエストを送信できませんでした。もう一度お試しください。"

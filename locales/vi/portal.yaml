@@ -71,3 +71,76 @@ portal:
     pageMustBeOpened: Trang này phải được mở từ ứng dụng.
     unsupportedParameter: Tham số {message} không được hỗ trợ
     unexpectedError: Lỗi không mong muốn
+  education:
+    pageTitle: "dbdiagram dành cho Giáo dục"
+    intro: "Personal Pro miễn phí trong một năm cho bất kỳ ai học tập hoặc giảng dạy với dbdiagram và dbdocs."
+    benefits:
+      renew: "Vẫn đang học ở trường hoặc đại học sau một năm? Đăng ký lại để gia hạn."
+      features: "Không giới hạn sơ đồ và tài liệu, trực quan hóa nâng cao và cộng tác."
+      featuresLink: "Xem mọi tính năng của Pro"
+      reminder: "Chúng tôi sẽ nhắc bạn hai tuần trước khi hết một năm. Sau khi hết hạn, bạn có thể đăng ký lại."
+    signIn:
+      note: "Đăng nhập bằng email trường học hoặc đại học của bạn để đăng ký."
+      cta: "Đăng ký ngay"
+    share:
+      heading: "Bạn biết ai đang học hoặc giảng dạy không?"
+      body: "Chia sẻ gói Education miễn phí với bạn cùng lớp, giáo viên hoặc giảng viên."
+      cta: "Chia sẻ trên Twitter"
+      tweetText: "Sinh viên và giảng viên được dùng Personal Pro của {'@'}dbdiagram miễn phí trong một năm. Mình vừa nhận được rồi. Đăng ký bằng email trường của bạn:"
+    form:
+      heading: "Đăng ký giấy phép"
+      applyingAs: "Đăng ký với tư cách"
+      wrongAccount: "Chúng tôi kiểm tra email tài khoản của bạn, vì vậy hãy đăng ký bằng tài khoản trường học hoặc đại học."
+      nameLabel: "Họ và tên"
+      roleLabel: "Bạn là"
+      institutionLabel: "Trường học hoặc đại học"
+      thoughtsLabel: "Bạn muốn nói gì với chúng tôi?"
+      thoughtsHint: "Không bắt buộc. Bạn đang xây dựng gì, khóa học là gì, dbdiagram còn thiếu gì?"
+      thoughtsPlaceholder: "Mô hình hóa hệ thống thư viện cho khóa học cơ sở dữ liệu năm hai."
+      submit: "Đăng ký ngay"
+      submitting: "Đang gửi"
+      roles:
+        student: "Sinh viên"
+        teacher: "Giáo viên hoặc giảng viên"
+        researcher: "Nhà nghiên cứu"
+      target:
+        heading: "Không gian làm việc cần nâng cấp"
+        loading: "Đang tải các không gian làm việc của bạn"
+        placeholder: "Chọn một không gian làm việc"
+        retry: "Thử lại"
+        single: "Personal Pro sẽ được áp dụng cho {name}."
+        singleLegacyPersonal: "Personal Pro sẽ được áp dụng cho Không gian làm việc cá nhân của bạn."
+        legacyPersonalLabel: "Không gian làm việc cá nhân"
+        createsNew: "Chúng tôi sẽ tạo một không gian làm việc miễn phí mới cho bạn và áp dụng Personal Pro cho không gian đó."
+    status:
+      statusLabel: "Trạng thái"
+      expiresOn: "Hết hạn vào {date}"
+      reviewNoteLabel: "Lý do được nêu"
+      pending:
+        label: "Đang xem xét"
+        point1: "Chúng tôi đã nhận được đơn đăng ký gói Education của bạn. Tuy nhiên, chúng tôi không thể tự động khớp tên miền email của bạn với một trường học, nên một đồng nghiệp đang kiểm tra thủ công."
+        point2: "Chúng tôi sẽ gửi email cho bạn trong vài ngày làm việc. Hiện tại bạn không cần làm gì thêm."
+      approved:
+        label: "Đã duyệt"
+        point1: "Tin vui, đơn đăng ký gói Education của bạn đã được duyệt. Chúng tôi đang chuyển không gian làm việc của bạn sang Personal Pro, thường mất chưa đến một giờ."
+        point2: "Chúng tôi sẽ gửi email cho bạn ngay khi gói được kích hoạt."
+      active:
+        label: "Đang hoạt động"
+        point1: "Không gian làm việc của bạn đang dùng Personal Pro thông qua gói Education."
+        point2: "Chúng tôi sẽ nhắc bạn hai tuần trước khi hết hạn. Sau khi hết hạn, bạn có thể đăng ký lại."
+      expired:
+        label: "Đã kết thúc"
+        point1: "Gói Education của bạn đã kết thúc nên không gian làm việc của bạn đã quay về gói miễn phí. Mọi thứ bạn đã tạo vẫn còn nguyên."
+        point2: "Vẫn đang học hoặc giảng dạy? Bạn có thể đăng ký lại bên dưới."
+      rejected:
+        label: "Không được duyệt"
+        point1: "Cảm ơn bạn đã đăng ký. Rất tiếc, chúng tôi không thể xác nhận mối liên hệ của bạn với một trường học hoặc đại học."
+        point2: "Nếu bạn cho rằng chúng tôi nhầm, hãy trả lời email chúng tôi đã gửi kèm tài liệu chứng minh mối liên hệ của bạn, chúng tôi sẽ xem xét lại."
+      revoked:
+        label: "Đã thu hồi"
+        point1: "Chúng tôi đã thu hồi gói Education của bạn, nên không gian làm việc của bạn không còn dùng Personal Pro thông qua gói này."
+        point2: "Nếu bạn cho rằng đây là nhầm lẫn, vui lòng liên hệ với chúng tôi và chúng tôi sẽ xem xét lại."
+    errors:
+      loadFailed: "Không thể tải trạng thái giấy phép giáo dục của bạn. Hãy làm mới trang để thử lại."
+      targetsFailed: "Không thể tải các không gian làm việc của bạn. Hãy thử lại."
+      submitFailed: "Không thể gửi yêu cầu của bạn. Vui lòng thử lại."

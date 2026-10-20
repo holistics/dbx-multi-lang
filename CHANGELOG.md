@@ -1,6 +1,10 @@
 2# Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.5.7 (Oct 20, 2026)
+### Misc
+* Add copywriting for education
+
 ## v1.5.6 (Oct 15, 2026)
 ### Misc
 * Add copywriting for AI large diagram warnings
@@ -15,7 +19,7 @@ All notable changes to this project will be documented in this file.
 
 ## v1.5.3 (Oct 6, 2026)
 ### Misc
-* Add workspace sidebar trasnlation
+* Add workspace sidebar translation
 
 ## v1.5.2 (Sep 29, 2026)
 ### Misc
