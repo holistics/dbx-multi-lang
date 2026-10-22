@@ -1,5 +1,9 @@
-2# Changelog
+# Changelog
 All notable changes to this project will be documented in this file.
+
+## v1.5.8 (Oct 22, 2026)
+### Misc
+* Add copywriting for education's follow section
 
 ## v1.5.7 (Oct 20, 2026)
 ### Misc

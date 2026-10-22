@@ -119,8 +119,13 @@ portal:
     share:
       heading: "공부하거나 가르치는 지인이 있나요?"
       body: "무료 Education 플랜을 반 친구, 선생님 또는 강사와 공유하세요."
-      cta: "Twitter에 공유"
+      cta: "X에 공유"
       tweetText: "학생과 교사는 {'@'}dbdiagram의 Personal Pro를 1년 동안 무료로 이용할 수 있어요. 저도 방금 받았어요. 학교 이메일로 신청해 보세요:"
+    follow:
+      heading: "dbdiagram 응원하기"
+      body: "X와 LinkedIn에서 팔로우하고 소식과 기능 업데이트를 받아보세요."
+      xCta: "X에서 팔로우"
+      linkedinCta: "LinkedIn에서 팔로우"
     form:
       heading: "라이선스 신청"
       applyingAs: "신청 계정"

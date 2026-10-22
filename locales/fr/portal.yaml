@@ -119,8 +119,13 @@ portal:
     share:
       heading: "Vous connaissez quelqu’un qui étudie ou enseigne ?"
       body: "Partagez le plan Education gratuit avec vos camarades, enseignants ou professeurs."
-      cta: "Partager sur Twitter"
+      cta: "Partager sur X"
       tweetText: "Les étudiants et les enseignants obtiennent Personal Pro de {'@'}dbdiagram gratuitement pendant un an. Je viens d’obtenir le mien. Faites votre demande avec votre e-mail scolaire :"
+    follow:
+      heading: "Soutenez dbdiagram"
+      body: "Suivez-nous sur X et LinkedIn pour recevoir les actualités et les mises à jour des fonctionnalités."
+      xCta: "Suivre sur X"
+      linkedinCta: "Suivre sur LinkedIn"
     form:
       heading: "Demander une licence"
       applyingAs: "Demande faite en tant que"
