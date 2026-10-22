@@ -95,8 +95,13 @@ portal:
     share:
       heading: "学んでいる人や教えている人を知っていますか？"
       body: "無料の Education プランを、クラスメイトや先生、講師と共有しましょう。"
-      cta: "Twitter で共有"
+      cta: "X で共有"
       tweetText: "学生と教員は {'@'}dbdiagram の Personal Pro を1年間無料で利用できます。私も受け取りました。学校のメールアドレスで申し込みましょう："
+    follow:
+      heading: "dbdiagram を応援する"
+      body: "X と LinkedIn でフォローして、最新ニュースや機能アップデートを受け取りましょう。"
+      xCta: "X でフォロー"
+      linkedinCta: "LinkedIn でフォロー"
     form:
       heading: "ライセンスを申し込む"
       applyingAs: "申し込みアカウント"

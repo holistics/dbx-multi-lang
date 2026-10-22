@@ -85,8 +85,13 @@ portal:
     share:
       heading: "Bạn biết ai đang học hoặc giảng dạy không?"
       body: "Chia sẻ gói Education miễn phí với bạn cùng lớp, giáo viên hoặc giảng viên."
-      cta: "Chia sẻ trên Twitter"
+      cta: "Chia sẻ trên X"
       tweetText: "Sinh viên và giảng viên được dùng Personal Pro của {'@'}dbdiagram miễn phí trong một năm. Mình vừa nhận được rồi. Đăng ký bằng email trường của bạn:"
+    follow:
+      heading: "Ủng hộ dbdiagram"
+      body: "Theo dõi chúng tôi trên X và LinkedIn để nhận tin tức và cập nhật tính năng."
+      xCta: "Theo dõi trên X"
+      linkedinCta: "Theo dõi trên LinkedIn"
     form:
       heading: "Đăng ký giấy phép"
       applyingAs: "Đăng ký với tư cách"

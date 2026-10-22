@@ -119,8 +119,13 @@ portal:
     share:
       heading: "O‘qiydigan yoki o‘qitadigan tanishingiz bormi?"
       body: "Bepul Education rejasini sinfdoshlar, o‘qituvchilar yoki ustozlar bilan ulashing."
-      cta: "Twitter’da ulashish"
+      cta: "X’da ulashish"
       tweetText: "Talabalar va o‘qituvchilar {'@'}dbdiagram’ning Personal Pro’sini bir yil bepul oladi. Men ham hozirgina oldim. Maktab pochtangiz bilan ariza bering:"
+    follow:
+      heading: "dbdiagram’ni qo‘llab-quvvatlang"
+      body: "Yangiliklar va funksiya yangilanishlarini olish uchun bizni X va LinkedIn’da kuzatib boring."
+      xCta: "X’da kuzatish"
+      linkedinCta: "LinkedIn’da kuzatish"
     form:
       heading: "Litsenziya uchun ariza berish"
       applyingAs: "Ariza beruvchi"

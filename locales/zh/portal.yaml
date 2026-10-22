@@ -95,8 +95,13 @@ portal:
     share:
       heading: "认识正在学习或教学的人吗？"
       body: "将免费的 Education 方案分享给同学、老师或讲师。"
-      cta: "在 Twitter 上分享"
+      cta: "在 X 上分享"
       tweetText: "学生和教师可免费使用一年 {'@'}dbdiagram 的 Personal Pro。我刚刚领到了。请使用您的学校邮箱申请："
+    follow:
+      heading: "支持 dbdiagram"
+      body: "在 X 和 LinkedIn 上关注我们，获取最新动态和功能更新。"
+      xCta: "在 X 上关注"
+      linkedinCta: "在 LinkedIn 上关注"
     form:
       heading: "申请许可"
       applyingAs: "申请身份"

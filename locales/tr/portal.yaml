@@ -119,8 +119,13 @@ portal:
     share:
       heading: "Okuyan veya öğreten birini tanıyor musunuz?"
       body: "Ücretsiz Education planını sınıf arkadaşlarınız, öğretmenleriniz veya öğretim görevlilerinizle paylaşın."
-      cta: "Twitter’da paylaş"
+      cta: "X’te paylaş"
       tweetText: "Öğrenciler ve öğretmenler {'@'}dbdiagram Personal Pro’yu bir yıl boyunca ücretsiz alıyor. Ben de yeni aldım. Okul e-postanızla başvurun:"
+    follow:
+      heading: "dbdiagram’i destekleyin"
+      body: "Haberleri ve özellik güncellemelerini almak için bizi X ve LinkedIn’de takip edin."
+      xCta: "X’te takip et"
+      linkedinCta: "LinkedIn’de takip et"
     form:
       heading: "Lisans için başvur"
       applyingAs: "Şu kişi olarak başvuruluyor"
