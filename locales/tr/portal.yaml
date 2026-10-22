@@ -122,7 +122,7 @@ portal:
       cta: "X’te paylaş"
       tweetText: "Öğrenciler ve öğretmenler {'@'}dbdiagram Personal Pro’yu bir yıl boyunca ücretsiz alıyor. Ben de yeni aldım. Okul e-postanızla başvurun:"
     follow:
-      heading: "dbdiagram’i destekleyin"
+      heading: "dbdiagram’ı destekleyin"
       body: "Haberleri ve özellik güncellemelerini almak için bizi X ve LinkedIn’de takip edin."
       xCta: "X’te takip et"
       linkedinCta: "LinkedIn’de takip et"
