@@ -117,8 +117,6 @@ portal:
       note: "Başvurmak için okul veya üniversite e-postanızla giriş yapın."
       cta: "Şimdi başvur"
     share:
-      heading: "Okuyan veya öğreten birini tanıyor musunuz?"
-      body: "Ücretsiz Education planını sınıf arkadaşlarınız, öğretmenleriniz veya öğretim görevlilerinizle paylaşın."
       cta: "X’te paylaş"
       tweetText: "Öğrenciler ve öğretmenler {'@'}dbdiagram Personal Pro’yu bir yıl boyunca ücretsiz alıyor. Ben de yeni aldım. Okul e-postanızla başvurun:"
     follow:
@@ -138,6 +136,9 @@ portal:
       thoughtsPlaceholder: "İkinci sınıf veri tabanları dersi için bir kütüphane sistemi modelleme."
       submit: "Şimdi başvur"
       submitting: "Gönderiliyor"
+      shareLabel: "Education planını X’te paylaşın"
+      shareLinkLabel: "Gönderinizin bağlantısı"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Öğrenci"
         teacher: "Öğretmen veya öğretim görevlisi"
