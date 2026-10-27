@@ -138,6 +138,9 @@ portal:
       thoughtsPlaceholder: "Modellazione di un sistema bibliotecario per un corso di basi di dati del secondo anno."
       submit: "Richiedi ora"
       submitting: "Invio in corso"
+      shareBody: "Condividi il piano Education su X, poi incolla qui sotto il link al tuo post. Il post deve menzionare {'@'}dbdiagram."
+      shareLinkLabel: "Link al tuo post"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Studente"
         teacher: "Insegnante o docente"

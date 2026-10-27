@@ -138,6 +138,9 @@ portal:
       thoughtsPlaceholder: "Modélisation d’un système de bibliothèque pour un cours de bases de données de deuxième année."
       submit: "Faire une demande"
       submitting: "Envoi en cours"
+      shareBody: "Partagez le plan Education sur X, puis collez ci-dessous le lien de votre publication. Elle doit mentionner {'@'}dbdiagram."
+      shareLinkLabel: "Lien vers votre publication"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Étudiant"
         teacher: "Enseignant ou professeur"

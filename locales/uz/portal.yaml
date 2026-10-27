@@ -138,6 +138,9 @@ portal:
       thoughtsPlaceholder: "Ikkinchi kurs ma’lumotlar bazalari kursi uchun kutubxona tizimini modellashtirish."
       submit: "Hozir ariza berish"
       submitting: "Yuborilmoqda"
+      shareBody: "Education rejasini X’da ulashing, so‘ng postingiz havolasini quyiga joylang. Postda {'@'}dbdiagram tilga olinishi kerak."
+      shareLinkLabel: "Postingiz havolasi"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Talaba"
         teacher: "O‘qituvchi yoki ustoz"

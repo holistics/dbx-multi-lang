@@ -114,6 +114,9 @@ portal:
       thoughtsPlaceholder: "2年次のデータベース講義向けに、図書館システムをモデリングしています。"
       submit: "今すぐ申し込む"
       submitting: "送信中"
+      shareBody: "Education プランを X で共有し、投稿のリンクを下に貼り付けてください。投稿には {'@'}dbdiagram を含めてください。"
+      shareLinkLabel: "投稿のリンク"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "学生"
         teacher: "教員または講師"

@@ -114,6 +114,9 @@ portal:
       thoughtsPlaceholder: "为大二数据库课程设计图书馆系统模型。"
       submit: "立即申请"
       submitting: "提交中"
+      shareBody: "请在 X 上分享 Education 方案，然后将帖子链接粘贴到下方。帖子必须提及 {'@'}dbdiagram。"
+      shareLinkLabel: "您的帖子链接"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "学生"
         teacher: "教师或讲师"

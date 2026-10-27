@@ -138,6 +138,9 @@ portal:
       thoughtsPlaceholder: "2학년 데이터베이스 수업을 위한 도서관 시스템 모델링."
       submit: "지금 신청"
       submitting: "제출 중"
+      shareBody: "Education 플랜을 X에 공유한 뒤, 게시물 링크를 아래에 붙여 넣으세요. 게시물에 {'@'}dbdiagram이 언급되어야 합니다."
+      shareLinkLabel: "게시물 링크"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "학생"
         teacher: "교사 또는 강사"

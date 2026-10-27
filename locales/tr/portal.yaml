@@ -138,6 +138,9 @@ portal:
       thoughtsPlaceholder: "İkinci sınıf veri tabanları dersi için bir kütüphane sistemi modelleme."
       submit: "Şimdi başvur"
       submitting: "Gönderiliyor"
+      shareBody: "Education planını X’te paylaşın, ardından gönderinizin bağlantısını aşağıya yapıştırın. Gönderi {'@'}dbdiagram hesabını etiketlemelidir."
+      shareLinkLabel: "Gönderinizin bağlantısı"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Öğrenci"
         teacher: "Öğretmen veya öğretim görevlisi"

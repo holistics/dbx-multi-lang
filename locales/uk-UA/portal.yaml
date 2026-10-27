@@ -138,6 +138,9 @@ portal:
       thoughtsPlaceholder: "Моделювання бібліотечної системи для курсу баз даних другого року навчання."
       submit: "Подати заявку"
       submitting: "Надсилання"
+      shareBody: "Поділіться планом Education у X, а потім вставте нижче посилання на ваш допис. Допис має згадувати {'@'}dbdiagram."
+      shareLinkLabel: "Посилання на ваш допис"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Студент"
         teacher: "Вчитель або викладач"

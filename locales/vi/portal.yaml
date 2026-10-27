@@ -104,6 +104,9 @@ portal:
       thoughtsPlaceholder: "Mô hình hóa hệ thống thư viện cho khóa học cơ sở dữ liệu năm hai."
       submit: "Đăng ký ngay"
       submitting: "Đang gửi"
+      shareBody: "Chia sẻ gói Education trên X, rồi dán liên kết bài đăng của bạn vào bên dưới. Bài đăng phải nhắc đến {'@'}dbdiagram."
+      shareLinkLabel: "Liên kết bài đăng của bạn"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Sinh viên"
         teacher: "Giáo viên hoặc giảng viên"

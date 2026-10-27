@@ -138,6 +138,9 @@ portal:
       thoughtsPlaceholder: "Modeling a library system for a second-year databases course."
       submit: "Apply now"
       submitting: "Submitting"
+      shareBody: "Share the Education plan on X, then paste the link to your post below. Your post must mention {'@'}dbdiagram."
+      shareLinkLabel: "Link to your post"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Student"
         teacher: "Teacher or lecturer"
