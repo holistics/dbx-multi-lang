@@ -100,11 +100,11 @@ account:
       incorrectCode: "Siz kiritgan kod noto'g'ri" # Wrong OTP code
       incorrectCodeWithAttempts: Siz kiritgan kod noto'g'ri. {maxAttempts} urinishdan {attemptsLeft} tasi qoldi.
       invalidCodeFormat: Iltimos, 6 xonali kodni kiriting
-      codeExpired: "Tasdiqlash muddati tugagan. Iltimos, yangisini so'rang." # OTP expired
+      codeExpired: "Tasdiqlash kodining amal qilish muddati tugadi. Iltimos, yangisini so'rang." # OTP expired
       codeAlreadyUsed: "Bu kod allaqachon ishlatilgan. Iltimos, yangisini so'rang." # OTP already used
       requestExpired: "Tasdiqlash so'rovingizning muddati tugagan. Iltimos, yangi kod so'rang." # OTP request token expired
       sendCooldown: Yangi kod so'rashdan oldin biroz kuting.
-      locked: Oxirgi kodingiz juda ko'p noto'g'ri urinish tufayli bloklandi. Hisob tugagach, yangi kod so'rang.
+      locked: Oxirgi kodingiz juda ko'p noto'g'ri urinish tufayli bloklandi. Teskari sanoq tugagach, yangi kod so'rang.
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -182,5 +182,5 @@ account:
       incorrectCodeWithAttempts: Siz kiritgan kod noto'g'ri. {maxAttempts} urinishdan {attemptsLeft} tasi qoldi.
       invalidCodeFormat: Iltimos, 6 xonali kodni kiriting
       sendCooldown: Yangi kod so'rashdan oldin biroz kuting.
-      locked: Oxirgi kodingiz juda ko'p noto'g'ri urinish tufayli bloklandi. Hisob tugagach, yangi kod so'rang.
+      locked: Oxirgi kodingiz juda ko'p noto'g'ri urinish tufayli bloklandi. Teskari sanoq tugagach, yangi kod so'rang.
       generic: "Nimadir xato ketdi. Iltimos, qayta urinib ko'ring." # Fallback error

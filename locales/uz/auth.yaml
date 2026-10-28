@@ -51,11 +51,12 @@ auth:
       incorrectCode: Siz kiritgan kod noto'g'ri
       incorrectCodeWithAttempts: Siz kiritgan kod noto'g'ri. {maxAttempts} urinishdan {attemptsLeft} tasi qoldi.
       invalidCodeFormat: Iltimos, 6 xonali kodni kiriting
-      codeExpired: Tasdiqlash muddati tugagan. Iltimos, yangisini so'rang.
+      codeExpired: Tasdiqlash kodining amal qilish muddati tugadi. Iltimos, yangisini so'rang.
       codeAlreadyUsed: Bu kod allaqachon ishlatilgan. Iltimos, yangisini so'rang.
       requestExpired: Kirish so'rovingizning muddati tugagan. Iltimos, qaytadan boshlang.
       sendCooldown: Yangi kod so'rashdan oldin biroz kuting.
-      locked: Oxirgi kodingiz juda ko'p noto'g'ri urinish tufayli bloklandi. Hisob tugagach, yangi kod so'rang.
+      locked: Oxirgi kodingiz juda ko'p noto'g'ri urinish tufayli bloklandi. Teskari sanoq tugagach, yangi kod so'rang.
+
       generic: Nimadir xato ketdi. Iltimos, qayta urinib ko'ring.
 
   # ========================================
