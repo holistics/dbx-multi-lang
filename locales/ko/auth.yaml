@@ -46,6 +46,18 @@ auth:
     submit: 제출   # OTP submit button
     sendOtpFailed: OTP 전송에 실패했습니다. 다시 시도해 주세요!        # Error toast
 
+    # OTP error messages, picked by the API errorCode (TDD-122)
+    errors:
+      incorrectCode: 입력한 코드가 올바르지 않습니다.
+      incorrectCodeWithAttempts: 입력한 코드가 올바르지 않습니다. {maxAttempts}회 중 {attemptsLeft}회 남았습니다.
+      invalidCodeFormat: 6자리 코드를 입력하세요.
+      codeExpired: 인증 코드가 만료되었습니다. 새 코드를 요청하세요.
+      codeAlreadyUsed: 이 코드는 이미 사용되었습니다. 새 코드를 요청하세요.
+      requestExpired: 로그인 요청이 만료되었습니다. 처음부터 다시 시작하세요.
+      sendCooldown: 새 코드를 요청하기 전에 잠시 기다려 주세요.
+      locked: 잘못된 시도가 너무 많습니다. 새 코드를 요청하세요.
+      generic: 문제가 발생했습니다. 다시 시도해 주세요.
+
   # ========================================
   # SSO Login - Single Sign-On
   # ========================================

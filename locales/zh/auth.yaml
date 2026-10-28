@@ -46,6 +46,18 @@ auth:
     submit: 提交 # OTP submit button
     sendOtpFailed: 发送 OTP 失败，请重试！ # Error toast
 
+    # OTP error messages, picked by the API errorCode (TDD-122)
+    errors:
+      incorrectCode: 您输入的验证码不正确
+      incorrectCodeWithAttempts: 您输入的验证码不正确。还剩 {attemptsLeft}/{maxAttempts} 次机会。
+      invalidCodeFormat: 请输入 6 位验证码
+      codeExpired: 验证码已过期。请重新获取验证码。
+      codeAlreadyUsed: 此验证码已被使用。请重新获取验证码。
+      requestExpired: 您的登录请求已过期。请重新开始。
+      sendCooldown: 请稍候片刻再获取新的验证码。
+      locked: 错误次数过多。请重新获取验证码。
+      generic: 出了点问题。请重试。
+
   # ========================================
   # SSO Login - Single Sign-On
   # ========================================

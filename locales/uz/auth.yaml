@@ -46,6 +46,18 @@ auth:
     submit: Yuborish # OTP submit button
     sendOtpFailed: OTP yuborish amalga oshmadi, iltimos, qayta urinib ko'ring! # Error toast
 
+    # OTP error messages, picked by the API errorCode (TDD-122)
+    errors:
+      incorrectCode: Siz kiritgan kod noto'g'ri
+      incorrectCodeWithAttempts: Siz kiritgan kod noto'g'ri. {maxAttempts} urinishdan {attemptsLeft} tasi qoldi.
+      invalidCodeFormat: Iltimos, 6 xonali kodni kiriting
+      codeExpired: Tasdiqlash muddati tugagan. Iltimos, yangisini so'rang.
+      codeAlreadyUsed: Bu kod allaqachon ishlatilgan. Iltimos, yangisini so'rang.
+      requestExpired: Kirish so'rovingizning muddati tugagan. Iltimos, qaytadan boshlang.
+      sendCooldown: Yangi kod so'rashdan oldin biroz kuting.
+      locked: Juda ko'p noto'g'ri urinish. Iltimos, yangi kod so'rang.
+      generic: Nimadir xato ketdi. Iltimos, qayta urinib ko'ring.
+
   # ========================================
   # SSO Login - Single Sign-On
   # ========================================

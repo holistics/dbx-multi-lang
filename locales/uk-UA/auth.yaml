@@ -46,6 +46,18 @@ auth:
     submit: Надіслати # OTP submit button
     sendOtpFailed: Не вдалося надіслати одноразовий пароль, спробуйте ще раз! # Error toast
 
+    # OTP error messages, picked by the API errorCode (TDD-122)
+    errors:
+      incorrectCode: Введено неправильний код підтвердження
+      incorrectCodeWithAttempts: Введено неправильний код підтвердження. Залишилося {attemptsLeft} із {maxAttempts} спроб.
+      invalidCodeFormat: Введіть код із 6 цифр
+      codeExpired: Термін дії коду підтвердження минув. Надішліть запит на новий код.
+      codeAlreadyUsed: Цей код уже використано. Надішліть запит на новий код.
+      requestExpired: Термін дії вашого запиту на вхід минув. Почніть спочатку.
+      sendCooldown: Зачекайте трохи, перш ніж запитувати новий код.
+      locked: Забагато невдалих спроб. Надішліть запит на новий код.
+      generic: Щось пішло не так. Спробуйте ще раз.
+
   # ========================================
   # SSO Login - Single Sign-On
   # ========================================

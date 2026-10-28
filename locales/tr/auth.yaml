@@ -46,6 +46,18 @@ auth:
     submit: Gönder # OTP submit button
     sendOtpFailed: OTP gönderme başarısız, lütfen tekrar deneyin! # Error toast
 
+    # OTP error messages, picked by the API errorCode (TDD-122)
+    errors:
+      incorrectCode: Girilen kod yanlış
+      incorrectCodeWithAttempts: Girilen kod yanlış. {maxAttempts} denemeden {attemptsLeft} tanesi kaldı.
+      invalidCodeFormat: Lütfen 6 haneli kodu girin
+      codeExpired: Doğrulama kodu süresi doldu. Lütfen yeni bir kod isteyin.
+      codeAlreadyUsed: Bu kod zaten kullanılmış. Lütfen yeni bir kod isteyin.
+      requestExpired: Oturum açma isteğinizin süresi doldu. Lütfen baştan başlayın.
+      sendCooldown: Yeni bir kod istemeden önce lütfen biraz bekleyin.
+      locked: Çok fazla hatalı deneme. Lütfen yeni bir kod isteyin.
+      generic: Bir hata oluştu. Lütfen tekrar deneyin.
+
   # ========================================
   # SSO Login - Single Sign-On
   # ========================================

@@ -46,6 +46,18 @@ auth:
     submit: 送信 # OTP submit button
     sendOtpFailed: OTP の送信に失敗しました。もう一度お試しください！ # Error toast
 
+    # OTP error messages, picked by the API errorCode (TDD-122)
+    errors:
+      incorrectCode: 入力したコードが正しくありません
+      incorrectCodeWithAttempts: 入力したコードが正しくありません。残り {attemptsLeft}/{maxAttempts} 回です。
+      invalidCodeFormat: 6 桁のコードを入力してください
+      codeExpired: 確認コードの有効期限が切れました。新しいコードをリクエストしてください。
+      codeAlreadyUsed: このコードは既に使用されています。新しいコードをリクエストしてください。
+      requestExpired: ログインリクエストの有効期限が切れました。最初からやり直してください。
+      sendCooldown: 新しいコードをリクエストする前に少しお待ちください。
+      locked: 誤った入力が多すぎます。新しいコードをリクエストしてください。
+      generic: 問題が発生しました。もう一度お試しください。
+
   # ========================================
   # SSO Login - Single Sign-On
   # ========================================
