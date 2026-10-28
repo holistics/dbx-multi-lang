@@ -118,6 +118,7 @@ account:
       description: Por seguridad, debes verificar tu correo electrónico actual mediante OTP para cambiarlo. # Step 1 description
       currentEmailLabel: "Correo electrónico actual:" # Label before current email address
       sendCode: Enviar código # Send OTP button
+      sendCodeCooldown: "Enviar código ({seconds}s)" # Send button with cooldown timer
       otpSentMessage: Enviamos un código de 6 dígitos a tu correo electrónico. El código expira en 4 minutos. # OTP sent info text
       verificationCode: Código de verificación # OTP input label
       resendCode: Reenviar código # Resend button label
@@ -169,4 +170,8 @@ account:
       requestExpired: Tu solicitud de verificación ha expirado. Por favor, solicita un nuevo código. # OTP request token expired
       emailInUse: Este correo electrónico ya está en uso por otra cuenta # Duplicate email
       verificationExpired: Tu verificación ha expirado. Por favor, comienza de nuevo. # Verification token expired
+      incorrectCodeWithAttempts: El código que ingresaste es incorrecto. Te quedan {attemptsLeft} de {maxAttempts} intentos.
+      invalidCodeFormat: Por favor, ingresa el código de 6 dígitos
+      sendCooldown: Por favor, espera un momento antes de solicitar otro código.
+      locked: Demasiados intentos incorrectos. Por favor, solicita un nuevo código.
       generic: Algo salió mal. Por favor, inténtalo de nuevo. # Fallback error

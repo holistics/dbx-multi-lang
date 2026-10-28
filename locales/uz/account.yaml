@@ -118,6 +118,7 @@ account:
       description: "Xavfsizlik maqsadida, uni o'zgartirish uchun joriy elektron pochtangizni OTP orqali tasdiqlashingiz kerak." # Step 1 description
       currentEmailLabel: "Joriy elektron pochta:" # Label before current email address
       sendCode: Kodni yuborish # Send OTP button
+      sendCodeCooldown: "Kodni yuborish ({seconds}s)" # Send button with cooldown timer
       otpSentMessage: Pochtangizga 6 xonali kod yubordik. Kodning amal qilish muddati 4 daqiqa. # OTP sent info text
       verificationCode: Tasdiqlash kodi # OTP input label
       resendCode: Kodni qayta yuborish # Resend button label
@@ -169,4 +170,8 @@ account:
       requestExpired: "Tasdiqlash so'rovingizning muddati tugagan. Iltimos, yangi kod so'rang." # OTP request token expired
       emailInUse: Bu elektron pochta allaqachon boshqa hisob tomonidan ishlatilmoqda # Duplicate email
       verificationExpired: Tasdiqlashingiz muddati tugagan. Iltimos, boshidan boshlang. # Verification token expired
+      incorrectCodeWithAttempts: Siz kiritgan kod noto'g'ri. {maxAttempts} urinishdan {attemptsLeft} tasi qoldi.
+      invalidCodeFormat: Iltimos, 6 xonali kodni kiriting
+      sendCooldown: Yangi kod so'rashdan oldin biroz kuting.
+      locked: Juda ko'p noto'g'ri urinish. Iltimos, yangi kod so'rang.
       generic: "Nimadir xato ketdi. Iltimos, qayta urinib ko'ring." # Fallback error

@@ -123,6 +123,7 @@ account:
       description: Pour des raisons de sécurité, vous devez vérifier votre adresse e-mail actuelle à l'aide d'un code OTP avant de pouvoir la modifier.
       currentEmailLabel: "Adresse e-mail actuelle :"
       sendCode: Envoyer le code
+      sendCodeCooldown: "Envoyer le code ({seconds}s)" # Send button with cooldown timer
       otpSentMessage: Nous avons envoyé un code à 6 chiffres à votre adresse e-mail. Ce code expire dans 4 minutes.
       verificationCode: Code de vérification
       resendCode: Renvoyer le code
@@ -174,4 +175,8 @@ account:
       requestExpired: Votre demande de vérification a expiré. Veuillez demander un nouveau code.
       emailInUse: Cette adresse e-mail est déjà utilisée par un autre compte.
       verificationExpired: Votre vérification a expiré. Veuillez recommencer.
+      incorrectCodeWithAttempts: Le code que vous avez saisi est incorrect. Il vous reste {attemptsLeft} tentatives sur {maxAttempts}.
+      invalidCodeFormat: Veuillez saisir le code à 6 chiffres.
+      sendCooldown: Veuillez patienter un instant avant de demander un nouveau code.
+      locked: Trop de tentatives incorrectes. Veuillez demander un nouveau code.
       generic: Une erreur est survenue. Veuillez réessayer.

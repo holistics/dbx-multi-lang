@@ -107,6 +107,7 @@ account:
       description: Để bảo mật, bạn cần xác minh email hiện tại qua OTP trước khi thay đổi.
       currentEmailLabel: "Email hiện tại:"
       sendCode: Gửi mã
+      sendCodeCooldown: "Gửi mã ({seconds}s)" # Send button with cooldown timer
       otpSentMessage: Chúng tôi đã gửi mã 6 chữ số đến email của bạn. Mã sẽ hết hạn sau 4 phút.
       verificationCode: Mã xác minh
       resendCode: Gửi lại mã
@@ -153,4 +154,8 @@ account:
       requestExpired: Yêu cầu xác minh của bạn đã hết hạn. Vui lòng yêu cầu mã mới.
       emailInUse: Email này đã được sử dụng bởi tài khoản khác
       verificationExpired: Xác minh của bạn đã hết hạn. Vui lòng bắt đầu lại.
+      incorrectCodeWithAttempts: Mã bạn nhập không chính xác. Còn {attemptsLeft}/{maxAttempts} lần thử.
+      invalidCodeFormat: Vui lòng nhập mã gồm 6 chữ số
+      sendCooldown: Vui lòng đợi một lát trước khi yêu cầu mã mới.
+      locked: Bạn đã nhập sai quá nhiều lần. Vui lòng yêu cầu mã mới.
       generic: Đã xảy ra lỗi. Vui lòng thử lại.

@@ -118,6 +118,7 @@ account:
       description: For security, you need to verify your current email via OTP to change it. # Step 1 description
       currentEmailLabel: "Current email:" # Label before current email address
       sendCode: Send Code # Send OTP button
+      sendCodeCooldown: "Send Code ({seconds}s)" # Send button with cooldown timer
       otpSentMessage: We sent a 6-digit code to your email. The code expires in 4 minutes. # OTP sent info text
       verificationCode: Verification Code # OTP input label
       resendCode: Resend code # Resend button label
@@ -169,4 +170,8 @@ account:
       requestExpired: Your verification request has expired. Please request a new code. # OTP request token expired
       emailInUse: This email is already in use by another account # Duplicate email
       verificationExpired: Your verification has expired. Please start over. # Verification token expired
+      incorrectCodeWithAttempts: The code you entered is incorrect. {attemptsLeft} of {maxAttempts} attempts left.
+      invalidCodeFormat: Please enter the 6-digit code
+      sendCooldown: Please wait a moment before requesting another code.
+      locked: Too many incorrect attempts. Please request a new code.
       generic: Something went wrong. Please try again. # Fallback error

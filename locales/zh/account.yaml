@@ -107,6 +107,7 @@ account:
       description: 为了安全起见，您需要通过OTP验证当前邮箱后才能更改。
       currentEmailLabel: "当前邮箱："
       sendCode: 发送验证码
+      sendCodeCooldown: "发送验证码（{seconds}秒）" # Send button with cooldown timer
       otpSentMessage: 我们已向您的邮箱发送了6位验证码。验证码将在4分钟后过期。
       verificationCode: 验证码
       resendCode: 重新发送验证码
@@ -153,4 +154,8 @@ account:
       requestExpired: 您的验证请求已过期。请重新获取验证码。
       emailInUse: 此邮箱已被其他账户使用
       verificationExpired: 您的验证已过期。请重新开始。
+      incorrectCodeWithAttempts: 您输入的验证码不正确。还剩 {attemptsLeft}/{maxAttempts} 次机会。
+      invalidCodeFormat: 请输入 6 位验证码
+      sendCooldown: 请稍候片刻再获取新的验证码。
+      locked: 错误次数过多。请重新获取验证码。
       generic: 出了点问题。请重试。

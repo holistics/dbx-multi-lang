@@ -112,6 +112,7 @@ account:
       description: E-postanızı değiştirmek için önce mevcut e-postanızı OTP ile doğrulamanız gerekir. # Step 1 description
       currentEmailLabel: "Mevcut e-posta:" # Label before current email address
       sendCode: Kodu Gönder # Send OTP button
+      sendCodeCooldown: "Kodu Gönder ({seconds}s)" # Send button with cooldown timer
       otpSentMessage: E-postanıza 6 haneli bir kod gönderdik. Kod 4 dakika içinde geçerli olacaktır. # OTP sent info text
       verificationCode: Doğrulama Kodu # OTP input label
       resendCode: Kodu Tekrar Gönder # Resend button label
@@ -163,4 +164,8 @@ account:
       requestExpired: Doğrulama isteğiniz süresi doldu. Lütfen yeni bir kod isteyin. # OTP request token expired
       emailInUse: Bu e-posta başka bir hesap tarafından kullanılıyor # Duplicate email
       verificationExpired: Doğrulamanız süresi doldu. Lütfen baştan başlayın. # Verification token expired
+      incorrectCodeWithAttempts: Girilen kod yanlış. {maxAttempts} denemeden {attemptsLeft} tanesi kaldı.
+      invalidCodeFormat: Lütfen 6 haneli kodu girin
+      sendCooldown: Yeni bir kod istemeden önce lütfen biraz bekleyin.
+      locked: Çok fazla hatalı deneme. Lütfen yeni bir kod isteyin.
       generic: Bir hata oluştu. Lütfen tekrar deneyin. # Fallback error

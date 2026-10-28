@@ -107,6 +107,7 @@ account:
       description: セキュリティのため、メールを変更するには現在のメールをOTPで確認する必要があります。
       currentEmailLabel: "現在のメール："
       sendCode: コードを送信
+      sendCodeCooldown: "コードを送信（{seconds}秒）" # Send button with cooldown timer
       otpSentMessage: メールに6桁のコードを送信しました。コードは4分後に期限切れになります。
       verificationCode: 確認コード
       resendCode: コードを再送信
@@ -153,4 +154,8 @@ account:
       requestExpired: 確認リクエストの有効期限が切れました。新しいコードをリクエストしてください。
       emailInUse: このメールは既に別のアカウントで使用されています
       verificationExpired: 確認の有効期限が切れました。最初からやり直してください。
+      incorrectCodeWithAttempts: 入力したコードが正しくありません。残り {attemptsLeft}/{maxAttempts} 回です。
+      invalidCodeFormat: 6 桁のコードを入力してください
+      sendCooldown: 新しいコードをリクエストする前に少しお待ちください。
+      locked: 誤った入力が多すぎます。新しいコードをリクエストしてください。
       generic: 問題が発生しました。もう一度お試しください。

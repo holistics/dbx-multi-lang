@@ -120,6 +120,7 @@ account:
       description: 보안을 위해 현재 이메일 주소를 먼저 인증해야 합니다.                                    # Step 1 description
       currentEmailLabel: "현재 이메일:"        # Label before current email address
       sendCode: 코드 보내기    # Send OTP button
+      sendCodeCooldown: "코드 보내기({seconds}초)" # Send button with cooldown timer
       otpSentMessage: 이메일로 6자리 코드를 보냈습니다. 코드는 4분 후에 만료됩니다.                             # OTP sent info text
       verificationCode: 인증코드              # OTP input label
       resendCode: 코드 재전송      # Resend button label
@@ -172,4 +173,8 @@ account:
       requestExpired: 인증 요청이 만료되었습니다. 새 코드를 요청하세요.                                  # OTP request token expired
       emailInUse: 이 이메일은 이미 다른 계정에서 사용 중입니다.                      # Duplicate email
       verificationExpired: 인증이 만료되었습니다. 다시 시작하세요.                        # Verification token expired
+      incorrectCodeWithAttempts: 입력한 코드가 올바르지 않습니다. {maxAttempts}회 중 {attemptsLeft}회 남았습니다.
+      invalidCodeFormat: 6자리 코드를 입력하세요.
+      sendCooldown: 새 코드를 요청하기 전에 잠시 기다려 주세요.
+      locked: 잘못된 시도가 너무 많습니다. 새 코드를 요청하세요.
       generic: 문제가 발생했습니다. 다시 시도해 주세요.                 # Fallback error
