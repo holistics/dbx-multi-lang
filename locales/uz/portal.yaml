@@ -117,8 +117,6 @@ portal:
       note: "Ariza berish uchun maktab yoki universitet elektron pochtangiz bilan tizimga kiring."
       cta: "Hozir ariza berish"
     share:
-      heading: "O‘qiydigan yoki o‘qitadigan tanishingiz bormi?"
-      body: "Bepul Education rejasini sinfdoshlar, o‘qituvchilar yoki ustozlar bilan ulashing."
       cta: "X’da ulashish"
       tweetText: "Talabalar va o‘qituvchilar {'@'}dbdiagram’ning Personal Pro’sini bir yil bepul oladi. Men ham hozirgina oldim. Maktab pochtangiz bilan ariza bering:"
     follow:
@@ -138,6 +136,9 @@ portal:
       thoughtsPlaceholder: "Ikkinchi kurs ma’lumotlar bazalari kursi uchun kutubxona tizimini modellashtirish."
       submit: "Hozir ariza berish"
       submitting: "Yuborilmoqda"
+      shareLabel: "Education rejasini X’da ulashing"
+      shareLinkLabel: "Postingiz havolasi"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Talaba"
         teacher: "O‘qituvchi yoki ustoz"

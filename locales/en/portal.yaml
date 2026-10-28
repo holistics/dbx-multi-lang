@@ -117,8 +117,6 @@ portal:
       note: "Sign in with your school or university email to apply."
       cta: "Apply now"
     share:
-      heading: "Know someone who studies or teaches?"
-      body: "Share the free Education plan with classmates, teachers or lecturers."
       cta: "Share on X"
       tweetText: "Students and teachers get {'@'}dbdiagram Personal Pro free for a year. I just got mine. Apply with your school email:"
     follow:
@@ -138,6 +136,9 @@ portal:
       thoughtsPlaceholder: "Modeling a library system for a second-year databases course."
       submit: "Apply now"
       submitting: "Submitting"
+      shareLabel: "Share the Education plan on X"
+      shareLinkLabel: "Link to your post"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Student"
         teacher: "Teacher or lecturer"

@@ -117,8 +117,6 @@ portal:
       note: "신청하려면 학교 또는 대학 이메일로 로그인하세요."
       cta: "지금 신청"
     share:
-      heading: "공부하거나 가르치는 지인이 있나요?"
-      body: "무료 Education 플랜을 반 친구, 선생님 또는 강사와 공유하세요."
       cta: "X에 공유"
       tweetText: "학생과 교사는 {'@'}dbdiagram의 Personal Pro를 1년 동안 무료로 이용할 수 있어요. 저도 방금 받았어요. 학교 이메일로 신청해 보세요:"
     follow:
@@ -138,6 +136,9 @@ portal:
       thoughtsPlaceholder: "2학년 데이터베이스 수업을 위한 도서관 시스템 모델링."
       submit: "지금 신청"
       submitting: "제출 중"
+      shareLabel: "Education 플랜을 X에 공유"
+      shareLinkLabel: "게시물 링크"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "학생"
         teacher: "교사 또는 강사"

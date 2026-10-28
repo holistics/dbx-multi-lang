@@ -83,8 +83,6 @@ portal:
       note: "Đăng nhập bằng email trường học hoặc đại học của bạn để đăng ký."
       cta: "Đăng ký ngay"
     share:
-      heading: "Bạn biết ai đang học hoặc giảng dạy không?"
-      body: "Chia sẻ gói Education miễn phí với bạn cùng lớp, giáo viên hoặc giảng viên."
       cta: "Chia sẻ trên X"
       tweetText: "Sinh viên và giảng viên được dùng Personal Pro của {'@'}dbdiagram miễn phí trong một năm. Mình vừa nhận được rồi. Đăng ký bằng email trường của bạn:"
     follow:
@@ -104,6 +102,9 @@ portal:
       thoughtsPlaceholder: "Mô hình hóa hệ thống thư viện cho khóa học cơ sở dữ liệu năm hai."
       submit: "Đăng ký ngay"
       submitting: "Đang gửi"
+      shareLabel: "Chia sẻ gói Education trên X"
+      shareLinkLabel: "Liên kết bài đăng của bạn"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Sinh viên"
         teacher: "Giáo viên hoặc giảng viên"
