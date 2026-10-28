@@ -174,6 +174,30 @@ modals:
   # Import modal - Import diagram
   # ========================================
   import:
+    infra:
+      title: "인프라 코드에서 가져오기 (AI)"
+      notice: "AI가 이 폴더에서 필요한 파일을 읽어 AI 제공업체로 보냅니다. Vault 파일, 개인 키, Terraform 상태는 절대 보내지 않습니다."
+      chooseFolder: "폴더 선택"
+      findingStart: "이 폴더에서 시스템을 찾는 중"
+      finding: "이 폴더에서 시스템을 찾는 중: {path} 읽는 중 ({count}개 파일 읽음)"
+      drawingStart: "다이어그램을 그리는 중"
+      drawing: "그리는 중: {path} 읽는 중 ({count}개 파일 읽음)"
+      fixing: "AI 다이어그램의 오류를 고치는 중"
+      pickSystems: "그릴 시스템을 선택하세요"
+      selectAll: "모두 선택"
+      clearAll: "모두 해제"
+      draw: "그리기"
+      cancel: "취소"
+      noSystems: "이 폴더에서 인프라 코드를 찾지 못했습니다"
+      stillErrors: "AI 다이어그램에 아직 오류가 있습니다:"
+      noChanges: "코드에서 변경 사항을 찾지 못했습니다"
+      outOfSteps: "AI가 코드를 다 읽지 못했습니다. 시스템 수를 줄여 보세요."
+      cancelled: "가져오기가 취소되었습니다"
+      unavailable: "지금은 AI 가져오기를 사용할 수 없습니다"
+      noEditAccess: "이 다이어그램의 편집 권한이 필요합니다"
+      saveFirst: "먼저 다이어그램을 저장하세요"
+      archOnly: "빈 다이어그램이나 아키텍처 다이어그램에서만 사용할 수 있습니다"
+      failed: "AI 가져오기에 실패했습니다. 다시 시도하세요."
     instructions: 지침           # Instructions section title
     showInstructions: 지침 표시             # Show instructions button
     hideInstructions: 지침 숨기기            # Hide instructions button

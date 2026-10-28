@@ -65,6 +65,7 @@ common:
     fromOracleSQL: Depuis Oracle SQL
     fromRails: Depuis Rails (schema.rb)
     fromCSV: Depuis CSV
+    fromInfraCode: "Depuis du code d'infrastructure (IA)"
 
   # ========================================
   # Mise à niveau

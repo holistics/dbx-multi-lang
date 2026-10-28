@@ -50,6 +50,7 @@ common:
     fromOracleSQL: 从 Oracle SQL
     fromRails: 从 Rails (schema.rb)
     fromCSV: 从 CSV
+    fromInfraCode: "从基础设施代码导入 (AI)"
   upgrade:
     title: 升级
   quickActions:

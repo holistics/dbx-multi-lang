@@ -147,6 +147,30 @@ modals:
     conflictWordSingular: 競合
     conflictWordPlural: 競合
   import:
+    infra:
+      title: "インフラコードからインポート (AI)"
+      notice: "AI はこのフォルダから必要なファイルを読み取り、当社の AI プロバイダーに送信します。Vault ファイル、秘密鍵、Terraform の state は送信されません。"
+      chooseFolder: "フォルダを選択"
+      findingStart: "このフォルダ内のシステムを探しています"
+      finding: "このフォルダ内のシステムを探しています: {path} を読み取り中 ({count} 件読み取り済み)"
+      drawingStart: "ダイアグラムを作成しています"
+      drawing: "作成中: {path} を読み取り中 ({count} 件読み取り済み)"
+      fixing: "AI のダイアグラムのエラーを修正しています"
+      pickSystems: "作成するシステムを選択してください"
+      selectAll: "すべて選択"
+      clearAll: "すべて解除"
+      draw: "作成"
+      cancel: "キャンセル"
+      noSystems: "このフォルダにインフラコードが見つかりません"
+      stillErrors: "AI のダイアグラムにまだエラーがあります:"
+      noChanges: "コードに変更は見つかりませんでした"
+      outOfSteps: "AI はコードを読み終えられませんでした。システムを減らしてお試しください。"
+      cancelled: "インポートをキャンセルしました"
+      unavailable: "現在 AI インポートは利用できません"
+      noEditAccess: "このダイアグラムの編集権限が必要です"
+      saveFirst: "先にダイアグラムを保存してください"
+      archOnly: "空のダイアグラムまたはアーキテクチャダイアグラムでのみ使用できます"
+      failed: "AI インポートに失敗しました。もう一度お試しください。"
     instructions: 手順
     showInstructions: 手順を表示
     hideInstructions: 手順を非表示

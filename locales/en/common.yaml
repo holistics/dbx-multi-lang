@@ -65,6 +65,7 @@ common:
     fromOracleSQL: From Oracle SQL # Oracle database import
     fromRails: From Rails (schema.rb) # Rails schema.rb file import
     fromCSV: From CSV # CSV file import (opens file picker)
+    fromInfraCode: "From infrastructure code (AI)"
 
   # ========================================
   # Upgrade prompts - Feature upgrade dialogs (shown when free users hit limits)

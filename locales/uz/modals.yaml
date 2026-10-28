@@ -170,6 +170,30 @@ modals:
   # Import modal - Import diagram
   # ========================================
   import:
+    infra:
+      title: "Infratuzilma kodidan import qilish (AI)"
+      notice: "AI bu jilddan kerakli fayllarni o'qiydi va ularni AI provayderimizga yuboradi. Vault fayllari, maxfiy kalitlar va Terraform holati hech qachon yuborilmaydi."
+      chooseFolder: "Jildni tanlash"
+      findingStart: "Bu jilddagi tizimlar qidirilmoqda"
+      finding: "Bu jilddagi tizimlar qidirilmoqda: {path} o'qilmoqda ({count} ta fayl o'qildi)"
+      drawingStart: "Diagramma chizilmoqda"
+      drawing: "Chizilmoqda: {path} o'qilmoqda ({count} ta fayl o'qildi)"
+      fixing: "AI diagrammasidagi xatolar tuzatilmoqda"
+      pickSystems: "Chiziladigan tizimlarni tanlang"
+      selectAll: "Hammasini tanlash"
+      clearAll: "Hammasini tozalash"
+      draw: "Chizish"
+      cancel: "Bekor qilish"
+      noSystems: "Bu jildda infratuzilma kodi topilmadi"
+      stillErrors: "AI diagrammasida hali ham xatolar bor:"
+      noChanges: "Kodda o'zgarish topilmadi"
+      outOfSteps: "AI kodni o'qib tugata olmadi. Kamroq tizim bilan urinib ko'ring."
+      cancelled: "Import bekor qilindi"
+      unavailable: "AI orqali import hozircha mavjud emas"
+      noEditAccess: "Bu diagrammani tahrirlash huquqi kerak"
+      saveFirst: "Avval diagrammani saqlang"
+      archOnly: "Bo'sh yoki arxitektura diagrammasida ishlaydi"
+      failed: "AI orqali import amalga oshmadi. Qayta urinib ko'ring."
     instructions: Ko'rsatmalar # Instructions section title
     showInstructions: Ko'rsatmalarni ko'rsatish # Show instructions button
     hideInstructions: Ko'rsatmalarni yashirish # Hide instructions button
