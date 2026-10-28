@@ -93,8 +93,6 @@ portal:
       note: "请使用学校或大学邮箱登录以申请。"
       cta: "立即申请"
     share:
-      heading: "认识正在学习或教学的人吗？"
-      body: "将免费的 Education 方案分享给同学、老师或讲师。"
       cta: "在 X 上分享"
       tweetText: "学生和教师可免费使用一年 {'@'}dbdiagram 的 Personal Pro。我刚刚领到了。请使用您的学校邮箱申请："
     follow:
@@ -114,6 +112,9 @@ portal:
       thoughtsPlaceholder: "为大二数据库课程设计图书馆系统模型。"
       submit: "立即申请"
       submitting: "提交中"
+      shareLabel: "在 X 上分享 Education 方案"
+      shareLinkLabel: "您的帖子链接"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "学生"
         teacher: "教师或讲师"

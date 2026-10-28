@@ -117,8 +117,6 @@ portal:
       note: "Entre com o e-mail da sua escola ou universidade para solicitar."
       cta: "Solicitar agora"
     share:
-      heading: "Conhece alguém que estuda ou ensina?"
-      body: "Compartilhe o plano Education gratuito com colegas, professores ou docentes."
       cta: "Compartilhar no X"
       tweetText: "Estudantes e professores ganham o Personal Pro do {'@'}dbdiagram grátis por um ano. Acabei de pegar o meu. Solicite com o e-mail da sua escola:"
     follow:
@@ -138,6 +136,9 @@ portal:
       thoughtsPlaceholder: "Modelagem de um sistema de biblioteca para um curso de bancos de dados do segundo ano."
       submit: "Solicitar agora"
       submitting: "Enviando"
+      shareLabel: "Compartilhe o plano Education no X"
+      shareLinkLabel: "Link da sua publicação"
+      shareLinkPlaceholder: "https://x.com/yourname/status/..."
       roles:
         student: "Estudante"
         teacher: "Professor ou docente"
