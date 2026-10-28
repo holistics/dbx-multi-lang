@@ -85,6 +85,7 @@ account:
     step1:
       description: "Eliminar tu cuenta eliminará permanentemente los siguientes datos:"
       warning: Esta acción es permanente y no se puede deshacer.
+      nextCooldown: "Siguiente ({seconds}s)" # Next button with cooldown timer
     step2:
       otpSentTo: Ingresa el código de 6 dígitos enviado a
       resendCode: Reenviar código
@@ -96,6 +97,14 @@ account:
       generic: Algo salió mal. Por favor, inténtalo de nuevo.
       ssoAccount: Las cuentas SSO no pueden gestionar la configuración de cuenta personal.
       removalInProgress: Ya hay una eliminación en progreso.
+      incorrectCode: El código que ingresaste es incorrecto # Wrong OTP code
+      incorrectCodeWithAttempts: El código que ingresaste es incorrecto. Te quedan {attemptsLeft} de {maxAttempts} intentos.
+      invalidCodeFormat: Por favor, ingresa el código de 6 dígitos
+      codeExpired: El código de verificación ha expirado. Por favor, solicita uno nuevo. # OTP expired
+      codeAlreadyUsed: Este código ya ha sido usado. Por favor, solicita uno nuevo. # OTP already used
+      requestExpired: Tu solicitud de verificación ha expirado. Por favor, solicita un nuevo código. # OTP request token expired
+      sendCooldown: Por favor, espera un momento antes de solicitar otro código.
+      locked: Tu último código se bloqueó tras demasiados intentos incorrectos. Solicita uno nuevo cuando termine la cuenta atrás.
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -173,5 +182,5 @@ account:
       incorrectCodeWithAttempts: El código que ingresaste es incorrecto. Te quedan {attemptsLeft} de {maxAttempts} intentos.
       invalidCodeFormat: Por favor, ingresa el código de 6 dígitos
       sendCooldown: Por favor, espera un momento antes de solicitar otro código.
-      locked: Demasiados intentos incorrectos. Por favor, solicita un nuevo código.
+      locked: Tu último código se bloqueó tras demasiados intentos incorrectos. Solicita uno nuevo cuando termine la cuenta atrás.
       generic: Algo salió mal. Por favor, inténtalo de nuevo. # Fallback error

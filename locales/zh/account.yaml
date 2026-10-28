@@ -76,6 +76,7 @@ account:
     step1:
       description: "删除您的账户将永久删除以下数据:"
       warning: 此操作是永久性的，无法撤销。
+      nextCooldown: "下一步（{seconds}秒）" # Next button with cooldown timer
     step2:
       otpSentTo: 请输入发送至以下地址的6位验证码
       resendCode: 重新发送验证码
@@ -87,6 +88,14 @@ account:
       generic: 出现错误，请重试。
       ssoAccount: SSO账户无法管理个人账户设置。
       removalInProgress: 已有删除操作正在进行中。
+      incorrectCode: 您输入的验证码不正确
+      incorrectCodeWithAttempts: 您输入的验证码不正确。还剩 {attemptsLeft}/{maxAttempts} 次机会。
+      invalidCodeFormat: 请输入 6 位验证码
+      codeExpired: 验证码已过期。请重新获取验证码。
+      codeAlreadyUsed: 此验证码已被使用。请重新获取验证码。
+      requestExpired: 您的验证请求已过期。请重新获取验证码。
+      sendCooldown: 请稍候片刻再获取新的验证码。
+      locked: 您的上一个验证码因错误次数过多已被锁定。倒计时结束后请重新获取。
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -157,5 +166,5 @@ account:
       incorrectCodeWithAttempts: 您输入的验证码不正确。还剩 {attemptsLeft}/{maxAttempts} 次机会。
       invalidCodeFormat: 请输入 6 位验证码
       sendCooldown: 请稍候片刻再获取新的验证码。
-      locked: 错误次数过多。请重新获取验证码。
+      locked: 您的上一个验证码因错误次数过多已被锁定。倒计时结束后请重新获取。
       generic: 出了点问题。请重试。

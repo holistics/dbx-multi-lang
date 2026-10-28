@@ -87,6 +87,7 @@ account:
     step1:
       description: "계정을 삭제하면 다음 데이터가 영구적으로 삭제됩니다."
       warning: 이 작업은 영구적이며 취소할 수 없습니다.
+      nextCooldown: "다음({seconds}초)" # Next button with cooldown timer
     step2:
       otpSentTo: 전송된 6자리 코드를 입력하세요.
       resendCode: 코드 재전송
@@ -98,6 +99,14 @@ account:
       generic: 문제가 발생했습니다. 다시 시도해 주세요.
       ssoAccount: SSO 계정은 개인 계정 설정을 관리할 수 없습니다.
       removalInProgress: 이미 삭제가 진행 중입니다.
+      incorrectCode: 입력한 코드가 올바르지 않습니다.                # Wrong OTP code
+      incorrectCodeWithAttempts: 입력한 코드가 올바르지 않습니다. {maxAttempts}회 중 {attemptsLeft}회 남았습니다.
+      invalidCodeFormat: 6자리 코드를 입력하세요.
+      codeExpired: 인증 코드가 만료되었습니다. 새 코드를 요청하세요.                                # OTP expired
+      codeAlreadyUsed: 이 코드는 이미 사용되었습니다. 새 코드를 요청하세요.                            # OTP already used
+      requestExpired: 인증 요청이 만료되었습니다. 새 코드를 요청하세요.                                  # OTP request token expired
+      sendCooldown: 새 코드를 요청하기 전에 잠시 기다려 주세요.
+      locked: 마지막 코드가 잘못된 시도가 너무 많아 잠겼습니다. 카운트다운이 끝나면 새 코드를 요청하세요.
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -176,5 +185,5 @@ account:
       incorrectCodeWithAttempts: 입력한 코드가 올바르지 않습니다. {maxAttempts}회 중 {attemptsLeft}회 남았습니다.
       invalidCodeFormat: 6자리 코드를 입력하세요.
       sendCooldown: 새 코드를 요청하기 전에 잠시 기다려 주세요.
-      locked: 잘못된 시도가 너무 많습니다. 새 코드를 요청하세요.
+      locked: 마지막 코드가 잘못된 시도가 너무 많아 잠겼습니다. 카운트다운이 끝나면 새 코드를 요청하세요.
       generic: 문제가 발생했습니다. 다시 시도해 주세요.                 # Fallback error

@@ -87,6 +87,7 @@ account:
     step1:
       description: "La suppression de votre compte entraînera la suppression définitive des données suivantes :"
       warning: Cette action est définitive et ne peut pas être annulée.
+      nextCooldown: "Suivant ({seconds}s)" # Next button with cooldown timer
 
     step2:
       otpSentTo: Saisissez le code à 6 chiffres envoyé à
@@ -101,6 +102,14 @@ account:
       generic: Une erreur est survenue. Veuillez réessayer.
       ssoAccount: Les comptes SSO ne peuvent pas gérer les paramètres personnels du compte.
       removalInProgress: Une suppression est déjà en cours.
+      incorrectCode: Le code que vous avez saisi est incorrect.
+      incorrectCodeWithAttempts: Le code que vous avez saisi est incorrect. Il vous reste {attemptsLeft} tentatives sur {maxAttempts}.
+      invalidCodeFormat: Veuillez saisir le code à 6 chiffres.
+      codeExpired: Le code de vérification a expiré. Veuillez en demander un nouveau.
+      codeAlreadyUsed: Ce code a déjà été utilisé. Veuillez en demander un nouveau.
+      requestExpired: Votre demande de vérification a expiré. Veuillez demander un nouveau code.
+      sendCooldown: Veuillez patienter un instant avant de demander un nouveau code.
+      locked: Votre dernier code a été bloqué après trop de tentatives incorrectes. Demandez-en un nouveau à la fin du compte à rebours.
 
   # ========================================
   # Fenêtre Modifier l'adresse e-mail - Processus en 4 étapes
@@ -178,5 +187,5 @@ account:
       incorrectCodeWithAttempts: Le code que vous avez saisi est incorrect. Il vous reste {attemptsLeft} tentatives sur {maxAttempts}.
       invalidCodeFormat: Veuillez saisir le code à 6 chiffres.
       sendCooldown: Veuillez patienter un instant avant de demander un nouveau code.
-      locked: Trop de tentatives incorrectes. Veuillez demander un nouveau code.
+      locked: Votre dernier code a été bloqué après trop de tentatives incorrectes. Demandez-en un nouveau à la fin du compte à rebours.
       generic: Une erreur est survenue. Veuillez réessayer.

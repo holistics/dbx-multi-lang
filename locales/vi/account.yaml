@@ -76,6 +76,7 @@ account:
     step1:
       description: "Việc xóa tài khoản của bạn sẽ xóa vĩnh viễn các dữ liệu sau:"
       warning: Hành động này là vĩnh viễn và không thể hoàn tác.
+      nextCooldown: "Tiếp theo ({seconds}s)" # Next button with cooldown timer
     step2:
       otpSentTo: Nhập mã 6 chữ số được gửi đến
       resendCode: Gửi lại mã
@@ -87,6 +88,14 @@ account:
       generic: Đã xảy ra lỗi. Vui lòng thử lại.
       ssoAccount: Tài khoản SSO không thể quản lý cài đặt tài khoản cá nhân.
       removalInProgress: Đang có một tiến trình xóa.
+      incorrectCode: Mã bạn nhập không chính xác
+      incorrectCodeWithAttempts: Mã bạn nhập không chính xác. Còn {attemptsLeft}/{maxAttempts} lần thử.
+      invalidCodeFormat: Vui lòng nhập mã gồm 6 chữ số
+      codeExpired: Mã xác minh đã hết hạn. Vui lòng yêu cầu mã mới.
+      codeAlreadyUsed: Mã này đã được sử dụng. Vui lòng yêu cầu mã mới.
+      requestExpired: Yêu cầu xác minh của bạn đã hết hạn. Vui lòng yêu cầu mã mới.
+      sendCooldown: Vui lòng đợi một lát trước khi yêu cầu mã mới.
+      locked: Mã gần nhất đã bị khoá do nhập sai quá nhiều lần. Hãy yêu cầu mã mới khi hết thời gian đếm ngược.
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -157,5 +166,5 @@ account:
       incorrectCodeWithAttempts: Mã bạn nhập không chính xác. Còn {attemptsLeft}/{maxAttempts} lần thử.
       invalidCodeFormat: Vui lòng nhập mã gồm 6 chữ số
       sendCooldown: Vui lòng đợi một lát trước khi yêu cầu mã mới.
-      locked: Bạn đã nhập sai quá nhiều lần. Vui lòng yêu cầu mã mới.
+      locked: Mã gần nhất đã bị khoá do nhập sai quá nhiều lần. Hãy yêu cầu mã mới khi hết thời gian đếm ngược.
       generic: Đã xảy ra lỗi. Vui lòng thử lại.

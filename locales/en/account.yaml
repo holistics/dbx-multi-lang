@@ -85,6 +85,7 @@ account:
     step1:
       description: "Removing your account will permanently delete the following data:"
       warning: This action is permanent and cannot be undone.
+      nextCooldown: "Next ({seconds}s)" # Next button with cooldown timer
     step2:
       otpSentTo: Enter the 6-digit code sent to
       resendCode: Resend code
@@ -96,6 +97,14 @@ account:
       generic: Something went wrong. Please try again.
       ssoAccount: SSO accounts cannot manage personal account settings.
       removalInProgress: A removal is already in progress.
+      incorrectCode: The code you entered is incorrect # Wrong OTP code
+      incorrectCodeWithAttempts: The code you entered is incorrect. {attemptsLeft} of {maxAttempts} attempts left.
+      invalidCodeFormat: Please enter the 6-digit code
+      codeExpired: The verification code has expired. Please request a new one. # OTP expired
+      codeAlreadyUsed: This code has already been used. Please request a new one. # OTP already used
+      requestExpired: Your verification request has expired. Please request a new code. # OTP request token expired
+      sendCooldown: Please wait a moment before requesting another code.
+      locked: Your last code was locked after too many incorrect attempts. Request a new one when the countdown ends.
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -173,5 +182,5 @@ account:
       incorrectCodeWithAttempts: The code you entered is incorrect. {attemptsLeft} of {maxAttempts} attempts left.
       invalidCodeFormat: Please enter the 6-digit code
       sendCooldown: Please wait a moment before requesting another code.
-      locked: Too many incorrect attempts. Please request a new code.
+      locked: Your last code was locked after too many incorrect attempts. Request a new one when the countdown ends.
       generic: Something went wrong. Please try again. # Fallback error

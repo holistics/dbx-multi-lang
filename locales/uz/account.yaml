@@ -85,6 +85,7 @@ account:
     step1:
       description: "Hisobingizni o'chirish quyidagi ma'lumotlarni butunlay o'chirib tashlaydi:"
       warning: Bu amal doimiy va uni ortga qaytarib bo'lmaydi.
+      nextCooldown: "Keyingi ({seconds}s)" # Next button with cooldown timer
     step2:
       otpSentTo: Yuborilgan 6 xonali kodni kiriting
       resendCode: Kodni qayta yuborish
@@ -96,6 +97,14 @@ account:
       generic: Nimadir xato ketdi. Iltimos, qayta urinib ko'ring.
       ssoAccount: SSO hisoblari shaxsiy hisob sozlamalarini boshqara olmaydi.
       removalInProgress: O'chirish jarayoni allaqachon boshlangan.
+      incorrectCode: "Siz kiritgan kod noto'g'ri" # Wrong OTP code
+      incorrectCodeWithAttempts: Siz kiritgan kod noto'g'ri. {maxAttempts} urinishdan {attemptsLeft} tasi qoldi.
+      invalidCodeFormat: Iltimos, 6 xonali kodni kiriting
+      codeExpired: "Tasdiqlash muddati tugagan. Iltimos, yangisini so'rang." # OTP expired
+      codeAlreadyUsed: "Bu kod allaqachon ishlatilgan. Iltimos, yangisini so'rang." # OTP already used
+      requestExpired: "Tasdiqlash so'rovingizning muddati tugagan. Iltimos, yangi kod so'rang." # OTP request token expired
+      sendCooldown: Yangi kod so'rashdan oldin biroz kuting.
+      locked: Oxirgi kodingiz juda ko'p noto'g'ri urinish tufayli bloklandi. Hisob tugagach, yangi kod so'rang.
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -173,5 +182,5 @@ account:
       incorrectCodeWithAttempts: Siz kiritgan kod noto'g'ri. {maxAttempts} urinishdan {attemptsLeft} tasi qoldi.
       invalidCodeFormat: Iltimos, 6 xonali kodni kiriting
       sendCooldown: Yangi kod so'rashdan oldin biroz kuting.
-      locked: Juda ko'p noto'g'ri urinish. Iltimos, yangi kod so'rang.
+      locked: Oxirgi kodingiz juda ko'p noto'g'ri urinish tufayli bloklandi. Hisob tugagach, yangi kod so'rang.
       generic: "Nimadir xato ketdi. Iltimos, qayta urinib ko'ring." # Fallback error

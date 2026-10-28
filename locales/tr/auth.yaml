@@ -55,7 +55,7 @@ auth:
       codeAlreadyUsed: Bu kod zaten kullanılmış. Lütfen yeni bir kod isteyin.
       requestExpired: Oturum açma isteğinizin süresi doldu. Lütfen baştan başlayın.
       sendCooldown: Yeni bir kod istemeden önce lütfen biraz bekleyin.
-      locked: Çok fazla hatalı deneme. Lütfen yeni bir kod isteyin.
+      locked: Son kodunuz çok fazla hatalı deneme nedeniyle kilitlendi. Geri sayım bittiğinde yeni bir kod isteyin.
       generic: Bir hata oluştu. Lütfen tekrar deneyin.
 
   # ========================================

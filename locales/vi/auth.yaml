@@ -55,7 +55,7 @@ auth:
       codeAlreadyUsed: Mã này đã được sử dụng. Vui lòng yêu cầu mã mới.
       requestExpired: Yêu cầu đăng nhập của bạn đã hết hạn. Vui lòng bắt đầu lại.
       sendCooldown: Vui lòng đợi một lát trước khi yêu cầu mã mới.
-      locked: Bạn đã nhập sai quá nhiều lần. Vui lòng yêu cầu mã mới.
+      locked: Mã gần nhất đã bị khoá do nhập sai quá nhiều lần. Hãy yêu cầu mã mới khi hết thời gian đếm ngược.
       generic: Đã xảy ra lỗi. Vui lòng thử lại.
 
   # ========================================

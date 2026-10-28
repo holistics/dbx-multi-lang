@@ -55,7 +55,7 @@ auth:
       codeAlreadyUsed: Ce code a déjà été utilisé. Veuillez en demander un nouveau.
       requestExpired: Votre demande de connexion a expiré. Veuillez recommencer.
       sendCooldown: Veuillez patienter un instant avant de demander un nouveau code.
-      locked: Trop de tentatives incorrectes. Veuillez demander un nouveau code.
+      locked: Votre dernier code a été bloqué après trop de tentatives incorrectes. Demandez-en un nouveau à la fin du compte à rebours.
       generic: Une erreur est survenue. Veuillez réessayer.
 
   # ========================================
