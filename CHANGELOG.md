@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.5.10 (Oct 29, 2026)
+### Misc
+* Add translation for otp flows
+
 ## v1.5.9 (Oct 28, 2026)
 ### Misc
 * Add copywriting for education's share section
