@@ -85,6 +85,7 @@ account:
     step1:
       description: "Після видалення облікового запису ці дані буде видалено назавжди:"
       warning: Цю дію неможливо скасувати.
+      nextCooldown: "Далі ({seconds} с)" # Next button with cooldown timer
     step2:
       otpSentTo: Введіть 6-значний код, надісланий на адресу
       resendCode: Надіслати код повторно
@@ -96,6 +97,14 @@ account:
       generic: Щось пішло не так. Спробуйте ще раз.
       ssoAccount: Облікові записи SSO не можуть керувати особистими налаштуваннями облікового запису.
       removalInProgress: Видалення вже триває.
+      incorrectCode: Введено неправильний код підтвердження # Wrong OTP code
+      incorrectCodeWithAttempts: Введено неправильний код підтвердження. Залишилося {attemptsLeft} із {maxAttempts} спроб.
+      invalidCodeFormat: Введіть код із 6 цифр
+      codeExpired: Термін дії коду підтвердження минув. Надішліть запит на новий код. # OTP expired
+      codeAlreadyUsed: Цей код уже використано. Надішліть запит на новий код. # OTP already used
+      requestExpired: Термін дії вашого запиту на підтвердження минув. Надішліть запит на новий код. # OTP request token expired
+      sendCooldown: Зачекайте трохи, перш ніж запитувати новий код.
+      locked: Ваш останній код заблоковано через забагато невдалих спроб. Надішліть запит на новий код, коли завершиться зворотний відлік.
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -118,6 +127,7 @@ account:
       description: З міркувань безпеки для зміни поточної електронної пошти потрібно підтвердити її за допомогою одноразового коду. # Step 1 description
       currentEmailLabel: "Поточна електронна пошта:" # Label before current email address
       sendCode: Надіслати код # Send OTP button
+      sendCodeCooldown: "Надіслати код ({seconds} с)" # Send button with cooldown timer
       otpSentMessage: Ми надіслали 6-значний код на вашу електронну пошту. Термін дії коду - 4 хвилини. # OTP sent info text
       verificationCode: Код підтвердження # OTP input label
       resendCode: Надіслати код повторно # Resend button label
@@ -169,4 +179,8 @@ account:
       requestExpired: Термін дії вашого запиту на підтвердження минув. Надішліть запит на новий код. # OTP request token expired
       emailInUse: Ця адреса електронної пошти вже використовується іншим обліковим записом # Duplicate email
       verificationExpired: Термін дії вашого підтвердження минув. Почніть спочатку. # Verification token expired
+      incorrectCodeWithAttempts: Введено неправильний код підтвердження. Залишилося {attemptsLeft} із {maxAttempts} спроб.
+      invalidCodeFormat: Введіть код із 6 цифр
+      sendCooldown: Зачекайте трохи, перш ніж запитувати новий код.
+      locked: Ваш останній код заблоковано через забагато невдалих спроб. Надішліть запит на новий код, коли завершиться зворотний відлік.
       generic: Щось пішло не так. Спробуйте ще раз. # Fallback error

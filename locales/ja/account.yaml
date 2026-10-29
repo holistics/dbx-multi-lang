@@ -76,6 +76,7 @@ account:
     step1:
       description: "アカウントを削除すると、以下のデータが完全に削除されます:"
       warning: この操作は永続的で元に戻せません。
+      nextCooldown: "次へ（{seconds}秒）" # Next button with cooldown timer
     step2:
       otpSentTo: に送信された6桁のコードを入力してください
       resendCode: コードを再送信
@@ -87,6 +88,14 @@ account:
       generic: エラーが発生しました。もう一度お試しください。
       ssoAccount: SSOアカウントは個人アカウント設定を管理できません。
       removalInProgress: 削除が既に進行中です。
+      incorrectCode: 入力したコードが正しくありません
+      incorrectCodeWithAttempts: 入力したコードが正しくありません。残り {attemptsLeft}/{maxAttempts} 回です。
+      invalidCodeFormat: 6 桁のコードを入力してください
+      codeExpired: 確認コードの有効期限が切れました。新しいコードをリクエストしてください。
+      codeAlreadyUsed: このコードは既に使用されています。新しいコードをリクエストしてください。
+      requestExpired: 確認リクエストの有効期限が切れました。新しいコードをリクエストしてください。
+      sendCooldown: 新しいコードをリクエストする前に少しお待ちください。
+      locked: 直前のコードは誤入力が多すぎたためロックされました。カウントダウンの終了後に新しいコードをリクエストしてください。
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -107,6 +116,7 @@ account:
       description: セキュリティのため、メールを変更するには現在のメールをOTPで確認する必要があります。
       currentEmailLabel: "現在のメール："
       sendCode: コードを送信
+      sendCodeCooldown: "コードを送信（{seconds}秒）" # Send button with cooldown timer
       otpSentMessage: メールに6桁のコードを送信しました。コードは4分後に期限切れになります。
       verificationCode: 確認コード
       resendCode: コードを再送信
@@ -153,4 +163,8 @@ account:
       requestExpired: 確認リクエストの有効期限が切れました。新しいコードをリクエストしてください。
       emailInUse: このメールは既に別のアカウントで使用されています
       verificationExpired: 確認の有効期限が切れました。最初からやり直してください。
+      incorrectCodeWithAttempts: 入力したコードが正しくありません。残り {attemptsLeft}/{maxAttempts} 回です。
+      invalidCodeFormat: 6 桁のコードを入力してください
+      sendCooldown: 新しいコードをリクエストする前に少しお待ちください。
+      locked: 直前のコードは誤入力が多すぎたためロックされました。カウントダウンの終了後に新しいコードをリクエストしてください。
       generic: 問題が発生しました。もう一度お試しください。

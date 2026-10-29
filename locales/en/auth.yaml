@@ -46,6 +46,18 @@ auth:
     submit: Submit # OTP submit button
     sendOtpFailed: Send OTP failed, please try again! # Error toast
 
+    # OTP error messages, picked by the API errorCode (TDD-122)
+    errors:
+      incorrectCode: The code you entered is incorrect
+      incorrectCodeWithAttempts: The code you entered is incorrect. {attemptsLeft} of {maxAttempts} attempts left.
+      invalidCodeFormat: Please enter the 6-digit code
+      codeExpired: The verification code has expired. Please request a new one.
+      codeAlreadyUsed: This code has already been used. Please request a new one.
+      requestExpired: Your sign-in request has expired. Please start over.
+      sendCooldown: Please wait a moment before requesting another code.
+      locked: Your last code was locked after too many incorrect attempts. Request a new one when the countdown ends.
+      generic: Something went wrong. Please try again.
+
   # ========================================
   # SSO Login - Single Sign-On
   # ========================================
