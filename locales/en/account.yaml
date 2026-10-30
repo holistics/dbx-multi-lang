@@ -85,6 +85,7 @@ account:
     step1:
       description: "Removing your account will permanently delete the following data:"
       warning: This action is permanent and cannot be undone.
+      nextCooldown: "Next ({seconds}s)" # Next button with cooldown timer
     step2:
       otpSentTo: Enter the 6-digit code sent to
       resendCode: Resend code
@@ -96,6 +97,14 @@ account:
       generic: Something went wrong. Please try again.
       ssoAccount: SSO accounts cannot manage personal account settings.
       removalInProgress: A removal is already in progress.
+      incorrectCode: The code you entered is incorrect # Wrong OTP code
+      incorrectCodeWithAttempts: The code you entered is incorrect. {attemptsLeft} of {maxAttempts} attempts left.
+      invalidCodeFormat: Please enter the 6-digit code
+      codeExpired: The verification code has expired. Please request a new one. # OTP expired
+      codeAlreadyUsed: This code has already been used. Please request a new one. # OTP already used
+      requestExpired: Your verification request has expired. Please request a new code. # OTP request token expired
+      sendCooldown: Please wait a moment before requesting another code.
+      locked: Your last code was locked after too many incorrect attempts. Request a new one when the countdown ends.
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -118,6 +127,7 @@ account:
       description: For security, you need to verify your current email via OTP to change it. # Step 1 description
       currentEmailLabel: "Current email:" # Label before current email address
       sendCode: Send Code # Send OTP button
+      sendCodeCooldown: "Send Code ({seconds}s)" # Send button with cooldown timer
       otpSentMessage: We sent a 6-digit code to your email. The code expires in 4 minutes. # OTP sent info text
       verificationCode: Verification Code # OTP input label
       resendCode: Resend code # Resend button label
@@ -169,4 +179,8 @@ account:
       requestExpired: Your verification request has expired. Please request a new code. # OTP request token expired
       emailInUse: This email is already in use by another account # Duplicate email
       verificationExpired: Your verification has expired. Please start over. # Verification token expired
+      incorrectCodeWithAttempts: The code you entered is incorrect. {attemptsLeft} of {maxAttempts} attempts left.
+      invalidCodeFormat: Please enter the 6-digit code
+      sendCooldown: Please wait a moment before requesting another code.
+      locked: Your last code was locked after too many incorrect attempts. Request a new one when the countdown ends.
       generic: Something went wrong. Please try again. # Fallback error

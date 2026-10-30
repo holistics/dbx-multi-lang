@@ -46,6 +46,18 @@ auth:
     submit: "Invia" # OTP submit button
     sendOtpFailed: "Invio dell'OTP non riuscito, riprova!" # Error toast
 
+    # OTP error messages, picked by the API errorCode (TDD-122)
+    errors:
+      incorrectCode: Il codice inserito non è corretto
+      incorrectCodeWithAttempts: Il codice inserito non è corretto. Ti restano {attemptsLeft} tentativi su {maxAttempts}.
+      invalidCodeFormat: Inserisci il codice a 6 cifre
+      codeExpired: Il codice di verifica è scaduto. Richiedine uno nuovo.
+      codeAlreadyUsed: Questo codice è già stato utilizzato. Richiedine uno nuovo.
+      requestExpired: La richiesta di accesso è scaduta. Ricomincia da capo.
+      sendCooldown: Attendi un momento prima di richiedere un altro codice.
+      locked: Il tuo ultimo codice è stato bloccato dopo troppi tentativi errati. Richiedine uno nuovo al termine del conto alla rovescia.
+      generic: Si è verificato un errore. Riprova.
+
   # ========================================
   # SSO Login - Single Sign-On
   # ========================================

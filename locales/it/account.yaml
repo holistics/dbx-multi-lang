@@ -85,6 +85,7 @@ account:
     step1:
       description: "La rimozione del tuo account eliminerà permanentemente i seguenti dati:"
       warning: "Questa azione è permanente e non può essere annullata."
+      nextCooldown: "Avanti ({seconds}s)" # Next button with cooldown timer
     step2:
       otpSentTo: "Inserisci il codice a 6 cifre inviato a"
       resendCode: "Reinvia codice"
@@ -96,6 +97,14 @@ account:
       generic: "Si è verificato un errore. Riprova."
       ssoAccount: "Gli account SSO non possono gestire le impostazioni dell'account personale."
       removalInProgress: "Una rimozione è già in corso."
+      incorrectCode: "Il codice inserito non è corretto" # Wrong OTP code
+      incorrectCodeWithAttempts: Il codice inserito non è corretto. Ti restano {attemptsLeft} tentativi su {maxAttempts}.
+      invalidCodeFormat: Inserisci il codice a 6 cifre
+      codeExpired: "Il codice di verifica è scaduto. Richiedine uno nuovo." # OTP expired
+      codeAlreadyUsed: "Questo codice è già stato utilizzato. Richiedine uno nuovo." # OTP already used
+      requestExpired: "La richiesta di verifica è scaduta. Richiedi un nuovo codice." # OTP request token expired
+      sendCooldown: Attendi un momento prima di richiedere un altro codice.
+      locked: Il tuo ultimo codice è stato bloccato dopo troppi tentativi errati. Richiedine uno nuovo al termine del conto alla rovescia.
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -118,6 +127,7 @@ account:
       description: "Per sicurezza, devi verificare la tua email attuale tramite OTP prima di modificarla." # Step 1 description
       currentEmailLabel: "Email attuale:" # Label before current email address
       sendCode: "Invia codice" # Send OTP button
+      sendCodeCooldown: "Invia codice ({seconds}s)" # Send button with cooldown timer
       otpSentMessage: "Abbiamo inviato un codice a 6 cifre alla tua email. Il codice scade tra 4 minuti." # OTP sent info text
       verificationCode: "Codice di verifica" # OTP input label
       resendCode: "Reinvia codice" # Resend button label
@@ -169,4 +179,8 @@ account:
       requestExpired: "La richiesta di verifica è scaduta. Richiedi un nuovo codice." # OTP request token expired
       emailInUse: "Questa email è già in uso da un altro account" # Duplicate email
       verificationExpired: "La verifica è scaduta. Ricomincia da capo." # Verification token expired
+      incorrectCodeWithAttempts: Il codice inserito non è corretto. Ti restano {attemptsLeft} tentativi su {maxAttempts}.
+      invalidCodeFormat: Inserisci il codice a 6 cifre
+      sendCooldown: Attendi un momento prima di richiedere un altro codice.
+      locked: Il tuo ultimo codice è stato bloccato dopo troppi tentativi errati. Richiedine uno nuovo al termine del conto alla rovescia.
       generic: "Si è verificato un errore. Riprova." # Fallback error

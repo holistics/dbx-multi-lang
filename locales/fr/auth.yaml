@@ -46,6 +46,18 @@ auth:
     submit: Valider
     sendOtpFailed: Échec de l'envoi du code OTP. Veuillez réessayer.
 
+    # OTP error messages, picked by the API errorCode (TDD-122)
+    errors:
+      incorrectCode: Le code que vous avez saisi est incorrect.
+      incorrectCodeWithAttempts: Le code que vous avez saisi est incorrect. Il vous reste {attemptsLeft} tentatives sur {maxAttempts}.
+      invalidCodeFormat: Veuillez saisir le code à 6 chiffres.
+      codeExpired: Le code de vérification a expiré. Veuillez en demander un nouveau.
+      codeAlreadyUsed: Ce code a déjà été utilisé. Veuillez en demander un nouveau.
+      requestExpired: Votre demande de connexion a expiré. Veuillez recommencer.
+      sendCooldown: Veuillez patienter un instant avant de demander un nouveau code.
+      locked: Votre dernier code a été bloqué après trop de tentatives incorrectes. Demandez-en un nouveau à la fin du compte à rebours.
+      generic: Une erreur est survenue. Veuillez réessayer.
+
   # ========================================
   # Connexion SSO
   # ========================================

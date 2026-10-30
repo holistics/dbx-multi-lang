@@ -79,6 +79,7 @@ account:
     step1:
       description: "A remoção da sua conta excluirá permanentemente os seguintes dados:"
       warning: Esta ação é permanente e não pode ser desfeita.
+      nextCooldown: "Próximo ({seconds}s)" # Next button with cooldown timer
     step2:
       otpSentTo: Digite o código de 6 dígitos enviado para
       resendCode: Reenviar código
@@ -90,6 +91,14 @@ account:
       generic: Algo deu errado. Por favor, tente novamente.
       ssoAccount: Contas SSO não podem gerenciar configurações de conta pessoal.
       removalInProgress: Uma remoção já está em andamento.
+      incorrectCode: O código que você inseriu está incorreto
+      incorrectCodeWithAttempts: O código que você inseriu está incorreto. Restam {attemptsLeft} de {maxAttempts} tentativas.
+      invalidCodeFormat: Por favor, insira o código de 6 dígitos
+      codeExpired: O código de verificação expirou. Por favor, solicite um novo.
+      codeAlreadyUsed: Este código já foi usado. Por favor, solicite um novo.
+      requestExpired: Sua solicitação de verificação expirou. Por favor, solicite um novo código.
+      sendCooldown: Por favor, aguarde um momento antes de solicitar outro código.
+      locked: Seu após muitas tentativas incorretas. Solicite um novo quando a contagem regressiva terminar.
 
   # ========================================
   # Change Email modal - 4-step email change flow
@@ -112,6 +121,7 @@ account:
       description: Para sua segurança, você precisa verificar seu e-mail atual via OTP para alterá-lo.
       currentEmailLabel: "E-mail atual:"
       sendCode: Enviar código
+      sendCodeCooldown: "Enviar código ({seconds}s)" # Send button with cooldown timer
       otpSentMessage: Enviamos um código de 6 dígitos para o seu e-mail. O código expira em 4 minutos.
       verificationCode: Código de verificação
       resendCode: Reenviar código
@@ -163,4 +173,8 @@ account:
       requestExpired: Sua solicitação de verificação expirou. Por favor, solicite um novo código.
       emailInUse: Este e-mail já está em uso por outra conta
       verificationExpired: Sua verificação expirou. Por favor, recomece.
+      incorrectCodeWithAttempts: O código que você inseriu está incorreto. Restam {attemptsLeft} de {maxAttempts} tentativas.
+      invalidCodeFormat: Por favor, insira o código de 6 dígitos
+      sendCooldown: Por favor, aguarde um momento antes de solicitar outro código.
+      locked: Seu último código foi bloqueado após muitas tentativas incorretas. Solicite um novo quando a contagem regressiva terminar.
       generic: Ocorreu um erro. Por favor, tente novamente.
