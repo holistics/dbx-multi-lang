@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+### Misc
+* Pin GitHub Actions to immutable commit SHAs (ratchet-style) to close a supply-chain gap from floating tags
+* Bump Node.js CI version to 22.23.4
+
 ## v1.5.10 (Oct 29, 2026)
 ### Misc
 * Add translation for otp flows
