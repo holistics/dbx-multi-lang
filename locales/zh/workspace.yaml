@@ -16,6 +16,7 @@ workspace:
   guestWorkspace: 访客工作区
   guestLabel: (访客)
   workspace: 工作区
+  selectWorkspace: 选择工作区
   private: 私有
   readOnlyMode: 由于订阅已取消，工作区处于只读模式。请续订以启用工作区功能。
   settings:

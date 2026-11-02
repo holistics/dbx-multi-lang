@@ -19,6 +19,7 @@ workspace:
   guestWorkspace: Misafir Çalışma Alanı
   guestLabel: (misafir)
   workspace: Çalışma Alanı # Label for team workspace type
+  selectWorkspace: Bir çalışma alanı seçin # Heading above the workspaces to choose from when duplicating a diagram (Duplicate and Edit as New menus)
   private: Gizli # Privacy label for private items
   readOnlyMode: Abonelik iptali sebebiyle çalışma alanı salt okunur modda. Çalışma alanı özelliklerini kullanmak için aboneliğinizi yenileyin.
 

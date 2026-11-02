@@ -16,6 +16,7 @@ workspace:
   guestWorkspace: ゲストワークスペース
   guestLabel: (ゲスト)
   workspace: ワークスペース
+  selectWorkspace: ワークスペースを選択してください
   private: プライベート
   readOnlyMode: サブスクリプションのキャンセルにより、ワークスペースは読み取り専用モードです。機能を有効にするにはサブスクリプションを更新してください。
   settings:

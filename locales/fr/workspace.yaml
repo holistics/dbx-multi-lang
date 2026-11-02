@@ -19,6 +19,7 @@ workspace:
   guestWorkspace: Espace de travail invité
   guestLabel: (invité)
   workspace: Espace de travail
+  selectWorkspace: Sélectionnez un espace de travail
   private: Privé
   readOnlyMode: L’espace de travail est en mode lecture seule en raison de l’annulation de l’abonnement. Veuillez renouveler pour réactiver les fonctionnalités.
 

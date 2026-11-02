@@ -19,6 +19,7 @@ workspace:
   guestWorkspace: Guest Workspace # Label for a guest workspace entry (workspace switcher/dropdown)
   guestLabel: (guest) # Short suffix label marking a guest workspace entry (workspace switcher dropdown)
   workspace: Workspace # Label for team workspace type
+  selectWorkspace: Select a workspace # Heading above the workspaces to choose from when duplicating a diagram (Duplicate and Edit as New menus)
   private: Private # Privacy label for private items
   readOnlyMode: Workspace is in read-only mode due to a subscription cancellation. Please renew to enable workspace functionality.
 

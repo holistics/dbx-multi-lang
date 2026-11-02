@@ -19,6 +19,7 @@ workspace:
   guestWorkspace: 게스트 워크스페이스
   guestLabel: (게스트)
   workspace: 워크스페이스      # Label for team workspace type
+  selectWorkspace: 워크스페이스를 선택하세요 # Heading above the workspaces to choose from when duplicating a diagram (Duplicate and Edit as New menus)
   private: 비공개     # Privacy label for private items
   readOnlyMode: 구독 취소로 인해 워크스페이스가 읽기 전용 모드입니다. 워크스페이스 기능을 활성화하려면 갱신하세요.
 

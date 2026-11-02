@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Misc
 * Pin GitHub Actions to immutable commit SHAs (ratchet-style) to close a supply-chain gap from floating tags
 * Bump Node.js CI version to 22.23.4
+* Add `workspace.selectWorkspace`, the heading above the workspaces to choose from when duplicating a diagram
 
 ## v1.5.10 (Oct 29, 2026)
 ### Misc

@@ -19,6 +19,7 @@ workspace:
   guestWorkspace: Mehmon ish maydoni
   guestLabel: (mehmon)
   workspace: Ish maydoni # Label for team workspace type
+  selectWorkspace: Ish maydonini (workspace) tanlang # Heading above the workspaces to choose from when duplicating a diagram (Duplicate and Edit as New menus)
   private: Xususiy # Privacy label for private items
   readOnlyMode: Obuna bekor qilinganligi sababli ish maydoni faqat o'qish rejimida. Ish maydoni funksiyalarini yoqish uchun iltimos, obunani yangilang.
 

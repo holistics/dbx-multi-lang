@@ -19,6 +19,7 @@ workspace:
   guestWorkspace: Гостьовий робочий простір # Label for a guest workspace entry (workspace switcher/dropdown)
   guestLabel: (гість) # Short suffix label marking a guest workspace entry (workspace switcher dropdown)
   workspace: Робочий простір # Label for team workspace type
+  selectWorkspace: Виберіть робочий простір # Heading above the workspaces to choose from when duplicating a diagram (Duplicate and Edit as New menus)
   private: Приватний # Privacy label for private items
   readOnlyMode: Робочий простір працює в режимі лише читання через скасування підписки. Поновіть підписку, щоб увімкнути функціональність робочого простору.
 
