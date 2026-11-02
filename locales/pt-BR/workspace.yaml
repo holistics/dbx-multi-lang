@@ -19,6 +19,8 @@ workspace:
   guestWorkspace: Espaço de Trabalho de Convidado
   guestLabel: (convidado)
   workspace: Espaço de Trabalho
+  selectWorkspace: Selecione um Espaço de Trabalho
+  diagramLimitReachedInWorkspace: "Você atingiu o limite de diagramas desse workspace! Faça upgrade para os planos pagos e crie diagramas ilimitados, ou escolha outro workspace."
   private: Privado
   readOnlyMode: O Espaço de Trabalho está no modo somente leitura devido ao cancelamento de uma assinatura. Por favor, renove para habilitar a funcionalidade do Espaço de Trabalho.
 

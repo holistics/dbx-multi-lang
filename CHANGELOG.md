@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.5.12 (Nov 3, 2026)
+### Misc
+* Add copywriting for workspace selection and diagram limits
+
 ## v1.5.11 (Nov 3, 2026)
 ### Misc
 * Add otp translation for the remove workspace flow
