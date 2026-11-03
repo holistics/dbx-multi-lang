@@ -19,6 +19,8 @@ workspace:
   guestWorkspace: "Spazio di lavoro ospite"
   guestLabel: "(ospite)"
   workspace: "Spazio di lavoro" # Label for team workspace type
+  selectWorkspace: "Seleziona uno spazio di lavoro" # Heading above the workspaces to choose from when duplicating a diagram (Duplicate and Edit as New menus)
+  diagramLimitReachedInWorkspace: "Hai raggiunto il limite di diagrammi in quell'area di lavoro! Passa ai piani a pagamento per creare diagrammi illimitati, oppure scegli un'altra area di lavoro."
   private: "Privato" # Privacy label for private items
   readOnlyMode: "Lo spazio di lavoro è in modalità sola lettura a causa dell'annullamento dell'abbonamento. Rinnova l'abbonamento per abilitare le funzionalità dello spazio di lavoro."
 

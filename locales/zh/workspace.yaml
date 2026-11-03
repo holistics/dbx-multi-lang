@@ -16,6 +16,8 @@ workspace:
   guestWorkspace: 访客工作区
   guestLabel: (访客)
   workspace: 工作区
+  selectWorkspace: 选择工作区
+  diagramLimitReachedInWorkspace: "该工作区的图表数量已达上限！升级到付费方案即可无限创建，或选择其他工作区。"
   private: 私有
   readOnlyMode: 由于订阅已取消，工作区处于只读模式。请续订以启用工作区功能。
   settings:

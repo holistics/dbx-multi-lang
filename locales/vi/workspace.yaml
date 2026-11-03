@@ -13,6 +13,8 @@ workspace:
   guestWorkspace: Không gian làm việc khách
   guestLabel: (khách)
   workspace: Không gian làm việc
+  selectWorkspace: Chọn không gian làm việc
+  diagramLimitReachedInWorkspace: "Bạn đã đạt giới hạn số lượng sơ đồ trong không gian làm việc đó! Hãy nâng cấp lên gói trả phí để tạo không giới hạn, hoặc chọn không gian làm việc khác."
   private: Riêng tư
   readOnlyMode: Không gian làm việc đang ở chế độ chỉ đọc do hủy gói đăng ký. Vui lòng gia hạn để bật các tính năng của không gian làm việc.
 
