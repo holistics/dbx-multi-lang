@@ -149,6 +149,8 @@ workspace:
     transferOwnership: Transferir propriedade
     delete: Excluir
     untitledDiagram: Diagrama sem título
+    diagramActions: Ações do diagrama # aria-label for the row actions menu
+    ownedBy: Pertencente a # Prefix label in the row actions menu owner header
     columns:
       name: Nome
       dateCreated: Data de Criação

@@ -152,6 +152,8 @@ workspace:
     transferOwnership: Transfer ownership # Transfer ownership button
     delete: Delete # Delete button
     untitledDiagram: Untitled Diagram # Default name for unnamed diagrams
+    diagramActions: Diagram actions # aria-label for the row actions menu
+    ownedBy: Owned by # Prefix label in the row actions menu owner header
     columns:
       name: Name # Table column header (diagram name)
       dateCreated: Date Created # Table column header

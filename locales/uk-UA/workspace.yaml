@@ -149,6 +149,8 @@ workspace:
     transferOwnership: Передати право власності # Transfer ownership button
     delete: Видалити # Delete button
     untitledDiagram: Діаграма без назви # Default name for unnamed diagrams
+    diagramActions: Дії з діаграмою # aria-label for the row actions menu
+    ownedBy: 'Власник:' # Prefix label in the row actions menu owner header
     columns:
       name: Назва # Table column header (diagram name)
       dateCreated: Дата створення # Table column header

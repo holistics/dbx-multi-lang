@@ -149,6 +149,8 @@ workspace:
     transferOwnership: Sahipliği devret # Transfer ownership button
     delete: Sil # Delete button
     untitledDiagram: İsimsiz Diyagram # Default name for unnamed diagrams
+    diagramActions: Diyagram eylemleri # aria-label for the row actions menu
+    ownedBy: Sahibi # Prefix label in the row actions menu owner header
     columns:
       name: İsim # Table column header (diagram name)
       dateCreated: Oluşturulma Tarihi # Table column header

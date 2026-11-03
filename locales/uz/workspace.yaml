@@ -149,6 +149,8 @@ workspace:
     transferOwnership: Egalikni o'tkazish # Transfer ownership button
     delete: O'chirish # Delete button
     untitledDiagram: Nomsiz diagramma # Default name for unnamed diagrams
+    diagramActions: Diagramma amallari # aria-label for the row actions menu
+    ownedBy: 'Egasi:' # Prefix label in the row actions menu owner header
     columns:
       name: Nomi # Table column header (diagram name)
       dateCreated: Yaratilgan sana # Table column header

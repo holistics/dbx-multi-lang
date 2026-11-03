@@ -138,6 +138,8 @@ workspace:
     transferOwnership: 所有権を移転
     delete: 削除
     untitledDiagram: 無題のダイアグラム
+    diagramActions: ダイアグラムのアクション # aria-label for the row actions menu
+    ownedBy: 所有者： # Prefix label in the row actions menu owner header
     columns:
       name: 名前
       dateCreated: 作成日

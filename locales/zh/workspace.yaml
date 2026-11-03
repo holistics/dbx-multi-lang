@@ -138,6 +138,8 @@ workspace:
     transferOwnership: 转让所有权
     delete: 删除
     untitledDiagram: 无标题图表
+    diagramActions: 图表操作 # aria-label for the row actions menu
+    ownedBy: 所有者： # Prefix label in the row actions menu owner header
     columns:
       name: 名称
       dateCreated: 创建日期
