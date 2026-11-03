@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Unreleased
+## v1.5.11 (Nov 3, 2026)
 ### Misc
 * Add otp translation for the remove workspace flow
 * Pin GitHub Actions to immutable commit SHAs (ratchet-style) to close a supply-chain gap from floating tags
