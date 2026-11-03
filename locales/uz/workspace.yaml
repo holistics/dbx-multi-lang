@@ -272,4 +272,13 @@ workspace:
     deleteModalTitle: Ushbu ish maydonini o'chirasizmi? # Delete confirmation modal title
     deleteModalContent: Ushbu ish maydoni va uning barcha ma'lumotlarini o'chirasizmi? Bu amalni bekor qilib bo'lmaydi. Sizga tasdiqlash kodini elektron pochta orqali yuboramiz. # Delete confirmation modal content
     deleteModalConfirmLabel: Ish maydonini o'chirish # Delete confirmation modal confirm button
+    deleteModalErrors:
+      incorrectCode: "Siz kiritgan kod noto'g'ri" # Wrong OTP code
+      incorrectCodeWithAttempts: Siz kiritgan kod noto'g'ri. {maxAttempts} urinishdan {attemptsLeft} tasi qoldi.
+      invalidCodeFormat: Iltimos, 6 xonali kodni kiriting
+      codeExpired: "Tasdiqlash kodining amal qilish muddati tugadi. Iltimos, yangisini so'rang." # OTP expired
+      codeAlreadyUsed: "Bu kod allaqachon ishlatilgan. Iltimos, yangisini so'rang." # OTP already used
+      sendCooldown: Yangi kod so'rashdan oldin biroz kuting.
+      locked: Oxirgi kodingiz juda ko'p noto'g'ri urinish tufayli bloklandi. Teskari sanoq tugagach, yangi kod so'rang.
+      generic: Nimadir xato ketdi. Iltimos, qayta urinib ko'ring.
     deletionStarted: Ish maydonini o'chirish boshlandi. # Success toast after confirming deletion

@@ -233,4 +233,13 @@ workspace:
     deleteModalTitle: 删除此工作区？
     deleteModalContent: 删除此工作区及其所有数据？此操作无法撤销。我们将向您发送一封含确认码的邮件。
     deleteModalConfirmLabel: 删除工作区
+    deleteModalErrors:
+      incorrectCode: 您输入的验证码不正确
+      incorrectCodeWithAttempts: 您输入的验证码不正确。还剩 {attemptsLeft}/{maxAttempts} 次机会。
+      invalidCodeFormat: 请输入 6 位验证码
+      codeExpired: 验证码已过期。请重新获取验证码。
+      codeAlreadyUsed: 此验证码已被使用。请重新获取验证码。
+      sendCooldown: 请稍候片刻再获取新的验证码。
+      locked: 您的上一个验证码因错误次数过多已被锁定。倒计时结束后请重新获取。
+      generic: 出现错误，请重试。
     deletionStarted: 工作区删除已开始。

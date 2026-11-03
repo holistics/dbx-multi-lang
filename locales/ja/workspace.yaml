@@ -233,4 +233,13 @@ workspace:
     deleteModalTitle: このワークスペースを削除しますか？
     deleteModalContent: このワークスペースとすべてのデータを削除しますか？この操作は取り消せません。確認コードをメールでお送りします。
     deleteModalConfirmLabel: ワークスペースを削除
+    deleteModalErrors:
+      incorrectCode: 入力したコードが正しくありません
+      incorrectCodeWithAttempts: 入力したコードが正しくありません。残り {attemptsLeft}/{maxAttempts} 回です。
+      invalidCodeFormat: 6 桁のコードを入力してください
+      codeExpired: 確認コードの有効期限が切れました。新しいコードをリクエストしてください。
+      codeAlreadyUsed: このコードは既に使用されています。新しいコードをリクエストしてください。
+      sendCooldown: 新しいコードをリクエストする前に少しお待ちください。
+      locked: 直前のコードは誤入力が多すぎたためロックされました。カウントダウンの終了後に新しいコードをリクエストしてください。
+      generic: エラーが発生しました。もう一度お試しください。
     deletionStarted: ワークスペースの削除を開始しました。
