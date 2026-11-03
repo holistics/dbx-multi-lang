@@ -169,6 +169,9 @@ workspace:
     billing: Billing # Billing link (left sidebar)
     showSidebar: Show sidebar # Tooltip when sidebar is hidden
     hideSidebar: Hide sidebar # Tooltip when sidebar is visible
+    switchWorkspace: Switch workspace
+  noPermission: You don't have permission to create diagrams
+  diagramLimitReached: Diagram limit reached
 
   # ========================================
   # Empty States - Empty diagrams views

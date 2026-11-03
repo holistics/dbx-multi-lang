@@ -151,6 +151,9 @@ workspace:
     billing: 請求
     showSidebar: サイドバーを表示
     hideSidebar: サイドバーを非表示
+    switchWorkspace: ワークスペースを切り替え
+  noPermission: ダイアグラムを作成する権限がありません
+  diagramLimitReached: ダイアグラムの上限に達しました
   emptyDiagrams:
     title: ダイアグラムがまだありません
     created:

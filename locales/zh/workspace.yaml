@@ -151,6 +151,9 @@ workspace:
     billing: 计费
     showSidebar: 显示侧边栏
     hideSidebar: 隐藏侧边栏
+    switchWorkspace: 切换工作区
+  noPermission: 您没有创建图表的权限
+  diagramLimitReached: 已达到图表数量限制
   emptyDiagrams:
     title: 还没有图表
     created:

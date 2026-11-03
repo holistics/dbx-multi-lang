@@ -166,6 +166,9 @@ workspace:
     billing: Оплата # Billing link (left sidebar)
     showSidebar: Показати бічну панель
     hideSidebar: Сховати бічну панель
+    switchWorkspace: Змінити робочий простір
+  noPermission: У вас немає дозволу створювати діаграми
+  diagramLimitReached: Досягнуто ліміт діаграм
 
   # ========================================
   # Empty States - Empty diagrams views

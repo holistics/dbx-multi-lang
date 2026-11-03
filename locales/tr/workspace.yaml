@@ -166,6 +166,9 @@ workspace:
     billing: Faturalandırma # Billing link (left sidebar)
     showSidebar: Kenar çubuğunu göster
     hideSidebar: Kenar çubuğunu gizle
+    switchWorkspace: Çalışma alanını değiştir
+  noPermission: Diyagram oluşturma izniniz yok
+  diagramLimitReached: Diyagram sınırına ulaşıldı
 
   # ========================================
   # Empty States - Empty diagrams views

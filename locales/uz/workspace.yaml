@@ -166,6 +166,9 @@ workspace:
     billing: To'lovlar (Billing) # Billing link (left sidebar)
     showSidebar: Yon panelni ko'rsatish
     hideSidebar: Yon panelni yashirish
+    switchWorkspace: Ish maydonini almashtirish
+  noPermission: Diagramma yaratish uchun ruxsatingiz yo'q
+  diagramLimitReached: Diagramma limitiga yetildi
 
   # ========================================
   # Empty States - Empty diagrams views

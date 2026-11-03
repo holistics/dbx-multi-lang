@@ -166,6 +166,9 @@ workspace:
     billing: Facturación # Billing link (left sidebar)
     showSidebar: Mostrar barra lateral
     hideSidebar: Ocultar barra lateral
+    switchWorkspace: Cambiar espacio de trabajo
+  noPermission: No tienes permiso para crear diagramas
+  diagramLimitReached: Se alcanzó el límite de diagramas
 
   # ========================================
   # Empty States - Empty diagrams views

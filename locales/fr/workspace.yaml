@@ -166,6 +166,9 @@ workspace:
     billing: Facturation
     showSidebar: Afficher la barre latérale
     hideSidebar: Masquer la barre latérale
+    switchWorkspace: Changer d'espace de travail
+  noPermission: Vous n'avez pas la permission de créer des diagrammes
+  diagramLimitReached: Limite de diagrammes atteinte
 
   # ========================================
   # États vides
