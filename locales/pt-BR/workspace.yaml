@@ -276,6 +276,6 @@ workspace:
       codeExpired: O código de verificação expirou. Por favor, solicite um novo.
       codeAlreadyUsed: Este código já foi usado. Por favor, solicite um novo.
       sendCooldown: Por favor, aguarde um momento antes de solicitar outro código.
-      locked: Seu após muitas tentativas incorretas. Solicite um novo quando a contagem regressiva terminar.
+      locked: Seu último código foi bloqueado após muitas tentativas incorretas. Solicite um novo quando a contagem regressiva terminar.
       generic: Algo deu errado. Por favor, tente novamente.
     deletionStarted: Exclusão do workspace iniciada.
