@@ -268,4 +268,13 @@ workspace:
     deleteModalTitle: Supprimer cet espace de travail ?
     deleteModalContent: Supprimer cet espace de travail et toutes ses données ? Cette action est irréversible. Nous vous enverrons un code de confirmation par e-mail.
     deleteModalConfirmLabel: Supprimer l'espace de travail
+    deleteModalErrors:
+      incorrectCode: Le code que vous avez saisi est incorrect.
+      incorrectCodeWithAttempts: Le code que vous avez saisi est incorrect. Il vous reste {attemptsLeft} tentatives sur {maxAttempts}.
+      invalidCodeFormat: Veuillez saisir le code à 6 chiffres.
+      codeExpired: Le code de vérification a expiré. Veuillez en demander un nouveau.
+      codeAlreadyUsed: Ce code a déjà été utilisé. Veuillez en demander un nouveau.
+      sendCooldown: Veuillez patienter un instant avant de demander un nouveau code.
+      locked: Votre dernier code a été bloqué après trop de tentatives incorrectes. Demandez-en un nouveau à la fin du compte à rebours.
+      generic: Une erreur est survenue. Veuillez réessayer.
     deletionStarted: La suppression de l'espace de travail a commencé.

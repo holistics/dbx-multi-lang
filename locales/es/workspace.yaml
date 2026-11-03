@@ -272,4 +272,13 @@ workspace:
     deleteModalTitle: "¿Eliminar este espacio de trabajo?" # Delete confirmation modal title
     deleteModalContent: "¿Eliminar este espacio de trabajo y todos sus datos? Esta acción no se puede deshacer. Te enviaremos un código de confirmación por correo electrónico." # Delete confirmation modal content
     deleteModalConfirmLabel: Eliminar espacio de trabajo # Delete confirmation modal confirm button
+    deleteModalErrors:
+      incorrectCode: El código que ingresaste es incorrecto # Wrong OTP code
+      incorrectCodeWithAttempts: El código que ingresaste es incorrecto. Te quedan {attemptsLeft} de {maxAttempts} intentos.
+      invalidCodeFormat: Por favor, ingresa el código de 6 dígitos
+      codeExpired: El código de verificación ha expirado. Por favor, solicita uno nuevo. # OTP expired
+      codeAlreadyUsed: Este código ya ha sido usado. Por favor, solicita uno nuevo. # OTP already used
+      sendCooldown: Por favor, espera un momento antes de solicitar otro código.
+      locked: Tu último código se bloqueó tras demasiados intentos incorrectos. Solicita uno nuevo cuando termine la cuenta atrás.
+      generic: Algo salió mal. Por favor, inténtalo de nuevo.
     deletionStarted: Se inició la eliminación del espacio de trabajo. # Success toast after confirming deletion

@@ -269,4 +269,13 @@ workspace:
     deleteModalTitle: Excluir este workspace?
     deleteModalContent: Excluir este workspace e todos os seus dados? Esta ação não pode ser desfeita. Enviaremos um código de confirmação por e-mail.
     deleteModalConfirmLabel: Excluir workspace
+    deleteModalErrors:
+      incorrectCode: O código que você inseriu está incorreto
+      incorrectCodeWithAttempts: O código que você inseriu está incorreto. Restam {attemptsLeft} de {maxAttempts} tentativas.
+      invalidCodeFormat: Por favor, insira o código de 6 dígitos
+      codeExpired: O código de verificação expirou. Por favor, solicite um novo.
+      codeAlreadyUsed: Este código já foi usado. Por favor, solicite um novo.
+      sendCooldown: Por favor, aguarde um momento antes de solicitar outro código.
+      locked: Seu último código foi bloqueado após muitas tentativas incorretas. Solicite um novo quando a contagem regressiva terminar.
+      generic: Algo deu errado. Por favor, tente novamente.
     deletionStarted: Exclusão do workspace iniciada.

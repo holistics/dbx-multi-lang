@@ -235,5 +235,14 @@ workspace:
     deleteModalTitle: Xóa không gian làm việc này?
     deleteModalContent: Xóa không gian làm việc này và toàn bộ dữ liệu? Hành động này không thể hoàn tác. Chúng tôi sẽ gửi email mã xác nhận cho bạn.
     deleteModalConfirmLabel: Xóa không gian làm việc
+    deleteModalErrors:
+      incorrectCode: Mã bạn nhập không chính xác
+      incorrectCodeWithAttempts: Mã bạn nhập không chính xác. Còn {attemptsLeft}/{maxAttempts} lần thử.
+      invalidCodeFormat: Vui lòng nhập mã gồm 6 chữ số
+      codeExpired: Mã xác minh đã hết hạn. Vui lòng yêu cầu mã mới.
+      codeAlreadyUsed: Mã này đã được sử dụng. Vui lòng yêu cầu mã mới.
+      sendCooldown: Vui lòng đợi một lát trước khi yêu cầu mã mới.
+      locked: Mã gần nhất đã bị khoá do nhập sai quá nhiều lần. Hãy yêu cầu mã mới khi hết thời gian đếm ngược.
+      generic: Đã xảy ra lỗi. Vui lòng thử lại.
     deletionStarted: Đã bắt đầu xóa không gian làm việc.
 

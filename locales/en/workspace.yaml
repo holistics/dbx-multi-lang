@@ -275,4 +275,13 @@ workspace:
     deleteModalTitle: Delete this workspace? # Delete confirmation modal title
     deleteModalContent: Delete this workspace and all its data? This cannot be undone. We will email you a confirmation code. # Delete confirmation modal content
     deleteModalConfirmLabel: Delete workspace # Delete confirmation modal confirm button
+    deleteModalErrors: # OTP errors in the delete workspace modal
+      incorrectCode: The code you entered is incorrect # Wrong OTP code
+      incorrectCodeWithAttempts: The code you entered is incorrect. {attemptsLeft} of {maxAttempts} attempts left.
+      invalidCodeFormat: Please enter the 6-digit code
+      codeExpired: The verification code has expired. Please request a new one. # OTP expired
+      codeAlreadyUsed: This code has already been used. Please request a new one. # OTP already used
+      sendCooldown: Please wait a moment before requesting another code.
+      locked: Your last code was locked after too many incorrect attempts. Request a new one when the countdown ends.
+      generic: Something went wrong. Please try again.
     deletionStarted: Workspace deletion started. # Success toast after confirming deletion
