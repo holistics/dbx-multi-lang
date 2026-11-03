@@ -152,6 +152,7 @@ workspace:
     untitledDiagram: 제목 없는 다이어그램      # Default name for unnamed diagrams
     diagramActions: 다이어그램 작업 # aria-label for the row actions menu
     ownedBy: '소유자:' # Prefix label in the row actions menu owner header
+    you: 나
     columns:
       name: 이름   # Table column header (diagram name)
       dateCreated: 생성된 날짜       # Table column header

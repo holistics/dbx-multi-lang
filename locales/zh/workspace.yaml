@@ -140,6 +140,7 @@ workspace:
     untitledDiagram: 无标题图表
     diagramActions: 图表操作 # aria-label for the row actions menu
     ownedBy: 所有者： # Prefix label in the row actions menu owner header
+    you: 你
     columns:
       name: 名称
       dateCreated: 创建日期

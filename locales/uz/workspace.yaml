@@ -151,6 +151,7 @@ workspace:
     untitledDiagram: Nomsiz diagramma # Default name for unnamed diagrams
     diagramActions: Diagramma amallari # aria-label for the row actions menu
     ownedBy: 'Egasi:' # Prefix label in the row actions menu owner header
+    you: Siz
     columns:
       name: Nomi # Table column header (diagram name)
       dateCreated: Yaratilgan sana # Table column header

@@ -136,6 +136,7 @@ workspace:
     untitledDiagram: Sơ đồ chưa có tên
     diagramActions: Thao tác sơ đồ # aria-label for the row actions menu
     ownedBy: Sở hữu bởi # Prefix label in the row actions menu owner header
+    you: Bạn
     columns:
       name: Tên
       dateCreated: Ngày tạo

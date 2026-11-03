@@ -151,6 +151,7 @@ workspace:
     untitledDiagram: "Diagramma senza titolo" # Default name for unnamed diagrams
     diagramActions: Azioni diagramma # aria-label for the row actions menu
     ownedBy: Di proprietà di # Prefix label in the row actions menu owner header
+    you: Tu
     columns:
       name: "Nome" # Table column header (diagram name)
       dateCreated: "Data di creazione" # Table column header

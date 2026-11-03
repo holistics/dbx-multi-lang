@@ -140,6 +140,7 @@ workspace:
     untitledDiagram: 無題のダイアグラム
     diagramActions: ダイアグラムのアクション # aria-label for the row actions menu
     ownedBy: 所有者： # Prefix label in the row actions menu owner header
+    you: あなた
     columns:
       name: 名前
       dateCreated: 作成日

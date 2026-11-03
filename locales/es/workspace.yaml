@@ -151,6 +151,7 @@ workspace:
     untitledDiagram: Diagrama sin título # Default name for unnamed diagrams
     diagramActions: Acciones del diagrama # aria-label for the row actions menu
     ownedBy: Propiedad de # Prefix label in the row actions menu owner header
+    you: Tú
     columns:
       name: Nombre # Table column header (diagram name)
       dateCreated: Fecha de creación # Table column header
