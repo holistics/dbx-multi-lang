@@ -19,6 +19,8 @@ workspace:
   guestWorkspace: Espacio de trabajo de invitado
   guestLabel: (invitado)
   workspace: Espacio de trabajo # Label for team workspace type
+  selectWorkspace: Selecciona un espacio de trabajo # Heading above the workspaces to choose from when duplicating a diagram (Duplicate and Edit as New menus)
+  diagramLimitReachedInWorkspace: "¡Has alcanzado el límite de diagramas de ese espacio de trabajo! Mejóralo a un plan de pago para crear diagramas ilimitados o elige otro espacio de trabajo."
   private: Privado # Privacy label for private items
   readOnlyMode: El espacio de trabajo está en modo de solo lectura debido a una cancelación de suscripción. Por favor, renueva para habilitar la funcionalidad del espacio de trabajo.
 
@@ -278,4 +280,13 @@ workspace:
     deleteModalTitle: "¿Eliminar este espacio de trabajo?" # Delete confirmation modal title
     deleteModalContent: "¿Eliminar este espacio de trabajo y todos sus datos? Esta acción no se puede deshacer. Te enviaremos un código de confirmación por correo electrónico." # Delete confirmation modal content
     deleteModalConfirmLabel: Eliminar espacio de trabajo # Delete confirmation modal confirm button
+    deleteModalErrors:
+      incorrectCode: El código que ingresaste es incorrecto # Wrong OTP code
+      incorrectCodeWithAttempts: El código que ingresaste es incorrecto. Te quedan {attemptsLeft} de {maxAttempts} intentos.
+      invalidCodeFormat: Por favor, ingresa el código de 6 dígitos
+      codeExpired: El código de verificación ha expirado. Por favor, solicita uno nuevo. # OTP expired
+      codeAlreadyUsed: Este código ya ha sido usado. Por favor, solicita uno nuevo. # OTP already used
+      sendCooldown: Por favor, espera un momento antes de solicitar otro código.
+      locked: Tu último código se bloqueó tras demasiados intentos incorrectos. Solicita uno nuevo cuando termine la cuenta atrás.
+      generic: Algo salió mal. Por favor, inténtalo de nuevo.
     deletionStarted: Se inició la eliminación del espacio de trabajo. # Success toast after confirming deletion

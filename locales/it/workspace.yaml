@@ -19,6 +19,8 @@ workspace:
   guestWorkspace: "Spazio di lavoro ospite"
   guestLabel: "(ospite)"
   workspace: "Spazio di lavoro" # Label for team workspace type
+  selectWorkspace: "Seleziona uno spazio di lavoro" # Heading above the workspaces to choose from when duplicating a diagram (Duplicate and Edit as New menus)
+  diagramLimitReachedInWorkspace: "Hai raggiunto il limite di diagrammi in quell'area di lavoro! Passa ai piani a pagamento per creare diagrammi illimitati, oppure scegli un'altra area di lavoro."
   private: "Privato" # Privacy label for private items
   readOnlyMode: "Lo spazio di lavoro è in modalità sola lettura a causa dell'annullamento dell'abbonamento. Rinnova l'abbonamento per abilitare le funzionalità dello spazio di lavoro."
 
@@ -275,4 +277,13 @@ workspace:
     deleteModalTitle: "Eliminare questo spazio di lavoro?"
     deleteModalContent: "Eliminare questo spazio di lavoro e tutti i suoi dati? Questa azione non può essere annullata. Ti invieremo un codice di conferma via email."
     deleteModalConfirmLabel: "Elimina spazio di lavoro"
+    deleteModalErrors:
+      incorrectCode: "Il codice inserito non è corretto" # Wrong OTP code
+      incorrectCodeWithAttempts: Il codice inserito non è corretto. Ti restano {attemptsLeft} tentativi su {maxAttempts}.
+      invalidCodeFormat: Inserisci il codice a 6 cifre
+      codeExpired: "Il codice di verifica è scaduto. Richiedine uno nuovo." # OTP expired
+      codeAlreadyUsed: "Questo codice è già stato utilizzato. Richiedine uno nuovo." # OTP already used
+      sendCooldown: Attendi un momento prima di richiedere un altro codice.
+      locked: Il tuo ultimo codice è stato bloccato dopo troppi tentativi errati. Richiedine uno nuovo al termine del conto alla rovescia.
+      generic: "Si è verificato un errore. Riprova."
     deletionStarted: "Eliminazione dello spazio di lavoro avviata."

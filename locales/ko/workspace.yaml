@@ -19,6 +19,8 @@ workspace:
   guestWorkspace: 게스트 워크스페이스
   guestLabel: (게스트)
   workspace: 워크스페이스      # Label for team workspace type
+  selectWorkspace: 워크스페이스를 선택하세요 # Heading above the workspaces to choose from when duplicating a diagram (Duplicate and Edit as New menus)
+  diagramLimitReachedInWorkspace: "해당 워크스페이스의 다이어그램 수 제한에 도달했습니다! 유료 플랜으로 업그레이드하여 무제한으로 만들거나 다른 워크스페이스를 선택하세요."
   private: 비공개     # Privacy label for private items
   readOnlyMode: 구독 취소로 인해 워크스페이스가 읽기 전용 모드입니다. 워크스페이스 기능을 활성화하려면 갱신하세요.
 
@@ -277,4 +279,13 @@ workspace:
     deleteModalTitle: 이 워크스페이스를 삭제하시겠습니까?
     deleteModalContent: 이 워크스페이스와 모든 데이터를 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다. 확인 코드를 이메일로 보내드립니다.
     deleteModalConfirmLabel: 워크스페이스 삭제
+    deleteModalErrors:
+      incorrectCode: 입력한 코드가 올바르지 않습니다.                # Wrong OTP code
+      incorrectCodeWithAttempts: 입력한 코드가 올바르지 않습니다. {maxAttempts}회 중 {attemptsLeft}회 남았습니다.
+      invalidCodeFormat: 6자리 코드를 입력하세요.
+      codeExpired: 인증 코드가 만료되었습니다. 새 코드를 요청하세요.                                # OTP expired
+      codeAlreadyUsed: 이 코드는 이미 사용되었습니다. 새 코드를 요청하세요.                            # OTP already used
+      sendCooldown: 새 코드를 요청하기 전에 잠시 기다려 주세요.
+      locked: 마지막 코드가 잘못된 시도가 너무 많아 잠겼습니다. 카운트다운이 끝나면 새 코드를 요청하세요.
+      generic: 문제가 발생했습니다. 다시 시도해 주세요.
     deletionStarted: 워크스페이스 삭제가 시작되었습니다.

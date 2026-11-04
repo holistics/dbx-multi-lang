@@ -19,6 +19,8 @@ workspace:
   guestWorkspace: Гостьовий робочий простір # Label for a guest workspace entry (workspace switcher/dropdown)
   guestLabel: (гість) # Short suffix label marking a guest workspace entry (workspace switcher dropdown)
   workspace: Робочий простір # Label for team workspace type
+  selectWorkspace: Виберіть робочий простір # Heading above the workspaces to choose from when duplicating a diagram (Duplicate and Edit as New menus)
+  diagramLimitReachedInWorkspace: "Ви досягли ліміту кількості діаграм у цьому робочому просторі! Перейдіть на платний план для необмеженого створення діаграм або виберіть інший робочий простір."
   private: Приватний # Privacy label for private items
   readOnlyMode: Робочий простір працює в режимі лише читання через скасування підписки. Поновіть підписку, щоб увімкнути функціональність робочого простору.
 
@@ -278,4 +280,13 @@ workspace:
     deleteModalTitle: Видалити цей робочий простір? # Delete confirmation modal title
     deleteModalContent: Видалити цей робочий простір і всі його дані? Цю дію неможливо скасувати. Ми надішлемо вам код підтвердження електронною поштою. # Delete confirmation modal content
     deleteModalConfirmLabel: Видалити робочий простір # Delete confirmation modal confirm button
+    deleteModalErrors:
+      incorrectCode: Введено неправильний код підтвердження # Wrong OTP code
+      incorrectCodeWithAttempts: Введено неправильний код підтвердження. Залишилося {attemptsLeft} із {maxAttempts} спроб.
+      invalidCodeFormat: Введіть код із 6 цифр
+      codeExpired: Термін дії коду підтвердження минув. Надішліть запит на новий код. # OTP expired
+      codeAlreadyUsed: Цей код уже використано. Надішліть запит на новий код. # OTP already used
+      sendCooldown: Зачекайте трохи, перш ніж запитувати новий код.
+      locked: Ваш останній код заблоковано через забагато невдалих спроб. Надішліть запит на новий код, коли завершиться зворотний відлік.
+      generic: Щось пішло не так. Спробуйте ще раз.
     deletionStarted: Видалення робочого простору розпочато. # Success toast after confirming deletion
