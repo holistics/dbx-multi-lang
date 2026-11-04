@@ -105,6 +105,9 @@ portal:
       shareLabel: "Chia sẻ gói Education trên X"
       shareLinkLabel: "Liên kết bài đăng của bạn"
       shareLinkPlaceholder: "https://x.com/yourname/status/..."
+      shareFollowLabel: "Chia sẻ và theo dõi trên X"
+      followCta: "Theo dõi chúng tôi"
+      followLabel: "Tôi đã theo dõi {username} trên X. Chúng tôi sẽ kiểm tra điều này trước khi cấp giấy phép."
       roles:
         student: "Sinh viên"
         teacher: "Giáo viên hoặc giảng viên"

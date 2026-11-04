@@ -139,6 +139,9 @@ portal:
       shareLabel: "Education planını X’te paylaşın"
       shareLinkLabel: "Gönderinizin bağlantısı"
       shareLinkPlaceholder: "https://x.com/yourname/status/..."
+      shareFollowLabel: "X’te paylaşın ve takip edin"
+      followCta: "Bizi takip edin"
+      followLabel: "X’te {username} hesabını takip ettim. Lisansı vermeden önce bunu kontrol edeceğiz."
       roles:
         student: "Öğrenci"
         teacher: "Öğretmen veya öğretim görevlisi"

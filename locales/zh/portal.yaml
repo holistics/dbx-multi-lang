@@ -115,6 +115,9 @@ portal:
       shareLabel: "在 X 上分享 Education 方案"
       shareLinkLabel: "您的帖子链接"
       shareLinkPlaceholder: "https://x.com/yourname/status/..."
+      shareFollowLabel: "在 X 上分享并关注"
+      followCta: "关注我们"
+      followLabel: "我已在 X 上关注 {username}。授予许可前我们会进行核实。"
       roles:
         student: "学生"
         teacher: "教师或讲师"

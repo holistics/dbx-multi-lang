@@ -139,6 +139,9 @@ portal:
       shareLabel: "Education 플랜을 X에 공유"
       shareLinkLabel: "게시물 링크"
       shareLinkPlaceholder: "https://x.com/yourname/status/..."
+      shareFollowLabel: "X에서 공유하고 팔로우"
+      followCta: "팔로우하기"
+      followLabel: "X에서 {username}을(를) 팔로우했습니다. 라이선스를 부여하기 전에 확인합니다."
       roles:
         student: "학생"
         teacher: "교사 또는 강사"

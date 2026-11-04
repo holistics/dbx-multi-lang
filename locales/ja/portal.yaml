@@ -115,6 +115,9 @@ portal:
       shareLabel: "Education プランを X で共有"
       shareLinkLabel: "投稿のリンク"
       shareLinkPlaceholder: "https://x.com/yourname/status/..."
+      shareFollowLabel: "X で共有してフォロー"
+      followCta: "フォローする"
+      followLabel: "X で {username} をフォローしました。ライセンスを付与する前に確認します。"
       roles:
         student: "学生"
         teacher: "教員または講師"
