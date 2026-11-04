@@ -151,6 +151,9 @@ workspace:
     transferOwnership: Egalikni o'tkazish # Transfer ownership button
     delete: O'chirish # Delete button
     untitledDiagram: Nomsiz diagramma # Default name for unnamed diagrams
+    diagramActions: Diagramma amallari # aria-label for the row actions menu
+    ownedBy: 'Egasi:' # Prefix label in the row actions menu owner header
+    you: Siz
     columns:
       name: Nomi # Table column header (diagram name)
       dateCreated: Yaratilgan sana # Table column header
@@ -165,6 +168,9 @@ workspace:
     billing: To'lovlar (Billing) # Billing link (left sidebar)
     showSidebar: Yon panelni ko'rsatish
     hideSidebar: Yon panelni yashirish
+    switchWorkspace: Ish maydonini almashtirish
+  noPermission: Diagramma yaratish uchun ruxsatingiz yo'q
+  diagramLimitReached: Diagramma limitiga yetildi
 
   # ========================================
   # Empty States - Empty diagrams views
