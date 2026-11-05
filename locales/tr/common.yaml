@@ -65,6 +65,7 @@ common:
     fromOracleSQL: Oracle SQL'den # Oracle database import
     fromRails: Rails'den (schema.rb) # Rails schema.rb file import
     fromCSV: CSV'den # CSV file import (opens file picker)
+    fromInfraCode: "Altyapı kodundan (YZ)"
 
   # ========================================
   # Upgrade prompts - Feature upgrade dialogs (shown when free users hit limits)

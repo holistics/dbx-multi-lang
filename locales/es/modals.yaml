@@ -170,6 +170,30 @@ modals:
   # Import modal - Import diagram
   # ========================================
   import:
+    infra:
+      title: "Importar desde código de infraestructura (IA)"
+      notice: "La IA lee los archivos que necesita de esta carpeta y los envía a nuestro proveedor de IA. Nunca se envían archivos de Vault, claves privadas ni el estado de Terraform."
+      chooseFolder: "Elegir carpeta"
+      findingStart: "Buscando los sistemas en esta carpeta"
+      finding: "Buscando los sistemas en esta carpeta: leyendo {path} ({count} archivos leídos)"
+      drawingStart: "Dibujando el diagrama"
+      drawing: "Dibujando: leyendo {path} ({count} archivos leídos)"
+      fixing: "Corrigiendo errores en el diagrama de la IA"
+      pickSystems: "Elige los sistemas que quieres dibujar"
+      selectAll: "Seleccionar todo"
+      clearAll: "Borrar todo"
+      draw: "Dibujar"
+      cancel: "Cancelar"
+      noSystems: "No se encontró código de infraestructura en esta carpeta"
+      stillErrors: "El diagrama de la IA todavía tiene errores:"
+      noChanges: "No se encontraron cambios en el código"
+      outOfSteps: "La IA no pudo terminar de leer el código. Prueba con menos sistemas."
+      cancelled: "Importación cancelada"
+      unavailable: "La importación con IA no está disponible en este momento"
+      noEditAccess: "Necesitas permiso de edición en este diagrama"
+      saveFirst: "Guarda primero el diagrama"
+      archOnly: "Funciona en un diagrama vacío o de arquitectura"
+      failed: "La importación con IA falló. Inténtalo de nuevo."
     instructions: Instrucciones # Instructions section title
     showInstructions: Mostrar instrucciones # Show instructions button
     hideInstructions: Ocultar instrucciones # Hide instructions button

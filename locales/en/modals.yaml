@@ -170,6 +170,30 @@ modals:
   # Import modal - Import diagram
   # ========================================
   import:
+    infra:
+      title: "Import from infrastructure code (AI)"
+      notice: "The AI reads the files it needs from this folder and sends them to our AI provider. Vault files, private keys and Terraform state are never sent."
+      chooseFolder: "Choose folder"
+      findingStart: "Finding the systems in this folder"
+      finding: "Finding the systems in this folder: reading {path} ({count} files read)"
+      drawingStart: "Drawing the diagram"
+      drawing: "Drawing: reading {path} ({count} files read)"
+      fixing: "Fixing errors in the AI's diagram"
+      pickSystems: "Pick the systems to draw"
+      selectAll: "Select all"
+      clearAll: "Clear all"
+      draw: "Draw"
+      cancel: "Cancel"
+      noSystems: "No infrastructure code found in this folder"
+      stillErrors: "The AI's diagram still has errors:"
+      noChanges: "No changes found in the code"
+      outOfSteps: "The AI couldn't finish reading the code. Try fewer systems."
+      cancelled: "Import cancelled"
+      unavailable: "AI import is unavailable right now"
+      noEditAccess: "You need edit access to this diagram"
+      saveFirst: "Save the diagram first"
+      archOnly: "This works on an empty or architecture diagram"
+      failed: "The AI import failed. Try again."
     instructions: Instructions # Instructions section title
     showInstructions: Show instructions # Show instructions button
     hideInstructions: Hide instructions # Hide instructions button

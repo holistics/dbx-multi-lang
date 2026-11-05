@@ -50,6 +50,7 @@ common:
     fromOracleSQL: Oracle SQL から
     fromRails: Rails (schema.rb) から
     fromCSV: CSV から
+    fromInfraCode: "インフラコードから (AI)"
   upgrade:
     title: アップグレード
   quickActions:

@@ -170,6 +170,30 @@ modals:
   # Import modal - Import diagram
   # ========================================
   import:
+    infra:
+      title: "Altyapı kodundan içe aktar (YZ)"
+      notice: "Yapay zekâ bu klasörden ihtiyaç duyduğu dosyaları okur ve yapay zekâ sağlayıcımıza gönderir. Vault dosyaları, özel anahtarlar ve Terraform durumu asla gönderilmez."
+      chooseFolder: "Klasör seç"
+      findingStart: "Bu klasördeki sistemler aranıyor"
+      finding: "Bu klasördeki sistemler aranıyor: {path} okunuyor ({count} dosya okundu)"
+      drawingStart: "Diyagram çiziliyor"
+      drawing: "Çiziliyor: {path} okunuyor ({count} dosya okundu)"
+      fixing: "Yapay zekânın diyagramındaki hatalar düzeltiliyor"
+      pickSystems: "Çizilecek sistemleri seçin"
+      selectAll: "Tümünü seç"
+      clearAll: "Tümünü temizle"
+      draw: "Çiz"
+      cancel: "İptal"
+      noSystems: "Bu klasörde altyapı kodu bulunamadı"
+      stillErrors: "Yapay zekânın diyagramında hâlâ hatalar var:"
+      noChanges: "Kodda değişiklik bulunamadı"
+      outOfSteps: "Yapay zekâ kodu okumayı bitiremedi. Daha az sistemle deneyin."
+      cancelled: "İçe aktarma iptal edildi"
+      unavailable: "Yapay zekâ ile içe aktarma şu anda kullanılamıyor"
+      noEditAccess: "Bu diyagramı düzenleme izniniz olmalı"
+      saveFirst: "Önce diyagramı kaydedin"
+      archOnly: "Boş veya mimari bir diyagramda çalışır"
+      failed: "Yapay zekâ ile içe aktarma başarısız oldu. Tekrar deneyin."
     instructions: Talimatlar # Instructions section title
     showInstructions: Talimatları göster # Show instructions button
     hideInstructions: Talimatları gizle # Hide instructions button

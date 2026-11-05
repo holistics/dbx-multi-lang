@@ -147,6 +147,30 @@ modals:
     conflictWordSingular: 冲突
     conflictWordPlural: 冲突
   import:
+    infra:
+      title: "从基础设施代码导入 (AI)"
+      notice: "AI 会从此文件夹读取所需的文件，并发送给我们的 AI 服务商。Vault 文件、私钥和 Terraform 状态绝不会被发送。"
+      chooseFolder: "选择文件夹"
+      findingStart: "正在查找此文件夹中的系统"
+      finding: "正在查找此文件夹中的系统：正在读取 {path}（已读取 {count} 个文件）"
+      drawingStart: "正在绘制图表"
+      drawing: "正在绘制：正在读取 {path}（已读取 {count} 个文件）"
+      fixing: "正在修复 AI 图表中的错误"
+      pickSystems: "选择要绘制的系统"
+      selectAll: "全选"
+      clearAll: "全部清除"
+      draw: "绘制"
+      cancel: "取消"
+      noSystems: "此文件夹中未找到基础设施代码"
+      stillErrors: "AI 的图表仍有错误："
+      noChanges: "代码中未发现更改"
+      outOfSteps: "AI 未能读完代码。请减少系统数量后重试。"
+      cancelled: "已取消导入"
+      unavailable: "AI 导入暂时不可用"
+      noEditAccess: "你需要此图表的编辑权限"
+      saveFirst: "请先保存图表"
+      archOnly: "仅适用于空白图表或架构图"
+      failed: "AI 导入失败。请重试。"
     instructions: 说明
     showInstructions: 显示说明
     hideInstructions: 隐藏说明

@@ -65,6 +65,7 @@ common:
     fromOracleSQL: Oracle SQLdan # Oracle database import
     fromRails: Railsdan (schema.rb) # Rails schema.rb file import
     fromCSV: CSVdan # CSV file import (opens file picker)
+    fromInfraCode: "Infratuzilma kodidan (AI)"
 
   # ========================================
   # Upgrade prompts - Feature upgrade dialogs (shown when free users hit limits)

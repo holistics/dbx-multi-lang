@@ -65,6 +65,7 @@ common:
     fromOracleSQL: Oracle SQL에서    # Oracle database import
     fromRails: Rails에서(schema.rb)        # Rails schema.rb file import
     fromCSV: CSV에서    # CSV file import (opens file picker)
+    fromInfraCode: "인프라 코드에서 (AI)"
 
   # ========================================
   # Upgrade prompts - Feature upgrade dialogs (shown when free users hit limits)

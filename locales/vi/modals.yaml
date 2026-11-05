@@ -145,6 +145,30 @@ modals:
     conflictWordPlural: xung đột
 
   import:
+    infra:
+      title: "Nhập từ mã hạ tầng (AI)"
+      notice: "AI đọc các tệp cần thiết trong thư mục này và gửi chúng cho nhà cung cấp AI của chúng tôi. Tệp Vault, khóa riêng tư và trạng thái Terraform không bao giờ được gửi đi."
+      chooseFolder: "Chọn thư mục"
+      findingStart: "Đang tìm các hệ thống trong thư mục này"
+      finding: "Đang tìm các hệ thống trong thư mục này: đang đọc {path} (đã đọc {count} tệp)"
+      drawingStart: "Đang vẽ sơ đồ"
+      drawing: "Đang vẽ: đang đọc {path} (đã đọc {count} tệp)"
+      fixing: "Đang sửa lỗi trong sơ đồ của AI"
+      pickSystems: "Chọn các hệ thống cần vẽ"
+      selectAll: "Chọn tất cả"
+      clearAll: "Bỏ chọn tất cả"
+      draw: "Vẽ"
+      cancel: "Hủy"
+      noSystems: "Không tìm thấy mã hạ tầng trong thư mục này"
+      stillErrors: "Sơ đồ của AI vẫn còn lỗi:"
+      noChanges: "Không tìm thấy thay đổi nào trong mã"
+      outOfSteps: "AI chưa đọc xong mã. Hãy thử với ít hệ thống hơn."
+      cancelled: "Đã hủy nhập"
+      unavailable: "Hiện chưa thể nhập bằng AI"
+      noEditAccess: "Bạn cần quyền chỉnh sửa sơ đồ này"
+      saveFirst: "Hãy lưu sơ đồ trước"
+      archOnly: "Chỉ dùng được với sơ đồ trống hoặc sơ đồ kiến trúc"
+      failed: "Nhập bằng AI không thành công. Hãy thử lại."
     instructions: Hướng dẫn
     showInstructions: Hiển thị hướng dẫn
     hideInstructions: Ẩn hướng dẫn

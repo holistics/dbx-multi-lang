@@ -47,6 +47,7 @@ common:
     fromOracleSQL: Từ Oracle SQL
     fromRails: Từ Rails (schema.rb)
     fromCSV: Từ CSV
+    fromInfraCode: "Từ mã hạ tầng (AI)"
   upgrade:
     title: Nâng cấp
   quickActions:

@@ -65,6 +65,7 @@ common:
     fromOracleSQL: Do Oracle SQL
     fromRails: Do Rails (schema.rb)
     fromCSV: Do CSV
+    fromInfraCode: "De código de infraestrutura (IA)"
 
   # ========================================
   # Upgrade prompts - Feature upgrade dialogs (shown when free users hit limits)

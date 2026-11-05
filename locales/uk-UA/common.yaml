@@ -65,6 +65,7 @@ common:
     fromOracleSQL: Із Oracle SQL # Oracle database import
     fromRails: Із Rails (schema.rb) # Rails schema.rb file import
     fromCSV: Із CSV # CSV file import (opens file picker)
+    fromInfraCode: "З коду інфраструктури (ШІ)"
 
   # ========================================
   # Upgrade prompts - Feature upgrade dialogs (shown when free users hit limits)
