@@ -139,6 +139,9 @@ portal:
       shareLabel: "Condividi il piano Education su X"
       shareLinkLabel: "Link al tuo post"
       shareLinkPlaceholder: "https://x.com/yourname/status/..."
+      shareFollowLabel: "Condividi e seguici su X"
+      followCta: "Seguici"
+      followLabel: "Ho iniziato a seguire {username} su X. Lo verificheremo prima di concedere la licenza."
       roles:
         student: "Studente"
         teacher: "Insegnante o docente"

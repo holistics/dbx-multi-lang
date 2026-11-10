@@ -139,6 +139,9 @@ portal:
       shareLabel: "Education rejasini X’da ulashing"
       shareLinkLabel: "Postingiz havolasi"
       shareLinkPlaceholder: "https://x.com/yourname/status/..."
+      shareFollowLabel: "X’da ulashing va obuna bo‘ling"
+      followCta: "Bizga obuna bo‘ling"
+      followLabel: "Men X’da {username} sahifasiga obuna bo‘ldim. Litsenziya berishdan oldin buni tekshiramiz."
       roles:
         student: "Talaba"
         teacher: "O‘qituvchi yoki ustoz"

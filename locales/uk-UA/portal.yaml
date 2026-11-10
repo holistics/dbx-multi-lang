@@ -139,6 +139,9 @@ portal:
       shareLabel: "Поділіться планом Education у X"
       shareLinkLabel: "Посилання на ваш допис"
       shareLinkPlaceholder: "https://x.com/yourname/status/..."
+      shareFollowLabel: "Поділіться та підпишіться в X"
+      followCta: "Підписатися"
+      followLabel: "Я підписався(-лась) на {username} в X. Ми перевіримо це перед наданням ліцензії."
       roles:
         student: "Студент"
         teacher: "Вчитель або викладач"

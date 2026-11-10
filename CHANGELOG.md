@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.5.13 (Nov 4, 2026)
+### Misc
+* Add copywriting for education's share and follow section
+
 ## v1.5.12 (Nov 3, 2026)
 ### Misc
 * Add copywriting for workspace selection and diagram limits
