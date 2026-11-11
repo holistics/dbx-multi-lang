@@ -165,6 +165,7 @@ modals:
     acceptAllIncomingChangesButton: Accept All Incoming Changes # Accept all incoming changes button
     conflictWordSingular: conflict # Word for counting conflicts
     conflictWordPlural: conflicts # Word for counting conflicts
+    askOwnerToPublishFirst: Ask the owner to publish first. # Editor message when diagram has never been published
 
   # ========================================
   # Import modal - Import diagram
