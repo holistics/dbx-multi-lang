@@ -69,15 +69,12 @@ workspace:
     scimTokenGeneratedOn: "Token generated on {date}" # Date the current token was generated
     scimTokenNone: No token generated yet # Shown when no SCIM token exists
     scimGenerateToken: Generate token # Generate SCIM token button
-    scimRegenerateToken: Regenerate token # Rotate SCIM token button
-    scimRevokeToken: Revoke token # Revoke SCIM token button
-    scimRegenerateConfirm: The current token stops working immediately. You will need to update it in your identity provider. # Confirmation before rotating the token
-    scimRevokeConfirm: Provisioning stops until you generate a new token. # Confirmation before revoking the token
+    scimRotateToken: Rotate token # Rotate SCIM token button
+    scimRotateConfirm: The current token stops working immediately. You will need to update it in your identity provider. # Confirmation before rotating the token
     scimConfirm: Confirm # Confirm token action button
     scimCancel: Cancel # Cancel token action button
     scimRoleGroups: "Roles come from these identity provider groups: dbdiagram-admin, dbdiagram-editor and dbdiagram-viewer. A member in several groups gets the lowest role. New members join as viewers." # Explains role groups
     scimTokenGenerated: SCIM token generated # Success toast
-    scimTokenRevoked: SCIM token revoked # Success toast
     scimTokenFailed: Failed to update the SCIM token. Please try again. # Error toast
 
   # ========================================
