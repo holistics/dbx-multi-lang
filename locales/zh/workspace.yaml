@@ -78,7 +78,7 @@ workspace:
     scimRotateConfirm: The current token stops working immediately. You will need to update it in your identity provider. # Confirmation before rotating the token
     scimConfirm: Confirm # Confirm token action button
     scimCancel: Cancel # Cancel token action button
-    scimRoleGroups: "Roles come from these identity provider groups: dbdiagram-admin, dbdiagram-editor and dbdiagram-viewer. A member in several groups gets the lowest role. New members join as viewers." # Explains role groups
+    scimRoleAttribute: "Set each member's role with the custom user attribute role: admin, editor or viewer. Use the namespace urn:ietf:params:scim:schemas:extension:dbdiagram:2.0:User. Members without a role join as viewers." # Explains the SCIM role attribute
     scimTokenGenerated: SCIM token generated # Success toast
     scimTokenFailed: Failed to update the SCIM token. Please try again. # Error toast
 
