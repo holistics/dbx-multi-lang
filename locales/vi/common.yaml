@@ -213,6 +213,11 @@ common:
     syncErrorTooltip: Đồng bộ thất bại, vui lòng thử đồng bộ lại
     syncErrorBlocksEdit: Khắc phục lỗi đồng bộ trước khi thay đổi vai trò của thành viên này
     roleLabel: "Vai trò: {role}"
+    disabled: "Disabled"
+    disabledTooltip: "This member is disabled. They keep their content but cannot access the workspace."
+    managedByIdp: "Managed by IdP"
+    managedByIdpTooltip: "Your identity provider manages this member. Change them there."
+    enable: "Enable"
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
