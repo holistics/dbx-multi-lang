@@ -67,6 +67,27 @@ workspace:
     ssoConfigFetchFailed: Не вдалося отримати конфігурацію SSO. Спробуйте оновити сторінку. # Error toast
     ssoConfigUpdated: Конфігурацію SSO успішно оновлено # Success toast
     ssoConfigSaveFailed: Не вдалося зберегти конфігурацію SSO. Спробуйте ще раз. # Error toast
+    scimProvisioning: SCIM provisioning # SCIM section title
+    scimDescription: Let your identity provider add, update and remove workspace members automatically. # SCIM section description
+    enableSCIM: Provision members with SCIM # SCIM toggle label
+    scimBaseUrl: SCIM base URL # SCIM base URL field label
+    scimBaseUrlHelp: Also called "Tenant URL" or "Connector base URL" # Help text for SCIM base URL
+    scimToken: SCIM token # SCIM token field label
+    scimTokenHelp: Also called "API token" or "Secret token". Enter it in your identity provider as the bearer token. # Help text for SCIM token
+    scimTokenCopyNow: Copy this token now. You won't be able to see it again. # Warning shown once after generating a token
+    scimTokenGeneratedOn: "Token generated on {date}" # Date the current token was generated
+    scimTokenNone: No token generated yet # Shown when no SCIM token exists
+    scimGenerateToken: Generate token # Generate SCIM token button
+    scimRegenerateToken: Regenerate token # Rotate SCIM token button
+    scimRevokeToken: Revoke token # Revoke SCIM token button
+    scimRegenerateConfirm: The current token stops working immediately. You will need to update it in your identity provider. # Confirmation before rotating the token
+    scimRevokeConfirm: Provisioning stops until you generate a new token. # Confirmation before revoking the token
+    scimConfirm: Confirm # Confirm token action button
+    scimCancel: Cancel # Cancel token action button
+    scimRoleGroups: "Roles come from these identity provider groups: dbdiagram-admin, dbdiagram-editor and dbdiagram-viewer. A member in several groups gets the lowest role. New members join as viewers." # Explains role groups
+    scimTokenGenerated: SCIM token generated # Success toast
+    scimTokenRevoked: SCIM token revoked # Success toast
+    scimTokenFailed: Failed to update the SCIM token. Please try again. # Error toast
 
   # ========================================
   # Create Workspace Modal
