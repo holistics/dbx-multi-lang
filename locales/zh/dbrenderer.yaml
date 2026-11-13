@@ -86,6 +86,9 @@ dbrenderer:
     enablePanMode: 点击启用平移模式
     disablePanMode: 点击禁用平移模式
     panModeHint: 或按住空格键/鼠标中键 + 拖动来平移
+    showMinimap: "显示小地图"
+    hideMinimap: "隐藏小地图"
+    minimapUnavailable: "小地图不可用：没有可显示的表或笔记"
   common: null
   emptyStateHint:
     filtered:
