@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## Unreleased
 ### Misc
 * Add copywriting for SCIM provisioning
+* Use "Sign in with" for the GitHub and Microsoft login buttons in English
 
 ## v1.5.15 (Nov 13, 2026)
 ### Misc
