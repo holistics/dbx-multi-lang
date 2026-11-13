@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Yangi hujjat nashr qilish / Mavjudini yangilash # Section title
     updateExisting: Mavjud hujjatni yangilash # Update option
     publishNewOption: Yangi hujjat nashr qilish # Publish a new document option
-    projectPublicDefault: Sizning dbdocs loyihangiz standart bo'yicha "ommaviy" qilib belgilangan. Odamlar unga havola orqali kirishlari mumkin. # Public default info
+    projectPrivateDefault: Sizning dbdocs loyihangiz standart bo'yicha "yopiq" qilib belgilangan. Faqat ish maydoni a'zolari kirishlari mumkin.
     documentProjectName: Hujjat loyihasi nomi # Project name field label
     enterProjectName: Loyiha nomini kiriting # Project name placeholder
     options: Sozlamalar (Options) # Options section title

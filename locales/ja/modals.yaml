@@ -112,7 +112,7 @@ modals:
     publishNewOrUpdate: 新しいドキュメントを公開 / 既存のドキュメントを更新
     updateExisting: 既存のドキュメントを更新
     publishNewOption: 新しいドキュメントを公開
-    projectPublicDefault: dbdocs プロジェクトはデフォルトで「公開」に設定されています。リンクからアクセスできます。
+    projectPrivateDefault: dbdocs プロジェクトはデフォルトで「非公開」に設定されています。ワークスペースのメンバーのみアクセスできます。
     documentProjectName: ドキュメントプロジェクト名
     enterProjectName: プロジェクト名を入力
     options: オプション

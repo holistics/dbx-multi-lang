@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Опублікувати новий документ / Оновити наявний # Section title
     updateExisting: Оновити наявний документ # Update option
     publishNewOption: Опублікувати новий документ # Publish a new document option
-    projectPublicDefault: Ваш проєкт dbdocs за замовчуванням має статус "public". Люди можуть отримати доступ за його посиланням. # Public default info
+    projectPrivateDefault: Ваш проєкт dbdocs за замовчуванням має статус "private". Лише члени робочого простору можуть отримати доступ.
     documentProjectName: Назва документа проєкту  # Project name field label
     enterProjectName: Введіть назву проєкту # Project name placeholder
     options: Параметри # Options section title

@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Publier un nouveau document / Mettre à jour un document existant
     updateExisting: Mettre à jour un document existant
     publishNewOption: Publier un nouveau document
-    projectPublicDefault: Votre projet dbdocs est public par défaut. Les utilisateurs peuvent y accéder via le lien.
+    projectPrivateDefault: Votre projet dbdocs est privé par défaut. Seuls les membres de l'espace de travail peuvent y accéder.
     documentProjectName: Nom du projet
     enterProjectName: Saisir le nom du projet
     options: Options

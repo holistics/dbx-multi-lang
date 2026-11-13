@@ -112,7 +112,7 @@ modals:
     publishNewOrUpdate: 发布新文档 / 更新现有文档
     updateExisting: 更新现有文档
     publishNewOption: 发布新文档
-    projectPublicDefault: 你的 dbdocs 项目默认设置为"公开"。人们可以通过链接访问。
+    projectPrivateDefault: 你的 dbdocs 项目默认设置为"私有"。只有工作区成员可以访问。
     documentProjectName: 文档项目名称
     enterProjectName: 输入项目名称
     options: 选项

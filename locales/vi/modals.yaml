@@ -109,7 +109,7 @@ modals:
     publishNewOrUpdate: Xuất bản tài liệu mới / Cập nhật tài liệu hiện có
     updateExisting: Cập nhật tài liệu hiện có
     publishNewOption: Xuất bản tài liệu mới
-    projectPublicDefault: Dự án dbdocs của bạn được đặt là "công khai" theo mặc định. Mọi người có thể truy cập qua liên kết.
+    projectPrivateDefault: Dự án dbdocs của bạn được đặt là "riêng tư" theo mặc định. Chỉ thành viên trong không gian làm việc mới có thể truy cập.
     documentProjectName: Tên dự án tài liệu
     enterProjectName: Nhập tên dự án
     options: Tùy chọn

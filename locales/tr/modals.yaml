@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Yeni bir belge yayımla / Mevcut birini güncelle # Section title
     updateExisting: Mevcut bir belgeyi güncelle # Update option
     publishNewOption: Yeni bir belge yayımla # Publish a new document option
-    projectPublicDefault: dbdocs projeniz varsayılan olarak "herkese açık" (public) ayarlanmıştır. Kişiler bağlantı aracılığıyla erişim sağlayabilir. # Public default info
+    projectPrivateDefault: dbdocs projeniz varsayılan olarak "özel" (private) ayarlanmıştır. Yalnızca çalışma alanı üyeleri erişebilir.
     documentProjectName: Belge proje adı # Project name field label
     enterProjectName: Proje adını girin # Project name placeholder
     options: Seçenekler # Options section title

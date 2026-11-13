@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Publish a new document / Update an existing one # Section title
     updateExisting: Update an existing document # Update option
     publishNewOption: Publish a new document # Publish a new document option
-    projectPublicDefault: Your dbdocs project is set to "public" by default. People can gain access through its link. # Public default info
+    projectPrivateDefault: Your dbdocs project is set to "private" by default. Only workspace members can access it.
     documentProjectName: Document project name # Project name field label
     enterProjectName: Enter project name # Project name placeholder
     options: Options # Options section title
@@ -167,6 +167,7 @@ modals:
     conflictWordPlural: conflicts # Word for counting conflicts
     askOwnerToPublishFirst: Ask the owner to publish first. # Editor message when diagram has never been published
     publishInProgress: Another publish is in progress. Please try again in a moment. # Error when concurrent publish
+    workspaceBeingSetUp: Workspace is being set up, please try again shortly. # Error when workspace provisioning not complete
 
   # ========================================
   # Import modal - Import diagram

@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: "Pubblica un nuovo documento / Aggiorna uno esistente" # Section title
     updateExisting: "Aggiorna un documento esistente" # Update option
     publishNewOption: "Pubblica un nuovo documento" # Publish a new document option
-    projectPublicDefault: "Il tuo progetto dbdocs è impostato su \"pubblico\" per impostazione predefinita. Le persone possono accedervi tramite il link." # Public default info
+    projectPrivateDefault: Il tuo progetto dbdocs è impostato su "privato" per impostazione predefinita. Solo i membri dello spazio di lavoro possono accedervi.
     documentProjectName: "Nome del progetto di documentazione" # Project name field label
     enterProjectName: "Inserisci il nome del progetto" # Project name placeholder
     options: "Opzioni" # Options section title
