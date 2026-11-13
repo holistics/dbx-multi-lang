@@ -113,6 +113,9 @@ dbrenderer:
     enablePanMode: Haz clic para activar el modo panorámico # Pan mode toggle tooltip
     disablePanMode: Haz clic para desactivar el modo panorámico # Pan mode toggle tooltip
     panModeHint: O mantén Espacio/clic medio del ratón + arrastra para desplazarte # Hint text for pan mode
+    showMinimap: "Mostrar minimapa" # Minimap toggle tooltip
+    hideMinimap: "Ocultar minimapa" # Minimap toggle tooltip
+    minimapUnavailable: "Minimapa no disponible: no hay tablas ni notas para mostrar" # Minimap toggle tooltip when there is nothing to show
 
   # ========================================
   # Common - Shared buttons in renderer

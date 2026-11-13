@@ -83,6 +83,9 @@ dbrenderer:
     enablePanMode: Nhấn để bật chế độ trượt (pan)
     disablePanMode: Nhấn để tắt chế độ trượt (pan)
     panModeHint: Hoặc giữ phím Space/Chuột giữa + kéo để trượt
+    showMinimap: "Hiện bản đồ thu nhỏ"
+    hideMinimap: "Ẩn bản đồ thu nhỏ"
+    minimapUnavailable: "Không có bản đồ thu nhỏ: không có bảng hoặc ghi chú nào để hiển thị"
   common:
   emptyStateHint:
     filtered:

@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## v1.5.15 (Nov 13, 2026)
+### Misc
+* Add copywriting for minimap
+
 ## v1.5.14 (Nov 10, 2026)
 ### Misc
 * Add copywriting for sidebar owner
