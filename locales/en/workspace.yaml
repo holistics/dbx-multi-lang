@@ -172,6 +172,9 @@ workspace:
     transferOwnership: Transfer ownership # Transfer ownership button
     delete: Delete # Delete button
     untitledDiagram: Untitled Diagram # Default name for unnamed diagrams
+    diagramActions: Diagram actions # aria-label for the row actions menu
+    ownedBy: Owned by # Prefix label in the row actions menu owner header
+    you: You # Suffix shown next to the current user's name
     columns:
       name: Name # Table column header (diagram name)
       dateCreated: Date Created # Table column header
@@ -186,6 +189,9 @@ workspace:
     billing: Billing # Billing link (left sidebar)
     showSidebar: Show sidebar # Tooltip when sidebar is hidden
     hideSidebar: Hide sidebar # Tooltip when sidebar is visible
+    switchWorkspace: Switch workspace
+  noPermission: You don't have permission to create diagrams
+  diagramLimitReached: Diagram limit reached
 
   # ========================================
   # Empty States - Empty diagrams views

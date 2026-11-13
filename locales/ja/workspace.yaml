@@ -158,6 +158,9 @@ workspace:
     transferOwnership: 所有権を移転
     delete: 削除
     untitledDiagram: 無題のダイアグラム
+    diagramActions: ダイアグラムのアクション # aria-label for the row actions menu
+    ownedBy: 所有者： # Prefix label in the row actions menu owner header
+    you: あなた
     columns:
       name: 名前
       dateCreated: 作成日
@@ -168,6 +171,9 @@ workspace:
     billing: 請求
     showSidebar: サイドバーを表示
     hideSidebar: サイドバーを非表示
+    switchWorkspace: ワークスペースを切り替え
+  noPermission: ダイアグラムを作成する権限がありません
+  diagramLimitReached: ダイアグラムの上限に達しました
   emptyDiagrams:
     title: ダイアグラムがまだありません
     created:

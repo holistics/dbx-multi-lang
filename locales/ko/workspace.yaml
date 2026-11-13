@@ -170,6 +170,9 @@ workspace:
     transferOwnership: 소유권 이전             # Transfer ownership button
     delete: 삭제     # Delete button
     untitledDiagram: 제목 없는 다이어그램      # Default name for unnamed diagrams
+    diagramActions: 다이어그램 작업 # aria-label for the row actions menu
+    ownedBy: '소유자:' # Prefix label in the row actions menu owner header
+    you: 나
     columns:
       name: 이름   # Table column header (diagram name)
       dateCreated: 생성된 날짜       # Table column header
@@ -184,6 +187,9 @@ workspace:
     billing: 결제      # Billing link (left sidebar)
     showSidebar: 사이드바 표시
     hideSidebar: 사이드바 숨기기
+    switchWorkspace: 워크스페이스 전환
+  noPermission: 다이어그램을 만들 권한이 없습니다
+  diagramLimitReached: 다이어그램 한도에 도달했습니다
 
   # ========================================
   # Empty States - Empty diagrams views

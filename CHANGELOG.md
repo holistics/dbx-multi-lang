@@ -1,10 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## v1.5.14 (Nov 11, 2026)
+## Unreleased
 ### Misc
-* Add copywriting for SCIM provisioning in workspace SSO settings (English text in all locales, translations pending)
-* Add copywriting for disabled and identity provider managed members in the member list (English text in all locales, translations pending)
+* Add copywriting for SCIM provisioning
+
+## v1.5.15 (Nov 13, 2026)
+### Misc
+* Add copywriting for minimap
+
+## v1.5.14 (Nov 10, 2026)
+### Misc
+* Add copywriting for sidebar owner
 
 ## v1.5.13 (Nov 4, 2026)
 ### Misc

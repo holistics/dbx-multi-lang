@@ -169,6 +169,9 @@ workspace:
     transferOwnership: Transferir propriedade
     delete: Excluir
     untitledDiagram: Diagrama sem título
+    diagramActions: Ações do diagrama # aria-label for the row actions menu
+    ownedBy: Pertencente a # Prefix label in the row actions menu owner header
+    you: Você
     columns:
       name: Nome
       dateCreated: Data de Criação
@@ -183,6 +186,9 @@ workspace:
     billing: Faturamento
     showSidebar: Mostrar barra lateral
     hideSidebar: Ocultar barra lateral
+    switchWorkspace: Alternar workspace
+  noPermission: Você não tem permissão para criar diagramas
+  diagramLimitReached: Limite de diagramas atingido
 
   # ========================================
   # Empty States - Empty diagrams views
