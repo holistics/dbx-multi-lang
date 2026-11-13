@@ -166,6 +166,7 @@ modals:
     conflictWordSingular: conflict # Word for counting conflicts
     conflictWordPlural: conflicts # Word for counting conflicts
     askOwnerToPublishFirst: Ask the owner to publish first. # Editor message when diagram has never been published
+    publishInProgress: Another publish is in progress. Please try again in a moment. # Error when concurrent publish
 
   # ========================================
   # Import modal - Import diagram
