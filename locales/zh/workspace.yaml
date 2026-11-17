@@ -65,20 +65,30 @@ workspace:
     ssoConfigSaveFailed: 保存 SSO 配置失败。请重试。
     scimProvisioning: SCIM provisioning # SCIM section title
     scimDescription: Let your identity provider add, update and remove workspace members automatically. # SCIM section description
-    enableSCIM: Provision members with SCIM # SCIM toggle label
-    scimBaseUrl: SCIM base URL # SCIM base URL field label
-    scimBaseUrlHelp: Also called "Tenant URL" or "Connector base URL" # Help text for SCIM base URL
-    scimToken: SCIM token # SCIM token field label
-    scimTokenHelp: Also called "API token" or "Secret token". Enter it in your identity provider as the bearer token. # Help text for SCIM token
+    enableSCIM: Enable SCIM Provisioning # SCIM toggle label
+    scimBaseUrl: SCIM Base URL # SCIM base URL field label
+    scimBaseUrlHelp: "Copy and paste this URL into your identity provider's SCIM connector settings." # Help text for SCIM base URL
+    scimToken: SCIM API token # SCIM token field label
+    scimTokenHelp: Your identity provider uses this token to authorize SCIM API requests to dbdiagram. # Help text for SCIM token
     scimTokenCopyNow: Copy this token now. You won't be able to see it again. # Warning shown once after generating a token
-    scimTokenGeneratedOn: "Token generated on {date}" # Date the current token was generated
+    scimTokenGeneratedOn: "(last rotated: {date})" # Date the current token was last rotated
     scimTokenNone: No token generated yet # Shown when no SCIM token exists
     scimGenerateToken: Generate token # Generate SCIM token button
     scimRotateToken: Rotate token # Rotate SCIM token button
     scimRotateConfirm: The current token stops working immediately. You will need to update it in your identity provider. # Confirmation before rotating the token
     scimConfirm: Confirm # Confirm token action button
     scimCancel: Cancel # Cancel token action button
-    scimRoleAttribute: "Set each member's role with the custom user attribute role: admin, editor or viewer. Use the namespace urn:ietf:params:scim:schemas:extension:dbdiagram:2.0:User. Members without a role join as viewers." # Explains the SCIM role attribute
+    scimRoleAssignments: Role assignments # Title of the SCIM role attribute guide
+    scimRoleAssignmentsHelp: "Define custom 'role' attribute in your identity provider to sync with dbdiagram's roles." # Intro of the SCIM role attribute guide
+    scimLearnMore: Learn more # Link to the SCIM role attribute docs
+    scimAttrDataType: Data type # SCIM role attribute guide, field label
+    scimAttrDisplayName: Display name # SCIM role attribute guide, field label
+    scimAttrExternalName: External name # SCIM role attribute guide, field label
+    scimAttrExternalNamespace: External namespace # SCIM role attribute guide, field label
+    scimAttrValue: Value # SCIM role attribute guide, field label
+    scimAttrRequired: Attribute required # SCIM role attribute guide, field label
+    scimAttrType: Attribute type # SCIM role attribute guide, field label
+    scimRoleDefault: "All users will be fallback to default 'viewer' role if role attribute is missing." # Note about members whose IdP sends no role
     scimTokenGenerated: SCIM token generated # Success toast
     scimTokenFailed: Failed to update the SCIM token. Please try again. # Error toast
 
