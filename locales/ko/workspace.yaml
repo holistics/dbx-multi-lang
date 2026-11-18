@@ -73,6 +73,8 @@ workspace:
     enableSCIM: Enable SCIM Provisioning # SCIM toggle label
     scimBaseUrl: SCIM Base URL # SCIM base URL field label
     scimBaseUrlHelp: "Copy and paste this URL into your identity provider's SCIM connector settings." # Help text for SCIM base URL
+    scimUniqueIdentifier: Unique identifier field for users # SCIM unique identifier field label
+    scimUniqueIdentifierHelp: "Set this as the unique identifier field in your identity provider's SCIM configuration." # Help text for SCIM unique identifier
     scimToken: SCIM API token # SCIM token field label
     scimTokenHelp: Your identity provider uses this token to authorize SCIM API requests to dbdiagram. # Help text for SCIM token
     scimTokenCopyNow: Copy this token now. You won't be able to see it again. # Warning shown once after generating a token
