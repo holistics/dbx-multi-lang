@@ -67,6 +67,28 @@ workspace:
     ssoConfigFetchFailed: SSO konfiguratsiyasini olib bo'lmadi. Iltimos, sahifani yangilab ko'ring. # Error toast
     ssoConfigUpdated: SSO konfiguratsiyasi muvaffaqiyatli yangilandi # Success toast
     ssoConfigSaveFailed: SSO konfiguratsiyasini saqlab bo'lmadi. Iltimos, qayta urinib ko'ring. # Error toast
+    scimProvisioning: SCIM provisioning # SCIM section title
+    scimDescription: Let your identity provider add, update and remove workspace members automatically. # SCIM section description
+    enableSCIM: Enable SCIM Provisioning # SCIM toggle label
+    scimBaseUrl: SCIM Base URL # SCIM base URL field label
+    scimBaseUrlHelp: "Copy and paste this URL into your identity provider's SCIM connector settings." # Help text for SCIM base URL
+    scimUniqueIdentifier: Unique identifier field for users # SCIM unique identifier field label
+    scimUniqueIdentifierHelp: "Set this as the unique identifier field in your identity provider's SCIM configuration." # Help text for SCIM unique identifier
+    scimToken: SCIM API token # SCIM token field label
+    scimTokenHelp: Your identity provider uses this token to authorize SCIM API requests to dbdiagram. # Help text for SCIM token
+    scimTokenCopyNow: Copy this token now. You won't be able to see it again. # Warning shown once after generating a token
+    scimTokenGeneratedOn: "(last rotated: {date})" # Date the current token was last rotated
+    scimGenerateToken: Generate token # Generate SCIM token button
+    scimRotateToken: Rotate token # Rotate SCIM token button
+    scimRotateConfirm: The current token stops working immediately. You will need to update it in your identity provider. # Confirmation before rotating the token
+    scimConfirm: Confirm # Confirm token action button
+    scimCancel: Cancel # Cancel token action button
+    scimRoleAssignments: Role assignments # Title of the SCIM role attribute guide
+    scimRoleAssignmentsHelp: "Define custom 'role' attribute in your identity provider to sync with dbdiagram's roles." # Intro of the SCIM role attribute guide
+    scimLearnMore: Learn more # Link to the SCIM role attribute docs
+    scimRoleDefault: "All users will be fallback to default 'viewer' role if role attribute is missing." # Note about members whose IdP sends no role
+    scimTokenGenerated: SCIM token generated # Success toast
+    scimTokenFailed: Failed to update the SCIM token. Please try again. # Error toast
 
   # ========================================
   # Create Workspace Modal
