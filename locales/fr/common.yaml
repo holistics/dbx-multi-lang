@@ -292,11 +292,11 @@ common:
     syncErrorTooltip: Échec de la synchronisation, veuillez réessayer de resynchroniser
     syncErrorBlocksEdit: Résolvez l’erreur de synchronisation avant de modifier le rôle de ce membre
     roleLabel: "Rôle : {role}"
-    disabled: "Deactivated"
-    disabledTooltip: "This member is deactivated. They keep their content but cannot access the workspace."
-    reactivateTooltip: "Click to re-activate this member"
-    managedByIdp: "Managed by IdP"
-    managedByIdpTooltip: "Your identity provider manages this member. Change them there."
+    disabled: "Désactivé"
+    disabledTooltip: "Ce membre est désactivé. Il conserve son contenu mais ne peut pas accéder à l’espace de travail."
+    reactivateTooltip: "Cliquez pour réactiver ce membre"
+    managedByIdp: "Géré par l’IdP"
+    managedByIdpTooltip: "Votre fournisseur d’identité gère ce membre. Modifiez-le là-bas."
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)

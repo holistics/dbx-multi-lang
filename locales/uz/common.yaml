@@ -286,11 +286,11 @@ common:
     syncErrorTooltip: Sinxronlashda xatolik, qayta sinxronlashga urinib ko'ring
     syncErrorBlocksEdit: Ushbu a'zoning rolini o'zgartirishdan oldin sinxronlash xatosini bartaraf eting
     roleLabel: "Rol: {role}"
-    disabled: "Deactivated"
-    disabledTooltip: "This member is deactivated. They keep their content but cannot access the workspace."
-    reactivateTooltip: "Click to re-activate this member"
-    managedByIdp: "Managed by IdP"
-    managedByIdpTooltip: "Your identity provider manages this member. Change them there."
+    disabled: "O'chirilgan"
+    disabledTooltip: "Bu a'zo o'chirilgan. Uning kontenti saqlanadi, lekin ish maydoniga kira olmaydi."
+    reactivateTooltip: "Bu a'zoni qayta faollashtirish uchun bosing"
+    managedByIdp: "IdP tomonidan boshqariladi"
+    managedByIdpTooltip: "Bu a'zoni identifikatsiya provayderingiz boshqaradi. O'zgartirishlarni o'sha yerda qiling."
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)

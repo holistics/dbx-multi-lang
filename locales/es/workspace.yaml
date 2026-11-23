@@ -67,28 +67,28 @@ workspace:
     ssoConfigFetchFailed: Error al obtener la configuración SSO. Por favor, intenta actualizar la página. # Error toast
     ssoConfigUpdated: Configuración SSO actualizada correctamente # Success toast
     ssoConfigSaveFailed: Error al guardar la configuración SSO. Por favor, inténtalo de nuevo. # Error toast
-    scimProvisioning: SCIM provisioning # SCIM section title
-    scimDescription: Let your identity provider add, update and remove workspace members automatically. # SCIM section description
-    enableSCIM: Enable SCIM Provisioning # SCIM toggle label
-    scimBaseUrl: SCIM Base URL # SCIM base URL field label
-    scimBaseUrlHelp: "Copy and paste this URL into your identity provider's SCIM connector settings." # Help text for SCIM base URL
-    scimUniqueIdentifier: Unique identifier field for users # SCIM unique identifier field label
-    scimUniqueIdentifierHelp: "Set this as the unique identifier field in your identity provider's SCIM configuration." # Help text for SCIM unique identifier
-    scimToken: SCIM API token # SCIM token field label
-    scimTokenHelp: Your identity provider uses this token to authorize SCIM API requests to dbdiagram. # Help text for SCIM token
-    scimTokenCopyNow: Copy this token now. You won't be able to see it again. # Warning shown once after generating a token
-    scimTokenGeneratedOn: "(last rotated: {date})" # Date the current token was last rotated
-    scimGenerateToken: Generate token # Generate SCIM token button
-    scimRotateToken: Rotate token # Rotate SCIM token button
-    scimRotateConfirm: The current token stops working immediately. You will need to update it in your identity provider. # Confirmation before rotating the token
-    scimConfirm: Confirm # Confirm token action button
-    scimCancel: Cancel # Cancel token action button
-    scimRoleAssignments: Role assignments # Title of the SCIM role attribute guide
-    scimRoleAssignmentsHelp: "Define custom 'role' attribute in your identity provider to sync with dbdiagram's roles." # Intro of the SCIM role attribute guide
-    scimLearnMore: Learn more # Link to the SCIM role attribute docs
-    scimRoleDefault: "All users will be fallback to default 'viewer' role if role attribute is missing." # Note about members whose IdP sends no role
-    scimTokenGenerated: SCIM token generated # Success toast
-    scimTokenFailed: Failed to update the SCIM token. Please try again. # Error toast
+    scimProvisioning: "Aprovisionamiento SCIM" # SCIM section title
+    scimDescription: "Permite que tu proveedor de identidad añada, actualice y elimine miembros del espacio de trabajo automáticamente." # SCIM section description
+    enableSCIM: "Activar aprovisionamiento SCIM" # SCIM toggle label
+    scimBaseUrl: "URL base de SCIM" # SCIM base URL field label
+    scimBaseUrlHelp: "Copia y pega esta URL en la configuración del conector SCIM de tu proveedor de identidad." # Help text for SCIM base URL
+    scimUniqueIdentifier: "Campo de identificador único para usuarios" # SCIM unique identifier field label
+    scimUniqueIdentifierHelp: "Establece este campo como identificador único en la configuración SCIM de tu proveedor de identidad." # Help text for SCIM unique identifier
+    scimToken: "Token de API de SCIM" # SCIM token field label
+    scimTokenHelp: "Tu proveedor de identidad usa este token para autorizar las solicitudes a la API SCIM de dbdiagram." # Help text for SCIM token
+    scimTokenCopyNow: "Copia este token ahora. No podrás volver a verlo." # Warning shown once after generating a token
+    scimTokenGeneratedOn: "(última rotación: {date})" # Date the current token was last rotated
+    scimGenerateToken: "Generar token" # Generate SCIM token button
+    scimRotateToken: "Rotar token" # Rotate SCIM token button
+    scimRotateConfirm: "El token actual deja de funcionar de inmediato. Tendrás que actualizarlo en tu proveedor de identidad." # Confirmation before rotating the token
+    scimConfirm: "Confirmar" # Confirm token action button
+    scimCancel: "Cancelar" # Cancel token action button
+    scimRoleAssignments: "Asignación de roles" # Title of the SCIM role attribute guide
+    scimRoleAssignmentsHelp: "Define un atributo 'role' personalizado en tu proveedor de identidad para sincronizarlo con los roles de dbdiagram." # Intro of the SCIM role attribute guide
+    scimLearnMore: "Más información" # Link to the SCIM role attribute docs
+    scimRoleDefault: "Si falta el atributo de rol, todos los usuarios recibirán el rol 'viewer' por defecto." # Note about members whose IdP sends no role
+    scimTokenGenerated: "Token SCIM generado" # Success toast
+    scimTokenFailed: "No se pudo actualizar el token SCIM. Inténtalo de nuevo." # Error toast
 
   # ========================================
   # Create Workspace Modal

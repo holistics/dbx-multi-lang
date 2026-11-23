@@ -58,28 +58,28 @@ workspace:
     ssoConfigFetchFailed: Không thể tải cấu hình SSO. Vui lòng tải lại trang.
     ssoConfigUpdated: Cấu hình SSO đã được cập nhật thành công
     ssoConfigSaveFailed: Lưu cấu hình SSO thất bại. Vui lòng thử lại.
-    scimProvisioning: SCIM provisioning # SCIM section title
-    scimDescription: Let your identity provider add, update and remove workspace members automatically. # SCIM section description
-    enableSCIM: Enable SCIM Provisioning # SCIM toggle label
-    scimBaseUrl: SCIM Base URL # SCIM base URL field label
-    scimBaseUrlHelp: "Copy and paste this URL into your identity provider's SCIM connector settings." # Help text for SCIM base URL
-    scimUniqueIdentifier: Unique identifier field for users # SCIM unique identifier field label
-    scimUniqueIdentifierHelp: "Set this as the unique identifier field in your identity provider's SCIM configuration." # Help text for SCIM unique identifier
-    scimToken: SCIM API token # SCIM token field label
-    scimTokenHelp: Your identity provider uses this token to authorize SCIM API requests to dbdiagram. # Help text for SCIM token
-    scimTokenCopyNow: Copy this token now. You won't be able to see it again. # Warning shown once after generating a token
-    scimTokenGeneratedOn: "(last rotated: {date})" # Date the current token was last rotated
-    scimGenerateToken: Generate token # Generate SCIM token button
-    scimRotateToken: Rotate token # Rotate SCIM token button
-    scimRotateConfirm: The current token stops working immediately. You will need to update it in your identity provider. # Confirmation before rotating the token
-    scimConfirm: Confirm # Confirm token action button
-    scimCancel: Cancel # Cancel token action button
-    scimRoleAssignments: Role assignments # Title of the SCIM role attribute guide
-    scimRoleAssignmentsHelp: "Define custom 'role' attribute in your identity provider to sync with dbdiagram's roles." # Intro of the SCIM role attribute guide
-    scimLearnMore: Learn more # Link to the SCIM role attribute docs
-    scimRoleDefault: "All users will be fallback to default 'viewer' role if role attribute is missing." # Note about members whose IdP sends no role
-    scimTokenGenerated: SCIM token generated # Success toast
-    scimTokenFailed: Failed to update the SCIM token. Please try again. # Error toast
+    scimProvisioning: "Cấp phát SCIM" # SCIM section title
+    scimDescription: "Cho phép nhà cung cấp danh tính của bạn tự động thêm, cập nhật và xóa thành viên không gian làm việc." # SCIM section description
+    enableSCIM: "Bật cấp phát SCIM" # SCIM toggle label
+    scimBaseUrl: "URL cơ sở SCIM" # SCIM base URL field label
+    scimBaseUrlHelp: "Sao chép và dán URL này vào cài đặt trình kết nối SCIM của nhà cung cấp danh tính." # Help text for SCIM base URL
+    scimUniqueIdentifier: "Trường định danh duy nhất cho người dùng" # SCIM unique identifier field label
+    scimUniqueIdentifierHelp: "Đặt đây là trường định danh duy nhất trong cấu hình SCIM của nhà cung cấp danh tính." # Help text for SCIM unique identifier
+    scimToken: "Token API SCIM" # SCIM token field label
+    scimTokenHelp: "Nhà cung cấp danh tính dùng token này để cấp quyền cho các yêu cầu SCIM API gửi đến dbdiagram." # Help text for SCIM token
+    scimTokenCopyNow: "Hãy sao chép token này ngay bây giờ. Bạn sẽ không thể xem lại nó." # Warning shown once after generating a token
+    scimTokenGeneratedOn: "(đổi lần cuối: {date})" # Date the current token was last rotated
+    scimGenerateToken: "Tạo token" # Generate SCIM token button
+    scimRotateToken: "Đổi token" # Rotate SCIM token button
+    scimRotateConfirm: "Token hiện tại sẽ ngừng hoạt động ngay lập tức. Bạn cần cập nhật nó trong nhà cung cấp danh tính." # Confirmation before rotating the token
+    scimConfirm: "Xác nhận" # Confirm token action button
+    scimCancel: "Hủy" # Cancel token action button
+    scimRoleAssignments: "Gán vai trò" # Title of the SCIM role attribute guide
+    scimRoleAssignmentsHelp: "Định nghĩa thuộc tính 'role' tùy chỉnh trong nhà cung cấp danh tính để đồng bộ với các vai trò của dbdiagram." # Intro of the SCIM role attribute guide
+    scimLearnMore: "Tìm hiểu thêm" # Link to the SCIM role attribute docs
+    scimRoleDefault: "Nếu thiếu thuộc tính vai trò, tất cả người dùng sẽ mặc định nhận vai trò 'viewer'." # Note about members whose IdP sends no role
+    scimTokenGenerated: "Đã tạo token SCIM" # Success toast
+    scimTokenFailed: "Không thể cập nhật token SCIM. Vui lòng thử lại." # Error toast
 
   # ========================================
   # Create Workspace Modal

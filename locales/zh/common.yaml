@@ -216,11 +216,11 @@ common:
     syncErrorTooltip: 同步失败，请尝试重新同步
     syncErrorBlocksEdit: 请先解决同步错误，然后再更改此成员的角色
     roleLabel: "角色：{role}"
-    disabled: "Deactivated"
-    disabledTooltip: "This member is deactivated. They keep their content but cannot access the workspace."
-    reactivateTooltip: "Click to re-activate this member"
-    managedByIdp: "Managed by IdP"
-    managedByIdpTooltip: "Your identity provider manages this member. Change them there."
+    disabled: "已停用"
+    disabledTooltip: "此成员已被停用。其内容会保留，但无法访问工作区。"
+    reactivateTooltip: "点击以重新启用此成员"
+    managedByIdp: "由 IdP 管理"
+    managedByIdpTooltip: "此成员由您的身份提供商管理，请在身份提供商中进行更改。"
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
