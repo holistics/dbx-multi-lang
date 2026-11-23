@@ -216,6 +216,11 @@ common:
     syncErrorTooltip: 同期に失敗しました。再同期をお試しください
     syncErrorBlocksEdit: このメンバーの役割を変更する前に同期エラーを解決してください
     roleLabel: "役割: {role}"
+    disabled: "無効化済み"
+    disabledTooltip: "このメンバーは無効化されています。コンテンツは保持されますが、ワークスペースにはアクセスできません。"
+    reactivateTooltip: "クリックしてこのメンバーを再有効化"
+    managedByIdp: "IdP が管理"
+    managedByIdpTooltip: "このメンバーは ID プロバイダーが管理しています。変更は ID プロバイダー側で行ってください。"
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)
