@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Unreleased
+## v1.5.16 (Nov 23, 2026)
 ### Misc
 * Add copywriting for SCIM provisioning, including the role attribute guide and the Deactivated member badge
 * Use "Sign in with" for the GitHub and Microsoft login buttons in English
