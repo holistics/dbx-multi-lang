@@ -170,6 +170,7 @@ modals:
     workspaceBeingSetUp: Workspace is being set up, please try again shortly. # Error when workspace provisioning not complete
     sessionExpired: Your session has expired. Please sign in again to publish. # Error when portal token is stale/missing
     projectDeletedRestart: The linked project was deleted. Please publish as a new project. # Error when linked project no longer exists (404)
+    askOwnerToSetUpDbdocs: Only the owner of this diagram can set up dbdocs for it. Ask the owner to publish it first. # Non-owner message when the diagram's personal workspace is not on dbdocs yet
 
   # ========================================
   # Import modal - Import diagram
