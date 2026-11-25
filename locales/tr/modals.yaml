@@ -165,6 +165,11 @@ modals:
     acceptAllIncomingChangesButton: Tüm Gelen Değişiklikleri Kabul Et # Accept all incoming changes button
     conflictWordSingular: çakışma # Word for counting conflicts
     conflictWordPlural: çakışma # Word for counting conflicts
+    askOwnerToPublishFirst: Önce sahibinden yayımlamasını isteyin.
+    publishInProgress: Başka bir yayımlama devam ediyor. Lütfen bir süre sonra tekrar deneyin.
+    workspaceBeingSetUp: Çalışma alanı kuruluyor, lütfen kısa süre sonra tekrar deneyin.
+    sessionExpired: Oturumunuz sona erdi. Yayımlamak için lütfen tekrar giriş yapın.
+    projectDeletedRestart: Bağlı proje silindi. Lütfen yeni bir proje olarak yayımlayın.
 
   # ========================================
   # Import modal - Import diagram

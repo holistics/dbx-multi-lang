@@ -165,6 +165,11 @@ modals:
     acceptAllIncomingChangesButton: "Accetta tutte le modifiche in arrivo" # Accept all incoming changes button
     conflictWordSingular: "conflitto" # Word for counting conflicts
     conflictWordPlural: "conflitti" # Word for counting conflicts
+    askOwnerToPublishFirst: "Chiedi al proprietario di pubblicare per primo."
+    publishInProgress: "Un'altra pubblicazione è in corso. Riprova tra un momento."
+    workspaceBeingSetUp: "Lo spazio di lavoro è in fase di configurazione, riprova a breve."
+    sessionExpired: "La sessione è scaduta. Accedi di nuovo per pubblicare."
+    projectDeletedRestart: "Il progetto collegato è stato eliminato. Pubblica come nuovo progetto."
 
   # ========================================
   # Import modal - Import diagram

@@ -165,6 +165,11 @@ modals:
     acceptAllIncomingChangesButton: Barcha kelayotgan o'zgarishlarni qabul qilish # Accept all incoming changes button
     conflictWordSingular: nizo # Word for counting conflicts
     conflictWordPlural: nizolar # Word for counting conflicts
+    askOwnerToPublishFirst: Avval egasidan nashr qilishni so'rang.
+    publishInProgress: Boshqa nashr jarayonda. Iltimos, biroz vaqtdan keyin qayta urinib ko'ring.
+    workspaceBeingSetUp: Ish maydoni sozlanmoqda, iltimos, tez orada qayta urinib ko'ring.
+    sessionExpired: Sessiyangiz muddati tugadi. Nashr qilish uchun qayta kiring.
+    projectDeletedRestart: Bog'langan loyiha o'chirildi. Iltimos, yangi loyiha sifatida nashr qiling.
 
   # ========================================
   # Import modal - Import diagram

@@ -146,6 +146,11 @@ modals:
     acceptAllIncomingChangesButton: 全ての受信した変更を適用
     conflictWordSingular: 競合
     conflictWordPlural: 競合
+    askOwnerToPublishFirst: オーナーに先に公開してもらってください。
+    publishInProgress: 別の公開が進行中です。しばらくしてからもう一度お試しください。
+    workspaceBeingSetUp: ワークスペースを設定中です。しばらくしてからもう一度お試しください。
+    sessionExpired: セッションの有効期限が切れました。公開するには再度ログインしてください。
+    projectDeletedRestart: リンクされたプロジェクトが削除されました。新しいプロジェクトとして公開してください。
   import:
     instructions: 手順
     showInstructions: 手順を表示

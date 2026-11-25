@@ -165,6 +165,11 @@ modals:
     acceptAllIncomingChangesButton: Прийняти всі вхідні зміни # Accept all incoming changes button
     conflictWordSingular: конфлікт # Word for counting conflicts
     conflictWordPlural: конфлікти # Word for counting conflicts
+    askOwnerToPublishFirst: Попросіть власника опублікувати першим.
+    publishInProgress: Інша публікація вже виконується. Спробуйте ще раз через деякий час.
+    workspaceBeingSetUp: Робочий простір налаштовується, спробуйте ще раз незабаром.
+    sessionExpired: Ваша сесія закінчилась. Увійдіть знову, щоб опублікувати.
+    projectDeletedRestart: Пов'язаний проєкт було видалено. Опублікуйте як новий проєкт.
 
   # ========================================
   # Import modal - Import diagram

@@ -165,6 +165,11 @@ modals:
     acceptAllIncomingChangesButton: Accepter toutes les modifications entrantes
     conflictWordSingular: conflit
     conflictWordPlural: conflits
+    askOwnerToPublishFirst: Demandez au propriétaire de publier en premier.
+    publishInProgress: Une autre publication est en cours. Veuillez réessayer dans un moment.
+    workspaceBeingSetUp: L'espace de travail est en cours de configuration, veuillez réessayer sous peu.
+    sessionExpired: Votre session a expiré. Veuillez vous reconnecter pour publier.
+    projectDeletedRestart: Le projet lié a été supprimé. Veuillez publier en tant que nouveau projet.
 
   # ========================================
   # Importation

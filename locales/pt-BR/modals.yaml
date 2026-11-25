@@ -165,6 +165,11 @@ modals:
     acceptAllIncomingChangesButton: Aceitar Todas as Alterações Recebidas
     conflictWordSingular: conflito
     conflictWordPlural: conflitos
+    askOwnerToPublishFirst: Peça ao proprietário para publicar primeiro.
+    publishInProgress: Outra publicação está em andamento. Tente novamente em instantes.
+    workspaceBeingSetUp: O espaço de trabalho está sendo configurado, tente novamente em breve.
+    sessionExpired: Sua sessão expirou. Faça login novamente para publicar.
+    projectDeletedRestart: O projeto vinculado foi excluído. Publique como um novo projeto.
 
   # ========================================
   # Import modal - Import diagram

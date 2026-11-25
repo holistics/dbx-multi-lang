@@ -143,6 +143,11 @@ modals:
     acceptAllIncomingChangesButton: Chấp nhận tất cả thay đổi mới
     conflictWordSingular: xung đột
     conflictWordPlural: xung đột
+    askOwnerToPublishFirst: Hãy yêu cầu chủ sở hữu xuất bản trước.
+    publishInProgress: Một quá trình xuất bản khác đang diễn ra. Vui lòng thử lại sau.
+    workspaceBeingSetUp: Không gian làm việc đang được thiết lập, vui lòng thử lại sau.
+    sessionExpired: Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại để xuất bản.
+    projectDeletedRestart: Dự án đã liên kết đã bị xóa. Vui lòng xuất bản như một dự án mới.
 
   import:
     instructions: Hướng dẫn

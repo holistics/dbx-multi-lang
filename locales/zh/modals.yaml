@@ -146,6 +146,11 @@ modals:
     acceptAllIncomingChangesButton: 接受所有传入的更改
     conflictWordSingular: 冲突
     conflictWordPlural: 冲突
+    askOwnerToPublishFirst: 请先让所有者发布。
+    publishInProgress: 另一个发布正在进行中，请稍后再试。
+    workspaceBeingSetUp: 工作区正在设置中，请稍后再试。
+    sessionExpired: 您的会话已过期，请重新登录以发布。
+    projectDeletedRestart: 关联的项目已被删除，请作为新项目发布。
   import:
     instructions: 说明
     showInstructions: 显示说明
