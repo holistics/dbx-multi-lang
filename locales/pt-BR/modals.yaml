@@ -185,6 +185,7 @@ modals:
     linkedDocumentDescription: "Revise suas alterações para criar uma nova versão deste documento:"
     reviewChangesButton: "Revisar alterações"
     emptyDiagramCannotPublish: "Este diagrama está vazio. Adicione conteúdo antes de publicar."
+    askOwnerToSetUpDbdocs: Apenas o proprietário deste diagrama pode configurar o dbdocs. Peça ao proprietário para publicá-lo primeiro.
 
   # ========================================
   # Import modal - Import diagram

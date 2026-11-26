@@ -166,6 +166,7 @@ modals:
     linkedDocumentDescription: "查看你的更改，为此文档创建新版本："
     reviewChangesButton: "查看更改"
     emptyDiagramCannotPublish: "此图表为空。请先添加内容再发布。"
+    askOwnerToSetUpDbdocs: 只有该图表的所有者才能为其设置 dbdocs。请联系所有者先进行发布。
   import:
     instructions: 说明
     showInstructions: 显示说明

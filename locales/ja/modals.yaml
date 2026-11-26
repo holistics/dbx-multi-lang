@@ -166,6 +166,7 @@ modals:
     linkedDocumentDescription: "変更内容を確認して、このドキュメントの新しいバージョンを作成します："
     reviewChangesButton: "変更を確認"
     emptyDiagramCannotPublish: "この図は空です。公開する前に内容を追加してください。"
+    askOwnerToSetUpDbdocs: このダイアグラムのオーナーのみが dbdocs を設定できます。オーナーに先に公開するよう依頼してください。
   import:
     instructions: 手順
     showInstructions: 手順を表示

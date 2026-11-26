@@ -185,6 +185,7 @@ modals:
     linkedDocumentDescription: "Vérifiez vos modifications pour créer une nouvelle version de ce document :"
     reviewChangesButton: "Vérifier les modifications"
     emptyDiagramCannotPublish: "Ce diagramme est vide. Ajoutez du contenu avant de publier."
+    askOwnerToSetUpDbdocs: Seul le propriétaire de ce diagramme peut configurer dbdocs. Demandez au propriétaire de le publier en premier.
 
   # ========================================
   # Importation

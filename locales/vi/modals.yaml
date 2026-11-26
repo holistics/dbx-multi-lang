@@ -163,6 +163,7 @@ modals:
     linkedDocumentDescription: "Xem lại thay đổi để tạo phiên bản mới cho tài liệu này:"
     reviewChangesButton: "Xem lại thay đổi"
     emptyDiagramCannotPublish: "Sơ đồ này đang trống. Hãy thêm nội dung trước khi xuất bản."
+    askOwnerToSetUpDbdocs: Chỉ chủ sở hữu của sơ đồ này mới có thể thiết lập dbdocs. Hãy yêu cầu chủ sở hữu xuất bản trước.
 
   import:
     instructions: Hướng dẫn

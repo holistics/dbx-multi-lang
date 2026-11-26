@@ -185,6 +185,7 @@ modals:
     linkedDocumentDescription: "Bu belgenin yeni bir sürümünü oluşturmak için değişikliklerinizi gözden geçirin:"
     reviewChangesButton: "Değişiklikleri gözden geçir"
     emptyDiagramCannotPublish: "Bu diyagram boş. Yayımlamadan önce içerik ekleyin."
+    askOwnerToSetUpDbdocs: Bu diyagramın dbdocs ayarlarını yalnızca sahibi yapabilir. Sahibinden önce yayımlamasını isteyin.
 
   # ========================================
   # Import modal - Import diagram
