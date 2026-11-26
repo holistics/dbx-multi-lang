@@ -148,6 +148,7 @@ modals:
     workspaceBeingSetUp: Không gian làm việc đang được thiết lập, vui lòng thử lại sau.
     sessionExpired: Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại để xuất bản.
     projectDeletedRestart: Dự án đã liên kết đã bị xóa. Vui lòng xuất bản như một dự án mới.
+    askOwnerToSetUpDbdocs: Chỉ chủ sở hữu của sơ đồ này mới có thể thiết lập dbdocs. Hãy yêu cầu chủ sở hữu xuất bản trước.
 
   import:
     instructions: Hướng dẫn

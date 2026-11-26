@@ -173,6 +173,7 @@ modals:
     workspaceBeingSetUp: 워크스페이스가 설정 중입니다. 잠시 후 다시 시도해 주세요.
     sessionExpired: 세션이 만료되었습니다. 게시하려면 다시 로그인해 주세요.
     projectDeletedRestart: 연결된 프로젝트가 삭제되었습니다. 새 프로젝트로 게시해 주세요.
+    askOwnerToSetUpDbdocs: 이 다이어그램의 소유자만 dbdocs를 설정할 수 있습니다. 소유자에게 먼저 게시하도록 요청하세요.
 
   # ========================================
   # Import modal - Import diagram

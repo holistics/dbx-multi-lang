@@ -170,6 +170,7 @@ modals:
     workspaceBeingSetUp: L'espace de travail est en cours de configuration, veuillez réessayer sous peu.
     sessionExpired: Votre session a expiré. Veuillez vous reconnecter pour publier.
     projectDeletedRestart: Le projet lié a été supprimé. Veuillez publier en tant que nouveau projet.
+    askOwnerToSetUpDbdocs: Seul le propriétaire de ce diagramme peut configurer dbdocs. Demandez au propriétaire de le publier en premier.
 
   # ========================================
   # Importation

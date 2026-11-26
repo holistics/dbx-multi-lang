@@ -170,6 +170,7 @@ modals:
     workspaceBeingSetUp: Ish maydoni sozlanmoqda, iltimos, tez orada qayta urinib ko'ring.
     sessionExpired: Sessiyangiz muddati tugadi. Nashr qilish uchun qayta kiring.
     projectDeletedRestart: Bog'langan loyiha o'chirildi. Iltimos, yangi loyiha sifatida nashr qiling.
+    askOwnerToSetUpDbdocs: Faqat ushbu diagramma egasi dbdocs'ni sozlashi mumkin. Egasidan avval nashr qilishni so'rang.
 
   # ========================================
   # Import modal - Import diagram

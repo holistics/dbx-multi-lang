@@ -151,6 +151,7 @@ modals:
     workspaceBeingSetUp: 工作区正在设置中，请稍后再试。
     sessionExpired: 您的会话已过期，请重新登录以发布。
     projectDeletedRestart: 关联的项目已被删除，请作为新项目发布。
+    askOwnerToSetUpDbdocs: 只有该图表的所有者才能为其设置 dbdocs。请联系所有者先进行发布。
   import:
     instructions: 说明
     showInstructions: 显示说明

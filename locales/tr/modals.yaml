@@ -170,6 +170,7 @@ modals:
     workspaceBeingSetUp: Çalışma alanı kuruluyor, lütfen kısa süre sonra tekrar deneyin.
     sessionExpired: Oturumunuz sona erdi. Yayımlamak için lütfen tekrar giriş yapın.
     projectDeletedRestart: Bağlı proje silindi. Lütfen yeni bir proje olarak yayımlayın.
+    askOwnerToSetUpDbdocs: Bu diyagramın dbdocs ayarlarını yalnızca sahibi yapabilir. Sahibinden önce yayımlamasını isteyin.
 
   # ========================================
   # Import modal - Import diagram
