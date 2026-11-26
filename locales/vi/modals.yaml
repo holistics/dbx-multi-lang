@@ -148,6 +148,21 @@ modals:
     workspaceBeingSetUp: Không gian làm việc đang được thiết lập, vui lòng thử lại sau.
     sessionExpired: Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại để xuất bản.
     projectDeletedRestart: Dự án đã liên kết đã bị xóa. Vui lòng xuất bản như một dự án mới.
+    documentTitle: "Xuất bản thành tài liệu web"
+    documentDescription: "Tài liệu của bạn sẽ là một trang web chỉ đọc, nơi nhóm của bạn có thể xem bảng, quan hệ và ghi chú. Mặc định chỉ thành viên workspace của bạn mới xem được."
+    learnAccessControl: Tìm hiểu về kiểm soát truy cập
+    documentName: Tên tài liệu
+    enterDocumentName: "vd: Cơ sở dữ liệu Acme"
+    viewExistingDocuments: Xem các tài liệu đã có
+    documentUrlPreview: "Tài liệu của bạn sẽ ở {url}"
+    documentNameEmpty: Tên tài liệu không được để trống
+    documentNameInvalid: 'Tên tài liệu chỉ được chứa chữ cái, chữ số, khoảng trắng, "-" hoặc "_"'
+    documentNameNoLetterOrDigit: Tên tài liệu phải có ít nhất một chữ cái hoặc chữ số
+    documentNameExists: Đã có tài liệu trùng tên trong workspace này.
+    askOwnerToPublishDocument: Sơ đồ này chưa có tài liệu nào được xuất bản. Hãy nhờ chủ sơ đồ xuất bản trước, sau đó bạn có thể thêm phiên bản mới.
+    linkedDocumentDescription: "Xem lại thay đổi để tạo phiên bản mới cho tài liệu này:"
+    reviewChangesButton: "Xem lại thay đổi"
+    emptyDiagramCannotPublish: "Sơ đồ này đang trống. Hãy thêm nội dung trước khi xuất bản."
 
   import:
     instructions: Hướng dẫn

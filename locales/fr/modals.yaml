@@ -170,6 +170,21 @@ modals:
     workspaceBeingSetUp: L'espace de travail est en cours de configuration, veuillez réessayer sous peu.
     sessionExpired: Votre session a expiré. Veuillez vous reconnecter pour publier.
     projectDeletedRestart: Le projet lié a été supprimé. Veuillez publier en tant que nouveau projet.
+    documentTitle: "Publier en tant que document web"
+    documentDescription: "Votre document sera un site web en lecture seule où votre équipe pourra consulter les tables, les relations et les notes. Par défaut, il est privé à votre espace de travail."
+    learnAccessControl: "En savoir plus sur le contrôle d'accès"
+    documentName: Nom du document
+    enterDocumentName: "ex. Base de données Acme"
+    viewExistingDocuments: Voir les documents existants
+    documentUrlPreview: "Votre document sera disponible à {url}"
+    documentNameEmpty: Le nom du document ne peut pas être vide
+    documentNameInvalid: 'Le nom du document ne peut contenir que des lettres, des chiffres, des espaces, "-" ou "_"'
+    documentNameNoLetterOrDigit: Le nom du document doit contenir au moins une lettre ou un chiffre
+    documentNameExists: Un document portant ce nom existe déjà dans cet espace de travail.
+    askOwnerToPublishDocument: "Ce diagramme n'a pas encore de document publié. Demandez au propriétaire du diagramme de le publier d'abord, puis vous pourrez ajouter de nouvelles versions."
+    linkedDocumentDescription: "Vérifiez vos modifications pour créer une nouvelle version de ce document :"
+    reviewChangesButton: "Vérifier les modifications"
+    emptyDiagramCannotPublish: "Ce diagramme est vide. Ajoutez du contenu avant de publier."
 
   # ========================================
   # Importation

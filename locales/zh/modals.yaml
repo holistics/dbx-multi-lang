@@ -151,6 +151,21 @@ modals:
     workspaceBeingSetUp: 工作区正在设置中，请稍后再试。
     sessionExpired: 您的会话已过期，请重新登录以发布。
     projectDeletedRestart: 关联的项目已被删除，请作为新项目发布。
+    documentTitle: "发布为网页文档"
+    documentDescription: "你的文档将是一个只读网站，团队可以在其中浏览表、关系和备注。默认仅对你的工作区成员可见。"
+    learnAccessControl: 了解访问控制
+    documentName: 文档名称
+    enterDocumentName: "例如：Acme 数据库"
+    viewExistingDocuments: 查看已有文档
+    documentUrlPreview: "你的文档地址将是 {url}"
+    documentNameEmpty: 文档名称不能为空
+    documentNameInvalid: '文档名称只能包含字母、数字、空格、"-" 或 "_"'
+    documentNameNoLetterOrDigit: 文档名称必须至少包含一个字母或数字
+    documentNameExists: 此工作区中已存在同名文档。
+    askOwnerToPublishDocument: 此图表还没有已发布的文档。请先让图表所有者发布，之后你就可以添加新版本。
+    linkedDocumentDescription: "查看你的更改，为此文档创建新版本："
+    reviewChangesButton: "查看更改"
+    emptyDiagramCannotPublish: "此图表为空。请先添加内容再发布。"
   import:
     instructions: 说明
     showInstructions: 显示说明

@@ -170,6 +170,21 @@ modals:
     workspaceBeingSetUp: Çalışma alanı kuruluyor, lütfen kısa süre sonra tekrar deneyin.
     sessionExpired: Oturumunuz sona erdi. Yayımlamak için lütfen tekrar giriş yapın.
     projectDeletedRestart: Bağlı proje silindi. Lütfen yeni bir proje olarak yayımlayın.
+    documentTitle: "Web tabanlı belge olarak yayımla"
+    documentDescription: "Belgeniz, ekibinizin tabloları, ilişkileri ve notları inceleyebileceği salt okunur bir web sitesi olacak. Varsayılan olarak çalışma alanınıza özeldir."
+    learnAccessControl: Erişim denetimi hakkında bilgi edinin
+    documentName: Belge adı
+    enterDocumentName: "örn. Acme veritabanı"
+    viewExistingDocuments: Mevcut belgeleri görüntüle
+    documentUrlPreview: "Belgeniz şu adreste olacak: {url}"
+    documentNameEmpty: Belge adı boş olamaz
+    documentNameInvalid: 'Belge adı yalnızca harf, rakam, boşluk, "-" veya "_" içerebilir'
+    documentNameNoLetterOrDigit: Belge adı en az bir harf veya rakam içermelidir
+    documentNameExists: Bu çalışma alanında bu ada sahip bir belge zaten var.
+    askOwnerToPublishDocument: Bu diyagramın henüz yayımlanmış bir belgesi yok. Önce diyagram sahibinden yayımlamasını isteyin, ardından yeni sürümler ekleyebilirsiniz.
+    linkedDocumentDescription: "Bu belgenin yeni bir sürümünü oluşturmak için değişikliklerinizi gözden geçirin:"
+    reviewChangesButton: "Değişiklikleri gözden geçir"
+    emptyDiagramCannotPublish: "Bu diyagram boş. Yayımlamadan önce içerik ekleyin."
 
   # ========================================
   # Import modal - Import diagram

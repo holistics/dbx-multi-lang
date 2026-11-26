@@ -170,6 +170,21 @@ modals:
     workspaceBeingSetUp: El espacio de trabajo se está configurando, por favor inténtalo de nuevo en breve.
     sessionExpired: Tu sesión ha expirado. Por favor, inicia sesión de nuevo para publicar.
     projectDeletedRestart: El proyecto vinculado fue eliminado. Por favor, publica como un nuevo proyecto.
+    documentTitle: "Publicar como documento web"
+    documentDescription: "Tu documento será un sitio web de solo lectura donde tu equipo puede consultar tablas, relaciones y notas. Por defecto es privado para tu espacio de trabajo."
+    learnAccessControl: Más información sobre el control de acceso
+    documentName: Nombre del documento
+    enterDocumentName: "p. ej. Base de datos de Acme"
+    viewExistingDocuments: Ver documentos existentes
+    documentUrlPreview: "Tu documento estará en {url}"
+    documentNameEmpty: El nombre del documento no puede estar vacío
+    documentNameInvalid: 'El nombre del documento solo puede contener letras, números, espacios, "-" o "_"'
+    documentNameNoLetterOrDigit: El nombre del documento debe contener al menos una letra o un número
+    documentNameExists: Ya existe un documento con este nombre en este espacio de trabajo.
+    askOwnerToPublishDocument: Este diagrama aún no tiene un documento publicado. Pide al propietario del diagrama que lo publique primero y después podrás añadir nuevas versiones.
+    linkedDocumentDescription: "Revisa tus cambios para crear una nueva versión de este documento:"
+    reviewChangesButton: "Revisar cambios"
+    emptyDiagramCannotPublish: "Este diagrama está vacío. Añade contenido antes de publicar."
 
   # ========================================
   # Import modal - Import diagram

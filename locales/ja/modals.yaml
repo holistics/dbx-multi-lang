@@ -151,6 +151,21 @@ modals:
     workspaceBeingSetUp: ワークスペースを設定中です。しばらくしてからもう一度お試しください。
     sessionExpired: セッションの有効期限が切れました。公開するには再度ログインしてください。
     projectDeletedRestart: リンクされたプロジェクトが削除されました。新しいプロジェクトとして公開してください。
+    documentTitle: "Web ベースのドキュメントとして公開"
+    documentDescription: "ドキュメントは読み取り専用の Web サイトになり、チームはテーブル、リレーション、ノートを閲覧できます。デフォルトではワークスペースのメンバーのみが閲覧できます。"
+    learnAccessControl: アクセス制御について詳しく見る
+    documentName: ドキュメント名
+    enterDocumentName: "例：Acme データベース"
+    viewExistingDocuments: 既存のドキュメントを表示
+    documentUrlPreview: "ドキュメントの URL は {url} になります"
+    documentNameEmpty: ドキュメント名を入力してください
+    documentNameInvalid: 'ドキュメント名には英数字、スペース、"-"、"_" のみ使用できます'
+    documentNameNoLetterOrDigit: ドキュメント名には英字または数字を 1 文字以上含めてください
+    documentNameExists: このワークスペースには同じ名前のドキュメントがすでにあります。
+    askOwnerToPublishDocument: この図にはまだ公開されたドキュメントがありません。まず図のオーナーに公開を依頼してください。その後、新しいバージョンを追加できます。
+    linkedDocumentDescription: "変更内容を確認して、このドキュメントの新しいバージョンを作成します："
+    reviewChangesButton: "変更を確認"
+    emptyDiagramCannotPublish: "この図は空です。公開する前に内容を追加してください。"
   import:
     instructions: 手順
     showInstructions: 手順を表示

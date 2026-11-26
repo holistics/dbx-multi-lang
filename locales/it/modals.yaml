@@ -170,6 +170,21 @@ modals:
     workspaceBeingSetUp: "Lo spazio di lavoro è in fase di configurazione, riprova a breve."
     sessionExpired: "La sessione è scaduta. Accedi di nuovo per pubblicare."
     projectDeletedRestart: "Il progetto collegato è stato eliminato. Pubblica come nuovo progetto."
+    documentTitle: "Pubblica come documento web"
+    documentDescription: "Il tuo documento sarà un sito web di sola lettura in cui il tuo team può consultare tabelle, relazioni e note. Per impostazione predefinita è privato per il tuo workspace."
+    learnAccessControl: "Scopri di più sul controllo degli accessi"
+    documentName: "Nome del documento"
+    enterDocumentName: "es. Database Acme"
+    viewExistingDocuments: "Visualizza i documenti esistenti"
+    documentUrlPreview: "Il tuo documento sarà disponibile su {url}"
+    documentNameEmpty: "Il nome del documento non può essere vuoto"
+    documentNameInvalid: 'Il nome del documento può contenere solo lettere, numeri, spazi, "-" o "_"'
+    documentNameNoLetterOrDigit: "Il nome del documento deve contenere almeno una lettera o una cifra"
+    documentNameExists: "Esiste già un documento con questo nome in questo workspace."
+    askOwnerToPublishDocument: "Questo diagramma non ha ancora un documento pubblicato. Chiedi al proprietario del diagramma di pubblicarlo prima, poi potrai aggiungere nuove versioni."
+    linkedDocumentDescription: "Rivedi le modifiche per creare una nuova versione di questo documento:"
+    reviewChangesButton: "Rivedi le modifiche"
+    emptyDiagramCannotPublish: "Questo diagramma è vuoto. Aggiungi dei contenuti prima di pubblicare."
 
   # ========================================
   # Import modal - Import diagram

@@ -173,6 +173,21 @@ modals:
     workspaceBeingSetUp: 워크스페이스가 설정 중입니다. 잠시 후 다시 시도해 주세요.
     sessionExpired: 세션이 만료되었습니다. 게시하려면 다시 로그인해 주세요.
     projectDeletedRestart: 연결된 프로젝트가 삭제되었습니다. 새 프로젝트로 게시해 주세요.
+    documentTitle: "웹 기반 문서로 게시"
+    documentDescription: "문서는 팀이 테이블, 관계, 노트를 둘러볼 수 있는 읽기 전용 웹사이트가 됩니다. 기본적으로 워크스페이스 구성원만 볼 수 있습니다."
+    learnAccessControl: 액세스 제어 알아보기
+    documentName: 문서 이름
+    enterDocumentName: "예: Acme 데이터베이스"
+    viewExistingDocuments: 기존 문서 보기
+    documentUrlPreview: "문서 주소: {url}"
+    documentNameEmpty: 문서 이름은 비워 둘 수 없습니다
+    documentNameInvalid: '문서 이름에는 영문자, 숫자, 공백, "-" 또는 "_"만 사용할 수 있습니다'
+    documentNameNoLetterOrDigit: 문서 이름에는 영문자 또는 숫자가 하나 이상 있어야 합니다
+    documentNameExists: 이 워크스페이스에 같은 이름의 문서가 이미 있습니다.
+    askOwnerToPublishDocument: 이 다이어그램에는 아직 게시된 문서가 없습니다. 먼저 다이어그램 소유자에게 게시를 요청하세요. 그 후 새 버전을 추가할 수 있습니다.
+    linkedDocumentDescription: "변경 사항을 검토하여 이 문서의 새 버전을 만드세요:"
+    reviewChangesButton: "변경 사항 검토"
+    emptyDiagramCannotPublish: "이 다이어그램은 비어 있습니다. 게시하기 전에 내용을 추가하세요."
 
   # ========================================
   # Import modal - Import diagram

@@ -170,6 +170,21 @@ modals:
     workspaceBeingSetUp: Ish maydoni sozlanmoqda, iltimos, tez orada qayta urinib ko'ring.
     sessionExpired: Sessiyangiz muddati tugadi. Nashr qilish uchun qayta kiring.
     projectDeletedRestart: Bog'langan loyiha o'chirildi. Iltimos, yangi loyiha sifatida nashr qiling.
+    documentTitle: "Veb-hujjat sifatida nashr qilish"
+    documentDescription: "Hujjatingiz jamoangiz jadvallar, bog'lanishlar va izohlarni ko'ra oladigan, faqat o'qish uchun mo'ljallangan veb-sayt bo'ladi. Sukut bo'yicha u faqat ish maydoningiz a'zolariga ko'rinadi."
+    learnAccessControl: "Kirish nazorati haqida batafsil"
+    documentName: "Hujjat nomi"
+    enterDocumentName: "masalan, Acme ma'lumotlar bazasi"
+    viewExistingDocuments: "Mavjud hujjatlarni ko'rish"
+    documentUrlPreview: "Hujjatingiz manzili: {url}"
+    documentNameEmpty: "Hujjat nomi bo'sh bo'lishi mumkin emas"
+    documentNameInvalid: "Hujjat nomida faqat harflar, raqamlar, bo'shliqlar, \"-\" yoki \"_\" bo'lishi mumkin"
+    documentNameNoLetterOrDigit: "Hujjat nomida kamida bitta harf yoki raqam bo'lishi kerak"
+    documentNameExists: "Bu ish maydonida shu nomli hujjat allaqachon mavjud."
+    askOwnerToPublishDocument: "Bu diagrammada hali nashr qilingan hujjat yo'q. Avval diagramma egasidan uni nashr qilishni so'rang, keyin yangi versiyalar qo'shishingiz mumkin."
+    linkedDocumentDescription: "Ushbu hujjatning yangi versiyasini yaratish uchun o'zgarishlaringizni ko'rib chiqing:"
+    reviewChangesButton: "O'zgarishlarni ko'rib chiqish"
+    emptyDiagramCannotPublish: "Bu diagramma bo'sh. Nashr qilishdan oldin kontent qo'shing."
 
   # ========================================
   # Import modal - Import diagram
