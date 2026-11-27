@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Опублікувати новий документ / Оновити наявний # Section title
     updateExisting: Оновити наявний документ # Update option
     publishNewOption: Опублікувати новий документ # Publish a new document option
-    projectPublicDefault: Ваш проєкт dbdocs за замовчуванням має статус "public". Люди можуть отримати доступ за його посиланням. # Public default info
+    projectPrivateDefault: Ваш проєкт dbdocs за замовчуванням має статус "private". Лише члени робочого простору можуть отримати доступ.
     documentProjectName: Назва документа проєкту  # Project name field label
     enterProjectName: Введіть назву проєкту # Project name placeholder
     options: Параметри # Options section title
@@ -165,6 +165,27 @@ modals:
     acceptAllIncomingChangesButton: Прийняти всі вхідні зміни # Accept all incoming changes button
     conflictWordSingular: конфлікт # Word for counting conflicts
     conflictWordPlural: конфлікти # Word for counting conflicts
+    askOwnerToPublishFirst: Попросіть власника опублікувати першим.
+    publishInProgress: Інша публікація вже виконується. Спробуйте ще раз через деякий час.
+    workspaceBeingSetUp: Робочий простір налаштовується, спробуйте ще раз незабаром.
+    sessionExpired: Ваша сесія закінчилась. Увійдіть знову, щоб опублікувати.
+    projectDeletedRestart: Пов'язаний проєкт було видалено. Опублікуйте як новий проєкт.
+    documentTitle: "Опублікувати як вебдокумент"
+    documentDescription: "Ваш документ буде вебсайтом лише для читання, де ваша команда зможе переглядати таблиці, зв'язки та нотатки. За замовчуванням він доступний лише у вашому робочому просторі."
+    learnAccessControl: Дізнатися більше про контроль доступу
+    documentName: Назва документа
+    enterDocumentName: "напр. База даних Acme"
+    viewExistingDocuments: Переглянути наявні документи
+    documentUrlPreview: "Ваш документ буде за адресою {url}"
+    documentNameEmpty: Назва документа не може бути порожньою
+    documentNameInvalid: 'Назва документа може містити лише літери, цифри, пробіли, "-" або "_"'
+    documentNameNoLetterOrDigit: Назва документа має містити принаймні одну літеру або цифру
+    documentNameExists: У цьому робочому просторі вже є документ із такою назвою.
+    askOwnerToPublishDocument: Ця діаграма ще не має опублікованого документа. Спершу попросіть власника діаграми опублікувати його, після цього ви зможете додавати нові версії.
+    linkedDocumentDescription: "Перегляньте зміни, щоб створити нову версію цього документа:"
+    reviewChangesButton: "Переглянути зміни"
+    emptyDiagramCannotPublish: "Ця діаграма порожня. Додайте вміст перед публікацією."
+    askOwnerToSetUpDbdocs: Лише власник цієї діаграми може налаштувати dbdocs. Попросіть власника спочатку опублікувати її.
 
   # ========================================
   # Import modal - Import diagram
@@ -319,7 +340,7 @@ modals:
   # ========================================
   sessionExpired:
     title: Сеанс завершено
-    description: Термін дії сеансу минув, ви автоматично вийдете із системи через {countdown} с… 
+    description: Термін дії сеансу минув, ви автоматично вийдете із системи через {countdown} с…
 
   # ========================================
   # Transfer ownership modal

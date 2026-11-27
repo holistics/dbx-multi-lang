@@ -109,7 +109,7 @@ modals:
     publishNewOrUpdate: Xuất bản tài liệu mới / Cập nhật tài liệu hiện có
     updateExisting: Cập nhật tài liệu hiện có
     publishNewOption: Xuất bản tài liệu mới
-    projectPublicDefault: Dự án dbdocs của bạn được đặt là "công khai" theo mặc định. Mọi người có thể truy cập qua liên kết.
+    projectPrivateDefault: Dự án dbdocs của bạn được đặt là "riêng tư" theo mặc định. Chỉ thành viên trong không gian làm việc mới có thể truy cập.
     documentProjectName: Tên dự án tài liệu
     enterProjectName: Nhập tên dự án
     options: Tùy chọn
@@ -143,6 +143,27 @@ modals:
     acceptAllIncomingChangesButton: Chấp nhận tất cả thay đổi mới
     conflictWordSingular: xung đột
     conflictWordPlural: xung đột
+    askOwnerToPublishFirst: Hãy yêu cầu chủ sở hữu xuất bản trước.
+    publishInProgress: Một quá trình xuất bản khác đang diễn ra. Vui lòng thử lại sau.
+    workspaceBeingSetUp: Không gian làm việc đang được thiết lập, vui lòng thử lại sau.
+    sessionExpired: Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại để xuất bản.
+    projectDeletedRestart: Dự án đã liên kết đã bị xóa. Vui lòng xuất bản như một dự án mới.
+    documentTitle: "Xuất bản thành tài liệu web"
+    documentDescription: "Tài liệu của bạn sẽ là một trang web chỉ đọc, nơi nhóm của bạn có thể xem bảng, quan hệ và ghi chú. Mặc định chỉ thành viên workspace của bạn mới xem được."
+    learnAccessControl: Tìm hiểu về kiểm soát truy cập
+    documentName: Tên tài liệu
+    enterDocumentName: "vd: Cơ sở dữ liệu Acme"
+    viewExistingDocuments: Xem các tài liệu đã có
+    documentUrlPreview: "Tài liệu của bạn sẽ ở {url}"
+    documentNameEmpty: Tên tài liệu không được để trống
+    documentNameInvalid: 'Tên tài liệu chỉ được chứa chữ cái, chữ số, khoảng trắng, "-" hoặc "_"'
+    documentNameNoLetterOrDigit: Tên tài liệu phải có ít nhất một chữ cái hoặc chữ số
+    documentNameExists: Đã có tài liệu trùng tên trong workspace này.
+    askOwnerToPublishDocument: Sơ đồ này chưa có tài liệu nào được xuất bản. Hãy nhờ chủ sơ đồ xuất bản trước, sau đó bạn có thể thêm phiên bản mới.
+    linkedDocumentDescription: "Xem lại thay đổi để tạo phiên bản mới cho tài liệu này:"
+    reviewChangesButton: "Xem lại thay đổi"
+    emptyDiagramCannotPublish: "Sơ đồ này đang trống. Hãy thêm nội dung trước khi xuất bản."
+    askOwnerToSetUpDbdocs: Chỉ chủ sở hữu của sơ đồ này mới có thể thiết lập dbdocs. Hãy yêu cầu chủ sở hữu xuất bản trước.
 
   import:
     instructions: Hướng dẫn

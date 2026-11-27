@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Publier un nouveau document / Mettre à jour un document existant
     updateExisting: Mettre à jour un document existant
     publishNewOption: Publier un nouveau document
-    projectPublicDefault: Votre projet dbdocs est public par défaut. Les utilisateurs peuvent y accéder via le lien.
+    projectPrivateDefault: Votre projet dbdocs est privé par défaut. Seuls les membres de l'espace de travail peuvent y accéder.
     documentProjectName: Nom du projet
     enterProjectName: Saisir le nom du projet
     options: Options
@@ -165,6 +165,27 @@ modals:
     acceptAllIncomingChangesButton: Accepter toutes les modifications entrantes
     conflictWordSingular: conflit
     conflictWordPlural: conflits
+    askOwnerToPublishFirst: Demandez au propriétaire de publier en premier.
+    publishInProgress: Une autre publication est en cours. Veuillez réessayer dans un moment.
+    workspaceBeingSetUp: L'espace de travail est en cours de configuration, veuillez réessayer sous peu.
+    sessionExpired: Votre session a expiré. Veuillez vous reconnecter pour publier.
+    projectDeletedRestart: Le projet lié a été supprimé. Veuillez publier en tant que nouveau projet.
+    documentTitle: "Publier en tant que document web"
+    documentDescription: "Votre document sera un site web en lecture seule où votre équipe pourra consulter les tables, les relations et les notes. Par défaut, il est privé à votre espace de travail."
+    learnAccessControl: "En savoir plus sur le contrôle d'accès"
+    documentName: Nom du document
+    enterDocumentName: "ex. Base de données Acme"
+    viewExistingDocuments: Voir les documents existants
+    documentUrlPreview: "Votre document sera disponible à {url}"
+    documentNameEmpty: Le nom du document ne peut pas être vide
+    documentNameInvalid: 'Le nom du document ne peut contenir que des lettres, des chiffres, des espaces, "-" ou "_"'
+    documentNameNoLetterOrDigit: Le nom du document doit contenir au moins une lettre ou un chiffre
+    documentNameExists: Un document portant ce nom existe déjà dans cet espace de travail.
+    askOwnerToPublishDocument: "Ce diagramme n'a pas encore de document publié. Demandez au propriétaire du diagramme de le publier d'abord, puis vous pourrez ajouter de nouvelles versions."
+    linkedDocumentDescription: "Vérifiez vos modifications pour créer une nouvelle version de ce document :"
+    reviewChangesButton: "Vérifier les modifications"
+    emptyDiagramCannotPublish: "Ce diagramme est vide. Ajoutez du contenu avant de publier."
+    askOwnerToSetUpDbdocs: Seul le propriétaire de ce diagramme peut configurer dbdocs. Demandez au propriétaire de le publier en premier.
 
   # ========================================
   # Importation

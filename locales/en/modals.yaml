@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Publish a new document / Update an existing one # Section title
     updateExisting: Update an existing document # Update option
     publishNewOption: Publish a new document # Publish a new document option
-    projectPublicDefault: Your dbdocs project is set to "public" by default. People can gain access through its link. # Public default info
+    projectPrivateDefault: Your dbdocs project is set to "private" by default. Only workspace members can access it.
     documentProjectName: Document project name # Project name field label
     enterProjectName: Enter project name # Project name placeholder
     options: Options # Options section title
@@ -165,6 +165,27 @@ modals:
     acceptAllIncomingChangesButton: Accept All Incoming Changes # Accept all incoming changes button
     conflictWordSingular: conflict # Word for counting conflicts
     conflictWordPlural: conflicts # Word for counting conflicts
+    askOwnerToPublishFirst: Ask the owner to publish first. # Editor message when diagram has never been published
+    publishInProgress: Another publish is in progress. Please try again in a moment. # Error when concurrent publish
+    workspaceBeingSetUp: Workspace is being set up, please try again shortly. # Error when workspace provisioning not complete
+    sessionExpired: Your session has expired. Please sign in again to publish. # Error when portal token is stale/missing
+    projectDeletedRestart: The linked project was deleted. Please publish as a new project. # Error when linked project no longer exists (404)
+    askOwnerToSetUpDbdocs: Only the owner of this diagram can set up dbdocs for it. Ask the owner to publish it first. # Non-owner message when the diagram's personal workspace is not on dbdocs yet
+    documentTitle: Publish as web-based document # Title of the publish modals (portal workspace)
+    documentDescription: Your document will be a read-only website where your team can browse tables, relationships and notes. It is private to your workspace by default. # Description of the publish modals
+    learnAccessControl: Learn about access control # Link to the access control docs, under the description
+    documentName: Document name # Document name field label
+    enterDocumentName: "e.g. Acme database" # Document name placeholder
+    viewExistingDocuments: View existing documents # Link to view existing documents popover
+    documentUrlPreview: "Your document will be at {url}" # URL preview under the document name
+    documentNameEmpty: Document name cannot be empty # Validation error
+    documentNameInvalid: 'Document name can only contain letters, numbers, spaces, "-" or "_"' # Validation error
+    documentNameNoLetterOrDigit: Document name must contain at least one letter or digit # Validation error, the name gives no URL
+    documentNameExists: A document with this name already exists in this workspace. # Validation error for a taken name
+    askOwnerToPublishDocument: This diagram has no published document yet. Ask the diagram owner to publish it first, then you can add new versions. # Editor message when the diagram has no document
+    linkedDocumentDescription: "Review your changes to create a new version of this document:" # Description of the linked publish modal, followed by the document
+    reviewChangesButton: Review changes # Button of the linked publish modal, opens the review
+    emptyDiagramCannotPublish: This diagram is empty. Add some content before publishing. # Toast when publishing an empty diagram
 
   # ========================================
   # Import modal - Import diagram

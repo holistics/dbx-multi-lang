@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Yeni bir belge yayımla / Mevcut birini güncelle # Section title
     updateExisting: Mevcut bir belgeyi güncelle # Update option
     publishNewOption: Yeni bir belge yayımla # Publish a new document option
-    projectPublicDefault: dbdocs projeniz varsayılan olarak "herkese açık" (public) ayarlanmıştır. Kişiler bağlantı aracılığıyla erişim sağlayabilir. # Public default info
+    projectPrivateDefault: dbdocs projeniz varsayılan olarak "özel" (private) ayarlanmıştır. Yalnızca çalışma alanı üyeleri erişebilir.
     documentProjectName: Belge proje adı # Project name field label
     enterProjectName: Proje adını girin # Project name placeholder
     options: Seçenekler # Options section title
@@ -165,6 +165,27 @@ modals:
     acceptAllIncomingChangesButton: Tüm Gelen Değişiklikleri Kabul Et # Accept all incoming changes button
     conflictWordSingular: çakışma # Word for counting conflicts
     conflictWordPlural: çakışma # Word for counting conflicts
+    askOwnerToPublishFirst: Önce sahibinden yayımlamasını isteyin.
+    publishInProgress: Başka bir yayımlama devam ediyor. Lütfen bir süre sonra tekrar deneyin.
+    workspaceBeingSetUp: Çalışma alanı kuruluyor, lütfen kısa süre sonra tekrar deneyin.
+    sessionExpired: Oturumunuz sona erdi. Yayımlamak için lütfen tekrar giriş yapın.
+    projectDeletedRestart: Bağlı proje silindi. Lütfen yeni bir proje olarak yayımlayın.
+    documentTitle: "Web tabanlı belge olarak yayımla"
+    documentDescription: "Belgeniz, ekibinizin tabloları, ilişkileri ve notları inceleyebileceği salt okunur bir web sitesi olacak. Varsayılan olarak çalışma alanınıza özeldir."
+    learnAccessControl: Erişim denetimi hakkında bilgi edinin
+    documentName: Belge adı
+    enterDocumentName: "örn. Acme veritabanı"
+    viewExistingDocuments: Mevcut belgeleri görüntüle
+    documentUrlPreview: "Belgeniz şu adreste olacak: {url}"
+    documentNameEmpty: Belge adı boş olamaz
+    documentNameInvalid: 'Belge adı yalnızca harf, rakam, boşluk, "-" veya "_" içerebilir'
+    documentNameNoLetterOrDigit: Belge adı en az bir harf veya rakam içermelidir
+    documentNameExists: Bu çalışma alanında bu ada sahip bir belge zaten var.
+    askOwnerToPublishDocument: Bu diyagramın henüz yayımlanmış bir belgesi yok. Önce diyagram sahibinden yayımlamasını isteyin, ardından yeni sürümler ekleyebilirsiniz.
+    linkedDocumentDescription: "Bu belgenin yeni bir sürümünü oluşturmak için değişikliklerinizi gözden geçirin:"
+    reviewChangesButton: "Değişiklikleri gözden geçir"
+    emptyDiagramCannotPublish: "Bu diyagram boş. Yayımlamadan önce içerik ekleyin."
+    askOwnerToSetUpDbdocs: Bu diyagramın dbdocs ayarlarını yalnızca sahibi yapabilir. Sahibinden önce yayımlamasını isteyin.
 
   # ========================================
   # Import modal - Import diagram

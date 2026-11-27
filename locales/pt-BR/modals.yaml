@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Publicar um novo documento / Atualizar um existente
     updateExisting: Atualizar um documento existente
     publishNewOption: Publicar um novo documento
-    projectPublicDefault: Seu projeto dbdocs está definido como "público" por padrão. As pessoas podem obter acesso através do seu link. # Public default info
+    projectPrivateDefault: Seu projeto dbdocs está definido como "privado" por padrão. Apenas membros do workspace podem acessá-lo.
     documentProjectName: Nome do projeto do documento # Project name field label
     enterProjectName: Digite o nome do projeto # Project name placeholder
     options: Opções # Options section title
@@ -165,6 +165,27 @@ modals:
     acceptAllIncomingChangesButton: Aceitar Todas as Alterações Recebidas
     conflictWordSingular: conflito
     conflictWordPlural: conflitos
+    askOwnerToPublishFirst: Peça ao proprietário para publicar primeiro.
+    publishInProgress: Outra publicação está em andamento. Tente novamente em instantes.
+    workspaceBeingSetUp: O espaço de trabalho está sendo configurado, tente novamente em breve.
+    sessionExpired: Sua sessão expirou. Faça login novamente para publicar.
+    projectDeletedRestart: O projeto vinculado foi excluído. Publique como um novo projeto.
+    documentTitle: "Publicar como documento web"
+    documentDescription: "Seu documento será um site somente leitura onde sua equipe pode consultar tabelas, relacionamentos e notas. Por padrão, ele é privado para o seu workspace."
+    learnAccessControl: Saiba mais sobre controle de acesso
+    documentName: Nome do documento
+    enterDocumentName: "ex.: Banco de dados Acme"
+    viewExistingDocuments: Ver documentos existentes
+    documentUrlPreview: "Seu documento ficará em {url}"
+    documentNameEmpty: O nome do documento não pode ficar vazio
+    documentNameInvalid: 'O nome do documento só pode conter letras, números, espaços, "-" ou "_"'
+    documentNameNoLetterOrDigit: O nome do documento deve conter pelo menos uma letra ou um número
+    documentNameExists: Já existe um documento com este nome neste workspace.
+    askOwnerToPublishDocument: Este diagrama ainda não tem um documento publicado. Peça ao proprietário do diagrama para publicá-lo primeiro e depois você poderá adicionar novas versões.
+    linkedDocumentDescription: "Revise suas alterações para criar uma nova versão deste documento:"
+    reviewChangesButton: "Revisar alterações"
+    emptyDiagramCannotPublish: "Este diagrama está vazio. Adicione conteúdo antes de publicar."
+    askOwnerToSetUpDbdocs: Apenas o proprietário deste diagrama pode configurar o dbdocs. Peça ao proprietário para publicá-lo primeiro.
 
   # ========================================
   # Import modal - Import diagram

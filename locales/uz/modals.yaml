@@ -131,7 +131,7 @@ modals:
     publishNewOrUpdate: Yangi hujjat nashr qilish / Mavjudini yangilash # Section title
     updateExisting: Mavjud hujjatni yangilash # Update option
     publishNewOption: Yangi hujjat nashr qilish # Publish a new document option
-    projectPublicDefault: Sizning dbdocs loyihangiz standart bo'yicha "ommaviy" qilib belgilangan. Odamlar unga havola orqali kirishlari mumkin. # Public default info
+    projectPrivateDefault: Sizning dbdocs loyihangiz standart bo'yicha "yopiq" qilib belgilangan. Faqat ish maydoni a'zolari kirishlari mumkin.
     documentProjectName: Hujjat loyihasi nomi # Project name field label
     enterProjectName: Loyiha nomini kiriting # Project name placeholder
     options: Sozlamalar (Options) # Options section title
@@ -165,6 +165,27 @@ modals:
     acceptAllIncomingChangesButton: Barcha kelayotgan o'zgarishlarni qabul qilish # Accept all incoming changes button
     conflictWordSingular: nizo # Word for counting conflicts
     conflictWordPlural: nizolar # Word for counting conflicts
+    askOwnerToPublishFirst: Avval egasidan nashr qilishni so'rang.
+    publishInProgress: Boshqa nashr jarayonda. Iltimos, biroz vaqtdan keyin qayta urinib ko'ring.
+    workspaceBeingSetUp: Ish maydoni sozlanmoqda, iltimos, tez orada qayta urinib ko'ring.
+    sessionExpired: Sessiyangiz muddati tugadi. Nashr qilish uchun qayta kiring.
+    projectDeletedRestart: Bog'langan loyiha o'chirildi. Iltimos, yangi loyiha sifatida nashr qiling.
+    documentTitle: "Veb-hujjat sifatida nashr qilish"
+    documentDescription: "Hujjatingiz jamoangiz jadvallar, bog'lanishlar va izohlarni ko'ra oladigan, faqat o'qish uchun mo'ljallangan veb-sayt bo'ladi. Sukut bo'yicha u faqat ish maydoningiz a'zolariga ko'rinadi."
+    learnAccessControl: "Kirish nazorati haqida batafsil"
+    documentName: "Hujjat nomi"
+    enterDocumentName: "masalan, Acme ma'lumotlar bazasi"
+    viewExistingDocuments: "Mavjud hujjatlarni ko'rish"
+    documentUrlPreview: "Hujjatingiz manzili: {url}"
+    documentNameEmpty: "Hujjat nomi bo'sh bo'lishi mumkin emas"
+    documentNameInvalid: "Hujjat nomida faqat harflar, raqamlar, bo'shliqlar, \"-\" yoki \"_\" bo'lishi mumkin"
+    documentNameNoLetterOrDigit: "Hujjat nomida kamida bitta harf yoki raqam bo'lishi kerak"
+    documentNameExists: "Bu ish maydonida shu nomli hujjat allaqachon mavjud."
+    askOwnerToPublishDocument: "Bu diagrammada hali nashr qilingan hujjat yo'q. Avval diagramma egasidan uni nashr qilishni so'rang, keyin yangi versiyalar qo'shishingiz mumkin."
+    linkedDocumentDescription: "Ushbu hujjatning yangi versiyasini yaratish uchun o'zgarishlaringizni ko'rib chiqing:"
+    reviewChangesButton: "O'zgarishlarni ko'rib chiqish"
+    emptyDiagramCannotPublish: "Bu diagramma bo'sh. Nashr qilishdan oldin kontent qo'shing."
+    askOwnerToSetUpDbdocs: Faqat ushbu diagramma egasi dbdocs'ni sozlashi mumkin. Egasidan avval nashr qilishni so'rang.
 
   # ========================================
   # Import modal - Import diagram
