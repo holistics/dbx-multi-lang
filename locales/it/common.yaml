@@ -295,6 +295,11 @@ common:
     syncErrorTooltip: Sincronizzazione fallita, riprova a sincronizzare
     syncErrorBlocksEdit: Risolvi l'errore di sincronizzazione prima di modificare il ruolo di questo membro
     roleLabel: "Ruolo: {role}"
+    disabled: "Disattivato"
+    disabledTooltip: "Questo membro è disattivato. Mantiene i suoi contenuti ma non può accedere allo spazio di lavoro."
+    reactivateTooltip: "Clicca per riattivare questo membro"
+    managedByIdp: "Gestito dall’IdP"
+    managedByIdpTooltip: "Il tuo provider di identità gestisce questo membro. Modificalo da lì."
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)

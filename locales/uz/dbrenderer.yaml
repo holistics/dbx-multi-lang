@@ -113,6 +113,9 @@ dbrenderer:
     enablePanMode: Ko'chirish (pan) rejimini yoqish uchun bosing # Pan mode toggle tooltip
     disablePanMode: Ko'chirish (pan) rejimini o'chirish uchun bosing # Pan mode toggle tooltip
     panModeHint: Yoki ko'chirish uchun Space/Sichqonchaning o'rta tugmasini bosib torting # Hint text for pan mode
+    showMinimap: "Mini xaritani ko'rsatish" # Minimap toggle tooltip
+    hideMinimap: "Mini xaritani yashirish" # Minimap toggle tooltip
+    minimapUnavailable: "Mini xarita mavjud emas: ko'rsatiladigan jadval yoki eslatma yo'q" # Minimap toggle tooltip when there is nothing to show
 
   # ========================================
   # Common - Shared buttons in renderer

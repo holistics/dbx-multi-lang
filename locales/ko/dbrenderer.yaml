@@ -113,6 +113,9 @@ dbrenderer:
     enablePanMode: 팬 모드를 활성화하려면 클릭하세요.      # Pan mode toggle tooltip
     disablePanMode: 팬 모드를 비활성화하려면 클릭하세요.      # Pan mode toggle tooltip
     panModeHint: 또는 스페이스/가운데 마우스를 누른 채 드래그하여 이동하세요.       # Hint text for pan mode
+    showMinimap: "미니맵 표시" # Minimap toggle tooltip
+    hideMinimap: "미니맵 숨기기" # Minimap toggle tooltip
+    minimapUnavailable: "미니맵을 사용할 수 없음: 표시할 테이블이나 노트가 없습니다" # Minimap toggle tooltip when there is nothing to show
 
   # ========================================
   # Common - Shared buttons in renderer

@@ -7,8 +7,8 @@ auth:
   # ========================================
   login:
     email: Email # Email input label
-    loginWithGithub: Log in with GitHub # Social login button (GitHub)
-    loginWithMicrosoft: Log in with Microsoft # Social login button (Microsoft)
+    loginWithGithub: Sign in with GitHub # Social login button (GitHub)
+    loginWithMicrosoft: Sign in with Microsoft # Social login button (Microsoft)
 
   # ========================================
   # OAuth Errors - OAuth flow errors

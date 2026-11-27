@@ -113,6 +113,9 @@ dbrenderer:
     enablePanMode: Натисніть, щоб увімкнути режим панорамування # Pan mode toggle tooltip
     disablePanMode: Натисніть, щоб вимкнути режим панорамування # Pan mode toggle tooltip
     panModeHint: Або утримуйте Space/середню кнопку миші й перетягуйте для панорамування # Hint text for pan mode
+    showMinimap: "Показати мінікарту" # Minimap toggle tooltip
+    hideMinimap: "Приховати мінікарту" # Minimap toggle tooltip
+    minimapUnavailable: "Мінікарта недоступна: немає таблиць або нотаток для показу" # Minimap toggle tooltip when there is nothing to show
 
   # ========================================
   # Common - Shared buttons in renderer

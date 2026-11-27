@@ -86,6 +86,9 @@ dbrenderer:
     enablePanMode: クリックしてパンモードを有効化
     disablePanMode: クリックしてパンモードを無効化
     panModeHint: または Space / マウス中ボタン + ドラッグでパン
+    showMinimap: "ミニマップを表示"
+    hideMinimap: "ミニマップを非表示"
+    minimapUnavailable: "ミニマップは利用できません：表示するテーブルまたはノートがありません"
   common: null
   emptyStateHint:
     filtered:

@@ -63,6 +63,28 @@ workspace:
     ssoConfigFetchFailed: SSO 設定の取得に失敗しました。ページを更新してください。
     ssoConfigUpdated: SSO 設定が正常に更新されました
     ssoConfigSaveFailed: SSO 設定の保存に失敗しました。もう一度お試しください。
+    scimProvisioning: "SCIM プロビジョニング" # SCIM section title
+    scimDescription: "ID プロバイダーがワークスペースのメンバーを自動的に追加、更新、削除できるようにします。" # SCIM section description
+    enableSCIM: "SCIM プロビジョニングを有効にする" # SCIM toggle label
+    scimBaseUrl: "SCIM ベース URL" # SCIM base URL field label
+    scimBaseUrlHelp: "この URL を ID プロバイダーの SCIM コネクター設定にコピーして貼り付けてください。" # Help text for SCIM base URL
+    scimUniqueIdentifier: "ユーザーの一意の識別子フィールド" # SCIM unique identifier field label
+    scimUniqueIdentifierHelp: "ID プロバイダーの SCIM 設定で、これを一意の識別子フィールドとして設定してください。" # Help text for SCIM unique identifier
+    scimToken: "SCIM API トークン" # SCIM token field label
+    scimTokenHelp: "ID プロバイダーはこのトークンを使用して、dbdiagram への SCIM API リクエストを認可します。" # Help text for SCIM token
+    scimTokenCopyNow: "今すぐこのトークンをコピーしてください。再度表示することはできません。" # Warning shown once after generating a token
+    scimTokenGeneratedOn: "（最終ローテーション: {date}）" # Date the current token was last rotated
+    scimGenerateToken: "トークンを生成" # Generate SCIM token button
+    scimRotateToken: "トークンをローテーション" # Rotate SCIM token button
+    scimRotateConfirm: "現在のトークンはすぐに無効になります。ID プロバイダー側で更新する必要があります。" # Confirmation before rotating the token
+    scimConfirm: "確認" # Confirm token action button
+    scimCancel: "キャンセル" # Cancel token action button
+    scimRoleAssignments: "ロールの割り当て" # Title of the SCIM role attribute guide
+    scimRoleAssignmentsHelp: "ID プロバイダーでカスタムの 'role' 属性を定義し、dbdiagram のロールと同期します。" # Intro of the SCIM role attribute guide
+    scimLearnMore: "詳細を見る" # Link to the SCIM role attribute docs
+    scimRoleDefault: "ロール属性がない場合、すべてのユーザーはデフォルトの 'viewer' ロールになります。" # Note about members whose IdP sends no role
+    scimTokenGenerated: "SCIM トークンを生成しました" # Success toast
+    scimTokenFailed: "SCIM トークンの更新に失敗しました。もう一度お試しください。" # Error toast
 
   # ========================================
   # Create Workspace Modal

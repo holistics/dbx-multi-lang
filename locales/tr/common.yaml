@@ -282,6 +282,11 @@ common:
     syncErrorTooltip: Senkronizasyon başarısız oldu, lütfen yeniden senkronize etmeyi deneyin
     syncErrorBlocksEdit: Bu üyenin rolünü değiştirmeden önce senkronizasyon hatasını çözün
     roleLabel: "Rol: {role}"
+    disabled: "Devre dışı"
+    disabledTooltip: "Bu üye devre dışı bırakıldı. İçeriğini korur ancak çalışma alanına erişemez."
+    reactivateTooltip: "Bu üyeyi yeniden etkinleştirmek için tıklayın"
+    managedByIdp: "IdP tarafından yönetiliyor"
+    managedByIdpTooltip: "Bu üyeyi kimlik sağlayıcınız yönetiyor. Değişiklikleri orada yapın."
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)

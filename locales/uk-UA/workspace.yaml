@@ -67,6 +67,28 @@ workspace:
     ssoConfigFetchFailed: Не вдалося отримати конфігурацію SSO. Спробуйте оновити сторінку. # Error toast
     ssoConfigUpdated: Конфігурацію SSO успішно оновлено # Success toast
     ssoConfigSaveFailed: Не вдалося зберегти конфігурацію SSO. Спробуйте ще раз. # Error toast
+    scimProvisioning: "Підготовка облікових записів SCIM" # SCIM section title
+    scimDescription: "Дозвольте вашому постачальнику ідентифікації автоматично додавати, оновлювати та видаляти учасників робочого простору." # SCIM section description
+    enableSCIM: "Увімкнути підготовку облікових записів SCIM" # SCIM toggle label
+    scimBaseUrl: "Базова URL-адреса SCIM" # SCIM base URL field label
+    scimBaseUrlHelp: "Скопіюйте та вставте цю URL-адресу в налаштування конектора SCIM вашого постачальника ідентифікації." # Help text for SCIM base URL
+    scimUniqueIdentifier: "Поле унікального ідентифікатора користувачів" # SCIM unique identifier field label
+    scimUniqueIdentifierHelp: "Укажіть це поле як унікальний ідентифікатор у конфігурації SCIM вашого постачальника ідентифікації." # Help text for SCIM unique identifier
+    scimToken: "API-токен SCIM" # SCIM token field label
+    scimTokenHelp: "Ваш постачальник ідентифікації використовує цей токен для авторизації запитів SCIM API до dbdiagram." # Help text for SCIM token
+    scimTokenCopyNow: "Скопіюйте цей токен зараз. Ви більше не зможете його побачити." # Warning shown once after generating a token
+    scimTokenGeneratedOn: "(останнє оновлення: {date})" # Date the current token was last rotated
+    scimGenerateToken: "Згенерувати токен" # Generate SCIM token button
+    scimRotateToken: "Оновити токен" # Rotate SCIM token button
+    scimRotateConfirm: "Поточний токен одразу перестане працювати. Його потрібно буде оновити у вашого постачальника ідентифікації." # Confirmation before rotating the token
+    scimConfirm: "Підтвердити" # Confirm token action button
+    scimCancel: "Скасувати" # Cancel token action button
+    scimRoleAssignments: "Призначення ролей" # Title of the SCIM role attribute guide
+    scimRoleAssignmentsHelp: "Визначте власний атрибут 'role' у вашого постачальника ідентифікації для синхронізації з ролями dbdiagram." # Intro of the SCIM role attribute guide
+    scimLearnMore: "Докладніше" # Link to the SCIM role attribute docs
+    scimRoleDefault: "Якщо атрибут ролі відсутній, усі користувачі отримають роль 'viewer' за замовчуванням." # Note about members whose IdP sends no role
+    scimTokenGenerated: "Токен SCIM згенеровано" # Success toast
+    scimTokenFailed: "Не вдалося оновити токен SCIM. Спробуйте ще раз." # Error toast
 
   # ========================================
   # Create Workspace Modal

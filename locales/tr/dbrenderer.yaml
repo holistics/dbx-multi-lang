@@ -113,6 +113,9 @@ dbrenderer:
     enablePanMode: Kaydırma modunu etkinleştirmek için tıklayın # Pan mode toggle tooltip
     disablePanMode: Kaydırma modunu devre dışı bırakmak için tıklayın # Pan mode toggle tooltip
     panModeHint: Veya kaydırmak için Boşluk / Orta fare tuşuna basılı tutup sürükleyin # Hint text for pan mode
+    showMinimap: "Mini haritayı göster" # Minimap toggle tooltip
+    hideMinimap: "Mini haritayı gizle" # Minimap toggle tooltip
+    minimapUnavailable: "Mini harita kullanılamıyor: gösterilecek tablo veya not yok" # Minimap toggle tooltip when there is nothing to show
 
   # ========================================
   # Common - Shared buttons in renderer

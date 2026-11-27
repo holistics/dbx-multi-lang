@@ -113,6 +113,9 @@ dbrenderer:
     enablePanMode: Clique para ativar o modo de movimentação (pan)
     disablePanMode: Clique para desativar o modo de movimentação (pan)
     panModeHint: Ou segure Espaço/Mouse central + arraste para mover
+    showMinimap: "Mostrar minimapa"
+    hideMinimap: "Ocultar minimapa"
+    minimapUnavailable: "Minimapa indisponível: não há tabelas nem notas para mostrar"
 
   # ========================================
   # Common - Shared buttons in renderer

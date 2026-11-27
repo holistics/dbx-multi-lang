@@ -63,6 +63,28 @@ workspace:
     ssoConfigFetchFailed: 获取 SSO 配置失败。请尝试刷新页面。
     ssoConfigUpdated: SSO 配置更新成功
     ssoConfigSaveFailed: 保存 SSO 配置失败。请重试。
+    scimProvisioning: "SCIM 预配" # SCIM section title
+    scimDescription: "让您的身份提供商自动添加、更新和移除工作区成员。" # SCIM section description
+    enableSCIM: "启用 SCIM 预配" # SCIM toggle label
+    scimBaseUrl: "SCIM 基础 URL" # SCIM base URL field label
+    scimBaseUrlHelp: "将此 URL 复制并粘贴到身份提供商的 SCIM 连接器设置中。" # Help text for SCIM base URL
+    scimUniqueIdentifier: "用户唯一标识符字段" # SCIM unique identifier field label
+    scimUniqueIdentifierHelp: "请在身份提供商的 SCIM 配置中将其设置为唯一标识符字段。" # Help text for SCIM unique identifier
+    scimToken: "SCIM API 令牌" # SCIM token field label
+    scimTokenHelp: "身份提供商使用此令牌授权对 dbdiagram 的 SCIM API 请求。" # Help text for SCIM token
+    scimTokenCopyNow: "请立即复制此令牌，之后将无法再次查看。" # Warning shown once after generating a token
+    scimTokenGeneratedOn: "（上次轮换：{date}）" # Date the current token was last rotated
+    scimGenerateToken: "生成令牌" # Generate SCIM token button
+    scimRotateToken: "轮换令牌" # Rotate SCIM token button
+    scimRotateConfirm: "当前令牌将立即失效。您需要在身份提供商中更新它。" # Confirmation before rotating the token
+    scimConfirm: "确认" # Confirm token action button
+    scimCancel: "取消" # Cancel token action button
+    scimRoleAssignments: "角色分配" # Title of the SCIM role attribute guide
+    scimRoleAssignmentsHelp: "在身份提供商中定义自定义的 'role' 属性，以与 dbdiagram 的角色同步。" # Intro of the SCIM role attribute guide
+    scimLearnMore: "了解更多" # Link to the SCIM role attribute docs
+    scimRoleDefault: "如果缺少角色属性，所有用户将默认使用 'viewer' 角色。" # Note about members whose IdP sends no role
+    scimTokenGenerated: "SCIM 令牌已生成" # Success toast
+    scimTokenFailed: "更新 SCIM 令牌失败。请重试。" # Error toast
 
   # ========================================
   # Create Workspace Modal

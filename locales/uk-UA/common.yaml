@@ -295,6 +295,11 @@ common:
     syncErrorTooltip: Не вдалося синхронізувати, спробуйте повторити синхронізацію
     syncErrorBlocksEdit: Усуньте помилку синхронізації, перш ніж змінювати роль цього учасника
     roleLabel: "Роль: {role}"
+    disabled: "Деактивовано"
+    disabledTooltip: "Цього учасника деактивовано. Його вміст зберігається, але доступу до робочого простору він не має."
+    reactivateTooltip: "Натисніть, щоб повторно активувати цього учасника"
+    managedByIdp: "Керується IdP"
+    managedByIdpTooltip: "Цим учасником керує ваш постачальник ідентифікації. Змінюйте його там."
 
   # ========================================
   # Role - Workspace member role labels (dbdiagram assignable roles: admin/editor/viewer)

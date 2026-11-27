@@ -113,6 +113,9 @@ dbrenderer:
     enablePanMode: Activer le mode déplacement
     disablePanMode: Désactiver le mode déplacement
     panModeHint: Ou maintenez Espace/bouton central + glisser pour déplacer
+    showMinimap: "Afficher la mini-carte"
+    hideMinimap: "Masquer la mini-carte"
+    minimapUnavailable: "Mini-carte indisponible : aucune table ni note à afficher"
 
   # ========================================
   # Commun - Boutons partagés dans le renderer

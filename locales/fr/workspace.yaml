@@ -67,6 +67,28 @@ workspace:
     ssoConfigFetchFailed: Échec de récupération de la configuration SSO. Veuillez actualiser la page.
     ssoConfigUpdated: Configuration SSO mise à jour avec succès
     ssoConfigSaveFailed: Échec de l’enregistrement de la configuration SSO. Veuillez réessayer.
+    scimProvisioning: "Provisionnement SCIM" # SCIM section title
+    scimDescription: "Laissez votre fournisseur d’identité ajouter, mettre à jour et supprimer automatiquement les membres de l’espace de travail." # SCIM section description
+    enableSCIM: "Activer le provisionnement SCIM" # SCIM toggle label
+    scimBaseUrl: "URL de base SCIM" # SCIM base URL field label
+    scimBaseUrlHelp: "Copiez et collez cette URL dans les paramètres du connecteur SCIM de votre fournisseur d’identité." # Help text for SCIM base URL
+    scimUniqueIdentifier: "Champ d’identifiant unique des utilisateurs" # SCIM unique identifier field label
+    scimUniqueIdentifierHelp: "Définissez-le comme champ d’identifiant unique dans la configuration SCIM de votre fournisseur d’identité." # Help text for SCIM unique identifier
+    scimToken: "Jeton d’API SCIM" # SCIM token field label
+    scimTokenHelp: "Votre fournisseur d’identité utilise ce jeton pour autoriser les requêtes SCIM vers dbdiagram." # Help text for SCIM token
+    scimTokenCopyNow: "Copiez ce jeton maintenant. Vous ne pourrez plus le revoir." # Warning shown once after generating a token
+    scimTokenGeneratedOn: "(dernière rotation : {date})" # Date the current token was last rotated
+    scimGenerateToken: "Générer un jeton" # Generate SCIM token button
+    scimRotateToken: "Renouveler le jeton" # Rotate SCIM token button
+    scimRotateConfirm: "Le jeton actuel cesse de fonctionner immédiatement. Vous devrez le mettre à jour dans votre fournisseur d’identité." # Confirmation before rotating the token
+    scimConfirm: "Confirmer" # Confirm token action button
+    scimCancel: "Annuler" # Cancel token action button
+    scimRoleAssignments: "Attribution des rôles" # Title of the SCIM role attribute guide
+    scimRoleAssignmentsHelp: "Définissez un attribut 'role' personnalisé dans votre fournisseur d’identité pour le synchroniser avec les rôles de dbdiagram." # Intro of the SCIM role attribute guide
+    scimLearnMore: "En savoir plus" # Link to the SCIM role attribute docs
+    scimRoleDefault: "Si l’attribut de rôle est absent, tous les utilisateurs auront par défaut le rôle 'viewer'." # Note about members whose IdP sends no role
+    scimTokenGenerated: "Jeton SCIM généré" # Success toast
+    scimTokenFailed: "Échec de la mise à jour du jeton SCIM. Veuillez réessayer." # Error toast
 
   # ========================================
   # Create Workspace Modal
